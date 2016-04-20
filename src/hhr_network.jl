@@ -2,21 +2,39 @@
 
 using DataStructures
 
-function read_hhrfile(hhrfile, minlegth=50)
-    data = open(readlines, hhrfile)
-    queryseq = split(data[1], r"\s+")[2]
-    hits = Dict()
-    pat = Regex("\\s*[0-9]+\\s+((tr|sp)[A-Z0-9_|]+)\\s+.{1,9}\\s+(\\d+.\\d)\\s+([0-9.E-]+)\\s+[0-9.E-]+\\s+[0-9.]+\\s+[0-9.]+\\s+(\\d+)")
-    for line in data
-        hit = match(pat, line)
-        if hit != nothing
-            # matched cols should be greater than length of HEAT repeat
-            if parse(Int, hit[5]) > minlength && ! (hit[1] in keys(hits))
-                hits[hit[1]] = (parse(hit[3]), parse(hit[4]))
-            end
+# function read_hhrfile(hhrfile, minlegth=50)
+#     data = open(readlines, hhrfile)
+#     queryseq = split(data[1], r"\s+")[2]
+#     hits = Dict()
+#     pat = Regex("\\s*[0-9]+\\s+((tr|sp)[A-Z0-9_|]+)\\s+.{1,9}\\s+(\\d+.\\d)\\s+([0-9.E-]+)\\s+[0-9.E-]+\\s+[0-9.]+\\s+[0-9.]+\\s+(\\d+)")
+#     for line in data
+#         hit = match(pat, line)
+#         if hit != nothing
+#             matched_cols
+#             # matched cols should be greater than length of HEAT repeat
+#             if parse(Int, hit[5]) > minlength && !(hit[1] in keys(hits))
+#                 hits[hit[1]] = (parse(hit[3]), parse(hit[4]))
+#             end
+#         end
+#     end
+#     delete!(hits, queryseq)
+#     return queryseq, hits
+# end
+
+function read_hhrfile(hhrfile)
+    data = open(readall, hhrfile)
+    queryseq = match(r"Query\s+(\S+)", data)[1]
+    data = split(split(data, "\n\n")[2], "\n")[2:end]
+    hits = OrderedDict()
+    for line in data
+        id = line[5:25]
+        info = split(strip(line[36:end], [' ', ')']), r"\s+|\(")
+        info[9] == "" ? splice!(info, 9) : nothing
+        @assert length(info) == 9
+        if !(id in keys(hits))
+            hits[id] = [parse(Float64, i) for i in info[1:6]]
         end
     end
-    delete!(hits, queryseq)
     return queryseq, hits
 end
 
@@ -65,14 +83,13 @@ function trim_network(network_file)
     close(outfile)
 end
 
-function mutual_rank(network_file)
+# function mutual_rank(network_file)
 
 
 function main()
-    # build_network("../hhresults/spombe", 0.1)
-    # build_network("../hhresults/scerevisiae", 0.1)
-    trim_network("../hhresults/scerevisiae/scerevisiae_network.txt")
-    trim_network("../hhresults/spombe/spombe_network.txt")
+    q, h = read_hhrfile("../data/hhresults/spombe_old/P87121.hhr")
+    println(q)
+    println(h)
 end
 
 main()
