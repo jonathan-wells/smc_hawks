@@ -2,22 +2,22 @@
 
 using DataStructures
 
-function gethits(hhrfile)
+function read_hhrfile(hhrfile, minlegth=50)
     data = open(readlines, hhrfile)
-    query = split(data[1], r"\s+")[2]
+    queryseq = split(data[1], r"\s+")[2]
     hits = Dict()
     pat = Regex("\\s*[0-9]+\\s+((tr|sp)[A-Z0-9_|]+)\\s+.{1,9}\\s+(\\d+.\\d)\\s+([0-9.E-]+)\\s+[0-9.E-]+\\s+[0-9.]+\\s+[0-9.]+\\s+(\\d+)")
     for line in data
         hit = match(pat, line)
         if hit != nothing
-            # matched cols must be greater than length of HEAT repeat
-            if parse(Int, hit[5]) > 50 && ! (hit[1] in keys(hits))
-                hits[hit[1]] = (parse(hit[3]), parse(hit[4]))  # Uniprot ID
+            # matched cols should be greater than length of HEAT repeat
+            if parse(Int, hit[5]) > minlength && ! (hit[1] in keys(hits))
+                hits[hit[1]] = (parse(hit[3]), parse(hit[4]))
             end
         end
     end
-    delete!(hits, query)
-    return query, hits
+    delete!(hits, queryseq)
+    return queryseq, hits
 end
 
 function build_network(hhrdir, perc)
@@ -26,7 +26,7 @@ function build_network(hhrdir, perc)
     networkname = split(hhrdir, "/")[end]*"_network.txt"
     outfile = open(hhrdir*"/"*networkname, "w")
     for hhrfile in files
-        query, hits = gethits(hhrdir*"/"*hhrfile)
+        query, hits = read_hhrfile(hhrdir*"/"*hhrfile)
         ranked = sort(collect(keys(hits)), by = x->hits[x][1], rev = true)
         # numhits = length(ranked)
         # if numhits == 0
@@ -64,6 +64,9 @@ function trim_network(network_file)
     end
     close(outfile)
 end
+
+function mutual_rank(network_file)
+
 
 function main()
     # build_network("../hhresults/spombe", 0.1)
