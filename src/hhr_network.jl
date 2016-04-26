@@ -2,94 +2,172 @@
 
 using DataStructures
 
-# function read_hhrfile(hhrfile, minlegth=50)
-#     data = open(readlines, hhrfile)
-#     queryseq = split(data[1], r"\s+")[2]
-#     hits = Dict()
-#     pat = Regex("\\s*[0-9]+\\s+((tr|sp)[A-Z0-9_|]+)\\s+.{1,9}\\s+(\\d+.\\d)\\s+([0-9.E-]+)\\s+[0-9.E-]+\\s+[0-9.]+\\s+[0-9.]+\\s+(\\d+)")
-#     for line in data
-#         hit = match(pat, line)
-#         if hit != nothing
-#             matched_cols
-#             # matched cols should be greater than length of HEAT repeat
-#             if parse(Int, hit[5]) > minlength && !(hit[1] in keys(hits))
-#                 hits[hit[1]] = (parse(hit[3]), parse(hit[4]))
-#             end
-#         end
-#     end
-#     delete!(hits, queryseq)
-#     return queryseq, hits
-# end
+type Graph
+    nodes::Set
+    edges::Set
+    weights::Dict
+end
 
-function read_hhrfile(hhrfile)
+function add_node!(net::Graph, node::ASCIIString)
+    push!(net, node)
+end
+
+function add_nodes!(net::Graph, edge::Tuple)
+    for node in edge
+        @assert typeof(node) == ASCIIString
+        push!(net.nodes, node)
+    end
+end
+
+function add_nodes!(net::Graph, edge::Pair)
+    for node in edge[1]
+        @assert typeof(node) == ASCIIString
+        push!(net.nodes, node)
+    end
+end
+
+function add_edge!(net::Graph, edge::Tuple)
+    push!(net.edges, edge)
+    net.weights[edge] = nothing
+end
+
+function add_edge!(net::Graph, edge::Pair)
+    push!(net.edges, edge[1])
+    net.weights[edge[1]] = edge[2]
+end
+
+function delete_node!(net::Graph, node::ASCIIString)
+    delete!(net.nodes, node)
+    for edge in net.edges
+        if node in edge
+            delete!(net.edges, edge)
+            delete!(net.weights, edge)
+        end
+    end
+end
+
+function delete_edge!(net::Graph, edge::Pair)
+    delete!(net.edges, edge[1])
+    delete!(net.weights, edge[1])
+end
+
+function delete_edge!(net::Graph, edge::Tuple)
+    delete!(net.edges, edge)
+    delete!(net.weights, edge)
+end
+
+function degree(net::Graph, node::ASCIIString)
+    indegree = 0
+    outdegree = 0
+    for edge in net.edges
+        if node == edge[1]
+            outdegree += 1
+        elseif node == edge[2]
+            indegree += 1
+        end
+    end
+    return (indegree + outdegree, indegree, outdegree)
+end
+
+
+function size(net::Graph)
+    return (length(net.nodes), length(net.edges))
+end
+
+"Read hhresults file and return ranked dictionary of best alignments"
+function read_hhrfile(hhrfile, minlength=100.0)
     data = open(readall, hhrfile)
-    queryseq = match(r"Query\s+(\S+)", data)[1]
+    query = convert(ASCIIString, strip(match(r"Query\s+(\S+)", data)[1]))
     data = split(split(data, "\n\n")[2], "\n")[2:end]
     hits = OrderedDict()
+    rank = 1.0
     for line in data
-        id = line[5:25]
+        hit = strip(split(line[5:25])[1])
+        align = (query, convert(ASCIIString, hit))
+        if align == reverse(align)
+            continue
+        end
         info = split(strip(line[36:end], [' ', ')']), r"\s+|\(")
         info[9] == "" ? splice!(info, 9) : nothing
         @assert length(info) == 9
-        if !(id in keys(hits))
-            hits[id] = [parse(Float64, i) for i in info[1:6]]
+        if !(align in keys(hits)) && parse(Int, info[6]) >= minlength
+            hits[align] = push!([parse(Float64, i) for i in info[1:6]], rank)
+            rank += 1.0
         end
     end
-    return queryseq, hits
+    return hits
 end
 
-function build_network(hhrdir, perc)
-    files = readdir(hhrdir)
+"Parse .hhr files in directory for significant alignments and return as graph"
+function build_network(hhrdirectory)
+    files = readdir(hhrdirectory)
     filter!(f->ismatch(r"\.hhr", f), files)
-    networkname = split(hhrdir, "/")[end]*"_network.txt"
-    outfile = open(hhrdir*"/"*networkname, "w")
+    net = Graph(Set(), Set(), Dict())
     for hhrfile in files
-        query, hits = read_hhrfile(hhrdir*"/"*hhrfile)
-        ranked = sort(collect(keys(hits)), by = x->hits[x][1], rev = true)
-        # numhits = length(ranked)
-        # if numhits == 0
-        #     continue
-        # elseif 0 < numhits <= 5
-        #     numedges = numhits
-        # else
-        #     numedges = max(5, convert(Int, round(numhits*perc)))
-        # end
-        r = 1
-        for hit in ranked[1:end]
-            q = split(split(query, "|")[3], "_")[1]
-            h = split(split(hit, "|")[3], "_")[1]
-            line = join([q, h, r, hits[hit][1], hits[hit][2]], "\t")
-            write(outfile, line*"\n")
-            r += 1
+        hits = read_hhrfile(hhrdirectory*"/"*hhrfile)
+        for align in hits
+            add_nodes!(net, align)
+            add_edge!(net, align)
         end
+    end
+    return net
+end
+
+"Remove unidirectional edges from network"
+function trim_network(net::Graph)
+    for edge in net.edges
+        if reverse(edge) in net.edges
+            continue
+        end
+        delete_edge!(net, edge)
+    end
+    for node in net.nodes
+        if degree(net, node)[1] == 0
+            delete_node!(net, node)
+        end
+    end
+    return net
+end
+
+function get_mutual_rank(net::Graph)
+    undirected = Graph(Set(), Set(), Dict())
+    visited = Set()
+    for edge in net.edges
+        if edge in visited
+            continue
+        end
+        push!(visited, edge)
+        push!(visited, reverse(edge))
+        newrank = 1/mean([net.weights[edge][7], net.weights[reverse(edge)][7]])
+        add_nodes!(undirected, edge)
+        add_edge!(undirected, edge => (newrank, -log(newrank)))
+    end
+    return undirected
+end
+
+function write_network(net::Graph, outfilename)
+    outfile = open(outfilename, "w")
+    write(outfile, "source\ttarget\tmutualrank\tlogrank\n")
+    for edge in net.edges
+        pedge = [split(node, ['|', '_'])[3] for node in edge]
+        weights = net.weights[edge]
+        line = join([pedge[1], pedge[2], weights[1], weights[2]], '\t')
+        write(outfile, line*"\n")
     end
     close(outfile)
 end
-
-function trim_network(network_file)
-    data = open(readlines, network_file)
-    data = [split(line, "\t") for line in data]
-    query_nodes = Set([edge[1] for edge in data])
-    hit_nodes = Set([edge[2] for edge in data])
-    nodes = intersect(query_nodes, hit_nodes)
-    outfile = open(split(network_file, ".txt")[1]*"_trimmed.txt", "w")
-    header = join(["Query", "Hit", "Rank", "Probability", "E-Value\n"], "\t")
-    write(outfile, header)
-    for line in data
-        if line[1] in nodes && line[2] in nodes
-            write(outfile, join(line, "\t"))
-        end
-    end
-    close(outfile)
-end
-
-# function mutual_rank(network_file)
-
 
 function main()
-    q, h = read_hhrfile("../data/hhresults/spombe_old/P87121.hhr")
-    println(q)
-    println(h)
+    ynet = build_network("../data/hhresults/scerevisiae_old")
+    ynet = trim_network(ynet)
+    ynet = get_mutual_rank(ynet)
+    write_network(ynet, "scerevisae.txt")
+    pnet = build_network("../data/hhresults/spombe_old")
+    pnet = trim_network(pnet)
+    pnet = get_mutual_rank(pnet)
+    write_network(pnet, "spombe.txt")
 end
 
 main()
+
+
