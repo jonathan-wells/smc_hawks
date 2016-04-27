@@ -1,0 +1,1446 @@
+Query         sp|P38764|RPN1_YEAST 26S proteasome regulatory subunit RPN1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=RPN1 PE=1 SV=3
+Match_columns 993
+No_of_seqs    1169 out of 1847
+Neff          6.9
+Searched_HMMs 6721
+Date          Mon Apr 11 01:32:36 2016
+Command       hhsearch -i P38764.hhm -d /usr/local/hh-suite/db/saccharomyces_cerevisiae/scerevisiae -cpu 2 -v 0 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 sp|P38764|RPN1_YEAST 26S prote 100.0  3E-187  4E-191 1743.5   0.0  991    1-993     1-993 (993)
+  2 sp|P32565|RPN2_YEAST 26S prote 100.0  7E-103  1E-106  982.7   0.0  755   49-959     6-806 (945)
+  3 sp|P53886|APC1_YEAST Anaphase- 100.0 8.2E-54 1.2E-57  548.4   0.0  463  405-975  1001-1614(1748)
+  4 sp|P38764|RPN1_YEAST 26S prote  99.0 1.7E-14 2.6E-18  176.3   0.0  335  383-827   451-864 (993)
+  5 sp|P32565|RPN2_YEAST 26S prote  99.0 3.9E-14 5.9E-18  173.5   0.0  322  417-858   331-666 (945)
+  6 sp|P32565|RPN2_YEAST 26S prote  98.7 1.7E-12 2.5E-16  158.6   0.0  198  413-621   441-642 (945)
+  7 sp|P38764|RPN1_YEAST 26S prote  98.7 2.8E-12 4.2E-16  156.2   0.0  333  418-866   383-829 (993)
+  8 sp|P38764|RPN1_YEAST 26S prote  97.6 1.9E-08 2.9E-12  121.4   0.0   49  264-315   203-251 (993)
+  9 sp|P53886|APC1_YEAST Anaphase-  97.6 3.1E-08 4.7E-12  124.0   0.0  238  383-624  1005-1359(1748)
+ 10 sp|P32565|RPN2_YEAST 26S prote  97.1   4E-07   6E-11  109.6   0.0   88  522-614   617-713 (945)
+ 11 sp|P53886|APC1_YEAST Anaphase-  96.3 1.1E-05 1.7E-09  100.2   0.0   67  484-551  1330-1414(1748)
+ 12 sp|P53886|APC1_YEAST Anaphase-  95.7 6.5E-05 9.7E-09   93.1   0.0   94  772-865  1243-1352(1748)
+ 13 sp|P31383|2AAA_YEAST Protein p  84.7   0.045 6.6E-06   57.9   0.0   87  733-819   534-630 (635)
+ 14 sp|P31383|2AAA_YEAST Protein p  83.9   0.052 7.7E-06   57.4   0.0  105  433-539    39-148 (635)
+ 15 sp|P36000|AP1B1_YEAST AP-1 com  83.7   0.054 8.1E-06   61.0   0.0   86  732-821   114-203 (726)
+ 16 sp|P31383|2AAA_YEAST Protein p  82.3   0.068   1E-05   56.4   0.0   91  733-823   415-509 (635)
+ 17 sp|P46682|AP3B_YEAST AP-3 comp  81.0   0.083 1.2E-05   60.1   0.0   85  732-820   133-220 (809)
+ 18 sp|P39526|LAA1_YEAST AP-1 acce  80.0   0.095 1.4E-05   64.7   0.0   86  732-817   944-1041(2014)
+ 19 sp|P47120|DOHH_YEAST Deoxyhypu  77.9    0.12 1.8E-05   49.9   0.0   78  733-822   235-314 (325)
+ 20 sp|P36000|AP1B1_YEAST AP-1 com  75.9    0.16 2.3E-05   56.9   0.0  100  432-536   100-203 (726)
+ 21 sp|Q08951|AP3D_YEAST AP-3 comp  73.8    0.19 2.9E-05   57.7   0.0   64  760-823   318-383 (932)
+ 22 sp|P41810|COPB_YEAST Coatomer   71.6    0.24 3.5E-05   57.2   0.0   85  732-820   117-204 (973)
+ 23 sp|P47120|DOHH_YEAST Deoxyhypu  70.0    0.27 4.1E-05   47.2   0.0   79  732-822    76-157 (325)
+ 24 sp|P27351|AP2B_YEAST AP-2 comp  64.8    0.42 6.2E-05   52.8   0.0   85  732-820   108-198 (700)
+ 25 sp|P33892|GCN1_YEAST eIF-2-alp  62.0    0.51 7.5E-05   60.0   0.0   88  733-821  1425-1518(2672)
+ 26 sp|Q08951|AP3D_YEAST AP-3 comp  56.7    0.72 0.00011   52.5   0.0   85  733-821   141-228 (932)
+ 27 sp|Q06680|CND3_YEAST Condensin  55.5    0.78 0.00012   52.7   0.0   75  733-817   174-261 (1035)
+ 28 sp|P47120|DOHH_YEAST Deoxyhypu  53.6    0.88 0.00013   43.1   0.0   57  761-821   191-249 (325)
+ 29 sp|P36000|AP1B1_YEAST AP-1 com  51.9    0.98 0.00015   49.7   0.0  102  733-838   269-377 (726)
+ 30 sp|P32333|MOT1_YEAST TATA-bind  49.8     1.1 0.00017   54.7   0.0   88  733-821   375-479 (1867)
+ 31 sp|Q04264|PDS5_YEAST Sister ch  49.8     1.1 0.00017   52.5   0.0   87  733-821   337-428 (1277)
+ 32 sp|P41810|COPB_YEAST Coatomer   42.4     1.7 0.00026   49.2   0.0   67  759-825   286-355 (973)
+ 33 sp|Q06156|CND1_YEAST Condensin  39.1     2.1 0.00032   49.4   0.0   87  732-819   954-1042(1176)
+ 34 sp|P38873|KOG1_YEAST Target of  39.0     2.1 0.00032   50.8   0.0   59  763-821   746-811 (1557)
+ 35 sp|P31383|2AAA_YEAST Protein p  36.8     2.4 0.00036   43.1   0.0   89  733-821    53-145 (635)
+ 36 sp|P40069|IMB4_YEAST Importin   36.7     2.4 0.00036   48.2   0.0   90  733-822   333-428 (1113)
+ 37 sp|Q06706|ELP1_YEAST Elongator  33.9     2.9 0.00043   49.0   0.0  111  199-312  1020-1131(1349)
+ 38 sp|Q06708|VAC14_YEAST Vacuole   32.8     3.1 0.00046   46.3   0.0   90  733-822    16-117 (880)
+ 39 sp|P49955|SF3B1_YEAST U2 snRNP  29.5     3.8 0.00057   45.3   0.0   87  733-823   742-828 (971)
+ 40 sp|P49955|SF3B1_YEAST U2 snRNP  28.4     4.1 0.00061   45.0   0.0   90  733-823   853-946 (971)
+ 41 sp|P38079|YRO2_YEAST Protein Y  25.8     4.9 0.00073   39.5   0.0    3   40-42    336-338 (344)
+ 42 sp|Q12028|AP1G1_YEAST AP-1 com  25.1     5.2 0.00077   44.0   0.0   77  732-812   117-200 (832)
+ 43 sp|P32337|IMB3_YEAST Importin   24.3     5.5 0.00081   43.7   0.0   90  733-822   344-439 (1089)
+ 44 sp|P46675|STU2_YEAST Protein S  24.2     5.5 0.00082   44.2   0.0  101  733-834   431-545 (888)
+ 45 sp|Q06680|CND3_YEAST Condensin  23.0       6  0.0009   44.6   0.0   82  733-816   133-231 (1035)
+ 46 sp|P32333|MOT1_YEAST TATA-bind  20.7     7.2  0.0011   46.8   0.0   89  733-821  1128-1222(1867)
+
+No 1
+>sp|P38764|RPN1_YEAST 26S proteasome regulatory subunit RPN1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=RPN1 PE=1 SV=3
+Probab=100.00  E-value=2.7e-187  Score=1743.49  Aligned_cols=991  Identities=100%  Similarity=1.399  Sum_probs=851.7  Template_Neff=6.900
+
+Q sp|P38764|RPN1    1 MVDESDKKQQTIDEQSQISPEKQTPNKKDKKKEEEEQLSEEDAKLKTDLELLVERLKEDDSSLYEASLNALKESIKNSTS   80 (993)
+Q Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~lseed~~lk~~le~lv~~L~e~d~~l~~~AL~~L~~~ir~sts   80 (993)
+                      ||||+|+|||++|||++++|+|+.++||+++++++++|||||++||++|+++|+||.|+|+++++.||++|+++||+|||
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ed~~lk~~l~~lv~rl~~~d~~~~~~aL~~L~~~ir~sts   80 (993)
+T sp|P38764|RPN1    1 MVDESDKKQQTIDEQSQISPEKQTPNKKDKKKEEEEQLSEEDAKLKTDLELLVERLKEDDSSLYEASLNALKESIKNSTS   80 (993)
+T ss_pred             CCChhhhhccchhhhcccCcCcCCCCCCCcccchhccchHHHHHHHhHHHHHHHHhcCCChHHHHHHHHHHHHHHhhcCC
+Confidence            89999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q sp|P38764|RPN1   81 SMTAVPKPLKFLRPTYPDLCSIYDKWTDPNLKSSLADVLSILAMTYSENGKHDSLRYRLLSDVSDFEGWGHEYIRHLALE  160 (993)
+Q Consensus        81 smTsVpk~lk~l~~~~~~le~lye~~~~~~~kr~lAdllsvls~~~~~~~~~~sL~y~L~a~~~~~~~wghEYvr~L~~e  160 (993)
+                      ||||||||||||||||+.|+++|++|..+..|+.|||+||||||++.+++.++||+|||.+...++++|||||||||+++
+T Consensus        81 smTsvPkplkfL~~~y~~L~~~y~~~~~~~~k~~ladilSvLamt~~~~~~~~~L~yrl~g~~~~l~~WGhEYvr~La~e  160 (993)
+T sp|P38764|RPN1   81 SMTAVPKPLKFLRPTYPDLCSIYDKWTDPNLKSSLADVLSILAMTYSENGKHDSLRYRLLSDVSDFEGWGHEYIRHLALE  160 (993)
+T ss_pred             CcccccccccchhhhhHHHHHHHhhCCCchhhHHHHHHHHHHHHHhccCCcccccceecccCccccCCCchHHHHHHHHH
+Confidence            99999999999999999999999999875578999999999999997777899999998788889999999999999999
+
+
+Q sp|P38764|RPN1  161 IGEVYNDQVEKDAEDETSSDGSKSDGSAATSGFEFSKEDTLRLCLDIVPYFLKHNGEEDAVDLLLEIESIDKLPQFVDEN  240 (993)
+Q Consensus       161 iid~y~~~~~~~~~~~~~~~~~~~~~~~~d~~l~~~~e~l~~l~~~~~~~~~~hnae~~AidlllE~~rLd~l~~~vd~~  240 (993)
+                      |+++|..+.....+......................++++..++.++++|+|+||+|.||||||+|++|||.|.+++|++
+T Consensus       161 i~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~lv~~iv~~~l~hn~E~~AvDlLlEi~~i~~L~~~vd~~  240 (993)
+T sp|P38764|RPN1  161 IGEVYNDQVEKDAEDETSSDGSKSDGSAATSGFEFSKEDTLRLCLDIVPYFLKHNGEEDAVDLLLEIESIDKLPQFVDEN  240 (993)
+T ss_pred             HHHHHhhhhcccccccCCCCCCCCCCCcccCCCCCcHHHHHHHHHHHHHhhhccCCcchhHHHHhhhhhhhhhhhhcCcc
+Confidence            99999998765432211000000000001112235789999999999999999999999999999999999999999999
+
+
+Q sp|P38764|RPN1  241 TFQRVCQYMVACVPLLPPPEDVAFLKTAYSIYLSQNELTDAIALAVRLGEEDMIRSVFDATSDPVMHKQLAYILAAQKTS  320 (993)
+Q Consensus       241 ~~~rv~~Yl~~~~~~v~~~~~~~vL~~~~~iy~k~~~y~~a~~~al~Lnd~~~v~~i~~~~~d~l~~~QlAf~L~r~~~~  320 (993)
+                      ||.|||+||.+|+.|+++|++.++|+++++||+++++|++|+|||+++||++.+.++|.+|+|+.++||+||+|+|+++.
+T Consensus       241 n~~rv~~YL~s~~~y~~~p~~~~iL~~~~~iy~k~~~~~~al~~al~l~d~~~v~~~~~~~~d~~~~kQla~~Lar~~~~  320 (993)
+T sp|P38764|RPN1  241 TFQRVCQYMVACVPLLPPPEDVAFLKTAYSIYLSQNELTDAIALAVRLGEEDMIRSVFDATSDPVMHKQLAYILAAQKTS  320 (993)
+T ss_pred             chHHHHHHHHhhhccCCCcchhHHHHHHHHHHhccchHHHHHHHHHHcCCHHHHHHHHHhCCCHHHHHHHHHHHHhcCCC
+Confidence            99999999999999999999888999999999999999999999999999999999999999999999999999999988
+
+
+Q sp|P38764|RPN1  321 FEYEGVQDIIGNGKLSEHFLYLAKELNLTGPKVPEDIYKSHLDNSKSVFSSAGLDSAQQNLASSFVNGFLNLGYCNDKLI  400 (993)
+Q Consensus       321 ~~~~~l~~Ilsn~~l~~~fl~~~~el~~~d~k~~~~iyK~~l~~~~~~~~~a~~dsa~~nla~~~~naf~naG~~~D~~l  400 (993)
+                      ++.++|.+||+|.+++++|++|++++|++|||+|++|||+|++++++.+|++..||||+|||.+|+|||||||||+|+|+
+T Consensus       321 ~~~~~l~~il~n~~~~~~~~~la~~L~~~dpk~pe~IyK~~l~~~~~~~~~~~~dsa~~nLa~~fvnafvnaG~g~D~l~  400 (993)
+T sp|P38764|RPN1  321 FEYEGVQDIIGNGKLSEHFLYLAKELNLTGPKVPEDIYKSHLDNSKSVFSSAGLDSAQQNLASSFVNGFLNLGYCNDKLI  400 (993)
+T ss_pred             cchhhHHHHhCCCccHHHHHHHHHhcCCCCCCChhhhhhhccccCcccccccccchhhhhHHHHHHHHhhhccCCCcccc
+Confidence            77789999999999999999999999999999999999999999887778888899999999999999999999999999
+
+
+Q sp|P38764|RPN1  401 VDNDNWVYKTKGDGMTSAVASIGSIYQWNLDGLQQLDKYLYVDEPEVKAGALLGIGISASGVHDGEVEPALLLLQDYVTN  480 (993)
+Q Consensus       401 ~~~~~wl~k~~~w~~fsa~AslGli~~~~~~gl~~l~~yl~~~~~~~~aGaLlALGL~~~g~~~~e~d~a~~~L~~~l~~  480 (993)
+                      +++.+|++|+++|++|+|++|+|+||.||.+|+..|++|+|++++++++|+|+|+|++++|++++++++++++|.+++.+
+T Consensus       401 ~~~~~wi~k~k~~~~~~A~aSLGlI~~~n~~~l~~l~~~L~s~~~~~~aGAllaLGli~~g~~~~e~d~alalL~~~L~~  480 (993)
+T sp|P38764|RPN1  401 VDNDNWVYKTKGDGMTSAVASIGSIYQWNLDGLQQLDKYLYVDEPEVKAGALLGIGISASGVHDGEVEPALLLLQDYVTN  480 (993)
+T ss_pred             cCCcchhhhccCchhhHHHHHHhhhccCCchhhHHHHHhcCCCCcchhhhHHHHHHHHcCCCCCCCchHHHHHHHHHhcC
+Confidence            99999999999999999999999999999999999999999999999999999999999988743578999999999988
+
+
+Q sp|P38764|RPN1  481 PDTKISSAAILGLGIAFAGSKNDEVLGLLLPIAASTDLPIETAAMASLALAHVFVGTCNGDITTSIMDNFLERTAIELKT  560 (993)
+Q Consensus       481 ~~~~v~~Ga~LGLGla~~Gt~~~~v~~~L~~~l~d~d~~~~v~~aA~lalGLi~~Gs~~~~~a~~lL~~l~~~~~~~~~e  560 (993)
+                      .++.+++|+++|||++|+||+++++++.|.+++.+.+.+.+++.+|++|||+||+||+|.++++.+|+.|++++..++++
+T Consensus       481 ~~~~vr~gAilGLGlay~Gt~~~~v~~~L~~~L~d~~~~~ev~~~AalaLGlI~~Gs~n~~~~~~lL~~l~~~~~~~~~e  560 (993)
+T sp|P38764|RPN1  481 PDTKISSAAILGLGIAFAGSKNDEVLGLLLPIAASTDLPIETAAMASLALAHVFVGTCNGDITTSIMDNFLERTAIELKT  560 (993)
+T ss_pred             CChHHHHHHHHHHHHHhcCCCCHHHHHHHHHhccCCCCcHHHHHHHHHHHHHHHcCCCchHHHHHHHHHHHhhhhhccch
+Confidence            89999999999999999999999999999998876566778999999999999999999999999999999765534579
+
+
+Q sp|P38764|RPN1  561 DWVRFLALALGILYMGQGEQVDDVLETISAIEHPMTSAIEVLVGSCAYTGTGDVLLIQDLLHRLTPKNVKGEEDADEEET  640 (993)
+Q Consensus       561 ~~~r~~~LgLgLv~lGr~e~a~~~le~L~~~~~~~~r~~~~~~~~~aYagTgn~~~iq~lL~~~~~~~~~~~~~~~~~~~  640 (993)
+                      ++.|++++||||+++|+++.++.+++.|...++|+.|++++++.+|+|+||||+.+|++|||.|.++.....++.++++.
+T Consensus       561 ~~~r~a~laLGLi~lG~~e~~~~lie~L~~~~~~~~r~~a~l~~~layagTGn~~~Iq~LL~~~~~~~~~~~~~~~~~~~  640 (993)
+T sp|P38764|RPN1  561 DWVRFLALALGILYMGQGEQVDDVLETISAIEHPMTSAIEVLVGSCAYTGTGDVLLIQDLLHRLTPKNVKGEEDADEEET  640 (993)
+T ss_pred             hHHHHHHHHHHHHHhCCCCchHHHHHHHHhcCCcccchHHHHHHHHHHhCCCCHHHHHHHHhhccccCCCCCCCcchhhh
+Confidence            99999999999999999999999999999888899999999999999999999999999999998765433322222211
+
+
+Q sp|P38764|RPN1  641 AEGQTNSISDFLGEQVNEPTKNEEAEIEVDEMEVDAEGEEVEVKAEITEKKNGESLEGEEIKSEEKKGKSSDKD--ATTD  718 (993)
+Q Consensus       641 ~~~~~~~~sd~~~~~~~~~~~~~~~~~e~~~~~~~~~~~~~~~~~~~~p~~~~~~~~~~~~~~~~~~~~~~~L~--~~~~  718 (993)
+                      .++.....+++.......+......+.+.........+......+.+.|..+.....+.......++  .+.+.  ..|.
+T Consensus       641 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~i~~~~~~~~~~~~~~~~~~~~--~~~~~~~~~~~  718 (993)
+T sp|P38764|RPN1  641 AEGQTNSISDFLGEQVNEPTKNEEAEIEVDEMEVDAEGEEVEVKAEITEKKNGESLEGEEIKSEEKK--GKSSDKDATTD  718 (993)
+T ss_pred             hccCcCccccccccccCCCCccchhhhhhhhhhhcccccchhhhhhhhhccCCCccccchhhhhccc--CCCCCCCCCCC
+Confidence            1111111122100000000000000000000000000000000000111100000000000000000  00000  1122
+
+
+Q sp|P38764|RPN1  719 GKNDDEEEEKEAGIVDELAYAVLGIALIALGEDIGKEMSLRHFGHLMHYGNEHIRRMVPLAMGIVSVSDPQMKVFDTLTR  798 (993)
+Q Consensus       719 ~~~~d~~~~~~~~~Vr~~Av~aLG~al~~~~~~~~~~~~~~~l~~L~~~~~~~Vr~gaalALGl~~Agt~~~~Ai~~L~~  798 (993)
+                      ..+++...++...+||.+++.+||++|++++++++.+|+.+++.+++++++++||+|+|+|||++|+|||+.+|+++|.+
+T Consensus       719 ~~~~~~~~~~~~~~v~~qa~a~LgiaLia~ge~ig~ema~r~l~~ll~~~~~~vR~avpLALgL~~asnp~~~aid~L~k  798 (993)
+T sp|P38764|RPN1  719 GKNDDEEEEKEAGIVDELAYAVLGIALIALGEDIGKEMSLRHFGHLMHYGNEHIRRMVPLAMGIVSVSDPQMKVFDTLTR  798 (993)
+T ss_pred             CCCCchhhhhhhhhhHHHHHHHHHHHHHHcccccchhccHHHHHHHHHcCChhhhhHHHHHHHHHhcCCCCcHHHHHHHH
+Confidence            11223233333456899999999999999999999999999999999999999999999999999999999999999999
+
+
+Q sp|P38764|RPN1  799 FSHDADLEVSMNSIFAMGLCGAGTNNARLAQLLRQLASYYSREQDALFITRLAQGLLHLGKGTMTMDVFNDAHVLNKVTL  878 (993)
+Q Consensus       799 ll~D~~~~Vr~~Ai~ALg~V~agt~n~~v~~~lr~L~~~~~k~~~~~~~~~~A~Gll~lGgg~~Tls~~s~~~~~s~~ai  878 (993)
+                      +++|.+..|+++|++|||+|++||||+|+.++||+|++||+|+++.+|+++|||||+|+|||++||+|++++++++++||
+T Consensus       799 lshD~d~~V~~nAi~ALGlVgAGtnn~ri~~~Lr~L~~~~~k~~~~~f~vriAqGLl~lGkG~~TLsp~~~~~~~s~~al  878 (993)
+T sp|P38764|RPN1  799 FSHDADLEVSMNSIFAMGLCGAGTNNARLAQLLRQLASYYSREQDALFITRLAQGLLHLGKGTMTMDVFNDAHVLNKVTL  878 (993)
+T ss_pred             HhhccchhhhhhhHHHHHhhhcCCChHHHHHHHHHHHHhhcCCchhHHHHHHHHHHHHhcCCceEeecccCCCCCChHHH
+Confidence            99999999999999999999999999999999999999999998899999999999999999999999669999999999
+
+
+Q sp|P38764|RPN1  879 ASILTTAVGLVSPSFMLKHHQLFYMLNAGIRPKFILALNDEGEPIKVNVRVGQAVETVGQAGRPKKITGWITQSTPVLLN  958 (993)
+Q Consensus       879 A~Ll~~l~~~l~~~~~~~~h~l~h~l~lA~~PR~Lit~D~dl~~~~v~vrvg~~vd~vg~~g~p~~itg~qt~~tP~ll~  958 (993)
+                      |||++++|++++|+++|+||||+|+|++|++||||||+|+|++|++|+|||||+||+|||||+|++|||||||+|||||+
+T Consensus       879 agLl~~~~~~l~~~~~~~~h~l~~~l~lAi~PR~lit~d~~l~~~~v~vrVg~avd~vg~ag~pk~itg~qt~~tPvlL~  958 (993)
+T sp|P38764|RPN1  879 ASILTTAVGLVSPSFMLKHHQLFYMLNAGIRPKFILALNDEGEPIKVNVRVGQAVETVGQAGRPKKITGWITQSTPVLLN  958 (993)
+T ss_pred             HHHHHHHHhhcChhhhhhhHHHHHHHHhcccceEEEEEcCCCCeeeEEEEecceeeeeccCCCccccccceeeccceecc
+Confidence            99999999988888888999999999999999999999999999999999999999999999999999999999999999
+
+
+Q sp|P38764|RPN1  959 HGERAELETDEYISYTSHIEGVVILKKNPDYREEE  993 (993)
+Q Consensus       959 ~~~~ael~~~~Y~p~~~~leg~vil~~n~~~~~~~  993 (993)
+                      ++||||++++||||++++||||||+||||+|.+++
+T Consensus       959 ~~erael~~~~y~~~~~~leg~vil~kn~~~~~~~  993 (993)
+T sp|P38764|RPN1  959 HGERAELETDEYISYTSHIEGVVILKKNPDYREEE  993 (993)
+T ss_pred             CCCeEEecCCccccccceeeEEEEEecCCCCCcCC
+Confidence            99999999999999999999999999999999875
+
+
+No 2
+>sp|P32565|RPN2_YEAST 26S proteasome regulatory subunit RPN2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=RPN2 PE=1 SV=4
+Probab=100.00  E-value=6.6e-103  Score=982.74  Aligned_cols=755  Identities=18%  Similarity=0.242  Sum_probs=640.1  Template_Neff=7.700
+
+Q sp|P38764|RPN1   49 LELLVERLKEDDSSLYEASLNALKESIKNSTSSMTAVPKPLKFLRPTYPDLCSIYDKWTDPNLKSSLADVLSILAMTY-S  127 (993)
+Q Consensus        49 le~lv~~L~e~d~~l~~~AL~~L~~~ir~stssmTsVpk~lk~l~~~~~~le~lye~~~~~~~kr~lAdllsvls~~~-~  127 (993)
+                      ...++++|.|++++++.+||+.|++.          |+++|+||++|++.|+.+|+++.++.  |.+|+.+.  |++| +
+T Consensus         6 ~~~l~~lL~e~~~~l~~~al~~L~~~----------v~~~w~ei~~~~~~l~~l~ed~~~~~--r~laa~vl--Skv~~~   71 (945)
+T sp|P32565|RPN2    6 AAPLLALLRENQDSVKTYALESINNV----------VDQLWSEISNELPDIEALYDDDTFSD--REMAALIA--SKVYYN   71 (945)
+T ss_pred             HHHHHHHhcCCChhHHHHHHHHHHHh----------hhhHHHHhhhhhhhhHHHcCCCCcch--HHHHHHHH--HHHHHH
+Confidence            34678889999999999999999999          99999999999999999999988774  66666666  6777 8
+
+
+Q sp|P38764|RPN1  128 ENGKHDSLRYRLLSDVSDFEGWGHEYIRHLALEIGEVYNDQVEKDAEDETSSDGSKSDGSAATSGFEFSKEDTLRLCLDI  207 (993)
+Q Consensus       128 ~~~~~~sL~y~L~a~~~~~~~wghEYvr~L~~eiid~y~~~~~~~~~~~~~~~~~~~~~~~~d~~l~~~~e~l~~l~~~~  207 (993)
+                      +++|++||+|||+|+..|...-||||||+|+++|||+|++.+.+..+....    .....       .+..+|..++.++
+T Consensus        72 l~~~~~sl~yal~a~~~f~~~~~~eYv~~l~~~~id~y~~~~~~~~~~~~~----~~~~~-------~~~~~l~~~v~~~  140 (945)
+T sp|P32565|RPN2   72 LGEYESAVKYALAAKDRFDIDEKSQFVETIVSKSIEMYVQEASKQYTKDEQ----FYTKD-------IIDPKLTSIFERM  140 (945)
+T ss_pred             cCCHHHHHHHHHhCCCCccCCCchHHHHHHHHHHHHHHHHHHhhccccccc----ccccc-------CCChHHHHHHHHH
+Confidence            889999999999999977776699999999999999999998765432110    00111       2344555556666
+
+
+Q sp|P38764|RPN1  208 VPYFLKHNGEEDAVDLLLEIESIDKLPQFVDE-------NTFQRVCQYMVACVPLLPPPE--DVAFLKTAYSIYLS--QN  276 (993)
+Q Consensus       208 ~~~~~~hnae~~AidlllE~~rLd~l~~~vd~-------~~~~rv~~Yl~~~~~~v~~~~--~~~vL~~~~~iy~k--~~  276 (993)
+                      ++|+++||+|.|||||++|++|||+|++++.+       +++.|+|.|+++|+.|+..++  |.+||+.++++|.+  ..
+T Consensus       141 ~~~~~~~~~~~~aigialE~~rlD~l~~~i~~~~~~~~~~~~~~~~~Y~~~~~~~~~~~~~~r~~il~~l~~~~~~~~~~  220 (945)
+T sp|P32565|RPN2  141 IEKCLKASELKLALGIALEGYRLDIIESALKSKLDQDSTSENVKIINYLLTLAITTVTNSKFRSSILRKSFDFLMNMPNC  220 (945)
+T ss_pred             HHHHhhcChHHHHHHHHHHHhhhHHHHHHHHhhcccCCCccHHHHHHHHHHHHhhcCCCHHHHHHHHHHHHHHHhCCCCC
+Confidence            77789999999999999999999999996643       357899999999888886666  77899999999973  45
+
+
+Q sp|P38764|RPN1  277 ELTDAIALAVRLGEEDMIRSVFDAT---SDPVMHKQLAYILAAQK-TSF--E----------YEGVQDIIGNGKLSEHFL  340 (993)
+Q Consensus       277 ~y~~a~~~al~Lnd~~~v~~i~~~~---~d~l~~~QlAf~L~r~~-~~~--~----------~~~l~~Ilsn~~l~~~fl  340 (993)
+                      +|.++|+|+++|||++.+.++|.+|   .|.+++|||||+|+|.+ |.|  +          .+++..||+|.+++++|+
+T Consensus       221 d~~~~~~~~~~L~d~~~~~~il~~l~~~~~~l~a~QiafdL~~~~~q~~~~~v~~~l~~~~~~~~l~~ILsg~~~~~l~~  300 (945)
+T sp|P32565|RPN2  221 DYLTLNKVVVNLNDAGLALQLFKKLKEENDEGLSAQIAFDLVSSASQQLLEILVTELTAQGYDPALLNILSGLPTCDYYN  300 (945)
+T ss_pred             cHHHHHHHHHHcCChHHHHHHHHHHhhcCchhhHHHHHHHHhhhhhHHHHHHHHHhhhccCCcHHHHHhccCCchhhHHH
+Confidence            9999999999999999999999999   57899999999999955 333  1          378999999999999999
+
+
+Q sp|P38764|RPN1  341 YLAKELNLTGPKVPEDIYKSHLDNSKSVFSSAGLDSAQQNLASSFVNGFLNLGYCNDKLIVDNDNWVYKTKGDGMTSAVA  420 (993)
+Q Consensus       341 ~~~~el~~~d~k~~~~iyK~~l~~~~~~~~~a~~dsa~~nla~~~~naf~naG~~~D~~l~~~~~wl~k~~~w~~fsa~A  420 (993)
+                      +|+.+++++|..+++.+ |++++.++|.+|+          |.+|+|||||+|++.|.|++.+.+|+.++++|.+|+|++
+T Consensus       301 ~fl~~~~~~D~~~l~~~-k~~l~~~~s~~~~----------a~~~anal~~~G~~~d~~l~~~~~wL~~~~~~~r~~A~a  369 (945)
+T sp|P32565|RPN2  301 TFLLNNKNIDIGLLNKS-KSSLDGKFSLFHT----------AVSVANGFMHAGTTDNSFIKANLPWLGKAQNWAKFTATA  369 (945)
+T ss_pred             HHhhhccccchhhhhhh-hccccccchhhHH----------HHHHHHHHHHhCCCChHhHhhhhhhhhccChhhhHHHHH
+Confidence            99999999999998776 9999888776654          499999999999999999999999999999999999999
+
+
+Q sp|P38764|RPN1  421 SIGSIYQWNLD-GLQQLDKYLYV---DEPEVKAGALLGIGISASGVHDGEVEPALLLLQDYVT----NPDTKISSAAILG  492 (993)
+Q Consensus       421 slGli~~~~~~-gl~~l~~yl~~---~~~~~~aGaLlALGL~~~g~~~~e~d~a~~~L~~~l~----~~~~~v~~Ga~LG  492 (993)
+                      ++|+||.|+.+ ++..+.+|+++   .++++++|+++|||++++++.+...+..+.+|.+...    ..++.+|+|+++|
+T Consensus       370 sLG~i~~~~~~~~~~~L~~~L~~~~~~~~~~r~gAl~aLGli~~~~~~~~~~~L~~~L~~~~~~~~~~~~~~vr~~A~lg  449 (945)
+T sp|P32565|RPN2  370 SLGVIHKGNLLEGKKVMAPYLPGSRASSRFIKGGSLYGLGLIYAGFGRDTTDYLKNIIVENSGTSGDEDVDVLLHGASLG  449 (945)
+T ss_pred             HhhhhhcCCchhhhhhhhhcCCCCCCCcccccchHHHHHHHHhcCCchhHHHHHHHHhhhcCCCCCCCccHHHHHHHHHH
+Confidence            99999999995 89999999998   4579999999999999987632123333444443321    1368999999999
+
+
+Q sp|P38764|RPN1  493 LGIAFAGSKNDEVLGLLLPIAASTDLPIETAAMASLALAHVFVGTCNGDITTSIMDNFLERTAIELKTDWVRFLALALGI  572 (993)
+Q Consensus       493 LGla~~Gt~~~~v~~~L~~~l~d~d~~~~v~~aA~lalGLi~~Gs~~~~~a~~lL~~l~~~~~~~~~e~~~r~~~LgLgL  572 (993)
+                      ||.+++|+.++++++.|.+++.+.+  ..++.+|+++||++++|+++.++++.+++.+.+. .   ++.+++++++|||+
+T Consensus       450 Lgl~~~gs~~~~v~~~L~~~L~d~d--~~vr~aAa~ALGli~lGs~~~~~~~~Ll~~l~~~-~---~~~vr~~aa~aLgl  523 (945)
+T sp|P32565|RPN2  450 IGLAAMGSANIEVYEALKEVLYNDS--ATSGEAAALGMGLCMLGTGKPEAIHDMFTYSQET-Q---HGNITRGLAVGLAL  523 (945)
+T ss_pred             HHHHHcCCCCHHHHHHHHHhcCCCC--HHHHHHHHHHHHHHhcCCCCHHHHHHHHHHHhcc-C---ChhHHHHHHHHHHH
+Confidence            9999999999999999999886533  4499999999999999999999988877665532 3   78899999999999
+
+
+Q sp|P38764|RPN1  573 LYMGQGEQVDDVLETISAIEHPMTSAIEVLVGSCAYTGTGDVLLIQDLLHRLTPKNVKGEEDADEEETAEGQTNSISDFL  652 (993)
+Q Consensus       573 v~lGr~e~a~~~le~L~~~~~~~~r~~~~~~~~~aYagTgn~~~iq~lL~~~~~~~~~~~~~~~~~~~~~~~~~~~sd~~  652 (993)
+                      +++|+++.++.+++.+....+|..|+++++++|++|+|+||...++.||+.+.+                       |. 
+T Consensus       524 i~~g~~e~~~~Li~~ll~d~d~~vR~~A~~aLg~a~~gtgn~~ai~~LL~~~l~-----------------------d~-  579 (945)
+T sp|P32565|RPN2  524 INYGRQELADDLITKMLASDESLLRYGGAFTIALAYAGTGNNSAVKRLLHVAVS-----------------------DS-  579 (945)
+T ss_pred             hhcCChhhHHHHHHHhhcCCChhhHHHHHHHHHHHHhCCCCHHHHHHHHHHhhc-----------------------CC-
+Confidence            999999988888877766778999999999999999999999999999877541                       00 
+
+
+Q sp|P38764|RPN1  653 GEQVNEPTKNEEAEIEVDEMEVDAEGEEVEVKAEITEKKNGESLEGEEIKSEEKKGKSSDKDATTDGKNDDEEEEKEAGI  732 (993)
+Q Consensus       653 ~~~~~~~~~~~~~~~e~~~~~~~~~~~~~~~~~~~~p~~~~~~~~~~~~~~~~~~~~~~~L~~~~~~~~~d~~~~~~~~~  732 (993)
+                                                                                          ++         .
+T Consensus       580 --------------------------------------------------------------------~~---------~  582 (945)
+T sp|P32565|RPN2  580 --------------------------------------------------------------------ND---------D  582 (945)
+T ss_pred             --------------------------------------------------------------------ch---------H
+Confidence                                                                                11         2
+
+
+Q sp|P38764|RPN1  733 VDELAYAVLGIALIALGEDIGKEMSLRHFGHLMHYGNEHIRRMVPLAMGIVSVSDPQMKVFDTLTRFSHDADLEVSMNSI  812 (993)
+Q Consensus       733 Vr~~Av~aLG~al~~~~~~~~~~~~~~~l~~L~~~~~~~Vr~gaalALGl~~Agt~~~~Ai~~L~~ll~D~~~~Vr~~Ai  812 (993)
+                      ||+.|+.+||+...  +++   ..+++++..+.++++++||++||+|||++|+|+++.++++.|.++++|.++.||+.|+
+T Consensus       583 VR~~Av~aLg~i~~--~~~---~~v~~ll~~L~~~~~~~VR~~Aa~ALg~~~~g~~~~~ai~~L~~ll~D~d~~VR~~Ai  657 (945)
+T sp|P32565|RPN2  583 VRRAAVIALGFVLL--RDY---TTVPRIVQLLSKSHNAHVRCGTAFALGIACAGKGLQSAIDVLDPLTKDPVDFVRQAAM  657 (945)
+T ss_pred             HHHHHHHHHHHHhc--CCC---CccHHHHHHHHhcCChhhHHHHHHHHHHHhccCChHHHHHHHHHhhcCCchhHHHHHH
+Confidence            89999999997332  332   3467888888888999999999999999999999999999999999999999999999
+
+
+Q sp|P38764|RPN1  813 FAMGLCGA---GTNNARLAQLLRQLASYY-SR--EQDALFITRLAQGLLHLGKGTMTMDVF-NDAHVLNKVTLASILTTA  885 (993)
+Q Consensus       813 ~ALg~V~a---gt~n~~v~~~lr~L~~~~-~k--~~~~~~~~~~A~Gll~lGgg~~Tls~~-s~~~~~s~~aiA~Ll~~l  885 (993)
+                      +|||+|++   +++++++.+++|+|++.+ .+  +...+|++++|+|++++|||++||++. ++++.+++.|++||++  
+T Consensus       658 ~ALg~i~~~~~~~~~~~v~~l~~~L~~~~~~~~~d~~~r~~a~lAlGll~~Ggg~~tls~~~~~~~~~~~~ai~gll~--  735 (945)
+T sp|P32565|RPN2  658 IALSMILIQQTEKLNPQVADINKNFLSVITNKHQEGLAKFGACVAQGIMNAGGRNVTIQLENADTGTLDTKSVVGLVM--  735 (945)
+T ss_pred             HHHHHhhccCcccchHHHHHHHHHHHHhhcCCCcchhhhHHHHHHHHHHhcCCCeEEEeeecCCCCCCChHHHHHHHH--
+Confidence            99999999   567899999999998853 23  444999999999999999999999995 4899999888888854  
+
+
+Q sp|P38764|RPN1  886 VGLVSPSFMLKHHQLFYMLNAGIRPKFILALN-DEGEPIKVNVRVGQAVETVGQAGRPK--KITGWITQSTPVLLNH  959 (993)
+Q Consensus       886 ~~~l~~~~~~~~h~l~h~l~lA~~PR~Lit~D-~dl~~~~v~vrvg~~vd~vg~~g~p~--~itg~qt~~tP~ll~~  959 (993)
+                           |.++|+||||+|||+||++|||||++| .+++++++.++.+.+.+..+.|..++  +.+. +...++..|..
+T Consensus       736 -----~~~~~~~~pl~~~~~la~~p~~li~~~~~~l~~p~~~~~~~~~~~~f~yp~~~~~~~~~~-~~~~~~avLS~  806 (945)
+T sp|P32565|RPN2  736 -----FSQFWYWFPLAHFLSLSFTPTTVIGIRGSDQAIPKFQMNCYAKEDAFSYPRMYEEASGKE-VEKVATAVLST  806 (945)
+T ss_pred             -----HhhhhhhHHHHHHHHHhccceEEEEecCCCcccCceeeecCCCcccccCCCccccccccc-cccccceeccc
+Confidence                 445899999999999999999999999 67888899999999999888877653  4444 44677778865
+
+
+No 3
+>sp|P53886|APC1_YEAST Anaphase-promoting complex subunit 1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=APC1 PE=1 SV=2
+Probab=100.00  E-value=8.2e-54  Score=548.41  Aligned_cols=463  Identities=13%  Similarity=0.145  Sum_probs=347.1  Template_Neff=6.100
+
+Q sp|P38764|RPN1  405 NWVYKTKGDGMTSAVASIGSIYQWNLDGL--QQLDKYLYVDEPEVKAGALLGIGISASGVHDGEVEPALLLLQDYVTNPD  482 (993)
+Q Consensus       405 ~wl~k~~~w~~fsa~AslGli~~~~~~gl--~~l~~yl~~~~~~~~aGaLlALGL~~~g~~~~e~d~a~~~L~~~l~~~~  482 (993)
+                      +|......|+.|+++++.|+-...+..++  .-|....|.+.++.|||+||||||+++ .++    .....+++||..+|
+T Consensus      1001 ~~~~~~~~W~~FHnGVAaGL~i~~~~~~i~~sWI~~nkP~e~~~~haGfLlgLGLnGh-Lk~----L~~~~i~~YL~~~h 1075 (1748)
+T sp|P53886|APC1 1001 DIAHDIVEWGQFHAGVSSGLRISKKATGITGSWIAFNKPKELDAYHGGFLLGLGLNGH-LKN----LEEWHIYNYLSPRN 1075 (1748)
+T ss_pred             cCccCcCchhhhHHHHHhhcccCCCCCCCChhhhhccCCCCCchhhHHHHHHHhhcCC-CCC----ccHHHHHHhcCCCC
+Confidence            46667899999999988888776654222  235556788889999999999999965 332    22447889999999
+
+
+Q sp|P38764|RPN1  483 TKISSAAILGLGIAFAGSKNDEVLGLLLPIA--------ASTDLPIETAAMASLALAHVFVGTCNGDITTSIMDNFLERT  554 (993)
+Q Consensus       483 ~~v~~Ga~LGLGla~~Gt~~~~v~~~L~~~l--------~d~d~~~~v~~aA~lalGLi~~Gs~~~~~a~~lL~~l~~~~  554 (993)
+                      +.+.+|++||||++++||++..+.++|..|+        .+.+.+..+|.||++||||+|+||+|+++++.+|.+|.+..
+T Consensus      1076 ~~tsiGlLLGlaaS~~GT~D~~ltklLsvHi~aLLP~~s~dL~i~~~vQtAAL~GlGLLy~gS~~r~mse~LL~ei~~~~ 1155 (1748)
+T sp|P53886|APC1 1076 THISIGLLLGMSSSMKGSMDSKLIKVISVHLVAFLPSGSSDLNIDLKLQTAGIIGMGMLYLNSRHKRMSDSIFAQLVSLL 1155 (1748)
+T ss_pred             chhHHHHHHHhhhhhcCCCChhHHhHHHHhhhhcCCCCCCCCCCchhhHHHHHHHHHHHhcCCCCchHHHHHHHHHhhcc
+Confidence            9999999999999999999999999998865        23345667999999999999999999999999999998853
+
+
+Q sp|P38764|RPN1  555 A--I--ELKTDWVRFLALALGILYMGQGEQVDD-------------------------------VLETISAI----EH--  593 (993)
+Q Consensus       555 ~--~--~~~e~~~r~~~LgLgLv~lGr~e~a~~-------------------------------~le~L~~~----~~--  593 (993)
+                      .  +  ..+|.|++++||||||++||+|+....                               +.+.|...    .+  
+T Consensus      1156 ~~~~e~~~rE~Y~LaAGlALGLI~LG~G~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~L~~~~~~~~d~~ 1235 (1748)
+T sp|P53886|APC1 1156 NVNDEMVADEEYRLAAGISLGLINLGAGQTKLRKWDSSLLGLGDDLPEDVYDSSDVEQNVMYEDLTTKLLEIVTSTYDVE 1235 (1748)
+T ss_pred             CCCcccccchHHHHHHHHHHHHHHhccCCccccccccccccCCCCCCCccCCCcccccccchhhhHHhhhhccccccccC
+Confidence            1  1  249999999999999999999985421                               11112110    01  
+
+
+Q sp|P38764|RPN1  594 -----PMTSAIEVLVGSCAYTGTGDVLLIQDLLHRLTPKNVKGEEDADEEETAEGQTNSISDFLGEQVNEPTKNEEAEIE  668 (993)
+Q Consensus       594 -----~~~r~~~~~~~~~aYagTgn~~~iq~lL~~~~~~~~~~~~~~~~~~~~~~~~~~~sd~~~~~~~~~~~~~~~~~e  668 (993)
+                           ....+++++++|++|++|||..++.+| ..+..                       ++. .+             
+T Consensus      1236 ~~~i~~~t~~gA~lALGLmyLkT~n~~IA~~L-~ip~t-----------------------~~~-~~------------- 1277 (1748)
+T sp|P53886|APC1 1236 NDWIPENSQIGAVIAIMFLFLKSNNFGISNML-KVDLK-----------------------EIL-KA------------- 1277 (1748)
+T ss_pred             CCCCCccCCHHHHHHHHHHHcCCCCHhhhhcc-CCCch-----------------------hhh-hh-------------
+Confidence                 114689999999999999998888775 33210                       000 00             
+
+
+Q sp|P38764|RPN1  669 VDEMEVDAEGEEVEVKAEITEKKNGESLEGEEIKSEEKKGKSSDKDATTDGKNDDEEEEKEAGIVDELAYAVLGIALIAL  748 (993)
+Q Consensus       669 ~~~~~~~~~~~~~~~~~~~~p~~~~~~~~~~~~~~~~~~~~~~~L~~~~~~~~~d~~~~~~~~~Vr~~Av~aLG~al~~~  748 (993)
+                                     -..++|+...+|+++            +.| ++|+  +++++.+    ||..+....+.     .
+T Consensus      1278 ---------------l~~~RPD~lllR~LA------------~~L-ImWd--~I~~~~~----wI~~~lp~~~~-----~ 1318 (1748)
+T sp|P53886|APC1 1278 ---------------NINTRPELLMYREWA------------SNM-ILWE--FIGDDLS----FIMKDVDIGVK-----F 1318 (1748)
+T ss_pred             ---------------hccCChHHHHHHHHH------------HHH-HHhc--CccccHH----HHHhhcccccc-----c
+Confidence                           012578888887653            344 4577  4444444    45544221110     0
+
+
+Q sp|P38764|RPN1  749 GEDIGKEMSLRHFGHLMHYGNEHIRRMVPLAMGIVSVSDPQMKVFDTLTRFSHDADLEVS--------------------  808 (993)
+Q Consensus       749 ~~~~~~~~~~~~l~~L~~~~~~~Vr~gaalALGl~~Agt~~~~Ai~~L~~ll~D~~~~Vr--------------------  808 (993)
+                      .+     ..   .+.+   ..++||+|+|+|||++||||++.+|++.|.+++..+.+.+.                    
+T Consensus      1319 ~~-----~~---~d~~---~~~~IiAGaclALGLkyAGT~n~~A~~~Ll~~ld~fl~~~~~~~~~~~d~~l~~~~i~~~l 1387 (1748)
+T sp|P53886|APC1 1319 SE-----LN---TDLL---PIYYTMAGRILAMGIRFASTGNLKIRNILLSLVDKFLPLYQYPGKQNLDFRLTISVINVLT 1387 (1748)
+T ss_pred             cc-----cc---cccc---hHHHHHHHHHHHHHHHhcCCCChHHHHHHHHHHHHhhhhhcCCCCCCccchhhHHHHHHHH
+Confidence            00     00   0101   35689999999999999999999999999998865533221                    
+
+
+Q sp|P38764|RPN1  809 MNSIFAMGLCGAGTNNARLAQLLRQLASYYSR------------------------------------------------  840 (993)
+Q Consensus       809 ~~Ai~ALg~V~agt~n~~v~~~lr~L~~~~~k------------------------------------------------  840 (993)
+                      ..+++||||||+|||+.+|.+++|.|+.+...                                                
+T Consensus      1388 ~v~~lsLslVMAGTGDlevlR~lR~L~~~~~~~~s~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 1467 (1748)
+T sp|P53886|APC1 1388 NVIVVSLSMVMCASGDLEVLRRVKYLHEVASGPYSDLFQEIPSSKSDVSGVTQVTSNTNTPGNSDRERVDETAASLDDER 1467 (1748)
+T ss_pred             HHHHHHHHHHHhccCcHHHHHHHHHHHhhccCCCccccccCCCCCCCCCcccccccCCCCCCCCccccchhccccccccc
+Confidence            13689999999999999999999999976320                                                
+
+
+Q sp|P38764|RPN1  841 ------------------EQD----ALFITRLAQGLLHLGKGTMTMDVFNDAHVLNKVTLASILTTAVGLVSPSFMLKHH  898 (993)
+Q Consensus       841 ------------------~~~----~~~~~~~A~Gll~lGgg~~Tls~~s~~~~~s~~aiA~Ll~~l~~~l~~~~~~~~h  898 (993)
+                                        +..    .+|+++||+||||+|||++||++.      ++.|||+|++++||.|.  ..+++|
+T Consensus      1468 ~~~~~~~~~~~~~~~~~~d~~~~YG~hmA~~mAlGfLFLGgG~ytLsts------~~~sIA~Llia~yP~fp--~~~hLQ 1539 (1748)
+T sp|P53886|APC1 1468 SSNGSDISDPTAYLEDKKDIDDHYGKFISTNLALGFLFLGSGQYALNTS------TLESIAFLSMSVLPTYT--TPHPLQ 1539 (1748)
+T ss_pred             cCCCCCCCCcccccccccCccccchhHHHHHHHHHHHhhcCCcEEecCC------CHHHHHHHHHHhhhhcC--CCCchH
+Confidence                              001    578899999999999999999981      35799999999999763  246788
+
+
+Q sp|P38764|RPN1  899 QLFYMLNAGIRPKFILALNDE-GEPI-KVNVRVGQAVETVGQAGRPKKITGWITQSTPVLLNHG---ERAELETDEYISY  973 (993)
+Q Consensus       899 ~l~h~l~lA~~PR~Lit~D~d-l~~~-~v~vrvg~~vd~vg~~g~p~~itg~qt~~tP~ll~~~---~~ael~~~~Y~p~  973 (993)
+                      +|||||+||++||||+++|+| ++|| .|||+|....      +.++. +..+++.||||||+.   ++|++.+|+|||+
+T Consensus      1540 alRHlwvLAvEpRcLv~rDvdT~~~v~~vpi~i~~~~------~~~~~-~~~~~~~aPcLLP~~~~I~~i~v~~~~Y~p~ 1612 (1748)
+T sp|P53886|APC1 1540 ELKHFWSMAVEPRCLVIKDISTGDAVNNVPIELVVEE------DVEKE-EVIREISTPCLLPDFSKIKSIRVKMHGYFPL 1612 (1748)
+T ss_pred             HHHHHHHhhccceEEEEEeccCCCcccccceEEEEEe------Ccccc-eeEEEEeCCCcCCCCCceEEEEEeCCCeeee
+Confidence            899999999999999999998 9999 5999865442      33322 234568999999996   6899999999999
+
+
+Q sp|P38764|RPN1  974 TS  975 (993)
+Q Consensus       974 ~~  975 (993)
+                      .-
+T Consensus      1613 ~i 1614 (1748)
+T sp|P53886|APC1 1613 EV 1614 (1748)
+T ss_pred             EE
+Confidence            84
+
+
+No 4
+>sp|P38764|RPN1_YEAST 26S proteasome regulatory subunit RPN1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=RPN1 PE=1 SV=3
+Probab=99.04  E-value=1.7e-14  Score=176.29  Aligned_cols=335  Identities=15%  Similarity=0.187  Sum_probs=212.3  Template_Neff=6.900
+
+Q sp|P38764|RPN1  383 SSFVNGFLNLGYCN---DKLIVDNDNWVYKTKGDGMTSAVASIGSIYQWNLD--GLQQLDKYLYVDE--PEVKAGALLGI  455 (993)
+Q Consensus       383 ~~~~naf~naG~~~---D~~l~~~~~wl~k~~~w~~fsa~AslGli~~~~~~--gl~~l~~yl~~~~--~~~~aGaLlAL  455 (993)
+                      ..++-|++++|...   |..+.--.+++.....+-++.|..+||+++.|..+  ....|.+.+...+  .....++.+||
+T Consensus       451 AllaLGli~~g~~~~e~d~alalL~~~L~~~~~~vr~gAilGLGlay~Gt~~~~v~~~L~~~L~d~~~~~ev~~~AalaL  530 (993)
+T sp|P38764|RPN1  451 ALLGIGISASGVHDGEVEPALLLLQDYVTNPDTKISSAAILGLGIAFAGSKNDEVLGLLLPIAASTDLPIETAAMASLAL  530 (993)
+T ss_pred             HHHHHHHHcCCCCCCCchHHHHHHHHHhcCCChHHHHHHHHHHHHHhcCCCCHHHHHHHHHhccCCCCcHHHHHHHHHHH
+Confidence            56777888888864   55544335566555677889999999999988663  5667777776433  34888999999
+
+
+Q sp|P38764|RPN1  456 GISASGVHDGEVEPALLLLQDYVTNP----DTKISSAAILGLGIAFAGSKNDEVLGLLLPIAASTDLPIETAAMASLALA  531 (993)
+Q Consensus       456 GL~~~g~~~~e~d~a~~~L~~~l~~~----~~~v~~Ga~LGLGla~~Gt~~~~v~~~L~~~l~d~d~~~~v~~aA~lalG  531 (993)
+                      |+++.|..+.+.  +-..|..+....    ++.++.++++|||+.+.|.++  ..+.+...+...+.+. .+.++.+++|
+T Consensus       531 GlI~~Gs~n~~~--~~~lL~~l~~~~~~~~~e~~~r~a~laLGLi~lG~~e--~~~~lie~L~~~~~~~-~r~~a~l~~~  605 (993)
+T sp|P38764|RPN1  531 AHVFVGTCNGDI--TTSIMDNFLERTAIELKTDWVRFLALALGILYMGQGE--QVDDVLETISAIEHPM-TSAIEVLVGS  605 (993)
+T ss_pred             HHHHcCCCchHH--HHHHHHHHHhhhhhccchhHHHHHHHHHHHHHhCCCC--chHHHHHHHHhcCCcc-cchHHHHHHH
+Confidence            999988775221  122333333222    266778899999999998863  2333333332222244 8889999999
+
+
+Q sp|P38764|RPN1  532 HVFVGTCNGDITTSIMDNFLERTAI-E-------LKT--DWVRFLALAL-G-----------------ILYMGQ------  577 (993)
+Q Consensus       532 Li~~Gs~~~~~a~~lL~~l~~~~~~-~-------~~e--~~~r~~~LgL-g-----------------Lv~lGr------  577 (993)
+                      +.|.||+|..+++.+|+.+.+.... +       ..+  .....-.++. +                 +-..++      
+T Consensus       606 layagTGn~~~Iq~LL~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  685 (993)
+T sp|P38764|RPN1  606 CAYTGTGDVLLIQDLLHRLTPKNVKGEEDADEEETAEGQTNSISDFLGEQVNEPTKNEEAEIEVDEMEVDAEGEEVEVKA  685 (993)
+T ss_pred             HHHhCCCCHHHHHHHHhhccccCCCCCCCcchhhhhccCcCccccccccccCCCCccchhhhhhhhhhhcccccchhhhh
+Confidence            9999999999999977665432100 0       000  0000000000 0                 000000      
+
+
+Q sp|P38764|RPN1  578 ------------GEQVD-------DVLE----------TISAIEHPMTSAIEVLVGSCAYTGTGDVL---LIQDLLHRLT  625 (993)
+Q Consensus       578 ------------~e~a~-------~~le----------~L~~~~~~~~r~~~~~~~~~aYagTgn~~---~iq~lL~~~~  625 (993)
+                                  ....+       ...+          ....-+++..+..++.++|++....|+..   .+-+++..+.
+T Consensus       686 ~i~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~v~~qa~a~LgiaLia~ge~ig~ema~r~l~~ll  765 (993)
+T sp|P38764|RPN1  686 EITEKKNGESLEGEEIKSEEKKGKSSDKDATTDGKNDDEEEEKEAGIVDELAYAVLGIALIALGEDIGKEMSLRHFGHLM  765 (993)
+T ss_pred             hhhhccCCCccccchhhhhcccCCCCCCCCCCCCCCCchhhhhhhhhhHHHHHHHHHHHHHHcccccchhccHHHHHHHH
+Confidence                        00000       0000          00000123456777888888888888743   3334332221
+
+
+Q sp|P38764|RPN1  626 PKNVKGEEDADEEETAEGQTNSISDFLGEQVNEPTKNEEAEIEVDEMEVDAEGEEVEVKAEITEKKNGESLEGEEIKSEE  705 (993)
+Q Consensus       626 ~~~~~~~~~~~~~~~~~~~~~~~sd~~~~~~~~~~~~~~~~~e~~~~~~~~~~~~~~~~~~~~p~~~~~~~~~~~~~~~~  705 (993)
+                      ..                                                                      +       
+T Consensus       766 ~~----------------------------------------------------------------------~-------  768 (993)
+T sp|P38764|RPN1  766 HY----------------------------------------------------------------------G-------  768 (993)
+T ss_pred             Hc----------------------------------------------------------------------C-------
+Confidence            00                                                                      0       
+
+
+Q sp|P38764|RPN1  706 KKGKSSDKDATTDGKNDDEEEEKEAGIVDELAYAVLGIALIALGEDIGKEMSLRHFGHLMHYGNEHIRRMVPLAMGIVSV  785 (993)
+Q Consensus       706 ~~~~~~~L~~~~~~~~~d~~~~~~~~~Vr~~Av~aLG~al~~~~~~~~~~~~~~~l~~L~~~~~~~Vr~gaalALGl~~A  785 (993)
+                                     +.         .||+.++.|||+.+.+.|+.    .+...|..++.+.+..||+.|++|||+..|
+T Consensus       769 ---------------~~---------~vR~avpLALgL~~asnp~~----~aid~L~klshD~d~~V~~nAi~ALGlVgA  820 (993)
+T sp|P38764|RPN1  769 ---------------NE---------HIRRMVPLAMGIVSVSDPQM----KVFDTLTRFSHDADLEVSMNSIFAMGLCGA  820 (993)
+T ss_pred             ---------------Ch---------hhhhHHHHHHHHHhcCCCCc----HHHHHHHHHhhccchhhhhhhHHHHHhhhc
+Confidence                           01         28999999999876666653    566778888888899999999999999999
+
+
+Q sp|P38764|RPN1  786 SDPQMKVFDTLTRFSHD--ADLEVSMNSIFAMGLCGAGTNNARL  827 (993)
+Q Consensus       786 gt~~~~Ai~~L~~ll~D--~~~~Vr~~Ai~ALg~V~agt~n~~v  827 (993)
+                      ||++.++...|..+...  .++.....+.+|.|++..|-|+.-+
+T Consensus       821 Gtnn~ri~~~Lr~L~~~~~k~~~~~f~vriAqGLl~lGkG~~TL  864 (993)
+T sp|P38764|RPN1  821 GTNNARLAQLLRQLASYYSREQDALFITRLAQGLLHLGKGTMTM  864 (993)
+T ss_pred             CCChHHHHHHHHHHHHhhcCCchhHHHHHHHHHHHHhcCCceEe
+Confidence            99999998888887432  3555788899999999999886643
+
+
+No 5
+>sp|P32565|RPN2_YEAST 26S proteasome regulatory subunit RPN2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=RPN2 PE=1 SV=4
+Probab=98.98  E-value=3.9e-14  Score=173.48  Aligned_cols=322  Identities=16%  Similarity=0.200  Sum_probs=213.6  Template_Neff=7.700
+
+Q sp|P38764|RPN1  417 SAVASIGSIYQWNL-D-GLQQLDKYLYVDEPEVKAGALLGIGISASGVHDGEVEPALLLLQDYVTN---PDTKISSAAIL  491 (993)
+Q Consensus       417 sa~AslGli~~~~~-~-gl~~l~~yl~~~~~~~~aGaLlALGL~~~g~~~~e~d~a~~~L~~~l~~---~~~~v~~Ga~L  491 (993)
+                      .++++-|+.|.|.. + -+..+..++....+..+.++..+||+++.+..+    .++..|..|+..   .+..++.|+++
+T Consensus       331 a~~~anal~~~G~~~d~~l~~~~~wL~~~~~~~r~~A~asLG~i~~~~~~----~~~~~L~~~L~~~~~~~~~~r~gAl~  406 (945)
+T sp|P32565|RPN2  331 AVSVANGFMHAGTTDNSFIKANLPWLGKAQNWAKFTATASLGVIHKGNLL----EGKKVMAPYLPGSRASSRFIKGGSLY  406 (945)
+T ss_pred             HHHHHHHHHHhCCCChHhHhhhhhhhhccChhhhHHHHHHhhhhhcCCch----hhhhhhhhcCCCCCCCcccccchHHH
+Confidence            34567788888777 3 356677778877888889999999998765443    335566666654   35688899999
+
+
+Q sp|P38764|RPN1  492 GLGIAFAGSKNDEVLGLLLPIAASTD------LPIETAAMASLALAHVFVGTCNGDITTSIMDNFLERTAIELKTDWVRF  565 (993)
+Q Consensus       492 GLGla~~Gt~~~~v~~~L~~~l~d~d------~~~~v~~aA~lalGLi~~Gs~~~~~a~~lL~~l~~~~~~~~~e~~~r~  565 (993)
+                      |||..+.|..+ ++.+.|...+.+..      ....++.+|++|||+++.|+++.++.+.++..+..+     ......+
+T Consensus       407 aLGli~~~~~~-~~~~~L~~~L~~~~~~~~~~~~~~vr~~A~lgLgl~~~gs~~~~v~~~L~~~L~d~-----d~~vr~a  480 (945)
+T sp|P32565|RPN2  407 GLGLIYAGFGR-DTTDYLKNIIVENSGTSGDEDVDVLLHGASLGIGLAAMGSANIEVYEALKEVLYND-----SATSGEA  480 (945)
+T ss_pred             HHHHHhcCCch-hHHHHHHHHhhhcCCCCCCCccHHHHHHHHHHHHHHHcCCCCHHHHHHHHHhcCCC-----CHHHHHH
+Confidence            99988888632 55666666665421      245788899999999999988888777755443322     2355667
+
+
+Q sp|P38764|RPN1  566 LALALGILYMGQGE--QVDDVLETISAIEHPMTSAIEVLVGSCAYTGTGDVLLIQDLLHRLTPKNVKGEEDADEEETAEG  643 (993)
+Q Consensus       566 ~~LgLgLv~lGr~e--~a~~~le~L~~~~~~~~r~~~~~~~~~aYagTgn~~~iq~lL~~~~~~~~~~~~~~~~~~~~~~  643 (993)
+                      ++++||++++|.+.  .+..++..+....++-.+.+++.++|+.+.|..  ..+..++..+.                  
+T Consensus       481 Aa~ALGli~lGs~~~~~~~~Ll~~l~~~~~~~vr~~aa~aLgli~~g~~--e~~~~Li~~ll------------------  540 (945)
+T sp|P32565|RPN2  481 AALGMGLCMLGTGKPEAIHDMFTYSQETQHGNITRGLAVGLALINYGRQ--ELADDLITKML------------------  540 (945)
+T ss_pred             HHHHHHHHhcCCCCHHHHHHHHHHHhccCChhHHHHHHHHHHHhhcCCh--hhHHHHHHHhh------------------
+Confidence            88888888888764  223444444333444444555555444443332  22222211000                  
+
+
+Q sp|P38764|RPN1  644 QTNSISDFLGEQVNEPTKNEEAEIEVDEMEVDAEGEEVEVKAEITEKKNGESLEGEEIKSEEKKGKSSDKDATTDGKNDD  723 (993)
+Q Consensus       644 ~~~~~sd~~~~~~~~~~~~~~~~~e~~~~~~~~~~~~~~~~~~~~p~~~~~~~~~~~~~~~~~~~~~~~L~~~~~~~~~d  723 (993)
+                                                                                                .  +.+
+T Consensus       541 --------------------------------------------------------------------------~--d~d  544 (945)
+T sp|P32565|RPN2  541 --------------------------------------------------------------------------A--SDE  544 (945)
+T ss_pred             --------------------------------------------------------------------------c--CCC
+Confidence                                                                                      0  000
+
+
+Q sp|P38764|RPN1  724 EEEEKEAGIVDELAYAVLGIALIALGEDIGKEMSLRHFGHLMHYGNEHIRRMVPLAMGIVSVSDPQMKVFDTLT-RFSHD  802 (993)
+Q Consensus       724 ~~~~~~~~~Vr~~Av~aLG~al~~~~~~~~~~~~~~~l~~L~~~~~~~Vr~gaalALGl~~Agt~~~~Ai~~L~-~ll~D  802 (993)
+                             ..||..|+.+||.++...++.   ..+..++...+++.++.||++|+.+||.+..+.+  .++..+. .++.+
+T Consensus       545 -------~~vR~~A~~aLg~a~~gtgn~---~ai~~LL~~~l~d~~~~VR~~Av~aLg~i~~~~~--~~v~~ll~~L~~~  612 (945)
+T sp|P32565|RPN2  545 -------SLLRYGGAFTIALAYAGTGNN---SAVKRLLHVAVSDSNDDVRRAAVIALGFVLLRDY--TTVPRIVQLLSKS  612 (945)
+T ss_pred             -------hhhHHHHHHHHHHHHhCCCCH---HHHHHHHHHhhcCCchHHHHHHHHHHHHHhcCCC--CccHHHHHHHHhc
+Confidence                   138999999999888877765   3343444555677788999999999998855443  3344444 44578
+
+
+Q sp|P38764|RPN1  803 ADLEVSMNSIFAMGLCGAGTNNARLAQLLRQLASYYSREQDALFITRLAQGLLHLG  858 (993)
+Q Consensus       803 ~~~~Vr~~Ai~ALg~V~agt~n~~v~~~lr~L~~~~~k~~~~~~~~~~A~Gll~lG  858 (993)
+                      .++.||..|+.|||.+.+|+++..+...|..+.  .+.+...+.++.+|+|++..+
+T Consensus       613 ~~~~VR~~Aa~ALg~~~~g~~~~~ai~~L~~ll--~D~d~~VR~~Ai~ALg~i~~~  666 (945)
+T sp|P32565|RPN2  613 HNAHVRCGTAFALGIACAGKGLQSAIDVLDPLT--KDPVDFVRQAAMIALSMILIQ  666 (945)
+T ss_pred             CChhhHHHHHHHHHHHhccCChHHHHHHHHHhh--cCCchhHHHHHHHHHHHhhcc
+Confidence            889999999999999999998887777765543  233444788999999999884
+
+
+No 6
+>sp|P32565|RPN2_YEAST 26S proteasome regulatory subunit RPN2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=RPN2 PE=1 SV=4
+Probab=98.71  E-value=1.7e-12  Score=158.65  Aligned_cols=198  Identities=20%  Similarity=0.234  Sum_probs=145.0  Template_Neff=7.700
+
+Q sp|P38764|RPN1  413 DGMTSAVASIGSIYQWNL--DGLQQLDKYLYVDEPEVKAGALLGIGISASGVHDGEVEPALLLLQDYV-TNPDTKISSAA  489 (993)
+Q Consensus       413 w~~fsa~AslGli~~~~~--~gl~~l~~yl~~~~~~~~aGaLlALGL~~~g~~~~e~d~a~~~L~~~l-~~~~~~v~~Ga  489 (993)
+                      ..+..|..+||++..+..  +-+..|.+.|...+...+.++.+|||+++.|..+.   .+...|..++ .+.++.++.++
+T Consensus       441 ~vr~~A~lgLgl~~~gs~~~~v~~~L~~~L~d~d~~vr~aAa~ALGli~lGs~~~---~~~~~Ll~~l~~~~~~~vr~~a  517 (945)
+T sp|P32565|RPN2  441 VLLHGASLGIGLAAMGSANIEVYEALKEVLYNDSATSGEAAALGMGLCMLGTGKP---EAIHDMFTYSQETQHGNITRGL  517 (945)
+T ss_pred             HHHHHHHHHHHHHHcCCCCHHHHHHHHHhcCCCCHHHHHHHHHHHHHHhcCCCCH---HHHHHHHHHHhccCChhHHHHH
+Confidence            446778888888887754  35777888888878888889999999877665431   2344444444 44578889999
+
+
+Q sp|P38764|RPN1  490 ILGLGIAFAGSKNDEVLGLLL-PIAASTDLPIETAAMASLALAHVFVGTCNGDITTSIMDNFLERTAIELKTDWVRFLAL  568 (993)
+Q Consensus       490 ~LGLGla~~Gt~~~~v~~~L~-~~l~d~d~~~~v~~aA~lalGLi~~Gs~~~~~a~~lL~~l~~~~~~~~~e~~~r~~~L  568 (993)
+                      ++|||..+.|..  +..+.|. .++.+ +.+. ++.+|++++|+.|.|+++...+..+|....++.    .+..++.+..
+T Consensus       518 a~aLgli~~g~~--e~~~~Li~~ll~d-~d~~-vR~~A~~aLg~a~~gtgn~~ai~~LL~~~l~d~----~~~VR~~Av~  589 (945)
+T sp|P32565|RPN2  518 AVGLALINYGRQ--ELADDLITKMLAS-DESL-LRYGGAFTIALAYAGTGNNSAVKRLLHVAVSDS----NDDVRRAAVI  589 (945)
+T ss_pred             HHHHHHhhcCCh--hhHHHHHHHhhcC-CChh-hHHHHHHHHHHHHhCCCCHHHHHHHHHHhhcCC----chHHHHHHHH
+Confidence            999988777754  3344444 33333 2233 889999999999999999888877666545442    4466778889
+
+
+Q sp|P38764|RPN1  569 ALGILYMGQGEQVDDVLETISAIEHPMTSAIEVLVGSCAYTGTGDVLLIQDLL  621 (993)
+Q Consensus       569 gLgLv~lGr~e~a~~~le~L~~~~~~~~r~~~~~~~~~aYagTgn~~~iq~lL  621 (993)
+                      +||++..+..+.+..++..+....+|..|.++++++|..|+|+|+...+..|.
+T Consensus       590 aLg~i~~~~~~~v~~ll~~L~~~~~~~VR~~Aa~ALg~~~~g~~~~~ai~~L~  642 (945)
+T sp|P32565|RPN2  590 ALGFVLLRDYTTVPRIVQLLSKSHNAHVRCGTAFALGIACAGKGLQSAIDVLD  642 (945)
+T ss_pred             HHHHHhcCCCCccHHHHHHHHhcCChhhHHHHHHHHHHHhccCChHHHHHHHH
+Confidence            99999888777666777777666788899999999999999999887766653
+
+
+No 7
+>sp|P38764|RPN1_YEAST 26S proteasome regulatory subunit RPN1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=RPN1 PE=1 SV=3
+Probab=98.66  E-value=2.8e-12  Score=156.16  Aligned_cols=333  Identities=15%  Similarity=0.213  Sum_probs=210.1  Template_Neff=6.900
+
+Q sp|P38764|RPN1  418 AVASIGSIYQWNL-DG-LQQLDKYLYVDEPEVKAGALLGIGISASGVHDGEVEPALLLLQDYVTNPDTKISSAAILGLGI  495 (993)
+Q Consensus       418 a~AslGli~~~~~-~g-l~~l~~yl~~~~~~~~aGaLlALGL~~~g~~~~e~d~a~~~L~~~l~~~~~~v~~Ga~LGLGl  495 (993)
+                      ++..-|+++.|.. |. +..=..+++....+.+..+.-++|+++.+..    + .+..|.+|+...++.++.|+++|||+
+T Consensus       383 ~~fvnafvnaG~g~D~l~~~~~~wi~k~k~~~~~~A~aSLGlI~~~n~----~-~l~~l~~~L~s~~~~~~aGAllaLGl  457 (993)
+T sp|P38764|RPN1  383 SSFVNGFLNLGYCNDKLIVDNDNWVYKTKGDGMTSAVASIGSIYQWNL----D-GLQQLDKYLYVDEPEVKAGALLGIGI  457 (993)
+T ss_pred             HHHHHHhhhccCCCcccccCCcchhhhccCchhhHHHHHHhhhccCCc----h-hhHHHHHhcCCCCcchhhhHHHHHHH
+Confidence            4445566666664 22 1111234555556677888888888865333    2 46777788877788899999999999
+
+
+Q sp|P38764|RPN1  496 AFAGSKN---DEVLGLLLPIAASTDLPIETAAMASLALAHVFVGTCNGDITTSIMDNFLERTAIELKTDWVRFLALALGI  572 (993)
+Q Consensus       496 a~~Gt~~---~~v~~~L~~~l~d~d~~~~v~~aA~lalGLi~~Gs~~~~~a~~lL~~l~~~~~~~~~e~~~r~~~LgLgL  572 (993)
+                      .+.|..+   ..+...|...+.+.  ...++.+|++|||++|.||++.++.+.++. ++.+..  .......+++++||+
+T Consensus       458 i~~g~~~~e~d~alalL~~~L~~~--~~~vr~gAilGLGlay~Gt~~~~v~~~L~~-~L~d~~--~~~ev~~~AalaLGl  532 (993)
+T sp|P38764|RPN1  458 SASGVHDGEVEPALLLLQDYVTNP--DTKISSAAILGLGIAFAGSKNDEVLGLLLP-IAASTD--LPIETAAMASLALAH  532 (993)
+T ss_pred             HcCCCCCCCchHHHHHHHHHhcCC--ChHHHHHHHHHHHHHhcCCCCHHHHHHHHH-hccCCC--CcHHHHHHHHHHHHH
+Confidence            9988765   24455666666432  234889999999999999999888776543 333221  123467788888888
+
+
+Q sp|P38764|RPN1  573 LYMGQGEQ--VDDVLETISAIEH-PM-TSAIEVLVGSCAYTGTGDVLLIQDLLHRLTPKNVKGEEDADEEETAEGQTNSI  648 (993)
+Q Consensus       573 v~lGr~e~--a~~~le~L~~~~~-~~-~r~~~~~~~~~aYagTgn~~~iq~lL~~~~~~~~~~~~~~~~~~~~~~~~~~~  648 (993)
+                      +|+|.++.  +..++..+..... .+ .++...+++|++....|+...+..++..+.                       
+T Consensus       533 I~~Gs~n~~~~~~lL~~l~~~~~~~~~e~~~r~a~laLGLi~lG~~e~~~~lie~L~-----------------------  589 (993)
+T sp|P38764|RPN1  533 VFVGTCNGDITTSIMDNFLERTAIELKTDWVRFLALALGILYMGQGEQVDDVLETIS-----------------------  589 (993)
+T ss_pred             HHcCCCchHHHHHHHHHHHhhhhhccchhHHHHHHHHHHHHHhCCCCchHHHHHHHH-----------------------
+Confidence            88887753  2233333332111 11 223333333333333333333333321110                       
+
+
+Q sp|P38764|RPN1  649 SDFLGEQVNEPTKNEEAEIEVDEMEVDAEGEEVEVKAEITEKKNGESLEGEEIKSEEKKGKSSDKDATTDGKNDDEEEEK  728 (993)
+Q Consensus       649 sd~~~~~~~~~~~~~~~~~e~~~~~~~~~~~~~~~~~~~~p~~~~~~~~~~~~~~~~~~~~~~~L~~~~~~~~~d~~~~~  728 (993)
+                                                                                           .. ++      
+T Consensus       590 ---------------------------------------------------------------------~~-~~------  593 (993)
+T sp|P38764|RPN1  590 ---------------------------------------------------------------------AI-EH------  593 (993)
+T ss_pred             ---------------------------------------------------------------------hc-CC------
+Confidence                                                                                 00 10      
+
+
+Q sp|P38764|RPN1  729 EAGIVDELAYAVLGIALIALGEDIGKEMSLRHFGHLMHYG----------------------------------------  768 (993)
+Q Consensus       729 ~~~~Vr~~Av~aLG~al~~~~~~~~~~~~~~~l~~L~~~~----------------------------------------  768 (993)
+                        ..+|..++.++|.+++..|+.   ..+..+++.+.+..                                        
+T Consensus       594 --~~~r~~a~l~~~layagTGn~---~~Iq~LL~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  668 (993)
+T sp|P38764|RPN1  594 --PMTSAIEVLVGSCAYTGTGDV---LLIQDLLHRLTPKNVKGEEDADEEETAEGQTNSISDFLGEQVNEPTKNEEAEIE  668 (993)
+T ss_pred             --cccchHHHHHHHHHHhCCCCH---HHHHHHHhhccccCCCCCCCcchhhhhccCcCccccccccccCCCCccchhhhh
+Confidence              125788888999988888876   23333443333311                                        
+
+
+Q sp|P38764|RPN1  769 -------------------------------------------------------------NEHIRRMVPLAMGIVSVSD  787 (993)
+Q Consensus       769 -------------------------------------------------------------~~~Vr~gaalALGl~~Agt  787 (993)
+                                                                                   ...+|..++.+||+...+.
+T Consensus       669 ~~~~~~~~~~~~~~~~~~i~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~v~~qa~a~LgiaLia~  748 (993)
+T sp|P38764|RPN1  669 VDEMEVDAEGEEVEVKAEITEKKNGESLEGEEIKSEEKKGKSSDKDATTDGKNDDEEEEKEAGIVDELAYAVLGIALIAL  748 (993)
+T ss_pred             hhhhhhcccccchhhhhhhhhccCCCccccchhhhhcccCCCCCCCCCCCCCCCchhhhhhhhhhHHHHHHHHHHHHHHc
+Confidence                                                                         0126666777777666555
+
+
+Q sp|P38764|RPN1  788 PQ----MKVFDTLTRFSHDADLEVSMNSIFAMGLCGAGTNNARLAQLLRQLASYYSREQDALFITRLAQGLLHLGKGTMT  863 (993)
+Q Consensus       788 ~~----~~Ai~~L~~ll~D~~~~Vr~~Ai~ALg~V~agt~n~~v~~~lr~L~~~~~k~~~~~~~~~~A~Gll~lGgg~~T  863 (993)
+                      +.    ..+...+.+++++.++.||.++.+|||++.++++++.+...|..+.  ++.+......+.+|+|++-+|.++..
+T Consensus       749 ge~ig~ema~r~l~~ll~~~~~~vR~avpLALgL~~asnp~~~aid~L~kls--hD~d~~V~~nAi~ALGlVgAGtnn~r  826 (993)
+T sp|P38764|RPN1  749 GEDIGKEMSLRHFGHLMHYGNEHIRRMVPLAMGIVSVSDPQMKVFDTLTRFS--HDADLEVSMNSIFAMGLCGAGTNNAR  826 (993)
+T ss_pred             ccccchhccHHHHHHHHHcCChhhhhHHHHHHHHHhcCCCCcHHHHHHHHHh--hccchhhhhhhHHHHHhhhcCCChHH
+Confidence            54    4567788888999999999999999999999999998887776542  22344478889999999999999765
+
+
+Q sp|P38764|RPN1  864 MDV  866 (993)
+Q Consensus       864 ls~  866 (993)
+                      +..
+T Consensus       827 i~~  829 (993)
+T sp|P38764|RPN1  827 LAQ  829 (993)
+T ss_pred             HHH
+Confidence            544
+
+
+No 8
+>sp|P38764|RPN1_YEAST 26S proteasome regulatory subunit RPN1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=RPN1 PE=1 SV=3
+Probab=97.63  E-value=1.9e-08  Score=121.44  Aligned_cols=49  Identities=16%  Similarity=0.296  Sum_probs=27.2  Template_Neff=6.900
+
+Q sp|P38764|RPN1  264 FLKTAYSIYLSQNELTDAIALAVRLGEEDMIRSVFDATSDPVMHKQLAYILA  315 (993)
+Q Consensus       264 vL~~~~~iy~k~~~y~~a~~~al~Lnd~~~v~~i~~~~~d~l~~~QlAf~L~  315 (993)
+                      +-.-++..|.+++..++|+.+++-.+..+.+.+   -++.....+-..|.++
+T Consensus       203 lv~~iv~~~l~hn~E~~AvDlLlEi~~i~~L~~---~vd~~n~~rv~~YL~s  251 (993)
+T sp|P38764|RPN1  203 LCLDIVPYFLKHNGEEDAVDLLLEIESIDKLPQ---FVDENTFQRVCQYMVA  251 (993)
+T ss_pred             HHHHHHHhhhccCCcchhHHHHhhhhhhhhhhh---hcCccchHHHHHHHHh
+Confidence            444455667778888888888885544433333   3333334444444433
+
+
+No 9
+>sp|P53886|APC1_YEAST Anaphase-promoting complex subunit 1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=APC1 PE=1 SV=2
+Probab=97.56  E-value=3.1e-08  Score=123.98  Aligned_cols=238  Identities=17%  Similarity=0.207  Sum_probs=161.8  Template_Neff=6.100
+
+Q sp|P38764|RPN1  383 SSFVNGFLNLGYCNDKLIVD-----NDNWVYKTKGD--GMTSAVASIGSIYQWNLD--GLQQLDKYLYVDEPEVKAGALL  453 (993)
+Q Consensus       383 ~~~~naf~naG~~~D~~l~~-----~~~wl~k~~~w--~~fsa~AslGli~~~~~~--gl~~l~~yl~~~~~~~~aGaLl  453 (993)
+                      ....++.+|.|+....-+..     +..|+..++.-  .--+|++-+|+-..||..  ....+.+||.........|.|+
+T Consensus      1005 ~~~~W~~FHnGVAaGL~i~~~~~~i~~sWI~~nkP~e~~~~haGfLlgLGLnGhLk~L~~~~i~~YL~~~h~~tsiGlLL 1084 (1748)
+T sp|P53886|APC1 1005 DIVEWGQFHAGVSSGLRISKKATGITGSWIAFNKPKELDAYHGGFLLGLGLNGHLKNLEEWHIYNYLSPRNTHISIGLLL 1084 (1748)
+T ss_pred             CcCchhhhHHHHHhhcccCCCCCCCChhhhhccCCCCCchhhHHHHHHHhhcCCCCCccHHHHHHhcCCCCchhHHHHHH
+Confidence            45678888888766655542     37899877643  355888888888888885  4557899999888888999999
+
+
+Q sp|P38764|RPN1  454 GIGISASGVHDGEVEPALLLLQDY----VTN------PDTKISSAAILGLGIAFAGSKNDEVLGLLLPIAAS-----TD-  517 (993)
+Q Consensus       454 ALGL~~~g~~~~e~d~a~~~L~~~----l~~------~~~~v~~Ga~LGLGla~~Gt~~~~v~~~L~~~l~d-----~d-  517 (993)
+                      |+|..+.|..+.   .+...|.-|    +-.      -...++.+|++|||+.|+||++..+.+.|...+..     ++ 
+T Consensus      1085 GlaaS~~GT~D~---~ltklLsvHi~aLLP~~s~dL~i~~~vQtAAL~GlGLLy~gS~~r~mse~LL~ei~~~~~~~~e~ 1161 (1748)
+T sp|P53886|APC1 1085 GMSSSMKGSMDS---KLIKVISVHLVAFLPSGSSDLNIDLKLQTAGIIGMGMLYLNSRHKRMSDSIFAQLVSLLNVNDEM 1161 (1748)
+T ss_pred             HhhhhhcCCCCh---hHHhHHHHhhhhcCCCCCCCCCCchhhHHHHHHHHHHHhcCCCCchHHHHHHHHHhhccCCCccc
+Confidence            999888877652   223343332    211      24789999999999999999988888877664411     10 
+
+
+Q sp|P38764|RPN1  518 -LPIETAAMASLALAHVFVGTCNG---------------------------------DITTSIMDNFLERT-A--I-ELK  559 (993)
+Q Consensus       518 -~~~~v~~aA~lalGLi~~Gs~~~---------------------------------~~a~~lL~~l~~~~-~--~-~~~  559 (993)
+                       ..-..+.+|++|||||++|.++.                                 ...+.+ ..+.... .  . ...
+T Consensus      1162 ~~rE~Y~LaAGlALGLI~LG~G~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~L-~~~~~~~~d~~~~~i~ 1240 (1748)
+T sp|P53886|APC1 1162 VADEEYRLAAGISLGLINLGAGQTKLRKWDSSLLGLGDDLPEDVYDSSDVEQNVMYEDLTTKL-LEIVTSTYDVENDWIP 1240 (1748)
+T ss_pred             ccchHHHHHHHHHHHHHHhccCCccccccccccccCCCCCCCccCCCcccccccchhhhHHhh-hhccccccccCCCCCC
+Confidence             11237889999999999999873                                 234443 3332221 1  1 124
+
+
+Q sp|P38764|RPN1  560 TDWVRFLALALGILYMGQGEQVDD---------V-L--ET-------I---------------------SAI--------  591 (993)
+Q Consensus       560 e~~~r~~~LgLgLv~lGr~e~a~~---------~-l--e~-------L---------------------~~~--------  591 (993)
+                      +....++.|||||+|++.++.+-+         . .  +.       +                     ..+        
+T Consensus      1241 ~~t~~gA~lALGLmyLkT~n~~IA~~L~ip~t~~~~~l~~~RPD~lllR~LA~~LImWd~I~~~~~wI~~~lp~~~~~~~ 1320 (1748)
+T sp|P53886|APC1 1241 ENSQIGAVIAIMFLFLKSNNFGISNMLKVDLKEILKANINTRPELLMYREWASNMILWEFIGDDLSFIMKDVDIGVKFSE 1320 (1748)
+T ss_pred             ccCCHHHHHHHHHHHcCCCCHhhhhccCCCchhhhhhhccCChHHHHHHHHHHHHHHhcCccccHHHHHhhccccccccc
+Confidence            557788888999999888764421         0 0  00       0                     000        
+
+
+Q sp|P38764|RPN1  592 ------EHPMTSAIEVLVGSCAYTGTGDVLLIQDLLHRL  624 (993)
+Q Consensus       592 ------~~~~~r~~~~~~~~~aYagTgn~~~iq~lL~~~  624 (993)
+                            .....+.|+++++|+.|+||||..+.+.|++.+
+T Consensus      1321 ~~~d~~~~~~IiAGaclALGLkyAGT~n~~A~~~Ll~~l 1359 (1748)
+T sp|P53886|APC1 1321 LNTDLLPIYYTMAGRILAMGIRFASTGNLKIRNILLSLV 1359 (1748)
+T ss_pred             cccccchHHHHHHHHHHHHHHHhcCCCChHHHHHHHHHH
+Confidence                  111456899999999999999999999888776
+
+
+No 10
+>sp|P32565|RPN2_YEAST 26S proteasome regulatory subunit RPN2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=RPN2 PE=1 SV=4
+Probab=97.10  E-value=4e-07  Score=109.58  Aligned_cols=88  Identities=13%  Similarity=0.126  Sum_probs=45.7  Template_Neff=7.700
+
+Q sp|P38764|RPN1  522 TAAMASLALAHVFVGTCNGDITTSIMDNFLERTAIELKTDWVRFLALALGILYMGQGEQV----DDVLETISA-----IE  592 (993)
+Q Consensus       522 v~~aA~lalGLi~~Gs~~~~~a~~lL~~l~~~~~~~~~e~~~r~~~LgLgLv~lGr~e~a----~~~le~L~~-----~~  592 (993)
+                      ++.+|+++||+++.|+++.+++.. |..+.+++    .+..++.+.+|||++..+..+..    ..++..|..     ..
+T Consensus       617 VR~~Aa~ALg~~~~g~~~~~ai~~-L~~ll~D~----d~~VR~~Ai~ALg~i~~~~~~~~~~~v~~l~~~L~~~~~~~~~  691 (945)
+T sp|P32565|RPN2  617 VRCGTAFALGIACAGKGLQSAIDV-LDPLTKDP----VDFVRQAAMIALSMILIQQTEKLNPQVADINKNFLSVITNKHQ  691 (945)
+T ss_pred             hHHHHHHHHHHHhccCChHHHHHH-HHHhhcCC----chhHHHHHHHHHHHhhccCcccchHHHHHHHHHHHHhhcCCCc
+Confidence            566666666666666666555544 34444332    22344455566666665432211    122333321     23
+
+
+Q sp|P38764|RPN1  593 HPMTSAIEVLVGSCAYTGTGDV  614 (993)
+Q Consensus       593 ~~~~r~~~~~~~~~aYagTgn~  614 (993)
+                      ++..|+++.+++|+.++|.|+.
+T Consensus       692 d~~~r~~a~lAlGll~~Ggg~~  713 (945)
+T sp|P32565|RPN2  692 EGLAKFGACVAQGIMNAGGRNV  713 (945)
+T ss_pred             chhhhHHHHHHHHHHhcCCCeE
+Confidence            4566666666666666666664
+
+
+No 11
+>sp|P53886|APC1_YEAST Anaphase-promoting complex subunit 1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=APC1 PE=1 SV=2
+Probab=96.31  E-value=1.1e-05  Score=100.20  Aligned_cols=67  Identities=16%  Similarity=0.271  Sum_probs=49.0  Template_Neff=6.100
+
+Q sp|P38764|RPN1  484 KISSAAILGLGIAFAGSKNDEVLGLLLPIAAST-------D-LPI----------ETAAMASLALAHVFVGTCNGDITTS  545 (993)
+Q Consensus       484 ~v~~Ga~LGLGla~~Gt~~~~v~~~L~~~l~d~-------d-~~~----------~v~~aA~lalGLi~~Gs~~~~~a~~  545 (993)
+                      .++.|+|++||+.|+||+++++.+.|...+...       . ...          ......++|+|+||.||||-++...
+T Consensus      1330 ~IiAGaclALGLkyAGT~n~~A~~~Ll~~ld~fl~~~~~~~~~~~d~~l~~~~i~~~l~v~~lsLslVMAGTGDlevlR~ 1409 (1748)
+T sp|P53886|APC1 1330 YTMAGRILAMGIRFASTGNLKIRNILLSLVDKFLPLYQYPGKQNLDFRLTISVINVLTNVIVVSLSMVMCASGDLEVLRR 1409 (1748)
+T ss_pred             HHHHHHHHHHHHHhcCCCChHHHHHHHHHHHHhhhhhcCCCCCCccchhhHHHHHHHHHHHHHHHHHHHhccCcHHHHHH
+Confidence            689999999999999999999999888754110       0 000          1123468999999999999987654
+
+
+Q sp|P38764|RPN1  546 IMDNFL  551 (993)
+Q Consensus       546 lL~~l~  551 (993)
+                       +..+-
+T Consensus      1410 -lR~L~ 1414 (1748)
+T sp|P53886|APC1 1410 -VKYLH 1414 (1748)
+T ss_pred             -HHHHH
+Confidence             44443
+
+
+No 12
+>sp|P53886|APC1_YEAST Anaphase-promoting complex subunit 1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=APC1 PE=1 SV=2
+Probab=95.69  E-value=6.5e-05  Score=93.09  Aligned_cols=94  Identities=11%  Similarity=0.056  Sum_probs=60.9  Template_Neff=6.100
+
+Q sp|P38764|RPN1  772 IRRMVPLAMGIVSVSDPQMKVFDTLTRFS-------HDADLEVSMNSIFAMGLCGAGTNNARLAQLLRQLASYY-----S  839 (993)
+Q Consensus       772 Vr~gaalALGl~~Agt~~~~Ai~~L~~ll-------~D~~~~Vr~~Ai~ALg~V~agt~n~~v~~~lr~L~~~~-----~  839 (993)
+                      ...||++|||++|.+|++..+.+.|..-.       ....|++....++|.++||-..-.+...=+.+++-...     .
+T Consensus      1243 t~~gA~lALGLmyLkT~n~~IA~~L~ip~t~~~~~l~~~RPD~lllR~LA~~LImWd~I~~~~~wI~~~lp~~~~~~~~~ 1322 (1748)
+T sp|P53886|APC1 1243 SQIGAVIAIMFLFLKSNNFGISNMLKVDLKEILKANINTRPELLMYREWASNMILWEFIGDDLSFIMKDVDIGVKFSELN 1322 (1748)
+T ss_pred             CCHHHHHHHHHHHcCCCCHhhhhccCCCchhhhhhhccCChHHHHHHHHHHHHHHhcCccccHHHHHhhccccccccccc
+Confidence            47899999999999999999888774422       12344555667788888886653221111112221110     0
+
+
+Q sp|P38764|RPN1  840 RE--Q--DALFITRLAQGLLHLGKGTMTMD  865 (993)
+Q Consensus       840 k~--~--~~~~~~~~A~Gll~lGgg~~Tls  865 (993)
+                      .+  +  ....|+.+|+||-++|.|+....
+T Consensus      1323 ~d~~~~~~IiAGaclALGLkyAGT~n~~A~ 1352 (1748)
+T sp|P53886|APC1 1323 TDLLPIYYTMAGRILAMGIRFASTGNLKIR 1352 (1748)
+T ss_pred             cccchHHHHHHHHHHHHHHHhcCCCChHHH
+Confidence            01  1  25789999999999999986543
+
+
+No 13
+>sp|P31383|2AAA_YEAST Protein phosphatase PP2A regulatory subunit A OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=TPD3 PE=1 SV=3
+Probab=84.73  E-value=0.045  Score=57.95  Aligned_cols=87  Identities=17%  Similarity=0.200  Sum_probs=55.3  Template_Neff=12.700
+
+Q sp|P38764|RPN1  733 VDELAYAVLGIALIALGEDIGKEMSLRHFGHLMHYGNEHIRRMVPLAMGIVSVSDPQ----------MKVFDTLTRFSHD  802 (993)
+Q Consensus       733 Vr~~Av~aLG~al~~~~~~~~~~~~~~~l~~L~~~~~~~Vr~gaalALGl~~Agt~~----------~~Ai~~L~~ll~D  802 (993)
+                      +|..++.+++...-..+...........+..++.+.++.||..++.+|+.++...+.          ..+++.|..++.|
+T Consensus       534 ~r~~~~~~l~~l~~~~~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~l~~l~~~~~~~~~~~~~~~~~~~~~~l~~~l~d  613 (635)
+T sp|P31383|2AAA  534 SRFTILSALTTLVPVVSLDVVTEQLLPFISHLADDGVPNIRFNVAKSYAVIVKVLIKDEAKYDALIKNTILPSLQTLCQD  613 (635)
+T ss_pred             HHHHHHHHHHHhhcccChhhhhHhHHHHHHHHhcCCChHHHHHHHHHHHHHHHHhhhhhhhhhHHHHhhhHHHHHhhcCC
+Confidence            555566665543322222111112223344555667889999999999988654432          4556677788889
+
+
+Q sp|P38764|RPN1  803 ADLEVSMNSIFAMGLCG  819 (993)
+Q Consensus       803 ~~~~Vr~~Ai~ALg~V~  819 (993)
+                      .++.||..|+.+++.+.
+T Consensus       614 ~~~~vr~~a~~~l~~l~  630 (635)
+T sp|P31383|2AAA  614 EDVDVKYFAKKSLAECQ  630 (635)
+T ss_pred             CCccHHHHHHHHHHHHH
+Confidence            99999999988887664
+
+
+No 14
+>sp|P31383|2AAA_YEAST Protein phosphatase PP2A regulatory subunit A OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=TPD3 PE=1 SV=3
+Probab=83.90  E-value=0.052  Score=57.38  Aligned_cols=105  Identities=13%  Similarity=0.060  Sum_probs=56.8  Template_Neff=12.700
+
+Q sp|P38764|RPN1  433 LQQLDKYLYVDEPEVKAGALLGIGISASGVH-DGEVEPALLLLQDYVTNPDTKISSAAILGLGIAFAGSKNDEVL----G  507 (993)
+Q Consensus       433 l~~l~~yl~~~~~~~~aGaLlALGL~~~g~~-~~e~d~a~~~L~~~l~~~~~~v~~Ga~LGLGla~~Gt~~~~v~----~  507 (993)
+                      +..+.+.+.+.+...+..++.+++-+..... ...+...+..+.+.+.+.+..++..++..++........+...    .
+T Consensus        39 l~~l~~~l~~~~~~~r~~a~~~l~~l~~~~~~~~~~~~l~~~l~~~~~~~~~~v~~~~~~~l~~l~~~~~~~~~~~~l~~  118 (635)
+T sp|P31383|2AAA   39 LALLMDELKHDDIANRVEAMKKLDTIALALGPERTRNELIPFLTEVAQDDEDEVFAVLAEQLGKFVPYIGGPQYATILLP  118 (635)
+T ss_pred             HHHHHhhcccCCHHHHHHHHHHHHHHHHHhCChhHHHHHHHHHHHhcCCChHHHHHHHHHhhhhhhhccCChhHHHhHHH
+Confidence            4445555666666677777777776643322 1122344555566666666677777777776544322222223    3
+
+
+Q sp|P38764|RPN1  508 LLLPIAASTDLPIETAAMASLALAHVFVGTCN  539 (993)
+Q Consensus       508 ~L~~~l~d~d~~~~v~~aA~lalGLi~~Gs~~  539 (993)
+                      .|..++.+.  ...++.+|+-+++-+.-..+.
+T Consensus       119 ~l~~l~~~~--~~~vr~~a~~~l~~l~~~~~~  148 (635)
+T sp|P31383|2AAA  119 VLEILASAE--ETLVREKAVDSLNNVAQELSQ  148 (635)
+T ss_pred             HHHHhccCc--hHHHHHHHHHHHHHHHhhcCh
+Confidence            333333322  234788888888766554333
+
+
+No 15
+>sp|P36000|AP1B1_YEAST AP-1 complex subunit beta-1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=APL2 PE=1 SV=1
+Probab=83.68  E-value=0.054  Score=60.95  Aligned_cols=86  Identities=14%  Similarity=0.113  Sum_probs=64.7  Template_Neff=8.700
+
+Q sp|P38764|RPN1  732 IVDELAYAVLGIALIALGEDIGKEMSLRHFGHLMHYGNEHIRRMVPLAMGIVSVSDPQ----MKVFDTLTRFSHDADLEV  807 (993)
+Q Consensus       732 ~Vr~~Av~aLG~al~~~~~~~~~~~~~~~l~~L~~~~~~~Vr~gaalALGl~~Agt~~----~~Ai~~L~~ll~D~~~~V  807 (993)
+                      .||..|+.+||.    ++.+...+.....+..++.+.+|.||+.|+++++.++--.+.    ...++.|..++.|.++.|
+T Consensus       114 ~vR~lALr~L~~----i~~~~~~~~l~~~L~~~L~D~~p~VRk~Aa~al~kl~~~~p~~~~~~~~i~~L~~lL~D~d~~V  189 (726)
+T sp|P36000|AP1B  114 LIRCMAIRTMSM----IRVDKILEYIETPLRRTLHDDNAYVRKTAVICVAKLFQLNKDLCVELGVVEDLVNALDDSNPLV  189 (726)
+T ss_pred             HHHHHHHHHHhc----CChHHHHHHHHHHHHHhcCCCChHHHHHHHHHHHHHHhhCccccccccHHHHHHHhccCCChHH
+Confidence            389999999996    433311122233455566678999999999999999765443    257888999999999999
+
+
+Q sp|P38764|RPN1  808 SMNSIFAMGLCGAG  821 (993)
+Q Consensus       808 r~~Ai~ALg~V~ag  821 (993)
+                      +.+|+.+|+-+...
+T Consensus       190 ~~~Al~aL~~I~~~  203 (726)
+T sp|P36000|AP1B  190 IANATAALIEIHNM  203 (726)
+T ss_pred             HHHHHHHHHHHHhc
+Confidence            99999999888643
+
+
+No 16
+>sp|P31383|2AAA_YEAST Protein phosphatase PP2A regulatory subunit A OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=TPD3 PE=1 SV=3
+Probab=82.28  E-value=0.068  Score=56.37  Aligned_cols=91  Identities=12%  Similarity=0.002  Sum_probs=63.2  Template_Neff=12.700
+
+Q sp|P38764|RPN1  733 VDELAYAVLGIALIALGEDIGKEMSLRHFGHLMHYGNEHIRRMVPLAMGIVSVSDPQ----MKVFDTLTRFSHDADLEVS  808 (993)
+Q Consensus       733 Vr~~Av~aLG~al~~~~~~~~~~~~~~~l~~L~~~~~~~Vr~gaalALGl~~Agt~~----~~Ai~~L~~ll~D~~~~Vr  808 (993)
+                      ||..++.+|+...-..+.......+...+..++.+.++.||..++.+|+.++...+.    ...++.|..++.|.++.||
+T Consensus       415 vr~~~~~~l~~l~~~~~~~~~~~~~~~~l~~~~~~~~~~vr~~~~~~l~~l~~~~~~~~~~~~~~~~l~~~l~d~~~~vr  494 (635)
+T sp|P31383|2AAA  415 VRLNIIASLKVVNDVIGIELLSDSLLPAITELAKDVNWRVRMAIIEYIPILAEQLGMQFFDQQLSDLCLSWLWDTVYSIR  494 (635)
+T ss_pred             HHHHHHHhhhhhhhhhchHhhhhhHHHHHHHHhcCCChHHHHHHHHHHHHHHHhcChhchHHHHHHHHHHhhcCChHHHH
+Confidence            788888888864443332211122333444555667889999999999988655443    3466778888899999999
+
+
+Q sp|P38764|RPN1  809 MNSIFAMGLCGAGTN  823 (993)
+Q Consensus       809 ~~Ai~ALg~V~agt~  823 (993)
+                      ..|+.+++.+....+
+T Consensus       495 ~~a~~~l~~l~~~~~  509 (635)
+T sp|P31383|2AAA  495 EAAVNNLKRLTEIFG  509 (635)
+T ss_pred             HHHHHHHHHHHHHcC
+Confidence            999999988876554
+
+
+No 17
+>sp|P46682|AP3B_YEAST AP-3 complex subunit beta OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=APL6 PE=1 SV=2
+Probab=80.96  E-value=0.083  Score=60.10  Aligned_cols=85  Identities=19%  Similarity=0.172  Sum_probs=65.0  Template_Neff=8.200
+
+Q sp|P38764|RPN1  732 IVDELAYAVLGIALIALGEDIGKEMSLRHFGHLMHYGNEHIRRMVPLAMGIVSVSDPQ---MKVFDTLTRFSHDADLEVS  808 (993)
+Q Consensus       732 ~Vr~~Av~aLG~al~~~~~~~~~~~~~~~l~~L~~~~~~~Vr~gaalALGl~~Agt~~---~~Ai~~L~~ll~D~~~~Vr  808 (993)
+                      .||..|+.+|+.    +..+.....+...+..++.+.+|.||+.|++||+.+|--.+.   ...++.|..++.|.++.|+
+T Consensus       133 ~vR~~ALr~L~~----i~~~~i~~~l~~~I~~~l~d~s~~VRk~Aa~al~kl~~~~p~~~~~~~~~~L~~lL~D~d~~V~  208 (809)
+T sp|P46682|AP3B  133 ELRCFALSALSD----MKMSSLAPIILHTVKKLVTDPSAMVRGEVALAIIKLYRAGKNDYHEELLDILKELMADTDPKVI  208 (809)
+T ss_pred             HHHHHHHHHHHh----ccccchHHHHHHHHHHHccCCChHHHHHHHHHHHHHHHhCcccchHHHHHHHHHHhcCCChhHH
+Confidence            389999999985    333211123334566667778999999999999998876553   5678889999999999999
+
+
+Q sp|P38764|RPN1  809 MNSIFAMGLCGA  820 (993)
+Q Consensus       809 ~~Ai~ALg~V~a  820 (993)
+                      .+|+.++.-+..
+T Consensus       209 ~aA~~~l~ei~~  220 (809)
+T sp|P46682|AP3B  209 SCAVLAYKECYA  220 (809)
+T ss_pred             HHHHHHHHHhhh
+Confidence            999998887764
+
+
+No 18
+>sp|P39526|LAA1_YEAST AP-1 accessory protein LAA1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=LAA1 PE=1 SV=1
+Probab=80.00  E-value=0.095  Score=64.73  Aligned_cols=86  Identities=16%  Similarity=0.194  Sum_probs=68.6  Template_Neff=6.600
+
+Q sp|P38764|RPN1  732 IVDELAYAVLGIALIALGE--------DIGKEMSLRHFGHLMHYGNEHIRRMVPLAMGIVSVSDPQ----MKVFDTLTRF  799 (993)
+Q Consensus       732 ~Vr~~Av~aLG~al~~~~~--------~~~~~~~~~~l~~L~~~~~~~Vr~gaalALGl~~Agt~~----~~Ai~~L~~l  799 (993)
+                      .+|+.|..++|+..--.++        ....+++...++...+..+|+.|.|.|+|||-++-..|.    ..+++.|..+
+T Consensus       944 ~lr~~aaEalG~L~~l~~~~~~~~~~~~~~~~~i~~li~~iv~~~dP~~Rag~aLaLg~I~r~vGg~a~l~tiv~vL~sL 1023 (2014)
+T sp|P39526|LAA1  944 FLTKIKADCVGLLTAAIARTLGDEERQKFLTEQSRIFIKNVADMDEPYLRMFHVLSLATIFKYNSQYANFEEYFDVIFAL 1023 (2014)
+T ss_pred             HHHHHHHHHHHHHHHHHhcccCchhhHHHHHHHHHHHHhhhhcCCCchhhHHHHHHHHHHHHHcCCCCchhHHHHHHHHH
+Confidence            4899999999985333333        111234555677788888999999999999999877765    6778889999
+
+
+Q sp|P38764|RPN1  800 SHDADLEVSMNSIFAMGL  817 (993)
+Q Consensus       800 l~D~~~~Vr~~Ai~ALg~  817 (993)
+                      .+|+.|.|+..|..||+.
+T Consensus      1024 ~~DphP~Vh~WaL~aL~~ 1041 (2014)
+T sp|P39526|LAA1 1024 MRDPHPVVHSWSLKAMHI 1041 (2014)
+T ss_pred             hcCCCchHHHHHHHHHHH
+Confidence            999999999999999997
+
+
+No 19
+>sp|P47120|DOHH_YEAST Deoxyhypusine hydroxylase OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=LIA1 PE=1 SV=1
+Probab=77.87  E-value=0.12  Score=49.91  Aligned_cols=78  Identities=17%  Similarity=0.218  Sum_probs=56.0  Template_Neff=11.600
+
+Q sp|P38764|RPN1  733 VDELAYAVLGIALIALGEDIGKEMSLRHFGHLMHY--GNEHIRRMVPLAMGIVSVSDPQMKVFDTLTRFSHDADLEVSMN  810 (993)
+Q Consensus       733 Vr~~Av~aLG~al~~~~~~~~~~~~~~~l~~L~~~--~~~~Vr~gaalALGl~~Agt~~~~Ai~~L~~ll~D~~~~Vr~~  810 (993)
+                      +|..++.+||.    +++.    .+...+..++++  .++.||..++.+||..    +..++++.|..++.|.++.||..
+T Consensus       235 ~r~~a~~~l~~----~~~~----~~~~~l~~~l~~~~~~~~vr~~a~~~L~~~----~~~~~~~~L~~~l~~~~~~vr~~  302 (325)
+T sp|P47120|DOHH  235 FKHEIAYVFGQ----IGSP----AAVPSLIEVLGRKEEAPMVRHEAAEALGAI----ASPEVVDVLKSYLNDEVDVVRES  302 (325)
+T ss_pred             HHHHHHHHHHh----hCCc----ccHHHHHHHHhCCCCChHHHHHHHHHHHhc----CChhhHHHHHHHhcCCChHHHHH
+Confidence            77778877774    4432    122334444444  5778899999999887    66788888888888888888888
+
+
+Q sp|P38764|RPN1  811 SIFAMGLCGAGT  822 (993)
+Q Consensus       811 Ai~ALg~V~agt  822 (993)
+                      |+.+|+.+....
+T Consensus       303 a~~aL~~l~~~~  314 (325)
+T sp|P47120|DOHH  303 CIVALDMYDYEN  314 (325)
+T ss_pred             HHHHHhhcccCC
+Confidence            888888776543
+
+
+No 20
+>sp|P36000|AP1B1_YEAST AP-1 complex subunit beta-1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=APL2 PE=1 SV=1
+Probab=75.90  E-value=0.16  Score=56.86  Aligned_cols=100  Identities=13%  Similarity=0.085  Sum_probs=67.3  Template_Neff=8.700
+
+Q sp|P38764|RPN1  432 GLQQLDKYLYVDEPEVKAGALLGIGISASGVHDGEVEPALLLLQDYVTNPDTKISSAAILGLGIAFAGSKN----DEVLG  507 (993)
+Q Consensus       432 gl~~l~~yl~~~~~~~~aGaLlALGL~~~g~~~~e~d~a~~~L~~~l~~~~~~v~~Ga~LGLGla~~Gt~~----~~v~~  507 (993)
+                      ..+.+.+-+.+.++.+++.|+.++|-+..  .. -.+.....|...+.+.++.+|-.|+++++-.+.-.++    +.+.+
+T Consensus       100 ~intl~kdl~d~np~vR~lALr~L~~i~~--~~-~~~~l~~~L~~~L~D~~p~VRk~Aa~al~kl~~~~p~~~~~~~~i~  176 (726)
+T sp|P36000|AP1B  100 AVNTFITDAQDPNPLIRCMAIRTMSMIRV--DK-ILEYIETPLRRTLHDDNAYVRKTAVICVAKLFQLNKDLCVELGVVE  176 (726)
+T ss_pred             HHHHHHHhcCCCCHHHHHHHHHHHhcCCh--HH-HHHHHHHHHHHhcCCCChHHHHHHHHHHHHHHhhCccccccccHHH
+Confidence            35556777777789999999999998743  21 1123345566667777899999999999877754332    24556
+
+
+Q sp|P38764|RPN1  508 LLLPIAASTDLPIETAAMASLALAHVFVG  536 (993)
+Q Consensus       508 ~L~~~l~d~d~~~~v~~aA~lalGLi~~G  536 (993)
+                      .|..++.|.+  ..+..+|..+++-+.-.
+T Consensus       177 ~L~~lL~D~d--~~V~~~Al~aL~~I~~~  203 (726)
+T sp|P36000|AP1B  177 DLVNALDDSN--PLVIANATAALIEIHNM  203 (726)
+T ss_pred             HHHHhccCCC--hHHHHHHHHHHHHHHhc
+Confidence            6666665433  34778888888766543
+
+
+No 21
+>sp|Q08951|AP3D_YEAST AP-3 complex subunit delta OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=APL5 PE=1 SV=1
+Probab=73.80  E-value=0.19  Score=57.68  Aligned_cols=64  Identities=9%  Similarity=0.098  Sum_probs=40.5  Template_Neff=7.500
+
+Q sp|P38764|RPN1  760 HFGHLMHYGNEHIRRMVPLAMGIVSVSDPQ--MKVFDTLTRFSHDADLEVSMNSIFAMGLCGAGTN  823 (993)
+Q Consensus       760 ~l~~L~~~~~~~Vr~gaalALGl~~Agt~~--~~Ai~~L~~ll~D~~~~Vr~~Ai~ALg~V~agt~  823 (993)
+                      .+..++.+.++++|+.+..+|+.+....+.  .+..+.+...+.|.+..||..|+-.|..+....|
+T Consensus       318 ~L~~~L~s~d~nlry~aL~aL~~l~~~~p~~v~~~~~~Il~~L~D~D~sIR~~ALeLL~~l~~~~N  383 (932)
+T sp|Q08951|AP3D  318 RLHTFCDSQDPNLRYISCILFYKIGKINTDFISRFDQLIIRLLSDVDVSIRSKAIELVEGIVDEDN  383 (932)
+T ss_pred             HHHHHhcCCCchhHHHHHHHHHHHhhcChHHHHHHHHHHHHHhcCCCHHHHHHHHHHHHhcCCchh
+Confidence            344455556788888888887765322111  2345666777788888888877776665554443
+
+
+No 22
+>sp|P41810|COPB_YEAST Coatomer subunit beta OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=SEC26 PE=1 SV=2
+Probab=71.60  E-value=0.24  Score=57.16  Aligned_cols=85  Identities=12%  Similarity=0.060  Sum_probs=59.9  Template_Neff=8.700
+
+Q sp|P38764|RPN1  732 IVDELAYAVLGIALIALGEDIGKEMSLRHFGHLMHYGNEHIRRMVPLAMGIVSVSDPQ--MKVFDTLTR-FSHDADLEVS  808 (993)
+Q Consensus       732 ~Vr~~Av~aLG~al~~~~~~~~~~~~~~~l~~L~~~~~~~Vr~gaalALGl~~Agt~~--~~Ai~~L~~-ll~D~~~~Vr  808 (993)
+                      .+|..|+.+|+.    +.++...+.+.+.+...+.+.+++||+.|++|++.++--.++  ..+++.|.. ++.|.++.|+
+T Consensus       117 ~vR~~ALr~L~~----i~~~e~~~~l~~~I~~~L~d~~~~VRk~A~~al~~l~~~~~~~i~~~~~~l~~~Ll~d~d~~V~  192 (973)
+T sp|P41810|COPB  117 YIRGNTLRFLTK----LREAELLEQMVPSVLACLEYRHAYVRKYAILAVFSIFKVSEHLLPDAKEIINSFIVAETDPICK  192 (973)
+T ss_pred             chHHHHHHHHhc----cCChhhhHhHHHHHHHHhcCCChhhHHHHHHHHHHHhcCChhhhhhHHHHHHhhhhcCCCchhh
+Confidence            489999999986    444321122334455566678999999999999998753332  344555666 5689999999
+
+
+Q sp|P38764|RPN1  809 MNSIFAMGLCGA  820 (993)
+Q Consensus       809 ~~Ai~ALg~V~a  820 (993)
+                      .+|+.+|..+..
+T Consensus       193 ~~Al~~L~~i~~  204 (973)
+T sp|P41810|COPB  193 RNAFIGLAELDR  204 (973)
+T ss_pred             hhHHHHHHhhch
+Confidence            999888887753
+
+
+No 23
+>sp|P47120|DOHH_YEAST Deoxyhypusine hydroxylase OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=LIA1 PE=1 SV=1
+Probab=69.95  E-value=0.27  Score=47.17  Aligned_cols=79  Identities=16%  Similarity=0.198  Sum_probs=59.3  Template_Neff=11.600
+
+Q sp|P38764|RPN1  732 IVDELAYAVLGIALIALGEDIGKEMSLRHFGHLMHY--GNEHIRRMVPLAMGIVSVSDPQMKVFDTLTRFS-HDADLEVS  808 (993)
+Q Consensus       732 ~Vr~~Av~aLG~al~~~~~~~~~~~~~~~l~~L~~~--~~~~Vr~gaalALGl~~Agt~~~~Ai~~L~~ll-~D~~~~Vr  808 (993)
+                      +||..++.+||.    ++.+   ... ..+..++.+  .++.||..++.+||..    +..++++.|..++ .+.++.||
+T Consensus        76 ~~r~~a~~~l~~----~~~~---~~~-~~l~~~l~~~~~~~~vr~~a~~~L~~~----~~~~~~~~l~~~l~~~~~~~vr  143 (325)
+T sp|P47120|DOHH   76 LLKHEVAYVLGQ----TKNL---DAA-PTLRHVMLDQNQEPMVRHEAAEALGAL----GDKDSLDDLNKAAKEDPHVAVR  143 (325)
+T ss_pred             chHHHHHHHHhc----cCCc---chh-HHHHHHHhhcCCChhHHHHHHHHHHHh----CCcchHHHHHHHhcCCCChhHH
+Confidence            388889888885    4432   222 333344443  6789999999999988    6678889999988 68899999
+
+
+Q sp|P38764|RPN1  809 MNSIFAMGLCGAGT  822 (993)
+Q Consensus       809 ~~Ai~ALg~V~agt  822 (993)
+                      ..++.+|+.+....
+T Consensus       144 ~~a~~~L~~~~~~~  157 (325)
+T sp|P47120|DOHH  144 ETCELAINRINWTH  157 (325)
+T ss_pred             HHHHHHHHhhhccC
+Confidence            99999998876543
+
+
+No 24
+>sp|P27351|AP2B_YEAST AP-2 complex subunit beta OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=APL1 PE=1 SV=2
+Probab=64.77  E-value=0.42  Score=52.83  Aligned_cols=85  Identities=12%  Similarity=0.088  Sum_probs=60.9  Template_Neff=8.500
+
+Q sp|P38764|RPN1  732 IVDELAYAVLGIALIALGEDIGKEMSLRHFGHLMHYGN--EHIRRMVPLAMGIVSVSDPQ--MKVFDTLTRFS--HDADL  805 (993)
+Q Consensus       732 ~Vr~~Av~aLG~al~~~~~~~~~~~~~~~l~~L~~~~~--~~Vr~gaalALGl~~Agt~~--~~Ai~~L~~ll--~D~~~  805 (993)
+                      .||..|+.+||.    ++.+...+.+...+..++.+.+  +.||+.|+++++.+|-..+.  ...++.|..++  .|.++
+T Consensus       108 ~vR~lALr~L~~----i~~~~~~e~l~~~l~~~L~d~~~~~~VRk~A~~~l~kl~~~~~~~~~~~~~~L~~lL~~~D~~~  183 (700)
+T sp|P27351|AP2B  108 KLQIMALRTLVL----VPVKELSDQAFDCIISLVNHKSPPEQVTRTAIYALLDLDEIDHERVLGLSSILHDIVKAQSSSP  183 (700)
+T ss_pred             HHHHHHHHHHhc----CChhhhHHHHHHHHHHHhcCCCCchhhhHHHHHHHHHhcccChhhHHHHHHHHHHHHhcCCCCH
+Confidence            389999999985    5433111222334555565555  79999999999998765554  34667777777  58899
+
+
+Q sp|P38764|RPN1  806 EVSMNSIFAMGLCGA  820 (993)
+Q Consensus       806 ~Vr~~Ai~ALg~V~a  820 (993)
+                      .|+.+|+.+|.-+..
+T Consensus       184 ~V~~~a~~aL~ei~~  198 (700)
+T sp|P27351|AP2B  184 EVIVAALHTLYSIHE  198 (700)
+T ss_pred             hHHHHHHHHHHHHHh
+Confidence            999999999988873
+
+
+No 25
+>sp|P33892|GCN1_YEAST eIF-2-alpha kinase activator GCN1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=GCN1 PE=1 SV=1
+Probab=62.03  E-value=0.51  Score=60.00  Aligned_cols=88  Identities=11%  Similarity=-0.001  Sum_probs=46.1  Template_Neff=10.200
+
+Q sp|P38764|RPN1  733 VDELAYAVLGIALIALGEDIGKEMSLRHFGHLMHYGNEHIRRMVPLAMGIVSVSDPQ------MKVFDTLTRFSHDADLE  806 (993)
+Q Consensus       733 Vr~~Av~aLG~al~~~~~~~~~~~~~~~l~~L~~~~~~~Vr~gaalALGl~~Agt~~------~~Ai~~L~~ll~D~~~~  806 (993)
+                      ||..+..+++..+-..+........+.++ ..+.+.++.+|.+++.+|+.+....+.      ..++..|...+.|.++.
+T Consensus      1425 vR~aa~~~l~~l~~~~~~~~~~~ll~~L~-~~l~~~~~~vr~~a~~~L~~l~~~~~~~~~~~l~~il~~l~~~L~d~~~~ 1503 (2672)
+T sp|P33892|GCN1 1425 VRDATARATKAIMAHTTGYGVKKLIPVAV-SNLDEIAWRTKRGSVQLLGNMAYLDPTQLSASLSTIVPEIVGVLNDSHKE 1503 (2672)
+T ss_pred             HHHHHHHHHHHHHHhcChhhHHHHHHHHH-HhcCCCCHHHHHHHHHHHHHHhhcChhhHHHHHHHHHHHHHHHHcCCChH
+Confidence            56666666664333332211111122222 222334566777777777766543332      34555566666777777
+
+
+Q sp|P38764|RPN1  807 VSMNSIFAMGLCGAG  821 (993)
+Q Consensus       807 Vr~~Ai~ALg~V~ag  821 (993)
+                      ||..|..+|+.+...
+T Consensus      1504 Vr~~a~~~L~~l~~~ 1518 (2672)
+T sp|P33892|GCN1 1504 VRKAADESLKRFGEV 1518 (2672)
+T ss_pred             HHHHHHHHHHHHHHh
+Confidence            777776666666543
+
+
+No 26
+>sp|Q08951|AP3D_YEAST AP-3 complex subunit delta OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=APL5 PE=1 SV=1
+Probab=56.71  E-value=0.72  Score=52.46  Aligned_cols=85  Identities=15%  Similarity=0.085  Sum_probs=59.0  Template_Neff=7.500
+
+Q sp|P38764|RPN1  733 VD-ELAYAVLGIALIALGEDIGKEMSLRHFGHLMHYGNEHIRRMVPLAMGIVSVSDPQ--MKVFDTLTRFSHDADLEVSM  809 (993)
+Q Consensus       733 Vr-~~Av~aLG~al~~~~~~~~~~~~~~~l~~L~~~~~~~Vr~gaalALGl~~Agt~~--~~Ai~~L~~ll~D~~~~Vr~  809 (993)
+                      +| ..|+.+|+.    +..+.-...+...+..++.+.+|+||+.|++||+.+|.-.+.  ..+++.|..++.|.++.|+.
+T Consensus       141 ~r~~lAL~~Ls~----i~~~ela~~l~~~V~~lL~~~~p~VRKkAilaL~kl~~~~pe~l~~~~~~L~~~L~D~D~~V~~  216 (932)
+T sp|Q08951|AP3D  141 VKVGIALSGLST----IITPSLARDIADDLFTMLNSTRPYIRKKAITALFKVFLQYPEALRDNFDKFVSKLDDDDISVVS  216 (932)
+T ss_pred             HHHHHHHHHHHh----cCChhhHHHHHHHHHHhhcCCChhHHHHHHHHHHHHHhhChhchhhhHHHHHHhhcCCchhHHH
+Confidence            44 667777764    333211112223444556667999999999999998765443  35778888889999999999
+
+
+Q sp|P38764|RPN1  810 NSIFAMGLCGAG  821 (993)
+Q Consensus       810 ~Ai~ALg~V~ag  821 (993)
+                      +|+.++..+...
+T Consensus       217 aav~vL~el~~~  228 (932)
+T sp|Q08951|AP3D  217 AAVSVICELSKK  228 (932)
+T ss_pred             HHHHHHHHHhhc
+Confidence            998888877644
+
+
+No 27
+>sp|Q06680|CND3_YEAST Condensin complex subunit 3 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=YCG1 PE=1 SV=2
+Probab=55.50  E-value=0.78  Score=52.67  Aligned_cols=75  Identities=11%  Similarity=-0.029  Sum_probs=55.8  Template_Neff=7.000
+
+Q sp|P38764|RPN1  733 VDELAYAVLGIALIALGEDIG-------------KEMSLRHFGHLMHYGNEHIRRMVPLAMGIVSVSDPQMKVFDTLTRF  799 (993)
+Q Consensus       733 Vr~~Av~aLG~al~~~~~~~~-------------~~~~~~~l~~L~~~~~~~Vr~gaalALGl~~Agt~~~~Ai~~L~~l  799 (993)
+                      ||.+|+.+||.    +.+...             ......++..+..+.++.||++|..+|+.      +...++.|...
+T Consensus       174 VR~qAv~aL~~----lq~~~~~~~~~~~~~~~~~~~v~~~Ll~~l~~D~s~eVR~aal~~L~~------~~~tl~~ileR  243 (1035)
+T sp|Q06680|CND3  174 VRIQAVFCLTK----FQDEEQTEHLTELSDNEENFEATRTLVASIQNDPSAEVRRAAMLNLIN------DNNTRPYILER  243 (1035)
+T ss_pred             hHHHHHHHHHH----hcCcchhhhhccccccccchHHHHHHHHHhcCCCCHHHHHHHHHhccc------CcchHHHHHHH
+Confidence            99999999996    333211             11122344455567799999999999986      45778888888
+
+
+Q sp|P38764|RPN1  800 SHDADLEVSMNSIFAMGL  817 (993)
+Q Consensus       800 l~D~~~~Vr~~Ai~ALg~  817 (993)
+                      +.|.++.||..|...++-
+T Consensus       244 ~rD~d~~VRr~ay~~l~~  261 (1035)
+T sp|Q06680|CND3  244 ARDVNIVNRRLVYSRILK  261 (1035)
+T ss_pred             hcCCChHHHHHHHHHHHh
+Confidence            999999999999877665
+
+
+No 28
+>sp|P47120|DOHH_YEAST Deoxyhypusine hydroxylase OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=LIA1 PE=1 SV=1
+Probab=53.61  E-value=0.88  Score=43.13  Aligned_cols=57  Identities=9%  Similarity=0.029  Sum_probs=43.6  Template_Neff=11.600
+
+Q sp|P38764|RPN1  761 FGHLMHYGNEH--IRRMVPLAMGIVSVSDPQMKVFDTLTRFSHDADLEVSMNSIFAMGLCGAG  821 (993)
+Q Consensus       761 l~~L~~~~~~~--Vr~gaalALGl~~Agt~~~~Ai~~L~~ll~D~~~~Vr~~Ai~ALg~V~ag  821 (993)
+                      +..++.+.++.  ||..++.+||..    +..++++.|..++.+.++.||..++.+|+.+...
+T Consensus       191 l~~~l~~~~~~~~vr~~a~~~l~~~----~~~~~~~~L~~~l~~~~~~~r~~a~~~l~~~~~~  249 (325)
+T sp|P47120|DOHH  191 LQALLNDPKQPLFQRYRAMFRLRDI----GTDEAILALATGFSAESSLFKHEIAYVFGQIGSP  249 (325)
+T ss_pred             HHHHhcCCCCChHHHHHHHHHHHHh----CCHHHHHHHHhhCCCcCHHHHHHHHHHHHhhCCc
+Confidence            33444444444  899999999987    5667888888988888899999999888877644
+
+
+No 29
+>sp|P36000|AP1B1_YEAST AP-1 complex subunit beta-1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=APL2 PE=1 SV=1
+Probab=51.93  E-value=0.98  Score=49.71  Aligned_cols=102  Identities=15%  Similarity=0.073  Sum_probs=57.8  Template_Neff=8.700
+
+Q sp|P38764|RPN1  733 VDELAYAVLGIALIALGEDIG---KEMSLRHFGHLMHYGNEHIRRMVPLAMGIVSVSDPQMKVFDT----LTRFSHDADL  805 (993)
+Q Consensus       733 Vr~~Av~aLG~al~~~~~~~~---~~~~~~~l~~L~~~~~~~Vr~gaalALGl~~Agt~~~~Ai~~----L~~ll~D~~~  805 (993)
+                      |+..|+.+++...-.++....   ...+...+..++. .++.||+.+.-+|+.+ + ...++++..    +...+ +.+.
+T Consensus       269 V~~~Aik~l~~l~~~~~~~~~~~~~~~i~~~L~~Lls-~~~evr~~aL~~L~~l-~-~~~p~~~~~~~~~~~~~~-~d~~  344 (726)
+T sp|P36000|AP1B  269 VVLATIKVIVRNLPQIEYSSNSLIMKRLSSAFVSLMS-TPPEMQYVALKNIRII-L-EKYPELLTKELRIFYVKF-NDPL  344 (726)
+T ss_pred             HHHHHHHHHHHhCccccccchHHHHHHHHHHHHHHcC-CChhhHHHHHHHHHHH-H-hhChHhhhhhhhhheecc-CCcH
+Confidence            888888888864333321100   0112222333443 4789999999999887 1 112344332    22222 3457
+
+
+Q sp|P38764|RPN1  806 EVSMNSIFAMGLCGAGTNNARLAQLLRQLASYY  838 (993)
+Q Consensus       806 ~Vr~~Ai~ALg~V~agt~n~~v~~~lr~L~~~~  838 (993)
+                      .||..++-.|..+....+-..+..++..|..|.
+T Consensus       345 ~Ir~~al~iL~~l~~~~n~~~v~~il~eL~~y~  377 (726)
+T sp|P36000|AP1B  345 YVKLEKIDILVRLVDPSNLKQCTLLLTELKEYA  377 (726)
+T ss_pred             HHHHHHHHHHHHhcCccchhhHHHHHHHHHHHh
+Confidence            899999998888887665443444555555443
+
+
+No 30
+>sp|P32333|MOT1_YEAST TATA-binding protein-associated factor MOT1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=MOT1 PE=1 SV=1
+Probab=49.79  E-value=1.1  Score=54.69  Aligned_cols=88  Identities=13%  Similarity=-0.001  Sum_probs=66.7  Template_Neff=8.600
+
+Q sp|P38764|RPN1  733 VDELAYAVLGIALIALGEDIGKEMSLRHFGHLMH---------YGNEHIRRMVPLAMGIVSVSDPQ--------MKVFDT  795 (993)
+Q Consensus       733 Vr~~Av~aLG~al~~~~~~~~~~~~~~~l~~L~~---------~~~~~Vr~gaalALGl~~Agt~~--------~~Ai~~  795 (993)
+                      ||..|..+||..+-.++..... .+...+..++.         ...++||.|+-++|..+++.-..        +.+++.
+T Consensus       375 VRe~aaq~l~~l~~~l~~~~v~-~v~~~l~~l~~~~~~~~~~~~~~W~vr~g~Llglkyl~a~~~~~~~~~~~l~~~~~~  453 (1867)
+T sp|P32333|MOT1  375 VRESVAQTLAALLIHLDSTLSI-KIFNCLEQLVLQDPLQTGLPNKIWEATHGGLLGIRYFVSIKTNFLFAHGLLENVVRI  453 (1867)
+T ss_pred             chhHHHHHHHHHHHhCCchhHH-HHHHHHHHHHhcCcccCCCCCcceeeehhhhHHHHHHHhhccccccchhhhhHHHHH
+Confidence            8999999999988877765322 23233444433         46799999998888877776654        577888
+
+
+Q sp|P38764|RPN1  796 LTRFSHDADLEVSMNSIFAMGLCGAG  821 (993)
+Q Consensus       796 L~~ll~D~~~~Vr~~Ai~ALg~V~ag  821 (993)
+                      +...+.|.+++||..|.-+|.-+...
+T Consensus       454 ~~~~L~D~~ddVr~~Aa~aL~~i~~~  479 (1867)
+T sp|P32333|MOT1  454 VLYGLNQSDDDVQSVAASILTPITSE  479 (1867)
+T ss_pred             HHHhcCCCCchHHHHHHHHhHHHHHH
+Confidence            88889999999999998888887655
+
+
+No 31
+>sp|Q04264|PDS5_YEAST Sister chromatid cohesion protein PDS5 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=PDS5 PE=1 SV=1
+Probab=49.77  E-value=1.1  Score=52.55  Aligned_cols=87  Identities=11%  Similarity=0.103  Sum_probs=64.4  Template_Neff=7.800
+
+Q sp|P38764|RPN1  733 VDELAYAVLGIALIALGEDIGKEMSLRHFGHLMHYGNEHIRRMVPLAMGIVSVSD-----PQMKVFDTLTRFSHDADLEV  807 (993)
+Q Consensus       733 Vr~~Av~aLG~al~~~~~~~~~~~~~~~l~~L~~~~~~~Vr~gaalALGl~~Agt-----~~~~Ai~~L~~ll~D~~~~V  807 (993)
+                      ||..++.+++..+..-++.  ...+...+...+.+.+..||.+|+.+++-+....     ...++++.|...+.|..+.|
+T Consensus       337 VR~~~v~~l~~il~~~~~l--~~~i~~~L~~rl~D~de~VR~~av~~l~~l~~~~~~~~~~~~~~l~~l~~r~rDkk~~V  414 (1277)
+T sp|Q04264|PDS5  337 VRVEWTESIPQIIATREDI--SKELNQALAKTFIDSDPRVRRTSVMIFNKVPVTEIWKNITNKAIYTSLLHLAREKHKEV  414 (1277)
+T ss_pred             HHHHHHHHHHHHHhcChhh--HHHHHHHHHHhcCCCChHHHHHHHHHHhcCchhhhhhccCCHHHHHHHHHHhcccCHHH
+Confidence            9999999999766544431  1234444555556678999999999998653221     34667788888999999999
+
+
+Q sp|P38764|RPN1  808 SMNSIFAMGLCGAG  821 (993)
+Q Consensus       808 r~~Ai~ALg~V~ag  821 (993)
+                      |..|+.+|+-+...
+T Consensus       415 R~~Ai~~L~~ly~~  428 (1277)
+T sp|Q04264|PDS5  415 RELCINTMAKFYSN  428 (1277)
+T ss_pred             HHHHHHHHHHHHHH
+Confidence            99999999988554
+
+
+No 32
+>sp|P41810|COPB_YEAST Coatomer subunit beta OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=SEC26 PE=1 SV=2
+Probab=42.41  E-value=1.7  Score=49.21  Aligned_cols=67  Identities=12%  Similarity=0.083  Sum_probs=44.7  Template_Neff=8.700
+
+Q sp|P38764|RPN1  759 RHFGHLMH-YGNEHIRRMVPLAMGIVSVSDPQ--MKVFDTLTRFSHDADLEVSMNSIFAMGLCGAGTNNA  825 (993)
+Q Consensus       759 ~~l~~L~~-~~~~~Vr~gaalALGl~~Agt~~--~~Ai~~L~~ll~D~~~~Vr~~Ai~ALg~V~agt~n~  825 (993)
+                      ..+..++. +.+++||+.+.-+|+.+....+.  ......+..++.|.+..||..|+-.|..+....+-.
+T Consensus       286 ~~L~~lL~~~~d~~vr~~al~~L~~l~~~~~~~v~~~~~~i~~lL~d~d~~Ir~~al~lL~~l~~~~nv~  355 (973)
+T sp|P41810|COPB  286 NKLIDLAVKVSDNNIKLIVLDRIQDINANNVGALEELTLDILRVLNAEDLDVRSKALDISMDLATSRNAE  355 (973)
+T ss_pred             HHHHHHhccCCChhHHHHHHHHHHHHHhhChhhHHHHhhhheecccCCCHHHHHHHHHHHHHhcCCcCHH
+Confidence            33444444 56789999998888876322111  223355677888899999999888888877665533
+
+
+No 33
+>sp|Q06156|CND1_YEAST Condensin complex subunit 1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=YCS4 PE=1 SV=1
+Probab=39.06  E-value=2.1  Score=49.36  Aligned_cols=87  Identities=16%  Similarity=0.099  Sum_probs=63.2  Template_Neff=6.800
+
+Q sp|P38764|RPN1  732 IVDELAYAVLGIALIALGEDIGKEMSLRHFGHLMHYGNEHIRRMVPLAMGIVSVSDPQ--MKVFDTLTRFSHDADLEVSM  809 (993)
+Q Consensus       732 ~Vr~~Av~aLG~al~~~~~~~~~~~~~~~l~~L~~~~~~~Vr~gaalALGl~~Agt~~--~~Ai~~L~~ll~D~~~~Vr~  809 (993)
+                      .+|..|+.+||..++- .........+-++..|-.+.+|.||.-+..|||=++..=++  ..-.+.|...+.|+++.||.
+T Consensus       954 ~l~~~A~laL~K~m~v-s~~~c~~~l~ll~~~L~~s~~~~iR~N~vialgDl~~rf~nlie~~~~~l~~~L~D~~~~VR~ 1032 (1176)
+T sp|Q06156|CND1  954 MLQRTATLCLEKLMCL-SSKYCEKSLPLLITVMEKSPDPTIRSNAVLGLGDMAVCFNNLVDENTDYLYRRLHDENLMVQR 1032 (1176)
+T ss_pred             HHHHHHHHHHHHhhcc-CHHHHhhhHHHHHHHHhcCCChhhhhhhHHHHHHHhhhhhhhhhhchHHHHHHhCCCChHHHH
+Confidence            3788899999976553 33222233444555555667899999999999988776665  45556688889999999999
+
+
+Q sp|P38764|RPN1  810 NSIFAMGLCG  819 (993)
+Q Consensus       810 ~Ai~ALg~V~  819 (993)
+                      +|+..|..+.
+T Consensus      1033 ~al~vlt~Li 1042 (1176)
+T sp|Q06156|CND1 1033 TCLMTVTFLI 1042 (1176)
+T ss_pred             HHHHHHHHHH
+Confidence            9988777664
+
+
+No 34
+>sp|P38873|KOG1_YEAST Target of rapamycin complex 1 subunit KOG1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=KOG1 PE=1 SV=2
+Probab=38.96  E-value=2.1  Score=50.81  Aligned_cols=59  Identities=20%  Similarity=0.262  Sum_probs=50.3  Template_Neff=7.000
+
+Q sp|P38764|RPN1  763 HLMHYGNEHIRRMVPLAMGIVSVSDPQMK-------VFDTLTRFSHDADLEVSMNSIFAMGLCGAG  821 (993)
+Q Consensus       763 ~L~~~~~~~Vr~gaalALGl~~Agt~~~~-------Ai~~L~~ll~D~~~~Vr~~Ai~ALg~V~ag  821 (993)
+                      .++++.++-+|..+|++||.++-+.....       +.+.|..++.|..+.||.+|+.||+-...+
+T Consensus       746 ~~l~~~~~~lr~W~~l~l~~l~~~~~~~k~~~~~~~~~~~l~~~l~d~~peVRaAav~aL~~~i~~  811 (1557)
+T sp|P38873|KOG1  746 YIDNSEIPLLRQWCVILLGLLFADNPLNRFVCMNTGAVEILLKSLKDPVPEVRTASIFALKHFISG  811 (1557)
+T ss_pred             hhccCCChhHHHHHHHHHHHHhcCCccchhccccCChHHHHHHHcCCCCchhHHHHHHHHHHhhcC
+Confidence            34555678999999999999998877643       677899999999999999999999996655
+
+
+No 35
+>sp|P31383|2AAA_YEAST Protein phosphatase PP2A regulatory subunit A OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=TPD3 PE=1 SV=3
+Probab=36.79  E-value=2.4  Score=43.12  Aligned_cols=89  Identities=9%  Similarity=0.066  Sum_probs=57.1  Template_Neff=12.700
+
+Q sp|P38764|RPN1  733 VDELAYAVLGIALIALGEDIGKEMSLRHFGHLMHYGNEHIRRMVPLAMGIVSVSDPQ----MKVFDTLTRFSHDADLEVS  808 (993)
+Q Consensus       733 Vr~~Av~aLG~al~~~~~~~~~~~~~~~l~~L~~~~~~~Vr~gaalALGl~~Agt~~----~~Ai~~L~~ll~D~~~~Vr  808 (993)
+                      +|..|+.+|+...-..+...........+..++++.++.||..++.+|+.+....+.    ...++.|..++.|.++.||
+T Consensus        53 ~r~~a~~~l~~l~~~~~~~~~~~~l~~~l~~~~~~~~~~v~~~~~~~l~~l~~~~~~~~~~~~l~~~l~~l~~~~~~~vr  132 (635)
+T sp|P31383|2AAA   53 NRVEAMKKLDTIALALGPERTRNELIPFLTEVAQDDEDEVFAVLAEQLGKFVPYIGGPQYATILLPVLEILASAEETLVR  132 (635)
+T ss_pred             HHHHHHHHHHHHHHHhCChhHHHHHHHHHHHhcCCChHHHHHHHHHhhhhhhhccCChhHHHhHHHHHHHhccCchHHHH
+Confidence            788888888865444332111112223344455556788999999999877533222    3345566667778888999
+
+
+Q sp|P38764|RPN1  809 MNSIFAMGLCGAG  821 (993)
+Q Consensus       809 ~~Ai~ALg~V~ag  821 (993)
+                      ..|+.+|+.+...
+T Consensus       133 ~~a~~~l~~l~~~  145 (635)
+T sp|P31383|2AAA  133 EKAVDSLNNVAQE  145 (635)
+T ss_pred             HHHHHHHHHHHhh
+Confidence            9888888877654
+
+
+No 36
+>sp|P40069|IMB4_YEAST Importin subunit beta-4 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=KAP123 PE=1 SV=1
+Probab=36.66  E-value=2.4  Score=48.22  Aligned_cols=90  Identities=16%  Similarity=0.167  Sum_probs=57.4  Template_Neff=10.200
+
+Q sp|P38764|RPN1  733 VDELAYAVLGIALIALGEDIGKEMSLRHFGHLMHYGNEHIRRMVPLAMGIVSVSDPQ------MKVFDTLTRFSHDADLE  806 (993)
+Q Consensus       733 Vr~~Av~aLG~al~~~~~~~~~~~~~~~l~~L~~~~~~~Vr~gaalALGl~~Agt~~------~~Ai~~L~~ll~D~~~~  806 (993)
+                      +|..|...|......++.......+...+..++++.++..|.++.++||.++-|.+.      .+++..+.+.+.|+++.
+T Consensus       333 ~~~~a~~~l~~l~~~~~~~~~~~~~~~~i~~~l~~~~~~~r~Aal~aLg~i~eg~~~~l~~~l~~il~~i~~~l~d~~~~  412 (1113)
+T sp|P40069|IMB4  333 PSSSAIRLLAFASSELPPSQVASVIVEHIPAMLQSANVFERRAILLAISVAVTGSPDYILSQFDKIIPATINGLKDTEPI  412 (1113)
+T ss_pred             cchHHHHHHHHHhccCChhhhHHHHHHHHHHhhcCCCccccHHHHHHHHHHHhcChHHHHHHHHHHHHHHHHhccCCChh
+Confidence            455555555543222332211112223344555666889999999999999777543      34455556677788889
+
+
+Q sp|P38764|RPN1  807 VSMNSIFAMGLCGAGT  822 (993)
+Q Consensus       807 Vr~~Ai~ALg~V~agt  822 (993)
+                      ||..|+.+++.+....
+T Consensus       413 Vr~aA~~al~~~~~~~  428 (1113)
+T sp|P40069|IMB4  413 VKLAALKCIHQLTTDL  428 (1113)
+T ss_pred             HHHHHHHHHHHhhhhh
+Confidence            9999999999886654
+
+
+No 37
+>sp|Q06706|ELP1_YEAST Elongator complex protein 1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=IKI3 PE=1 SV=1
+Probab=33.88  E-value=2.9  Score=48.96  Aligned_cols=111  Identities=9%  Similarity=-0.037  Sum_probs=68.7  Template_Neff=8.000
+
+Q sp|P38764|RPN1  199 DTLRLCLDIVPYFLKHNGEEDAVDLLLEIESIDKLPQFVDENTFQRVCQYMVACVPLLPPPEDVAFLKTAYSIYLSQNEL  278 (993)
+Q Consensus       199 ~l~~l~~~~~~~~~~hnae~~AidlllE~~rLd~l~~~vd~~~~~rv~~Yl~~~~~~v~~~~~~~vL~~~~~iy~k~~~y  278 (993)
+                      .+-+++....+|+...+.+.+|..+.+.+...+...+...+...-+-+..+..  .+ +..+...+++.+.+.+.+.++|
+T Consensus      1020 ~~~~i~~~~A~~L~~~~~~~eAa~~Y~~ag~~~kAi~~y~~a~~w~~a~~la~--~~-~~~~~~~l~~~la~~L~~~g~~ 1096 (1349)
+T sp|Q06706|ELP1 1020 KQNVIYNIYAKHLSSNQMYTDAAVAYEMLGKLKEAMGAYQSAKRWREAMSIAV--QK-FPEEVESVAEELISSLTFEHRY 1096 (1349)
+T ss_pred             hHHHHHHHHHHHHHhCCCHHHHHHHHHHcCCHHHHHHHHHHHHhHHHHHHHHH--hh-ChHHHHHHHHHHHHHHhhCCcH
+Confidence            34455566666677777777777777777666655554433322222222211  11 2222334777788888888899
+
+
+Q sp|P38764|RPN1  279 TDAIALAVR-LGEEDMIRSVFDATSDPVMHKQLAY  312 (993)
+Q Consensus       279 ~~a~~~al~-Lnd~~~v~~i~~~~~d~l~~~QlAf  312 (993)
+                      .+|.+++++ +||++.+.+++.+...-.-+.++|.
+T Consensus      1097 ~eAa~i~~~~l~d~~~AI~~lv~~~~w~eA~rla~ 1131 (1349)
+T sp|Q06706|ELP1 1097 VDAADIQLEYLDNVKEAVALYCKAYRYDIASLVAI 1131 (1349)
+T ss_pred             HHHHHHHHHhccCHHHHHHHHHHcCCHHHHHHHHH
+Confidence            999999996 8999888888877755544444443
+
+
+No 38
+>sp|Q06708|VAC14_YEAST Vacuole morphology and inheritance protein 14 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=VAC14 PE=1 SV=1
+Probab=32.84  E-value=3.1  Score=46.35  Aligned_cols=90  Identities=7%  Similarity=-0.100  Sum_probs=59.0  Template_Neff=8.600
+
+Q sp|P38764|RPN1  733 VDELAYAVLGIALIALGEDIGKEMSLRHFGHLMH----YG-NEHIRRMVPLAMGIVSVSDPQ-------MKVFDTLTRFS  800 (993)
+Q Consensus       733 Vr~~Av~aLG~al~~~~~~~~~~~~~~~l~~L~~----~~-~~~Vr~gaalALGl~~Agt~~-------~~Ai~~L~~ll  800 (993)
+                      +|..|+..|+...-..+.......+..++..|.+    +. .++.|.|++++|+....+-|.       .+++..+...+
+T Consensus        16 ~RK~Aa~~Le~lv~~~~~~~~~~~i~~Ii~~L~~~l~~s~~~~~~R~g~l~~Laaia~alg~~~~~~yl~~Ilp~vl~~~   95 (880)
+T sp|Q06708|VAC1   16 KRKAAALELEKLVKQCVLEGDYDRIDKIIDELCRDYAYALHQPMARNAGLMGLAATAIALGINDVGRYLRNILPPVLACF   95 (880)
+T ss_pred             HHHHHHHHHHHHHHHHhhccchHHHHHHHHHHHHHHhhccCCchhhhHHHHHHHHHHHHhCccchHHHHHHhhHHHHHHh
+Confidence            7888888888644333322111234445544432    22 377999999999877654433       45677777788
+
+
+Q sp|P38764|RPN1  801 HDADLEVSMNSIFAMGLCGAGT  822 (993)
+Q Consensus       801 ~D~~~~Vr~~Ai~ALg~V~agt  822 (993)
+                      .|.++.||..|+-+|.-+....
+T Consensus        96 ~D~d~~VR~~A~eaL~niak~~  117 (880)
+T sp|Q06708|VAC1   96 GDQNDQVRFYACESLYNIAKIA  117 (880)
+T ss_pred             CCCCHHHHHHHHHHHHHHHHhc
+Confidence            8999999999988887775443
+
+
+No 39
+>sp|P49955|SF3B1_YEAST U2 snRNP component HSH155 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=HSH155 PE=1 SV=1
+Probab=29.46  E-value=3.8  Score=45.27  Aligned_cols=87  Identities=16%  Similarity=0.190  Sum_probs=65.1  Template_Neff=10.900
+
+Q sp|P38764|RPN1  733 VDELAYAVLGIALIALGEDIGKEMSLRHFGHLMHYGNEHIRRMVPLAMGIVSVSDPQMKVFDTLTRFSHDADLEVSMNSI  812 (993)
+Q Consensus       733 Vr~~Av~aLG~al~~~~~~~~~~~~~~~l~~L~~~~~~~Vr~gaalALGl~~Agt~~~~Ai~~L~~ll~D~~~~Vr~~Ai  812 (993)
+                      ||..++.+|+...-..+..   ...+.++ ..+++.++.+|..++.+||.++...+....++.|..++.+.++.||..++
+T Consensus       742 vr~~a~~~L~~i~~~~~~~---~~l~~ll-~~l~~~~~~vr~~a~~~l~~l~~~~~~~~~l~~l~~~l~~~~~~vr~~al  817 (971)
+T sp|P49955|SF3B  742 IRRSANATFGFIAEAIGPH---DVLVALL-NNLKVQERQLRVCTAVAIGIVAKVCGPYNVLPVIMNEYTTPETNVQNGVL  817 (971)
+T ss_pred             HHHHHHHHHHHHHHHcCch---hHHHHHH-HhccCCCHHHHHHHHHHHHHHHHhcCccCcHHHHHhhccCCChhhHHHHH
+Confidence            8888999998755555433   2233333 34444678999999999999876666567888888888888889999999
+
+
+Q sp|P38764|RPN1  813 FAMGLCGAGTN  823 (993)
+Q Consensus       813 ~ALg~V~agt~  823 (993)
+                      .+++.+....+
+T Consensus       818 ~al~~l~~~~~  828 (971)
+T sp|P49955|SF3B  818 KAMSFMFEYIG  828 (971)
+T ss_pred             HHHHHHHHHhc
+Confidence            99998876543
+
+
+No 40
+>sp|P49955|SF3B1_YEAST U2 snRNP component HSH155 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=HSH155 PE=1 SV=1
+Probab=28.45  E-value=4.1  Score=45.01  Aligned_cols=90  Identities=6%  Similarity=-0.174  Sum_probs=59.9  Template_Neff=10.900
+
+Q sp|P38764|RPN1  733 VDELAYAVLGIALIALGEDI----GKEMSLRHFGHLMHYGNEHIRRMVPLAMGIVSVSDPQMKVFDTLTRFSHDADLEVS  808 (993)
+Q Consensus       733 Vr~~Av~aLG~al~~~~~~~----~~~~~~~~l~~L~~~~~~~Vr~gaalALGl~~Agt~~~~Ai~~L~~ll~D~~~~Vr  808 (993)
+                      ||..|..+|+..+...+...    .......++..+.+ .++.||..++.+|+.++...+.....+.+...+.++...||
+T Consensus       853 vr~~a~~~l~~l~~~~~~~~~~~~~~~~l~~l~~~l~~-~~~~v~~~~l~~l~~l~~~~~~~~l~~~l~~~l~~~~~~vr  931 (971)
+T sp|P49955|SF3B  853 HRQTASNVITHLALNCSGTGHEDAFIHLMNLLIPNIFE-TSPHAIMRILEGLEALSQALGPGLFMNYIWAGLFHPAKNVR  931 (971)
+T ss_pred             HHHHHHHHHHHHHHhccccCcHHHHHHHHHHHhhhhcc-CCHHHHHHHHHHHHHHHHhhChhhhHHHHHHhccCchHHHH
+Confidence            78888888887554443221    01112223344443 57899999999999887766666677777777778888888
+
+
+Q sp|P38764|RPN1  809 MNSIFAMGLCGAGTN  823 (993)
+Q Consensus       809 ~~Ai~ALg~V~agt~  823 (993)
+                      ..+...+..+....+
+T Consensus       932 ~~~~~~~~~~~~~~~  946 (971)
+T sp|P49955|SF3B  932 KAFWRVYNNMYVMYQ  946 (971)
+T ss_pred             HHHHHHHHHHhhhcc
+Confidence            887777766665444
+
+
+No 41
+>sp|P38079|YRO2_YEAST Protein YRO2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=YRO2 PE=1 SV=1
+Probab=25.85  E-value=4.9  Score=39.49  Aligned_cols=3  Identities=100%  Similarity=1.321  Sum_probs=1.2  Template_Neff=6.700
+
+Q sp|P38764|RPN1   40 EED   42 (993)
+Q Consensus        40 eed   42 (993)
+                      |||
+T Consensus       336 ~~~  338 (344)
+T sp|P38079|YRO2  336 EED  338 (344)
+T ss_pred             hhh
+Confidence            333
+
+
+No 42
+>sp|Q12028|AP1G1_YEAST AP-1 complex subunit gamma-1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=APL4 PE=1 SV=1
+Probab=25.10  E-value=5.2  Score=43.97  Aligned_cols=77  Identities=10%  Similarity=0.079  Sum_probs=50.3  Template_Neff=8.800
+
+Q sp|P38764|RPN1  732 IVDELAYAVLGIALIALGEDIGKEMSLRHFGHLMH-YGNEHIRRMVPLAMGIVSVSDPQM---KVFDTLTRFSHDA---D  804 (993)
+Q Consensus       732 ~Vr~~Av~aLG~al~~~~~~~~~~~~~~~l~~L~~-~~~~~Vr~gaalALGl~~Agt~~~---~Ai~~L~~ll~D~---~  804 (993)
+                      .||..|..+||.    +..+...+.....+..++. +.+|+||+.|++|+..++--.++.   ..++.|..++.|.   +
+T Consensus       117 ~vr~lAL~~l~~----i~~~e~~~~l~~~v~~~l~~~~~~yVRkkA~l~l~kl~~~~p~~~~~~~~~~l~~lL~d~~~~~  192 (832)
+T sp|Q12028|AP1G  117 YAVSLALTSLGF----LSSPELARDLYPDVENIIKNSRDPFLLKKALQCAAKLIFKDVSLLEIFNIEDITKILSSHSICT  192 (832)
+T ss_pred             hHHHHHHHHHhh----cCCHHhHHHhHHHHHHHhcCCCChHHHHHHHHHHHHHHhcCcchhcccchHHHHHhhccCCCCc
+Confidence            489889999885    4443111222233444554 567999999999999887665542   2357788888875   5
+
+
+Q sp|P38764|RPN1  805 LEVSMNSI  812 (993)
+Q Consensus       805 ~~Vr~~Ai  812 (993)
+                      +.|..+++
+T Consensus       193 ~~V~~~a~  200 (832)
+T sp|Q12028|AP1G  193 HGVLLGVT  200 (832)
+T ss_pred             chhHHHHH
+Confidence            66655443
+
+
+No 43
+>sp|P32337|IMB3_YEAST Importin subunit beta-3 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=PSE1 PE=1 SV=2
+Probab=24.32  E-value=5.5  Score=43.75  Aligned_cols=90  Identities=12%  Similarity=0.104  Sum_probs=60.1  Template_Neff=12.200
+
+Q sp|P38764|RPN1  733 VDELAYAVLGIALIALGEDIGKEMSLRHFGHLMHYGNEHIRRMVPLAMGIVSVSDPQ------MKVFDTLTRFSHDADLE  806 (993)
+Q Consensus       733 Vr~~Av~aLG~al~~~~~~~~~~~~~~~l~~L~~~~~~~Vr~gaalALGl~~Agt~~------~~Ai~~L~~ll~D~~~~  806 (993)
+                      +|..+..+|+......+...........+..++...++.+|.++..+|+.+..+.+.      ...++.|...+.|.++.
+T Consensus       344 ~~~~a~~~l~~l~~~~~~~~~~~~l~~~l~~~l~~~~~~~r~~al~~l~~i~~~~~~~~~~~~~~l~~~l~~~l~~~~~~  423 (1089)
+T sp|P32337|IMB3  344 TYDHARQALDRVALKLGGEYLAAPLFQYLQQMITSTEWRERFAAMMALSSAAEGCADVLIGEIPKILDMVIPLINDPHPR  423 (1089)
+T ss_pred             hHHHHHHHHHHHHHHhCCccchHHHHHHHHHhcCCchHHHHHHHHHHHHHHhhcChHhHhhhHHHHHHHHHHHhcCCCcc
+Confidence            677777777764444443211112223333444556789999999999988655442      34566677778888999
+
+
+Q sp|P38764|RPN1  807 VSMNSIFAMGLCGAGT  822 (993)
+Q Consensus       807 Vr~~Ai~ALg~V~agt  822 (993)
+                      ||..|+.+++.+....
+T Consensus       424 vr~~a~~~l~~l~~~~  439 (1089)
+T sp|P32337|IMB3  424 VQYGCCNVLGQISTDF  439 (1089)
+T ss_pred             hHHHHHHHHHHhhhhc
+Confidence            9999999999887544
+
+
+No 44
+>sp|P46675|STU2_YEAST Protein STU2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=STU2 PE=1 SV=1
+Probab=24.20  E-value=5.5  Score=44.16  Aligned_cols=101  Identities=11%  Similarity=0.006  Sum_probs=64.3  Template_Neff=8.200
+
+Q sp|P38764|RPN1  733 VDELAYAVLGIALIALGEDI---G-KEMSLRHFGHLMHYGNEHIRRMVPLAMGIVSVSDP----------QMKVFDTLTR  798 (993)
+Q Consensus       733 Vr~~Av~aLG~al~~~~~~~---~-~~~~~~~l~~L~~~~~~~Vr~gaalALGl~~Agt~----------~~~Ai~~L~~  798 (993)
+                      ||..+..+|...+-..+...   . ......++ ..+++.++.||..++-.|+.++...+          -..+++.+.+
+T Consensus       431 Vr~aa~~aL~~l~~~~~~~~~~~~l~~ll~~ll-~~l~~knp~vR~~~l~~L~~~l~~~~~~~~~~~~~~~~~i~~~l~k  509 (888)
+T sp|P46675|STU2  431 VIEAIRKALLTICKYYDPLASSGRNEDMLKDIL-EHMKHKTPQIRMECTQLFNASMKEEKDGYSTLQRYLKDEVVPIVIQ  509 (888)
+T ss_pred             HHHHHHHHHHHHHHhhCccccCCCHHHHHHHHH-HHhccCChHHHHHHHHHHHHHHHhhccCccccchhhHHhHHHHHHH
+Confidence            67777777765433332110   0 01222223 33456789999999888876544331          1456777888
+
+
+Q sp|P38764|RPN1  799 FSHDADLEVSMNSIFAMGLCGAGTNNARLAQLLRQL  834 (993)
+Q Consensus       799 ll~D~~~~Vr~~Ai~ALg~V~agt~n~~v~~~lr~L  834 (993)
+                      ++.|.+..||..|+.+++.++.-.|...+..++..|
+T Consensus       510 lL~D~~~~VR~aA~~~l~~L~k~~G~~~~~~~L~~L  545 (888)
+T sp|P46675|STU2  510 IVNDTQPAIRTIGFESFAILIKIFGMNTFVKTLEHL  545 (888)
+T ss_pred             HhcCCChhhHHHHHHHHHHHHHHhChHhHHHHhccC
+Confidence            999999999999999999888777654444444443
+
+
+No 45
+>sp|Q06680|CND3_YEAST Condensin complex subunit 3 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=YCG1 PE=1 SV=2
+Probab=22.96  E-value=6  Score=44.58  Aligned_cols=82  Identities=13%  Similarity=0.141  Sum_probs=50.0  Template_Neff=7.000
+
+Q sp|P38764|RPN1  733 VDELAYAVLGIALIALGEDIGKEM----SLRHFGHLMHYGNEHIRRMVPLAMGIVSVSDP------------QMKVFDTL  796 (993)
+Q Consensus       733 Vr~~Av~aLG~al~~~~~~~~~~~----~~~~l~~L~~~~~~~Vr~gaalALGl~~Agt~------------~~~Ai~~L  796 (993)
+                      ||..+...|+..+-.+++- ....    ...++.++ .+.++.||..|+.|||.+.-...            +..+++.|
+T Consensus       133 VR~R~~qll~~il~~l~~i-d~~l~~~l~~~Ll~Rl-~Dk~~~VR~qAv~aL~~lq~~~~~~~~~~~~~~~~~~~v~~~L  210 (1035)
+T sp|Q06680|CND3  133 VRFRVLQLLAVIMDNIGEI-DESLFNLLILSLNKRI-YDREPTVRIQAVFCLTKFQDEEQTEHLTELSDNEENFEATRTL  210 (1035)
+T ss_pred             HHHHHHHHHHHHHhhcccC-CHHHHHHHHHHHHHhh-cCCChHhHHHHHHHHHHhcCcchhhhhccccccccchHHHHHH
+Confidence            6677777777766666642 1111    11122223 34678888888888888754432            12356666
+
+
+Q sp|P38764|RPN1  797 TRF-SHDADLEVSMNSIFAMG  816 (993)
+Q Consensus       797 ~~l-l~D~~~~Vr~~Ai~ALg  816 (993)
+                      ... .+|+.+.||..|+.+|+
+T Consensus       211 l~~l~~D~s~eVR~aal~~L~  231 (1035)
+T sp|Q06680|CND3  211 VASIQNDPSAEVRRAAMLNLI  231 (1035)
+T ss_pred             HHHhcCCCCHHHHHHHHHhcc
+Confidence            664 47888888888887774
+
+
+No 46
+>sp|P32333|MOT1_YEAST TATA-binding protein-associated factor MOT1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=MOT1 PE=1 SV=1
+Probab=20.70  E-value=7.2  Score=46.84  Aligned_cols=89  Identities=9%  Similarity=-0.133  Sum_probs=57.2  Template_Neff=8.600
+
+Q sp|P38764|RPN1  733 VDELAYAVLGIALIALGEDIGKEMSLRHFGHLMHYGNEHIRRMVPLAMGIVSVSDPQ------MKVFDTLTRFSHDADLE  806 (993)
+Q Consensus       733 Vr~~Av~aLG~al~~~~~~~~~~~~~~~l~~L~~~~~~~Vr~gaalALGl~~Agt~~------~~Ai~~L~~ll~D~~~~  806 (993)
+                      ||..|..+|+...-.++.+.-...+..++..|.+..+...|+||+.+|+.+....+.      ...+-.+.+.+.|+++.
+T Consensus      1128 vR~~aa~~la~l~~~~~~~~m~~vv~~llp~L~~~~~~~~R~ga~e~l~~lv~~l~~~l~pyv~~Li~plL~~msD~~~~ 1207 (1867)
+T sp|P32333|MOT1 1128 FRYSAARTFADLAKISSVEVMAYTIREILPLMNSAGSLSDRQGSTELIYHLSLSMETDVLPYVIFLIVPLLGRMSDSNED 1207 (1867)
+T ss_pred             HHHHHHHHHHHHHhhcchhhHHHHHHhhhhccccCCcccccchHHHHHHHHHhhcCCCccchHHHHHhhhccccCCCchH
+Confidence            688888888864333333221122333444444433478899999999988655444      33344566678899999
+
+
+Q sp|P38764|RPN1  807 VSMNSIFAMGLCGAG  821 (993)
+Q Consensus       807 Vr~~Ai~ALg~V~ag  821 (993)
+                      ||..|..+++.+...
+T Consensus      1208 Vr~~a~~~f~~lv~~ 1222 (1867)
+T sp|P32333|MOT1 1208 VRNLATTTFASIIKL 1222 (1867)
+T ss_pred             HHHhhHHHHHHHhhc
+Confidence            999887777776443
+
+

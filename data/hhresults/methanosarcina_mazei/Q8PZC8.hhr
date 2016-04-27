@@ -1,0 +1,375 @@
+Query         tr|Q8PZC8|Q8PZC8_METMA Uncharacterized protein OS=Methanosarcina mazei (strain ATCC BAA-159 / DSM 3647 / Goe1 / Go1 / JCM 11833 / OCM 88) GN=MM_0566 PE=4 SV=1
+Match_columns 239
+No_of_seqs    149 out of 1302
+Neff          9.40029
+Searched_HMMs 3303
+Date          Tue Apr 26 17:06:33 2016
+Command       hhsearch -i Q8PZC8.a3m -d /usr/local/hh-suite/db/methanosarcina_mazei/mmazei -cpu 3 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 tr|Q8PZC8|Q8PZC8_METMA Unchara 100.0 1.2E-52 3.7E-56  334.9  29.3  239    1-239     1-239 (239)
+  2 tr|Q8Q0W0|Q8Q0W0_METMA Conserv  85.0    0.45 0.00014   32.2   8.1   69  135-203    50-118 (336)
+  3 tr|Q8Q0W0|Q8Q0W0_METMA Conserv  82.9    0.77 0.00023   30.8   8.5   68  135-202   235-302 (336)
+  4 tr|Q8PT15|Q8PT15_METMA Unchara  78.8     2.3  0.0007   26.8  10.8   54  180-235   150-204 (230)
+  5 tr|Q8PTN9|Q8PTN9_METMA Conserv  78.1     5.6  0.0017   30.7  20.8   70  134-203   637-706 (996)
+  6 tr|Q8Q0W0|Q8Q0W0_METMA Conserv  77.3       3 0.00091   27.2  17.2   25  178-202   165-189 (336)
+  7 tr|Q8PVD7|Q8PVD7_METMA Unchara  73.1     7.9  0.0024   29.8  21.2   23  178-200   194-216 (1001)
+  8 tr|Q8PVD7|Q8PVD7_METMA Unchara  71.3     8.8  0.0027   29.5  20.1   65  137-201   369-433 (1001)
+  9 tr|Q8Q0U7|Q8Q0U7_METMA Conserv  71.3     4.4  0.0013   31.5  10.7   68  135-202    40-107 (885)
+ 10 tr|Q8PVD7|Q8PVD7_METMA Unchara  54.0      19  0.0058   27.1  22.5   68  135-202   223-290 (1001)
+ 11 tr|Q8Q0U7|Q8Q0U7_METMA Conserv  52.0      21  0.0063   26.8  17.9   69  135-203   476-544 (885)
+ 12 tr|Q8PZI8|Q8PZI8_METMA Phycocy  51.6      22  0.0065   26.9  21.0   75  135-209   841-918 (1142)
+ 13 tr|Q8PXE4|Q8PXE4_METMA Unchara  38.4      24  0.0071   23.4  15.2   20  138-157   211-230 (511)
+ 14 tr|Q8PVD7|Q8PVD7_METMA Unchara  36.5      37   0.011   25.1  22.7   65  136-200   296-360 (1001)
+ 15 tr|Q8PZI8|Q8PZI8_METMA Phycocy  33.9      42   0.013   24.9  21.9   17  181-197   820-836 (1142)
+ 16 tr|Q8PSI9|Q8PSI9_METMA Phycocy  33.7      28  0.0085   22.8  17.4   60  134-198   128-187 (457)
+ 17 tr|Q8Q0W0|Q8Q0W0_METMA Conserv  27.9      29  0.0088   21.2  19.1   63  138-200   197-264 (336)
+ 18 tr|Q8PZI8|Q8PZI8_METMA Phycocy  27.7      54   0.016   24.2  21.5   16  142-157   688-703 (1142)
+ 19 tr|Q8PXE4|Q8PXE4_METMA Unchara  23.2      45   0.014   21.7  17.7   22  136-157   303-324 (511)
+ 20 tr|Q8PTN9|Q8PTN9_METMA Conserv  22.8      64   0.019   23.4  18.0   64  139-202   303-366 (996)
+ 21 tr|Q8PZI8|Q8PZI8_METMA Phycocy  22.2      69   0.021   23.4  19.1   19  139-157   623-641 (1142)
+ 22 tr|Q8Q0U7|Q8Q0U7_METMA Conserv  22.0      68   0.021   23.3  21.4   65  137-201   150-214 (885)
+ 23 tr|Q8Q0U7|Q8Q0U7_METMA Conserv  21.4      70   0.021   23.2  18.3   67  136-202   113-179 (885)
+
+No 1
+>tr|Q8PZC8|Q8PZC8_METMA Uncharacterized protein OS=Methanosarcina mazei (strain ATCC BAA-159 / DSM 3647 / Goe1 / Go1 / JCM 11833 / OCM 88) GN=MM_0566 PE=4 SV=1
+Probab=100.00  E-value=1.2e-52  Score=334.92  Aligned_cols=239  Identities=100%  Similarity=1.508  Sum_probs=217.1  Template_Neff=9.400
+
+Q ss_pred             CchhHHHHHHHHHHhcCChhhhhhhhhhccCCCcccccchHHHHHHHHHHHHhhhccCCCChhhHHHHHHHHhcCChHHH
+Q tr|Q8PZC8|Q8PZ    1 MQADITSRIRKDLSENADEKTKNSSSRFFKEEVKCLGIKTSIVGKIAKDYFKEMQKSGRADKKNVFSLAEELLKSDYCEE   80 (239)
+Q Consensus         1 ~~~~~~~~i~~~L~~~~d~~~~~~~~~~~~~~~~~~GV~~p~lr~iak~~~~~~~~~~~~~~~~~~~l~~~L~~~~~~E~   80 (239)
+                      ||++.+++|.+.|++++|+++++++++++++..+++||++|++|++||++.++.+...++++.++++++..||+++++|+
+T Consensus         1 ~~~~~~~~i~~~L~~~~d~~~~~~~~~~~~~~~~~~GV~~p~lr~iak~~~~~~~~~~~~~~~~~~~l~~~L~~~~~~E~   80 (239)
+T tr|Q8PZC8|Q8PZ    1 MQADITSRIRKDLSENADEKTKNSSSRFFKEEVKCLGIKTSIVGKIAKDYFKEMQKSGRADKKNVFSLAEELLKSDYCEE   80 (239)
+T ss_pred             ChhHHHHHHHHHHHhcCCHHHHHHHHHHcccCccccCCCHHHHHHHHHHHHHHhHhcCCCCHHHHHHHHHHHHhCCchHH
+Confidence            89999999999999999999999999999987789999999999999999996543222234456778888999999999
+
+
+Q ss_pred             HHHHHHHHHHHHHhCCcccHHHHHHHHHhccCChhhhhhhhhhhHHHHHhcChhhHHHHHHHhcCCCHHHHHHHHHHHHH
+Q tr|Q8PZC8|Q8PZ   81 AYIAFDWAYQVRDQYTEDDFPVFERWIENYVNNWAKCDTLCNHAVGSFIEEFPEFVDNLKTWAKSDNRWFRRAAAVTLVL  160 (239)
+Q Consensus        81 ~~la~~l~~~~~~~~~~~~~~~l~~~l~~~~~~W~~~D~l~~~~~~~~l~~~~~~~~~~~~w~~s~~~w~rR~~~v~l~~  160 (239)
+                      +++|++++...++.++++.++.++.|++++++||++||.+|.+++++++.+.|++.+.+.+|++|+|+|.||+|+|+++.
+T Consensus        81 ~~la~~l~~~~~~~~~~~~~~~l~~~l~~~~~~W~~~D~l~~~~~~~~l~~~~~~~~~~~~w~~s~~~w~rR~~~v~l~~  160 (239)
+T tr|Q8PZC8|Q8PZ   81 AYIAFDWAYQVRDQYTEDDFPVFERWIENYVNNWAKCDTLCNHAVGSFIEEFPEFVDNLKTWAKSDNRWFRRAAAVTLVL  160 (239)
+T ss_pred             HHHHHHHHHHHHHhCCcchHHHHHHHHHhhCCCHHHHHHHhHHhhHHHHHHCHHHHHHHHHHHhCCCHHHHHHHHHHHHH
+Confidence            99998888665566788888999999983499999999999999999888888889999999999999999999999988
+
+
+Q ss_pred             HHhcCCCHhHHHHHHHHhcCCchHHHHHHHHHHHHHhhhhCHHHHHHHHHHhhhhCCHHHHHHHHHhCCHHHHHHHhcC
+Q tr|Q8PZC8|Q8PZ  161 PARKGLFLPEVFAIANILLTDKDDLVRKGYGWMLKEASKPHQQEVFEYVMRNKKEMPRTSLRYAIEKFPPDLRAEAMKK  239 (239)
+Q Consensus       161 ~~~~~~~~~~~l~~~~~~~~~~~~~V~~ai~W~L~~~~~~~p~~v~~fL~~~~~~~~~~~~r~a~~k~~~~~r~~~~~~  239 (239)
+                      ++.++.+++.+++.|..+++|+++|||||+||+|+++++++|+.|.+||++|.+++|+.++|+|++|++++.|++|+++
+T Consensus       161 ~~~~~~~~~~~l~~~~~~~~~~~~~V~~ai~W~L~~~~~~~p~~v~~fL~~~~~~~~~~~~r~a~~k~~~~~r~~~~~~  239 (239)
+T tr|Q8PZC8|Q8PZ  161 PARKGLFLPEVFAIANILLTDKDDLVRKGYGWMLKEASKPHQQEVFEYVMRNKKEMPRTSLRYAIEKFPPDLRAEAMKK  239 (239)
+T ss_pred             HHhCCCCHHHHHHHHHHHccCccHHHHHHHHHHHHHHHHhCHHHHHHHHHHhHHhCCHHHHHHHHHhCCHHHHHHHhcC
+Confidence            8887778899999999899999999999999999999999999999999999999999999999999999999999875
+
+
+No 2
+>tr|Q8Q0W0|Q8Q0W0_METMA Conserved protein OS=Methanosarcina mazei (strain ATCC BAA-159 / DSM 3647 / Goe1 / Go1 / JCM 11833 / OCM 88) GN=MM_0020 PE=4 SV=1
+Probab=85.02  E-value=0.45  Score=32.16  Aligned_cols=69  Identities=10%  Similarity=-0.064  Sum_probs=48.1  Template_Neff=12.000
+
+Q ss_pred             hHHHHHHHhcCCCHHHHHHHHHHHHHHHhcCCCHhHHHHHHHHhcCCchHHHHHHHHHHHHHhhhhCHH
+Q tr|Q8PZC8|Q8PZ  135 FVDNLKTWAKSDNRWFRRAAAVTLVLPARKGLFLPEVFAIANILLTDKDDLVRKGYGWMLKEASKPHQQ  203 (239)
+Q Consensus       135 ~~~~~~~w~~s~~~w~rR~~~v~l~~~~~~~~~~~~~l~~~~~~~~~~~~~V~~ai~W~L~~~~~~~p~  203 (239)
+                      .+..+...+.++++.+|+.++-.+..........+.++..+...+.|++..|+.+..++|..+....+.
+T Consensus        50 ~~~~l~~~l~~~~~~vr~~a~~~L~~~~~~~~~~~~~~~~l~~ll~~~~~~vr~~a~~~L~~~~~~~~~  118 (336)
+T tr|Q8Q0W0|Q8Q0   50 SWEDLLIVVSRAKEFPLEDPSFVFDTNFQYVPDKQNAWNSLYKLTRDKKASVRIIAAYSLGNLFSLAPD  118 (336)
+T ss_pred             HHHHHHHHHhCCCCcccccHHHHhhHhhhcCChhHHHHHHHHHHhcCCCHHHHHHHHHHHHHHHhhCcc
+Confidence            355666788889999998887776544432222334555555567788899999999999988776553
+
+
+No 3
+>tr|Q8Q0W0|Q8Q0W0_METMA Conserved protein OS=Methanosarcina mazei (strain ATCC BAA-159 / DSM 3647 / Goe1 / Go1 / JCM 11833 / OCM 88) GN=MM_0020 PE=4 SV=1
+Probab=82.90  E-value=0.77  Score=30.75  Aligned_cols=68  Identities=18%  Similarity=0.051  Sum_probs=39.3  Template_Neff=12.000
+
+Q ss_pred             hHHHHHHHhcCCCHHHHHHHHHHHHHHHhcCCCHhHHHHHHHHhcCCchHHHHHHHHHHHHHhhhhCH
+Q tr|Q8PZC8|Q8PZ  135 FVDNLKTWAKSDNRWFRRAAAVTLVLPARKGLFLPEVFAIANILLTDKDDLVRKGYGWMLKEASKPHQ  202 (239)
+Q Consensus       135 ~~~~~~~w~~s~~~w~rR~~~v~l~~~~~~~~~~~~~l~~~~~~~~~~~~~V~~ai~W~L~~~~~~~p  202 (239)
+                      ....+.....++++.+|..++..+...+........++..+.....|++..|+.+...+|..+....+
+T Consensus       235 ~~~~l~~~~~~~~~~vr~~a~~~l~~~~~~~~~~~~~~~~l~~~~~~~~~~vr~~a~~~L~~~~~~~~  302 (336)
+T tr|Q8Q0W0|Q8Q0  235 IWEDLVKIAVKEEGFIKFNASRALTGLYPYLPDKKQGWKDLHELTNSKNYLVRREVVYSLKVAFEHLE  302 (336)
+T ss_pred             HHHHHHHHhhCCCchHHHHHHHHHHHHhccCcchHHHHHHHHHHhCCCCHHHHHHHHHHHHHHHcccc
+Confidence            34445555666677777766665543322211123344444445667778888888888877766544
+
+
+No 4
+>tr|Q8PT15|Q8PT15_METMA Uncharacterized protein OS=Methanosarcina mazei (strain ATCC BAA-159 / DSM 3647 / Goe1 / Go1 / JCM 11833 / OCM 88) GN=MM_2908 PE=4 SV=1
+Probab=78.78  E-value=2.3  Score=26.76  Aligned_cols=54  Identities=22%  Similarity=0.334  Sum_probs=42.8  Template_Neff=2.000
+
+Q ss_pred             CCchHHHHH-HHHHHHHHhhhhCHHHHHHHHHHhhhhCCHHHHHHHHHhCCHHHHHH
+Q tr|Q8PZC8|Q8PZ  180 TDKDDLVRK-GYGWMLKEASKPHQQEVFEYVMRNKKEMPRTSLRYAIEKFPPDLRAE  235 (239)
+Q Consensus       180 ~~~~~~V~~-ai~W~L~~~~~~~p~~v~~fL~~~~~~~~~~~~r~a~~k~~~~~r~~  235 (239)
+                      .++..-|+. -+.|+++.+-.++|+.....++  .+.+|.-+..+|++|+.+-.|++
+T Consensus       150 ~HP~Dt~RhNil~WLI~~~e~~~~~~f~~m~~--ss~~PeDv~~eaIeK~~e~lr~K  204 (230)
+T tr|Q8PT15|Q8PT  150 DHPDDTTKHNILCWLIRAMEDKGPDAFISMVR--SSCMPEDVQEEAIEKLHEYLRQK  204 (230)
+T ss_pred             hCccchHHHHHHHHHHHHHHHhCHHHHHHHHh--hcCCChHHHHHHHHHHHHHHHHh
+Confidence            344444444 4679999999999999999888  55699999999999999877653
+
+
+No 5
+>tr|Q8PTN9|Q8PTN9_METMA Conserved protein OS=Methanosarcina mazei (strain ATCC BAA-159 / DSM 3647 / Goe1 / Go1 / JCM 11833 / OCM 88) GN=MM_2674 PE=4 SV=1
+Probab=78.06  E-value=5.6  Score=30.67  Aligned_cols=70  Identities=16%  Similarity=0.067  Sum_probs=43.6  Template_Neff=11.300
+
+Q ss_pred             hhHHHHHHHhcCCCHHHHHHHHHHHHHHHhcCCCHhHHHHHHHHhcCCchHHHHHHHHHHHHHhhhhCHH
+Q tr|Q8PZC8|Q8PZ  134 EFVDNLKTWAKSDNRWFRRAAAVTLVLPARKGLFLPEVFAIANILLTDKDDLVRKGYGWMLKEASKPHQQ  203 (239)
+Q Consensus       134 ~~~~~~~~w~~s~~~w~rR~~~v~l~~~~~~~~~~~~~l~~~~~~~~~~~~~V~~ai~W~L~~~~~~~p~  203 (239)
+                      ...+.+...+.++++-+|..++-.+............++..+...+.|.+..|+.+..++|..++...|.
+T Consensus       637 ~~~~~L~~~l~d~~~~vr~~a~~~L~~~~~~~~~~~~i~~~L~~~l~~~~~~vr~~a~~~L~~l~~~~~~  706 (996)
+T tr|Q8PTN9|Q8PT  637 RAWNDLVKLTSDEDREVRKGAVLALSSGYPGVPDKGKVWSDLIMLSSHNDSFVQREATRALGPAFFYVPD  706 (996)
+T ss_pred             HHHHHHHHHhcCCCHHHHHHHHHHHHHcCCCCcchHHHHHHHHHHcCCCCHHHHHHHHHHHHHHHhcCCC
+Confidence            3455666677777777777666655432222222334555555566778888888888888888766543
+
+
+No 6
+>tr|Q8Q0W0|Q8Q0W0_METMA Conserved protein OS=Methanosarcina mazei (strain ATCC BAA-159 / DSM 3647 / Goe1 / Go1 / JCM 11833 / OCM 88) GN=MM_0020 PE=4 SV=1
+Probab=77.32  E-value=3  Score=27.16  Aligned_cols=25  Identities=20%  Similarity=0.077  Sum_probs=13.1  Template_Neff=12.000
+
+Q ss_pred             hcCCchHHHHHHHHHHHHHhhhhCH
+Q tr|Q8PZC8|Q8PZ  178 LLTDKDDLVRKGYGWMLKEASKPHQ  202 (239)
+Q Consensus       178 ~~~~~~~~V~~ai~W~L~~~~~~~p  202 (239)
+                      .+.+++..|+.+...+|..++...+
+T Consensus       165 ~l~~~~~~vr~~a~~~L~~~~~~~~  189 (336)
+T tr|Q8Q0W0|Q8Q0  165 LTNDQEAVVRANAINSLDPVFPYIS  189 (336)
+T ss_pred             HhcCCcHHHHHHHHHHHHHHcccCC
+Confidence            3344555555555555555554443
+
+
+No 7
+>tr|Q8PVD7|Q8PVD7_METMA Uncharacterized protein OS=Methanosarcina mazei (strain ATCC BAA-159 / DSM 3647 / Goe1 / Go1 / JCM 11833 / OCM 88) GN=MM_2028 PE=4 SV=1
+Probab=73.10  E-value=7.9  Score=29.79  Aligned_cols=23  Identities=26%  Similarity=0.189  Sum_probs=11.5  Template_Neff=10.900
+
+Q ss_pred             hcCCchHHHHHHHHHHHHHhhhh
+Q tr|Q8PZC8|Q8PZ  178 LLTDKDDLVRKGYGWMLKEASKP  200 (239)
+Q Consensus       178 ~~~~~~~~V~~ai~W~L~~~~~~  200 (239)
+                      .+.+++..|+.+...+|..+...
+T Consensus       194 ~l~~~~~~vr~~a~~~L~~l~~~  216 (1001)
+T tr|Q8PVD7|Q8PV  194 LTNNKNSYVRSSAAEALGYAFSQ  216 (1001)
+T ss_pred             HHcCCCHHHHHHHHHHHHHHHhh
+Confidence            34444555555555555555444
+
+
+No 8
+>tr|Q8PVD7|Q8PVD7_METMA Uncharacterized protein OS=Methanosarcina mazei (strain ATCC BAA-159 / DSM 3647 / Goe1 / Go1 / JCM 11833 / OCM 88) GN=MM_2028 PE=4 SV=1
+Probab=71.33  E-value=8.8  Score=29.48  Aligned_cols=65  Identities=18%  Similarity=0.036  Sum_probs=29.2  Template_Neff=10.900
+
+Q ss_pred             HHHHHHhcCCCHHHHHHHHHHHHHHHhcCCCHhHHHHHHHHhcCCchHHHHHHHHHHHHHhhhhC
+Q tr|Q8PZC8|Q8PZ  137 DNLKTWAKSDNRWFRRAAAVTLVLPARKGLFLPEVFAIANILLTDKDDLVRKGYGWMLKEASKPH  201 (239)
+Q Consensus       137 ~~~~~w~~s~~~w~rR~~~v~l~~~~~~~~~~~~~l~~~~~~~~~~~~~V~~ai~W~L~~~~~~~  201 (239)
+                      +.+...+.++++..|..++-++............++..+...+.+++..|+.+..++|..++...
+T Consensus       369 ~~L~~~l~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~L~~~l~~~~~~vr~~a~~~L~~l~~~~  433 (1001)
+T tr|Q8PVD7|Q8PV  369 NNLLRLIYDKNSYVRARAASALGSVYPQVPDKQQAWNDLHRLTNDENVYIRFCVASALGYAFSQV  433 (1001)
+T ss_pred             HHHHHHHhCCCHHHHHHHHHHHHHHhccCCChHHHHHHHHHHhcCCCHHHHHHHHHHHHHHHhcC
+Confidence            33444444455555555544433222211112233333333444555566666666666555543
+
+
+No 9
+>tr|Q8Q0U7|Q8Q0U7_METMA Conserved protein OS=Methanosarcina mazei (strain ATCC BAA-159 / DSM 3647 / Goe1 / Go1 / JCM 11833 / OCM 88) GN=MM_0035 PE=4 SV=1
+Probab=71.33  E-value=4.4  Score=31.46  Aligned_cols=68  Identities=15%  Similarity=-0.004  Sum_probs=45.1  Template_Neff=9.500
+
+Q ss_pred             hHHHHHHHhcCCCHHHHHHHHHHHHHHHhcCCCHhHHHHHHHHhcCCchHHHHHHHHHHHHHhhhhCH
+Q tr|Q8PZC8|Q8PZ  135 FVDNLKTWAKSDNRWFRRAAAVTLVLPARKGLFLPEVFAIANILLTDKDDLVRKGYGWMLKEASKPHQ  202 (239)
+Q Consensus       135 ~~~~~~~w~~s~~~w~rR~~~v~l~~~~~~~~~~~~~l~~~~~~~~~~~~~V~~ai~W~L~~~~~~~p  202 (239)
+                      .+..+...+.++++-+|..++.++............+...+...+.+++..|+.++..+|..++...+
+T Consensus        40 ~~~~L~~ll~d~~~~VR~~A~~~L~~i~~~~~~~~~~~~~Ll~ll~d~~~~vR~~a~~~L~~l~~~~~  107 (885)
+T tr|Q8Q0U7|Q8Q0   40 LWTDLVRLASDENSNVRNNAIIAIDSIYSIVKNKDRVWSDLVVLSRSNYANVREVTTKILVSVFPQVS  107 (885)
+T ss_pred             HHHHHHHHHcCCCHHHHHHHHHHHHHHHHhcCchhhHHHHHHHHhcCCCHHHHHHHHHHHHHHhhcCC
+Confidence            34555666778888889888888755443211112233333345678888999999999988887654
+
+
+No 10
+>tr|Q8PVD7|Q8PVD7_METMA Uncharacterized protein OS=Methanosarcina mazei (strain ATCC BAA-159 / DSM 3647 / Goe1 / Go1 / JCM 11833 / OCM 88) GN=MM_2028 PE=4 SV=1
+Probab=54.04  E-value=19  Score=27.12  Aligned_cols=68  Identities=18%  Similarity=0.064  Sum_probs=38.4  Template_Neff=10.900
+
+Q ss_pred             hHHHHHHHhcCCCHHHHHHHHHHHHHHHhcCCCHhHHHHHHHHhcCCchHHHHHHHHHHHHHhhhhCH
+Q tr|Q8PZC8|Q8PZ  135 FVDNLKTWAKSDNRWFRRAAAVTLVLPARKGLFLPEVFAIANILLTDKDDLVRKGYGWMLKEASKPHQ  202 (239)
+Q Consensus       135 ~~~~~~~w~~s~~~w~rR~~~v~l~~~~~~~~~~~~~l~~~~~~~~~~~~~V~~ai~W~L~~~~~~~p  202 (239)
+                      ....+...+.++++..|..++-.+............++..+...+.+++..|+.+..++|..++...|
+T Consensus       223 ~~~~L~~~l~~~~~~vr~~a~~~L~~~~~~~~~~~~~~~~L~~~l~~~~~~vr~~a~~~L~~l~~~~~  290 (1001)
+T tr|Q8PVD7|Q8PV  223 ACDDLHRLTNDEDIYVRSSAAKALGYAFSQVSDKQQAWDDLIKLTNDKYSPVRSKAAETLCSVFSQVP  290 (1001)
+T ss_pred             HHHHHHHHccCCCHHHHHHHHHHHHHHhhcCCchHHHHHHHHHHhcCCCHHHHHHHHHHHHHHHhhCC
+Confidence            34455566666777777766665543332111122333444445566777788887777777776544
+
+
+No 11
+>tr|Q8Q0U7|Q8Q0U7_METMA Conserved protein OS=Methanosarcina mazei (strain ATCC BAA-159 / DSM 3647 / Goe1 / Go1 / JCM 11833 / OCM 88) GN=MM_0035 PE=4 SV=1
+Probab=52.01  E-value=21  Score=26.85  Aligned_cols=69  Identities=16%  Similarity=0.062  Sum_probs=42.7  Template_Neff=9.500
+
+Q ss_pred             hHHHHHHHhcCCCHHHHHHHHHHHHHHHhcCCCHhHHHHHHHHhcCCchHHHHHHHHHHHHHhhhhCHH
+Q tr|Q8PZC8|Q8PZ  135 FVDNLKTWAKSDNRWFRRAAAVTLVLPARKGLFLPEVFAIANILLTDKDDLVRKGYGWMLKEASKPHQQ  203 (239)
+Q Consensus       135 ~~~~~~~w~~s~~~w~rR~~~v~l~~~~~~~~~~~~~l~~~~~~~~~~~~~V~~ai~W~L~~~~~~~p~  203 (239)
+                      +.+.+...+.++++.+|+.++.++........+.+.++..+.....+++..|+.+..++|..++.+.|+
+T Consensus       476 ~~~~Ll~ll~d~~~~VR~~A~~AL~~~~~~~~~~~~~~~~L~~ll~~~~~~VR~~A~~aLg~~~~~~~~  544 (885)
+T tr|Q8Q0U7|Q8Q0  476 AWEDLLALTSEREEVLKRHAATALGLVFLHVPNKSRAWKDLHKLISNMHFNVRRGIASSIGSAFPYVPN  544 (885)
+T ss_pred             HHHHHHHHccCcCHHHHHHHHHHHHHHHhcCCchhHHHHHHHHHhcCCCHHHHHHHHHHHHHhhhcCCC
+Confidence            345566677777888888877765433322111123344444456677888888888888887765554
+
+
+No 12
+>tr|Q8PZI8|Q8PZI8_METMA Phycocyanin alpha-subunit phycocyanobilin lyase OS=Methanosarcina mazei (strain ATCC BAA-159 / DSM 3647 / Goe1 / Go1 / JCM 11833 / OCM 88) GN=MM_0504 PE=4 SV=1
+Probab=51.60  E-value=22  Score=26.93  Aligned_cols=75  Identities=27%  Similarity=0.329  Sum_probs=40.7  Template_Neff=11.900
+
+Q ss_pred             hHHHHHHHhcCCCHHHHHHHHHHHHHHHhcC---CCHhHHHHHHHHhcCCchHHHHHHHHHHHHHhhhhCHHHHHHHH
+Q tr|Q8PZC8|Q8PZ  135 FVDNLKTWAKSDNRWFRRAAAVTLVLPARKG---LFLPEVFAIANILLTDKDDLVRKGYGWMLKEASKPHQQEVFEYV  209 (239)
+Q Consensus       135 ~~~~~~~w~~s~~~w~rR~~~v~l~~~~~~~---~~~~~~l~~~~~~~~~~~~~V~~ai~W~L~~~~~~~p~~v~~fL  209 (239)
+                      ..+.+...+.++++..|..++-.+.......   ...+.++..+...+.+.+..|+.++.++|..+....++.+...+
+T Consensus       841 ~~~~l~~~l~~~~~~vr~~a~~~l~~~~~~~~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~l~~l~~~~~~~~~~~l  918 (1142)
+T tr|Q8PZI8|Q8PZ  841 VLELLSQALMSENQFVRQGAARALGQMNPDGNRNQMSDKVFDSLDSAFEDKDKLVRREAARSLENISKNMPERAFKSL  918 (1142)
+T ss_pred             HHHHHHHHhcCCCHHHHHHHHHHHHhhCCCCChhhccHHHHHHHHHHhcCCCHHHHHHHHHHHHHHHhcCcHHHHHHH
+Confidence            3445555666666666666655543322211   11233444444455666777777777777777766655444333
+
+
+No 13
+>tr|Q8PXE4|Q8PXE4_METMA Uncharacterized protein OS=Methanosarcina mazei (strain ATCC BAA-159 / DSM 3647 / Goe1 / Go1 / JCM 11833 / OCM 88) GN=MM_1276 PE=4 SV=1
+Probab=38.45  E-value=24  Score=23.44  Aligned_cols=20  Identities=30%  Similarity=0.288  Sum_probs=9.0  Template_Neff=12.000
+
+Q ss_pred             HHHHHhcCCCHHHHHHHHHH
+Q tr|Q8PZC8|Q8PZ  138 NLKTWAKSDNRWFRRAAAVT  157 (239)
+Q Consensus       138 ~~~~w~~s~~~w~rR~~~v~  157 (239)
+                      .+...+.++++..|..++-.
+T Consensus       211 ~l~~~l~~~~~~~r~~a~~~  230 (511)
+T tr|Q8PXE4|Q8PX  211 ILLQALKSEKGYVRVSAAMA  230 (511)
+T ss_pred             HHHHHHhCCCHHHHHHHHHH
+Confidence            33344444455554444433
+
+
+No 14
+>tr|Q8PVD7|Q8PVD7_METMA Uncharacterized protein OS=Methanosarcina mazei (strain ATCC BAA-159 / DSM 3647 / Goe1 / Go1 / JCM 11833 / OCM 88) GN=MM_2028 PE=4 SV=1
+Probab=36.46  E-value=37  Score=25.14  Aligned_cols=65  Identities=17%  Similarity=0.040  Sum_probs=26.2  Template_Neff=10.900
+
+Q ss_pred             HHHHHHHhcCCCHHHHHHHHHHHHHHHhcCCCHhHHHHHHHHhcCCchHHHHHHHHHHHHHhhhh
+Q tr|Q8PZC8|Q8PZ  136 VDNLKTWAKSDNRWFRRAAAVTLVLPARKGLFLPEVFAIANILLTDKDDLVRKGYGWMLKEASKP  200 (239)
+Q Consensus       136 ~~~~~~w~~s~~~w~rR~~~v~l~~~~~~~~~~~~~l~~~~~~~~~~~~~V~~ai~W~L~~~~~~  200 (239)
+                      .+.+...+.++++..|..++-.+...+......+.++..+...+.+++..|+.+..++|..++..
+T Consensus       296 ~~~L~~~l~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~L~~l~~~  360 (1001)
+T tr|Q8PVD7|Q8PV  296 WNELHRLTNDENGSVRFSAVTAFDLAYPYILNKQQAWDDLIKRTHDKDIIVKSNAADALVSVYPH  360 (1001)
+T ss_pred             HHHHHHHhcCCCHHHHHHHHHHHHHHhhhccchhhHHHHHHHHhcCCCHHHHHHHHHHHHHHccc
+Confidence            33444445555555555555443321111001122222222233444445555555555544443
+
+
+No 15
+>tr|Q8PZI8|Q8PZI8_METMA Phycocyanin alpha-subunit phycocyanobilin lyase OS=Methanosarcina mazei (strain ATCC BAA-159 / DSM 3647 / Goe1 / Go1 / JCM 11833 / OCM 88) GN=MM_0504 PE=4 SV=1
+Probab=33.93  E-value=42  Score=24.94  Aligned_cols=17  Identities=24%  Similarity=0.327  Sum_probs=7.5  Template_Neff=11.900
+
+Q ss_pred             CchHHHHHHHHHHHHHh
+Q tr|Q8PZC8|Q8PZ  181 DKDDLVRKGYGWMLKEA  197 (239)
+Q Consensus       181 ~~~~~V~~ai~W~L~~~  197 (239)
+                      +++..|+.+..++|..+
+T Consensus       820 ~~~~~vr~~a~~~L~~~  836 (1142)
+T tr|Q8PZI8|Q8PZ  820 DENRFVRKEAAKAIGQL  836 (1142)
+T ss_pred             CCCHHHHHHHHHHHHcc
+Confidence            34444444444444443
+
+
+No 16
+>tr|Q8PSI9|Q8PSI9_METMA Phycocyanin alpha-subunit phycocyanobilin lyase related protein, CpcE/NblB family OS=Methanosarcina mazei (strain ATCC BAA-159 / DSM 3647 / Goe1 / Go1 / JCM 11833 / OCM 88) GN=MM_3090 PE=4 SV=1
+Probab=33.66  E-value=28  Score=22.83  Aligned_cols=60  Identities=20%  Similarity=0.049  Sum_probs=31.9  Template_Neff=11.300
+
+Q ss_pred             hhHHHHHHHhcCCCHHHHHHHHHHHHHHHhcCCCHhHHHHHHHHhcCCchHHHHHHHHHHHHHhh
+Q tr|Q8PZC8|Q8PZ  134 EFVDNLKTWAKSDNRWFRRAAAVTLVLPARKGLFLPEVFAIANILLTDKDDLVRKGYGWMLKEAS  198 (239)
+Q Consensus       134 ~~~~~~~~w~~s~~~w~rR~~~v~l~~~~~~~~~~~~~l~~~~~~~~~~~~~V~~ai~W~L~~~~  198 (239)
+                      ...+.+..++.++++..+++++..+... ...    .....+...+.+++..++.+..+.|....
+T Consensus       128 ~~~~~l~~~l~~~~~~~~~~a~~~l~~~-~~~----~~~~~L~~~l~~~~~~~r~~a~~~l~~~~  187 (457)
+T tr|Q8PSI9|Q8PS  128 EAVSGLTATFTCPDSPLKRISITALGKI-NTY----EAACGLVKALEDPDNRVRQQAVETLGKRG  187 (457)
+T ss_pred             HHHHHHHHHhcCCChHHHHHHHHHHhhc-CCH----HHHHHHHHHHcCCCHHHHHHHHHHHHhcC
+Confidence            3445566666777777777765553322 111    11222222445666677777666666553
+
+
+No 17
+>tr|Q8Q0W0|Q8Q0W0_METMA Conserved protein OS=Methanosarcina mazei (strain ATCC BAA-159 / DSM 3647 / Goe1 / Go1 / JCM 11833 / OCM 88) GN=MM_0020 PE=4 SV=1
+Probab=27.87  E-value=29  Score=21.17  Aligned_cols=63  Identities=6%  Similarity=-0.041  Sum_probs=35.7  Template_Neff=12.000
+
+Q ss_pred             HHHHHhcCCCHHHHHHHHHHHHHH-----HhcCCCHhHHHHHHHHhcCCchHHHHHHHHHHHHHhhhh
+Q tr|Q8PZC8|Q8PZ  138 NLKTWAKSDNRWFRRAAAVTLVLP-----ARKGLFLPEVFAIANILLTDKDDLVRKGYGWMLKEASKP  200 (239)
+Q Consensus       138 ~~~~w~~s~~~w~rR~~~v~l~~~-----~~~~~~~~~~l~~~~~~~~~~~~~V~~ai~W~L~~~~~~  200 (239)
+                      .+..-+.++++..|..++-.+...     .......+.....+.....|++..|+.+..++|..++..
+T Consensus       197 ~l~~~~~~~~~~vr~~a~~~l~~~~~~~~~~~~~~~~~~~~~l~~~~~~~~~~vr~~a~~~l~~~~~~  264 (336)
+T tr|Q8Q0W0|Q8Q0  197 NIHKFLNESDFRVKYCAVNFLNSDAVVPTFISVPDNQQIWEDLVKIAVKEEGFIKFNASRALTGLYPY  264 (336)
+T ss_pred             HHHHHhcCCCHHHHHHHHHHHhcccchhhhhCCCChHHHHHHHHHHhhCCCchHHHHHHHHHHHHhcc
+Confidence            344445567777777777665431     110011123333344456678888998888888766544
+
+
+No 18
+>tr|Q8PZI8|Q8PZI8_METMA Phycocyanin alpha-subunit phycocyanobilin lyase OS=Methanosarcina mazei (strain ATCC BAA-159 / DSM 3647 / Goe1 / Go1 / JCM 11833 / OCM 88) GN=MM_0504 PE=4 SV=1
+Probab=27.74  E-value=54  Score=24.19  Aligned_cols=16  Identities=19%  Similarity=0.256  Sum_probs=7.4  Template_Neff=11.900
+
+Q ss_pred             HhcCCCHHHHHHHHHH
+Q tr|Q8PZC8|Q8PZ  142 WAKSDNRWFRRAAAVT  157 (239)
+Q Consensus       142 w~~s~~~w~rR~~~v~  157 (239)
+                      .+.++++..|..++..
+T Consensus       688 ~l~~~~~~vr~~a~~~  703 (1142)
+T tr|Q8PZI8|Q8PZ  688 ALQDEDEFVRWIAAKA  703 (1142)
+T ss_pred             HhcCCCHHHHHHHHHH
+Confidence            3444455555444443
+
+
+No 19
+>tr|Q8PXE4|Q8PXE4_METMA Uncharacterized protein OS=Methanosarcina mazei (strain ATCC BAA-159 / DSM 3647 / Goe1 / Go1 / JCM 11833 / OCM 88) GN=MM_1276 PE=4 SV=1
+Probab=23.17  E-value=45  Score=21.67  Aligned_cols=22  Identities=18%  Similarity=0.146  Sum_probs=11.3  Template_Neff=12.000
+
+Q ss_pred             HHHHHHHhcCCCHHHHHHHHHH
+Q tr|Q8PZC8|Q8PZ  136 VDNLKTWAKSDNRWFRRAAAVT  157 (239)
+Q Consensus       136 ~~~~~~w~~s~~~w~rR~~~v~  157 (239)
+                      .+.+...+.++++..|+.++..
+T Consensus       303 ~~~l~~~l~~~~~~vr~~a~~~  324 (511)
+T tr|Q8PXE4|Q8PX  303 VPYLIERLRDTRASVRSNSALV  324 (511)
+T ss_pred             HHHHHHHhcCCCHHHHHHHHHH
+Confidence            3344445555555555555444
+
+
+No 20
+>tr|Q8PTN9|Q8PTN9_METMA Conserved protein OS=Methanosarcina mazei (strain ATCC BAA-159 / DSM 3647 / Goe1 / Go1 / JCM 11833 / OCM 88) GN=MM_2674 PE=4 SV=1
+Probab=22.81  E-value=64  Score=23.36  Aligned_cols=64  Identities=9%  Similarity=-0.024  Sum_probs=34.3  Template_Neff=11.300
+
+Q ss_pred             HHHHhcCCCHHHHHHHHHHHHHHHhcCCCHhHHHHHHHHhcCCchHHHHHHHHHHHHHhhhhCH
+Q tr|Q8PZC8|Q8PZ  139 LKTWAKSDNRWFRRAAAVTLVLPARKGLFLPEVFAIANILLTDKDDLVRKGYGWMLKEASKPHQ  202 (239)
+Q Consensus       139 ~~~w~~s~~~w~rR~~~v~l~~~~~~~~~~~~~l~~~~~~~~~~~~~V~~ai~W~L~~~~~~~p  202 (239)
+                      +...+.++++..|..++..+...+........++..+.....+++..|+.+...+|..++...|
+T Consensus       303 l~~~l~~~~~~vr~~a~~~L~~~~~~~~~~~~~l~~l~~~l~~~~~~vr~~a~~~L~~l~~~~~  366 (996)
+T tr|Q8PTN9|Q8PT  303 FIKLTEAQDEYVRDRAVDALSSVYQCLENKDAAWKELIELTGSEEENIRTTAARALNRIFPYVS  366 (996)
+T ss_pred             HHHHhhcCCHHHHHHHHHHHHHHHhccCCHHHHHHHHHHHhCCCCHHHHHHHHHHHHHHcccCC
+Confidence            3334455555566655555433322111122233333334556777888888888887777655
+
+
+No 21
+>tr|Q8PZI8|Q8PZI8_METMA Phycocyanin alpha-subunit phycocyanobilin lyase OS=Methanosarcina mazei (strain ATCC BAA-159 / DSM 3647 / Goe1 / Go1 / JCM 11833 / OCM 88) GN=MM_0504 PE=4 SV=1
+Probab=22.15  E-value=69  Score=23.44  Aligned_cols=19  Identities=21%  Similarity=0.078  Sum_probs=8.9  Template_Neff=11.900
+
+Q ss_pred             HHHHhcCCCHHHHHHHHHH
+Q tr|Q8PZC8|Q8PZ  139 LKTWAKSDNRWFRRAAAVT  157 (239)
+Q Consensus       139 ~~~w~~s~~~w~rR~~~v~  157 (239)
+                      +...+.+.++..|..++..
+T Consensus       623 l~~~l~~~~~~vr~~a~~~  641 (1142)
+T tr|Q8PZI8|Q8PZ  623 LVLALGSKDDFVRFGAIGA  641 (1142)
+T ss_pred             HHHHhCCCCHHHHHHHHHH
+Confidence            3344444555555554444
+
+
+No 22
+>tr|Q8Q0U7|Q8Q0U7_METMA Conserved protein OS=Methanosarcina mazei (strain ATCC BAA-159 / DSM 3647 / Goe1 / Go1 / JCM 11833 / OCM 88) GN=MM_0035 PE=4 SV=1
+Probab=21.99  E-value=68  Score=23.32  Aligned_cols=65  Identities=12%  Similarity=0.072  Sum_probs=28.6  Template_Neff=9.500
+
+Q ss_pred             HHHHHHhcCCCHHHHHHHHHHHHHHHhcCCCHhHHHHHHHHhcCCchHHHHHHHHHHHHHhhhhC
+Q tr|Q8PZC8|Q8PZ  137 DNLKTWAKSDNRWFRRAAAVTLVLPARKGLFLPEVFAIANILLTDKDDLVRKGYGWMLKEASKPH  201 (239)
+Q Consensus       137 ~~~~~w~~s~~~w~rR~~~v~l~~~~~~~~~~~~~l~~~~~~~~~~~~~V~~ai~W~L~~~~~~~  201 (239)
+                      ..+...+.+++.-.|..++-++........+...++..+...+.+++..|+.+...+|..++...
+T Consensus       150 ~~L~~ll~d~~~~vr~~Al~aL~~l~~~~~~~~~~~~~L~~ll~d~d~~Vr~~a~~~L~~l~~~~  214 (885)
+T tr|Q8Q0U7|Q8Q0  150 ERLRNLTIDEDVNVIRSAVNAFQFVFPYSPNKTETWKELHCLVYNDDNEVRQITAKVIGSVFQHI  214 (885)
+T ss_pred             HHHHHHccCCCHHHHHHHHHHHHHHhhhCCChHHHHHHHHHHhcCCCHHHHHHHHHHHHHHhccC
+Confidence            33444455555555555544433222111111122222333444566666666666665554443
+
+
+No 23
+>tr|Q8Q0U7|Q8Q0U7_METMA Conserved protein OS=Methanosarcina mazei (strain ATCC BAA-159 / DSM 3647 / Goe1 / Go1 / JCM 11833 / OCM 88) GN=MM_0035 PE=4 SV=1
+Probab=21.41  E-value=70  Score=23.23  Aligned_cols=67  Identities=15%  Similarity=-0.094  Sum_probs=36.9  Template_Neff=9.500
+
+Q ss_pred             HHHHHHHhcCCCHHHHHHHHHHHHHHHhcCCCHhHHHHHHHHhcCCchHHHHHHHHHHHHHhhhhCH
+Q tr|Q8PZC8|Q8PZ  136 VDNLKTWAKSDNRWFRRAAAVTLVLPARKGLFLPEVFAIANILLTDKDDLVRKGYGWMLKEASKPHQ  202 (239)
+Q Consensus       136 ~~~~~~w~~s~~~w~rR~~~v~l~~~~~~~~~~~~~l~~~~~~~~~~~~~V~~ai~W~L~~~~~~~p  202 (239)
+                      +..+...+.++++..|+.++-.+.............+..+..++.+++.-|+.+..-+|..+....|
+T Consensus       113 ~~~Ll~~l~~~d~~vR~~a~~~L~~l~~~~~~~~~~~~~L~~ll~d~~~~vr~~Al~aL~~l~~~~~  179 (885)
+T tr|Q8Q0U7|Q8Q0  113 WKDLGKLALEDDYETKQVAAKVIGSVFPYIPEKNEAWERLRNLTIDEDVNVIRSAVNAFQFVFPYSP  179 (885)
+T ss_pred             HHHHHHHhcCCCHHHHHHHHHHHHHHcccCchhhHHHHHHHHHccCCCHHHHHHHHHHHHHHhhhCC
+Confidence            4455566667777777777666544332211112333333334556666777776666666665544
+
+

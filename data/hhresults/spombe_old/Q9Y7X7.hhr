@@ -1,0 +1,1181 @@
+Query         sp|Q9Y7X7|YGRB_SCHPO GRIP and coiled-coil domain-containing protein C365.11 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=SPBC365.11 PE=1 SV=1
+Match_columns 266
+No_of_seqs    342 out of 440
+Neff          3.4
+Searched_HMMs 5121
+Date          Mon Apr 11 03:24:53 2016
+Command       hhsearch -i Q9Y7X7.hhm -d /usr/local/hh-suite/db/schizosaccharomyces_pombe/spombe -cpu 2 -v 0 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 sp|Q9Y7X7|YGRB_SCHPO GRIP and  100.0 4.3E-85 8.4E-89  587.8   0.0  266    1-266     1-266 (266)
+  2 sp|O42657|YF82_SCHPO GRIP and   98.7 1.8E-12 3.5E-16  123.1   0.0   50  215-264   699-748 (750)
+  3 sp|O42903|YBAC_SCHPO GRIP doma  97.6 1.4E-08 2.8E-12   87.3   0.0   45  217-261   316-363 (401)
+  4 sp|O14248|TEA3_SCHPO Tip elong  88.7   0.013 2.6E-06   54.6   0.0   71  115-185   903-979 (1125)
+  5 sp|Q10430|SPC25_SCHPO Kinetoch  78.7   0.086 1.7E-05   40.9   0.0   77   80-156    46-122 (238)
+  6 sp|O94419|YQG2_SCHPO Putative   78.2   0.091 1.8E-05   45.9   0.0   51  130-180   580-630 (640)
+  7 sp|Q9HGL2|YHLA_SCHPO Uncharact  77.5   0.099 1.9E-05   49.9   0.0    1  133-133   625-625 (1116)
+  8 sp|Q10168|NSP1_SCHPO Nucleopor  72.6    0.17 3.2E-05   45.1   0.0   24  126-149   528-551 (598)
+  9 sp|O94419|YQG2_SCHPO Putative   72.1    0.17 3.4E-05   43.9   0.0    1  146-146   603-603 (640)
+ 10 sp|Q9US03|KLP2_SCHPO Kinesin-l  70.2     0.2   4E-05   43.1   0.0    5  167-171   467-471 (817)
+ 11 sp|Q9HGL2|YHLA_SCHPO Uncharact  69.1    0.23 4.4E-05   47.2   0.0   25  135-159   669-693 (1116)
+ 12 sp|O13796|RCQ1_SCHPO Ribosome   68.6    0.23 4.6E-05   44.5   0.0   15   75-89    128-142 (656)
+ 13 sp|O14248|TEA3_SCHPO Tip elong  67.9    0.25 4.9E-05   45.3   0.0   47  126-172   705-751 (1125)
+ 14 sp|Q9UTL2|KLP8_SCHPO Kinesin-l  67.8    0.25 4.9E-05   41.1   0.0   43  129-171   448-490 (511)
+ 15 sp|O14248|TEA3_SCHPO Tip elong  66.6    0.27 5.4E-05   45.0   0.0   37  138-174   906-942 (1125)
+ 16 sp|Q9Y7S2|YQO3_SCHPO UPF0612 p  65.2    0.31   6E-05   40.2   0.0    3  245-247   358-360 (375)
+ 17 sp|Q9Y7S2|YQO3_SCHPO UPF0612 p  62.8    0.37 7.1E-05   39.7   0.0    1  198-198   303-303 (375)
+ 18 sp|O14248|TEA3_SCHPO Tip elong  62.1    0.38 7.5E-05   44.0   0.0   23  132-154   795-817 (1125)
+ 19 sp|O13747|EPT1_SCHPO RING fing  62.1    0.38 7.5E-05   41.5   0.0   44  126-170   458-501 (547)
+ 20 sp|P87061|TEA1_SCHPO Tip elong  60.5    0.43 8.4E-05   42.7   0.0   44  128-171   942-985 (1147)
+ 21 sp|P79065|TIP1_SCHPO Tip elong  60.2    0.44 8.5E-05   40.4   0.0   10  127-136   232-241 (461)
+ 22 sp|O13930|SEC2_SCHPO Rab guani  60.1    0.44 8.6E-05   41.4   0.0   28  126-153   134-161 (527)
+ 23 sp|Q9HGL2|YHLA_SCHPO Uncharact  57.7    0.52  0.0001   44.5   0.0   47  128-174   606-652 (1116)
+ 24 sp|O59757|SPC7_SCHPO Kinetocho  57.0    0.54 0.00011   45.3   0.0   15   80-94   1040-1054(1364)
+ 25 sp|Q09926|PCR1_SCHPO Transcrip  52.9     0.7 0.00014   33.9   0.0   33  126-158    43-75  (171)
+ 26 sp|O60065|PEX14_SCHPO Peroxiso  52.8    0.71 0.00014   37.4   0.0   25  126-150   157-181 (286)
+ 27 sp|Q10172|PAN1_SCHPO Actin cyt  51.5    0.77 0.00015   45.3   0.0   21  126-146  1071-1091(1794)
+ 28 sp|P79065|TIP1_SCHPO Tip elong  49.8    0.85 0.00017   38.4   0.0   34  126-159   181-214 (461)
+ 29 sp|Q10496|GYP51_SCHPO GTPase a  49.0    0.89 0.00017   42.4   0.0   28  143-170   983-1010(1031)
+ 30 sp|P87061|TEA1_SCHPO Tip elong  48.5    0.92 0.00018   40.4   0.0   31  128-158   804-834 (1147)
+ 31 sp|O42903|YBAC_SCHPO GRIP doma  48.2    0.93 0.00018   36.0   0.0    1  132-132   118-118 (401)
+ 32 sp|Q1MTQ7|KLP9_SCHPO Kinesin-l  47.8    0.96 0.00019   38.6   0.0   29  128-156   503-531 (633)
+ 33 sp|Q1MTQ0|BRL1_SCHPO E3 ubiqui  47.7    0.96 0.00019   39.0   0.0   47  126-172   252-298 (692)
+ 34 sp|C6Y4C9|SPO13_SCHPO Sporulat  47.7    0.96 0.00019   33.3   0.0   81   79-159    41-125 (138)
+ 35 sp|Q10218|PPC89_SCHPO Spindle   46.4       1  0.0002   41.1   0.0   51  126-176   379-429 (783)
+ 36 sp|Q9US03|KLP2_SCHPO Kinesin-l  45.9     1.1 0.00021   38.1   0.0    1   86-86    160-160 (817)
+ 37 sp|O60085|MAP2_SCHPO Methionin  44.9     1.1 0.00022   36.8   0.0   20   36-55     46-65  (426)
+ 38 sp|Q9US03|KLP2_SCHPO Kinesin-l  44.9     1.1 0.00022   37.9   0.0    1  152-152   417-417 (817)
+ 39 sp|Q10221|YAYE_SCHPO Uncharact  44.6     1.2 0.00023   37.2   0.0   44  126-169   142-185 (345)
+ 40 sp|O13747|EPT1_SCHPO RING fing  43.8     1.2 0.00024   38.0   0.0   36  140-175   451-486 (547)
+ 41 sp|P52890|ATF1_SCHPO Transcrip  43.7     1.2 0.00024   39.2   0.0   32  126-157   505-536 (566)
+ 42 sp|Q10173|NUF2_SCHPO Kinetocho  42.8     1.3 0.00025   34.3   0.0    1   92-92    157-157 (441)
+ 43 sp|Q9P382|NUP82_SCHPO Nucleopo  42.1     1.3 0.00026   38.5   0.0   15  110-124   715-729 (803)
+ 44 sp|O14157|MYO3_SCHPO Myosin ty  41.7     1.4 0.00027   41.9   0.0   47  128-174  2027-2073(2104)
+ 45 sp|Q9Y7Y1|SGM1_SCHPO Protein s  39.6     1.6 0.00031   38.3   0.0   83   79-161   445-544 (547)
+ 46 sp|O42903|YBAC_SCHPO GRIP doma  39.2     1.6 0.00031   34.4   0.0    4  250-253   332-335 (401)
+ 47 sp|Q92376|KLP1_SCHPO Kinesin-l  39.1     1.6 0.00031   37.7   0.0    1  248-248   597-597 (832)
+ 48 sp|Q9Y7Y1|SGM1_SCHPO Protein s  37.3     1.8 0.00035   37.9   0.0   36  125-160   199-234 (547)
+ 49 sp|Q10496|GYP51_SCHPO GTPase a  37.0     1.8 0.00036   40.1   0.0   19   82-100   893-911 (1031)
+ 50 sp|Q10186|YAWC_SCHPO Uncharact  36.8     1.8 0.00036   32.0   0.0   38  123-160   156-193 (201)
+ 51 sp|O13747|EPT1_SCHPO RING fing  36.0     1.9 0.00038   36.6   0.0   17   38-54    524-540 (547)
+ 52 sp|Q10198|NDC80_SCHPO Kinetoch  35.7       2 0.00039   35.9   0.0   60  126-185   334-403 (624)
+ 53 sp|Q9US03|KLP2_SCHPO Kinesin-l  35.7       2 0.00039   36.3   0.0   33  138-170   445-477 (817)
+ 54 sp|O74424|NU211_SCHPO Nucleopo  35.3       2  0.0004   41.4   0.0   55  126-180  1657-1712(1837)
+ 55 sp|P87061|TEA1_SCHPO Tip elong  34.9     2.1 0.00041   37.8   0.0    1  167-167   960-960 (1147)
+ 56 sp|Q9P382|NUP82_SCHPO Nucleopo  34.5     2.1 0.00042   37.1   0.0   93   91-184   641-740 (803)
+ 57 sp|Q10172|PAN1_SCHPO Actin cyt  34.0     2.2 0.00043   41.8   0.0    9  220-228  1227-1235(1794)
+ 58 sp|Q9USI6|MYO2_SCHPO Myosin ty  33.1     2.3 0.00045   38.9   0.0    1  142-142  1053-1053(1526)
+ 59 sp|Q9URY2|ALP7_SCHPO Microtubu  32.2     2.5 0.00048   36.1   0.0    9   79-87    348-356 (474)
+ 60 sp|O42862|ATG14_SCHPO Autophag  31.8     2.5 0.00049   35.2   0.0   36  131-166    77-112 (390)
+ 61 sp|O36023|SPN1_SCHPO Septin ho  31.7     2.5 0.00049   33.9   0.0    1  149-149   433-433 (469)
+ 62 sp|O14014|RGA3_SCHPO Probable   31.6     2.6  0.0005   38.0   0.0   45  126-170   540-584 (969)
+ 63 sp|Q9USI6|MYO2_SCHPO Myosin ty  31.1     2.6 0.00051   38.5   0.0    1  146-146   924-924 (1526)
+ 64 sp|O13930|SEC2_SCHPO Rab guani  30.9     2.7 0.00052   35.9   0.0   32  131-162    96-127 (527)
+ 65 sp|P87117|BECN1_SCHPO Vacuolar  30.8     2.7 0.00053   35.1   0.0   19   80-98    148-166 (464)
+ 66 sp|Q92376|KLP1_SCHPO Kinesin-l  30.6     2.7 0.00053   36.1   0.0    1  170-170   269-269 (832)
+ 67 sp|Q9USZ7|END3_SCHPO Actin cyt  30.6     2.7 0.00053   33.2   0.0   37  138-174   335-371 (375)
+ 68 sp|O94488|MBO1_SCHPO Microtubu  30.1     2.8 0.00055   39.3   0.0   46  126-171   581-626 (1115)
+ 69 sp|Q9UTJ3|MEU1_SCHPO Meiotic e  29.8     2.9 0.00056   37.7   0.0   58  123-180   248-312 (776)
+ 70 sp|Q9USI6|MYO2_SCHPO Myosin ty  28.5     3.1 0.00061   37.9   0.0    4  146-149  1495-1498(1526)
+ 71 sp|O94656|ATG16_SCHPO Autophag  27.6     3.3 0.00065   28.6   0.0   29  126-154    99-127 (143)
+ 72 sp|P87117|BECN1_SCHPO Vacuolar  26.5     3.6  0.0007   34.2   0.0    1  170-170   272-272 (464)
+ 73 sp|O43087|KMS2_SCHPO Karyogamy  25.7     3.8 0.00074   34.8   0.0   14  222-235   366-379 (457)
+ 74 sp|O14126|PRS6A_SCHPO 26S prot  25.3     3.9 0.00076   31.8   0.0   18  131-148    63-80  (438)
+ 75 sp|Q09857|USO1_SCHPO Intracell  25.2     3.9 0.00076   36.1   0.0    6  145-150   912-917 (1067)
+ 76 sp|Q9USI6|MYO2_SCHPO Myosin ty  25.0       4 0.00078   37.1   0.0    1  167-167   994-994 (1526)
+ 77 sp|P87061|TEA1_SCHPO Tip elong  24.8       4 0.00079   35.7   0.0   29  127-155   698-726 (1147)
+ 78 sp|Q1MTQ0|BRL1_SCHPO E3 ubiqui  23.5     4.4 0.00086   34.3   0.0   22  129-150   354-375 (692)
+ 79 sp|Q09857|USO1_SCHPO Intracell  23.4     4.5 0.00087   35.6   0.0    1  159-159   884-884 (1067)
+ 80 sp|Q10198|NDC80_SCHPO Kinetoch  23.4     4.5 0.00087   33.5   0.0   44  128-171   374-417 (624)
+ 81 sp|Q10173|NUF2_SCHPO Kinetocho  22.8     4.7 0.00091   30.7   0.0    1  146-146   393-393 (441)
+ 82 sp|Q01663|AP1_SCHPO AP-1-like   22.1     4.9 0.00096   34.8   0.0   31  128-158   118-148 (552)
+ 83 sp|P79065|TIP1_SCHPO Tip elong  22.0     4.9 0.00097   33.1   0.0   40  140-180   327-367 (461)
+ 84 sp|Q10424|ZIP1_SCHPO Transcrip  21.7     5.1 0.00099   32.7   0.0   32  126-157   297-328 (330)
+ 85 sp|Q10198|NDC80_SCHPO Kinetoch  21.4     5.2   0.001   33.0   0.0   26  128-153   558-583 (624)
+ 86 sp|O74563|BRL2_SCHPO E3 ubiqui  21.1     5.3   0.001   32.2   0.0    1  149-149   578-578 (680)
+ 87 sp|Q9UT17|YFYB_SCHPO Uncharact  21.0     5.4   0.001   32.1   0.0   32  126-157   295-326 (328)
+ 88 sp|Q92376|KLP1_SCHPO Kinesin-l  20.7     5.5  0.0011   33.9   0.0    1  165-165   443-443 (832)
+ 89 sp|O94488|MBO1_SCHPO Microtubu  20.6     5.5  0.0011   37.1   0.0   49  126-174   648-703 (1115)
+ 90 sp|Q10432|CCQ1_SCHPO Coiled-co  20.5     5.6  0.0011   34.6   0.0    2  233-234   713-714 (735)
+ 91 sp|Q9P7B8|ARB1_SCHPO Argonaute  20.4     5.6  0.0011   32.4   0.0    9   25-33     14-22  (399)
+ 92 sp|Q09857|USO1_SCHPO Intracell  20.1     5.8  0.0011   34.8   0.0   21  131-151   969-989 (1067)
+
+No 1
+>sp|Q9Y7X7|YGRB_SCHPO GRIP and coiled-coil domain-containing protein C365.11 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=SPBC365.11 PE=1 SV=1
+Probab=100.00  E-value=4.3e-85  Score=587.79  Aligned_cols=266  Identities=100%  Similarity=1.278  Sum_probs=262.2  Template_Neff=3.500
+
+Q sp|Q9Y7X7|YGRB    1 METTVSAKNSLENENFLKEKSETVFLDEAAITKPPASKKKRKNRKKKKNNGPSEQFVGNNDLEEQRSGSIDSKDKEKPLD   80 (266)
+Q Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   80 (266)
+                      |+|+|+|++||+++||++++|+|||++++++|+||+||||||||||||++||++||+|+|||++|+++++|++|+++++|
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   80 (266)
+T sp|Q9Y7X7|YGRB    1 METTVSAKNSLENENFLKEKSETVFLDEAAITKPPASKKKRKNRKKKKNNGPSEQFVGNNDLEEQRSGSIDSKDKEKPLD   80 (266)
+T ss_pred             CCcccccccccchhhhcccccccccccccccCCCCCchhhhhcccccCCCCCccccccccchhhhhcCCCCCCCCCCchh
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q sp|Q9Y7X7|YGRB   81 EKVKELENANKTLSDLVRRIQIQRDEAEQKAEIYNRDALNTKQEHLDIKKRLEKSDETVCKLKEENENLQDMLRNVGNEL  160 (266)
+Q Consensus        81 ~~~~el~~~~~~l~~~i~~l~~~~~~~~~~~E~~~re~l~~~~~~~~leerL~e~kk~eedLrEEIEtLRD~Lr~VGnEl  160 (266)
+                      ++|+||++++++|+++|+||++++++|++++|+++|++|++++++.+|+++|++.+++++++++||++|||||++||++|
+T Consensus        81 ~~~~el~~~~~~~~~~~~~~~~~~~~~~~~~e~~~re~l~~~~~~~~l~e~Lee~kk~lkdlrEEIEtLRDmLr~VGnEl  160 (266)
+T sp|Q9Y7X7|YGRB   81 EKVKELENANKTLSDLVRRIQIQRDEAEQKAEIYNRDALNTKQEHLDIKKRLEKSDETVCKLKEENENLQDMLRNVGNEL  160 (266)
+T ss_pred             HHHHHHHHhhhHHHHHHHHHHhhHHHHHHHHHHHhHHHHhhhHHHhHHHHHHHhhhHHHHHHHHHHHHHHHHHHHhhhHH
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q sp|Q9Y7X7|YGRB  161 VESRDEIKELIEKQKVQKESVKSHESELSSVMSSEILPKASSDSAGSFEPPVISNISKELINKEYARNVLLQFLENHEHR  240 (266)
+Q Consensus       161 VEAKDkIKeL~eeqr~~gvGywss~~~~~~~~~S~~~ps~s~~~~~sp~p~~~~~~~~~~~N~eYLKNVlLqFLe~Kd~R  240 (266)
+                      |+|||+||+|.+++++||||||+++++++++++|+++|+++++++|+|+|++.++.+.+.+|++|||||||+||+++++|
+T Consensus       161 VeAKDkIKeL~eeqr~~gvGywss~~~~~~~~~s~~~p~~s~~~~gsp~p~~~~~~~~~~vN~EYLKNViLqFLe~Ke~R  240 (266)
+T sp|Q9Y7X7|YGRB  161 VESRDEIKELIEKQKVQKESVKSHESELSSVMSSEILPKASSDSAGSFEPPVISNISKELINKEYARNVLLQFLENHEHR  240 (266)
+T ss_pred             HhhHHHHHHHHHHhhhccccccccccccccCcccCCCCCCCCCCCCCCCCCCCCccchhhhhHHHHHHHHHHhccCccch
+Confidence            99999999999999999999999999999999999999999999999998878888999999999999999999999999
+
+
+Q sp|Q9Y7X7|YGRB  241 DKILPILSTALDLEEVHQHLILKNLN  266 (266)
+Q Consensus       241 ~qLvPVLstLL~ls~eE~q~L~~~l~  266 (266)
+                      .+|||||++||+|+++|++.|+++||
+T Consensus       241 ~qLvPVLstlL~ls~eE~q~L~~~l~  266 (266)
+T sp|Q9Y7X7|YGRB  241 DKILPILSTALDLEEVHQHLILKNLN  266 (266)
+T ss_pred             hchHHHHHHhcCCCHHHHHHHHhhcC
+Confidence            99999999999999999999999997
+
+
+No 2
+>sp|O42657|YF82_SCHPO GRIP and coiled-coil domain-containing protein C27D7.02c OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=SPAC27D7.02c PE=3 SV=1
+Probab=98.68  E-value=1.8e-12  Score=123.12  Aligned_cols=50  Identities=42%  Similarity=0.673  Sum_probs=46.0  Template_Neff=8.100
+
+Q sp|Q9Y7X7|YGRB  215 NISKELINKEYARNVLLQFLENHEHRDKILPILSTALDLEEVHQHLILKN  264 (266)
+Q Consensus       215 ~~~~~~~N~eYLKNVlLqFLe~Kd~R~qLvPVLstLL~ls~eE~q~L~~~  264 (266)
+                      +.....+|++||||||++||++++.|.+|||||++||+||++|.++|..+
+T Consensus       699 ~~~~~~v~~eylkNvll~fl~~~d~r~~ll~vis~lL~~s~ee~~~l~~~  748 (750)
+T sp|O42657|YF82  699 GSDDMLIDKEYTRNILFQFLEQRDRRPEIVNLLSILLDLSEEQKQKLLSV  748 (750)
+T ss_pred             CCCCcccchHHHHHHHHHhhccCCchhhHHHHHHHHhcCCHHHHHHHhhc
+Confidence            34567899999999999999999999999999999999999999999764
+
+
+No 3
+>sp|O42903|YBAC_SCHPO GRIP domain-containing protein C119.12 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=SPBC119.12 PE=2 SV=1
+Probab=97.63  E-value=1.4e-08  Score=87.33  Aligned_cols=45  Identities=27%  Similarity=0.440  Sum_probs=40.1  Template_Neff=8.900
+
+Q sp|Q9Y7X7|YGRB  217 SKELINKEYARNVLLQFLENHEH---RDKILPILSTALDLEEVHQHLI  261 (266)
+Q Consensus       217 ~~~~~N~eYLKNVlLqFLe~Kd~---R~qLvPVLstLL~ls~eE~q~L  261 (266)
+                      +...+|.+||+||+++||.+++.   |.+++|||+++|+||++|+..+
+T Consensus       316 ~~~~vd~~~~knv~l~~~~~~~~~~kr~~~l~~i~~~L~~s~~e~~~~  363 (401)
+T sp|O42903|YBAC  316 NAEKIDKQLISNLFVSFLTLPRADTKRFEILQLISSVLDWNDTQREQT  363 (401)
+T ss_pred             cchhHHHHHHHhhhHhhccCCCCchhHHHHHHHHHHhhcCCHHHHHhc
+Confidence            45678999999999999998765   8999999999999999998764
+
+
+No 4
+>sp|O14248|TEA3_SCHPO Tip elongation aberrant protein 3 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=tea3 PE=1 SV=1
+Probab=88.66  E-value=0.013  Score=54.64  Aligned_cols=71  Identities=14%  Similarity=0.162  Sum_probs=55.9  Template_Neff=8.800
+
+Q sp|Q9Y7X7|YGRB  115 NRDALNTKQEH-LDIKKRLEKSDETVCKLKEENENLQDMLRNVGNELVESRDEIKELIEKQK-----VQKESVKSHE  185 (266)
+Q Consensus       115 ~re~l~~~~~~-~~leerL~e~kk~eedLrEEIEtLRD~Lr~VGnElVEAKDkIKeL~eeqr-----~~gvGywss~  185 (266)
+                      +.++|...++. ..|+.+|.....+...++.++..|+..|.....++.+.+.+|.+++..+.     .|++.|.+..
+T Consensus       903 ~~~el~~~~~~i~~Le~~L~~~~~e~~~l~~~~~ele~el~~~~~~~~~l~~el~~~k~~~~~~~~~~~~~~~~~~~  979 (1125)
+T sp|O14248|TEA3  903 RTKELLNSQQKLYDLKHSYSSVMTEKSKLSDQVNDLTEQAKITQRKLSEVQIALADSKMNQQLSGKDSTDVHLPTDF  979 (1125)
+T ss_pred             HHHHHHHHHHHHHHHHHhhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhcCCCCCCCCCCccc
+Confidence            35566666665 78888888888888899999999999999999998888888888877664     5666655554
+
+
+No 5
+>sp|Q10430|SPC25_SCHPO Kinetochore protein spc25 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=spc25 PE=1 SV=1
+Probab=78.71  E-value=0.086  Score=40.85  Aligned_cols=77  Identities=16%  Similarity=0.227  Sum_probs=41.6  Template_Neff=7.700
+
+Q sp|Q9Y7X7|YGRB   80 DEKVKELENANKTLSDLVRRIQIQRDEAEQKAEIYNRDALNTKQEHLDIKKRLEKSDETVCKLKEENENLQDMLRNV  156 (266)
+Q Consensus        80 ~~~~~el~~~~~~l~~~i~~l~~~~~~~~~~~E~~~re~l~~~~~~~~leerL~e~kk~eedLrEEIEtLRD~Lr~V  156 (266)
+                      ...|.+++...+.+...+.+++....+..+..+..-.+.-....++..|+.+.+.+......|+++++.++..+...
+T Consensus        46 ~~~~~~l~e~~~~l~~~ie~l~~~~~~l~~~ie~e~~e~~~~~~~i~~l~~~~~~l~~~~~~L~~e~~e~~~~l~~~  122 (238)
+T sp|Q10430|SPC2   46 LRQLSEINEAQKKAEKSLEQTEARKQNFTELLEKEHEEQAITEQEIFSFQEKLDAMLKRKQKLSEELDHYRAIISSK  122 (238)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            44555555555555555555555444333332222222222233346666677777777777777777777766553
+
+
+No 6
+>sp|O94419|YQG2_SCHPO Putative GTPase-activating protein C1620.12c OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=SPCC1620.12c PE=3 SV=2
+Probab=78.22  E-value=0.091  Score=45.85  Aligned_cols=51  Identities=14%  Similarity=0.201  Sum_probs=26.2  Template_Neff=8.300
+
+Q sp|Q9Y7X7|YGRB  130 KRLEKSDETVCKLKEENENLQDMLRNVGNELVESRDEIKELIEKQKVQKES  180 (266)
+Q Consensus       130 erL~e~kk~eedLrEEIEtLRD~Lr~VGnElVEAKDkIKeL~eeqr~~gvG  180 (266)
+                      ..+..+.++...+.+++..+.+.+.....++.+.+.++++++.+.....-+
+T Consensus       580 ~e~~~L~~~n~el~~~n~~le~el~~Le~eL~~l~~~~~elk~~~~~l~~~  630 (640)
+T sp|O94419|YQG2  580 QEISILKQRNQKFLKNNATSIQQIQYLDEELGKTLKQLNDLKEKHAQLQTK  630 (640)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            334444444444444555555555555556655555566665555444433
+
+
+No 7
+>sp|Q9HGL2|YHLA_SCHPO Uncharacterized calcium-binding protein C800.10c OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=SPBC800.10c PE=3 SV=1
+Probab=77.52  E-value=0.099  Score=49.87  Aligned_cols=1  Identities=0%  Similarity=0.000  Sum_probs=0.0  Template_Neff=6.100
+
+No 8
+>sp|Q10168|NSP1_SCHPO Nucleoporin nsp1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=nsp1 PE=1 SV=1
+Probab=72.56  E-value=0.17  Score=45.09  Aligned_cols=24  Identities=21%  Similarity=0.328  Sum_probs=14.5  Template_Neff=6.100
+
+Q sp|Q9Y7X7|YGRB  126 LDIKKRLEKSDETVCKLKEENENL  149 (266)
+Q Consensus       126 ~~leerL~e~kk~eedLrEEIEtL  149 (266)
+                      ..|..+|..+..+|.++.++|..+
+T Consensus       528 e~L~~qL~~m~~~L~~iI~~lN~~  551 (598)
+T sp|Q10168|NSP1  528 DDILSRLDRLGEDLGTVINQMNDF  551 (598)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHhhc
+Confidence            556666666666666666665544
+
+
+No 9
+>sp|O94419|YQG2_SCHPO Putative GTPase-activating protein C1620.12c OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=SPCC1620.12c PE=3 SV=2
+Probab=72.08  E-value=0.17  Score=43.90  Aligned_cols=1  Identities=0%  Similarity=0.000  Sum_probs=0.0  Template_Neff=8.300
+
+No 10
+>sp|Q9US03|KLP2_SCHPO Kinesin-like protein 2 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=klp2 PE=3 SV=1
+Probab=70.20  E-value=0.2  Score=43.11  Aligned_cols=5  Identities=60%  Similarity=0.733  Sum_probs=1.8  Template_Neff=10.000
+
+Q sp|Q9Y7X7|YGRB  167 IKELI  171 (266)
+Q Consensus       167 IKeL~  171 (266)
+                      |.+|+
+T Consensus       467 l~~l~  471 (817)
+T sp|Q9US03|KLP2  467 IQELK  471 (817)
+T ss_pred             hhhhc
+Confidence            33333
+
+
+No 11
+>sp|Q9HGL2|YHLA_SCHPO Uncharacterized calcium-binding protein C800.10c OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=SPBC800.10c PE=3 SV=1
+Probab=69.05  E-value=0.23  Score=47.18  Aligned_cols=25  Identities=20%  Similarity=0.191  Sum_probs=9.1  Template_Neff=6.100
+
+Q sp|Q9Y7X7|YGRB  135 SDETVCKLKEENENLQDMLRNVGNE  159 (266)
+Q Consensus       135 ~kk~eedLrEEIEtLRD~Lr~VGnE  159 (266)
+                      ++++++.++.+++.|+..+..+..+
+T Consensus       669 LkkQL~~~E~e~qkL~aEleelqkE  693 (1116)
+T sp|Q9HGL2|YHLA  669 SKTQLATATEEYHEHSKQLEAEKQE  693 (1116)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            3333333333333333333333333
+
+
+No 12
+>sp|O13796|RCQ1_SCHPO Ribosome quality control complex subunit 1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=rqc1 PE=1 SV=2
+Probab=68.63  E-value=0.23  Score=44.49  Aligned_cols=15  Identities=13%  Similarity=0.206  Sum_probs=8.6  Template_Neff=6.100
+
+Q sp|Q9Y7X7|YGRB   75 KEKPLDEKVKELENA   89 (266)
+Q Consensus        75 ~~~~~~~~~~el~~~   89 (266)
+                      ..++.|..+.||...
+T Consensus       128 ~~Deid~al~el~~~  142 (656)
+T sp|O13796|RCQ1  128 DIDEIEKAAAELKLK  142 (656)
+T ss_pred             chhHHHHHHHHhhhh
+Confidence            455666666666543
+
+
+No 13
+>sp|O14248|TEA3_SCHPO Tip elongation aberrant protein 3 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=tea3 PE=1 SV=1
+Probab=67.89  E-value=0.25  Score=45.33  Aligned_cols=47  Identities=28%  Similarity=0.422  Sum_probs=21.3  Template_Neff=8.800
+
+Q sp|Q9Y7X7|YGRB  126 LDIKKRLEKSDETVCKLKEENENLQDMLRNVGNELVESRDEIKELIE  172 (266)
+Q Consensus       126 ~~leerL~e~kk~eedLrEEIEtLRD~Lr~VGnElVEAKDkIKeL~e  172 (266)
+                      ..|+..+.....+++.|+.+++.|+..|+.....+.++..++..|+.
+T Consensus       705 ~~l~~~~~~~~~el~~L~~e~~~le~el~~~~~~~~~le~~l~~l~~  751 (1125)
+T sp|O14248|TEA3  705 DKLRSVFEEDSSKILSLQKENENLQSQILQISEELVDYRSRCEALEY  751 (1125)
+T ss_pred             HHHHHHHHHhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHh
+Confidence            33444444444444455555555555554444444444444444333
+
+
+No 14
+>sp|Q9UTL2|KLP8_SCHPO Kinesin-like protein 8 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=klp8 PE=1 SV=1
+Probab=67.79  E-value=0.25  Score=41.15  Aligned_cols=43  Identities=14%  Similarity=0.187  Sum_probs=22.3  Template_Neff=8.800
+
+Q sp|Q9Y7X7|YGRB  129 KKRLEKSDETVCKLKEENENLQDMLRNVGNELVESRDEIKELI  171 (266)
+Q Consensus       129 eerL~e~kk~eedLrEEIEtLRD~Lr~VGnElVEAKDkIKeL~  171 (266)
+                      ..++.+.......++++|+.++++|...-.++...++++.++.
+T Consensus       448 ~~~~~~~~~~~~~~~~~l~~~~~el~~l~~~l~~~~~~~~~~~  490 (511)
+T sp|Q9UTL2|KLP8  448 NVKLKEFGSPNIAYKQELNSFQGELSSLFKDLKLVKSQLHDYP  490 (511)
+T ss_pred             HHHHHHhCCcchHHHHHHHHHHHHHHHHHHHHHHHHhhhcCCC
+Confidence            3334444444555555555555555555555555555444443
+
+
+No 15
+>sp|O14248|TEA3_SCHPO Tip elongation aberrant protein 3 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=tea3 PE=1 SV=1
+Probab=66.63  E-value=0.27  Score=45.01  Aligned_cols=37  Identities=16%  Similarity=0.237  Sum_probs=16.8  Template_Neff=8.800
+
+Q sp|Q9Y7X7|YGRB  138 TVCKLKEENENLQDMLRNVGNELVESRDEIKELIEKQ  174 (266)
+Q Consensus       138 ~eedLrEEIEtLRD~Lr~VGnElVEAKDkIKeL~eeq  174 (266)
+                      ++..+++.|..|+..|..+..+....+.++.+|+.+.
+T Consensus       906 el~~~~~~i~~Le~~L~~~~~e~~~l~~~~~ele~el  942 (1125)
+T sp|O14248|TEA3  906 ELLNSQQKLYDLKHSYSSVMTEKSKLSDQVNDLTEQA  942 (1125)
+T ss_pred             HHHHHHHHHHHHHHhhHHHHHHHHHHHHHHHHHHHHH
+Confidence            3334444444444444444444444444444444444
+
+
+No 16
+>sp|Q9Y7S2|YQO3_SCHPO UPF0612 protein C569.003 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=SPCC569.03 PE=3 SV=2
+Probab=65.16  E-value=0.31  Score=40.17  Aligned_cols=3  Identities=0%  Similarity=0.169  Sum_probs=1.1  Template_Neff=7.200
+
+Q sp|Q9Y7X7|YGRB  245 PIL  247 (266)
+Q Consensus       245 PVL  247 (266)
+                      +.+
+T Consensus       358 ~aI  360 (375)
+T sp|Q9Y7S2|YQO3  358 EAI  360 (375)
+T ss_pred             HHh
+Confidence            333
+
+
+No 17
+>sp|Q9Y7S2|YQO3_SCHPO UPF0612 protein C569.003 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=SPCC569.03 PE=3 SV=2
+Probab=62.80  E-value=0.37  Score=39.66  Aligned_cols=1  Identities=0%  Similarity=0.000  Sum_probs=0.0  Template_Neff=7.200
+
+No 18
+>sp|O14248|TEA3_SCHPO Tip elongation aberrant protein 3 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=tea3 PE=1 SV=1
+Probab=62.11  E-value=0.38  Score=43.95  Aligned_cols=23  Identities=22%  Similarity=0.263  Sum_probs=8.3  Template_Neff=8.800
+
+Q sp|Q9Y7X7|YGRB  132 LEKSDETVCKLKEENENLQDMLR  154 (266)
+Q Consensus       132 L~e~kk~eedLrEEIEtLRD~Lr  154 (266)
+                      |.+.+.+++.++.++..|+..+.
+T Consensus       795 l~~~~~~~~~le~~l~~l~~ele  817 (1125)
+T sp|O14248|TEA3  795 LRRERDEKSTLQQKCLNLQYEYE  817 (1125)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHH
+Confidence            33333333333333333333333
+
+
+No 19
+>sp|O13747|EPT1_SCHPO RING finger protein ETP1 homolog OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=SPAC16E8.13 PE=3 SV=1
+Probab=62.10  E-value=0.38  Score=41.52  Aligned_cols=44  Identities=14%  Similarity=0.332  Sum_probs=30.6  Template_Neff=7.100
+
+Q sp|Q9Y7X7|YGRB  126 LDIKKRLEKSDETVCKLKEENENLQDMLRNVGNELVESRDEIKEL  170 (266)
+Q Consensus       126 ~~leerL~e~kk~eedLrEEIEtLRD~Lr~VGnElVEAKDkIKeL  170 (266)
+                      ..++.+++..+..+..+.++|..|++.++++--- .+++++|+++
+T Consensus       458 ~~le~~~~~l~~~~~~l~~~i~~L~eq~rDlm~~-l~~~~ki~~~  501 (547)
+T sp|O13747|EPT1  458 QTLEKQNTTKSDQIVSMQFQINDLNEQLRDLMFT-ISASQEIQKM  501 (547)
+T ss_pred             HHHHHHHhhHHHHHHHHHHHHHHHHHHHHHHHhh-hhhHHHHHhc
+Confidence            4455555555666677888888888888877544 4778888765
+
+
+No 20
+>sp|P87061|TEA1_SCHPO Tip elongation aberrant protein 1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=tea1 PE=1 SV=1
+Probab=60.53  E-value=0.43  Score=42.74  Aligned_cols=44  Identities=18%  Similarity=0.094  Sum_probs=18.9  Template_Neff=9.900
+
+Q sp|Q9Y7X7|YGRB  128 IKKRLEKSDETVCKLKEENENLQDMLRNVGNELVESRDEIKELI  171 (266)
+Q Consensus       128 leerL~e~kk~eedLrEEIEtLRD~Lr~VGnElVEAKDkIKeL~  171 (266)
+                      ++.++.....+...++.++..|+..|.....++.+++.++..|+
+T Consensus       942 l~~~l~~~~~~~~~l~~~~~~l~~~l~~~~~e~~~l~~~~~~l~  985 (1147)
+T sp|P87061|TEA1  942 MQLQLMKALEQRNTGAKQLVNLRMQLSTATSELDMLKLKLRTTA  985 (1147)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            33333344444444444444444444444444444444444443
+
+
+No 21
+>sp|P79065|TIP1_SCHPO Tip elongation protein 1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=tip1 PE=1 SV=1
+Probab=60.24  E-value=0.44  Score=40.39  Aligned_cols=10  Identities=20%  Similarity=0.305  Sum_probs=3.8  Template_Neff=6.900
+
+Q sp|Q9Y7X7|YGRB  127 DIKKRLEKSD  136 (266)
+Q Consensus       127 ~leerL~e~k  136 (266)
+                      .|+.+|..++
+T Consensus       232 ~L~~el~~l~  241 (461)
+T sp|P79065|TIP1  232 ELEAQLEMYM  241 (461)
+T ss_pred             HHHHHHHHhh
+Confidence            3333333333
+
+
+No 22
+>sp|O13930|SEC2_SCHPO Rab guanine nucleotide exchange factor sec2 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=sec2 PE=1 SV=1
+Probab=60.12  E-value=0.44  Score=41.37  Aligned_cols=28  Identities=14%  Similarity=0.179  Sum_probs=13.7  Template_Neff=6.300
+
+Q sp|Q9Y7X7|YGRB  126 LDIKKRLEKSDETVCKLKEENENLQDML  153 (266)
+Q Consensus       126 ~~leerL~e~kk~eedLrEEIEtLRD~L  153 (266)
+                      ..++.++.+++.++.++...|+.++..|
+T Consensus       134 ~~~E~k~~~le~~L~e~e~~l~~lq~ql  161 (527)
+T sp|O13930|SEC2  134 VASEKRVNQLKKQLVDAETLLSSTQHQL  161 (527)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            4555555555555444444444444443
+
+
+No 23
+>sp|Q9HGL2|YHLA_SCHPO Uncharacterized calcium-binding protein C800.10c OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=SPBC800.10c PE=3 SV=1
+Probab=57.74  E-value=0.52  Score=44.50  Aligned_cols=47  Identities=23%  Similarity=0.286  Sum_probs=20.5  Template_Neff=6.100
+
+Q sp|Q9Y7X7|YGRB  128 IKKRLEKSDETVCKLKEENENLQDMLRNVGNELVESRDEIKELIEKQ  174 (266)
+Q Consensus       128 leerL~e~kk~eedLrEEIEtLRD~Lr~VGnElVEAKDkIKeL~eeq  174 (266)
+                      |++++..+..++.+|+.+|+.++.+|.....++-.++..|..|+.+.
+T Consensus       606 Lke~I~~Le~EI~~Lk~qLeklksEL~qlq~eie~lkk~L~~LeeeL  652 (1116)
+T sp|Q9HGL2|YHLA  606 AKNMVESSNASIQQLKSEVADKEQTLAQLHLQLDEMTQRLVSLDEES  652 (1116)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhHHHHHHHHH
+Confidence            33333444444444444444444444444444444444444444433
+
+
+No 24
+>sp|O59757|SPC7_SCHPO Kinetochore protein spc7 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=spc7 PE=1 SV=1
+Probab=57.04  E-value=0.54  Score=45.27  Aligned_cols=15  Identities=7%  Similarity=0.051  Sum_probs=5.6  Template_Neff=6.000
+
+Q sp|Q9Y7X7|YGRB   80 DEKVKELENANKTLS   94 (266)
+Q Consensus        80 ~~~~~el~~~~~~l~   94 (266)
+                      ++.+..|.+.-..|.
+T Consensus      1040 ~~~lp~L~e~~~eL~ 1054 (1364)
+T sp|O59757|SPC7 1040 HPYAQEIQERYNGSI 1054 (1364)
+T ss_pred             hHHHHHHHHHHHhhH
+Confidence            333333333333333
+
+
+No 25
+>sp|Q09926|PCR1_SCHPO Transcription factor pcr1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=pcr1 PE=1 SV=1
+Probab=52.87  E-value=0.7  Score=33.92  Aligned_cols=33  Identities=12%  Similarity=0.063  Sum_probs=23.5  Template_Neff=6.900
+
+Q sp|Q9Y7X7|YGRB  126 LDIKKRLEKSDETVCKLKEENENLQDMLRNVGN  158 (266)
+Q Consensus       126 ~~leerL~e~kk~eedLrEEIEtLRD~Lr~VGn  158 (266)
+                      ..|+.+...++.++..|+.|+..|+..|..-.+
+T Consensus        43 ~~L~~en~~L~~e~~~L~~ev~~Lk~~L~~h~~   75 (171)
+T sp|Q09926|PCR1   43 NAAFEQSKRLQLLLSQLQQEAFRLKSQLLAHQG   75 (171)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcC
+Confidence            566666677777777788888888777765543
+
+
+No 26
+>sp|O60065|PEX14_SCHPO Peroxisomal membrane protein pex14 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=pex14 PE=3 SV=1
+Probab=52.76  E-value=0.71  Score=37.39  Aligned_cols=25  Identities=12%  Similarity=0.332  Sum_probs=15.2  Template_Neff=5.300
+
+Q sp|Q9Y7X7|YGRB  126 LDIKKRLEKSDETVCKLKEENENLQ  150 (266)
+Q Consensus       126 ~~leerL~e~kk~eedLrEEIEtLR  150 (266)
+                      ..++..-.+...++..+++||+++|
+T Consensus       157 ~~~~~~~~~~~~e~~~~~~ev~~~~  181 (286)
+T sp|O60065|PEX1  157 NTLKRTSENRDREIARISQDVYTMS  181 (286)
+T ss_pred             HHHHhhhhhhHHHHHHHHHHHhhcc
+Confidence            3344444455566677777777777
+
+
+No 27
+>sp|Q10172|PAN1_SCHPO Actin cytoskeleton-regulatory complex protein pan1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=pan1 PE=1 SV=1
+Probab=51.52  E-value=0.77  Score=45.31  Aligned_cols=21  Identities=14%  Similarity=0.213  Sum_probs=9.2  Template_Neff=3.900
+
+Q sp|Q9Y7X7|YGRB  126 LDIKKRLEKSDETVCKLKEEN  146 (266)
+Q Consensus       126 ~~leerL~e~kk~eedLrEEI  146 (266)
+                      ..|..++.+...++.+++-|+
+T Consensus      1071 p~L~seI~eVE~eIa~aKlEL 1091 (1794)
+T sp|Q10172|PAN1 1071 SKMLSDINEVDHTIASLSLKL 1091 (1794)
+T ss_pred             HHHHHHHHHHHHHHHHHHhhh
+Confidence            344444444444444444444
+
+
+No 28
+>sp|P79065|TIP1_SCHPO Tip elongation protein 1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=tip1 PE=1 SV=1
+Probab=49.78  E-value=0.85  Score=38.40  Aligned_cols=34  Identities=9%  Similarity=0.209  Sum_probs=15.3  Template_Neff=6.900
+
+Q sp|Q9Y7X7|YGRB  126 LDIKKRLEKSDETVCKLKEENENLQDMLRNVGNE  159 (266)
+Q Consensus       126 ~~leerL~e~kk~eedLrEEIEtLRD~Lr~VGnE  159 (266)
+                      ..|++.|......+..++.+.+.+|..++..-+.
+T Consensus       181 ~~LreeL~~k~ekis~l~~e~d~~rae~r~~~d~  214 (461)
+T sp|P79065|TIP1  181 DELRERITLKEERIQQMRNEASQRRFEFKTTIEC  214 (461)
+T ss_pred             HHHHHHHHHhHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            3344444444444444444444444444443333
+
+
+No 29
+>sp|Q10496|GYP51_SCHPO GTPase activating protein Gyp51 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=gyp51 PE=3 SV=1
+Probab=48.97  E-value=0.89  Score=42.43  Aligned_cols=28  Identities=21%  Similarity=0.317  Sum_probs=11.7  Template_Neff=5.900
+
+Q sp|Q9Y7X7|YGRB  143 KEENENLQDMLRNVGNELVESRDEIKEL  170 (266)
+Q Consensus       143 rEEIEtLRD~Lr~VGnElVEAKDkIKeL  170 (266)
+                      ..+...|.+.+.....++.+.+.++.++
+T Consensus       983 ~qen~~LEeeI~eLEkeL~~lK~e~aeL 1010 (1031)
+T sp|Q10496|GYP5  983 MVESQSLEDEIFRKEKQLAETKVNLAVL 1010 (1031)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHhhc
+Confidence            3333344444444444444444444444
+
+
+No 30
+>sp|P87061|TEA1_SCHPO Tip elongation aberrant protein 1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=tea1 PE=1 SV=1
+Probab=48.47  E-value=0.92  Score=40.35  Aligned_cols=31  Identities=16%  Similarity=0.124  Sum_probs=12.0  Template_Neff=9.900
+
+Q sp|Q9Y7X7|YGRB  128 IKKRLEKSDETVCKLKEENENLQDMLRNVGN  158 (266)
+Q Consensus       128 leerL~e~kk~eedLrEEIEtLRD~Lr~VGn  158 (266)
+                      |+..+...+...+.+..++..|+..+.....
+T Consensus       804 le~~l~~~~~~~~~le~~l~~l~~el~~~~~  834 (1147)
+T sp|P87061|TEA1  804 LHESLRSVQTENSELVTEMALLKAELVKKQA  834 (1147)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            3333333333333333444444443333333
+
+
+No 31
+>sp|O42903|YBAC_SCHPO GRIP domain-containing protein C119.12 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=SPBC119.12 PE=2 SV=1
+Probab=48.24  E-value=0.93  Score=35.98  Aligned_cols=1  Identities=0%  Similarity=0.000  Sum_probs=0.0  Template_Neff=8.900
+
+No 32
+>sp|Q1MTQ7|KLP9_SCHPO Kinesin-like motor protein 9 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=klp9 PE=1 SV=2
+Probab=47.75  E-value=0.96  Score=38.64  Aligned_cols=29  Identities=24%  Similarity=0.439  Sum_probs=11.4  Template_Neff=8.300
+
+Q sp|Q9Y7X7|YGRB  128 IKKRLEKSDETVCKLKEENENLQDMLRNV  156 (266)
+Q Consensus       128 leerL~e~kk~eedLrEEIEtLRD~Lr~V  156 (266)
+                      |+.++.+...++..+++.|+.|++.|...
+T Consensus       503 l~~~~~~~~~~~~~l~~~~~el~~el~~~  531 (633)
+T sp|Q1MTQ7|KLP9  503 LQDENSEKTETIAQLEQIIEELHEELRSL  531 (633)
+T ss_pred             hhhhhhHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            33333333333444444444444443333
+
+
+No 33
+>sp|Q1MTQ0|BRL1_SCHPO E3 ubiquitin-protein ligase brl1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=brl1 PE=1 SV=1
+Probab=47.73  E-value=0.96  Score=38.99  Aligned_cols=47  Identities=11%  Similarity=0.069  Sum_probs=29.2  Template_Neff=8.400
+
+Q sp|Q9Y7X7|YGRB  126 LDIKKRLEKSDETVCKLKEENENLQDMLRNVGNELVESRDEIKELIE  172 (266)
+Q Consensus       126 ~~leerL~e~kk~eedLrEEIEtLRD~Lr~VGnElVEAKDkIKeL~e  172 (266)
+                      ..++.++..+..+...|+.+++.|+..+..+..+.+...+.++.+..
+T Consensus       252 ~~~e~~i~~L~~e~~~L~~el~~L~~~l~~l~~e~~~~~~~~~~l~~  298 (692)
+T sp|Q1MTQ0|BRL1  252 DLMQANINSKLDELSQKSTRAAQLYVDIMGITDERVSREPHYLELKG  298 (692)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHhhcCCChhhhhcCHHHHHHHH
+Confidence            44566666666677777777777777777666665555444444443
+
+
+No 34
+>sp|C6Y4C9|SPO13_SCHPO Sporulation-specific protein 13 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=spo13 PE=1 SV=1
+Probab=47.71  E-value=0.96  Score=33.29  Aligned_cols=81  Identities=11%  Similarity=0.084  Sum_probs=45.0  Template_Neff=4.200
+
+Q sp|Q9Y7X7|YGRB   79 LDEKVKELENANKTLSDLVRRIQIQRDEAE---QKAEIYNRDALNT-KQEHLDIKKRLEKSDETVCKLKEENENLQDMLR  154 (266)
+Q Consensus        79 ~~~~~~el~~~~~~l~~~i~~l~~~~~~~~---~~~E~~~re~l~~-~~~~~~leerL~e~kk~eedLrEEIEtLRD~Lr  154 (266)
+                      +..+..+|..+...+...+........+.+   +..-..|-.|.+. +.++..++.++..++..+.+....|+.+++.|.
+T Consensus        41 l~~L~~~L~~E~~~r~~aE~~k~~ve~ELEeLSasLFEEANkMVa~arker~~~E~k~~~Le~qL~e~e~lLe~lQ~QL~  120 (138)
+T sp|C6Y4C9|SPO1   41 ITHLKEQLSREVQRREELEGLLEQSQKEMEDLSVSLFTEANEMVAKARQDTEVLKRELDYLRAKEKGRIGKLRSIQTAVR  120 (138)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhHHHHHHHHHHHHHH
+Confidence            334444555555555554444444444433   1222222222222 334477777888888888888888888888777
+
+
+Q sp|Q9Y7X7|YGRB  155 NVGNE  159 (266)
+Q Consensus       155 ~VGnE  159 (266)
+                      .+...
+T Consensus       121 ~Lk~v  125 (138)
+T sp|C6Y4C9|SPO1  121 TSIEA  125 (138)
+T ss_pred             HHHHH
+Confidence            66544
+
+
+No 35
+>sp|Q10218|PPC89_SCHPO Spindle pole body protein ppc89 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=ppc89 PE=1 SV=1
+Probab=46.38  E-value=1  Score=41.05  Aligned_cols=51  Identities=20%  Similarity=0.102  Sum_probs=42.9  Template_Neff=4.300
+
+Q sp|Q9Y7X7|YGRB  126 LDIKKRLEKSDETVCKLKEENENLQDMLRNVGNELVESRDEIKELIEKQKV  176 (266)
+Q Consensus       126 ~~leerL~e~kk~eedLrEEIEtLRD~Lr~VGnElVEAKDkIKeL~eeqr~  176 (266)
+                      ..|+.+|......+..++.|.+++...|.....+..+-|.++..|..+.+.
+T Consensus       379 ~tLQ~qLdrlt~aL~~Lr~ERDs~~~rL~~A~~EveqLK~E~EkLr~Eve~  429 (783)
+T sp|Q10218|PPC8  379 KSLQEQYEHIQSVYKNVLLDRESYIMRLGNKISENNELLNENRVLKEKLQT  429 (783)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            778888888888888888888888888888888888888888888777655
+
+
+No 36
+>sp|Q9US03|KLP2_SCHPO Kinesin-like protein 2 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=klp2 PE=3 SV=1
+Probab=45.86  E-value=1.1  Score=38.11  Aligned_cols=1  Identities=0%  Similarity=0.000  Sum_probs=0.0  Template_Neff=10.000
+
+No 37
+>sp|O60085|MAP2_SCHPO Methionine aminopeptidase 2 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=fma2 PE=3 SV=1
+Probab=44.94  E-value=1.1  Score=36.85  Aligned_cols=20  Identities=45%  Similarity=0.672  Sum_probs=9.9  Template_Neff=7.400
+
+Q sp|Q9Y7X7|YGRB   36 ASKKKRKNRKKKKNNGPSEQ   55 (266)
+Q Consensus        36 ~~~~~~~~~~~~~~~~~~~~   55 (266)
+                      ..|||||+|||||+.++..|
+T Consensus        46 ~~~~~~~~~~~~~~~~~~~q   65 (426)
+T sp|O60085|MAP2   46 EKKKKKKKKSSKKKKTPQEQ   65 (426)
+T ss_pred             cccccccCCCCCCCCCCCCc
+Confidence            34555555555555544333
+
+
+No 38
+>sp|Q9US03|KLP2_SCHPO Kinesin-like protein 2 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=klp2 PE=3 SV=1
+Probab=44.86  E-value=1.1  Score=37.94  Aligned_cols=1  Identities=0%  Similarity=0.000  Sum_probs=0.0  Template_Neff=10.000
+
+No 39
+>sp|Q10221|YAYE_SCHPO Uncharacterized protein C4H3.14c OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=SPAC4H3.14c PE=4 SV=1
+Probab=44.58  E-value=1.2  Score=37.19  Aligned_cols=44  Identities=16%  Similarity=0.151  Sum_probs=35.1  Template_Neff=3.200
+
+Q sp|Q9Y7X7|YGRB  126 LDIKKRLEKSDETVCKLKEENENLQDMLRNVGNELVESRDEIKE  169 (266)
+Q Consensus       126 ~~leerL~e~kk~eedLrEEIEtLRD~Lr~VGnElVEAKDkIKe  169 (266)
+                      .+++.+|.+++...+.+.++|..|++.+.....+...-+..+..
+T Consensus       142 kd~E~~l~eLk~~~e~lkee~~~L~e~i~~ss~ee~~l~eQl~~  185 (345)
+T sp|Q10221|YAYE  142 EEFERQITDLLEEQQQLKLEIERLEAETERANSETEQYEKQKEA  185 (345)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhhhhhHHHHHHHHH
+Confidence            67899999999999999999999999999888876433333333
+
+
+No 40
+>sp|O13747|EPT1_SCHPO RING finger protein ETP1 homolog OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=SPAC16E8.13 PE=3 SV=1
+Probab=43.76  E-value=1.2  Score=38.01  Aligned_cols=36  Identities=17%  Similarity=0.199  Sum_probs=15.7  Template_Neff=7.100
+
+Q sp|Q9Y7X7|YGRB  140 CKLKEENENLQDMLRNVGNELVESRDEIKELIEKQK  175 (266)
+Q Consensus       140 edLrEEIEtLRD~Lr~VGnElVEAKDkIKeL~eeqr  175 (266)
+                      +.|...++.|+..+..+.....+.+.++++|++..+
+T Consensus       451 ~~L~~~~~~le~~~~~l~~~~~~l~~~i~~L~eq~r  486 (547)
+T sp|O13747|EPT1  451 ENLLVRIQTLEKQNTTKSDQIVSMQFQINDLNEQLR  486 (547)
+T ss_pred             HHHHHHHHHHHHHHhhHHHHHHHHHHHHHHHHHHHH
+Confidence            333334444444333333333444455555555443
+
+
+No 41
+>sp|P52890|ATF1_SCHPO Transcription factor atf1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=atf1 PE=1 SV=1
+Probab=43.72  E-value=1.2  Score=39.20  Aligned_cols=32  Identities=22%  Similarity=0.093  Sum_probs=20.0  Template_Neff=3.800
+
+Q sp|Q9Y7X7|YGRB  126 LDIKKRLEKSDETVCKLKEENENLQDMLRNVG  157 (266)
+Q Consensus       126 ~~leerL~e~kk~eedLrEEIEtLRD~Lr~VG  157 (266)
+                      ..|+.+...++.+++.|++||..|+..|....
+T Consensus       505 EeLEaENeaLksEVe~LReEV~qLK~LLlaHk  536 (566)
+T sp|P52890|ATF1  505 EFYGNENEILSAQVSALREEIVSLKTLLIAHK  536 (566)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcC
+Confidence            45555556666666666666666666666554
+
+
+No 42
+>sp|Q10173|NUF2_SCHPO Kinetochore protein nuf2 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=nuf2 PE=1 SV=1
+Probab=42.81  E-value=1.3  Score=34.34  Aligned_cols=1  Identities=0%  Similarity=0.000  Sum_probs=0.0  Template_Neff=10.200
+
+No 43
+>sp|Q9P382|NUP82_SCHPO Nucleoporin nup82 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=nup82 PE=3 SV=1
+Probab=42.06  E-value=1.3  Score=38.52  Aligned_cols=15  Identities=13%  Similarity=0.038  Sum_probs=6.8  Template_Neff=8.600
+
+Q sp|Q9Y7X7|YGRB  110 KAEIYNRDALNTKQE  124 (266)
+Q Consensus       110 ~~E~~~re~l~~~~~  124 (266)
+                      .+|.+..++|+..+.
+T Consensus       715 ~aE~~~~~EL~~l~~  729 (803)
+T sp|Q9P382|NUP8  715 DKEKQFIKEIGNYKE  729 (803)
+T ss_pred             HHHHHHHHHHHHHHH
+Confidence            444444444444443
+
+
+No 44
+>sp|O14157|MYO3_SCHPO Myosin type-2 heavy chain 2 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=myo3 PE=1 SV=1
+Probab=41.70  E-value=1.4  Score=41.89  Aligned_cols=47  Identities=17%  Similarity=0.256  Sum_probs=22.7  Template_Neff=10.000
+
+Q sp|Q9Y7X7|YGRB  128 IKKRLEKSDETVCKLKEENENLQDMLRNVGNELVESRDEIKELIEKQ  174 (266)
+Q Consensus       128 leerL~e~kk~eedLrEEIEtLRD~Lr~VGnElVEAKDkIKeL~eeq  174 (266)
+                      ++.++..++..+..+..++..++..+...-.++.+.+.++..|..+.
+T Consensus      2027 l~~~~~~l~~~l~~l~~e~~~~~~~~~~l~~el~~l~~~~~~l~~el 2073 (2104)
+T sp|O14157|MYO3 2027 LEERNAQLRNQLEDVQASETQWKFALRRTEHALQEERERVKSLETDF 2073 (2104)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            33344444444444444445555555555555555555555555444
+
+
+No 45
+>sp|Q9Y7Y1|SGM1_SCHPO Protein sgm1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=sgm1 PE=3 SV=1
+Probab=39.60  E-value=1.6  Score=38.31  Aligned_cols=83  Identities=20%  Similarity=0.271  Sum_probs=44.6  Template_Neff=4.000
+
+Q sp|Q9Y7X7|YGRB   79 LDEKVKELENANKTLSDLVRRIQIQRDEAEQ-------KAE--IY-------NRDALNTKQEH-LDIKKRLEKSDETVCK  141 (266)
+Q Consensus        79 ~~~~~~el~~~~~~l~~~i~~l~~~~~~~~~-------~~E--~~-------~re~l~~~~~~-~~leerL~e~kk~eed  141 (266)
+                      +-+.|..|+.+-..+.+.+.++...+++|.+       +.|  ..       ...++...+.+ ..+-+-|-++..+.+.
+T Consensus       445 lss~IRrLE~El~slkeel~rL~~qRd~A~eEIv~Lm~e~E~~~~~~~~~~~Le~el~eL~~Ryet~LELLGEKsE~VEE  524 (547)
+T sp|Q9Y7Y1|SGM1  445 LATTIRRLEAELQTTKQQVAQLIIQRDQARQEIVDAYVNNDANEDSKKQVEELRLQLQNLEKEHASTLVTLKQKSDKVFE  524 (547)
+T ss_pred             hHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhhhchhhHHHHHHHHHHHHHHHHHHHHHHHhhhcchhhHHH
+Confidence            4456666777777777777777776666552       111  11       12233333333 3333334455555566
+
+
+Q sp|Q9Y7X7|YGRB  142 LKEENENLQDMLRNVGNELV  161 (266)
+Q Consensus       142 LrEEIEtLRD~Lr~VGnElV  161 (266)
+                      |+..|..|++|++...+++|
+T Consensus       525 L~aDV~DlKemyr~QV~~lv  544 (547)
+T sp|Q9Y7Y1|SGM1  525 LELDIKDMRELYVSQIDILA  544 (547)
+T ss_pred             HHhhHHHHHHHHHHHHHHHh
+Confidence            66666666666665555543
+
+
+No 46
+>sp|O42903|YBAC_SCHPO GRIP domain-containing protein C119.12 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=SPBC119.12 PE=2 SV=1
+Probab=39.22  E-value=1.6  Score=34.44  Aligned_cols=4  Identities=50%  Similarity=0.476  Sum_probs=1.4  Template_Neff=8.900
+
+Q sp|Q9Y7X7|YGRB  250 ALDL  253 (266)
+Q Consensus       250 LL~l  253 (266)
+                      .|..
+T Consensus       332 ~~~~  335 (401)
+T sp|O42903|YBAC  332 FLTL  335 (401)
+T ss_pred             hccC
+Confidence            3333
+
+
+No 47
+>sp|Q92376|KLP1_SCHPO Kinesin-like protein 1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=klp1 PE=2 SV=2
+Probab=39.12  E-value=1.6  Score=37.68  Aligned_cols=1  Identities=0%  Similarity=0.000  Sum_probs=0.0  Template_Neff=9.200
+
+No 48
+>sp|Q9Y7Y1|SGM1_SCHPO Protein sgm1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=sgm1 PE=3 SV=1
+Probab=37.28  E-value=1.8  Score=37.88  Aligned_cols=36  Identities=17%  Similarity=0.143  Sum_probs=26.1  Template_Neff=4.000
+
+Q sp|Q9Y7X7|YGRB  125 HLDIKKRLEKSDETVCKLKEENENLQDMLRNVGNEL  160 (266)
+Q Consensus       125 ~~~leerL~e~kk~eedLrEEIEtLRD~Lr~VGnEl  160 (266)
+                      +..|...++.+++.++...+||+.|.+.+..+-+++
+T Consensus       199 is~l~~~~~~lkk~l~sk~~eI~~L~~~~~~L~~e~  234 (547)
+T sp|Q9Y7Y1|SGM1  199 VSQMSKQLDSLEKLCERKDEEIRSSQAFNMTLREEN  234 (547)
+T ss_pred             HHHHHhHHHHHHHHHHhhhHHHHHHHHHHHHHHhHH
+Confidence            366777777777777777788887777777776644
+
+
+No 49
+>sp|Q10496|GYP51_SCHPO GTPase activating protein Gyp51 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=gyp51 PE=3 SV=1
+Probab=37.01  E-value=1.8  Score=40.13  Aligned_cols=19  Identities=21%  Similarity=0.413  Sum_probs=8.3  Template_Neff=5.900
+
+Q sp|Q9Y7X7|YGRB   82 KVKELENANKTLSDLVRRI  100 (266)
+Q Consensus        82 ~~~el~~~~~~l~~~i~~l  100 (266)
+                      .+..|+.+++.|...++.+
+T Consensus       893 elEeLR~enkqLqeqir~L  911 (1031)
+T sp|Q10496|GYP5  893 SLEEMRNRHKSLNEHFIML  911 (1031)
+T ss_pred             HHHHHHHHHHHHHHHHHHH
+Confidence            3444444444444444433
+
+
+No 50
+>sp|Q10186|YAWC_SCHPO Uncharacterized bHLH domain-containing protein C3F10.12c OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=SPAC3F10.12c PE=3 SV=1
+Probab=36.80  E-value=1.8  Score=31.95  Aligned_cols=38  Identities=11%  Similarity=0.106  Sum_probs=27.6  Template_Neff=7.200
+
+Q sp|Q9Y7X7|YGRB  123 QEHLDIKKRLEKSDETVCKLKEENENLQDMLRNVGNEL  160 (266)
+Q Consensus       123 ~~~~~leerL~e~kk~eedLrEEIEtLRD~Lr~VGnEl  160 (266)
+                      .++..|+.++..++.++..+..+++.++..|+..|-..
+T Consensus       156 ~~i~~L~~~~~~L~~e~~~l~~~~~~~~~~~~~~~~~~  193 (201)
+T sp|Q10186|YAWC  156 HTIQELARENARLKSECERAWRSVELWKQAARSFDSEL  193 (201)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcCCCC
+Confidence            44566777777777777777778877777777766553
+
+
+No 51
+>sp|O13747|EPT1_SCHPO RING finger protein ETP1 homolog OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=SPAC16E8.13 PE=3 SV=1
+Probab=36.01  E-value=1.9  Score=36.61  Aligned_cols=17  Identities=47%  Similarity=0.481  Sum_probs=9.7  Template_Neff=7.100
+
+Q sp|Q9Y7X7|YGRB   38 KKKRKNRKKKKNNGPSE   54 (266)
+Q Consensus        38 ~~~~~~~~~~~~~~~~~   54 (266)
+                      .+|+++|||||++.|+.
+T Consensus       524 ~~~~~~~~~~~~~~~~~  540 (547)
+T sp|O13747|EPT1  524 SVKSKKKKKKKPVVPSS  540 (547)
+T ss_pred             CccccCCCCCCCCCCCC
+Confidence            34444555557777654
+
+
+No 52
+>sp|Q10198|NDC80_SCHPO Kinetochore protein ndc80 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=ndc80 PE=1 SV=1
+Probab=35.72  E-value=2  Score=35.94  Aligned_cols=60  Identities=15%  Similarity=0.207  Sum_probs=30.8  Template_Neff=8.900
+
+Q sp|Q9Y7X7|YGRB  126 LDIKKRLEKSDETVCKLKEENENLQDMLRN----------VGNELVESRDEIKELIEKQKVQKESVKSHE  185 (266)
+Q Consensus       126 ~~leerL~e~kk~eedLrEEIEtLRD~Lr~----------VGnElVEAKDkIKeL~eeqr~~gvGywss~  185 (266)
+                      ..++..+.....++..++.+++.|+..+..          +..+.-..+..|..+..+.....--+|.-.
+T Consensus       334 ~~l~~el~~~e~el~~l~~e~~~L~~~i~~Q~~s~~~~~~l~~e~~~L~~~l~~l~~~i~el~~~~~~~e  403 (624)
+T sp|Q10198|NDC8  334 KQLQVNIEEKESQLQLLKEKRDSLKYQVENQDISISEFEKMVSEREQLDRNLNMIGSKISELRKEVFDTD  403 (624)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHhCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhHH
+Confidence            445555556666666666666666655533          222333333444444555555555566543
+
+
+No 53
+>sp|Q9US03|KLP2_SCHPO Kinesin-like protein 2 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=klp2 PE=3 SV=1
+Probab=35.67  E-value=2  Score=36.28  Aligned_cols=33  Identities=18%  Similarity=0.175  Sum_probs=12.4  Template_Neff=10.000
+
+Q sp|Q9Y7X7|YGRB  138 TVCKLKEENENLQDMLRNVGNELVESRDEIKEL  170 (266)
+Q Consensus       138 ~eedLrEEIEtLRD~Lr~VGnElVEAKDkIKeL  170 (266)
+                      ++.++..++..++..+...-.++.+.+.++..+
+T Consensus       445 e~~~l~~~l~~~~~~~~~l~~~l~~l~~~~~~~  477 (817)
+T sp|Q9US03|KLP2  445 ERDGLVEKLIAEETLRRKLHNTIQELKGNIRVF  477 (817)
+T ss_pred             HHHHHHHHHHHHHHHHHHHhhhhhhhcCCeeeE
+Confidence            333333333333333333333333344444333
+
+
+No 54
+>sp|O74424|NU211_SCHPO Nucleoporin nup211 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=nup211 PE=1 SV=1
+Probab=35.27  E-value=2  Score=41.40  Aligned_cols=55  Identities=11%  Similarity=0.145  Sum_probs=35.3  Template_Neff=7.900
+
+Q sp|Q9Y7X7|YGRB  126 LDIKKRLEKSDETVCKLKEE-NENLQDMLRNVGNELVESRDEIKELIEKQKVQKES  180 (266)
+Q Consensus       126 ~~leerL~e~kk~eedLrEE-IEtLRD~Lr~VGnElVEAKDkIKeL~eeqr~~gvG  180 (266)
+                      .+++..|.+..+++..+..+ |..+..|.+++-+.+....+.+..|......|.-|
+T Consensus      1657 ~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~l~~~~~~lq~e~~~l~~~l~~~~~~ 1712 (1837)
+T sp|O74424|NU21 1657 ANFDVKLKKVVAETEFRSKAKISVYEKKTRDLQNKITQLEETIENLNKQLSNPEKT 1712 (1837)
+T ss_pred             hhHHHHHHHHHhhhhhhhhhhhHHHHhhHHHHHHHHHHHHHHHHhhhcccCCCCCC
+Confidence            34555666666666655533 34445667777777777777777777766666655
+
+
+No 55
+>sp|P87061|TEA1_SCHPO Tip elongation aberrant protein 1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=tea1 PE=1 SV=1
+Probab=34.85  E-value=2.1  Score=37.81  Aligned_cols=1  Identities=0%  Similarity=0.000  Sum_probs=0.0  Template_Neff=9.900
+
+No 56
+>sp|Q9P382|NUP82_SCHPO Nucleoporin nup82 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=nup82 PE=3 SV=1
+Probab=34.52  E-value=2.1  Score=37.11  Aligned_cols=93  Identities=16%  Similarity=0.198  Sum_probs=54.2  Template_Neff=8.600
+
+Q sp|Q9Y7X7|YGRB   91 KTLSDLVRRIQIQRDEAEQKAEI--YNRDALNTKQEHLDIKKRLEKSDETVCKLKEENENLQDML-RN----VGNELVES  163 (266)
+Q Consensus        91 ~~l~~~i~~l~~~~~~~~~~~E~--~~re~l~~~~~~~~leerL~e~kk~eedLrEEIEtLRD~L-r~----VGnElVEA  163 (266)
+                      +...++.+|+..+..+...+.+.  ...+.+...++...+.+++++.+.+...|.+-++.|...| ..    +-..-...
+T Consensus       641 ~~~~~L~~R~~~q~~e~~~Q~~~l~~l~~~~~~l~~~~~~~~rl~~~~~rq~~L~~R~~~ll~~l~~~~~~~LS~aE~~~  720 (803)
+T sp|Q9P382|NUP8  641 HGCSELHHRLKLQREEYERQQNHIYKLSDRISNFREKAWSTEHLEHLTSDMSMCEKRIDQVLQRVMDLRVPDLSDKEKQF  720 (803)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhhcchHHHHHHHHHHHHHHHHHHHHHHHHHHhhcCCCCCHHHHHH
+Confidence            35556666777776666644442  2234444434443478888888888888888888887777 32    22333344
+
+
+Q sp|Q9Y7X7|YGRB  164 RDEIKELIEKQKVQKESVKSH  184 (266)
+Q Consensus       164 KDkIKeL~eeqr~~gvGywss  184 (266)
+                      .++|+.+..+...++ |||..
+T Consensus       721 ~~EL~~l~~~l~~~~-~l~~~  740 (803)
+T sp|Q9P382|NUP8  721 IKEIGNYKEKVTGER-GIEKR  740 (803)
+T ss_pred             HHHHHHHHHHhcCcc-hHHHH
+Confidence            455555555554432 45554
+
+
+No 57
+>sp|Q10172|PAN1_SCHPO Actin cytoskeleton-regulatory complex protein pan1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=pan1 PE=1 SV=1
+Probab=33.99  E-value=2.2  Score=41.84  Aligned_cols=9  Identities=0%  Similarity=-0.252  Sum_probs=6.0  Template_Neff=3.900
+
+Q sp|Q9Y7X7|YGRB  220 LINKEYARN  228 (266)
+Q Consensus       220 ~~N~eYLKN  228 (266)
+                      .....|||.
+T Consensus      1227 eeRaayik~ 1235 (1794)
+T sp|Q10172|PAN1 1227 EDRAARIKA 1235 (1794)
+T ss_pred             HHHHHHHHH
+Confidence            346778876
+
+
+No 58
+>sp|Q9USI6|MYO2_SCHPO Myosin type-2 heavy chain 1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=myo2 PE=1 SV=1
+Probab=33.13  E-value=2.3  Score=38.87  Aligned_cols=1  Identities=0%  Similarity=0.000  Sum_probs=0.0  Template_Neff=9.800
+
+No 59
+>sp|Q9URY2|ALP7_SCHPO Microtubule protein alp7 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=alp7 PE=1 SV=1
+Probab=32.21  E-value=2.5  Score=36.10  Aligned_cols=9  Identities=22%  Similarity=0.619  Sum_probs=3.9  Template_Neff=5.200
+
+Q sp|Q9Y7X7|YGRB   79 LDEKVKELE   87 (266)
+Q Consensus        79 ~~~~~~el~   87 (266)
+                      ...+|+||+
+T Consensus       348 yekKvqELe  356 (474)
+T sp|Q9URY2|ALP7  348 YEATIQELQ  356 (474)
+T ss_pred             HHHHHHHHH
+Confidence            333444444
+
+
+No 60
+>sp|O42862|ATG14_SCHPO Autophagy-related protein 14 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=atg14 PE=1 SV=1
+Probab=31.81  E-value=2.5  Score=35.17  Aligned_cols=36  Identities=17%  Similarity=0.314  Sum_probs=15.0  Template_Neff=5.200
+
+Q sp|Q9Y7X7|YGRB  131 RLEKSDETVCKLKEENENLQDMLRNVGNELVESRDE  166 (266)
+Q Consensus       131 rL~e~kk~eedLrEEIEtLRD~Lr~VGnElVEAKDk  166 (266)
+                      ++.+++.+.+..|++|+.+|+.|..-=.++..|+..
+T Consensus        77 ~~~~LR~EIe~~RerI~~lKeaLA~RRsdLasAk~~  112 (390)
+T sp|O42862|ATG1   77 SLNEKKSLSCDLHSRKQLIEDDLSNRKKSINIASQK  112 (390)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhh
+Confidence            334444444444444444444444444444444433
+
+
+No 61
+>sp|O36023|SPN1_SCHPO Septin homolog spn1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=spn1 PE=1 SV=2
+Probab=31.72  E-value=2.5  Score=33.94  Aligned_cols=1  Identities=0%  Similarity=0.000  Sum_probs=0.0  Template_Neff=8.800
+
+No 62
+>sp|O14014|RGA3_SCHPO Probable Rho-type GTPase-activating protein 3 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=rga3 PE=1 SV=1
+Probab=31.57  E-value=2.6  Score=38.02  Aligned_cols=45  Identities=18%  Similarity=0.137  Sum_probs=30.6  Template_Neff=7.600
+
+Q sp|Q9Y7X7|YGRB  126 LDIKKRLEKSDETVCKLKEENENLQDMLRNVGNELVESRDEIKEL  170 (266)
+Q Consensus       126 ~~leerL~e~kk~eedLrEEIEtLRD~Lr~VGnElVEAKDkIKeL  170 (266)
+                      ..++.+|+.+..+-+.|.+||..|+.+....-.+.+....+-.+|
+T Consensus       540 ~slq~eIe~L~~~R~~L~~Ei~~L~~~rd~~~~e~~~L~~KN~eL  584 (969)
+T sp|O14014|RGA3  540 ESYGTEINNLLERRNELLDDYNNVQKILNESLEASVHLNTKNLEL  584 (969)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhHHHH
+Confidence            345577777777777778888888887777777776664433333
+
+
+No 63
+>sp|Q9USI6|MYO2_SCHPO Myosin type-2 heavy chain 1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=myo2 PE=1 SV=1
+Probab=31.09  E-value=2.6  Score=38.46  Aligned_cols=1  Identities=0%  Similarity=0.000  Sum_probs=0.0  Template_Neff=9.800
+
+No 64
+>sp|O13930|SEC2_SCHPO Rab guanine nucleotide exchange factor sec2 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=sec2 PE=1 SV=1
+Probab=30.92  E-value=2.7  Score=35.89  Aligned_cols=32  Identities=19%  Similarity=0.330  Sum_probs=17.9  Template_Neff=6.300
+
+Q sp|Q9Y7X7|YGRB  131 RLEKSDETVCKLKEENENLQDMLRNVGNELVE  162 (266)
+Q Consensus       131 rL~e~kk~eedLrEEIEtLRD~Lr~VGnElVE  162 (266)
+                      +.....+....++.|+|.|-..|-.-++..|.
+T Consensus        96 ~~~~ae~~k~~le~ElEeLt~~LFeeAN~mVa  127 (527)
+T sp|O13930|SEC2   96 KCRNAESEKSRVENELEDLTSSLFEEANRMVA  127 (527)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            33445555556666677666666554544443
+
+
+No 65
+>sp|P87117|BECN1_SCHPO Vacuolar protein sorting-associated protein atg6 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=atg6 PE=3 SV=4
+Probab=30.76  E-value=2.7  Score=35.09  Aligned_cols=19  Identities=11%  Similarity=0.218  Sum_probs=7.7  Template_Neff=6.700
+
+Q sp|Q9Y7X7|YGRB   80 DEKVKELENANKTLSDLVR   98 (266)
+Q Consensus        80 ~~~~~el~~~~~~l~~~i~   98 (266)
+                      |.++..|..+-..+..+++
+T Consensus       148 ~~L~~~l~~~l~~~~~E~~  166 (464)
+T sp|P87117|BECN  148 ELLTEEMSKTLRALKEEKK  166 (464)
+T ss_pred             HHHHHHHHHHHHHHHHHHH
+Confidence            3444444444333333333
+
+
+No 66
+>sp|Q92376|KLP1_SCHPO Kinesin-like protein 1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=klp1 PE=2 SV=2
+Probab=30.62  E-value=2.7  Score=36.07  Aligned_cols=1  Identities=0%  Similarity=0.000  Sum_probs=0.0  Template_Neff=9.200
+
+No 67
+>sp|Q9USZ7|END3_SCHPO Actin cytoskeleton-regulatory complex protein end3 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=end3 PE=3 SV=1
+Probab=30.56  E-value=2.7  Score=33.21  Aligned_cols=37  Identities=16%  Similarity=0.334  Sum_probs=24.7  Template_Neff=8.100
+
+Q sp|Q9Y7X7|YGRB  138 TVCKLKEENENLQDMLRNVGNELVESRDEIKELIEKQ  174 (266)
+Q Consensus       138 ~eedLrEEIEtLRD~Lr~VGnElVEAKDkIKeL~eeq  174 (266)
+                      .+..+.+.|+.+.+.+...++.+-..+.+|..|+.+.
+T Consensus       335 ~~~~~~~dl~~~~~qv~~l~~~L~~~~~el~~l~~e~  371 (375)
+T sp|Q9USZ7|END3  335 SASAIDNDLKMLEQQLNVLGRHLEGRKSQVAKLEERL  371 (375)
+T ss_pred             ChHHHHHHHHHHHHHHHHHHHHHhHHHHHHHHHHHHH
+Confidence            4556666677777777777777767777667666554
+
+
+No 68
+>sp|O94488|MBO1_SCHPO Microtubule organizer protein 1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=mbo1 PE=1 SV=1
+Probab=30.10  E-value=2.8  Score=39.28  Aligned_cols=46  Identities=24%  Similarity=0.398  Sum_probs=22.2  Template_Neff=4.800
+
+Q sp|Q9Y7X7|YGRB  126 LDIKKRLEKSDETVCKLKEENENLQDMLRNVGNELVESRDEIKELI  171 (266)
+Q Consensus       126 ~~leerL~e~kk~eedLrEEIEtLRD~Lr~VGnElVEAKDkIKeL~  171 (266)
+                      ..|+..|.....++..+.++|+.|.+.+..+..+++.-.+.+..|.
+T Consensus       581 ~~le~el~ekeeEi~~l~eeie~L~eei~~LEeeld~leee~e~l~  626 (1115)
+T sp|O94488|MBO1  581 EKFEKTIRENEESISLFKEEVEKLTDEITQLSERYNDKCHEFDELQ  626 (1115)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            3344444444444555555555555555544444444444444433
+
+
+No 69
+>sp|Q9UTJ3|MEU1_SCHPO Meiotic expression up-regulated protein 1/2 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=meu1 PE=2 SV=1
+Probab=29.83  E-value=2.9  Score=37.68  Aligned_cols=58  Identities=19%  Similarity=0.337  Sum_probs=29.1  Template_Neff=2.900
+
+Q sp|Q9Y7X7|YGRB  123 QEHLDIKKRLEKSDETVCKLKEENE-------NLQDMLRNVGNELVESRDEIKELIEKQKVQKES  180 (266)
+Q Consensus       123 ~~~~~leerL~e~kk~eedLrEEIE-------tLRD~Lr~VGnElVEAKDkIKeL~eeqr~~gvG  180 (266)
+                      .++..|...++.+++++..+++|+.       .|+..+...++++-+.+++|-.|+..-..+.+|
+T Consensus       248 SaIe~LkeEidaLk~e~~KlraEN~~l~~E~~dL~~~v~al~nELee~keEi~~L~~~N~~LKs~  312 (776)
+T sp|Q9UTJ3|MEU1  248 QAIDDISGTIETIKSDCYKVESENKGLINEVMDMRNFVQQLEQELYAFEDDYSRIQNDEELLKVG  312 (776)
+T ss_pred             HHHHhhhhhhHHHhhhhHhhhhhhccccchHhhHHHHHHHHHHHHHHHHhHHHhhhhhhHHhhhc
+Confidence            3344455555555555554444433       344444455555555555555555555444444
+
+
+No 70
+>sp|Q9USI6|MYO2_SCHPO Myosin type-2 heavy chain 1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=myo2 PE=1 SV=1
+Probab=28.51  E-value=3.1  Score=37.92  Aligned_cols=4  Identities=25%  Similarity=0.177  Sum_probs=1.4  Template_Neff=9.800
+
+Q sp|Q9Y7X7|YGRB  146 NENL  149 (266)
+Q Consensus       146 IEtL  149 (266)
+                      ++.+
+T Consensus      1495 l~~l 1498 (1526)
+T sp|Q9USI6|MYO2 1495 IASL 1498 (1526)
+T ss_pred             HHHH
+Confidence            3333
+
+
+No 71
+>sp|O94656|ATG16_SCHPO Autophagy protein 16 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=atg16 PE=1 SV=1
+Probab=27.55  E-value=3.3  Score=28.57  Aligned_cols=29  Identities=24%  Similarity=0.147  Sum_probs=14.1  Template_Neff=7.500
+
+Q sp|Q9Y7X7|YGRB  126 LDIKKRLEKSDETVCKLKEENENLQDMLR  154 (266)
+Q Consensus       126 ~~leerL~e~kk~eedLrEEIEtLRD~Lr  154 (266)
+                      ..|+..+......+.++...|..|+|++-
+T Consensus        99 ~~L~~~~~~l~~~~~e~~~~~q~L~DE~~  127 (143)
+T sp|O94656|ATG1   99 TLLEKQLSLQTELNQEKDKRVKILQDELW  127 (143)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            44444444444444455555555554443
+
+
+No 72
+>sp|P87117|BECN1_SCHPO Vacuolar protein sorting-associated protein atg6 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=atg6 PE=3 SV=4
+Probab=26.45  E-value=3.6  Score=34.24  Aligned_cols=1  Identities=0%  Similarity=0.000  Sum_probs=0.0  Template_Neff=6.700
+
+No 73
+>sp|O43087|KMS2_SCHPO Karyogamy meiotic segregation protein 2 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=kms2 PE=1 SV=1
+Probab=25.67  E-value=3.8  Score=34.77  Aligned_cols=14  Identities=29%  Similarity=0.408  Sum_probs=7.2  Template_Neff=4.700
+
+Q sp|Q9Y7X7|YGRB  222 NKEYARNVLLQFLE  235 (266)
+Q Consensus       222 N~eYLKNVlLqFLe  235 (266)
+                      -.+--|++|-+|=.
+T Consensus       366 ~~~~~~~~~~~~~~  379 (457)
+T sp|O43087|KMS2  366 ELESQKNLLKKFEN  379 (457)
+T ss_pred             hhhHHHHHHHHHHh
+Confidence            34445566655544
+
+
+No 74
+>sp|O14126|PRS6A_SCHPO 26S protease regulatory subunit 6A OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=tbp1 PE=3 SV=1
+Probab=25.34  E-value=3.9  Score=31.75  Aligned_cols=18  Identities=17%  Similarity=0.056  Sum_probs=7.1  Template_Neff=9.600
+
+Q sp|Q9Y7X7|YGRB  131 RLEKSDETVCKLKEENEN  148 (266)
+Q Consensus       131 rL~e~kk~eedLrEEIEt  148 (266)
+                      ++..++..++.++++++.
+T Consensus        63 ~~~~~~~~~~~~~~~~~~   80 (438)
+T sp|O14126|PRS6   63 EKSTMLEKIKENQEKISN   80 (438)
+T ss_pred             HHhHHHHHHHHHHHHHhc
+Confidence            333333334444444443
+
+
+No 75
+>sp|Q09857|USO1_SCHPO Intracellular protein transport protein uso1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=uso1 PE=3 SV=3
+Probab=25.24  E-value=3.9  Score=36.06  Aligned_cols=6  Identities=17%  Similarity=0.291  Sum_probs=2.1  Template_Neff=9.200
+
+Q sp|Q9Y7X7|YGRB  145 ENENLQ  150 (266)
+Q Consensus       145 EIEtLR  150 (266)
+                      +++.++
+T Consensus       912 ~~~~l~  917 (1067)
+T sp|Q09857|USO1  912 KISSLE  917 (1067)
+T ss_pred             HHHHHH
+Confidence            333333
+
+
+No 76
+>sp|Q9USI6|MYO2_SCHPO Myosin type-2 heavy chain 1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=myo2 PE=1 SV=1
+Probab=24.99  E-value=4  Score=37.14  Aligned_cols=1  Identities=0%  Similarity=0.000  Sum_probs=0.0  Template_Neff=9.800
+
+No 77
+>sp|P87061|TEA1_SCHPO Tip elongation aberrant protein 1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=tea1 PE=1 SV=1
+Probab=24.81  E-value=4  Score=35.75  Aligned_cols=29  Identities=21%  Similarity=0.315  Sum_probs=12.3  Template_Neff=9.900
+
+Q sp|Q9Y7X7|YGRB  127 DIKKRLEKSDETVCKLKEENENLQDMLRN  155 (266)
+Q Consensus       127 ~leerL~e~kk~eedLrEEIEtLRD~Lr~  155 (266)
+                      .|+.+|.....++..+..+++.|.+.|..
+T Consensus       698 ~l~~~l~~l~~~~~~l~~~~~~le~el~~  726 (1147)
+T sp|P87061|TEA1  698 DLDKQLKDATASQKELIVQTSSFQKELVE  726 (1147)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            33334444444444444444444444433
+
+
+No 78
+>sp|Q1MTQ0|BRL1_SCHPO E3 ubiquitin-protein ligase brl1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=brl1 PE=1 SV=1
+Probab=23.49  E-value=4.4  Score=34.33  Aligned_cols=22  Identities=9%  Similarity=0.010  Sum_probs=7.9  Template_Neff=8.400
+
+Q sp|Q9Y7X7|YGRB  129 KKRLEKSDETVCKLKEENENLQ  150 (266)
+Q Consensus       129 eerL~e~kk~eedLrEEIEtLR  150 (266)
+                      +..+...+.....+..+++.++
+T Consensus       354 e~el~~lr~~rd~L~~el~~l~  375 (692)
+T sp|Q1MTQ0|BRL1  354 ESSLTQIRNERDSLVAKQQMQY  375 (692)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHhh
+Confidence            3333333333333333333333
+
+
+No 79
+>sp|Q09857|USO1_SCHPO Intracellular protein transport protein uso1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=uso1 PE=3 SV=3
+Probab=23.42  E-value=4.5  Score=35.65  Aligned_cols=1  Identities=0%  Similarity=0.000  Sum_probs=0.0  Template_Neff=9.200
+
+No 80
+>sp|Q10198|NDC80_SCHPO Kinetochore protein ndc80 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=ndc80 PE=1 SV=1
+Probab=23.36  E-value=4.5  Score=33.49  Aligned_cols=44  Identities=11%  Similarity=0.146  Sum_probs=18.5  Template_Neff=8.900
+
+Q sp|Q9Y7X7|YGRB  128 IKKRLEKSDETVCKLKEENENLQDMLRNVGNELVESRDEIKELI  171 (266)
+Q Consensus       128 leerL~e~kk~eedLrEEIEtLRD~Lr~VGnElVEAKDkIKeL~  171 (266)
+                      +......+.+.+..++.+++.+...+...-.++..+++.+..+.
+T Consensus       374 l~~e~~~L~~~l~~l~~~i~el~~~~~~~e~~~~~~~~~le~~~  417 (624)
+T sp|Q10198|NDC8  374 MVSEREQLDRNLNMIGSKISELRKEVFDTDLLIQASIDSLEKKV  417 (624)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHhhHHHHHHHHHHHHHHHH
+Confidence            33333444444444444444444444444444444444344333
+
+
+No 81
+>sp|Q10173|NUF2_SCHPO Kinetochore protein nuf2 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=nuf2 PE=1 SV=1
+Probab=22.79  E-value=4.7  Score=30.74  Aligned_cols=1  Identities=0%  Similarity=0.000  Sum_probs=0.0  Template_Neff=10.200
+
+No 82
+>sp|Q01663|AP1_SCHPO AP-1-like transcription factor OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=pap1 PE=1 SV=2
+Probab=22.06  E-value=4.9  Score=34.84  Aligned_cols=31  Identities=19%  Similarity=0.079  Sum_probs=15.8  Template_Neff=3.900
+
+Q sp|Q9Y7X7|YGRB  128 IKKRLEKSDETVCKLKEENENLQDMLRNVGN  158 (266)
+Q Consensus       128 leerL~e~kk~eedLrEEIEtLRD~Lr~VGn  158 (266)
+                      +..++..++.++..|+.|+..||..+..+..
+T Consensus       118 L~~E~e~Lreele~Lq~EN~~LR~rl~t~~~  148 (552)
+T sp|Q01663|AP1_  118 TTLENDQLRQKVRQLEEELRILKDGSFTFEM  148 (552)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHhccccccc
+Confidence            3344455555555555555555554444433
+
+
+No 83
+>sp|P79065|TIP1_SCHPO Tip elongation protein 1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=tip1 PE=1 SV=1
+Probab=22.02  E-value=4.9  Score=33.14  Aligned_cols=40  Identities=18%  Similarity=0.208  Sum_probs=27.9  Template_Neff=6.900
+
+Q sp|Q9Y7X7|YGRB  140 CKLKEENENLQDMLRNVGNELVESRD-EIKELIEKQKVQKES  180 (266)
+Q Consensus       140 edLrEEIEtLRD~Lr~VGnElVEAKD-kIKeL~eeqr~~gvG  180 (266)
+                      ...+.+|+.|+..|-.. ..+++||+ +|-+|+.+...+..+
+T Consensus       327 ~~~~~eie~LE~El~~l-ka~~eaKd~rieeLE~ele~L~~~  367 (461)
+T sp|P79065|TIP1  327 EFYEIEIEVLREKVEKL-QALSDEKDFYISKLEKSLDRNDTT  367 (461)
+T ss_pred             hhHHHHHHHHHHHHHHH-HHhhhhhhHHHHHHHHHHhccCCC
+Confidence            45666777777776665 67778888 677777777666655
+
+
+No 84
+>sp|Q10424|ZIP1_SCHPO Transcription factor zip1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=zip1 PE=1 SV=1
+Probab=21.70  E-value=5.1  Score=32.70  Aligned_cols=32  Identities=19%  Similarity=0.346  Sum_probs=25.0  Template_Neff=2.900
+
+Q sp|Q9Y7X7|YGRB  126 LDIKKRLEKSDETVCKLKEENENLQDMLRNVG  157 (266)
+Q Consensus       126 ~~leerL~e~kk~eedLrEEIEtLRD~Lr~VG  157 (266)
+                      ..|+++..+++.++..|+.|++-||.+|..+.
+T Consensus       297 qELeeeN~eLeqrIs~LE~ENk~LK~LLlevt  328 (330)
+T sp|Q10424|ZIP1  297 KELTEKVAILETRVRELEMENNWLKGLIRPTS  328 (330)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhc
+Confidence            66667777778888888888888888887654
+
+
+No 85
+>sp|Q10198|NDC80_SCHPO Kinetochore protein ndc80 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=ndc80 PE=1 SV=1
+Probab=21.37  E-value=5.2  Score=33.03  Aligned_cols=26  Identities=4%  Similarity=0.185  Sum_probs=12.2  Template_Neff=8.900
+
+Q sp|Q9Y7X7|YGRB  128 IKKRLEKSDETVCKLKEENENLQDML  153 (266)
+Q Consensus       128 leerL~e~kk~eedLrEEIEtLRD~L  153 (266)
+                      ++.++..++.+++.+...++.+++.+
+T Consensus       558 ~e~~l~~l~~e~~~l~~~~~~~~~~l  583 (624)
+T sp|Q10198|NDC8  558 LDQRIQSINIEADQIAHACMEYKNNI  583 (624)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            34444444444444444444444443
+
+
+No 86
+>sp|O74563|BRL2_SCHPO E3 ubiquitin-protein ligase brl2 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=brl2 PE=1 SV=1
+Probab=21.11  E-value=5.3  Score=32.24  Aligned_cols=1  Identities=0%  Similarity=0.000  Sum_probs=0.0  Template_Neff=10.300
+
+No 87
+>sp|Q9UT17|YFYB_SCHPO Uncharacterized protein C9.11 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=SPAC9.11 PE=1 SV=1
+Probab=20.98  E-value=5.4  Score=32.09  Aligned_cols=32  Identities=34%  Similarity=0.519  Sum_probs=28.7  Template_Neff=1.800
+
+Q sp|Q9Y7X7|YGRB  126 LDIKKRLEKSDETVCKLKEENENLQDMLRNVG  157 (266)
+Q Consensus       126 ~~leerL~e~kk~eedLrEEIEtLRD~Lr~VG  157 (266)
+                      .-++.+|.+.+..++.+.+||+.||+.|.+.|
+T Consensus       295 ePyKkel~E~Ke~la~k~~E~~~Lk~kL~naG  326 (328)
+T sp|Q9UT17|YFYB  295 EPLKKELQETKTLLAQKEEEISNLKDKLQNAG  326 (328)
+T ss_pred             chhhHHHHHHHHHHHhhHHHHHHHHHHHHhcC
+Confidence            56788899999999999999999999998876
+
+
+No 88
+>sp|Q92376|KLP1_SCHPO Kinesin-like protein 1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=klp1 PE=2 SV=2
+Probab=20.71  E-value=5.5  Score=33.92  Aligned_cols=1  Identities=0%  Similarity=0.000  Sum_probs=0.0  Template_Neff=9.200
+
+No 89
+>sp|O94488|MBO1_SCHPO Microtubule organizer protein 1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=mbo1 PE=1 SV=1
+Probab=20.64  E-value=5.5  Score=37.10  Aligned_cols=49  Identities=14%  Similarity=0.203  Sum_probs=24.0  Template_Neff=4.800
+
+Q sp|Q9Y7X7|YGRB  126 LDIKKRLEKSDETVCKLKEE-------NENLQDMLRNVGNELVESRDEIKELIEKQ  174 (266)
+Q Consensus       126 ~~leerL~e~kk~eedLrEE-------IEtLRD~Lr~VGnElVEAKDkIKeL~eeq  174 (266)
+                      ..|.++++.++.++..|+++       |..|.+.|...-..+..-++++.+|..++
+T Consensus       648 ~rLkeQles~q~EI~fLREeqE~dkirIgdLEaeL~~~~~~~r~~ke~~~eLe~rl  703 (1115)
+T sp|O94488|MBO1  648 SNLLEQLKMTEAEVDSLRKENEENKQVIALKESELVKSNDNKLLLNEQIESLNDQL  703 (1115)
+T ss_pred             HHHHHHHhhhHHHHHHHHHHHHhhHHHHHHHHHHHhhhhhhhhhHHHHHHHHHHHH
+Confidence            34444444444444444444       44444444444444555566666665555
+
+
+No 90
+>sp|Q10432|CCQ1_SCHPO Coiled-coil quantitatively-enriched protein 1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=ccq1 PE=1 SV=1
+Probab=20.52  E-value=5.6  Score=34.60  Aligned_cols=2  Identities=50%  Similarity=0.833  Sum_probs=0.7  Template_Neff=7.200
+
+Q sp|Q9Y7X7|YGRB  233 FL  234 (266)
+Q Consensus       233 FL  234 (266)
+                      +|
+T Consensus       713 ~~  714 (735)
+T sp|Q10432|CCQ1  713 IL  714 (735)
+T ss_pred             HH
+Confidence            33
+
+
+No 91
+>sp|Q9P7B8|ARB1_SCHPO Argonaute-binding protein 1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=arb1 PE=1 SV=1
+Probab=20.37  E-value=5.6  Score=32.39  Aligned_cols=9  Identities=22%  Similarity=0.195  Sum_probs=3.4  Template_Neff=6.400
+
+Q sp|Q9Y7X7|YGRB   25 FLDEAAITK   33 (266)
+Q Consensus        25 ~~~~~~~~~   33 (266)
+                      +.++...+.
+T Consensus        14 ~~~~~~~~~   22 (399)
+T sp|Q9P7B8|ARB1   14 IGDSVEFTT   22 (399)
+T ss_pred             ccccccccc
+Confidence            334333333
+
+
+No 92
+>sp|Q09857|USO1_SCHPO Intracellular protein transport protein uso1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=uso1 PE=3 SV=3
+Probab=20.06  E-value=5.8  Score=34.83  Aligned_cols=21  Identities=29%  Similarity=0.325  Sum_probs=7.8  Template_Neff=9.200
+
+Q sp|Q9Y7X7|YGRB  131 RLEKSDETVCKLKEENENLQD  151 (266)
+Q Consensus       131 rL~e~kk~eedLrEEIEtLRD  151 (266)
+                      .+.+.+..+..+..+|+.|+.
+T Consensus       969 ~l~e~e~~l~~~e~ei~~L~~  989 (1067)
+T sp|Q09857|USO1  969 ALAEANEKLNARDEEIERLKV  989 (1067)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHH
+Confidence            333333333333333333333
+
+

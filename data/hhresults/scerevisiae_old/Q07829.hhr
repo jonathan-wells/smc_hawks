@@ -1,0 +1,159 @@
+Query         sp|Q07829|RRT7_YEAST Putative regulator of rDNA transcription protein 7 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=RRT7 PE=5 SV=1
+Match_columns 113
+No_of_seqs    1 out of 2
+Neff          1
+Searched_HMMs 6721
+Date          Mon Apr 11 01:53:08 2016
+Command       hhsearch -i Q07829.hhm -d /usr/local/hh-suite/db/saccharomyces_cerevisiae/scerevisiae -cpu 2 -v 0 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 sp|Q07829|RRT7_YEAST Putative  100.0 8.2E-79 1.2E-82  436.5   0.0  113    1-113     1-113 (113)
+  2 sp|P12383|PDR1_YEAST Transcrip  22.8     6.1 0.00091   28.4   0.0   37   11-47    807-843 (1068)
+  3 sp|P39961|YE14_YEAST Uncharact  20.2     7.5  0.0011   25.7   0.0   38   10-47    641-678 (794)
+  4 sp|P33200|PDR3_YEAST Transcrip  15.7      11  0.0017   26.0   0.0   37   11-47    766-802 (976)
+  5 sp|P22804|BET1_YEAST Protein t   9.1      24  0.0036   19.6   0.0   16   16-33    127-142 (142)
+  6 sp|P38747|OTU2_YEAST OTU domai   8.2      28  0.0042   22.4   0.0   20   84-103   283-304 (307)
+  7 sp|P47155|ILM1_YEAST Protein I   8.0      29  0.0043   22.5   0.0   14   27-41    126-139 (203)
+  8 sp|Q08756|YO300_YEAST Putative   6.7      36  0.0054   20.4   0.0   11   76-86     51-61  (102)
+  9 sp|Q3E807|YO011_YEAST Uncharac   5.9      43  0.0063   18.9   0.0   26   11-36     25-54  (68)
+ 10 sp|P28495|CAPZA_YEAST F-actin-   5.6      46  0.0069   21.1   0.0   12    4-17    234-245 (268)
+
+No 1
+>sp|Q07829|RRT7_YEAST Putative regulator of rDNA transcription protein 7 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=RRT7 PE=5 SV=1
+Probab=100.00  E-value=8.2e-79  Score=436.47  Aligned_cols=113  Identities=100%  Similarity=1.595  Sum_probs=112.3  Template_Neff=1.000
+
+Q sp|Q07829|RRT7    1 MYFAFKGLCGRRFLPIASFLTILNRILFQYWLFYNSLKEEKTFQKIFFSMNLKCRKKKEPNHIIYSQPPFLLGFMVQLQS   80 (113)
+Q Consensus         1 myfafkglcgrrflpiasfltilnrilfqywlfynslkeektfqkiffsmnlkcrkkkepnhiiysqppfllgfmvqlqs   80 (113)
+                      |||||||+|||||+|||||+||+|||+||||+||||+||||||||||||||+||||||||||||||||||++|||||+||
+T Consensus         1 myfafkglcgrrflpiasfltilnrilfqywlfynslkeektfqkiffsmnlkcrkkkepnhiiysqppfllgfmvqlqs   80 (113)
+T sp|Q07829|RRT7    1 MYFAFKGLCGRRFLPIASFLTILNRILFQYWLFYNSLKEEKTFQKIFFSMNLKCRKKKEPNHIIYSQPPFLLGFMVQLQS   80 (113)
+T ss_pred             CceeeccccccchhhHHHHHHHHHHHHHHHHHHHhhhhhhhHHHHhhhhcccccccccCCCceeecCCchHHHHHHHHHH
+Confidence            89999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q sp|Q07829|RRT7   81 CVKLLPLYLLFLLQGNGAHYASAMTSKVLSFFL  113 (113)
+Q Consensus        81 cvkllplyllfllqgngahyasamtskvlsffl  113 (113)
+                      |||++|+|++|++|||||||||||||||+|||+
+T Consensus        81 cvkllplyllfllqgngahyasamtskvlsffl  113 (113)
+T sp|Q07829|RRT7   81 CVKLLPLYLLFLLQGNGAHYASAMTSKVLSFFL  113 (113)
+T ss_pred             HHHHHHHHHHHHHhcCchhhHHHHHHHHHhHhC
+Confidence            999999999999999999999999999999996
+
+
+No 2
+>sp|P12383|PDR1_YEAST Transcription factor PDR1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=PDR1 PE=1 SV=2
+Probab=22.83  E-value=6.1  Score=28.40  Aligned_cols=37  Identities=24%  Similarity=0.219  Sum_probs=31.0  Template_Neff=9.300
+
+Q sp|Q07829|RRT7   11 RRFLPIASFLTILNRILFQYWLFYNSLKEEKTFQKIF   47 (113)
+Q Consensus        11 rrflpiasfltilnrilfqywlfynslkeektfqkif   47 (113)
+                      ++|.-.-+++.||.||++|...-.+.+.+|+-++.+.
+T Consensus       807 ~~~~~~~~~~~il~r~~~~~~~~~~~~~~~~~~~~~~  843 (1068)
+T sp|P12383|PDR1  807 KDYTRAFSFLTIVTRIMLLAYGESSSTNLDVISKYID  843 (1068)
+T ss_pred             HHHHhhHHHHHHHHHHHHHHHhhccCCCHHHHHHHHH
+Confidence            6677778899999999999999888888887766553
+
+
+No 3
+>sp|P39961|YE14_YEAST Uncharacterized transcriptional regulatory protein YER184C OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=YER184C PE=3 SV=1
+Probab=20.20  E-value=7.5  Score=25.68  Aligned_cols=38  Identities=18%  Similarity=0.215  Sum_probs=30.9  Template_Neff=10.500
+
+Q sp|Q07829|RRT7   10 GRRFLPIASFLTILNRILFQYWLFYNSLKEEKTFQKIF   47 (113)
+Q Consensus        10 grrflpiasfltilnrilfqywlfynslkeektfqkif   47 (113)
+                      -|++.-+.+++.|+.||..|...-.|.+.+|..+..+.
+T Consensus       641 ~~~~~~~~~~~~~~~r~~~~~~~~~~~~~~~~~~~~~~  678 (794)
+T sp|P39961|YE14  641 SKKLENGTAVSFILTRICCQMYTRSQKMAKESLFCELK  678 (794)
+T ss_pred             hHHHHhhHHHHHHHHHHHHHHHhhhccCCHHHHHHHHH
+Confidence            46888899999999999999988888887776654443
+
+
+No 4
+>sp|P33200|PDR3_YEAST Transcription factor PDR3 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=PDR3 PE=1 SV=2
+Probab=15.65  E-value=11  Score=26.01  Aligned_cols=37  Identities=19%  Similarity=0.389  Sum_probs=29.4  Template_Neff=9.900
+
+Q sp|Q07829|RRT7   11 RRFLPIASFLTILNRILFQYWLFYNSLKEEKTFQKIF   47 (113)
+Q Consensus        11 rrflpiasfltilnrilfqywlfynslkeektfqkif   47 (113)
+                      +.|.-..+++.|+.||..+.|.-.+++..+..++.+.
+T Consensus       766 ~~~~~~~~~~~il~ri~~~~~~~~~~~s~~~l~~~~~  802 (976)
+T sp|P33200|PDR3  766 REFSRSSSLVAISIRIIFLKYCYAEQIDRAEFIERLK  802 (976)
+T ss_pred             HHHHhHHHHHHHHHHHHHHHHHhhhcCCHHHHHHHHH
+Confidence            3566778999999999999998888887776666544
+
+
+No 5
+>sp|P22804|BET1_YEAST Protein transport protein BET1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=BET1 PE=1 SV=1
+Probab=9.05  E-value=24  Score=19.63  Aligned_cols=16  Identities=25%  Similarity=0.631  Sum_probs=8.7  Template_Neff=7.600
+
+Q sp|Q07829|RRT7   16 IASFLTILNRILFQYWLF   33 (113)
+Q Consensus        16 iasfltilnrilfqywlf   33 (113)
+                      ++.++.++  |++.+|+|
+T Consensus       127 l~~~iv~~--~f~~~~~~  142 (142)
+T sp|P22804|BET1  127 IIFFMVGV--LFFWVWIT  142 (142)
+T ss_pred             HHHHHHHH--HHHHHHhC
+Confidence            34444444  67777765
+
+
+No 6
+>sp|P38747|OTU2_YEAST OTU domain-containing protein 2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=OTU2 PE=1 SV=1
+Probab=8.16  E-value=28  Score=22.40  Aligned_cols=20  Identities=30%  Similarity=0.364  Sum_probs=15.0  Template_Neff=6.800
+
+Q sp|Q07829|RRT7   84 LLPLYLLFL--LQGNGAHYASA  103 (113)
+Q Consensus        84 llplyllfl--lqgngahyasa  103 (113)
+                      --|++|.|.  .-+.|.||-|-
+T Consensus       283 ~~~i~L~Y~~h~y~lgeHYnSl  304 (307)
+T sp|P38747|OTU2  283 NPELKLVYYKHSYALGEHYNSL  304 (307)
+T ss_pred             CCeEEEEEecccccCCCceeee
+Confidence            357777776  66789999874
+
+
+No 7
+>sp|P47155|ILM1_YEAST Protein ILM1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=ILM1 PE=1 SV=1
+Probab=8.02  E-value=29  Score=22.48  Aligned_cols=14  Identities=36%  Similarity=0.857  Sum_probs=9.7  Template_Neff=4.400
+
+Q sp|Q07829|RRT7   27 LFQYWLFYNSLKEEK   41 (113)
+Q Consensus        27 lfqywlfynslkeek   41 (113)
+                      +++.| .|++|+|||
+T Consensus       126 ~~wFw-i~~tLREEr  139 (203)
+T sp|P47155|ILM1  126 WINFL-LYNAIREEK  139 (203)
+T ss_pred             HHHHH-HHHhchHhH
+Confidence            34444 478999998
+
+
+No 8
+>sp|Q08756|YO300_YEAST Putative uncharacterized protein YOR300W OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=YOR300W PE=5 SV=1
+Probab=6.72  E-value=36  Score=20.38  Aligned_cols=11  Identities=64%  Similarity=0.851  Sum_probs=8.6  Template_Neff=1.000
+
+Q sp|Q07829|RRT7   76 VQLQSCVKLLP   86 (113)
+Q Consensus        76 vqlqscvkllp   86 (113)
+                      -.||.|||||.
+T Consensus        51 dtlqrcvkllg   61 (102)
+T sp|Q08756|YO30   51 DTLQRCVKLLG   61 (102)
+T ss_pred             hHHHHHHHHHh
+Confidence            35899999873
+
+
+No 9
+>sp|Q3E807|YO011_YEAST Uncharacterized protein YOR011W-A OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=YOR011W-A PE=4 SV=1
+Probab=5.94  E-value=43  Score=18.86  Aligned_cols=26  Identities=38%  Similarity=0.769  Sum_probs=17.3  Template_Neff=1.000
+
+Q sp|Q07829|RRT7   11 RRFLPIASFLTILN----RILFQYWLFYNS   36 (113)
+Q Consensus        11 rrflpiasfltiln----rilfqywlfyns   36 (113)
+                      .-|+|.-.-+.+|.    ..-||||-.|-.
+T Consensus        25 qyflpyycslevlgksrknwtfqywclyit   54 (68)
+T sp|Q3E807|YO01   25 QYFLPYYCSLEVLGKSRKNWTFQYWCLYIT   54 (68)
+T ss_pred             hheeeeeeeeeeecccccceeEEEEEEEEE
+Confidence            34667666566654    357999998854
+
+
+No 10
+>sp|P28495|CAPZA_YEAST F-actin-capping protein subunit alpha OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=CAP1 PE=1 SV=1
+Probab=5.55  E-value=46  Score=21.10  Aligned_cols=12  Identities=58%  Similarity=0.999  Sum_probs=8.4  Template_Neff=6.300
+
+Q sp|Q07829|RRT7    4 AFKGLCGRRFLPIA   17 (113)
+Q Consensus         4 afkglcgrrflpia   17 (113)
+                      .||+|  ||-||+.
+T Consensus       234 ~FK~L--RR~LPvT  245 (268)
+T sp|P28495|CAPZ  234 QFKAL--RRRLPVT  245 (268)
+T ss_pred             hHHhh--hhcCCCc
+Confidence            46666  7888874
+
+

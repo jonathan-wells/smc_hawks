@@ -1,0 +1,447 @@
+Query         sp|Q9HDV6|MOR2_SCHPO Cell polarity protein mor2 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=mor2 PE=4 SV=1
+Match_columns 2196
+No_of_seqs    778 out of 1022
+Neff          8
+Searched_HMMs 5121
+Date          Mon Apr 11 03:18:57 2016
+Command       hhsearch -i Q9HDV6.hhm -d /usr/local/hh-suite/db/schizosaccharomyces_pombe/spombe -cpu 2 -v 0 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 sp|Q9HDV6|MOR2_SCHPO Cell pola 100.0   0E+00   0E+00 3840.1   0.0 2196    1-2196    1-2196(2196)
+  2 sp|Q10178|SF3B1_SCHPO U2 snRNP  56.6    0.56 0.00011   60.0   0.0   99 1140-1240  519-618 (1205)
+  3 sp|Q09725|MIS4_SCHPO Sister ch  36.5     1.9 0.00037   55.4   0.0   70 1166-1240 1306-1375(1587)
+  4 sp|O43028|VAC8_SCHPO Vacuolar   33.7     2.2 0.00044   47.5   0.0   30  886-915    46-75  (550)
+  5 sp|Q9UU81|AP1G1_SCHPO AP-1 com  22.4     4.8 0.00094   48.2   0.0   32  885-916   163-194 (865)
+  6 sp|Q09933|DIS1_SCHPO Phosphopr  21.5     5.2   0.001   47.9   0.0  102 1136-1240   98-199 (882)
+  7 sp|Q10178|SF3B1_SCHPO U2 snRNP  17.8       7  0.0014   48.5   0.0  100 1137-1239 1000-1100(1205)
+  8 sp|Q9UT08|2AAA_SCHPO Protein p  17.8       7  0.0014   43.9   0.0  100 1134-1235  483-588 (590)
+  9 sp|O13939|AP3B_SCHPO AP-3 comp  17.2     7.4  0.0014   45.4   0.0  123 1097-1238  309-434 (745)
+ 10 sp|Q10429|CND3_SCHPO Condensin  17.2     7.4  0.0014   46.3   0.0  114 1098-1233  136-251 (875)
+
+No 1
+>sp|Q9HDV6|MOR2_SCHPO Cell polarity protein mor2 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=mor2 PE=4 SV=1
+Probab=100.00  E-value=0  Score=3840.12  Aligned_cols=2196  Identities=100%  Similarity=1.452  Sum_probs=1991.1  Template_Neff=8.000
+
+Q sp|Q9HDV6|MOR2    1 MSLNEIAHDQPVENGPLYSEKQDHTAVDYALHILFTQFVRLSEQKISFLSRYHANEGKNAEPVRFNVGEQEAILLLKKGE   80 (2196)
+Q Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~~tp~eyal~~lf~~F~~~ae~Ki~~~~~~~~~~~~~~~~~~~~~~e~~~~~~l~~g~   80 (2196)
+                      ||||||||||||+|||+|.++++|||+|||||+||++|+++||+||+.|++++++++.++|+.++.+.||++.++|++|+
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~~tp~eyal~~lf~~F~~~ae~Ki~~~~~~~~~~~~~~~~~~~~~~e~~~~~~l~~g~   80 (2196)
+T sp|Q9HDV6|MOR2    1 MSLNEIAHDQPVENGPLYSEKQDHTAVDYALHILFTQFVRLSEQKISFLSRYHANEGKNAEPVRFNVGEQEAILLLKKGE   80 (2196)
+T ss_pred             CCcccccCCCccccCCCCCCCCCCChHHHHHHHHHHHHHHHHHHHHHHHhhhhccCCCCCCccccCCCchHHHHHhcCCC
+Confidence            89999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q sp|Q9HDV6|MOR2   81 DNEFDRCIQALVALASSKPVAVIESLLCWRKVRVDITSSSGTPRVVNERRSSISIYILCRVLTEIAETIPSNALEESTVS  160 (2196)
+Q Consensus        81 D~~fdq~l~sL~~iA~~~~~~Vi~sL~~Wr~~~~~~~~~~~~~~~~~erk~l~S~yilcrvLievl~~~~~~~l~ddl~~  160 (2196)
+                      ||.|||++++|++||++++++||++||+||+++++.....+.+.++.|||+++|+||+||+|++|+++.|.++++|++++
+T Consensus        81 D~~fDq~l~sL~~iA~~~~~~VidsLm~Wr~~~~~~~~~~~~~~~~~erk~laS~yIlcrvLieil~~~~~~~l~e~l~~  160 (2196)
+T sp|Q9HDV6|MOR2   81 DNEFDRCIQALVALASSKPVAVIESLLCWRKVRVDITSSSGTPRVVNERRSSISIYILCRVLTEIAETIPSNALEESTVS  160 (2196)
+T ss_pred             ChhHHHHHHHHHHHHhcCCHHHHHHHhhhhhhcccccCCCCChhhHHHHHHHHHHHHHHHHHHHHHhcCCCCCCChHHHH
+Confidence            99999999999999999999999999999999998654445567899999999999999999999999999999999999
+
+
+Q sp|Q9HDV6|MOR2  161 CLLECVFHQLLSAKNLPVSSSYFSLANWESFAFLVGSMSRFNFVMVSDRFIEEIEHLEKSGCDSRQKETVLVHLLRAMRY  240 (2196)
+Q Consensus       161 ~Le~i~f~~lk~~~~~~~~~s~~~~a~~~l~a~lLG~LS~~rf~sV~dRF~~eL~~l~~~~~~~~d~e~~~~~ll~gmr~  240 (2196)
+                      +||+++|+|||.+++..+.+|+++.+||++||+|||+||++||.+|++||+++|+++.+..++++|.|++++.+|+||||
+T Consensus       161 ~Le~~~F~~lk~~~~~~~~~S~~~~an~~l~A~lLG~LS~~rF~sV~dRF~~eL~~l~~~~~~~~d~e~~~~~li~gmr~  240 (2196)
+T sp|Q9HDV6|MOR2  161 CLLECVFHQLLSAKNLPVSSSYFSLANWESFAFLVGSMSRFNFVMVSDRFIEEIEHLEKSGCDSRQKETVLVHLLRAMRY  240 (2196)
+T ss_pred             HHHHHHHHhhhccCCCCCCCCchhhchHHHHHHHHHHHhccchhhHHHHHHHHHHHhhccCCCCcchhhHHHHHHHhhhh
+Confidence            99999999999999998888888999999999999999999999999999999999986432377888999999999999
+
+
+Q sp|Q9HDV6|MOR2  241 LRLQLYPTTLLEESIAFLQSLTSFFMKANTALKIEYAYLMEQLLRPLISRATFEVNIPAWSRTIETIYPVVLKMCTKTKY  320 (2196)
+Q Consensus       241 l~l~~~ple~~eesa~FL~eLa~~F~~~~~~~k~A~a~~L~~lL~p~a~~~~~E~n~P~w~~~ve~L~~~~~~m~~K~k~  320 (2196)
+                      ++||++|+++||+++|||++|+++|.++|+++|+|||++|+++||||++++++|+|+|+|.++++.||+++.+|++||||
+T Consensus       241 l~lk~~p~e~feesaeFl~sLa~~f~~~~~~iK~A~a~~L~~lL~p~a~~~~aEvn~P~w~~~ie~l~~~a~~m~~K~k~  320 (2196)
+T sp|Q9HDV6|MOR2  241 LRLQLYPTTLLEESIAFLQSLTSFFMKANTALKIEYAYLMEQLLRPLISRATFEVNIPAWSRTIETIYPVVLKMCTKTKY  320 (2196)
+T ss_pred             cccccCChhhHHHHHHHHHHHHHHHHhcChHHHHHHHHHHHHHHHHHhhhccccccchhHHHHHHHHHHHHHHhhccccc
+Confidence            99999999999999999999999999998899999999999999999999999999999999999999999999999999
+
+
+Q sp|Q9HDV6|MOR2  321 WNVFFPFCCTLLCLSPKQFFLKHWISSLDAAFFRVKDRRLRNTGLPHLSRVVWTYSNQYKEEPSIMNSNISNILKSGFSI  400 (2196)
+Q Consensus       321 ~~~~~PL~t~LLcvsp~~~F~~~w~~fle~l~~~LKd~~~r~~Al~~l~rLlw~Yl~R~~es~s~t~~~L~~i~~~lFp~  400 (2196)
+                      |.++|||+|++|||||++||..+|..|++.+.++|||+++|.+|++|++||||+|+|||+|+.++|+++|++|++.+||+
+T Consensus       321 ~~~a~PL~t~LLcvsp~~~F~~~w~~fle~~~~kLKd~~~r~~al~~l~rLlw~Yl~R~~es~s~t~~~L~~i~~~lFp~  400 (2196)
+T sp|Q9HDV6|MOR2  321 WNVFFPFCCTLLCLSPKQFFLKHWISSLDAAFFRVKDRRLRNTGLPHLSRVVWTYSNQYKEEPSIMNSNISNILKSGFSI  400 (2196)
+T ss_pred             cchhhHHHHHHHhcCChhhHHHHHHHHHHHHhhhccCCCcccchHHHHHHHhhheeeecCCCCCchHHHHHHHHHhhcCC
+Confidence            99999999999999999999999999999999999999999999999999999999999998788999999999999999
+
+
+Q sp|Q9HDV6|MOR2  401 GKKFSVVPFATLEELDGYAQIVRVVGAHFPELVIKEILTPLSTDAFTENIGPEKLMIVVRSVYYILHDMKYKKSDSTIFE  480 (2196)
+Q Consensus       401 ~~~~~v~~~d~~~~ld~fV~iir~i~~~~~df~~~~Ii~~ll~~~~~~~~~per~~i~IrA~l~il~~l~~~~~~P~~P~  480 (2196)
+                      ++|+++.|+|.+.++++||+|+|+|+++++|||+++|+++|++.+.+++++||||++||||++.|+++++++++.|+||.
+T Consensus       401 ~~~~~i~p~d~~~~l~~~V~ii~~i~~~~~d~~~~~ii~~ll~~~~~~~~~per~~i~irA~l~il~~l~~~~~~P~~P~  480 (2196)
+T sp|Q9HDV6|MOR2  401 GKKFSVVPFATLEELDGYAQIVRVVGAHFPELVIKEILTPLSTDAFTENIGPEKLMIVVRSVYYILHDMKYKKSDSTIFE  480 (2196)
+T ss_pred             CCcccccCCCCccchhhHHHHHHHHHhhChHHHHHHHHHHhccCccccccChHHHHHHHHHHHHHHhhhhccCCCCCccc
+Confidence            85367899888889999999999999999999999999999887555689999999999999999999998778899999
+
+
+Q sp|Q9HDV6|MOR2  481 YIEFEFVDLHEVAVGTPLQQFVHNLSQKLLFLVFQLSTNTNCYLDSKNATSLLALYINALKVFPCLMGKLEQRVIDAYVK  560 (2196)
+Q Consensus       481 ~~~~~~~~l~~~~~~~~l~~~~~~~~~~l~~i~~~~~~~~~~~~~~~~~~~~~~l~~~~l~~~P~l~~~~~~~~i~~L~r  560 (2196)
+                      ..+++..+++....+.++++++++++.++..|+..||+++|+..+.+++...+.+|.++++++|++..++.+.++++|+|
+T Consensus       481 ~~~~~~~~l~~~~~~~~l~~~~~~~~~~l~~i~~~~~~~~g~~~~~~~~~~~~~l~~~~l~~~P~l~~~~~~~~i~~L~r  560 (2196)
+T sp|Q9HDV6|MOR2  481 YIEFEFVDLHEVAVGTPLQQFVHNLSQKLLFLVFQLSTNTNCYLDSKNATSLLALYINALKVFPCLMGKLEQRVIDAYVK  560 (2196)
+T ss_pred             cccccccccccccCCChHHHHHHHHHHHHHHHHHHhccccccccccccchhHHHHHHHHHHhcCCCCCcchHHHHHHHHh
+Confidence            87664111111235678999999999999999999999888766677777889999999999998776788889999999
+
+
+Q sp|Q9HDV6|MOR2  561 CLNCSNKIIHTVCHNSLIYFSSGLKMSKSVISCLSRKLVKGSEYLLRTYHEVIRIWISQQEAVIEKRNSVLSNKSCASSE  640 (2196)
+Q Consensus       561 ~~~~~~~~Ir~~a~~aL~~l~~~~~~~~~vl~~~a~~l~~~~~~lL~ll~eLL~~W~~~~~~~~~~~~~~~~~~~~~~~~  640 (2196)
+                      |++|.++.|+.+|+++|++++.+.+.+.+|+.+|+++++.+++.+|++|+++|++|++.+.+..++...++.++..++|+
+T Consensus       561 ~~~h~~~~I~~~a~~aL~~l~~~~~~~~~vl~~fa~~l~~~~~~lL~ll~~LL~~W~~~~~~~~~~~~~~~~~~~~~~~~  640 (2196)
+T sp|Q9HDV6|MOR2  561 CLNCSNKIIHTVCHNSLIYFSSGLKMSKSVISCLSRKLVKGSEYLLRTYHEVIRIWISQQEAVIEKRNSVLSNKSCASSE  640 (2196)
+T ss_pred             hhccchhhhHHHHHHHHHHHHhCCCchHHHHHHHHHHHhhhhHHHHHHHHHHHHHHHHHHHHhhhhhcccccccccCCCC
+Confidence            99999999999999999999998877778999999999988889999999999999998887765543333222111111
+
+
+Q sp|Q9HDV6|MOR2  641 SNTPASVKQDYDDIQSWTIIEEIQSLGVLHLSSPSVGIRKFAVALLNDVKQLNTEYLMLSSDKVEVGDIYSEPTIVDVLK  720 (2196)
+Q Consensus       641 ~~~~~~~~~~~~~~~~~~~~~~vE~~~L~~LcS~~~~vR~~A~~iLrlv~~l~~~l~~~~~~~~~~~~~~~~~~~i~vle  720 (2196)
+                      +..+.+++...+..+.++.++++|++|||+|||+++.||++|++|||++++++..+...+......+..+..++++++|+
+T Consensus       641 ~~~~~~~~~~~~~~~~~~~~~evEa~~L~~LcS~~~~vR~~A~~iLrlv~~l~~~l~~~~~~~~~~~~~~~~~~~i~vle  720 (2196)
+T sp|Q9HDV6|MOR2  641 SNTPASVKQDYDDIQSWTIIEEIQSLGVLHLSSPSVGIRKFAVALLNDVKQLNTEYLMLSSDKVEVGDIYSEPTIVDVLK  720 (2196)
+T ss_pred             CCCCCcccCCcccchhHHHHHHhhhchheeeeCCCchhHHHHHHHHHHHHHHHHHhhccccCccccCCCCCCchHhhHhh
+Confidence            11110112334446678899999999999999999999999999999999999877654322111111124578999999
+
+
+Q sp|Q9HDV6|MOR2  721 DCDSSILSVESHLPTAAERSRLRKFINDGTKDMLLKLATSNSGVDISIWYNVFPRFIKVCFERFPTTMALLRNTVCEKLP  800 (2196)
+Q Consensus       721 ~~~~~il~~~~~~~~~aeq~Rl~k~~~~~~~~~llrl~~s~~~~d~~lW~~~f~~~~~~~~~~~P~~~~~~r~~v~~rl~  800 (2196)
+                      +++..++....+.++.++++||+||++.++++.++|++++++++|.++|.++|++|++.++++||.+++.+|..||.|++
+T Consensus       721 ~~~~~il~~~~~~~~~ae~~rL~k~~~~~~~~~llrla~s~~~~d~~lW~~~~p~~~~~~~~~~p~~va~~r~~v~~rl~  800 (2196)
+T sp|Q9HDV6|MOR2  721 DCDSSILSVESHLPTAAERSRLRKFINDGTKDMLLKLATSNSGVDISIWYNVFPRFIKVCFERFPTTMALLRNTVCEKLP  800 (2196)
+T ss_pred             cCCcccccccCCCCChhhhHHHHHHhhcCChHHHHHHhhccCCcccchHhhhhhhHHHHHHhcCcHHHHHHHHHHHHHhh
+Confidence            99999888776668899999999999778899999999999999999999999999999999999999999999999999
+
+
+Q sp|Q9HDV6|MOR2  801 SITMQLLSRIESSELNFNLKSAVKNDNFPEFLLVQWKLYLIVACCTITYTSNVDYSHTDLRRTLTAVQSGNHLRGLQETI  880 (2196)
+Q Consensus       801 ~~~~~i~~~~~~~~~~~~~~~~~~~~~~~e~~i~qWrnyl~faCs~~~~~~~~~~~~~~~r~~~~~~~~~s~~~~~~~~~  880 (2196)
+                      +||+.+.+.+++++++++.++.....+.++..++|||||++|||++++++.++..+.++.|+++++++++++.+.+.+++
+T Consensus       801 ~~~~~i~~~~~~~~~~~~~~~~~~~~~~~e~~i~qWr~ylifaCst~~~~~~~~~~~~~~r~~~~~~~~~s~~~~~~~~~  880 (2196)
+T sp|Q9HDV6|MOR2  801 SITMQLLSRIESSELNFNLKSAVKNDNFPEFLLVQWKLYLIVACCTITYTSNVDYSHTDLRRTLTAVQSGNHLRGLQETI  880 (2196)
+T ss_pred             hhHHHHHhhccccccccccccccCCCCChhhHHHHHHHHHHHHHhhcCCCCCCCCCCccccccccccCCCcccccccccc
+Confidence            99999887766543332222222344567999999999999999999998876544345554322334455555555677
+
+
+Q sp|Q9HDV6|MOR2  881 KITSAESLFSMVLPLIFTEFSPIREAVVFAIGCINVNAFPQLVRSLKPYISVLKQDHQEFIFAGLNFPSVKRRNKPDLLL  960 (2196)
+Q Consensus       881 ~~~s~~~lf~~lvplL~s~~~~iRdaav~aLGsin~~ly~~Lle~L~~~~~~~~d~~~~~~~~~~~~~~~~rr~rr~~~L  960 (2196)
+                      +++++++||++++|+|+|+++.+||+||.|||++|+++|+.|||+|++++++++++++++++++++++++++|++++++|
+T Consensus       881 ~~~sa~~lf~~lvplL~s~~~~iRdaav~aLgsin~~~y~~LLe~L~~~~~~~~d~~~~~~~~~~~~~~~~~r~rr~~~L  960 (2196)
+T sp|Q9HDV6|MOR2  881 KITSAESLFSMVLPLIFTEFSPIREAVVFAIGCINVNAFPQLVRSLKPYISVLKQDHQEFIFAGLNFPSVKRRNKPDLLL  960 (2196)
+T ss_pred             CCCCHHHHHHHHHhhhccCCchHHHHHHHHhccCChhHHHHHHHHHHHHHHHhhhhhhhhhhccCCCCCcccCCCchhHH
+Confidence            89999999999999999999999999999999999999999999999999999999877666667777888889999999
+
+
+Q sp|Q9HDV6|MOR2  961 RSEIAHIFAMTSHLLLHELLNEDREALSVISEFLKDLKGFLSTPNVQADEKYLKLRCYFSQLLEKVLLVQNLHPSSEVLP 1040 (2196)
+Q Consensus       961 r~qv~~Il~l~a~~l~~~~~~~~~~ll~~l~~fi~~~~~fL~~~~~~~~~~~qrLR~~FC~lve~l~~~~~~~~~~~~lp 1040 (2196)
+                      |+|++|||+++++++.++...++++++.++++||++++.||+++++++++++|+||+|||+++|++++++...++.+|+|
+T Consensus       961 r~qv~~Il~l~a~~l~~~~~~~~~~il~~l~~fi~~~~~fL~~~~~~~~~~~qrLR~~FC~lve~l~~~~~~~~~~~~lp 1040 (2196)
+T sp|Q9HDV6|MOR2  961 RSEIAHIFAMTSHLLLHELLNEDREALSVISEFLKDLKGFLSTPNVQADEKYLKLRCYFSQLLEKVLLVQNLHPSSEVLP 1040 (2196)
+T ss_pred             HHHHHHHHHHHHhhhhhhcccCChHHHHHHHHHHHHHHHHhcCCCCCCCHHHHHHHHHHHHHHHHHHhhcCCCCcCCcCC
+Confidence            99999999999999988777889999999999999999999999999999999999999999999999888778999999
+
+
+Q sp|Q9HDV6|MOR2 1041 FSGRASCWKLLDEWTGFGPARAITKNREELMRAHIRGNNKDIRERDKLLASFEAGKQNLEYLAIKAMIALCTAKLQQELT 1120 (2196)
+Q Consensus      1041 ~~~R~~Lf~l~~eWc~~~~~~~~~~~r~~~m~~~~~~~~~~~~~~~~~~~~~e~e~~~L~~aAl~AMAaLc~Gpl~~~~~ 1120 (2196)
+                      +++|++||++|++||+++..+...++|++.|++...++.+++++++...+.++.|+++|+.||++|||+||+||+++..+
+T Consensus      1041 ~~~R~~Lf~l~~eWc~~~~~~~~~~~r~~~m~~~~~~~~~~~~~~~~~~~~~~~e~~~L~~aAl~AMAaLc~Gpl~~~~~ 1120 (2196)
+T sp|Q9HDV6|MOR2 1041 FSGRASCWKLLDEWTGFGPARAITKNREELMRAHIRGNNKDIRERDKLLASFEAGKQNLEYLAIKAMIALCTAKLQQELT 1120 (2196)
+T ss_pred             chHHHHHHHHHHHhcCCCCcchhhhhHHHHHHHhhhccCCChhhhHHHHHHHHHhHHHHHHHHHHHHHHHhcCCcccccc
+Confidence            99999999999999999999888899999999999888887767777788889999999999999999999999987333
+
+
+Q sp|Q9HDV6|MOR2 1121 EGVFLFDIEILLNWFTAVFGSPSKAIVGLARKGLTALLLENSSNEVLLQKVINRCFSKEISQTISNYYFLSLSEMLIQIN 1200 (2196)
+Q Consensus      1121 ~~~~~~~~~~l~~Wi~~ll~s~~~~~~~l~~~AL~nLL~~N~d~~~Ll~~~i~~cY~~~~~~~~~~~yF~vla~vl~~~~ 1200 (2196)
+                      ++...++.+++++||+++|++++++++++|++||+|||.+|.|++.|++|+|++||+.+.+..++.+||+|+++|+.+++
+T Consensus      1121 ~~~~~~~~~~ll~Wi~~ll~s~~~~i~~~g~~AL~~LL~~N~d~~~Ll~~~i~~CY~~~~~~~~a~~yF~vla~vl~~~~ 1200 (2196)
+T sp|Q9HDV6|MOR2 1121 EGVFLFDIEILLNWFTAVFGSPSKAIVGLARKGLTALLLENSSNEVLLQKVINRCFSKEISQTISNYYFLSLSEMLIQIN 1200 (2196)
+T ss_pred             cCccccchHHHHHHHHHHhcCCChHHHHHHHHHHHHHHhcCCCCHHHHHHHHHHHhccCcchhhHHHHHHHHHHHHhhcC
+Confidence            33355677899999999999999999999999999999999999999999999999998754589999999999999998
+
+
+Q sp|Q9HDV6|MOR2 1201 PNNLSKPKLLPLCLVNLSTNNLSVRLKAFELLGNFHLNNFTMTALMEFKTFLESSNPALYLKPQYLFSVQLASDFTEDSF 1280 (2196)
+Q Consensus      1201 ~~~~~~~~LL~L~L~~l~~~d~~iR~~A~~LL~~L~~~~~~~~~~~~~~~~~~~~~p~~y~~~~~~iS~~LA~~~PeLT~ 1280 (2196)
+                      +++|++++|++|+|+++|++|.+||..|++||++++.+|.+......|..++++.+|++|..+|..||++||+.||++|+
+T Consensus      1201 ~~~~~~~~ll~L~L~~l~~~~~~iR~~A~~LL~~l~~~~~~~~~~~~~~~~~~s~~p~~y~~~q~~iS~~LA~~~pelt~ 1280 (2196)
+T sp|Q9HDV6|MOR2 1201 PNNLSKPKLLPLCLVNLSTNNLSVRLKAFELLGNFHLNNFTMTALMEFKTFLESSNPALYLKPQYLFSVQLASDFTEDSF 1280 (2196)
+T ss_pred             CCCCChhhhHHHHHHhcCCCCHHHHHHHHHHHHHHHhhccCcchhhhhhhhccCCCcccCchhHHHHHHHHHhhChhchH
+Confidence            89999999999999999999999999999999999999975555667788899999999999999999999999999999
+
+
+Q sp|Q9HDV6|MOR2 1281 TLTSECLRYFNYGHQHRRGLVTVLLPWLQNLELKMDVENKTFDSFTAVILIDLIEVTAKFTNDLPNEIEALWTSLALSRH 1360 (2196)
+Q Consensus      1281 ~~~sE~~~~~~~~~~~~~~~L~~l~PWl~nl~l~~~~~~~~~~~~~~~iL~nL~~lT~~~~~~~~~~i~~lW~~L~~~~~ 1360 (2196)
+                      .||+||+.+|...+..|+.+|.||.||++||++..++++.|++.++.++|+||+++|+++++.|+.++++||.+|+.+++
+T Consensus      1281 ~~~se~~~~~~~~~~~~~~~L~~L~PWl~nl~L~~~~~~~~~~~~~~~vL~nL~~lT~k~~~~~~~ei~~LW~~L~~~~~ 1360 (2196)
+T sp|Q9HDV6|MOR2 1281 TLTSECLRYFNYGHQHRRGLVTVLLPWLQNLELKMDVENKTFDSFTAVILIDLIEVTAKFTNDLPNEIEALWTSLALSRH 1360 (2196)
+T ss_pred             HHHHHHHHHHccCcchhHHHHHHHHHhhhcceeeccCCCCCcchHHHHHHHHHHHHHHhhcccCHHHHHHHHHHHhcCCC
+Confidence            99999999999546678999999999999999998754445557899999999999999999999999999999998767
+
+
+Q sp|Q9HDV6|MOR2 1361 KSNWTVILFFLMQQCYQRKTFSFVDCTRQITIYLAKTELLSDLYSTLLSFVCPANVSNENQEVYKFSLEDLSSTYVANLE 1440 (2196)
+Q Consensus      1361 ~~n~~~ildfLi~~~~~~~~~~~~~~~k~iv~~Ls~~~~~~~vi~~L~~~i~~~~~~p~~~~~~~~~~~~~~~~~~a~l~ 1440 (2196)
+                      ++|+++|++||+..|.+++++.|++++|+|++||++++++.+|+++|+..++|++|.|.....+..|+.+.++++|++|+
+T Consensus      1361 ~~N~~~il~fLi~~~~~~~~~~~v~~ak~Iv~~Ls~~~~~~~li~~L~~~i~p~~~~~~~~~~~~~~~~~~~~~~~a~L~ 1440 (2196)
+T sp|Q9HDV6|MOR2 1361 KSNWTVILFFLMQQCYQRKTFSFVDCTRQITIYLAKTELLSDLYSTLLSFVCPANVSNENQEVYKFSLEDLSSTYVANLE 1440 (2196)
+T ss_pred             CccHHHHHHHHHHHHhccCCchhHHHHHHHHHHHhcchhHHHHHHHHhhccCCCCCCCCccccccccccccCCcceechh
+Confidence            89999999999999999998999999999999999999877999999999999999887665443332213589999999
+
+
+Q sp|Q9HDV6|MOR2 1441 DLFPSEKNHISYSPCQLSLLLLMDILPNPSIITVTDDVATILHAAFIQFDHYSRIVQEQCQQIFQYVVRKVLAMEGRLDY 1520 (2196)
+Q Consensus      1441 ~ll~~~~~~~~~s~~qlaLi~L~dl~~~~~~~~~~~~LP~LLHiv~l~ld~~~~~vr~~~~~LLvnli~sl~~~~~~~~~ 1520 (2196)
+                      +++|.+.++.+|+++|++++||+|+++++..+++..|||.|||++++++||+++.||++|++||+|++|+++......++
+T Consensus      1441 ~ll~~~~~~~~~s~~qlaLi~L~dl~~~~~~~~~~~~LP~LLH~~~l~lDh~~~~v~~~~~~lL~nll~sl~~~~~~~~~ 1520 (2196)
+T sp|Q9HDV6|MOR2 1441 DLFPSEKNHISYSPCQLSLLLLMDILPNPSIITVTDDVATILHAAFIQFDHYSRIVQEQCQQIFQYVVRKVLAMEGRLDY 1520 (2196)
+T ss_pred             hhCCCCCCCCCCChHhHHHHHHHHhcCCCcccchhhHHHHHHHHHHhcCCCCCHHHHHHHHHHHHHHHHHHhhccCCCCc
+Confidence            99998667799999999999999999987523699999999999999999999999999999999999999876543333
+
+
+Q sp|Q9HDV6|MOR2 1521 DDAYFDFNVESSLITGLRGKTKKEDDLVKYHNMILKTIELLSSSYPELKQIWGEVALSWATTCPSRRLACNSFQLFRSLL 1600 (2196)
+Q Consensus      1521 ~~~~~~~~~~~~ll~gl~~~~~~~~~~~~~~~l~~~l~~~~~~~~~~~~~~W~~~al~wA~~~~~r~ia~RSfqi~r~L~ 1600 (2196)
+                      .+..+++.+++.+++|++..+|.++++.+|+.++++++++|+...|.|+++|+++|++||++|++||+|||||||||||.
+T Consensus      1521 ~~~~~~~~~~~~ll~~l~~~~~~~~~~~~m~~lv~~v~~~l~~~~~~l~~~W~~~AL~wAt~c~~rhiA~RSfqIfr~L~ 1600 (2196)
+T sp|Q9HDV6|MOR2 1521 DDAYFDFNVESSLITGLRGKTKKEDDLVKYHNMILKTIELLSSSYPELKQIWGEVALSWATTCPSRRLACNSFQLFRSLL 1600 (2196)
+T ss_pred             cchhhcccchhhhhccccccCCCcchhhhHHHHHHHHHHHhhccChhHHHHHHHHHHHHHhcCCCchhhHHHHHHHhhcC
+Confidence            33333444444445555444444455788999999999999988899999999999999999999999999999999999
+
+
+Q sp|Q9HDV6|MOR2 1601 PDFDARMLLEIISRLVGTISDETSYLRDYSVEILRTFNSYVLVMNSDDLLSYSQILWTAIACLTTIHEDEFIESVKIAYA 1680 (2196)
+Q Consensus      1601 ~~vd~~~l~~~L~rL~~ti~~~~~~~~~~~~eIl~tL~~iv~~L~~~~~~~~pqLFW~avalL~s~~e~eF~~al~lL~~ 1680 (2196)
+                      +++|++++.+||+||++++++++++.|+|++||++||++++++++++++.++|||||+++|||++++|.||.+||+||++
+T Consensus      1601 ~~~~~~~l~~~L~rLs~tiad~~~d~q~f~~eIL~TL~~iv~~l~~~~l~~~pqlFW~avA~L~t~~e~eF~~aL~lL~~ 1680 (2196)
+T sp|Q9HDV6|MOR2 1601 PDFDARMLLEIISRLVGTISDETSYLRDYSVEILRTFNSYVLVMNSDDLLSYSQILWTAIACLTTIHEDEFIESVKIAYA 1680 (2196)
+T ss_pred             CCCCHHHHHHHHHHHHhhhcCCCchHHHHHHHHHHHHHHHHhhcCchhhhhHHHHHHHHHHHhcCCChHHHHHHHHHHHH
+Confidence            99999999999999999999999999999999999999999999888889999999999999999999999999999999
+
+
+Q sp|Q9HDV6|MOR2 1681 YFLRVEETDSATQQIMETFPQNWVGDYQGLQILILKGFRSTNSFEITMNFFLLLMDFKDNDLVGVGYLRILSCLLVSLPA 1760 (2196)
+Q Consensus      1681 ~L~~ld~~~~~~~~Ll~~rp~~w~~~F~~l~~lllkGLrss~t~~~tl~~L~~l~~~~~~~li~~~~~rl~~~~~a~LP~ 1760 (2196)
+                      +|++++.+++++..|++.+|.+|+++|+|||++|+||||++.|++.|+++|.+|+.+.++.++|++++|++++++++|||
+T Consensus      1681 ~L~kld~~~~~~~~L~~~~p~~w~~~f~gLq~lllkGLrss~t~~~tl~lL~~L~~~~~~~li~~~~~rl~~~~~a~LP~ 1760 (2196)
+T sp|Q9HDV6|MOR2 1681 YFLRVEETDSATQQIMETFPQNWVGDYQGLQILILKGFRSTNSFEITMNFFLLLMDFKDNDLVGVGYLRILSCLLVSLPA 1760 (2196)
+T ss_pred             HhhhcCCCChHHHHHHhhCCCCcCCCchhhHHHHHhccCCchhHHHHHHHHHHHhccCCCCcccCCcchHHHHHHHHHHH
+Confidence            99999999888855999999999999999999999999999999999999999999999999999899999999999999
+
+
+Q sp|Q9HDV6|MOR2 1761 MVYTYEHSDPITFDLSVFCHKLATLASQFNDDALIELLDTYLKRKFRSIKDFLKHTVSYLYSYYFEDYELEIVSTLTMFL 1840 (2196)
+Q Consensus      1761 ~l~~~~~~~~~~~~~~~~a~~l~~la~~~~~~~la~i~~~~~~~~fr~~~dfl~~~~~~l~~~~~p~~~~~~~~~L~~ll 1840 (2196)
+                      |++++++++++++++.++|+.|+.+|+++|+++|+++|++|+|++||+++||++|++++|+++|+|+++.++++||+|||
+T Consensus      1761 ~l~~~~~~~~~~~~~~~~a~~l~~la~~~~~~~la~i~~s~ak~~fr~~~dfl~q~~~~l~~~~~p~~~~~~l~~Ll~ll 1840 (2196)
+T sp|Q9HDV6|MOR2 1761 MVYTYEHSDPITFDLSVFCHKLATLASQFNDDALIELLDTYLKRKFRSIKDFLKHTVSYLYSYYFEDYELEIVSTLTMFL 1840 (2196)
+T ss_pred             HHHHhccCCCCchHHHHHHHHHHHHHHhcCchHHHHHHHHHhcccCCCHHHHHHHHHHHHHHhcCccchHHHHHHHHHHH
+Confidence            99999977655678999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q sp|Q9HDV6|MOR2 1841 SNNLTWFRKSTLDVLKELFPLIDFQKPIYSEHGLGIVSPLLRLLPTGYAMEALSLLTDSVLHVSAPTDMQTLKLLMVDPK 1920 (2196)
+Q Consensus      1841 ~n~~~~~~~~~l~iL~~ll~~~d~~~~~~~~~g~~li~pllrll~t~~~~~AL~vL~~~~~~~~~~~~~~~lrmsm~~~~ 1920 (2196)
+                      +|+++|+|.++|+||+++|+++|+++|++.++|+||++||+|||+|++|+|||+|||++|.++|||+|||||||||+++.
+T Consensus      1841 ~n~~~~~~~~~l~iL~~ll~~~d~~~~~~~~~g~dll~pllrll~t~~~~~AL~vLd~~~~~s~~~~~~~~lrmsm~~~~ 1920 (2196)
+T sp|Q9HDV6|MOR2 1841 SNNLTWFRKSTLDVLKELFPLIDFQKPIYSEHGLGIVSPLLRLLPTGYAMEALSLLTDSVLHVSAPTDMQTLKLLMVDPK 1920 (2196)
+T ss_pred             hCCCHHHHHHHHHHHHHHhhhccCCCCcccccCchhhHHHHHhcCCCCHHHHHHHHHhhhhhcCCCcchhhhhhhccCCC
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999997
+
+
+Q sp|Q9HDV6|MOR2 1921 LKNSDDRLAGFFEIPDEDGWYEPNSEYAAAITKSNVHAVFYSCSTTEASVSTPEVRFHADEVSNYPRHVPTDSHGSLDEN 2000 (2196)
+Q Consensus      1921 ~~~~~~~~~~~fg~p~~sgW~ip~~~~~~~~tr~Nv~avf~tc~~~~~~~~~~~~~f~~~~~~~~~~~~~~~~~~~~~~~ 2000 (2196)
+                      .++++|+++++||||+|||||||||+.++++||+||||||+||++++.|+++++|+||+|++++.+..+++|++++++++
+T Consensus      1921 ~~~~~~~~~~~fg~p~~sgW~ip~~~~~~~~tr~nv~avf~tc~~~~~~~~~~~~~f~~~~~~~~~~~~~~~~~~~~~~~ 2000 (2196)
+T sp|Q9HDV6|MOR2 1921 LKNSDDRLAGFFEIPDEDGWYEPNSEYAAAITKSNVHAVFYSCSTTEASVSTPEVRFHADEVSNYPRHVPTDSHGSLDEN 2000 (2196)
+T ss_pred             CCCCCcccccccCCCCCCCCCCCChhhhhhhhhhhHHHHHHhccCCCCCCCCCeeEEecCCCCCCCCCCCCCCCCCCCCC
+Confidence            66677899999999999999999999999999999999999999998777788999999999987654332233345699
+
+
+Q sp|Q9HDV6|MOR2 2001 SLGELVTTLHSLDVFFAEDRDEELIQPDVAVDPKLDITSEDYDDRIATILSGSLRRQKQGLMAYETESFRDYSPNEEIDA 2080 (2196)
+Q Consensus      2001 ~lg~lv~~l~~l~~fF~~~~~~~~~~~~~~~~~~~~~~~~~~~~~v~~iL~~s~~~~~~~s~~~~~~~~~~~~~~~~~~~ 2080 (2196)
+                      ++||||++||+||+||+++++.++..++..+....+.+++.||+||++||+||++++++||+++|+++++|++|||+|||
+T Consensus      2001 ~l~~lv~~l~~l~~fF~~~~~~~~~~~~~~~~~~~~~~~~~~~~rv~~iL~~s~~~~~~~s~~~~~~~~~~~~~~~~~~~ 2080 (2196)
+T sp|Q9HDV6|MOR2 2001 SLGELVTTLHSLDVFFAEDRDEELIQPDVAVDPKLDITSEDYDDRIATILSGSLRRQKQGLMAYETESFRDYSPNEEIDA 2080 (2196)
+T ss_pred             CcccccccccccccccCCCCccccCCCCCCCCCCCCCCchhhhHHHHHHHhhhccccCCCCcccccccCCCCCCCccccc
+Confidence            99999999999999999999876654433445688899999999999999999999999999999999999999999999
+
+
+Q sp|Q9HDV6|MOR2 2081 SAKLPMDMPPVRVRKSSFISKLKPHYFMDAESYYPSLKALGNSAEHRLSLDEIRGAAELKQNKNWNSMLDQSVSMINEDS 2160 (2196)
+Q Consensus      2081 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 2160 (2196)
+                      ++|+|||||||||+++|||||||||||||||+|||||||+||++|||+|+|||||+||+|||||||+|+||+|+|||||+
+T Consensus      2081 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 2160 (2196)
+T sp|Q9HDV6|MOR2 2081 SAKLPMDMPPVRVRKSSFISKLKPHYFMDAESYYPSLKALGNSAEHRLSLDEIRGAAELKQNKNWNSMLDQSVSMINEDS 2160 (2196)
+T ss_pred             cccCCCCCCCccccccccccccCccccccccccchhhhhcccccccccChhhhhhhhhhhccCChhhhhhhhhhccCccc
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q sp|Q9HDV6|MOR2 2161 VEDHETHENYYHLRTMFQGSESNESFTDTTRSRGWH 2196 (2196)
+Q Consensus      2161 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 2196 (2196)
+                      |||||||||||||||||||+|+||+||||||+||||
+T Consensus      2161 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 2196 (2196)
+T sp|Q9HDV6|MOR2 2161 VEDHETHENYYHLRTMFQGSESNESFTDTTRSRGWH 2196 (2196)
+T ss_pred             ccccccccchhhhhhhccCCCCCcccccccccCCCC
+Confidence            999999999999999999999999999999999998
+
+
+No 2
+>sp|Q10178|SF3B1_SCHPO U2 snRNP component prp10 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=prp10 PE=1 SV=3
+Probab=56.61  E-value=0.56  Score=60.04  Aligned_cols=99  Identities=10%  Similarity=0.019  Sum_probs=63.5  Template_Neff=9.900
+
+Q sp|Q9HDV6|MOR2 1140 GSPSKAIVGLARKGLTALLLENSSNEVLLQKVINRCFSKEISQTISNYYFLSLSEMLIQINPN-NLSKPKLLPLCLVNLS 1218 (2196)
+Q Consensus      1140 ~s~~~~~~~l~~~AL~nLL~~N~d~~~Ll~~~i~~cY~~~~~~~~~~~yF~vla~vl~~~~~~-~~~~~~LL~L~L~~l~ 1218 (2196)
+                      +..+..++..+.++|..+..+-. ...++..+...|-.... ..++...+.++..+....... .-....++...+..|.
+T Consensus       519 ~~~~~~VR~~aa~al~~l~~~~~-~~~ll~~L~~~l~s~~~-~~~R~~~l~~L~~l~~~~~~~~~~~l~~lv~~l~~~L~  596 (1205)
+T sp|Q10178|SF3B  519 DHVDEYVRNTTARAFSVVASALG-VPALLPFLKAVCRSKKS-WQARHTGVRIIQQIALLLGCSILPHLKNLVDCIGHGLE  596 (1205)
+T ss_pred             CCCChhHHHHHHHHHHHHHHhcC-hhhHHHHHHHHhcCCCC-HHHHHHHHHHHHHHHHHhhhhhhhhHHHHHHHHHhhcc
+Confidence            44556678888888888877532 34456666665543321 136666777776664432111 0012466777777788
+
+
+Q sp|Q9HDV6|MOR2 1219 TNNLSVRLKAFELLGNFHLNNF 1240 (2196)
+Q Consensus      1219 ~~d~~iR~~A~~LL~~L~~~~~ 1240 (2196)
+                      ++++.+|..|.+.|..+.....
+T Consensus       597 D~~~~VR~~a~~~L~~l~~~~~  618 (1205)
+T sp|Q10178|SF3B  597 DEQQKVRIMTALSLSALAEAAT  618 (1205)
+T ss_pred             CCChHHHHHHHHHHHHHHHhcC
+Confidence            9999999999999999987654
+
+
+No 3
+>sp|Q09725|MIS4_SCHPO Sister chromatid cohesion protein mis4 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=mis4 PE=1 SV=2
+Probab=36.53  E-value=1.9  Score=55.37  Aligned_cols=70  Identities=20%  Similarity=0.118  Sum_probs=52.7  Template_Neff=7.300
+
+Q sp|Q9HDV6|MOR2 1166 VLLQKVINRCFSKEISQTISNYYFLSLSEMLIQINPNNLSKPKLLPLCLVNLSTNNLSVRLKAFELLGNFHLNNF 1240 (2196)
+Q Consensus      1166 ~Ll~~~i~~cY~~~~~~~~~~~yF~vla~vl~~~~~~~~~~~~LL~L~L~~l~~~d~~iR~~A~~LL~~L~~~~~ 1240 (2196)
+                      ..++++++.|.+.+.  .++..-+++++.++.+|.-+|.   ..+.-.+....++++.||..|+.++..|++++.
+T Consensus      1306 ryL~~IL~~~ls~~~--~vr~~Al~vL~~IlrQGLvhP~---~~ip~LIALetdp~~~Ir~~A~~lh~~L~~Khe 1375 (1587)
+T sp|Q09725|MIS4 1306 HFLPCILDSCFSKNL--RYSMLGIEILKCIIHQGLVNPR---MCFSTIIALESNAIKETREVAILLHTELHRRHE 1375 (1587)
+T ss_pred             HhHHHHHHHHcCCCc--hHHHHHHHHHHHHHhcCCCChh---hhhhhhhhhccCCcHHHHHHHHHHHHHHhhhch
+Confidence            456667777877665  4888889999999998875553   223333444679999999999999999999876
+
+
+No 4
+>sp|O43028|VAC8_SCHPO Vacuolar protein 8 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=vac8 PE=1 SV=4
+Probab=33.73  E-value=2.2  Score=47.49  Aligned_cols=30  Identities=13%  Similarity=0.230  Sum_probs=25.2  Template_Neff=12.300
+
+Q sp|Q9HDV6|MOR2  886 ESLFSMVLPLIFTEFSPIREAVVFAIGCIN  915 (2196)
+Q Consensus       886 ~~lf~~lvplL~s~~~~iRdaav~aLGsin  915 (2196)
+                      ..++..++.++.+++..+|..+..+|+.+.
+T Consensus        46 ~~~~~~l~~~l~~~~~~~r~~a~~~l~~l~   75 (550)
+T sp|O43028|VAC8   46 EEPLRALTILAYSDNLDLQRSAALAFAEIT   75 (550)
+T ss_pred             CCCHHHHHHHhcCCCHHHHHHHHHHHHHhh
+Confidence            356778888888999999999999999854
+
+
+No 5
+>sp|Q9UU81|AP1G1_SCHPO AP-1 complex subunit gamma-1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=apl4 PE=3 SV=1
+Probab=22.38  E-value=4.8  Score=48.20  Aligned_cols=32  Identities=16%  Similarity=0.049  Sum_probs=26.9  Template_Neff=9.200
+
+Q sp|Q9HDV6|MOR2  885 AESLFSMVLPLIFTEFSPIREAVVFAIGCINV  916 (2196)
+Q Consensus       885 ~~~lf~~lvplL~s~~~~iRdaav~aLGsin~  916 (2196)
+                      ++.++..+..+|.+.++.+|..|+.+|+.+..
+T Consensus       163 ~~~l~~~l~~~L~~~~~~VRk~A~~al~~i~~  194 (865)
+T sp|Q9UU81|AP1G  163 ARDLSNDIAELCSNHHNYISKKAVLCALRVIQ  194 (865)
+T ss_pred             HHHHHHHHHHHHhCCChhhHHHHHHHHHHHHh
+Confidence            45678888888999999999999999998543
+
+
+No 6
+>sp|Q09933|DIS1_SCHPO Phosphoprotein p93 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=dis1 PE=1 SV=1
+Probab=21.47  E-value=5.2  Score=47.88  Aligned_cols=102  Identities=15%  Similarity=0.100  Sum_probs=71.4  Template_Neff=8.000
+
+Q sp|Q9HDV6|MOR2 1136 TAVFGSPSKAIVGLARKGLTALLLENSSNEVLLQKVINRCFSKEISQTISNYYFLSLSEMLIQINPNNLSKPKLLPLCLV 1215 (2196)
+Q Consensus      1136 ~~ll~s~~~~~~~l~~~AL~nLL~~N~d~~~Ll~~~i~~cY~~~~~~~~~~~yF~vla~vl~~~~~~~~~~~~LL~L~L~ 1215 (2196)
+                      ..++.+....++..+.++|..+.+... ...+++.++..+=+.+  +.++.+.+.++..++.......+.+..++....-
+T Consensus        98 ek~l~ssr~~vr~~A~eaL~~l~e~~~-~~~vie~Ll~~L~~k~--pkvr~a~l~~L~~ii~~~g~~~~~~~~il~~L~k  174 (882)
+T sp|Q09933|DIS1   98 EKCLPSPRQSIRDASHQALLILAKSDA-LDYVLEGLFSAARVKH--PKQAVASIKELNSLLENFGIPALSPIPFYKLIPT  174 (882)
+T ss_pred             HhcCCCCchHHHHHHHHHHHHHHHhCC-HHHHHHHHHhhccCCC--hHHHHHHHHHHHHHHHHcCCCCCCcHhhHHHHHH
+Confidence            344444557788999999998887643 4555676676543333  3578888999988865422112234567777777
+
+
+Q sp|Q9HDV6|MOR2 1216 NLSTNNLSVRLKAFELLGNFHLNNF 1240 (2196)
+Q Consensus      1216 ~l~~~d~~iR~~A~~LL~~L~~~~~ 1240 (2196)
+                      .+++.|.+||..|++++..+.....
+T Consensus       175 ll~dad~~VR~~A~~ll~~L~~~~~  199 (882)
+T sp|Q09933|DIS1  175 LFAQSDKNIRQEASNLSITLYAWVG  199 (882)
+T ss_pred             HhcCCChhHHHHHHHHHHHHHHHhc
+Confidence            7889999999999999999987654
+
+
+No 7
+>sp|Q10178|SF3B1_SCHPO U2 snRNP component prp10 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=prp10 PE=1 SV=3
+Probab=17.82  E-value=7  Score=48.49  Aligned_cols=100  Identities=12%  Similarity=0.056  Sum_probs=58.5  Template_Neff=9.900
+
+Q sp|Q9HDV6|MOR2 1137 AVFGSPSKAIVGLARKGLTALLLENSSNEVLLQKVINRCFSKEISQTISNYYFLSLSEMLIQINPNNLS-KPKLLPLCLV 1215 (2196)
+Q Consensus      1137 ~ll~s~~~~~~~l~~~AL~nLL~~N~d~~~Ll~~~i~~cY~~~~~~~~~~~yF~vla~vl~~~~~~~~~-~~~LL~L~L~ 1215 (2196)
+                      ..+...+..++..+..++..++...... .++..++..+-..+  ..++.+...++..++........+ ...++...+-
+T Consensus      1000 ~~L~~~~~~~R~~~~~al~~l~~~~~~~-~vlp~Ll~~l~~~~--~~VR~~al~aL~~l~~~~~~~~~~~~~~i~~~L~~ 1076 (1205)
+T sp|Q10178|SF3B 1000 NNLKVQERQNRVCTTVAIAIVAETCMPF-TVVPALMADYRTPE--MNVQNGVLKSLAFMFEYIGEQARDYVYAITPLLAD 1076 (1205)
+T ss_pred             hccCCCchhhHHHHHHHHHHHHHhcCCc-chHHHHHHhhcCCC--hhhhHHHHHHHHHHHHHhhhhhHHHHHHHHHHHHH
+Confidence            3344445556666667777777654321 23444444432222  247777788887765432211001 2345555566
+
+
+Q sp|Q9HDV6|MOR2 1216 NLSTNNLSVRLKAFELLGNFHLNN 1239 (2196)
+Q Consensus      1216 ~l~~~d~~iR~~A~~LL~~L~~~~ 1239 (2196)
+                      .+.+++..+|..|.+.+..+...+
+T Consensus      1077 ~L~d~d~~vR~~A~~~l~~l~~~~ 1100 (1205)
+T sp|Q10178|SF3B 1077 ALMDRDAVHRQTAASVIKHLSLGC 1100 (1205)
+T ss_pred             HhhCCCHHHHHHHHHHHHHHHhcc
+Confidence            677888899999999888877654
+
+
+No 8
+>sp|Q9UT08|2AAA_SCHPO Protein phosphatase PP2A regulatory subunit A OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=paa1 PE=3 SV=1
+Probab=17.80  E-value=7  Score=43.86  Aligned_cols=100  Identities=11%  Similarity=0.025  Sum_probs=54.3  Template_Neff=10.900
+
+Q sp|Q9HDV6|MOR2 1134 WFTAVFGSPSKAIVGLARKGLTALLLENSS---NEVLLQKVINRCFSKEISQTISNYYFLSLSEMLI---QINPNNLSKP 1207 (2196)
+Q Consensus      1134 Wi~~ll~s~~~~~~~l~~~AL~nLL~~N~d---~~~Ll~~~i~~cY~~~~~~~~~~~yF~vla~vl~---~~~~~~~~~~ 1207 (2196)
+                      -+..++.+++..++..+..++..+......   ...++..+...+-  +..+.++.....+++.+..   ..........
+T Consensus       483 ~l~~~~~~~~~~vR~~a~~~l~~l~~~~~~~~~~~~~l~~l~~ll~--d~~~~Vr~~~~~~l~~l~~~~~~~~~~~~~~~  560 (590)
+T sp|Q9UT08|2AAA  483 KFLAMRSHPNYLYRMTTIFAISEIAPALNAEVIEKQILPTLEQLVN--DPIPNIRFNVAKAFEVLKPVLAAGGDSTVYEQ  560 (590)
+T ss_pred             HHHHhccCCChhHHHHHHHHHHHHHHhcChHHHHhhHHHHHHHHcC--CCCchhhHHHHHHHHHHHHHhhcCCCchhhhh
+Confidence            344455566667777777777776654321   1223333333322  2223577777777764321   1111111224
+
+
+Q sp|Q9HDV6|MOR2 1208 KLLPLCLVNLSTNNLSVRLKAFELLGNF 1235 (2196)
+Q Consensus      1208 ~LL~L~L~~l~~~d~~iR~~A~~LL~~L 1235 (2196)
+                      .++....-.+.+++++||..|...|..+
+T Consensus       561 ~~~~~l~~l~~D~~~~Vr~~a~~~L~~~  588 (590)
+T sp|Q9UT08|2AAA  561 QIIPLLEQLTKDNDPDVQYFATQALEQT  588 (590)
+T ss_pred             hHHHHHHHhccCCChhHHHHHHHHHHhh
+Confidence            4555555556788999999999877644
+
+
+No 9
+>sp|O13939|AP3B_SCHPO AP-3 complex subunit beta OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=apl6 PE=1 SV=1
+Probab=17.19  E-value=7.4  Score=45.42  Aligned_cols=123  Identities=15%  Similarity=0.097  Sum_probs=66.1  Template_Neff=8.600
+
+Q sp|Q9HDV6|MOR2 1097 QNLEYLAIKAMIALCTA-K-LQQELTEGVFLFDIEILLNWFTAVFGSPSKAIVGLARKGLTALLLENSSNEVLLQKVINR 1174 (2196)
+Q Consensus      1097 ~~L~~aAl~AMAaLc~G-p-l~~~~~~~~~~~~~~~l~~Wi~~ll~s~~~~~~~l~~~AL~nLL~~N~d~~~Ll~~~i~~ 1174 (2196)
+                      ..++++++.++..++.. | ++.           . .+..|...++ +...++..+.++|..|...+. ...++++....
+T Consensus       309 ~~vr~~aL~~L~~i~~~~p~~~~-----------~-~~~~f~~~~~-D~~~Vr~~kL~iL~~l~~~~n-~~~Il~eL~~~  374 (745)
+T sp|O13939|AP3B  309 PIVRTTTLRYISQIVYKTPELFK-----------N-HIKSFFLIAS-DSDDTCLLKINILSRLLDAQN-SSQILPELLYY  374 (745)
+T ss_pred             chHHHHHHHHHHHHHhhChHhhh-----------h-hhhhceeccC-CCHHHHHHHHHHHHHhcChhh-HHHHHHHHHHH
+Confidence            36778888888888643 2 211           0 0111111222 345577788888887775442 24455555554
+
+
+Q sp|Q9HDV6|MOR2 1175 CFSK-EISQTISNYYFLSLSEMLIQINPNNLSKPKLLPLCLVNLSTNNLSVRLKAFELLGNFHLN 1238 (2196)
+Q Consensus      1175 cY~~-~~~~~~~~~yF~vla~vl~~~~~~~~~~~~LL~L~L~~l~~~d~~iR~~A~~LL~~L~~~ 1238 (2196)
+                      +... +.  .++..-..+++.+-...+  . .....+...+-.+.+.+..++..+...|+.+...
+T Consensus       375 l~~~~d~--~vr~~av~aLg~~a~~~~--~-~~~~~l~~Ll~lL~~~~~~v~~eav~~l~~li~~  434 (745)
+T sp|O13939|AP3B  375 INSHPNP--SVASTAVKALGDFASANI--S-MAPSCLNTLLLLLKSHNSLIVTEAASSLRLLIHN  434 (745)
+T ss_pred             HhcCCCH--HHHHHHHHHHHHHHhcCc--c-chHHHHHHHHHHHhcCChhhHHHHHHHHHHHHhc
+Confidence            4432 22  255555556655422211  1 1134455555555666777888888777776544
+
+
+No 10
+>sp|Q10429|CND3_SCHPO Condensin complex subunit 3 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=cnd3 PE=1 SV=1
+Probab=17.15  E-value=7.4  Score=46.28  Aligned_cols=114  Identities=15%  Similarity=0.097  Sum_probs=69.4  Template_Neff=8.100
+
+Q sp|Q9HDV6|MOR2 1098 NLEYLAIKAMIALCTAKLQQELTEGVFLFDIEILLNWFTAVF-GSPSKAIVGLARKGLTALLLENSSNEVLLQKVINRCF 1176 (2196)
+Q Consensus      1098 ~L~~aAl~AMAaLc~Gpl~~~~~~~~~~~~~~~l~~Wi~~ll-~s~~~~~~~l~~~AL~nLL~~N~d~~~Ll~~~i~~cY 1176 (2196)
+                      ..+..|+.|++.+..+....          ...+...+..++ ..+++.+|..+..++.    .+   ...+..+++++.
+T Consensus       136 ~VR~~Av~aL~~l~~~~~~~----------~~~v~~~L~~~l~~D~s~~VR~aal~~l~----~~---~~tl~~ll~r~r  198 (875)
+T sp|Q10429|CND3  136 IVRLEAVVALSRLQEDTGDE----------ENDVRNILLFLLQNDPSSEVRRSVLLNIE----VS---NSTLPFILERAR  198 (875)
+T ss_pred             hHHHHHHHHHHHhccCCCCc----------cchHHHHHHHHhcCCCCHHHHHHHHHhcc----CC---hhhHHHHHHHhc
+Confidence            45667777777774432110          011223332333 4556666666555543    23   345888999988
+
+
+Q sp|Q9HDV6|MOR2 1177 SKEISQTISNYYFLS-LSEMLIQINPNNLSKPKLLPLCLVNLSTNNLSVRLKAFELLG 1233 (2196)
+Q Consensus      1177 ~~~~~~~~~~~yF~v-la~vl~~~~~~~~~~~~LL~L~L~~l~~~d~~iR~~A~~LL~ 1233 (2196)
+                      ..+.  .+|...|.. +..+..   .-.++...-..+...+|.+.++.||.+|.++|.
+T Consensus       199 D~~~--~VR~~a~~~~l~~~~~---~~~l~~~~r~~lL~~gL~Dr~~~VR~aa~~~L~  251 (875)
+T sp|Q10429|CND3  199 DVDA--ANRKCVYARVLPKIGD---FRYLSIKKRVRILKWGLNDRDESVEKAAADMLA  251 (875)
+T ss_pred             CCCh--HHHHHHHHHHhhccCC---CccCCHHHHHHHHHhhccCCCHHHHHHHHHHHH
+Confidence            8776  488888874 554421   112444556666777889999999999999884
+
+

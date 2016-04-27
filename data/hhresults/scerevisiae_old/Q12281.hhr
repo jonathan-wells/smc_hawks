@@ -1,0 +1,159 @@
+Query         sp|Q12281|YD032_YEAST Putative uncharacterized protein YDL032w OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=YDL032W PE=5 SV=1
+Match_columns 103
+No_of_seqs    1 out of 2
+Neff          1
+Searched_HMMs 6721
+Date          Mon Apr 11 01:56:02 2016
+Command       hhsearch -i Q12281.hhm -d /usr/local/hh-suite/db/saccharomyces_cerevisiae/scerevisiae -cpu 2 -v 0 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 sp|Q12281|YD032_YEAST Putative 100.0 4.9E-71 7.3E-75  387.0   0.0  103    1-103     1-103 (103)
+  2 sp|P53967|YNC8_YEAST Putative   14.0      13   0.002   22.5   0.0   29   52-85     50-78  (105)
+  3 sp|Q04372|TAP42_YEAST Type 2A   13.3      14  0.0021   23.7   0.0   20   25-44    288-307 (366)
+  4 sp|P32338|RME1_YEAST Zinc fing   8.4      27   0.004   20.3   0.0   38    1-38      1-38  (300)
+  5 sp|Q08922|YP182_YEAST Putative   7.4      32  0.0047   21.0   0.0   18   44-62     39-56  (127)
+  6 sp|Q12301|YD180_YEAST Uncharac   6.0      42  0.0062   24.4   0.0   44    4-47     16-59  (547)
+  7 sp|P43576|YFB9_YEAST Putative    5.4      48  0.0072   19.9   0.0   18   75-92     39-56  (117)
+  8 sp|Q12248|DAD1_YEAST DASH comp   5.0      53  0.0079   18.5   0.0   36   63-98     36-71  (94)
+  9 sp|P43578|YFB5_YEAST Putative    4.5      60   0.009   20.3   0.0   22   35-56     38-59  (164)
+ 10 sp|P38834|YHT0_YEAST Putative    3.8      75   0.011   18.7   0.0   11   14-24      2-12  (111)
+
+No 1
+>sp|Q12281|YD032_YEAST Putative uncharacterized protein YDL032w OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=YDL032W PE=5 SV=1
+Probab=100.00  E-value=4.9e-71  Score=386.98  Aligned_cols=103  Identities=100%  Similarity=1.488  Sum_probs=102.4  Template_Neff=1.000
+
+Q sp|Q12281|YD03    1 MAPCQGRPKIVIQTSSAYILLGYLEILRQIVLPPQRNLPQMTLPLSRCQTLPVAAVVCTVKHSSVLLNLNILPALLSDLN   80 (103)
+Q Consensus         1 mapcqgrpkiviqtssayillgyleilrqivlppqrnlpqmtlplsrcqtlpvaavvctvkhssvllnlnilpallsdln   80 (103)
+                      |||||||||||||||||||++||+||+||||+|||||+||||+|+|||||+||||||||||||||++|+||+||++||||
+T Consensus         1 mapcqgrpkiviqtssayillgyleilrqivlppqrnlpqmtlplsrcqtlpvaavvctvkhssvllnlnilpallsdln   80 (103)
+T sp|Q12281|YD03    1 MAPCQGRPKIVIQTSSAYILLGYLEILRQIVLPPQRNLPQMTLPLSRCQTLPVAAVVCTVKHSSVLLNLNILPALLSDLN   80 (103)
+T ss_pred             CCCCCCCceEEEEcchHHHHHHHHHHHHHhcCCCCcCCCcccccccccCccceeEEEEEeecceeeeccchHHHHHhhhh
+Confidence            89999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q sp|Q12281|YD03   81 RLPNQYAHIFNVLVCFQTFILLQ  103 (103)
+Q Consensus        81 rlpnqyahifnvlvcfqtfillq  103 (103)
+                      |+||||||||||+|||||||++|
+T Consensus        81 rlpnqyahifnvlvcfqtfillq  103 (103)
+T sp|Q12281|YD03   81 RLPNQYAHIFNVLVCFQTFILLQ  103 (103)
+T ss_pred             cCchhHHHHHHHHHHhhhhhhcC
+Confidence            99999999999999999999997
+
+
+No 2
+>sp|P53967|YNC8_YEAST Putative uncharacterized protein YNL028W OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=YNL028W PE=5 SV=1
+Probab=14.01  E-value=13  Score=22.46  Aligned_cols=29  Identities=41%  Similarity=0.836  Sum_probs=21.1  Template_Neff=1.000
+
+Q sp|Q12281|YD03   52 PVAAVVCTVKHSSVLLNLNILPALLSDLNRLPNQ   85 (103)
+Q Consensus        52 pvaavvctvkhssvllnlnilpallsdlnrlpnq   85 (103)
+                      |..-.+|.-|||-.++..     ++..|.|.|.|
+T Consensus        50 plnkticarkhsylllri-----flktlsrmpaq   78 (105)
+T sp|P53967|YNC8   50 PLNKTICARKHSYLLLRI-----FLKTLSRMPAQ   78 (105)
+T ss_pred             CCccchhcchhhHHHHHH-----HHHHhhcCchh
+Confidence            444568999999877643     56778888876
+
+
+No 3
+>sp|Q04372|TAP42_YEAST Type 2A phosphatase-associated protein 42 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=TAP42 PE=1 SV=1
+Probab=13.30  E-value=14  Score=23.67  Aligned_cols=20  Identities=25%  Similarity=0.198  Sum_probs=16.3  Template_Neff=7.600
+
+Q sp|Q12281|YD03   25 EILRQIVLPPQRNLPQMTLP   44 (103)
+Q Consensus        25 eilrqivlppqrnlpqmtlp   44 (103)
+                      +-++.-|..|..++|.||+-
+T Consensus       288 ~~~~~~VFgpg~~lPTMTve  307 (366)
+T sp|Q04372|TAP4  288 QQLQQKVRGYGQYGPTMSVE  307 (366)
+T ss_pred             HHHHHHhhcCCCCCCCCCHH
+Confidence            56777888888999999974
+
+
+No 4
+>sp|P32338|RME1_YEAST Zinc finger protein RME1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=RME1 PE=1 SV=1
+Probab=8.40  E-value=27  Score=20.28  Aligned_cols=38  Identities=18%  Similarity=0.149  Sum_probs=21.6  Template_Neff=9.200
+
+Q sp|Q12281|YD03    1 MAPCQGRPKIVIQTSSAYILLGYLEILRQIVLPPQRNL   38 (103)
+Q Consensus         1 mapcqgrpkiviqtssayillgyleilrqivlppqrnl   38 (103)
+                      |+||+|..+...+.+..-.......-.....-+.|+.+
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   38 (300)
+T sp|P32338|RME1    1 MSPCYGQNSAIAKGSWNREVLQEVQPIYHWHDFGQNMK   38 (300)
+T ss_pred             CCCcccccceeeccCCCccccceecceecccccccccc
+Confidence            78888888776666655444444433333344444433
+
+
+No 5
+>sp|Q08922|YP182_YEAST Putative uncharacterized protein YPL182C OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=YPL182C PE=5 SV=1
+Probab=7.43  E-value=32  Score=21.04  Aligned_cols=18  Identities=61%  Similarity=0.905  Sum_probs=12.8  Template_Neff=1.000
+
+Q sp|Q12281|YD03   44 PLSRCQTLPVAAVVCTVKH   62 (103)
+Q Consensus        44 plsrcqtlpvaavvctvkh   62 (103)
+                      .||.| |+|+||||..|.-
+T Consensus        39 tlssc-tlpiaavvvavdv   56 (127)
+T sp|Q08922|YP18   39 TLSSC-TLPIAAVVVAVDV   56 (127)
+T ss_pred             eeecc-ccceeEEEEEEEE
+Confidence            34555 6899999887653
+
+
+No 6
+>sp|Q12301|YD180_YEAST Uncharacterized membrane protein YDL180W OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=YDL180W PE=1 SV=1
+Probab=6.00  E-value=42  Score=24.41  Aligned_cols=44  Identities=34%  Similarity=0.302  Sum_probs=31.2  Template_Neff=4.000
+
+Q sp|Q12281|YD03    4 CQGRPKIVIQTSSAYILLGYLEILRQIVLPPQRNLPQMTLPLSR   47 (103)
+Q Consensus         4 cqgrpkiviqtssayillgyleilrqivlppqrnlpqmtlplsr   47 (103)
+                      |..||.|+|-+.-.-+++-.+-.+-.-.|+.+-+-|.|--|-|.
+T Consensus        16 cSskp~vvi~s~~~~~~l~~~~y~sS~ll~~~Yddp~mF~PnsQ   59 (547)
+T sp|Q12301|YD18   16 CSTRPHIVILSALFSISLFSLFYASSELLLHQYDDPLMFKPNSQ   59 (547)
+T ss_pred             ecCCCeeehHHHHHHHHHHHHHHHhhhhcccccCCCCCCCCChh
+Confidence            88999999876655444433334445567888899999988763
+
+
+No 7
+>sp|P43576|YFB9_YEAST Putative uncharacterized protein YFL019C OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=YFL019C PE=5 SV=1
+Probab=5.37  E-value=48  Score=19.90  Aligned_cols=18  Identities=39%  Similarity=0.608  Sum_probs=14.1  Template_Neff=1.100
+
+Q sp|Q12281|YD03   75 LLSDLNRLPNQYAHIFNV   92 (103)
+Q Consensus        75 llsdlnrlpnqyahifnv   92 (103)
+                      -...||-|.||+|.+|..
+T Consensus        39 qvk~lnllqnqfasifts   56 (117)
+T sp|P43576|YFB9   39 QVKRLNLLQNQFASVFTS   56 (117)
+T ss_pred             hhhhHHhhhhhhhhhhhh
+Confidence            356788899999998853
+
+
+No 8
+>sp|Q12248|DAD1_YEAST DASH complex subunit DAD1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=DAD1 PE=1 SV=1
+Probab=4.97  E-value=53  Score=18.46  Aligned_cols=36  Identities=17%  Similarity=0.177  Sum_probs=27.9  Template_Neff=4.300
+
+Q sp|Q12281|YD03   63 SSVLLNLNILPALLSDLNRLPNQYAHIFNVLVCFQT   98 (103)
+Q Consensus        63 ssvllnlnilpallsdlnrlpnqyahifnvlvcfqt   98 (103)
+                      .+++-|+|.|-.=|...+...++|..+.....-|..
+T Consensus        36 e~ll~nlN~LNR~LE~v~~VGkEF~~va~LW~~F~~   71 (94)
+T sp|Q12248|DAD1   36 NSILNGLNGLNISLESSIAVGREFQSVSDLWKTLYD   71 (94)
+T ss_pred             HHHHhhhhhhhhhhhHHhhhhchhhhHHHHHHHHHH
+Confidence            467888888888888888888888887766655543
+
+
+No 9
+>sp|P43578|YFB5_YEAST Putative uncharacterized protein YFL015C OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=YFL015C PE=5 SV=1
+Probab=4.52  E-value=60  Score=20.26  Aligned_cols=22  Identities=41%  Similarity=0.616  Sum_probs=16.3  Template_Neff=1.000
+
+Q sp|Q12281|YD03   35 QRNLPQMTLPLSRCQTLPVAAV   56 (103)
+Q Consensus        35 qrnlpqmtlplsrcqtlpvaav   56 (103)
+                      -|.+.-.|.||.|||...-.|+
+T Consensus        38 crplqvatyplnrcqqysslai   59 (164)
+T sp|P43578|YFB5   38 CRPLQVATYPLNRCQQYSSLAI   59 (164)
+T ss_pred             hcccccceecccccccccceee
+Confidence            3566778999999998665443
+
+
+No 10
+>sp|P38834|YHT0_YEAST Putative uncharacterized protein YHR130C OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=YHR130C PE=5 SV=1
+Probab=3.80  E-value=75  Score=18.74  Aligned_cols=11  Identities=55%  Similarity=1.168  Sum_probs=8.0  Template_Neff=1.000
+
+Q sp|Q12281|YD03   14 TSSAYILLGYL   24 (103)
+Q Consensus        14 tssayillgyl   24 (103)
+                      |-|.||..||.
+T Consensus         2 tksiyiiigym   12 (111)
+T sp|P38834|YHT0    2 TKSIYIIIGYM   12 (111)
+T ss_pred             CceEEEeeeec
+Confidence            45778888875
+
+

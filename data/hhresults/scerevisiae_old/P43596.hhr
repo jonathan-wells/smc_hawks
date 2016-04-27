@@ -1,0 +1,285 @@
+Query         sp|P43596|IOC3_YEAST ISWI one complex protein 3 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=IOC3 PE=1 SV=1
+Match_columns 787
+No_of_seqs    75 out of 93
+Neff          4.2
+Searched_HMMs 6721
+Date          Mon Apr 11 01:41:27 2016
+Command       hhsearch -i P43596.hhm -d /usr/local/hh-suite/db/saccharomyces_cerevisiae/scerevisiae -cpu 2 -v 0 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 sp|P43596|IOC3_YEAST ISWI one  100.0  3E-210  4E-214 1765.6   0.0  777    1-787     1-787 (787)
+  2 sp|Q08119|ESC8_YEAST Protein E 100.0  2E-155  2E-159 1309.0   0.0  580   24-756    28-627 (714)
+  3 sp|P38079|YRO2_YEAST Protein Y  53.1    0.91 0.00014   44.0   0.0    1   51-51    269-269 (344)
+  4 sp|P40553|DOT5_YEAST Peroxired  41.3     1.9 0.00028   37.5   0.0   18   50-67      3-20  (215)
+  5 sp|P27692|SPT5_YEAST Transcrip  25.4     5.1 0.00075   43.8   0.0    1  773-773   162-162 (1063)
+  6 sp|Q99299|AIM44_YEAST Altered   17.7     9.2  0.0014   40.1   0.0    1  607-607   511-511 (758)
+  7 sp|P36076|CAB3_YEAST Coenzyme   17.2     9.7  0.0014   38.7   0.0    7  633-639   455-461 (571)
+  8 sp|P53209|YG1A_YEAST Uncharact  13.1      15  0.0022   31.3   0.0   17  736-752     3-19  (190)
+  9 sp|P36024|SIS2_YEAST Phosphopa  11.5      17  0.0026   36.6   0.0    8  426-433   302-309 (562)
+ 10 sp|Q04007|YDR86_YEAST Uncharac  10.0      21  0.0032   37.2   0.0   53  519-578   215-270 (877)
+
+No 1
+>sp|P43596|IOC3_YEAST ISWI one complex protein 3 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=IOC3 PE=1 SV=1
+Probab=100.00  E-value=2.6e-210  Score=1765.59  Aligned_cols=777  Identities=99%  Similarity=1.435  Sum_probs=709.9  Template_Neff=4.100
+
+Q sp|P43596|IOC3    1 MDSPSNSIQNLQQEAQGSSSAQLADHDHDRVS-----MAMPLQT-----DQSVSVSQSSDNLRRSRRVPKPRTSIYDEYE   70 (787)
+Q Consensus         1 m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-----~~~~~~~-----~~~~~~~~~~~glrrs~rv~~~r~~~~~~~~   70 (787)
+                      |+++++++++.++.++|++          ++|     |++|++|     +.+++.+.+++|||||+|||++|++++.|++
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~----------~~Q~t~ddf~~vk~v~~~~~~~~~~~~~~~~~lRRS~Rv~~~r~~~~~e~~   70 (787)
+T sp|P43596|IOC3    1 MDSPSNSIQNLQQEAQGSS----------SAQLADHDHDRVSMAMPLQTDQSVSVSQSSDNLRRSRRVPKPRTSIYDEYE   70 (787)
+T ss_pred             CCCcchhhHHHHHHhcCCC----------CcccccccccCceeecccCCCCCCcccccccccccccCCCCCCCCcchhhH
+Confidence            7888899999777788774          344     8999999     9999999999999999999999999999999
+
+
+Q sp|P43596|IOC3   71 EELKERANKPKRKRPAPPKKKAPSTQNSKSNDKVEKKKTTSIAKDGKPTLKTNDKKVAPKPKPAHEQVEPALIPSNWTSV  150 (787)
+Q Consensus        71 ~~~~~~~~~~~~~~~~~~k~k~~~k~~~k~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~e~~l~~~nWspn  150 (787)
+                      +++++++.++++|++++..+|++++.++|+..++.+..+..+.+.++.+......+.+.++++.++++|++|++.|||||
+T Consensus        71 ~~~~~~~~~~~~kk~~~~~~k~~~~~~~k~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~e~~l~~~NWspn  150 (787)
+T sp|P43596|IOC3   71 EELKERANKPKRKRPAPPKKKAPSTQNSKSNDKVEKKKTTSIAKDGKPTLKTNDKKVAPKPKPAHEQVEPALIPSNWTSV  150 (787)
+T ss_pred             HHHHHhccCCCCCCCCCCCCCCCCccccccchhhhhccccccccCCCCcccCCCCCCCCCCCCCCCCCCCCCCCCccccC
+Confidence            99999999999988777336677667666633222222111112212222222222366778999999999999999999
+
+
+Q sp|P43596|IOC3  151 IPLLTSDFKNQYSVISRLKNPNMKPVPYAGDIIKLMAFINKFSSFFHSDLQNLSFQDFEVGLDLYPGDPNGSAAGIVKGP  230 (787)
+Q Consensus       151 vPL~ssdfk~~~s~~sr~k~p~mk~vPYA~DIikImsFinKF~~~F~~dL~nLspQDfEiGL~Lyp~~~~~~~~~~~~~~  230 (787)
+                      |||+++||++++|++||+|+|+|++||||||||+||+|||||+.||+.+|++||||||||||+|||+...+...+.+...
+T Consensus       151 vPLlssdfk~~~s~isrlk~p~mK~vPYAgDIIkIMSFINKF~~ff~~dL~nLSfQDFEiGLdLyp~~~~~~~~~~~~~~  230 (787)
+T sp|P43596|IOC3  151 IPLLTSDFKNQYSVISRLKNPNMKPVPYAGDIIKLMAFINKFSSFFHSDLQNLSFQDFEVGLDLYPGDPNGSAAGIVKGP  230 (787)
+T ss_pred             CcCCcccccccccchhhcCCCCCcccCChhhHHHHHHHHHHHHhhcCCCccCCCccccccccCCCCCCCCCCCcccccCC
+Confidence            99999999999999999999999999999999999999999999999999999999999999999997666655544446
+
+
+Q sp|P43596|IOC3  231 EDTSLLLYPDFMAIKDIVYCQDKMNLLFLSLLDLTFTENFDGKSAKKKGPLTTWENLKSSSKKVFSNPLYRLRLVAREWG  310 (787)
+Q Consensus       231 ~~~~~~lY~d~~~~Kdv~~~qDkMnlLF~~LL~LllN~~~~~~~~~rkkpv~~~~~~~~s~kk~y~kai~eLR~~a~ewG  310 (787)
+                      .+++.++|||++++||++.|||+||+|||+||+||||+++.+..++||+|++++..+++++||+|++||++||.+|.+||
+T Consensus       231 ~~~~~~lyqd~~~~Kdv~~~QDkMNLLFltLLkLlfn~~~~~~~~~~~~pi~s~~~l~s~skk~~~k~I~~LR~~a~ewG  310 (787)
+T sp|P43596|IOC3  231 EDTSLLLYPDFMAIKDIVYCQDKMNLLFLSLLDLTFTENFDGKSAKKKGPLTTWENLKSSSKKVFSNPLYRLRLVAREWG  310 (787)
+T ss_pred             CCccccccccccccccccccchHHHHHHHHHHHHHcCCCCCCcccccCCCCCchhhhcccCcccccchHHHHHhhhhhcC
+Confidence            67788999999999999999999999999999999999888888889999997877777689999999999999999999
+
+
+Q sp|P43596|IOC3  311 YPREWRQQLPSDQDISKPKTALFEQDEQTPVVDPSHPEILTPNIYTWNANEPLPLESNPLYNREMDKNGILALKPMDRVV  390 (787)
+Q Consensus       311 yPkEWR~~~~~~~~~~~~~~~~f~~dd~~~pVDp~~pEILt~niy~w~~~~p~~~e~nPl~~~~lek~GllaL~P~DRLI  390 (787)
+                      ||+|||++.+..+++++|.+.+|+.+|.++||||+|||||++|||+|+++.|+|+++|||++++|++.||+||+|.||||
+T Consensus       311 yPkEWR~~~~~~~d~~~p~s~~f~~dd~~epVDp~nPEILt~niy~w~~~~pl~~e~nPl~~pdlEk~GLlaL~P~DRlI  390 (787)
+T sp|P43596|IOC3  311 YPREWRQQLPSDQDISKPKTALFEQDEQTPVVDPSHPEILTPNIYTWNANEPLPLESNPLYNREMDKNGILALKPMDRVV  390 (787)
+T ss_pred             CChhhhcCCCCCCCCCCccccccccCCCCCCCCCCCCcccCCCCccCCCCCCCCCCCCCCCCCCccccCccccCccchhH
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q sp|P43596|IOC3  391 LLRALTDWCASHSSAIHDEIYKLTHGKKDPVFGIQTQQVPRYTIEGVDNTINQFKKLCSLIQSRYEIRSKKKHFVKQLKE  470 (787)
+Q Consensus       391 LLRtLv~WcLs~S~~IhnEI~~lsh~kKDp~fgvqT~hvpRylleG~d~T~~~F~kLC~lvq~r~E~R~kKK~~kkql~~  470 (787)
+                      ||||||+||+|+|+.||+|||+++|+||||+||||||||||||++|+++|+++|++||++||.|||+|++|||++|||++
+T Consensus       391 lLRtLv~Wcls~S~~IhnEIyrLsH~KKDp~FgiqT~hapR~ll~G~~~T~~~F~kLC~lvq~r~E~R~kKKh~kkql~~  470 (787)
+T sp|P43596|IOC3  391 LLRALTDWCASHSSAIHDEIYKLTHGKKDPVFGIQTQQVPRYTIEGVDNTINQFKKLCSLIQSRYEIRSKKKHFVKQLKE  470 (787)
+T ss_pred             HHHHHHHHHhhcChhhHHHHHHhcCCCCCCCCCccccccchhhhhchHHHHHHHHHHHHHHHHHHHHHhhccchhhhhcc
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q sp|P43596|IOC3  471 GKKPDLSRKLEILKEIKAELKNAVKSEKDELLFSLYDKWVPLFEGELPDQPLANPFSERLYKLRLQEFFLGRVPHIGDFY  550 (787)
+Q Consensus       471 gk~~dl~~Kl~iLkeIk~~l~~~~~~ek~~~~i~~Y~kW~~lFegE~~dnPLs~P~~DeiYkLRl~EFfiGrip~iGdFY  550 (787)
+                      ||++||++||+||++|++.|+.+++++++.+.+++|++|+++|+||++||||+|||+||||+||++||||||||||||||
+T Consensus       471 gk~~dls~Kl~iLkeIk~~l~~~~~~ek~~~~~~~Y~kW~~lFegE~~dnPLsnPy~DeiYKLRl~EFfiGrvp~iGdFY  550 (787)
+T sp|P43596|IOC3  471 GKKPDLSRKLEILKEIKAELKNAVKSEKDELLFSLYDKWVPLFEGELPDQPLANPFSERLYKLRLQEFFLGRVPHIGDFY  550 (787)
+T ss_pred             CCCcchhhHHHHHHHHHHHHHhccccchhhhhhhhhhhhhhhccCCCCCCCCCCCchhhhhhhhhccceeccCCCCCcee
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q sp|P43596|IOC3  551 MPRLHSYGDSLEMSTFTDLRNLQALLSKFKNNEYNAFTLFENDGQSMSAQFKLFYHDTPSLAHDVARGRNTSGKVYWYEL  630 (787)
+Q Consensus       551 LPRL~tY~~~~~~st~~dlr~L~~l~~~f~~~~~~~~~lf~~~g~~~ssqFKL~yhDt~sml~D~l~~~~~~~k~YWYEv  630 (787)
+                      |||||||++++++++|+||++|.++|++|++|++++++||++.|+.||+||||||||||+||+|++++..+.+++|||||
+T Consensus       551 LPRL~tY~~~~~~sty~d~r~L~~l~~~f~~~~~~~~~lf~~~g~~mssqFKLyyhDt~sml~D~l~~~~~~~k~YWYEv  630 (787)
+T sp|P43596|IOC3  551 MPRLHSYGDSLEMSTFTDLRNLQALLSKFKNNEYNAFTLFENDGQSMSAQFKLFYHDTPSLAHDVARGRNTSGKVYWYEL  630 (787)
+T ss_pred             eeccccCCCCCCCccccChHHHHHHHHHhcCCCcccccccccCCCCcccceEEEEecchhhhhhhhcCCCCCCCcceEEe
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q sp|P43596|IOC3  631 CHDSATLLEFLEFLDYKIVKPQDEKKEGNEKEKEALNNEAHILEQKSTTDNNPSINTNPLPKDAKYNTARKKLQILKEFL  710 (787)
+Q Consensus       631 c~Ds~sL~~FIe~Ld~kl~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~n~~plpk~~k~n~~r~kl~~L~eYL  710 (787)
+                      |||++||++||++|+++|+..+..+......+.++..+.+.....++++.+.+++|+||||++++||.+|++|++|++||
+T Consensus       631 c~Ds~sL~eFIe~Ld~kl~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~n~~pLPk~sk~n~~r~kl~~L~eYL  710 (787)
+T sp|P43596|IOC3  631 CHDSATLLEFLEFLDYKIVKPQDEKKEGNEKEKEALNNEAHILEQKSTTDNNPSINTNPLPKDAKYNTARKKLQILKEFL  710 (787)
+T ss_pred             ccChHHHHHHHHHHHhhccCCcccccccchhhhhhhhhhhhhhhhccCCCCCCCCCCCCCCCCcchhhHHHHHHHHHHHH
+Confidence            99999999999999999988876555444333333322223333456678899999999999999999999999999999
+
+
+Q sp|P43596|IOC3  711 SDYYFILRQFEQMKVQFADMKPGKRQLRRIQRQTVNYNTEYDSEEYVDDEEDDEADIYDDNDNDSSFDDGRVKRQRT  787 (787)
+Q Consensus       711 s~~~~iL~~~E~Lk~ey~d~~~g~r~lRrsqR~~inYs~~~~~eey~d~~~~~~~~~~~~~~~~~~~~~~~~~~~r~  787 (787)
+                      ++|++||+.||+|+++|+||++|+|++||+||++|+|++++++++|.+++++||.++|++.+++++...++.+|+|+
+T Consensus       711 s~~~~lL~~~EqLk~ey~D~~~~~R~LRRSqRr~inY~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  787 (787)
+T sp|P43596|IOC3  711 SDYYFILRQFEQMKVQFADMKPGKRQLRRIQRQTVNYNTEYDSEEYVDDEEDDEADIYDDNDNDSSFDDGRVKRQRT  787 (787)
+T ss_pred             HHHHHHHHHHHHHHHhhccCCCCcccccccccccCCCCCCCCCcccCccccCcccccccCCCCCCCCccccccccCC
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999986
+
+
+No 2
+>sp|Q08119|ESC8_YEAST Protein ESC8 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=ESC8 PE=1 SV=1
+Probab=100.00  E-value=1.6e-155  Score=1308.97  Aligned_cols=580  Identities=27%  Similarity=0.457  Sum_probs=518.8  Template_Neff=4.200
+
+Q sp|P43596|IOC3   24 ADHDHDRVS-----MAMPLQTDQSVSVSQSSDNLRRSRRVPKPRTSIYDEYEEELKERANKPKRKRPAPPKKKAPSTQNS   98 (787)
+Q Consensus        24 ~~~~~~~~~-----~~~~~~~~~~~~~~~~~~glrrs~rv~~~r~~~~~~~~~~~~~~~~~~~~~~~~~~k~k~~~k~~~   98 (787)
+                      +++.++++|     |++|++|+.+++.+.+                ++.|+++++++++.++++|++++++.+.+    +
+T Consensus        28 ~~~~k~~~Q~t~ddf~~ik~v~~~~~~~~~----------------~~~e~~~~~~~~~~~~~~k~~~~~~~~~~----~   87 (714)
+T sp|Q08119|ESC8   28 KPRVKRRGQLTFDDFRNIKIVEEPVVLSHN----------------SSIDESLDAATQNTKKREKYEGTCDEEMK----T   87 (714)
+T ss_pred             CCCCccCCcccccccccceeecCCCccccc----------------cchhhhhhhHhhhhhhhhccCCCCChhhh----h
+Confidence            778888888     8999999998876555                77777777888888888777654222222    2
+
+
+Q sp|P43596|IOC3   99 KSNDKVEKKKTTSIAKDGKPTLKTNDKKVAPKPKPAHEQVEPALIPSNWTSVIPLLTSDFKNQYSVIS----RLKNPNMK  174 (787)
+Q Consensus        99 k~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~e~~l~~~nWspnvPL~ssdfk~~~s~~s----r~k~p~mk  174 (787)
+                      |.+.+  .+.    +|-..-..+.+..++..++++.+.++++++++.||+|+|||++++|++++|++|    ||++|+|+
+T Consensus        88 k~~~~--~~~----a~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~nwsp~VPL~~~df~~~~s~~s~~~~~l~~P~~k  161 (714)
+T sp|Q08119|ESC8   88 KEMEA--NMA----SKYSNIKTHSNDTNKVESISEHTTSNNRPLNTLNWSPNIPLRYSDFAKFMSDETVTESNWAPPLCT  161 (714)
+T ss_pred             hhhhh--hhh----hhccccccCCCCCCCccccccCccCCCCCCCCCCCCCCCCcchhhhhccCCcccccccccCCCCCc
+Confidence            21000  000    000001112455566777899999999999999999999999999999999999    99999999
+
+
+Q sp|P43596|IOC3  175 PVPYAGDIIKLMAFINKFSSFFHSDLQNLSFQDFEVGLDLYPGDPNGSAAGIVKGPEDTSLLLYPDFMAIKDIVYCQDKM  254 (787)
+Q Consensus       175 ~vPYA~DIikImsFinKF~~~F~~dL~nLspQDfEiGL~Lyp~~~~~~~~~~~~~~~~~~~~lY~d~~~~Kdv~~~qDkM  254 (787)
+                      ||||||||||||||||||+.||+.+|++|||||||+||+|+++..                       .+|+++.|||+|
+T Consensus       162 ~vpYAgDI~fIm~FinKF~~~Fp~~L~nlgpQDfE~GL~l~~~~~-----------------------~~kdv~~~qdkm  218 (714)
+T sp|Q08119|ESC8  162 PLPYAGDVMKILSFIVKFKWVFSDDLLNLSFQDVEIGLELKVAGH-----------------------SAKNIRICQDKM  218 (714)
+T ss_pred             cCCchhhHHHHHHHHHHhhhhcCcCCcCCCccccccccccccCCc-----------------------ccccccccchHH
+Confidence            999999999999999999999999999999999999999999643                       268999999999
+
+
+Q sp|P43596|IOC3  255 NLLFLSLLDLTFTENFDGKSAKKKGPLT------TWENLKSSSKKVFSNPLYRLRLVAREWGYPREWRQQLPSDQDISKP  328 (787)
+Q Consensus       255 nlLF~~LL~LllN~~~~~~~~~rkkpv~------~~~~~~~s~kk~y~kai~eLR~~a~ewGyPkEWR~~~~~~~~~~~~  328 (787)
+                      |+|||+||+||||         |++++.      +......+++++|++||++||+++.+||||+|||+.++.       
+T Consensus       219 nlLfc~LL~LlLN---------rkk~v~~~~~~~~~~~~~~~~~~~y~kaleeLrt~~~qWGyPkEWr~~~p~-------  282 (714)
+T sp|Q08119|ESC8  219 NLLFCSLLRLLFC---------SEKRADNQTHRNFTLKRFLSLKNPYGKLVGKLRSLIQEWGLPKEWRGNSDI-------  282 (714)
+T ss_pred             HHHHHHHHHHhcC---------CCCccccccccccchhhhhcCCCchhhHHHHHHHhhhhcCCCccccCCCCC-------
+Confidence            9999999999999         667663      133344446778999999999999999999999997652       
+
+
+Q sp|P43596|IOC3  329 KTALFEQDEQTPVVDPSHPEILTPNIYTWNANEPLPLESNPLYNREMDKNGILALKPMDRVVLLRALTDWCASHSSAIHD  408 (787)
+Q Consensus       329 ~~~~f~~dd~~~pVDp~~pEILt~niy~w~~~~p~~~e~nPl~~~~lek~GllaL~P~DRLILLRtLv~WcLs~S~~Ihn  408 (787)
+                                                               |++++|++.||++|+|.|||+||||||+|||++|++||+
+T Consensus       283 -----------------------------------------L~~~~le~~G~~aL~P~DRLiLLRtLv~W~Ls~S~~I~~  321 (714)
+T sp|Q08119|ESC8  283 -----------------------------------------LSTLNFNGGGLLTMEPLDRIILLRCMIDWNCSYSALFHN  321 (714)
+T ss_pred             -----------------------------------------cccCccCCCCcCCCChHHHHHHHHHHHHHHhhcChHHHH
+Confidence                                                     666899999999999999999999999999999999999
+
+
+Q sp|P43596|IOC3  409 EIYKLTHGKKDPVFGIQTQQVPRYTIEGVDNTINQFKKLCSLIQSRYEIRSKKKHFVKQLKEGKKPDLSRKLEILKEIKA  488 (787)
+Q Consensus       409 EI~~lsh~kKDp~fgvqT~hvpRylleG~d~T~~~F~kLC~lvq~r~E~R~kKK~~kkql~~gk~~dl~~Kl~iLkeIk~  488 (787)
+                      +|++++|+++|++||+||+||||||++|+++|+++|++||+|||.|||+|++|    |||++||+++++.||+||++|++
+T Consensus       322 eI~~~~h~k~d~p~G~dT~~~~r~LieG~ddT~~~f~kLc~lvq~r~E~r~kk----k~l~~gK~~d~~~Kl~il~eik~  397 (714)
+T sp|Q08119|ESC8  322 EIQRLTHLKGDTGFNHQTFHASRFAMCGANNILDSCEVLCSLMSQKLENRKKR----KPSDKGKLSKINSQMKFLKGVRK  397 (714)
+T ss_pred             HHHHhhcccCCCCCcccccceehhhccccchhhhhHHHHHHHHHHHHhhhhcC----CCCcccccchhhhhhHHHHhHHH
+Confidence            99999999999999999999999999999999999999999999999999999    68999999999999999999999
+
+
+Q sp|P43596|IOC3  489 ELKNAVKSEKDELLFSLYDKWVPLFEGELPDQPLANPFSERLYKLRLQEFFLGRVPHIGDFYMPRLHSYGDSL---EMST  565 (787)
+Q Consensus       489 ~l~~~~~~ek~~~~i~~Y~kW~~lFegE~~dnPLs~P~~DeiYkLRl~EFfiGrip~iGdFYLPRL~tY~~~~---~~st  565 (787)
+                      .|+.+++++++.+.+++|++|+++|+||++|||+++||+|++|+||++|||||||||||||||||||||+++.   ++++
+T Consensus       398 ~l~~~~~~ek~~~~~s~ydkW~klfege~~dnPlSnP~~De~ykLRl~EFfVGrip~iGdFYLPRL~ty~~~~~~~~~st  477 (714)
+T sp|Q08119|ESC8  398 SLSEKVTTDRLRAAVKINEEWGEYFANEFTHTPIDDPTVDEIYKLRTSEFMIARIPRVGDFYLPPFWIGNECSSVNTSYS  477 (714)
+T ss_pred             hhhccccchhhhhhhhhhhhhhhhhhcccCCCCCCCCcchhhhhhhhcceeeccCCCcCceeecccccCCCCCccccccc
+Confidence            9999999999999999999999999999999999999999999999999999999999999999999999987   8999
+
+
+Q sp|P43596|IOC3  566 FTDLRNLQALLSKFKN-NEYNAFTLFENDGQSMSAQFKLFYHDTPSLAHDVARGRN-TSGKVYWYELCHDSATLLEFLEF  643 (787)
+Q Consensus       566 ~~dlr~L~~l~~~f~~-~~~~~~~lf~~~g~~~ssqFKL~yhDt~sml~D~l~~~~-~~~k~YWYEvc~Ds~sL~~FIe~  643 (787)
+                      |+||++|.+++++|++ |++  .++|++.|+.||+||||||||||+||+|++.+.. +.+++||||||||++||++||++
+T Consensus       478 ~~dmr~L~~~~~~f~~~~~~--~~lf~~~g~~~ssqFKL~yhDt~~ml~dv~~~~~~~~~~~YWYEvc~ds~sL~~FI~~  555 (714)
+T sp|Q08119|ESC8  478 FNDMSTYLNYFVKFKEEGTK--ILPAKTAQNENKCQLKLIYRNTPACIRNLQFNDVHFAEVPHWFEVAGDSNSLSNFIEY  555 (714)
+T ss_pred             ccChHHHHHHHHhhhccCce--ecccCCcccccccceEEEEeccchhhhccccCCCCcCCCCeeEEecCChHHHHHHHHH
+Confidence            9999999999999999 666  9999999999999999999999999999999887 99999999999999999999999
+
+
+Q sp|P43596|IOC3  644 LDYKIVKPQDEKKEGNEKEKEALNNEAHILEQKSTTDNNPSINTNPLPKDAKYNTARKKLQILKEFLSDYYFILRQFEQM  723 (787)
+Q Consensus       644 Ld~kl~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~n~~plpk~~k~n~~r~kl~~L~eYLs~~~~iL~~~E~L  723 (787)
+                      |+++|+....                                         +.+.+|++|++|++||+.|++||+.||+|
+T Consensus       556 L~~ki~~~~~-----------------------------------------~~n~~r~~l~~L~eYLs~~~~il~~~Eql  594 (714)
+T sp|Q08119|ESC8  556 LESLSSLTEN-----------------------------------------DTDDTKKGIDNLIEFLKIFSIFINETIQR  594 (714)
+T ss_pred             HHHhhcCCCC-----------------------------------------CCchhHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            9999974421                                         22899999999999999999999999999
+
+
+Q sp|P43596|IOC3  724 KVQFADMKPGKRQLRRIQRQTVNYNTEYDSEEY  756 (787)
+Q Consensus       724 k~ey~d~~~g~r~lRrsqR~~inYs~~~~~eey  756 (787)
+                      +++|+||++|+|++||+||++|+|+++++++++
+T Consensus       595 k~~y~d~~~~~R~LRrsqr~~~~y~~~~~~~~~  627 (714)
+T sp|Q08119|ESC8  595 ITAAPTGSTEGRHLRTSSQRRTTVHYSSDVNGD  627 (714)
+T ss_pred             HHhcCCCCCCccccccccccccccccccCCCCC
+Confidence            999999999999999999999999999886553
+
+
+No 3
+>sp|P38079|YRO2_YEAST Protein YRO2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=YRO2 PE=1 SV=1
+Probab=53.11  E-value=0.91  Score=43.97  Aligned_cols=1  Identities=0%  Similarity=0.000  Sum_probs=0.0  Template_Neff=6.700
+
+No 4
+>sp|P40553|DOT5_YEAST Peroxiredoxin DOT5 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=DOT5 PE=1 SV=1
+Probab=41.30  E-value=1.9  Score=37.50  Aligned_cols=18  Identities=28%  Similarity=0.521  Sum_probs=13.0  Template_Neff=9.000
+
+Q sp|P43596|IOC3   50 DNLRRSRRVPKPRTSIYD   67 (787)
+Q Consensus        50 ~glrrs~rv~~~r~~~~~   67 (787)
+                      ..||||+|+......-..
+T Consensus         3 ~~~~~~~~~~~~~~~~~~   20 (215)
+T sp|P40553|DOT5    3 EALRRSTRIAISKRMLEE   20 (215)
+T ss_pred             hhhhhhhhhccccccchh
+Confidence            579999999876554433
+
+
+No 5
+>sp|P27692|SPT5_YEAST Transcription elongation factor SPT5 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=SPT5 PE=1 SV=1
+Probab=25.37  E-value=5.1  Score=43.80  Aligned_cols=1  Identities=0%  Similarity=0.000  Sum_probs=0.0  Template_Neff=5.600
+
+No 6
+>sp|Q99299|AIM44_YEAST Altered inheritance of mitochondria protein 44 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=AIM44 PE=1 SV=1
+Probab=17.75  E-value=9.2  Score=40.13  Aligned_cols=1  Identities=0%  Similarity=0.000  Sum_probs=0.0  Template_Neff=4.600
+
+No 7
+>sp|P36076|CAB3_YEAST Coenzyme A biosynthesis protein 3 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=CAB3 PE=1 SV=1
+Probab=17.20  E-value=9.7  Score=38.69  Aligned_cols=7  Identities=14%  Similarity=0.377  Sum_probs=2.6  Template_Neff=4.100
+
+Q sp|P43596|IOC3  633 DSATLLE  639 (787)
+Q Consensus       633 Ds~sL~~  639 (787)
+                      +...|.+
+T Consensus       455 NL~kLre  461 (571)
+T sp|P36076|CAB3  455 HLTSLVQ  461 (571)
+T ss_pred             HHHHHHh
+Confidence            3333333
+
+
+No 8
+>sp|P53209|YG1A_YEAST Uncharacterized membrane protein YGR016W OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=YGR016W PE=1 SV=1
+Probab=13.13  E-value=15  Score=31.26  Aligned_cols=17  Identities=29%  Similarity=0.741  Sum_probs=11.3  Template_Neff=7.800
+
+Q sp|P43596|IOC3  736 QLRRIQRQTVNYNTEYD  752 (787)
+Q Consensus       736 ~lRrsqR~~inYs~~~~  752 (787)
+                      ++||--|+.+.|+.++.
+T Consensus         3 ~LRr~~R~~f~~~~~~~   19 (190)
+T sp|P53209|YG1A    3 RLRRFNRKILSLSSDYT   19 (190)
+T ss_pred             hhhhhhhhhcccccccc
+Confidence            35655577888887644
+
+
+No 9
+>sp|P36024|SIS2_YEAST Phosphopantothenoylcysteine decarboxylase subunit SIS2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=SIS2 PE=1 SV=1
+Probab=11.55  E-value=17  Score=36.58  Aligned_cols=8  Identities=25%  Similarity=0.418  Sum_probs=3.7  Template_Neff=5.400
+
+Q sp|P43596|IOC3  426 TQQVPRYT  433 (787)
+Q Consensus       426 T~hvpRyl  433 (787)
+                      |.-+.|++
+T Consensus       302 T~sA~kF~  309 (562)
+T sp|P36024|SIS2  302 TQSATQFF  309 (562)
+T ss_pred             cchhhhhh
+Confidence            44444444
+
+
+No 10
+>sp|Q04007|YDR86_YEAST Uncharacterized protein YDR186C OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=YDR186C PE=1 SV=1
+Probab=9.98  E-value=21  Score=37.20  Aligned_cols=53  Identities=26%  Similarity=0.333  Sum_probs=31.1  Template_Neff=3.000
+
+Q sp|P43596|IOC3  519 DQPLANPFSERLYKLRLQEFFLGRVPHIGDFYMPRLHSYGDSL---EMSTFTDLRNLQALLSK  578 (787)
+Q Consensus       519 dnPLs~P~~DeiYkLRl~EFfiGrip~iGdFYLPRL~tY~~~~---~~st~~dlr~L~~l~~~  578 (787)
+                      .+-...||-|  |--+++|-|.+.....+     -+.++..--   .+|+=|..++|..+|.+
+T Consensus       215 ~~~~s~PFKe--YytkLn~KF~~~~~~~~-----~~~d~~~lDSIiIVTNsTGVKALLTILSD  270 (877)
+T sp|Q04007|YDR8  215 QNSKSLPFKE--YYTKLNEKFTGSNQSNG-----SMQDQTVLDSIVIVTNSTGVKALLTLLSD  270 (877)
+T ss_pred             cccCCCChHH--HHHHHHhhccCCCCCCC-----CCCCCcceeEEEEEeCCchHHHHHHHhcC
+Confidence            4556778855  67788888887765443     222322111   24445667777666665
+
+

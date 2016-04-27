@@ -1,0 +1,790 @@
+Query         sp|O13824|NMD2_SCHPO Nonsense-mediated mRNA decay protein 2 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=upf2 PE=1 SV=1
+Match_columns 1049
+No_of_seqs    697 out of 916
+Neff          6.6
+Searched_HMMs 5121
+Date          Mon Apr 11 02:53:54 2016
+Command       hhsearch -i O13824.hhm -d /usr/local/hh-suite/db/schizosaccharomyces_pombe/spombe -cpu 2 -v 0 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 sp|O13824|NMD2_SCHPO Nonsense- 100.0  1E-202  3E-206 1892.3   0.0 1049    1-1049    1-1049(1049)
+  2 sp|Q9P6R9|CWC22_SCHPO Pre-mRNA  99.9   1E-29   2E-33  309.3   0.0  337  442-809   117-553 (887)
+  3 sp|Q10475|IF4G_SCHPO Eukaryoti  99.7 2.1E-22 4.2E-26  249.8   0.0  190  439-632  1006-1243(1403)
+  4 sp|O13971|SGD1_SCHPO Suppresso  99.4 1.7E-17 3.3E-21  199.4   0.0  180  452-633   268-462 (775)
+  5 sp|O13824|NMD2_SCHPO Nonsense-  98.8 3.6E-13 7.1E-17  164.5   0.0  395  440-854    39-633 (1049)
+  6 sp|O13824|NMD2_SCHPO Nonsense-  98.7   1E-12   2E-16  160.4   0.0  396   38-633   439-854 (1049)
+  7 sp|Q9P6R9|CWC22_SCHPO Pre-mRNA  97.5 3.8E-08 7.4E-12  116.4   0.0  189  645-859   121-311 (887)
+  8 sp|Q10475|IF4G_SCHPO Eukaryoti  97.4 7.9E-08 1.5E-11  116.9   0.0  193  648-859  1009-1249(1403)
+  9 sp|O13971|SGD1_SCHPO Suppresso  97.0 4.5E-07 8.8E-11  106.2   0.0  190  651-860   265-468 (775)
+ 10 sp|O14253|NCBP1_SCHPO Nuclear   96.5 4.1E-06   8E-10   97.5   0.0  150  459-614    55-214 (780)
+ 11 sp|Q9P6R9|CWC22_SCHPO Pre-mRNA  96.4   6E-06 1.2E-09   96.7   0.0  106  457-567   422-528 (887)
+ 12 sp|O13971|SGD1_SCHPO Suppresso  96.1 1.9E-05 3.7E-09   91.6   0.0  110  456-566   575-689 (775)
+ 13 sp|Q10435|YDE1_SCHPO Probable   86.3   0.025 4.8E-06   68.9   0.0    1  753-753   108-108 (1647)
+ 14 sp|O14253|NCBP1_SCHPO Nuclear   71.8    0.18 3.5E-05   56.1   0.0   99  663-772    56-161 (780)
+ 15 sp|Q10475|IF4G_SCHPO Eukaryoti  71.1    0.19 3.7E-05   58.6   0.0  163   44-244  1005-1202(1403)
+ 16 sp|O13936|SPT5_SCHPO Transcrip  53.9    0.66 0.00013   52.3   0.0   12  995-1006  252-263 (990)
+ 17 sp|O13824|NMD2_SCHPO Nonsense-  50.9    0.79 0.00016   51.9   0.0  109  649-760    46-179 (1049)
+ 18 sp|O60094|DPO5_SCHPO DNA polym  31.6     2.6  0.0005   46.9   0.0   31   96-129    22-52  (959)
+ 19 sp|O13688|NSE6_SCHPO Non-struc  27.6     3.3 0.00065   42.4   0.0  212  550-809   177-409 (522)
+ 20 sp|O94267|SPT16_SCHPO FACT com  20.4     5.6  0.0011   44.1   0.0   16  598-613   617-632 (1019)
+ 21 sp|Q9HE11|UTP5_SCHPO U3 small   20.2     5.7  0.0011   41.1   0.0   13  799-811   500-512 (666)
+
+No 1
+>sp|O13824|NMD2_SCHPO Nonsense-mediated mRNA decay protein 2 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=upf2 PE=1 SV=1
+Probab=100.00  E-value=1.3e-202  Score=1892.32  Aligned_cols=1049  Identities=100%  Similarity=1.423  Sum_probs=908.0  Template_Neff=6.600
+
+Q sp|O13824|NMD2    1 MSREEQIKKLNQYLDNRELAFRAKDGDKNIFHTESQLDSSLKKNTAFMKRCKSSLTSENYDSFIKEIKTLSLKKFIPEIT   80 (1049)
+Q Consensus         1 ~~~~~~~~~~~~r~~Lr~~N~~a~~~~~~~~~~~~~LDSSLKKNTAFIKKLK~~it~~~~~sllkdi~~LnLsKYlsEiv   80 (1049)
+                      |||||++++.++|.+||++|.+||.|++++++..++||||||||||||||||++++++++++|++||++|||+|||||||
+T Consensus         1 ~~~~~~~~~~~~r~~Lr~~N~~a~~~~~~~~~~~~~LDSSLKKNTaFiKKLK~~it~~~~~sllkdi~~LnL~KYlsEiv   80 (1049)
+T sp|O13824|NMD2    1 MSREEQIKKLNQYLDNRELAFRAKDGDKNIFHTESQLDSSLKKNTAFMKRCKSSLTSENYDSFIKEIKTLSLKKFIPEIT   80 (1049)
+T ss_pred             CcHHHHHHHHHHHHHHHHhhhhccCCCCCCCCccCCCcchhhhhHHHHHHHhhcCChhhHHHHHHHhhhcchhhhHHHHH
+Confidence            89999999999999999999999999777788899999999999999999998899999999999999999999999999
+
+
+Q sp|O13824|NMD2   81 AAIVEGMMKCKATKDILSSVKIVWALNLRFSTAFTGPMLANLYCALYPNPGYSLCHESYFELKQNENEVSEKDRSSHLLK  160 (1049)
+Q Consensus        81 sAi~Egl~k~~k~~DI~aaVeI~SaLHQRf~~~Ft~~L~~~l~k~l~~~~~~~~~~~~~~~~~~~~~~~~ekee~~r~~k  160 (1049)
+                      +||+||++||+|++||+|||||||+|||||+++||++|+++|.++|++|+++++|++++.++++++++++++|+.++++|
+T Consensus        81 ~ai~E~l~k~~k~~Di~aaVev~s~LHqRy~~~Ft~~L~~~l~~~l~~~~~~~~~~~~~~~~~~~~~~~~ekee~~~~~k  160 (1049)
+T sp|O13824|NMD2   81 AAIVEGMMKCKATKDILSSVKIVWALNLRFSTAFTGPMLANLYCALYPNPGYSLCHESYFELKQNENEVSEKDRSSHLLK  160 (1049)
+T ss_pred             HHHHhhhhccCChhhHHHHHHHHHHHHhhcCccChHHHHHHHHhhcCCCCCCCccchhhhhhhcCccccchhccccchhh
+Confidence            99999999999999999999999999999999999999999999998888878888888888888889999999999999
+
+
+Q sp|O13824|NMD2  161 VRPLLRFLIEFWLNGVVGTPEDFVSYLPSTDSNDKKFRKPWFEEQNLKKPLVVLLFNDLMDTRFGFLLLPVLTSLVRTFS  240 (1049)
+Q Consensus       161 ~R~~LRll~EL~lvGV~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~lk~ll~~d~~~~~l~l~~sF~K~~g  240 (1049)
+                      +|++|||++|||+|||+++.++..+.++..+..+++++++|..++..++|+++.+||++++++..|.++|++++|||+||
+T Consensus       161 ~R~~lRll~EL~lvGv~~~~~~~~~~l~~~l~~~~~~~~~~~~~~~~~~~~~~~~lk~~l~~~~~~~~l~i~~sf~K~~g  240 (1049)
+T sp|O13824|NMD2  161 VRPLLRFLIEFWLNGVVGTPEDFVSYLPSTDSNDKKFRKPWFEEQNLKKPLVVLLFNDLMDTRFGFLLLPVLTSLVRTFS  240 (1049)
+T ss_pred             hhhHhhhheeEEeeceecCCccccccCCCCCCCCcccCCcchhhcccccchHHHHHhhhccccccccchhHHHHHHHhhh
+Confidence            99999999999999999976654433333331145667788889999999999999999999999999999999999999
+
+
+Q sp|O13824|NMD2  241 CELFTTEDFEDKETLELVNRLNPVVWRTYLRKSLNSYVDKLEVYCQKRKSLFEELNKQYQEQSIIRADPNNEKFQRLANF  320 (1049)
+Q Consensus       241 ~~~~g~~~~~~~~~~~~~~~~~~~~~q~~~~~ll~~Y~~~~~~~l~~~~~~l~~~~k~n~~~~~~~Gei~ee~~~~~e~~  320 (1049)
+                      ++|+|..|.++.+.....+.++|+++|..|+.+|+.||+++++|+++.|+++++++++|+++++++|++++|++++|+++
+T Consensus       241 ~~~~g~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~Y~~~~~~~l~~~~~~l~~~~k~~~~~~~~~Gei~ee~~~~~e~~  320 (1049)
+T sp|O13824|NMD2  241 CELFTTEDFEDKETLELVNRLNPVVWRTYLRKSLNSYVDKLEVYCQKRKSLFEELNKQYQEQSIIRADPNNEKFQRLANF  320 (1049)
+T ss_pred             hhhcCCCCcchhhhhhhhccCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcCCCHHHHHHHHHH
+Confidence            99999999887777777889999999999999999999999999999999999999999999999999999999999999
+
+
+Q sp|O13824|NMD2  321 SKSIESEFSSYASLSEVLNRKASEDLLELNFMEKASSGTNSVFNASGERSESANVETAQVWDDREQYFFYEVFPNFNEGS  400 (1049)
+Q Consensus       321 ~~~~ekl~~~~~~Lae~L~~~mP~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~iWeDEe~R~FYE~lpDL~~~v  400 (1049)
+                      ++.|++|++++++||++||++||+++.+....+..++++++.++.++.........+.++|+|||+|+|||+||||+..|
+T Consensus       321 ~~~~ekl~~~~~~Lae~L~~~~P~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~WeDee~R~FYE~lpdL~~~v  400 (1049)
+T sp|O13824|NMD2  321 SKSIESEFSSYASLSEVLNRKASEDLLELNFMEKASSGTNSVFNASGERSESANVETAQVWDDREQYFFYEVFPNFNEGS  400 (1049)
+T ss_pred             HHHHHHHHHHHHHHHHHhcCCCchhhhhhhhhhhcccCcccccccCccccccccccccCCCCCcccccccccccccCCcC
+Confidence            99999999999999999999999999877654321222211111111011123445789999999999999999999999
+
+
+Q sp|O13824|NMD2  401 IAEMKSSIYESSQEGIRSSSENNKKEDDLKDSTGDLNTTQVSSRVDNFLLKLPSMVSLELTNEMALEFYDLNTKASRNRL  480 (1049)
+Q Consensus       401 p~~l~~~~~~~~~~~~~~~~e~~~~~~~~~~~~~~~~~~~~~~~~~all~~L~~~vn~~nid~ia~ef~~~N~k~~R~~L  480 (1049)
+                      |+.+++...+...++....+|+++.+++++++++...+.+.+..|++|+++|++++|+++||+++.+||.+|++++|++|
+T Consensus       401 p~~ll~~~~~~~~~~~~~~~e~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~L~~~~n~e~ID~la~ef~~lN~k~~RkrL  480 (1049)
+T sp|O13824|NMD2  401 IAEMKSSIYESSQEGIRSSSENNKKEDDLKDSTGDLNTTQVSSRVDNFLLKLPSMVSLELTNEMALEFYDLNTKASRNRL  480 (1049)
+T ss_pred             hhhhhhcccccccccccccccccccccccCCCCCCCCCChhhHHHHHHHhcCCCCCCHHHHHHHHHHHHhccChhHHHHH
+Confidence            99988877765543221111111112222233344556788999999999999999999999999999999999999999
+
+
+Q sp|O13824|NMD2  481 IKALCTIPRTSSFLVPYYVRLARILSQLSSEFSTSLVDHARHSFKRMIHRKAKHEYDTRLLIVRYISELTKFQLMPFHMV  560 (1049)
+Q Consensus       481 ir~i~~~~~~~~~~~p~YArLvA~ln~~~Pdi~~~Ll~~L~~~Fr~~~~~~~~~~~~~~l~~irFI~EL~Kf~vv~e~ii  560 (1049)
+                      ++.||.++..+++++|+||||||+|++++|+++..|+.+|+.+|+++++++++.....++++|||||||+||||+|++++
+T Consensus       481 v~~l~~~~~~~~~~lp~YARLvA~L~~~~pdv~~~Li~~l~~~Fr~~~~~~~~~~~~~~~~~irfigEL~KF~vvp~~~i  560 (1049)
+T sp|O13824|NMD2  481 IKALCTIPRTSSFLVPYYVRLARILSQLSSEFSTSLVDHARHSFKRMIHRKAKHEYDTRLLIVRYISELTKFQLMPFHMV  560 (1049)
+T ss_pred             HHHHhhcCCCCCcchHHHHHHHHHhhccCchhHHHHHHHHHHHHHHHHhhcChhhhhHHHHHHHHHHHHhcCCCCCHHHH
+Confidence            99999999999999999999999999999999999999999999999998766677899999999999999999999999
+
+
+Q sp|O13824|NMD2  561 FECYKLCINEFTPFDLEVLALLLESCGRFLLRYPETKLQMQSFLEAIQKKKLASALASQDQLVLENALHFVNPPKRGIIV  640 (1049)
+Q Consensus       561 l~~l~~LL~~~t~~nIE~lc~lLe~cGr~L~~~~~t~~~m~~~~e~l~~~~~~~~l~~R~~~mIen~~~~~~Pp~~~~~~  640 (1049)
+                      |+||+.||++|++++||++|.||++|||||+++|+++.+|+.||++|+++++.+++++|.++||+|+|++|+||++..++
+T Consensus       561 f~~l~~LL~df~~~nIE~lc~LLe~cGrfL~~~~et~~rm~~~le~l~r~k~~~~L~~r~~~mIena~~~~~Pp~~~~~~  640 (1049)
+T sp|O13824|NMD2  561 FECYKLCINEFTPFDLEVLALLLESCGRFLLRYPETKLQMQSFLEAIQKKKLASALASQDQLVLENALHFVNPPKRGIIV  640 (1049)
+T ss_pred             HHHHHHHhhCCCCCcHHHHHHHHHHHHHHHhcCccchHHHHHHHHHHHHHHhcCCCCHHHHHHHHHHHHhcCCCCccccc
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999987678
+
+
+Q sp|O13824|NMD2  641 SKKKSLKEEFLYDLIQIRLKDDNVFPTLLLLRKFDWKDDYQILYNTIMEVWNIKYNSLNALARLLSALYKFHPEFCIHVI  720 (1049)
+Q Consensus       641 ~k~~~p~~~fir~Li~~~L~~~~~~~v~~~lrKl~W~d~~~~l~k~~~~~~~~~~~ni~~lA~ll~~L~~~~~~~~i~vV  720 (1049)
+                      ++++||+++||||||+..|++.+++.|+++||||||+|+..+++++|++||+++|+||++||+|+++|++|||+|++.||
+T Consensus       641 ~~~~~p~~~fir~Li~~~L~~~~~~~v~~~LrKl~W~d~~~~l~~~~~~~~~~~~~~i~~lA~ll~~L~~~~~~~~i~vV  720 (1049)
+T sp|O13824|NMD2  641 SKKKSLKEEFLYDLIQIRLKDDNVFPTLLLLRKFDWKDDYQILYNTIMEVWNIKYNSLNALARLLSALYKFHPEFCIHVI  720 (1049)
+T ss_pred             cccCCcHHHHHHHHHHHhcCCCCcHHHHHHHhcCCccchHHHHHHHhhhhhhCccccHHHHHHHHHHHHhhCCceEEEeh
+Confidence            88999999999999999999889999999999999988889999999999999999999999999999999999999999
+
+
+Q sp|O13824|NMD2  721 DDTLESLFSAVNNSDHVEKQKRLAQARFISELCVIHMLDVRAITNFLFHLLPLEKFESFLTMKASTLTNINNDMFRLRLI  800 (1049)
+Q Consensus       721 D~vlE~I~~glE~n~~~~nqrRia~vkyLgELYny~lv~s~~ifd~Ly~li~fg~~~~~~~~~~~~~~d~p~d~fRIrLv  800 (1049)
+                      |+|+|+|++|||.|+|++|||||+++|||||||||++|++.+||++||+||+|||+.++.+++.++++|||+|+||||||
+T Consensus       721 D~llE~I~~glE~n~~~~nqrRia~vk~LgELyn~~lv~s~~ifd~Ly~li~fg~~~~~~~~~~~~~~d~p~d~fRirLv  800 (1049)
+T sp|O13824|NMD2  721 DDTLESLFSAVNNSDHVEKQKRLAQARFISELCVIHMLDVRAITNFLFHLLPLEKFESFLTMKASTLTNINNDMFRLRLI  800 (1049)
+T ss_pred             hhhHHHHHHHhhcCCchHHHHHHHHHHHHHHHHhhccCCHHHHHHHHHHhcccccchhhhccccccccCCCccchhHHHH
+Confidence            99999999999999999999999999999999999999999999999999999999777766677788999999999999
+
+
+Q sp|O13824|NMD2  801 VVVLQTCGPSIIRSKTKKTMLTYLLAYQCYFLIQPEMPLDMLYEFEDVIGYVRPSMKVYMHYEEARNALTERLQAISDDW  880 (1049)
+Q Consensus       801 c~lL~tcg~~f~~g~~~kkld~FL~~Fq~Y~~~K~~lP~dvef~v~d~~~~lrp~~~~~~s~eEA~~~~~~~~~~~~~~~  880 (1049)
+                      |+||++||.||.+|..+++|++||.|||||+|+|.|+|+||+|+|.|+|+.|||++++|+||+||.++|+++++......
+T Consensus       801 c~lL~tcg~~f~~g~~~~kLd~FL~~Fq~Y~~~K~plp~dvef~v~d~~~~lrp~~~~~~s~eEA~~~~~~~~~~~~~~~  880 (1049)
+T sp|O13824|NMD2  801 VVVLQTCGPSIIRSKTKKTMLTYLLAYQCYFLIQPEMPLDMLYEFEDVIGYVRPSMKVYMHYEEARNALTERLQAISDDW  880 (1049)
+T ss_pred             HHHHhhhhcccccccchhhHHHHHHHHHHHHHcCCCCCcchhhhHHHHHhhhccCCcccCCHHHHHHHHHHHHHhccccc
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999988777654
+
+
+Q sp|O13824|NMD2  881 EEDDTRPVFQGANDGDISSNEESVYLPEDISDESETDEESSGLEESDLLDSEDEDIDNEMQLSRELDEEFERLTNESLLT  960 (1049)
+Q Consensus       881 ~~~~~~~~~~~~~~~~~~~~e~~~~~~~~~~~e~~~~~~~~~~~~~~~~~~~~e~~~~~~~~d~ef~~ef~kmm~es~~~  960 (1049)
+                      ..+++++++++++++++++||+++++++++++|+++|++++++++++.+++++|....+.+++++|++||++||+||+.+
+T Consensus       881 ~~~~~~~~~~~~~~~~~~~de~~~~~~~~~~~e~~~d~~~~~~~~~~~~~~~~e~~~~~~~~~~efe~ef~~mm~es~~~  960 (1049)
+T sp|O13824|NMD2  881 EEDDTRPVFQGANDGDISSNEESVYLPEDISDESETDEESSGLEESDLLDSEDEDIDNEMQLSRELDEEFERLTNESLLT  960 (1049)
+T ss_pred             cCCCCCccccCCCCCCCCCCccccCCCCCCCCCCCccccccCccccccCCCccccchhhhhhhHHHHHHHHHHHHHHHhh
+Confidence            33221111110111110001111100001101100111111111111111111223456788999999999999999998
+
+
+Q sp|O13824|NMD2  961 RMHEKNPGFDVPLPLRASSLGSPYVTRNEESASESSHVMFTLLTKRGNKQRSQYLEIPSHSSLVRSTKNQQTEEIMERKR 1040 (1049)
+Q Consensus       961 ~~~~~~~~~d~~iP~~~~~~~~~~~~~~~~~~~~~~~v~F~lltkkGnK~q~k~l~vP~ds~~A~~~~~~~~ae~~Er~~ 1040 (1049)
+                      +++++++.++++||++.+..+++....++.+..++++|+|+||||+|||+|+|+|+||+|+.||++++++|+++++||++
+T Consensus       961 ~~~~~~~~~~~~iP~~~~~~~~~~~~~~~~~~~~~~~v~F~lltk~g~K~~~k~l~vP~ds~la~~~~~~~~~~~~Er~~ 1040 (1049)
+T sp|O13824|NMD2  961 RMHEKNPGFDVPLPLRASSLGSPYVTRNEESASESSHVMFTLLTKRGNKQRSQYLEIPSHSSLVRSTKNQQTEEIMERKR 1040 (1049)
+T ss_pred             hcccCCCCCCCCCCCccccCCCCCccccccCCCCCCceeEEEEEecCCceeeeeeccCCCcHHHHHHHHHHHHHHHHHHH
+Confidence            88877789999999977443322211112345678999999999999999999999999999999999999999999999
+
+
+Q sp|O13824|NMD2 1041 VKEMVLNFE 1049 (1049)
+Q Consensus      1041 iK~lVL~~~ 1049 (1049)
+                      ||++||+|+
+T Consensus      1041 iK~lVL~~~ 1049 (1049)
+T sp|O13824|NMD2 1041 VKEMVLNFE 1049 (1049)
+T ss_pred             HHHHhhcCC
+Confidence            999999985
+
+
+No 2
+>sp|Q9P6R9|CWC22_SCHPO Pre-mRNA-splicing factor cwf22 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=cwf22 PE=1 SV=3
+Probab=99.90  E-value=1e-29  Score=309.26  Aligned_cols=337  Identities=12%  Similarity=0.164  Sum_probs=274.6  Template_Neff=6.200
+
+Q sp|O13824|NMD2  442 SSRVDNFLLKLP---SMVSLELTNEMALEFYDLNTKASRNRLIKALCTIPRTSSFLVPYYVRLARILSQLSSEFSTSLVD  518 (1049)
+Q Consensus       442 ~~~~~all~~L~---~~vn~~nid~ia~ef~~~N~k~~R~~Lir~i~~~~~~~~~~~p~YArLvA~ln~~~Pdi~~~Ll~  518 (1049)
+                      ...|++|..+|.   |.++.+||+.++.+|+..|..++|+.|++.|+..+...+.++++||+|||+|+..+|+||..|+.
+T Consensus       117 r~~we~Lkk~I~gLLNKLsesNI~~Iv~eL~~~n~~rgR~lL~r~I~~~~~~s~~f~~vYAaLvAiLn~~~peiG~~Lv~  196 (887)
+T sp|Q9P6R9|CWC2  117 RMQWEALKKSINGLINKVNKSNIRDIIPELFQENIIRGRALYCRSIMKAQAASLPFTPIYAAMTAVINTKFPQIGELLLT  196 (887)
+T ss_pred             HHHHHHHHHHHHHHHhhcChhhHHHHHHHHHhhcccccHHHHHHHHHHHHhccCCcHHHHHHHHHHHhccCchHHHHHHH
+Confidence            445666644443   44468999999999999999999999999999999999999999999999999999999999999
+
+
+Q sp|O13824|NMD2  519 HARHSFKRMIHRKAKHEYDTRLLIVRYISELTKFQLMPFHMVFECYKLCINEFTPFDLEVLALLLESCGRFLLRYPETKL  598 (1049)
+Q Consensus       519 ~L~~~Fr~~~~~~~~~~~~~~l~~irFI~EL~Kf~vv~e~iil~~l~~LL~~~t~~nIE~lc~lLe~cGr~L~~~~~t~~  598 (1049)
+                      +|+.+|+..++++++   ..++++++|||||+||+||++.++++||..||+++++++||++|.||.+||++|....+  .
+T Consensus       197 rLv~qF~~~~~~~dk---~~~~n~v~FLaeL~nf~VV~~~lIldLL~~LLe~~te~sVElll~lL~~cG~~Lr~~~p--~  271 (887)
+T sp|Q9P6R9|CWC2  197 RLIVQFRKSFQRNDK---SMCISSSSFIAHLINQKIAHEIVGLQILAVLLERPTNDSIEIAVMLLREIGAYLAEVST--R  271 (887)
+T ss_pred             HHHHHHHHHHhhccc---cchhhhHHHHHHHHhcCCCCHHHHHHHHHHHhcCCCCCcHHHHHHHHHHHHHHHHhcCH--H
+Confidence            999999999998766   78999999999999999999999999999999999999999999999999999988755  6
+
+
+Q sp|O13824|NMD2  599 QMQSFLEAIQKKKLASALASQDQLVLENALHFVN------P---PK------------------------R-G-------  637 (1049)
+Q Consensus       599 ~m~~~~e~l~~~~~~~~l~~R~~~mIen~~~~~~------P---p~------------------------~-~-------  637 (1049)
+                      .++.+|+.|+.+.+.+.++.|+++||+.++.+-+      |   +.                        . .       
+T Consensus       272 al~~I~~~Lr~il~e~~~s~RvqfmIE~L~dLR~nk~k~~~~~~~~ldlve~~~qith~l~L~d~l~~~~~L~~f~~D~~  351 (887)
+T sp|Q9P6R9|CWC2  272 AYNGVFERFRTILHEGQLERRTQFIIEVLFQTRKDKFKNNPTIPQELDLVEEEDQITHYISLDDNLDVQESLGIFHYDPD  351 (887)
+T ss_pred             HHHHHHHHHHHHhccCCccHHHHHHHHHHHHHHhCcCCCCCCCCcccccccccceeeEeecccCCCCcccccCCccCCCc
+Confidence            7999999999999988999999999999887521      0   00                        0 0       
+
+
+Q sp|O13824|NMD2  638 -------------II----------V---------------SKKK---------SLKEEFLYDLIQIRLK-DDNVFPTLL  669 (1049)
+Q Consensus       638 -------------~~----------~---------------~k~~---------~p~~~fir~Li~~~L~-~~~~~~v~~  669 (1049)
+                                   .+          .               ....         ..+..++|+.||..|. ..+.+.+..
+T Consensus       352 ~~e~e~k~~~vk~~IlG~~~~~~~~~~~~~~~~~s~~~~~~~~~~~~~~i~d~t~~~~t~lRk~IfliImSS~d~~EAah  431 (887)
+T sp|Q9P6R9|CWC2  352 YEENEKKYDAIKHEILGEEDDDENEEDEEDSEETSESEEDESVNDEKPQVIDQTNASLVNLRKSIYLTIMSSVDFEECCH  431 (887)
+T ss_pred             cccccchhhhhhhhhcCCCCCCCcccccccccccccccccccccCCCchhhhhhchhHHHHHHHHHHHHhcCCCHHHHHH
+Confidence                         00          0               0000         0233468888887776 447888899
+
+
+Q sp|O13824|NMD2  670 LLRKFDWKDD-----YQILYNTIMEVWNIKYNSLNALARLLSALYKFHPEFCI---HVIDDTLESLFSAVNNSDHVEKQK  741 (1049)
+Q Consensus       670 ~lrKl~W~d~-----~~~l~k~~~~~~~~~~~ni~~lA~ll~~L~~~~~~~~i---~vVD~vlE~I~~glE~n~~~~nqr  741 (1049)
+                      .|.||+|.+.     ..+++.|+++.-  .|.  +..|.|+..|+.+|+.+..   .+++.+++.|.      .+..++ 
+T Consensus       432 KLLKL~lk~~qe~EI~~vIIeCc~qEk--tYn--~fYglLaerLCk~~~~~~~~Fq~af~d~ye~I~------~le~~k-  500 (887)
+T sp|Q9P6R9|CWC2  432 KLLKIDLPEGQEIELCNMVIECNSQER--TYA--KFYGLIGERFCKLSRTWRSTYEQCFKNYYETIH------RYETNR-  500 (887)
+T ss_pred             HHHhCCCCCCcchhHHHHHHHHhhcCC--ccc--hhHHHHHHHHHhcCchhhHHHHHHHHHHHHhhc------cCCHHH-
+Confidence            9999999662     567888887663  454  7888999999998887777   77888888873      344444 
+
+
+Q sp|O13824|NMD2  742 RLAQARFISELCVIHMLDVRAITNFLFHLLPLEKFESFLTMKASTLTNINNDMFRLRLIVVVLQTCGP  809 (1049)
+Q Consensus       742 Ria~vkyLgELYny~lv~s~~ifd~Ly~li~fg~~~~~~~~~~~~~~d~p~d~fRIrLvc~lL~tcg~  809 (1049)
+                      +...++|+|+|+....|...     +|.+|.|+..          ...++...|.-.|++.|+..||.
+T Consensus       501 lrNlAKffahLLs~d~L~w~-----vLk~I~l~e~----------dttsssriFlK~LfqeLl~~~G~  553 (887)
+T sp|Q9P6R9|CWC2  501 LRNIALFFANLLSTDSIGWE-----VYDCVRLTED----------DTTASSRIFLKIMFQEIVEALGL  553 (887)
+T ss_pred             HHHHHHHHHHHHhcCCCCcc-----ccceeecCCC----------CCCccchHHHHHHHHHHHHHhCc
+Confidence            66789999999999999987     4477777732          11346788999999999999995
+
+
+No 3
+>sp|Q10475|IF4G_SCHPO Eukaryotic translation initiation factor 4 gamma OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=tif471 PE=1 SV=1
+Probab=99.70  E-value=2.1e-22  Score=249.83  Aligned_cols=190  Identities=18%  Similarity=0.256  Sum_probs=164.8  Template_Neff=5.500
+
+Q sp|O13824|NMD2  439 TQVSSRVDNFLLKLPSMVSLELTNEMALEFYDLNT-------KASRNRLIKALCTIPRTSSFLVPYYVRLARILSQLSSE  511 (1049)
+Q Consensus       439 ~~~~~~~~all~~L~~~vn~~nid~ia~ef~~~N~-------k~~R~~Lir~i~~~~~~~~~~~p~YArLvA~ln~~~Pd  511 (1049)
+                      .....++.+|||+|    |+++||.|+.+|+.+..       ......+|..||+++..++.|+.+||+||..|...++.
+T Consensus      1006 e~V~RKVrsLLNKL----TpeNFDsIsdqIl~l~i~s~~e~d~etL~~VI~LIFEKAidEp~fs~mYArLC~kL~~~l~~ 1081 (1403)
+T sp|Q10475|IF4G 1006 EVVQRKVKGSLNKM----TLEKFDKISDQILEIAMQSRKENDGRTLKQVIQLTFEKATDEPNFSNMYARFARKMMDSIDD 1081 (1403)
+T ss_pred             HHHHHHHHHHHhcC----ChhhHHHHHHHHHHHHHhccccchhHHHHHHHHHHHHHHhcCccchHHHHHHHHHHHHhCCc
+Confidence            34577888888887    99999999999987432       35688999999999999999999999999999886652
+
+
+Q sp|O13824|NMD2  512 --------------------FSTSLVDHARHSFKRMIHRKA------------------KHEYDTRLLIVRYISELTKFQ  553 (1049)
+Q Consensus       512 --------------------i~~~Ll~~L~~~Fr~~~~~~~------------------~~~~~~~l~~irFI~EL~Kf~  553 (1049)
+                                          |...||.+|+.+|.+.+..+.                  ....++++++|+|||||||++
+T Consensus      1082 ~i~de~i~d~~g~~~~gg~lFRk~LL~rCQeEFEk~~~~~~~~~~~~e~e~~sdE~~~~~kaKRR~LGlVrFIGELYkl~ 1161 (1403)
+T sp|Q10475|IF4G 1082 SIRDEGVLDKNNQPVRGGLLFRKYLLSRCQEDFERGWKANLPSGKAGEAEIMSDEYYVAAAIKRRGLGLVRFIGELFKLS 1161 (1403)
+T ss_pred             cccccCccCCCCCcccccchHHHHHHHHHHHHHhhchhcCCCCCCCccccccchHHHHHHHHHHhHHHHHHHHHHHHhcc
+Confidence                                456699999999998875421                  112368899999999999999
+
+
+Q sp|O13824|NMD2  554 LMPFHMVFECYKLCINE---FTPFDLEVLALLLESCGRFLLRYPETKLQMQSFLEAIQKKKLASALASQDQLVLENALHF  630 (1049)
+Q Consensus       554 vv~e~iil~~l~~LL~~---~t~~nIE~lc~lLe~cGr~L~~~~~t~~~m~~~~e~l~~~~~~~~l~~R~~~mIen~~~~  630 (1049)
+                      |+++.+||.||..||.+   +.+++||+||.||.+||+.|...++.+..|+.||.+|..+.....++.|+||||.+++++
+T Consensus      1162 mLterIm~~CI~~LL~~~~~p~Ee~IE~LCkLL~TVG~~LD~~~k~~~~MD~yF~ri~~l~~~~~LSsRIRFML~DVIDL 1241 (1403)
+T sp|Q10475|IF4G 1162 MLSEKIMHECIKRLLGNVTDPEEEEIESLCRLLMTVGVNIDATEKGHAAMDVYVLRMETITKIPNLPSRIKFMLMDVMDS 1241 (1403)
+T ss_pred             CchHHHHHHHHHHHhcCCCCCCHHHHHHHHHHHHHhhhhhhcCcccchhHHHHHHHHHHHhcCCCCCHHHHHHHHHHHHH
+Confidence            99999999999999986   578999999999999999998776667899999999999998889999999999999997
+
+
+Q sp|O13824|NMD2  631 VN  632 (1049)
+Q Consensus       631 ~~  632 (1049)
+                      -.
+T Consensus      1242 Rk 1243 (1403)
+T sp|Q10475|IF4G 1242 RK 1243 (1403)
+T ss_pred             HH
+Confidence            54
+
+
+No 4
+>sp|O13971|SGD1_SCHPO Suppressor of glycerol defect protein 1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=sgd1 PE=3 SV=1
+Probab=99.37  E-value=1.7e-17  Score=199.43  Aligned_cols=180  Identities=17%  Similarity=0.282  Sum_probs=156.9  Template_Neff=7.100
+
+Q sp|O13824|NMD2  452 LPSMVSLELTNEMALEFYD---LNTKAS-----RNRLIKALCTIPRTSSFLVPYYVRLARILSQL-SSEFSTSLVDHARH  522 (1049)
+Q Consensus       452 L~~~vn~~nid~ia~ef~~---~N~k~~-----R~~Lir~i~~~~~~~~~~~p~YArLvA~ln~~-~Pdi~~~Ll~~L~~  522 (1049)
+                      +.|.+|.+||+.++.++..   .|.++.     .+.|++.|+..+...+.|+++||+||+.|+.. .++||..++.+|+.
+T Consensus       268 lLNrLSe~Ni~~I~~el~~Ly~~n~r~~V~~~L~~lll~~i~~~~~~~~~f~~~yAaLva~L~~~~g~efga~~l~~lv~  347 (775)
+T sp|O13971|SGD1  268 SLNKLSIANISSIIKEIEVLYMENSRHSVTSTITNLLLQTVMGRESMLDQLAIVYAALATALYRIVGNDFGAHLLQTLVE  347 (775)
+T ss_pred             hhccCCHhhHHHHHHHHHHHHHhchhhhhHHHHHHHHHHHHhcccccchhHHHHHHHHHHHHhhhcCchHHHHHHHHHHH
+Confidence            3344489999999999854   455554     78889999999999999999999999999996 79999999999999
+
+
+Q sp|O13824|NMD2  523 SFKRMIHRKAKH---EYDTRLLIVRYISELTKFQLMPFHMVFECYKLCINEFTPFDLEVLALLLESCGRFLLRYPETKLQ  599 (1049)
+Q Consensus       523 ~Fr~~~~~~~~~---~~~~~l~~irFI~EL~Kf~vv~e~iil~~l~~LL~~~t~~nIE~lc~lLe~cGr~L~~~~~t~~~  599 (1049)
+                      +|...+.+++..   ....+.++++|||||++|+||+..+|++||+.||.++++.+||++|.+|.+||.+|....+  ..
+T Consensus       348 ~F~~~~~~~~~~~~~~~k~~~nli~fLaeLynf~VIs~~lI~dlI~~LL~~~sE~~vElLl~iL~~~G~~Lr~ddp--~a  425 (775)
+T sp|O13971|SGD1  348 RFLQLYKSKEKEPLSSHKETSNLIVFFVELYNFQLVSCVLVYDLIRLFLRSLTELNVEMLLKIVLNCGGQLRSDDP--TS  425 (775)
+T ss_pred             HHHHHHhcccCCCCcccccchhHHHHHHHHHhcCCCCHHHHHHHHHHHhcCCCcccHHHHHHHHHHHHHHhhcCCc--HH
+Confidence            999999875431   2246788999999999999999999999999999999999999999999999999987655  68
+
+
+Q sp|O13824|NMD2  600 MQSFLEAIQKKKLAS---ALASQDQLVLENALHFVNP  633 (1049)
+Q Consensus       600 m~~~~e~l~~~~~~~---~l~~R~~~mIen~~~~~~P  633 (1049)
+                      ++.+++.|+.+.+..   .++.|+++||+.++.+.+.
+T Consensus       426 Lk~Ii~~l~~~~~~~~~~~~s~R~kFmle~L~dLKnn  462 (775)
+T sp|O13971|SGD1  426 LQDIVTEMNLLLASADPSTISVRTKFMVESITNLKEN  462 (775)
+T ss_pred             HHHHHHHHHHHHhcCCCCCccHHHHHHHHHHHHHHhc
+Confidence            889999999987653   7899999999999998764
+
+
+No 5
+>sp|O13824|NMD2_SCHPO Nonsense-mediated mRNA decay protein 2 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=upf2 PE=1 SV=1
+Probab=98.81  E-value=3.6e-13  Score=164.49  Aligned_cols=395  Identities=16%  Similarity=0.171  Sum_probs=251.1  Template_Neff=6.600
+
+Q sp|O13824|NMD2  440 QVSSRVDNFLLKLPSMVSLELTNEMALEFYDLNTKASRNRLIKALCTIP--RTSSFLVPYYVRLARILSQLSS-EFSTSL  516 (1049)
+Q Consensus       440 ~~~~~~~all~~L~~~vn~~nid~ia~ef~~~N~k~~R~~Lir~i~~~~--~~~~~~~p~YArLvA~ln~~~P-di~~~L  516 (1049)
+                      +.-.+=.+|+++|...+|.++.+.+..++-.+|..+...-+|.+|.+.-  .....=++....+|..|++.++ ++...|
+T Consensus        39 SSLKKNTaFiKKLK~~it~~~~~sllkdi~~LnL~KYlsEiv~ai~E~l~k~~k~~Di~aaVev~s~LHqRy~~~Ft~~L  118 (1049)
+T sp|O13824|NMD2   39 SSLKKNTAFMKRCKSSLTSENYDSFIKEIKTLSLKKFIPEITAAIVEGMMKCKATKDILSSVKIVWALNLRFSTAFTGPM  118 (1049)
+T ss_pred             chhhhhHHHHHHHhhcCChhhHHHHHHHhhhcchhhhHHHHHHHHHhhhhccCChhhHHHHHHHHHHHHhhcCccChHHH
+Confidence            3345567889999866899999999999999999999999999998852  1112234778899999999888 677777
+
+
+Q sp|O13824|NMD2  517 VDHARHSFKRMI-------------------HRKA-KHEYDTRLLIVRYISELTKFQLMP---FH---------------  558 (1049)
+Q Consensus       517 l~~L~~~Fr~~~-------------------~~~~-~~~~~~~l~~irFI~EL~Kf~vv~---e~---------------  558 (1049)
+                      +..+...|..--                   +.++ .....+.-..+|+++||+--||++   ..               
+T Consensus       119 ~~~l~~~l~~~~~~~~~~~~~~~~~~~~~~~~ekee~~~~~k~R~~lRll~EL~lvGv~~~~~~~~~~l~~~l~~~~~~~  198 (1049)
+T sp|O13824|NMD2  119 LANLYCALYPNPGYSLCHESYFELKQNENEVSEKDRSSHLLKVRPLLRFLIEFWLNGVVGTPEDFVSYLPSTDSNDKKFR  198 (1049)
+T ss_pred             HHHHHhhcCCCCCCCccchhhhhhhcCccccchhccccchhhhhhHhhhheeEEeeceecCCccccccCCCCCCCCcccC
+Confidence            777766542210                   1111 123344555899999999999998   31               
+
+
+Q sp|O13824|NMD2  559 ------------MVFECYKLCINE-FTPFDLEVLALLLESCGRFLLRYPE---------------------TKLQMQSFL  604 (1049)
+Q Consensus       559 ------------iil~~l~~LL~~-~t~~nIE~lc~lLe~cGr~L~~~~~---------------------t~~~m~~~~  604 (1049)
+                                  +++.+|+.+|.. ....++-+++.|+..||..+....+                     .+..+..|+
+T Consensus       199 ~~~~~~~~~~~~~~~~~lk~~l~~~~~~~~l~i~~sf~K~~g~~~~g~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~Y~  278 (1049)
+T sp|O13824|NMD2  199 KPWFEEQNLKKPLVVLLFNDLMDTRFGFLLLPVLTSLVRTFSCELFTTEDFEDKETLELVNRLNPVVWRTYLRKSLNSYV  278 (1049)
+T ss_pred             CcchhhcccccchHHHHHhhhccccccccchhHHHHHHHhhhhhhcCCCCcchhhhhhhhccCCCHHHHHHHHHHHHHHH
+Confidence                        223344555553 3467999999999999998864321                     112222333
+
+
+Q sp|O13824|NMD2  605 EAIQKKKLAS-----ALASQD----------------------------QLVLENALHFV--NPPKRGIIVS--------  641 (1049)
+Q Consensus       605 e~l~~~~~~~-----~l~~R~----------------------------~~mIen~~~~~--~Pp~~~~~~~--------  641 (1049)
+                      +.+.+.....     .+..+.                            ...++.+..++  .+|+-.....        
+T Consensus       279 ~~~~~~l~~~~~~l~~~~k~~~~~~~~~Gei~ee~~~~~e~~~~~~ekl~~~~~~Lae~L~~~~P~l~~~~~~~~~~~~~  358 (1049)
+T sp|O13824|NMD2  279 DKLEVYCQKRKSLFEELNKQYQEQSIIRADPNNEKFQRLANFSKSIESEFSSYASLSEVLNRKASEDLLELNFMEKASSG  358 (1049)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHhcCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHhcCCCchhhhhhhhhhhcccC
+Confidence            3322111000     000000                            00011111110  1111100000        
+
+
+Q sp|O13824|NMD2  642 ------K-----------K-------------------------------------------------------------  643 (1049)
+Q Consensus       642 ------k-----------~-------------------------------------------------------------  643 (1049)
+                            .           .                                                             
+T Consensus       359 ~~~~~~~~~~~~~~~~~~~~~~WeDee~R~FYE~lpdL~~~vp~~ll~~~~~~~~~~~~~~~e~~~~~~~~~~~~~~~~~  438 (1049)
+T sp|O13824|NMD2  359 TNSVFNASGERSESANVETAQVWDDREQYFFYEVFPNFNEGSIAEMKSSIYESSQEGIRSSSENNKKEDDLKDSTGDLNT  438 (1049)
+T ss_pred             cccccccCccccccccccccCCCCCcccccccccccccCCcChhhhhhcccccccccccccccccccccccCCCCCCCCC
+Confidence                  0           0                                                             
+
+
+Q sp|O13824|NMD2  644 ---KSLKEEFLYDLIQIRLKDDNVFPTLLLLRKFDWKDDYQILYNTIMEVWNIKYNSLNALARLLSALYKFHPEFCIHVI  720 (1049)
+Q Consensus       644 ---~~p~~~fir~Li~~~L~~~~~~~v~~~lrKl~W~d~~~~l~k~~~~~~~~~~~ni~~lA~ll~~L~~~~~~~~i~vV  720 (1049)
+                         ...+..|+.+|- ...+..+++.+...+..++=.....-|++.+........+.++.+|.+++.|..+.|+++..++
+T Consensus       439 ~~~~~~~~~~l~~L~-~~~n~e~ID~la~ef~~lN~k~~RkrLv~~l~~~~~~~~~~lp~YARLvA~L~~~~pdv~~~Li  517 (1049)
+T sp|O13824|NMD2  439 TQVSSRVDNFLLKLP-SMVSLELTNEMALEFYDLNTKASRNRLIKALCTIPRTSSFLVPYYVRLARILSQLSSEFSTSLV  517 (1049)
+T ss_pred             ChhhHHHHHHHhcCC-CCCCHHHHHHHHHHHHhccChhHHHHHHHHHhhcCCCCCcchHHHHHHHHHhhccCchhHHHHH
+Confidence               001222332221 1112233333333332222111144566777667677778899999999999999999999999
+
+
+Q sp|O13824|NMD2  721 DDTLESLFSAVNNSDHVEKQKRLAQARFISELCVIHMLDVRAITNFLFHLLPLEKFESFLTMKASTLTNINNDMFRLRLI  800 (1049)
+Q Consensus       721 D~vlE~I~~glE~n~~~~nqrRia~vkyLgELYny~lv~s~~ifd~Ly~li~fg~~~~~~~~~~~~~~d~p~d~fRIrLv  800 (1049)
+                      +.+..+.+..+..++.....+++..+||+||||++++|+..+||++|..|+.                |.  +...|.++
+T Consensus       518 ~~l~~~Fr~~~~~~~~~~~~~~~~~irfigEL~KF~vvp~~~if~~l~~LL~----------------df--~~~nIE~l  579 (1049)
+T sp|O13824|NMD2  518 DHARHSFKRMIHRKAKHEYDTRLLIVRYISELTKFQLMPFHMVFECYKLCIN----------------EF--TPFDLEVL  579 (1049)
+T ss_pred             HHHHHHHHHHHhhcChhhhhHHHHHHHHHHHHhcCCCCCHHHHHHHHHHHhh----------------CC--CCCcHHHH
+Confidence            9999999888887654444699999999999999999999999999988863                11  12578999
+
+
+Q sp|O13824|NMD2  801 VVVLQTCGPSIIRS-KTKKTMLTYLLAYQCYFLIQPEMPLDMLYEFEDVIGYVRP  854 (1049)
+Q Consensus       801 c~lL~tcg~~f~~g-~~~kkld~FL~~Fq~Y~~~K~~lP~dvef~v~d~~~~lrp  854 (1049)
+                      |.||++||.++.+. ....+++.+|.-+++....+ .++....++|.++|..++|
+T Consensus       580 c~LLe~cGrfL~~~~et~~rm~~~le~l~r~k~~~-~L~~r~~~mIena~~~~~P  633 (1049)
+T sp|O13824|NMD2  580 ALLLESCGRFLLRYPETKLQMQSFLEAIQKKKLAS-ALASQDQLVLENALHFVNP  633 (1049)
+T ss_pred             HHHHHHHHHHHhcCccchHHHHHHHHHHHHHHhcC-CCCHHHHHHHHHHHHhcCC
+Confidence            99999999999764 34678888877777765544 5667777777777776664
+
+
+No 6
+>sp|O13824|NMD2_SCHPO Nonsense-mediated mRNA decay protein 2 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=upf2 PE=1 SV=1
+Probab=98.72  E-value=1e-12  Score=160.36  Aligned_cols=396  Identities=15%  Similarity=0.163  Sum_probs=261.8  Template_Neff=6.600
+
+Q sp|O13824|NMD2   38 DSSLKKNTAFMKRCKSSLTSENYDSFIKEIKTLSLKKFIPEITAAIVEGMMKCKATKDILSSVKIVWALNLRFSTAFTGP  117 (1049)
+Q Consensus        38 DSSLKKNTAFIKKLK~~it~~~~~sllkdi~~LnLsKYlsEivsAi~Egl~k~~k~~DI~aaVeI~SaLHQRf~~~Ft~~  117 (1049)
+                      .+.-.+-++|+.+|....+.++.+.+..++-.+|......-+|.+|++.-  +....=++....+|..||+.++ ++...
+T Consensus       439 ~~~~~~~~~~l~~L~~~~n~e~ID~la~ef~~lN~k~~RkrLv~~l~~~~--~~~~~~lp~YARLvA~L~~~~p-dv~~~  515 (1049)
+T sp|O13824|NMD2  439 TQVSSRVDNFLLKLPSMVSLELTNEMALEFYDLNTKASRNRLIKALCTIP--RTSSFLVPYYVRLARILSQLSS-EFSTS  515 (1049)
+T ss_pred             ChhhHHHHHHHhcCCCCCCHHHHHHHHHHHHhccChhHHHHHHHHHhhcC--CCCCcchHHHHHHHHHhhccCc-hhHHH
+Confidence            34466778999999977899999999999999999999999999998852  2223457889999999999988 67777
+
+
+Q sp|O13824|NMD2  118 MLANLYCALYPNPGYSLCHESYFELKQNENEVSEKDRSSHLLKVRPLLRFLIEFWLNGVVGTPEDFVSYLPSTDSNDKKF  197 (1049)
+Q Consensus       118 L~~~l~k~l~~~~~~~~~~~~~~~~~~~~~~~~ekee~~r~~k~R~~LRll~EL~lvGV~~~~~~~~~~l~~~~~~~~~~  197 (1049)
+                      |+..+...|..--                   +.++ .....+.-..+|+++||+-.||+.   .               
+T Consensus       516 Li~~l~~~Fr~~~-------------------~~~~-~~~~~~~~~~irfigEL~KF~vvp---~---------------  557 (1049)
+T sp|O13824|NMD2  516 LVDHARHSFKRMI-------------------HRKA-KHEYDTRLLIVRYISELTKFQLMP---F---------------  557 (1049)
+T ss_pred             HHHHHHHHHHHHH-------------------hhcC-hhhhhHHHHHHHHHHHHhcCCCCC---H---------------
+Confidence            7777766552210                   1111 112233444899999999999998   2               
+
+
+Q sp|O13824|NMD2  198 RKPWFEEQNLKKPLVVLLFNDLMDTRFGFLLLPVLTSLVRTFSCELFTTEDFEDKETLELVNRLNPVVWRTYLRKSLNSY  277 (1049)
+Q Consensus       198 ~~~~~~~~~~~~~~~~~~lk~ll~~d~~~~~l~l~~sF~K~~g~~~~g~~~~~~~~~~~~~~~~~~~~~q~~~~~ll~~Y  277 (1049)
+                                  .+++.+++.|+. +..+.|+-+++.|+..||..++....                 .+.++.    .|
+T Consensus       558 ------------~~if~~l~~LL~-df~~~nIE~lc~LLe~cGrfL~~~~e-----------------t~~rm~----~~  603 (1049)
+T sp|O13824|NMD2  558 ------------HMVFECYKLCIN-EFTPFDLEVLALLLESCGRFLLRYPE-----------------TKLQMQ----SF  603 (1049)
+T ss_pred             ------------HHHHHHHHHHhh-CCCCCcHHHHHHHHHHHHHHHhcCcc-----------------chHHHH----HH
+Confidence                        123445566665 34578999999999999999875431                 112222    22
+
+
+Q sp|O13824|NMD2  278 VDKLEVYCQKRKSLFEELNKQYQEQSIIRADPNNEKFQRLANFSKSIESEFSSYASLSEVLNRKASEDLLELNFMEKASS  357 (1049)
+Q Consensus       278 ~~~~~~~l~~~~~~l~~~~k~n~~~~~~~Gei~ee~~~~~e~~~~~~ekl~~~~~~Lae~L~~~mP~l~~~~~~~~~~~~  357 (1049)
+                      ++.+.+...                   .+.++..           +..+..++-.+     +.+|+-+.          
+T Consensus       604 le~l~r~k~-------------------~~~L~~r-----------~~~mIena~~~-----~~Pp~~~~----------  638 (1049)
+T sp|O13824|NMD2  604 LEAIQKKKL-------------------ASALASQ-----------DQLVLENALHF-----VNPPKRGI----------  638 (1049)
+T ss_pred             HHHHHHHHh-------------------cCCCCHH-----------HHHHHHHHHHh-----cCCCCccc----------
+Confidence            221110000                   0001110           00011111000     01111000          
+
+
+Q sp|O13824|NMD2  358 GTNSVFNASGERSESANVETAQVWDDREQYFFYEVFPNFNEGSIAEMKSSIYESSQEGIRSSSENNKKEDDLKDSTGDLN  437 (1049)
+Q Consensus       358 ~~~~~~~~~~~~~~~~~~~~~~iWeDEe~R~FYE~lpDL~~~vp~~l~~~~~~~~~~~~~~~~e~~~~~~~~~~~~~~~~  437 (1049)
+                        +    ..                                                 .                     
+T Consensus       639 --~----~~-------------------------------------------------~---------------------  642 (1049)
+T sp|O13824|NMD2  639 --I----VS-------------------------------------------------K---------------------  642 (1049)
+T ss_pred             --c----cc-------------------------------------------------c---------------------
+Confidence              0    00                                                 0                     
+
+
+Q sp|O13824|NMD2  438 TTQVSSRVDNFLLKLP-SMVSLELTNEMALEFYDLNTKASRNRLIKALCTIPRTSSFLVPYYVRLARILSQLSSEFSTSL  516 (1049)
+Q Consensus       438 ~~~~~~~~~all~~L~-~~vn~~nid~ia~ef~~~N~k~~R~~Lir~i~~~~~~~~~~~p~YArLvA~ln~~~Pdi~~~L  516 (1049)
+                         ...-+..|+.+|. ..++..+++.++..+..++-.-.+..+++.+.+....+-+-++.+|.|++.|..+-|.++-.+
+T Consensus       643 ---~~~p~~~fir~Li~~~L~~~~~~~v~~~LrKl~W~d~~~~l~~~~~~~~~~~~~~i~~lA~ll~~L~~~~~~~~i~v  719 (1049)
+T sp|O13824|NMD2  643 ---KKSLKEEFLYDLIQIRLKDDNVFPTLLLLRKFDWKDDYQILYNTIMEVWNIKYNSLNALARLLSALYKFHPEFCIHV  719 (1049)
+T ss_pred             ---cCCcHHHHHHHHHHHhcCCCCcHHHHHHHhcCCccchHHHHHHHhhhhhhCccccHHHHHHHHHHHHhhCCceEEEe
+Confidence               0000222332322 222344555555555332211125677777777766677779999999999999999999999
+
+
+Q sp|O13824|NMD2  517 VDHARHSFKRMIHRKAKHEYDTRLLIVRYISELTKFQLMPFHMVFECYKLCIN----------------EF-TP-FDLEV  578 (1049)
+Q Consensus       517 l~~L~~~Fr~~~~~~~~~~~~~~l~~irFI~EL~Kf~vv~e~iil~~l~~LL~----------------~~-t~-~nIE~  578 (1049)
+                      ++.+.+.++..+..++-...++++..++|+|||++.++|+..++|.+|..|+.                ++ .+ -.|-+
+T Consensus       720 VD~llE~I~~glE~n~~~~nqrRia~vk~LgELyn~~lv~s~~ifd~Ly~li~fg~~~~~~~~~~~~~~d~p~d~fRirL  799 (1049)
+T sp|O13824|NMD2  720 IDDTLESLFSAVNNSDHVEKQKRLAQARFISELCVIHMLDVRAITNFLFHLLPLEKFESFLTMKASTLTNINNDMFRLRL  799 (1049)
+T ss_pred             hhhhHHHHHHHhhcCCchHHHHHHHHHHHHHHHHhhccCCHHHHHHHHHHhcccccchhhhccccccccCCCccchhHHH
+Confidence            99999999999888764344689999999999999999999999999998874                11 11 57889
+
+
+Q sp|O13824|NMD2  579 LALLLESCGRFLLRYPETKLQMQSFLEAIQKKKLAS-ALASQDQLVLENALHFVNP  633 (1049)
+Q Consensus       579 lc~lLe~cGr~L~~~~~t~~~m~~~~e~l~~~~~~~-~l~~R~~~mIen~~~~~~P  633 (1049)
+                      +|.||++||.++.+. ....+|+.++-.++...-.+ .++..+.++|.+++..++|
+T Consensus       800 vc~lL~tcg~~f~~g-~~~~kLd~FL~~Fq~Y~~~K~plp~dvef~v~d~~~~lrp  854 (1049)
+T sp|O13824|NMD2  800 IVVVLQTCGPSIIRS-KTKKTMLTYLLAYQCYFLIQPEMPLDMLYEFEDVIGYVRP  854 (1049)
+T ss_pred             HHHHHhhhhcccccc-cchhhHHHHHHHHHHHHHcCCCCCcchhhhHHHHHhhhcc
+Confidence            999999999999864 35678888877777765544 6888899999999998886
+
+
+No 7
+>sp|Q9P6R9|CWC22_SCHPO Pre-mRNA-splicing factor cwf22 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=cwf22 PE=1 SV=3
+Probab=97.48  E-value=3.8e-08  Score=116.37  Aligned_cols=189  Identities=12%  Similarity=0.138  Sum_probs=140.2  Template_Neff=6.200
+
+Q sp|O13824|NMD2  645 SLKEEFLYDLIQIRLKDDNVFPTLLLLRKFDWKDDYQILYNTIMEV--WNIKYNSLNALARLLSALYKFHPEFCIHVIDD  722 (1049)
+Q Consensus       645 ~p~~~fir~Li~~~L~~~~~~~v~~~lrKl~W~d~~~~l~k~~~~~--~~~~~~ni~~lA~ll~~L~~~~~~~~i~vVD~  722 (1049)
+                      ..+..-|+.|| +.|+..|++.++..|-+.+.......+.+.+++.  ....|  ++..|.|++.|....|+|+..+|..
+T Consensus       121 e~Lkk~I~gLL-NKLsesNI~~Iv~eL~~~n~~rgR~lL~r~I~~~~~~s~~f--~~vYAaLvAiLn~~~peiG~~Lv~r  197 (887)
+T sp|Q9P6R9|CWC2  121 EALKKSINGLI-NKVNKSNIRDIIPELFQENIIRGRALYCRSIMKAQAASLPF--TPIYAAMTAVINTKFPQIGELLLTR  197 (887)
+T ss_pred             HHHHHHHHHHH-hhcChhhHHHHHHHHHhhcccccHHHHHHHHHHHHhccCCc--HHHHHHHHHHHhccCchHHHHHHHH
+Confidence            34555566666 3466778887877776655422233444444432  22233  7778999999998899999999999
+
+
+Q sp|O13824|NMD2  723 TLESLFSAVNNSDHVEKQKRLAQARFISELCVIHMLDVRAITNFLFHLLPLEKFESFLTMKASTLTNINNDMFRLRLIVV  802 (1049)
+Q Consensus       723 vlE~I~~glE~n~~~~nqrRia~vkyLgELYny~lv~s~~ifd~Ly~li~fg~~~~~~~~~~~~~~d~p~d~fRIrLvc~  802 (1049)
+                      ++..+...+..++   ....+..++|||+|||+++|+..+||++|..|+.-.                .+  .-|.++|.
+T Consensus       198 Lv~qF~~~~~~~d---k~~~~n~v~FLaeL~nf~VV~~~lIldLL~~LLe~~----------------te--~sVElll~  256 (887)
+T sp|Q9P6R9|CWC2  198 LIVQFRKSFQRND---KSMCISSSSFIAHLINQKIAHEIVGLQILAVLLERP----------------TN--DSIEIAVM  256 (887)
+T ss_pred             HHHHHHHHHhhcc---ccchhhhHHHHHHHHhcCCCCHHHHHHHHHHHhcCC----------------CC--CcHHHHHH
+Confidence            9999988887765   367889999999999999999999999998877311                11  23899999
+
+
+Q sp|O13824|NMD2  803 VLQTCGPSIIRSKTKKTMLTYLLAYQCYFLIQPEMPLDMLYEFEDVIGYVRPSMKVY  859 (1049)
+Q Consensus       803 lL~tcg~~f~~g~~~kkld~FL~~Fq~Y~~~K~~lP~dvef~v~d~~~~lrp~~~~~  859 (1049)
+                      +|.+||..... .....|+.++..++.++... .++..+.|++.++++.-+.+|+.+
+T Consensus       257 lL~~cG~~Lr~-~~p~al~~I~~~Lr~il~e~-~~s~RvqfmIE~L~dLR~nk~k~~  311 (887)
+T sp|Q9P6R9|CWC2  257 LLREIGAYLAE-VSTRAYNGVFERFRTILHEG-QLERRTQFIIEVLFQTRKDKFKNN  311 (887)
+T ss_pred             HHHHHHHHHHh-cCHHHHHHHHHHHHHHhccC-CccHHHHHHHHHHHHHHhCcCCCC
+Confidence            99999998865 33456777888888777554 688899999999998765566654
+
+
+No 8
+>sp|Q10475|IF4G_SCHPO Eukaryotic translation initiation factor 4 gamma OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=tif471 PE=1 SV=1
+Probab=97.36  E-value=7.9e-08  Score=116.89  Aligned_cols=193  Identities=16%  Similarity=0.165  Sum_probs=122.6  Template_Neff=5.500
+
+Q sp|O13824|NMD2  648 EEFLYDLIQIRLKDDNVFPTLLLLRKFD----WKDDY---QILYN-TIMEVW-NIKYNSLNALARLLSALYKFH------  712 (1049)
+Q Consensus       648 ~~fir~Li~~~L~~~~~~~v~~~lrKl~----W~d~~---~~l~k-~~~~~~-~~~~~ni~~lA~ll~~L~~~~------  712 (1049)
+                      ..-|+-|| +.|+..+++.+..+|..+.    |.+..   ..++. +|-+.. .-.|  ....|.|+..|....      
+T Consensus      1009 ~RKVrsLL-NKLTpeNFDsIsdqIl~l~i~s~~e~d~etL~~VI~LIFEKAidEp~f--s~mYArLC~kL~~~l~~~i~d 1085 (1403)
+T sp|Q10475|IF4G 1009 QRKVKGSL-NKMTLEKFDKISDQILEIAMQSRKENDGRTLKQVIQLTFEKATDEPNF--SNMYARFARKMMDSIDDSIRD 1085 (1403)
+T ss_pred             HHHHHHHH-hcCChhhHHHHHHHHHHHHHhccccchhHHHHHHHHHHHHHHhcCccc--hHHHHHHHHHHHHhCCccccc
+Confidence            33445555 5577778888888776554    22211   12222 222221 1112  344455555554321      
+
+
+Q sp|O13824|NMD2  713 --------------PEFCIHVIDDTLESLFSAVNNS------------------DHVEKQKRLAQARFISELCVIHMLDV  760 (1049)
+Q Consensus       713 --------------~~~~i~vVD~vlE~I~~glE~n------------------~~~~nqrRia~vkyLgELYny~lv~s  760 (1049)
+                                    ..|.-.+++.+.+++..+...+                  ..+..+|.+..|+|+||||+.+||..
+T Consensus      1086 e~i~d~~g~~~~gg~lFRk~LL~rCQeEFEk~~~~~~~~~~~~e~e~~sdE~~~~~kaKRR~LGlVrFIGELYkl~mLte 1165 (1403)
+T sp|Q10475|IF4G 1086 EGVLDKNNQPVRGGLLFRKYLLSRCQEDFERGWKANLPSGKAGEAEIMSDEYYVAAAIKRRGLGLVRFIGELFKLSMLSE 1165 (1403)
+T ss_pred             cCccCCCCCcccccchHHHHHHHHHHHHHhhchhcCCCCCCCccccccchHHHHHHHHHHhHHHHHHHHHHHHhccCchH
+Confidence                          1244456666666665443221                  12345688999999999999999999
+
+
+Q sp|O13824|NMD2  761 RAITNFLFHLLPLEKFESFLTMKASTLTNINNDMFRLRLIVVVLQTCGPSIIRS-KTKKTMLTYLLAYQCYFLIQPEMPL  839 (1049)
+Q Consensus       761 ~~ifd~Ly~li~fg~~~~~~~~~~~~~~d~p~d~fRIrLvc~lL~tcg~~f~~g-~~~kkld~FL~~Fq~Y~~~K~~lP~  839 (1049)
+                      .+|++++..|+....             ++  +---|.++|.||.|||..++.. ..+..||.++..++..+... .++.
+T Consensus      1166 rIm~~CI~~LL~~~~-------------~p--~Ee~IE~LCkLL~TVG~~LD~~~k~~~~MD~yF~ri~~l~~~~-~LSs 1229 (1403)
+T sp|Q10475|IF4G 1166 KIMHECIKRLLGNVT-------------DP--EEEEIESLCRLLMTVGVNIDATEKGHAAMDVYVLRMETITKIP-NLPS 1229 (1403)
+T ss_pred             HHHHHHHHHHhcCCC-------------CC--CHHHHHHHHHHHHHhhhhhhcCcccchhHHHHHHHHHHHhcCC-CCCH
+Confidence            999999999986431             11  1246889999999999999853 34567888766666554333 7999
+
+
+Q sp|O13824|NMD2  840 DMLYEFEDVIGYVRPSMKVY  859 (1049)
+Q Consensus       840 dvef~v~d~~~~lrp~~~~~  859 (1049)
+                      .+.|||.|++++-..+|..-
+T Consensus      1230 RIRFML~DVIDLRkn~W~~r 1249 (1403)
+T sp|Q10475|IF4G 1230 RIKFMLMDVMDSRKNGWAVK 1249 (1403)
+T ss_pred             HHHHHHHHHHHHHHcCCCcc
+Confidence            99999999999665567643
+
+
+No 9
+>sp|O13971|SGD1_SCHPO Suppressor of glycerol defect protein 1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=sgd1 PE=3 SV=1
+Probab=97.03  E-value=4.5e-07  Score=106.19  Aligned_cols=190  Identities=12%  Similarity=0.199  Sum_probs=132.6  Template_Neff=7.100
+
+Q sp|O13824|NMD2  651 LYDLIQIRLKDDNVFPTLLLLRKFDWKDD--------YQILYNTIMEVWNIKYNSLNALARLLSALYKF-HPEFCIHVID  721 (1049)
+Q Consensus       651 ir~Li~~~L~~~~~~~v~~~lrKl~W~d~--------~~~l~k~~~~~~~~~~~ni~~lA~ll~~L~~~-~~~~~i~vVD  721 (1049)
+                      |+.++ +.|+..|+..++..|.++-=.++        ...+++.+..+....-.-+...|.|++.|... .+.|+-.+|.
+T Consensus       265 i~glL-NrLSe~Ni~~I~~el~~Ly~~n~r~~V~~~L~~lll~~i~~~~~~~~~f~~~yAaLva~L~~~~g~efga~~l~  343 (775)
+T sp|O13971|SGD1  265 LQGSL-NKLSIANISSIIKEIEVLYMENSRHSVTSTITNLLLQTVMGRESMLDQLAIVYAALATALYRIVGNDFGAHLLQ  343 (775)
+T ss_pred             Hhhhh-ccCCHhhHHHHHHHHHHHHHhchhhhhHHHHHHHHHHHHhcccccchhHHHHHHHHHHHHhhhcCchHHHHHHH
+Confidence            34444 45566676666666555421111        12223322223222222378889999999885 8999999999
+
+
+Q sp|O13824|NMD2  722 DTLESLFSAVNNSDHV---EKQKRLAQARFISELCVIHMLDVRAITNFLFHLLPLEKFESFLTMKASTLTNINNDMFRLR  798 (1049)
+Q Consensus       722 ~vlE~I~~glE~n~~~---~nqrRia~vkyLgELYny~lv~s~~ifd~Ly~li~fg~~~~~~~~~~~~~~d~p~d~fRIr  798 (1049)
+                      .+++.+...++.++..   ...+....++|||+|||+++|+..+||+++-.|+.-           .+       -..|.
+T Consensus       344 ~lv~~F~~~~~~~~~~~~~~~k~~~nli~fLaeLynf~VIs~~lI~dlI~~LL~~-----------~s-------E~~vE  405 (775)
+T sp|O13971|SGD1  344 TLVERFLQLYKSKEKEPLSSHKETSNLIVFFVELYNFQLVSCVLVYDLIRLFLRS-----------LT-------ELNVE  405 (775)
+T ss_pred             HHHHHHHHHHhcccCCCCcccccchhHHHHHHHHHhcCCCCHHHHHHHHHHHhcC-----------CC-------cccHH
+Confidence            9999988888766532   122456789999999999999999999999887631           11       13489
+
+
+Q sp|O13824|NMD2  799 LIVVVLQTCGPSIIRSKTKKTMLTYLLAYQCYFLIQP--EMPLDMLYEFEDVIGYVRPSMKVYM  860 (1049)
+Q Consensus       799 Lvc~lL~tcg~~f~~g~~~kkld~FL~~Fq~Y~~~K~--~lP~dvef~v~d~~~~lrp~~~~~~  860 (1049)
+                      |+|.+|.+||..... .....|+.++..+|.++....  .++..+.||+.++++.-..+|+...
+T Consensus       406 lLl~iL~~~G~~Lr~-ddp~aLk~Ii~~l~~~~~~~~~~~~s~R~kFmle~L~dLKnnk~k~~~  468 (775)
+T sp|O13971|SGD1  406 MLLKIVLNCGGQLRS-DDPTSLQDIVTEMNLLLASADPSTISVRTKFMVESITNLKENKKTKVA  468 (775)
+T ss_pred             HHHHHHHHHHHHhhc-CCcHHHHHHHHHHHHHHhcCCCCCccHHHHHHHHHHHHHHhcCCcccc
+Confidence            999999999998875 334578888888888876532  6889999999999886555676543
+
+
+No 10
+>sp|O14253|NCBP1_SCHPO Nuclear cap-binding protein subunit 1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=cbc1 PE=1 SV=1
+Probab=96.52  E-value=4.1e-06  Score=97.48  Aligned_cols=150  Identities=9%  Similarity=-0.050  Sum_probs=120.5  Template_Neff=6.800
+
+Q sp|O13824|NMD2  459 ELTNEMALEFYD-LNTKASRNRLIKALCTIPRTSSFLVPYYVRLARILSQLSSEFSTSLVDHARHSFKRMIHRKAKHEYD  537 (1049)
+Q Consensus       459 ~nid~ia~ef~~-~N~k~~R~~Lir~i~~~~~~~~~~~p~YArLvA~ln~~~Pdi~~~Ll~~L~~~Fr~~~~~~~~~~~~  537 (1049)
+                      ++|..++.-+.. .+...-|..++..+.......|..+|+||.|++.+|.+.|++|..+++++...|...+...+.   .
+T Consensus        55 ~~l~~la~~l~~~~~~~~~r~~il~~l~~cv~e~P~K~p~yAaLV~llN~k~~~~g~~vv~~l~~~lq~~l~~~~w---~  131 (780)
+T sp|O14253|NCBP   55 DDINYVAMSLSREANDPETISTILDCIQTTAFIIPVKIPHLATLIIRASLRVPLILEKAAAYFCLQYFTNLNSFLY---Y  131 (780)
+T ss_pred             HHHHHHHHHHHhhcCCcchHHHHHHHHHHHHHhCCCCchHHHHHHHHHhCCChHHHHHHHHHHHHHHHHHHhccCh---H
+Confidence            566666655543 233455788999888888889999999999999999999999999999999999999987543   6
+
+
+Q sp|O13824|NMD2  538 TRLLIVRYISELTKFQLMPFHMVFECYKLCINEFTPFD---------LEVLALLLESCGRFLLRYPETKLQMQSFLEAIQ  608 (1049)
+Q Consensus       538 ~~l~~irFI~EL~Kf~vv~e~iil~~l~~LL~~~t~~n---------IE~lc~lLe~cGr~L~~~~~t~~~m~~~~e~l~  608 (1049)
+                      .....+||+|+  +.+|++..-++.+|..|+...+..+         +.+++..|-.||+.|... .....++.+++.+.
+T Consensus       132 ~~kl~lrFLa~--l~~vv~~~sv~~lL~~Ll~~~~~~~~~~~~~d~~v~ivL~tLP~~g~~l~~~-~~~~~~~~lle~~~  208 (780)
+T sp|O14253|NCBP  132 EAKVDLRMLIC--MSFALQPGTLKPLFSLLADAISKETKPSVWGDNFLRIILINLPYFIAANNDL-GKKDFANEILDQCE  208 (780)
+T ss_pred             hHHHHHHHHHH--hcCccCcccHHHHHHHHHHHhhcCCCCcchhHHHHHHHHHHHHHHHHhhhcc-CchhHHHHHHHHHH
+Confidence            77788999999  6899999999999999996444444         778888888899999753 13356778888887
+
+
+Q sp|O13824|NMD2  609 KKKLAS  614 (1049)
+Q Consensus       609 ~~~~~~  614 (1049)
+                      .+.+..
+T Consensus       209 ~y~~~r  214 (780)
+T sp|O14253|NCBP  209 IYVRHR  214 (780)
+T ss_pred             HHhhcc
+Confidence            765543
+
+
+No 11
+>sp|Q9P6R9|CWC22_SCHPO Pre-mRNA-splicing factor cwf22 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=cwf22 PE=1 SV=3
+Probab=96.41  E-value=6e-06  Score=96.69  Aligned_cols=106  Identities=11%  Similarity=0.212  Sum_probs=75.1  Template_Neff=6.200
+
+Q sp|O13824|NMD2  457 SLELTNEMALEFYDLNTKAS-RNRLIKALCTIPRTSSFLVPYYVRLARILSQLSSEFSTSLVDHARHSFKRMIHRKAKHE  535 (1049)
+Q Consensus       457 n~~nid~ia~ef~~~N~k~~-R~~Lir~i~~~~~~~~~~~p~YArLvA~ln~~~Pdi~~~Ll~~L~~~Fr~~~~~~~~~~  535 (1049)
+                      +..+.+.++..++.++.+.+ ..-++..|++.-..+..+.++|+.|+..|...-+.+...+...+...|+..    ....
+T Consensus       422 SS~d~~EAahKLLKL~lk~~qe~EI~~vIIeCc~qEktYn~fYglLaerLCk~~~~~~~~Fq~af~d~ye~I----~~le  497 (887)
+T sp|Q9P6R9|CWC2  422 SSVDFEECCHKLLKIDLPEGQEIELCNMVIECNSQERTYAKFYGLIGERFCKLSRTWRSTYEQCFKNYYETI----HRYE  497 (887)
+T ss_pred             cCCCHHHHHHHHHhCCCCCCcchhHHHHHHHHhhcCCccchhHHHHHHHHHhcCchhhHHHHHHHHHHHHhh----ccCC
+Confidence            35788888889988887654 456888888888888899999999999998876655544433333333222    2122
+
+
+Q sp|O13824|NMD2  536 YDTRLLIVRYISELTKFQLMPFHMVFECYKLC  567 (1049)
+Q Consensus       536 ~~~~l~~irFI~EL~Kf~vv~e~iil~~l~~L  567 (1049)
+                      ........+|+|||+.-+.++-. ++.||..-
+T Consensus       498 ~~klrNlAKffahLLs~d~L~w~-vLk~I~l~  528 (887)
+T sp|Q9P6R9|CWC2  498 TNRLRNIALFFANLLSTDSIGWE-VYDCVRLT  528 (887)
+T ss_pred             HHHHHHHHHHHHHHHhcCCCCcc-ccceeecC
+Confidence            24466679999999999999976 55666644
+
+
+No 12
+>sp|O13971|SGD1_SCHPO Suppressor of glycerol defect protein 1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=sgd1 PE=3 SV=1
+Probab=96.05  E-value=1.9e-05  Score=91.65  Aligned_cols=110  Identities=11%  Similarity=0.090  Sum_probs=76.3  Template_Neff=7.100
+
+Q sp|O13824|NMD2  456 VSLELTNEMALEFYDLNTKAS-RNRLIKALCTIPRTSSFLVPYYVRLARILSQLSSEFSTSLVDHARHSFKRMIHRK---  531 (1049)
+Q Consensus       456 vn~~nid~ia~ef~~~N~k~~-R~~Lir~i~~~~~~~~~~~p~YArLvA~ln~~~Pdi~~~Ll~~L~~~Fr~~~~~~---  531 (1049)
+                      ++..+.+.++..++.++.+.. ..-+++.|++--..+..+-|||+-++..|...-+.+...+-..+...|+.+-...   
+T Consensus       575 mSs~D~~dA~~kLlkL~Lk~~qe~EI~~Vll~Cc~~Ek~YNpyY~lla~~LC~~~~~~~~tfq~~lwd~fk~l~~~~~~~  654 (775)
+T sp|O13971|SGD1  575 VGSEDYIDAWERVLKLHLKRNQLPEIAYVILHCVGNEKLYNPFYGLVALKCCTLQHNLKKSFQFSLWDFFNELQPDDDSE  654 (775)
+T ss_pred             hcCCCHHHHHHHHHhcCCCCcchhhHHHHHHHHHhcCCchhhhHHHHHHHHHhcChhHHHHHHHHHHHHHHHhCCCCCcc
+Confidence            456777888888888887755 6778888888888889999999999998888766555555444555555543210   
+
+
+Q sp|O13824|NMD2  532 -AKHEYDTRLLIVRYISELTKFQLMPFHMVFECYKL  566 (1049)
+Q Consensus       532 -~~~~~~~~l~~irFI~EL~Kf~vv~e~iil~~l~~  566 (1049)
+                       ......+.....+|+|+|+-.+.++-. ++.++..
+T Consensus       655 ~~~~~~~~i~Nlak~fa~Lla~~~l~l~-vLK~v~~  689 (775)
+T sp|O13971|SGD1  655 EREISMRRIVNLAKLYASLVIEAAQPLT-ILKHVDF  689 (775)
+T ss_pred             cccCcHHHHHHHHHHHHHHHHhCCCccc-ccceecc
+Confidence             011224455678899999988888865 4444443
+
+
+No 13
+>sp|Q10435|YDE1_SCHPO Probable ubiquitin fusion degradation protein C12B10.01c OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=SPAC12B10.01c PE=3 SV=2
+Probab=86.29  E-value=0.025  Score=68.89  Aligned_cols=1  Identities=0%  Similarity=0.000  Sum_probs=0.0  Template_Neff=7.400
+
+No 14
+>sp|O14253|NCBP1_SCHPO Nuclear cap-binding protein subunit 1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=cbc1 PE=1 SV=1
+Probab=71.80  E-value=0.18  Score=56.10  Aligned_cols=99  Identities=12%  Similarity=0.044  Sum_probs=75.0  Template_Neff=6.800
+
+Q sp|O13824|NMD2  663 NVFPTLLLLRKFDWKDD------YQILYNTIM-EVWNIKYNSLNALARLLSALYKFHPEFCIHVIDDTLESLFSAVNNSD  735 (1049)
+Q Consensus       663 ~~~~v~~~lrKl~W~d~------~~~l~k~~~-~~~~~~~~ni~~lA~ll~~L~~~~~~~~i~vVD~vlE~I~~glE~n~  735 (1049)
+                      ++..+.+.+.. +|++.      ..++..|.. .|.|     ++.+|.|+.-|....+.++..||+.+.+.+...+..++
+T Consensus        56 ~l~~la~~l~~-~~~~~~~r~~il~~l~~cv~e~P~K-----~p~yAaLV~llN~k~~~~g~~vv~~l~~~lq~~l~~~~  129 (780)
+T sp|O14253|NCBP   56 DINYVAMSLSR-EANDPETISTILDCIQTTAFIIPVK-----IPHLATLIIRASLRVPLILEKAAAYFCLQYFTNLNSFL  129 (780)
+T ss_pred             HHHHHHHHHHh-hcCCcchHHHHHHHHHHHHHhCCCC-----chHHHHHHHHHhCCChHHHHHHHHHHHHHHHHHHhccC
+Confidence            44455555554 45432      223334433 5667     88899999999999999999999999999999997766
+
+
+Q sp|O13824|NMD2  736 HVEKQKRLAQARFISELCVIHMLDVRAITNFLFHLLP  772 (1049)
+Q Consensus       736 ~~~nqrRia~vkyLgELYny~lv~s~~ifd~Ly~li~  772 (1049)
+                      +   +.-...+||||+  |+++|+...++.+|..|+.
+T Consensus       130 w---~~~kl~lrFLa~--l~~vv~~~sv~~lL~~Ll~  161 (780)
+T sp|O14253|NCBP  130 Y---YEAKVDLRMLIC--MSFALQPGTLKPLFSLLAD  161 (780)
+T ss_pred             h---HhHHHHHHHHHH--hcCccCcccHHHHHHHHHH
+Confidence            4   344568999999  7899999999999998884
+
+
+No 15
+>sp|Q10475|IF4G_SCHPO Eukaryotic translation initiation factor 4 gamma OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=tif471 PE=1 SV=1
+Probab=71.07  E-value=0.19  Score=58.64  Aligned_cols=163  Identities=12%  Similarity=0.113  Sum_probs=87.4  Template_Neff=5.500
+
+Q sp|O13824|NMD2   44 NTAFMKRCK---SSLTSENYDSFIKEIKTLSLK-------KFIPEITAAIVEGMMKCKA-TKDILSSVKIVWALNLRFST  112 (1049)
+Q Consensus        44 NTAFIKKLK---~~it~~~~~sllkdi~~LnLs-------KYlsEivsAi~Egl~k~~k-~~DI~aaVeI~SaLHQRf~~  112 (1049)
+                      .....+|+|   .-||.++.+.|..+|-.+-..       .-|..||..|+|-   ... ..=....+.||..|......
+T Consensus      1005 ~e~V~RKVrsLLNKLTpeNFDsIsdqIl~l~i~s~~e~d~etL~~VI~LIFEK---AidEp~fs~mYArLC~kL~~~l~~ 1081 (1403)
+T sp|Q10475|IF4G 1005 PEVVQRKVKGSLNKMTLEKFDKISDQILEIAMQSRKENDGRTLKQVIQLTFEK---ATDEPNFSNMYARFARKMMDSIDD 1081 (1403)
+T ss_pred             hHHHHHHHHHHHhcCChhhHHHHHHHHHHHHHhccccchhHHHHHHHHHHHHH---HhcCccchHHHHHHHHHHHHhCCc
+Confidence            344556666   346788999999999777653       3467777777773   221 11123456888888775532
+
+
+Q sp|O13824|NMD2  113 -------------------AFTGPMLANLYCALYPNPGYSLCHESYFELKQNENE-VSEKDRSSHLL--KVRPLLRFLIE  170 (1049)
+Q Consensus       113 -------------------~Ft~~L~~~l~k~l~~~~~~~~~~~~~~~~~~~~~~-~~ekee~~r~~--k~R~~LRll~E  170 (1049)
+                                         .|-..|+......|-..... ...    ..+....+ ..+........  |...++||++|
+T Consensus      1082 ~i~de~i~d~~g~~~~gg~lFRk~LL~rCQeEFEk~~~~-~~~----~~~~~e~e~~sdE~~~~~kaKRR~LGlVrFIGE 1156 (1403)
+T sp|Q10475|IF4G 1082 SIRDEGVLDKNNQPVRGGLLFRKYLLSRCQEDFERGWKA-NLP----SGKAGEAEIMSDEYYVAAAIKRRGLGLVRFIGE 1156 (1403)
+T ss_pred             cccccCccCCCCCcccccchHHHHHHHHHHHHHhhchhc-CCC----CCCCccccccchHHHHHHHHHHhHHHHHHHHHH
+Confidence                               35555554444432110000 000    00000000 00111112223  33449999999
+
+
+Q sp|O13824|NMD2  171 FWLNGVVGTPEDFVSYLPSTDSNDKKFRKPWFEEQNLKKPLVVLLFNDLMDTR--FGFLLLPVLTSLVRTFSCELF  244 (1049)
+Q Consensus       171 L~lvGV~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~lk~ll~~d--~~~~~l~l~~sF~K~~g~~~~  244 (1049)
+                      ||..||+.   .                           .++..|++.||...  ..-..|=.|+.|++.+|..|-
+T Consensus      1157 LYkl~mLt---e---------------------------rIm~~CI~~LL~~~~~p~Ee~IE~LCkLL~TVG~~LD 1202 (1403)
+T sp|Q10475|IF4G 1157 LFKLSMLS---E---------------------------KIMHECIKRLLGNVTDPEEEEIESLCRLLMTVGVNID 1202 (1403)
+T ss_pred             HHhccCch---H---------------------------HHHHHHHHHHhcCCCCCCHHHHHHHHHHHHHhhhhhh
+Confidence            99999987   1                           23344556666542  224567777788888887774
+
+
+No 16
+>sp|O13936|SPT5_SCHPO Transcription elongation factor spt5 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=spt5 PE=1 SV=1
+Probab=53.92  E-value=0.66  Score=52.27  Aligned_cols=12  Identities=25%  Similarity=0.636  Sum_probs=6.7  Template_Neff=6.400
+
+Q sp|O13824|NMD2  995 SSHVMFTLLTKR 1006 (1049)
+Q Consensus       995 ~~~v~F~lltkk 1006 (1049)
+                      ...+.|.||.|-
+T Consensus       252 E~~vv~~L~~k~  263 (990)
+T sp|O13936|SPT5  252 EKDIVFTIMRKA  263 (990)
+T ss_pred             HHHHHHHHHHHH
+Confidence            345666666553
+
+
+No 17
+>sp|O13824|NMD2_SCHPO Nonsense-mediated mRNA decay protein 2 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=upf2 PE=1 SV=1
+Probab=50.90  E-value=0.79  Score=51.91  Aligned_cols=109  Identities=12%  Similarity=0.118  Sum_probs=72.2  Template_Neff=6.600
+
+Q sp|O13824|NMD2  649 EFLYDLIQIRLKDDNVFPTLLLLRKFDWKDD----YQILYNTIMEVWNIKYNSLNALARLLSALYKFHP-EFCIHVIDDT  723 (1049)
+Q Consensus       649 ~fir~Li~~~L~~~~~~~v~~~lrKl~W~d~----~~~l~k~~~~~~~~~~~ni~~lA~ll~~L~~~~~-~~~i~vVD~v  723 (1049)
+                      .||++|= .-++..+.+.+++-+.+|+-+.-    ...+...+++  ..+...|...+.+++.|..+|+ .|....+..+
+T Consensus        46 aFiKKLK-~~it~~~~~sllkdi~~LnL~KYlsEiv~ai~E~l~k--~~k~~Di~aaVev~s~LHqRy~~~Ft~~L~~~l  122 (1049)
+T sp|O13824|NMD2   46 AFMKRCK-SSLTSENYDSFIKEIKTLSLKKFIPEITAAIVEGMMK--CKATKDILSSVKIVWALNLRFSTAFTGPMLANL  122 (1049)
+T ss_pred             HHHHHHh-hcCChhhHHHHHHHhhhcchhhhHHHHHHHHHhhhhc--cCChhhHHHHHHHHHHHHhhcCccChHHHHHHH
+Confidence            5888886 54677788999999999987541    2223333332  2246789999999999998766 7777777777
+
+
+Q sp|O13824|NMD2  724 LESLFSA---------------V-----NNSDHVEKQKRLAQARFISELCVIHMLDV  760 (1049)
+Q Consensus       724 lE~I~~g---------------l-----E~n~~~~nqrRia~vkyLgELYny~lv~s  760 (1049)
+                      +-.+.-.               +     |.+.-....|+-..+|+++|||-.|++..
+T Consensus       123 ~~~l~~~~~~~~~~~~~~~~~~~~~~~~ekee~~~~~k~R~~lRll~EL~lvGv~~~  179 (1049)
+T sp|O13824|NMD2  123 YCALYPNPGYSLCHESYFELKQNENEVSEKDRSSHLLKVRPLLRFLIEFWLNGVVGT  179 (1049)
+T ss_pred             HhhcCCCCCCCccchhhhhhhcCccccchhccccchhhhhhHhhhheeEEeeceecC
+Confidence            6632110               0     00111122245559999999999999983
+
+
+No 18
+>sp|O60094|DPO5_SCHPO DNA polymerase V OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=pol5 PE=1 SV=2
+Probab=31.57  E-value=2.6  Score=46.90  Aligned_cols=31  Identities=16%  Similarity=0.060  Sum_probs=18.8  Template_Neff=7.900
+
+Q sp|O13824|NMD2   96 ILSSVKIVWALNLRFSTAFTGPMLANLYCALYPN  129 (1049)
+Q Consensus        96 I~aaVeI~SaLHQRf~~~Ft~~L~~~l~k~l~~~  129 (1049)
+                      +.||+.|++.|..  . .-..+-+..|.+||+++
+T Consensus        22 l~Aa~~Lv~~L~~--~-~~~~YalkRLirGL~Ss   52 (959)
+T sp|O60094|DPO5   22 LSSAAQLIDSLSN--E-EELKYSLNRLTKGLSSG   52 (959)
+T ss_pred             HHHHHHHHHHhcC--c-hhHHHHHHHhhhccCCC
+Confidence            5777777777753  2 22335566677777553
+
+
+No 19
+>sp|O13688|NSE6_SCHPO Non-structural maintenance of chromosome element 6 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=nse6 PE=1 SV=1
+Probab=27.60  E-value=3.3  Score=42.35  Aligned_cols=212  Identities=10%  Similarity=-0.004  Sum_probs=115.8  Template_Neff=5.000
+
+Q sp|O13824|NMD2  550 TKFQLMPFHMVFECYKLCINEFTPFDLEVLALLLESCGR-FLLRYPETKL-----QMQSFLEAIQKKKLASALASQDQLV  623 (1049)
+Q Consensus       550 ~Kf~vv~e~iil~~l~~LL~~~t~~nIE~lc~lLe~cGr-~L~~~~~t~~-----~m~~~~e~l~~~~~~~~l~~R~~~m  623 (1049)
+                      ++.+.+|+.++.-||..+...+++.-=+.-|.+|+.|.. .+.+.- +..     +.+.+|.+|-.-......+      
+T Consensus       177 ~~~~~LPDElf~WILdel~~e~s~~LR~aY~~iL~~~~~~qi~sLi-tp~~~~~~~i~~LF~~LGA~~~al~~s------  249 (522)
+T sp|O13688|NSE6  177 SAKLVPLDIALSICSLQFFRSLGDTTCSEWIANLEKIFYSYKSSSN-NLNQIVRFIFETTADMIGIDLAKRQVP------  249 (522)
+T ss_pred             HhcCCChHHHHHHHHHHhhccCChhhHHHHHHHHHhhhhhhhhhcC-CcchhhHHHHHHHHHhcCCCccccccc------
+Confidence            778999999999999999888877777778888888755 433221 223     6666666665433322222      
+
+
+Q sp|O13824|NMD2  624 LENALHFVNPPKRGIIVSKKKS-LKEEFLYDL--IQIRLKDDNVFPTLLLLRKFDWKDD--YQILYNTIMEVWNIKYNSL  698 (1049)
+Q Consensus       624 Ien~~~~~~Pp~~~~~~~k~~~-p~~~fir~L--i~~~L~~~~~~~v~~~lrKl~W~d~--~~~l~k~~~~~~~~~~~ni  698 (1049)
+                          +....++....- ....+ ++..|++-|  +...|...+...++..|-+|.-|..  ... ...        |  -
+T Consensus       250 ----l~~~~~~~~~~y-~rdws~~L~s~L~LL~~~A~~L~~~sr~~al~iLlRLslD~~V~~d~-~~~--------~--q  313 (522)
+T sp|O13688|NSE6  250 ----IQLERTSASENL-KSNLKIKVINFLKCCGTLYRFSDDTVRFEMIQDACRILIDNQVGSFC-KWQ--------F--S  313 (522)
+T ss_pred             ----cccccCcccccc-CCcccHhHHHHHHHHHHHhhcCChHHHHHHHHHHHHHhcchhhhhhh-HHH--------H--H
+Confidence                111111110111 34556 677766654  4566666677778888888887653  111 000        0  1
+
+
+Q sp|O13824|NMD2  699 NALARLLSAL--------YKF--HPEFCIHVIDDTLESLFSAVNNSDHVEKQKRLAQARFISELCVIHMLDVRAITNFLF  768 (1049)
+Q Consensus       699 ~~lA~ll~~L--------~~~--~~~~~i~vVD~vlE~I~~glE~n~~~~nqrRia~vkyLgELYny~lv~s~~ifd~Ly  768 (1049)
+                      ..+..++..+        +..  +|.+...+|    ..|-..     ....+||+|.+-|++..--...++.+.|.+.|-
+T Consensus       314 ~aI~~Ll~a~p~~~w~~L~~ti~~~~Lr~~lL----~~LP~~-----~~~LRRRLAlaFff~dp~p~~~~~l~~I~~rL~  384 (522)
+T sp|O13688|NSE6  314 QFMELPISLNPDFLISNIHKVSESPRVWVTIL----SSLSRS-----CQKFRKKIAFTLFVGKQSKNDDSDFSSLCQRLD  384 (522)
+T ss_pred             HHHHHHHhcCChhhHHHHHhccCCHHHHHHHH----HhcCHH-----HHHHHHHhHHHHhhCCCCCCccchHHHHHHHHh
+Confidence            1111222221        111  111111111    111111     334689999999888872223333333333332
+
+
+Q sp|O13824|NMD2  769 HLLPLEKFESFLTMKASTLTNINNDMFRLRLIVVVLQTCGP  809 (1049)
+Q Consensus       769 ~li~fg~~~~~~~~~~~~~~d~p~d~fRIrLvc~lL~tcg~  809 (1049)
+                      .-  |              +.+..||..++-..+||+.+..
+T Consensus       385 ~~--F--------------i~~~tDY~eL~Ali~LLDIAID  409 (522)
+T sp|O13688|NSE6  385 EI--S--------------ASCNNDYTTLLYQIRTFGYAVD  409 (522)
+T ss_pred             cc--c--------------CCCCCcHHHHHHHHHHhccccc
+Confidence            21  2              3557888889988899887654
+
+
+No 20
+>sp|O94267|SPT16_SCHPO FACT complex subunit spt16 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=spt16 PE=1 SV=1
+Probab=20.35  E-value=5.6  Score=44.07  Aligned_cols=16  Identities=31%  Similarity=0.343  Sum_probs=9.3  Template_Neff=7.400
+
+Q sp|O13824|NMD2  598 LQMQSFLEAIQKKKLA  613 (1049)
+Q Consensus       598 ~~m~~~~e~l~~~~~~  613 (1049)
+                      .+|+.++..++.+++.
+T Consensus       617 ~~~~~~~~~i~~l~k~  632 (1019)
+T sp|O94267|SPT1  617 SRMSQVFKDIQDMKKA  632 (1019)
+T ss_pred             chHHHHHHHHHHHHHH
+Confidence            3466666666665544
+
+
+No 21
+>sp|Q9HE11|UTP5_SCHPO U3 small nucleolar RNA-associated protein 5 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=utp5 PE=3 SV=2
+Probab=20.18  E-value=5.7  Score=41.12  Aligned_cols=13  Identities=15%  Similarity=0.327  Sum_probs=6.4  Template_Neff=10.100
+
+Q sp|O13824|NMD2  799 LIVVVLQTCGPSI  811 (1049)
+Q Consensus       799 Lvc~lL~tcg~~f  811 (1049)
+                      .++.||..|...+
+T Consensus       500 ~~~~LL~~l~~~~  512 (666)
+T sp|Q9HE11|UTP5  500 LAPILLDKLAEKL  512 (666)
+T ss_pred             HHHHHHHHHHHHH
+Confidence            3555555554433
+
+

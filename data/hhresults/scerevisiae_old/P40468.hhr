@@ -1,0 +1,1131 @@
+Query         sp|P40468|TAO3_YEAST Cell morphogenesis protein PAG1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=TAO3 PE=1 SV=1
+Match_columns 2376
+No_of_seqs    765 out of 1021
+Neff          7.6
+Searched_HMMs 6721
+Date          Mon Apr 11 01:37:15 2016
+Command       hhsearch -i P40468.hhm -d /usr/local/hh-suite/db/saccharomyces_cerevisiae/scerevisiae -cpu 2 -v 0 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 sp|P40468|TAO3_YEAST Cell morp 100.0   0E+00   0E+00 4062.6   0.0 2368    1-2376    1-2376(2376)
+  2 sp|P18963|IRA1_YEAST Inhibitor 100.0   1E-84 1.5E-88  934.3   0.0 1164  780-2111 1039-3003(3092)
+  3 sp|P19158|IRA2_YEAST Inhibitor 100.0 8.1E-83 1.2E-86  917.1   0.0 1026  804-1991 1084-2873(3079)
+  4 sp|P33892|GCN1_YEAST eIF-2-alp  88.5   0.018 2.7E-06   83.8   0.0  112 1386-1497 1287-1400(2672)
+  5 sp|P33892|GCN1_YEAST eIF-2-alp  86.4   0.032 4.7E-06   81.1   0.0  109 1387-1497 1409-1520(2672)
+  6 sp|P33892|GCN1_YEAST eIF-2-alp  84.2   0.049 7.3E-06   78.9   0.0   73 2079-2153 2209-2285(2672)
+  7 sp|P31383|2AAA_YEAST Protein p  78.8    0.11 1.7E-05   62.4   0.0  108 1387-1496  280-391 (635)
+  8 sp|P32337|IMB3_YEAST Importin   63.3    0.46 6.9E-05   61.1   0.0   80 2071-2154  851-933 (1089)
+  9 sp|P31383|2AAA_YEAST Protein p  47.5     1.3 0.00019   52.1   0.0  107 1387-1496  399-508 (635)
+ 10 sp|P31383|2AAA_YEAST Protein p  36.7     2.4 0.00036   49.3   0.0  110 1387-1497  477-589 (635)
+ 11 sp|P49955|SF3B1_YEAST U2 snRNP  35.9     2.6 0.00038   53.1   0.0  102 1394-1497  524-632 (971)
+ 12 sp|P49955|SF3B1_YEAST U2 snRNP  35.5     2.6 0.00039   53.0   0.0  129 1350-1496  811-945 (971)
+ 13 sp|P22219|VPS15_YEAST Serine/t  35.4     2.6 0.00039   55.2   0.0  281 1838-2132  441-748 (1454)
+ 14 sp|Q04002|SCC2_YEAST Sister ch  26.5     4.7  0.0007   52.7   0.0  130 1349-1497 1111-1280(1493)
+ 15 sp|P31383|2AAA_YEAST Protein p  24.5     5.4  0.0008   46.0   0.0   33 1387-1419  557-589 (635)
+ 16 sp|P39968|VAC8_YEAST Vacuolar   24.4     5.4 0.00081   45.8   0.0   32 1159-1190   46-77  (578)
+ 17 sp|Q02821|IMA1_YEAST Importin   23.0       6  0.0009   45.1   0.0   61 1350-1420  314-374 (542)
+ 18 sp|Q04264|PDS5_YEAST Sister ch  20.2     7.5  0.0011   49.9   0.0  105 1385-1494  277-387 (1277)
+ 19 sp|P46675|STU2_YEAST Protein S  20.0     7.6  0.0011   47.9   0.0   98 1395-1497  111-215 (888)
+
+No 1
+>sp|P40468|TAO3_YEAST Cell morphogenesis protein PAG1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=TAO3 PE=1 SV=1
+Probab=100.00  E-value=0  Score=4062.59  Aligned_cols=2368  Identities=99%  Similarity=1.421  Sum_probs=2051.5  Template_Neff=7.200
+
+Q sp|P40468|TAO3    1 MASRFTFPPQRDQGIGFTFPPTNKAEGSSNNNQISIDIDPSGQDVLEEINEAPLNTFPLHQSVTDAPIIDIPSPTDMSEG   80 (2376)
+Q Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   80 (2376)
+                      ||+||||||||||||||||||||||||++|||||+|||||+||||+|||||+|+||||+||+||||||||||+||||+||
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   80 (2376)
+T sp|P40468|TAO3    1 MASRFTFPPQRDQGIGFTFPPTNKAEGSSNNNQISIDIDPSGQDVLEEINEAPLNTFPLHQSVTDAPIIDIPSPTDMSEG   80 (2376)
+T ss_pred             CCCCCCCCCCccCCCccccCCCCCcCCCCCCCeeeeecCCCchhHHHHhhcCCCccccccccccCCCccCCCCCCCCCCc
+Confidence            89999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q sp|P40468|TAO3   81 TSLNNQLLLRQQQQQGTGEGQALPPTFVEEQSDQNKISMLLPEQKQQRMQESAPPDITAKSVAEDYVTTLRQQMATDWKS  160 (2376)
+Q Consensus        81 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~kt  160 (2376)
+                      |++||||++||||||||||||++||||||||+|||||+|+|||||||||||++||||++++.++++..+.+.+.++||||
+T Consensus        81 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~t  160 (2376)
+T sp|P40468|TAO3   81 TSLNNQLLLRQQQQQGTGEGQALPPTFVEEQSDQNKISMLLPEQKQQRMQESAPPDITAKSVAEDYVTTLRQQMATDWKS  160 (2376)
+T ss_pred             ccchhHHHHHHHHhcCCCCCccCCCcccccccccccccccChhhhhhhhhhcCCCCcccccccchhhhhhhhccCCCCCC
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999888888999999
+
+
+Q sp|P40468|TAO3  161 PSEYALHILFTKFIRYAENKLNMCLQQLDMAEPPIVEILGEGVDPSFDEIIKSLGHIAKKKPKPVIDAMMFWRKTKSEAA  240 (2376)
+Q Consensus       161 p~eyaLh~lf~~F~~~Ae~Ki~~~l~~~~~~ep~l~~~l~~g~D~~FD~ll~sLg~iA~~~~k~vidslm~Wrk~k~~~~  240 (2376)
+                      |||||||+||++|+++||+||+.||++|.+.||+|.++||||+||+|||+|.|||+||+||||||||+||+|||+|+|.+
+T Consensus       161 p~eyaLh~lf~~F~~~Ae~Ki~~~l~~~~~~e~~l~~~l~~g~D~~FD~ll~sLg~iA~~~~k~vidslm~Wrk~~~e~~  240 (2376)
+T sp|P40468|TAO3  161 PSEYALHILFTKFIRYAENKLNMCLQQLDMAEPPIVEILGEGVDPSFDEIIKSLGHIAKKKPKPVIDAMMFWRKTKSEAA  240 (2376)
+T ss_pred             hHHHHHHHHHHHHHHHHHHHHHHHhhcCCCCCCChhhhcCCCCCchHHHHHHHHHHHHhcCChhHHHHHHHHHHhhcccc
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999988
+
+
+Q sp|P40468|TAO3  241 NSASEEMEKLLKEYEFEKAHPSQAHFLMNRRLSRSSSNTTSKYKHNNNTNNLPG--------MKRHVSSSFNNKVPLIKA  312 (2376)
+Q Consensus       241 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~--------~~~~~~~~~~~~~~~~~~  312 (2376)
+                      .++....++..+.++.+..+.........++.+++.+.+.++.+++++.++.++        .+.....+++|+++++++
+T Consensus       241 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  320 (2376)
+T sp|P40468|TAO3  241 NSASEEMEKLLKEYEFEKAHPSQAHFLMNRRLSRSSSNTTSKYKHNNNTNNLPGMKRHVSSSFNNKVPLIKASSSNNSAT  320 (2376)
+T ss_pred             cchhHHHHHHHHHhhhhccCcchhhhhhhccccccCCCCccccccCCCCCCCCCCccccccccCCCccccccCCCCCCCC
+Confidence            776665544332221110000000000000101110111111111100001111        001111233444433322
+
+
+Q sp|P40468|TAO3  313 SSSNNSATSSPSIANSQLKSLENTIEVAKEEAFLADRKSLISIYILCRVLNEIVKQASSNEEEDLSDKLEEIVFTQLKTT  392 (2376)
+Q Consensus       313 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~eRkslasiyIlCrvLievl~q~~~~l~~~l~~~LE~i~F~qlk~~  392 (2376)
+                      ++.+        ....+....+..+...++.++++|||+||||||||||||||++|++.+++|+++++|||++|+|||++
+T Consensus       321 ~~~~--------~~~~~~~~~~~~~~~~~~~~~~~eRkslasiyIlCrvLiei~~q~~~~~~~~l~~~LEei~F~q~k~~  392 (2376)
+T sp|P40468|TAO3  321 SSPS--------IANSQLKSLENTIEVAKEEAFLADRKSLISIYILCRVLNEIVKQASSNEEEDLSDKLEEIVFTQLKTT  392 (2376)
+T ss_pred             CCCc--------chhhcccccchhhhhhhhHHHHHHHHHHHHHHHHHHHHHHHhccCCCCCchhHHHHHHHHHHHhhhcC
+Confidence            1110        01122223334566778999999999999999999999999999996699999999999999999999
+
+
+Q sp|P40468|TAO3  393 DPLSISTSLIKSSNWNSFAELLGSMSEKKFLSVSDRFIADLEKIPAYIPPELEPSTHLLILGMRYLKLRNYPLEKFEESA  472 (2376)
+Q Consensus       393 d~~~~~~S~~~~an~~l~a~lLG~LS~~rF~sV~dRF~~eL~~l~~~~~~e~~~~~~~li~gMr~l~lk~~ple~feesa  472 (2376)
+                      ||.++++|+++.+||++||+|||+||++||.+|++||+++|+++++..+++.+++++.+|+||||++||+||+|+||+++
+T Consensus       393 d~~~~~~S~~~~an~~l~AelLG~LS~~rF~sVsdRF~~eL~~l~~~~~~d~e~~~~~li~gMr~l~lk~~P~e~fEesa  472 (2376)
+T sp|P40468|TAO3  393 DPLSISTSLIKSSNWNSFAELLGSMSEKKFLSVSDRFIADLEKIPAYIPPELEPSTHLLILGMRYLKLRNYPLEKFEESA  472 (2376)
+T ss_pred             CCCcccccchhhchHHHHHHHHHHhhcchhHHHHHHHHHHHhcCCCCCCCCCchhHHHHHhcccceeeccCChhhHHHHH
+Confidence            99999999999999999999999999999999999999999999876667778899999999999999999999999999
+
+
+Q sp|P40468|TAO3  473 DFMKSLSKFFAKTENFPVCLAYAEVTNQLLLPLAGSLTAEVNHPTWVEAMSTLLNTAKRLQADSKYWVSGFKLTVSILCA  552 (2376)
+Q Consensus       473 ~Fl~eLa~~F~~~k~~~ik~A~A~~L~~lL~p~a~~~~~Evn~P~w~~ave~Lf~~~~~m~~K~k~~~~~~PL~t~LLCv  552 (2376)
+                      +||++|+++|.++||+++|+|||++|+++|||||+++++|+|+|+|.+++|+||+++.+|+.|+|||.++|||+|+||||
+T Consensus       473 eFL~sLa~~F~~~~~~~iK~A~A~~L~~lL~P~a~~~~aEvN~P~w~~aie~Ly~~a~~m~~K~r~~~~afPL~t~LLcv  552 (2376)
+T sp|P40468|TAO3  473 DFMKSLSKFFAKTENFPVCLAYAEVTNQLLLPLAGSLTAEVNHPTWVEAMSTLLNTAKRLQADSKYWVSGFKLTVSILCA  552 (2376)
+T ss_pred             HHHHHHHHHHhhcCCChHHHHHHHHHHHHHHHHHhhcccccCcccHHHHHHHHHHHHHHHhhccCccchHHHHHHHHHhc
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q sp|P40468|TAO3  553 SPPDLFSKQWLSLLEANASKVKSKSLNERIIFAVGLSRLVWVYLYRCPETLNNTTRTLTKLLQLYLNTRKKENWITGDFG  632 (2376)
+Q Consensus       553 Sp~~fF~~~w~~fle~l~~~LK~kd~~~r~vAl~~l~RLlwvYl~R~~es~~st~~~L~~l~~~lf~~~~K~~~~~~d~~  632 (2376)
+                      ||++||..+|..|++.++++||+|++++|.+|++|++||||+|+|||+|+.++++++|+++++.+|+.++|+.|+.+++.
+T Consensus       553 SP~e~F~~~W~~fle~~l~kLK~k~~~~r~val~~l~RLlWtYL~R~~e~~n~t~r~L~~~lk~~fp~~~K~~~~~~~~~  632 (2376)
+T sp|P40468|TAO3  553 SPPDLFSKQWLSLLEANASKVKSKSLNERIIFAVGLSRLVWVYLYRCPETLNNTTRTLTKLLQLYLNTRKKENWITGDFG  632 (2376)
+T ss_pred             CchhhhhhhHHHHHHHHhhhccCCCcchHHHHHHHHHHHhhheeeccCCCCCchhHHHHHHHHHhccCCCCCCccCCCcc
+Confidence            99999999999999999999999877899999999999999999999999899999999999999986445677877777
+
+
+Q sp|P40468|TAO3  633 LLNPLTDALISIGFLHPNFLMEQALIPLIRQSFNGSNLENINYEKLILTINTYKGLLVTKERPRFPEDDNRLYELNLNNI  712 (2376)
+Q Consensus       633 ~ld~~v~ii~fIa~~~ldf~~~~ii~~LL~~~~~~~~~~~l~Per~ii~irA~l~il~~~~~P~~P~~~~~~~~~~~~~~  712 (2376)
+                      .++++|+++++|+++|+||++++||++|++.+.++..++++.||||++|||||+.++.+.+.|+||...++.+.......
+T Consensus       633 ~l~~~v~ii~~I~~~~~df~~~~ii~~Ll~~~~~~~~~~~l~perm~I~IrA~l~il~~~e~P~~P~~~~~~~~~~~~~~  712 (2376)
+T sp|P40468|TAO3  633 LLNPLTDALISIGFLHPNFLMEQALIPLIRQSFNGSNLENINYEKLILTINTYKGLLVTKERPRFPEDDNRLYELNLNNI  712 (2376)
+T ss_pred             chHHHHHHHHHHHhcCchhhHHHHHHHHhhccCCCCCccccchhHHHHHHHHHHHHhhcCCCCCCCCCCchhhhcccccc
+Confidence            89999999999999999999999999999988665567889999999999999999987678999999888531101111
+
+
+Q sp|P40468|TAO3  713 TVNQVQEASSINHTEISDYFYKLFLLLDSSIGSEVWSPENQHQKQSSNAFSPFGFSFSNDNDSSKNKSLYVILFGTIIEA  792 (2376)
+Q Consensus       713 ~~~~~~~~~~~~~~~i~~~~~~il~~~d~~~G~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Ll~t~l~a  792 (2376)
+                      +....+++..+++++++.++.+|+..||.++|+..++++++...+.+++..++.+++..++...++++++++||++|+++
+T Consensus       713 ~~~~~~~~~~~~~~~~~~~l~~Il~~cD~~vG~~~~~d~~~~~~~~~~~~~p~~~~~~~d~~~~~~~~~~~~Ll~t~l~a  792 (2376)
+T sp|P40468|TAO3  713 TVNQVQEASSINHTEISDYFYKLFLLLDSSIGSEVWSPENQHQKQSSNAFSPFGFSFSNDNDSSKNKSLYVILFGTIIEA  792 (2376)
+T ss_pred             ccccccccccccHhHHHHHHHHHHHHHhhhccCCCcCCcccccccCCCCCCCcceeccCCCCCCcccchHHHHHHHHHHh
+Confidence            11223667777888999999999999999999998888765432222211122222222222356788999999999999
+
+
+Q sp|P40468|TAO3  793 IPCCLSISRTIPYKSTIEILSRNAVHSEVIISSSSQNALRALASKKNPYTLITWFAKYSFDFDEKTQSSYNMSYLSSKEY  872 (2376)
+Q Consensus       793 ~Prll~~~~~i~~~~li~lL~r~~vH~d~~Vr~~A~~aL~~L~~~~~~~~vi~~f~~~~~~~~~~~~~~~~~~~L~~~~~  872 (2376)
+                      ||||++.+.+|+..+++++|+|+++|+|+.||.+|.++|++|+.+.+.|.|+.+|++|+|+++..+...+++++|++.++
+T Consensus       793 ~Pr~l~~~~~~~~~~lidlL~r~~vH~D~~i~~~A~~aL~~l~~~~~~~~vl~~fa~~lf~~~~~~~~~~~~~~l~~~~~  872 (2376)
+T sp|P40468|TAO3  793 IPCCLSISRTIPYKSTIEILSRNAVHSEVIISSSSQNALRALASKKNPYTLITWFAKYSFDFDEKTQSSYNMSYLSSKEY  872 (2376)
+T ss_pred             ccccccccCCCChHHHHHHHHhcCCCCcHHHHHHHHHHHHHHHhccCchHHHHHHHHHhcCCCcccccccccccCCHHHH
+Confidence            99999964345889999999999999999999999999999998755689999999999999887655566677777789
+
+
+Q sp|P40468|TAO3  873 NRLLILYVELLECWLEEFQSSNKEENKKETGLDGIRLLPIDAEQEESNETEKLEWKNTVTVIEEVEGNGLFFLCSHDAKI  952 (2376)
+Q Consensus       873 ~~lL~Ll~~LL~~W~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~vE~~~L~~LCS~d~~v  952 (2376)
+                      +.+|++|+++|++|++.+....++....+.+.++.+..+.+...+......+.++...++.++++|++|||+|||+++.|
+T Consensus       873 ~~~L~Ll~eLL~~W~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~evEa~~L~~LcS~~~~i  952 (2376)
+T sp|P40468|TAO3  873 NRLLILYVELLECWLEEFQSSNKEENKKETGLDGIRLLPIDAEQEESNETEKLEWKNTVTVIEEVEGNGLFFLCSHDAKI  952 (2376)
+T ss_pred             HHHHHHHHHHHHHHHHHHhcccccccccccCCCccccCCCccccccccchhhhcccchhhHHHHHHHHHHHHhhcCCchH
+Confidence            99999999999999999887654432211100000000000000001123345667889999999999999999999999
+
+
+Q sp|P40468|TAO3  953 RRLGIQILRIIFKFDEAMMEKTEKLSNGHSRSSSHFAADRGTRLIDLLNECNTTTLINPHKATLSAVEKTRFSRLNSKYK 1032 (2376)
+Q Consensus       953 R~lAv~iLrlv~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~i~vL~~~~~~~v~~~~~~l~~~s~l~~~~~~~~~~~ 1032 (2376)
+                      |++|++|||++++++..+.+..+...+++.++++++....+.++++++++.+...+...++...+..++.|+.+|+...+
+T Consensus       953 R~lAv~iLrlv~~l~~~l~~~~~~~~~~~~r~~~~~~~~~~~~vidiL~~~~~~~~~~~~~~~ls~~er~Rl~k~~~~~~ 1032 (2376)
+T sp|P40468|TAO3  953 RRLGIQILRIIFKFDEAMMEKTEKLSNGHSRSSSHFAADRGTRLIDLLNECNTTTLINPHKATLSAVEKTRFSRLNSKYK 1032 (2376)
+T ss_pred             HHHHHHHHHHHHHHHHHHhhhhhhccCCCCcccccccccCCccHHHHHhcCCCccccCCCCCCCChhhhhhhhhhhcccc
+Confidence            99999999999999987765543322234444455555567899999999865545433443344455666666667778
+
+
+Q sp|P40468|TAO3 1033 RGLLIKLAESEYGVDAALWQRAFPKLLALVFKTCPMAMALCRSIVCIRLVQVHEIILRVANDVDFKLKNVLPETIVNQWK 1112 (2376)
+Q Consensus      1033 ~~~l~~la~S~~~~D~~~W~k~l~~lLr~~~~~cp~av~~aw~~v~~Rl~~l~~~I~~~s~~~~~~~~~~~~e~~i~qWr 1112 (2376)
+                      +++++++|+|++++|..+|+++||+|+|.++++||.+++.||++||.||.+|++.|...++....+.....++..++|||
+T Consensus      1033 ~~~l~~la~S~~~~D~~lW~k~~p~llr~~~~~cP~~v~~ar~~v~~Rl~~l~~~I~~~a~~~~~~~~~~~~e~~i~qWr 1112 (2376)
+T sp|P40468|TAO3 1033 RGLLIKLAESEYGVDAALWQRAFPKLLALVFKTCPMAMALCRSIVCIRLVQVHEIILRVANDVDFKLKNVLPETIVNQWK 1112 (2376)
+T ss_pred             cccceehhccCCCcChHHHHHHHHHHHHHHHhhChHHHHHHHHHHHHHHHHhhHHHHHhhcCcccccCCCCcHHHHHHHH
+Confidence            89999999999999999999999999999999999999999999999999999999987655422222345689999999
+
+
+Q sp|P40468|TAO3 1113 LYLIAACTSLTSTFDQKLHIPSNIPQHGRKKSQQIFTVQHQKIKSAKSIFKMVLPLLNAKYIMIRDAIITGLSSMNINIF 1192 (2376)
+Q Consensus      1113 nyliflCs~~~~~~~~~~~~p~~~~~h~r~~S~~~~~~~~~~~~s~~~lf~~lvplL~se~~~iRdAvv~aLGsin~~ly 1192 (2376)
+                      ||++|+|+++++|..+..+.|...++|+|++|.+..+.+++++.++++||++++|||+|++..|||+||.|||++|+++|
+T Consensus      1113 nyliflCat~~~~~~~~~~~~~~~p~h~r~~S~~~~~~~~~~i~sa~~lf~~lvplL~se~~~iRdAav~aLGsin~~~y 1192 (2376)
+T sp|P40468|TAO3 1113 LYLIAACTSLTSTFDQKLHIPSNIPQHGRKKSQQIFTVQHQKIKSAKSIFKMVLPLLNAKYIMIRDAIITGLSSMNINIF 1192 (2376)
+T ss_pred             HHHHHHHhhcCCCCCccCCCCCCCCCCCCCCccccccccccccccHHHHHHHHHHHHhcCChhHHHHHHHHHccCCHHHH
+Confidence            99999999999997664333322357888887655445678999999999999999999999999999999999999999
+
+
+Q sp|P40468|TAO3 1193 KAYVEAIDVFLVAWKEGSSNNQIRVEMFHILTILSPYLKSDMIFNDEWILRKLSEFLQKTKQFLEKDSVQISYEYQSLRS 1272 (2376)
+Q Consensus      1193 ~~Lle~L~~~~~~~~d~~~~~~lr~qv~~Il~l~a~~l~~~~~~~d~~ll~~l~~fI~~~~~fL~~~~~~~~~~~qrLR~ 1272 (2376)
+                      ++|||+|+++++++.++++++.||+|++|||+++++++.++.+..|.+++.++++||++++.||+++++|+++++++||+
+T Consensus      1193 ~~LLe~L~~~~~~~~d~~~~~~Lr~qv~~Il~l~a~~l~~~~~~~d~~il~~ll~fI~~~~~fL~~~~~q~~~~~qrLR~ 1272 (2376)
+T sp|P40468|TAO3 1193 KAYVEAIDVFLVAWKEGSSNNQIRVEMFHILTILSPYLKSDMIFNDEWILRKLSEFLQKTKQFLEKDSVQISYEYQSLRS 1272 (2376)
+T ss_pred             HHHHHHHHHHHHHhhcCCchhhHHHHHHHHHHHHhhhcCCccccCChHHHHHHHHHHHHHHHHhcCccccccHhHHHHHH
+Confidence            99999999999999998778899999999999999999887777778999999999999999999999999999999999
+
+
+Q sp|P40468|TAO3 1273 YFAGLILSYYMAVREHPLIDELFPFQARASCFNFLKEWCGYGEYEPISEERYAIMIKNTESGRDRTAITTGIEFQKNRLQ 1352 (2376)
+Q Consensus      1273 ~FC~lve~l~~~l~~~~~~~~~lp~~~R~~LF~l~~eWcg~~~~~~~~~~r~~~m~~~~~~~~~~~~~~~~~e~e~~~L~ 1352 (2376)
+                      |||++||++++++...+++.+|||++.|++||++|++||+++......++|+..|++.....+++....+.++.++++|+
+T Consensus      1273 ~FC~lve~l~~~~~~~~~~~~~~p~~~R~~Lf~l~~eWc~~~~~~~~~~~r~~~m~~~~~~~~~~~~~~~~~e~e~~~L~ 1352 (2376)
+T sp|P40468|TAO3 1273 YFAGLILSYYMAVREHPLIDELFPFQARASCFNFLKEWCGYGEYEPISEERYAIMIKNTESGRDRTAITTGIEFQKNRLQ 1352 (2376)
+T ss_pred             HHHHHHHHHHhhccCCCcccccCCHHHHHHHHHHHHHhcCCCCCCcchhHHHHHhhhccccCccccchhhhhHHHHHHHH
+Confidence            99999999999988666779999999999999999999999999998899999998766554455556677889999999
+
+
+Q sp|P40468|TAO3 1353 MIVLETMVVLCSDPITQTLDDDLELPIVISFDTEDLLAWIEALFDSDNTTVKNLGVRALENLLDKNRENFKLFRDVAFQC 1432 (2376)
+Q Consensus      1353 ~AAl~AMA~Lc~Gp~~~~~~~~~~~~~~~s~~~~~~l~Wl~~Ll~s~~~~i~~l~~~AL~nLL~~N~d~~~LL~~~i~~c 1432 (2376)
+                      .||++|||.||+||++++.+++++.+..++|+++++++||+++|.+.+++++++|++||+|||++|.|++.|++|++++|
+T Consensus      1353 ~aAl~AMA~Lc~Gpi~~~~d~sp~~~~~~~fd~~~ll~WLd~ll~s~~~~i~~lg~~AL~nLL~~N~d~~~Ll~~~I~~C 1432 (2376)
+T sp|P40468|TAO3 1353 MIVLETMVVLCSDPITQTLDDDLELPIVISFDTEDLLAWIEALFDSDNTTVKNLGVRALENLLDKNRENFKLFRDVAFQC 1432 (2376)
+T ss_pred             HHHHHHHHHHhcCCCCCCCCCCCCCcccccCChhhHHHHHHHHhcCCChHHHHHHHHHHHHHHhcCcccHHHHHHHHHHH
+Confidence            99999999999999998765422234567899999999999999999999999999999999999999999999999999
+
+
+Q sp|P40468|TAO3 1433 VSHHSHPSVAVLYYTTLCKSVLKLDNLVLDEDELVSLGLYGLVADKEDTRTFAVDLLSAVETKLHNSSYTKVFKERLANS 1512 (2376)
+Q Consensus      1433 Y~~~~d~~v~~~yF~vla~Vl~~~~~~~~~~~~lL~laL~~l~s~~~evR~~A~~LL~~l~~~f~~~~~~~~~~~~v~~~ 1512 (2376)
+                      |+.+.+++++.+||+|||+|++++++|+|+++.+++++|+++|+++.+||+.|++||+.++.+|++......++.++++.
+T Consensus      1433 Y~~~~d~~v~~~fF~vLa~vl~~~~~~~~~~~~lL~LaL~~l~~~~~eiR~~A~~LL~~l~~~~~~~~~l~~~~~~v~~~ 1512 (2376)
+T sp|P40468|TAO3 1433 VSHHSHPSVAVLYYTTLCKSVLKLDNLVLDEDELVSLGLYGLVADKEDTRTFAVDLLSAVETKLHNSSYTKVFKERLANS 1512 (2376)
+T ss_pred             hcCCCChhHHHHHHHHHHHHHhcCCCCCCCHHHHHHHHHHhcCCCchhHHHHHHHHHHHHHHHhcCCCccccccccccCC
+Confidence            99865578999999999999999999999999999999999999999999999999999999998554556677788888
+
+
+Q sp|P40468|TAO3 1513 SKTVYKSTAKEISSIFAELLSQDLCLRIFSSLVRILDLFPFEIKRDLLVLMVPWVNKFTLKSLEELDTFMVLNNLFYITI 1592 (2376)
+Q Consensus      1513 ~p~~y~~~~~~iS~~LA~~~~PeLT~~~lsE~~~~~~~~~~~~r~~~L~~L~PWl~Nl~l~~~~~~~~~~iL~nLi~lTi 1592 (2376)
+                      .|++|..++..||++||+.++|++|++||+||+.+|+.+++..|+.+|.||.|||+||+|.+.++.++.++|+||+++|+
+T Consensus      1513 ~p~~y~~~~~~iS~~LA~~~~Pelt~~~~sE~~~~~~~~~~~~~~~lL~~L~PWl~nI~L~~~~~~~t~~~L~nL~~lTv 1592 (2376)
+T sp|P40468|TAO3 1513 SKTVYKSTAKEISSIFAELLSQDLCLRIFSSLVRILDLFPFEIKRDLLVLMVPWVNKFTLKSLEELDTFMVLNNLFYITI 1592 (2376)
+T ss_pred             CCcccHHHHHHHHHHHHhhcChhhHHHHHHHHHHHhhcCChhhHHHHHHHhHHHhhccccccCCcccHHHHHHHHHHHHh
+Confidence            89999999999999999984499999999999999999998999999999999999999998766789999999999999
+
+
+Q sp|P40468|TAO3 1593 DLNDSLPNEVEQLWISLGKGNSFQNIHVSLEYIINSSMNHCNPLFVQYARDIVLYLANIPGGIGLLDTLLNNLEPKYMVP 1672 (2376)
+Q Consensus      1593 ~~~~~~~~~i~~lW~~L~~~~~~~n~~iildfLi~~a~~~~~~~~~~~ak~Ivv~Ls~~~~~~~vi~~L~~~L~~~~~~p 1672 (2376)
+                      ++++.|+.+++.||.+|+.+++.+|+++|++|||..|++++++.|++++++|++||++++++.+|+++|+..|+|+.|.|
+T Consensus      1593 k~~~~~~~ei~~LW~~L~~~~~~~N~~~Il~fLi~~s~~~~~~~fv~~ak~Iv~~La~~~~~~~vi~~L~~~L~p~~m~p 1672 (2376)
+T sp|P40468|TAO3 1593 DLNDSLPNEVEQLWISLGKGNSFQNIHVSLEYIINSSMNHCNPLFVQYARDIVLYLANIPGGIGLLDTLLNNLEPKYMVP 1672 (2376)
+T ss_pred             hccCcChHHHHHHHHHHhcCCCcccHHHHHHHHHHHhccCCCchhHHHHHHHHHHHhcCCchHHHHHHHHhhcCCcCcCC
+Confidence            99999999999999999987412899999999999999999889999999999999999877799999999999999999
+
+
+Q sp|P40468|TAO3 1673 LAKHTFNEPMNNNKYSFLGNIWERLNYNGKRIIFSKAQLSIIFLVNLLTNLSESVKAKIPLLLHMSICLLDHYVPLIHES 1752 (2376)
+Q Consensus      1673 ~~~~~~~~p~~~~~~~~~~ei~~~L~~~~~~~~lsr~~laLi~L~dl~~~~~~~~~~~LP~LLHiv~llld~~~~~Vr~~ 1752 (2376)
+                      ..+.....|.+...+++|+++++.++..+++..|++++++++||+|+++++.++++.|||+|||++++++||+++.||++
+T Consensus      1673 ~~~~~~~~p~~~~~~~~~~dl~~ll~~~~~~~~~s~~qlaLifL~dl~~~~~~~~~~~LP~LLHiv~l~lDh~~~~vr~~ 1752 (2376)
+T sp|P40468|TAO3 1673 LAKHTFNEPMNNNKYSFLGNIWERLNYNGKRIIFSKAQLSIIFLVNLLTNLSESVKAKIPLLLHMSICLLDHYVPLIHES 1752 (2376)
+T ss_pred             cccccCCCCCCCCcCccchhhhhhcccCCcccccchHHHHHHHHHHHhhcCchhhhhhHHHHHHHHHHhccCChHHHHHH
+Confidence            85543333323345899999999999888999999999999999999999999999999999999999999999999999
+
+
+Q sp|P40468|TAO3 1753 ACKIASTLIFGLAPSHEKSEETVKLLRNKHALWSYDNLMKKGARSPKTMDLLIRNIISIFSDLDEFQVTWQRIALKWATT 1832 (2376)
+Q Consensus      1753 ~~~LLvnli~sl~~~~~~~~~~~~~l~~~~~lw~~~d~~~~~~~~~~~l~~lv~~lv~i~~~~~~l~~~W~~~Al~wAt~ 1832 (2376)
+                      +++||+|++|+|++.....++..+.++..+.+|+++|.+.+...++++|+.|+++|+++|+..++++++|+++|++||++
+T Consensus      1753 ~~~LL~nLl~sl~~~~~~~~~l~~ll~~~~~lW~~dd~~~~~~~s~~~m~~lv~~vl~i~~~~p~l~~~W~~~AL~wAt~ 1832 (2376)
+T sp|P40468|TAO3 1753 ACKIASTLIFGLAPSHEKSEETVKLLRNKHALWSYDNLMKKGARSPKTMDLLIRNIISIFSDLDEFQVTWQRIALKWATT 1832 (2376)
+T ss_pred             HHHHHHHHHHhcCCCCCCcHHHHHHHhcccccccccccccCCCCChHHHHHHHHHHHHHHhcChhHHHHHHHHHHHHHhc
+Confidence            99999999999998877666666667766899999987654567899999999999999988789999999999999999
+
+
+Q sp|P40468|TAO3 1833 CSVRHIACRSFQIFRSLLTFLDQEMLRDMLHRLSNTISDGNVDIQGFAMQILMTLNAIMAELDPTNLISFPQLFWSITAC 1912 (2376)
+Q Consensus      1833 c~~r~iA~RSfqv~r~L~~~ld~~~l~~lL~rL~~tia~~~~~~~~~~~eIL~tL~~iv~~L~~~~~~~~pqLFW~avAl 1912 (2376)
+                      |++||+|||||||||||.+++|+++|++||+||++++++++++.++|++||++||++++++++++++.++|||||+++||
+T Consensus      1833 c~~rhiA~RSfqifRaL~~~ld~~~l~~mL~rLs~tisd~~~d~q~f~~eIL~TL~~iv~~l~~~~l~~~pQLFW~avA~ 1912 (2376)
+T sp|P40468|TAO3 1833 CSVRHIACRSFQIFRSLLTFLDQEMLRDMLHRLSNTISDGNVDIQGFAMQILMTLNAIMAELDPTNLISFPQLFWSITAC 1912 (2376)
+T ss_pred             cCChhhhHHHHHHHHhcCCCCCHHHHHHHHHHHHHHhccCCchhHHHHHHHHHHHHHHHhhcCCCccchhhHHHHHHHHH
+Confidence            99999999999999999999999999999999999999999999999999999999999999988777899999999999
+
+
+Q sp|P40468|TAO3 1913 LSSIHEQEFIEVLSCLSKFISKIDLDSPDTVQCLVAIFPSNWEGRFDGLQQIVMTGLRSANSLEITWKFLDKLNLLKDSR 1992 (2376)
+Q Consensus      1913 L~s~~e~eF~~aL~LL~~~L~~ld~~~~~~~~~Ll~~rp~~w~~~F~gl~~lLlkGLrss~t~~~tl~~L~~L~~~~~~~ 1992 (2376)
+                      |++++|.||.+||.||+++|+++++++++++++|++.||.+|+++|+|||++|+||||++.|++.|+++|.+|+++.++.
+T Consensus      1913 L~t~~e~eF~~aL~LL~~~L~kldl~~~~~~~~Ll~~rp~~W~g~F~gLq~lLlkGLrss~t~~~tl~lL~~L~~l~~~~ 1992 (2376)
+T sp|P40468|TAO3 1913 LSSIHEQEFIEVLSCLSKFISKIDLDSPDTVQCLVAIFPSNWEGRFDGLQQIVMTGLRSANSLEITWKFLDKLNLLKDSR 1992 (2376)
+T ss_pred             hcCCCHHHHHHHHHHHHHHHHhhcCCCchHHHHHHHhCCCCCCCChHhHHHHHHhhcCCCCcHHHHHHHHHHHhccCCCC
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q sp|P40468|TAO3 1993 IIANTESRLLFALIANLPRFLNAMDRKDFTGIQVAADSLIELANAYKQPSLSRLIDSLAKNKFRSKKDFMSQVVSFISRN 2072 (2376)
+Q Consensus      1993 li~~s~~rl~~~~~a~LP~~l~~~~~~~~~~~~~~a~~la~~~~~~~~~~l~~i~~~~a~~~fr~~~dfl~~~~~~l~~~ 2072 (2376)
+                      ++|++++|++++++++||||+++++++...++.++|+.|+++|++++.++|+++|++|+|++||+++||++|++++|+++
+T Consensus      1993 li~~~~~rl~~~~~a~LP~~l~~~~~~~~~~~~~~a~~la~la~~~~~~~L~ril~sfak~~fr~~~dfl~q~v~~l~e~ 2072 (2376)
+T sp|P40468|TAO3 1993 IIANTESRLLFALIANLPRFLNAMDRKDFTGIQVAADSLIELANAYKQPSLSRLIDSLAKNKFRSKKDFMSQVVSFISRN 2072 (2376)
+T ss_pred             cccCCcchHHHHHHHHHHHHHHHhccCCchHHHHHHHHHHHHHHhcCCCcHHHHHHHhhcCCCCChhhHHHHHHHHHHHh
+Confidence            99988889999999999999999999876677789999999999999999999999999999999999999999999999
+
+
+Q sp|P40468|TAO3 2073 YFPSYSAQTLVFLLGLLFNKIGWIRVQTLEILKYVFPLIDLRRPEFIGVGADLISPLLRLLFTEYEAKALEVLDCVPNVS 2152 (2376)
+Q Consensus      2073 ~~p~~~~~~~~~L~~lL~n~~~~~~~~~l~iL~~ll~~~d~~~~~~~~~g~dll~pllrll~t~~~~~AL~VLd~~~~~s 2152 (2376)
+                      |+|+++.++++||+|||+|+.+|+|.++|+||+.||+++|++++.+.++|+|||+||+|||+|+||+|||+|||++|.+|
+T Consensus      2073 ~~p~~~~~~l~~Ll~ll~n~~~w~r~~~l~iL~~l~~~~d~~~~~~~~~g~dll~pLlrll~t~~~~~ALeVLd~~~~~s 2152 (2376)
+T sp|P40468|TAO3 2073 YFPSYSAQTLVFLLGLLFNKIGWIRVQTLEILKYVFPLIDLRRPEFIGVGADLISPLLRLLFTEYEAKALEVLDCVPNVS 2152 (2376)
+T ss_pred             cCccchHHHHHHHHHHhhCCCccchHHHHHHHHHHhhhcccCCccccccchHHHHHHHHhcCCCCHHHHHHHhhcCccCC
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q sp|P40468|TAO3 2153 GSKMDKDVLRITMGNKDVKDGDNATTTLFGLPEDSGWSVPMPTMTAATTRHNVHAVFMTCGTGKSDEVSAHGSDDMDAVI 2232 (2376)
+Q Consensus      2153 g~~~~k~~lrmsm~~~~~~~~~~~~~~~fgip~~sGW~ip~p~~~~~~tr~Nv~avf~tc~~~~~~~~~~~~~~~~~~~i 2232 (2376)
+                      |+|+||||||||||++..++++++++++||+|+|||||||||+.++++||+||||||+||..++++..+.+++.+...+|
+T Consensus      2153 g~~~~k~~lrms~~~~~~~~~~~~~~~~fGip~esGW~ip~p~~~~~~tR~Nv~avf~tc~~~~~~~~~~~~~~~~~~~i 2232 (2376)
+T sp|P40468|TAO3 2153 GSKMDKDVLRITMGNKDVKDGDNATTTLFGLPEDSGWSVPMPTMTAATTRHNVHAVFMTCGTGKSDEVSAHGSDDMDAVI 2232 (2376)
+T ss_pred             CCCCCccceEeeccCCCCCCCCCccccccccCCCcccccCCChhhHHHHHHHHHHHHHhccCCCCCcccCCCCCCCCccE
+Confidence            99999999999999988888999999999999999999999999999999999999999999875422111011123479
+
+
+Q sp|P40468|TAO3 2233 EFHADGDYELGRMDTIVEFHADGDYDLGRMDTNDSISVAEEKDASLSHMWAELDNLDSFFTKDTNVPNISSKMGMGIPHG 2312 (2376)
+Q Consensus      2233 ~F~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~lv~~L~~L~~fF~~~~~~~~~~~~~~~~~~~~ 2312 (2376)
+                      +||.|++|.+........|..++.++.++++++++++..++.+++|||||++||+||+||+++....+..+....+..++
+T Consensus      2233 ~f~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~lv~~L~~L~~FF~~~~~~~~~~~~~~~~~~~~ 2312 (2376)
+T sp|P40468|TAO3 2233 EFHADGDYELGRMDTIVEFHADGDYDLGRMDTNDSISVAEEKDASLSHMWAELDNLDSFFTKDTNVPNISSKMGMGIPHG 2312 (2376)
+T ss_pred             EEeccCCCCCCcccccccccCCCCCcccCCCCCCccccccccCCChhhHHhhhhccccccCCCCCCCCCccccCCCCCCC
+Confidence            99999855443211001222223333445556666654456788999999999999999999998766544444444455
+
+
+Q sp|P40468|TAO3 2313 RSDSIETTRTDQTFSFESAPQLYDKKVSVILNRSLSRTPSNVSFKTHLADSFAVKINRNGKPRI 2376 (2376)
+Q Consensus      2313 ~~~~~~~~~~~~~~~~~~~~~~~~~rv~~iL~~s~~~~~s~~~~~~~~~d~~~~~~~~~~~~~~ 2376 (2376)
+                      ++++..++.+....+.++.+++||+||++||+||++|++||+||+++|+|++.+++||||||||
+T Consensus      2313 ~~~~~~~~~~~~~~~~~~~~~~y~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 2376 (2376)
+T sp|P40468|TAO3 2313 RSDSIETTRTDQTFSFESAPQLYDKKVSVILNRSLSRTPSNVSFKTHLADSFAVKINRNGKPRI 2376 (2376)
+T ss_pred             CCcccccccccccccccccccccccchhhhhccccccCCCcccccccccccccccccccCCCCC
+Confidence            6666666666666778899999999999999999999999999999999999999999999997
+
+
+No 2
+>sp|P18963|IRA1_YEAST Inhibitory regulator protein IRA1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=IRA1 PE=1 SV=2
+Probab=100.00  E-value=1e-84  Score=934.31  Aligned_cols=1164  Identities=12%  Similarity=0.089  Sum_probs=882.0  Template_Neff=5.900
+
+Q sp|P40468|TAO3  780 SLYVILFGTIIE---AIPCCLSISRT-I----PYKSTIEILSRNAVHSEVIISSS-SQNALRALASKK-NPYTL------  843 (2376)
+Q Consensus       780 ~~~~~Ll~t~l~---a~Prll~~~~~-i----~~~~li~lL~r~~vH~d~~Vr~~-A~~aL~~L~~~~-~~~~v------  843 (2376)
+                      +...+|+..++.   +.|.++..+.. .    .+.+++..+.  ....|+.++.. |++++..++... ..|.-      
+T Consensus      1039 ~~a~~ll~~IlsLf~~~P~l~~~~~~~~~~~~~~~~~i~~~~--~a~~d~~~~l~~aa~~l~~l~~~~i~~~~~~~~~~~ 1116 (3092)
+T sp|P18963|IRA1 1039 DEARKIMMNIFSIFKRMTNWFIRPDANTEFPKTFTDIIKPLF--VSILDSNQRLQVTARAFIEIPLSYIATFEDIDNDLD 1116 (3092)
+T ss_pred             hhHHHHHHHHHHHHHhchhhhccCCcCCCcchhhhhhhhhhh--hhcCCChHHHHHHHHHHHHHhhhccCCCCCCCCCCC
+Confidence            344556666665   88988885310 0    1112222222  33456666666 888888887521 11211      
+
+
+Q sp|P40468|TAO3  844 ---ITWFAKYSFDFDEKTQSSYNMSYLSS-----KEYNRLLILYVELLECWLEEFQSSNKEENKKETGLDGIRLLPIDAE  915 (2376)
+Q Consensus       844 ---i~~f~~~~~~~~~~~~~~~~~~~L~~-----~~~~~lL~Ll~~LL~~W~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  915 (2376)
+                         +.++|...     .+.....+..|+.     ...+.+|.+++++|+. |..+.+. .+.                  
+T Consensus      1117 ~~~~~~~~~~s-----s~~l~~is~~Ll~~~l~~~~~~~~l~~l~~~L~~-R~~~~~~-~~~------------------ 1171 (3092)
+T sp|P18963|IRA1 1117 PRVLNDHYLLC-----TYAVTLFASSLFDLKLENAKREMLLDIIVKFQRV-RSYLSNL-AEK------------------ 1171 (3092)
+T ss_pred             hhhhhHHHHHH-----HHHHHHHHHHhhccccChhcHHHHHHHHHHHHHH-HHHhhhh-hhh------------------
+Confidence               11222221     1111223344432     3567788999999988 6655543 210                  
+
+
+Q sp|P40468|TAO3  916 QEESNETEKLEWKNTVTVIEEVEGN------------GLFF-LCSHDAKIRRLGIQILRIIFKF--DEAMMEKTEKLSNG  980 (2376)
+Q Consensus       916 ~~~~~~~~~~~~~~~~~~~~~vE~~------------~L~~-LCS~d~~vR~lAv~iLrlv~~~--~~~l~~~~~~~~~~  980 (2376)
+                                  ..+.++...+|.+            .|+. |||.+..++.+|.+|++.++++  .+...+..      
+T Consensus      1172 ------------~~~~~a~~~~E~a~~~~~~~~vg~~LlvsLl~s~~~~~~~~a~~~~~~l~~~~~~e~~~~~~------ 1233 (3092)
+T sp|P18963|IRA1 1172 ------------HNLVQAIITTERLTLPLLVGAVGSGIFISLYCSRGNTPRLIKISCCEFLRSLRFYQKYVGAL------ 1233 (3092)
+T ss_pred             ------------cchhhhHHHHhhccCcccchhhhhhheeecccCCCchhhHHHHhhHHHHHHHHHHHHhcCCc------
+Confidence                        1123344444555            8998 9999999999999999999996  32222110      
+
+
+Q sp|P40468|TAO3  981 HSRSSSHFAADRGTRLIDLLNECNTTTLINPHKATLSAVEKTRFSRLNSKYKRGLLIKLAESEYGVDAALWQRAFPKL-L 1059 (2376)
+Q Consensus       981 ~~~~~~~~~~~~~~~~i~vL~~~~~~~v~~~~~~l~~~s~l~~~~~~~~~~~~~~l~~la~S~~~~D~~~W~k~l~~l-L 1059 (2376)
+                                     ......+.+   +   |+++++.                   +.    ...|++++||++|++ |
+T Consensus      1234 ---------------~~~~~~n~~---~---y~~L~~d-------------------~~----~~tGrvA~QKRiR~~iL 1269 (3092)
+T sp|P18963|IRA1 1234 ---------------DQYSIYNID---F---IDAMAQD-------------------NF----TASGSVALQRRLRNNIL 1269 (3092)
+T ss_pred             ---------------ccccccchH---H---HHHhhcC-------------------CC----cccchHHHHHHHHHhhh
+Confidence                           011222222   2   5555443                   11    235899999999996 9
+
+
+Q sp|P40468|TAO3 1060 ALVFKTCPMAMALCRSIVCIRLVQVHEIILRVANDVDFKLKNVLPETIVNQWKLYLIAACTSLTSTFDQKLHIPS-NIPQ 1138 (2376)
+Q Consensus      1060 r~~~~~cp~av~~aw~~v~~Rl~~l~~~I~~~s~~~~~~~~~~~~e~~i~qWrnyliflCs~~~~~~~~~~~~p~-~~~~ 1138 (2376)
+                      |.+ +++..++..+|+++|.||..+.+...             ..++...+||||++|+|+++|+|......... ..++
+T Consensus      1270 r~i-~~Pt~~~~~aW~eiy~RW~~lt~~~~-------------~s~e~~~ewrN~tGFLaSlgGv~l~~~~~~~~~~~~~ 1335 (3092)
+T sp|P18963|IRA1 1270 TYI-KGSDSILLDSMDVIYKKWFYFSCSKS-------------VTQEELVDFRSLAGILASMSGILSDMQELEKSKSAPD 1335 (3092)
+T ss_pred             hcC-CCCChHHHHHHHHHHHHHHHhcCCCC-------------CChhhhhhHHHHHHHHHHhhccccccccccccCCCCC
+Confidence            999 89999999999999999999987721             11577899999999999999999855311000 0000
+
+
+Q sp|P40468|TAO3 1139 ---H--------GRKKSQQIFTVQHQKIKSAKSIFKMVLPLLNAKYIMIRDAIITGLSS-MNINIFKAYVEAIDVFLVAW 1206 (2376)
+Q Consensus      1139 ---h--------~r~~S~~~~~~~~~~~~s~~~lf~~lvplL~se~~~iRdAvv~aLGs-in~~ly~~Lle~L~~~~~~~ 1206 (2376)
+                         +        .+..-..  ....+....+..|+..++.+|.+++..+||.++++||. +||.+|+.||++|+..+.+.
+T Consensus      1336 ~~~~~~~~~~~~p~~~~~~--~~~~~~~~~v~~FI~~~~~lL~~~dl~vRE~aKD~Ls~ELhP~ly~~Lf~~L~~~i~~~ 1413 (3092)
+T sp|P18963|IRA1 1336 NEGDSLSFESRNPAYEVHK--SLKLELTKKMNFFISKQCQWLNNPNLLTRENSRDILSIELHPLSFNLLFNNLGLKIDEL 1413 (3092)
+T ss_pred             CCCCccccccCCCcchhhh--hhhhHHHHHHHHHHHHHHHhhcCCChhhhHHHHHHhhcccCHHHHHHHHHHHHHHHHHh
+Confidence               0        0000000  00223567788999999999999999999999999999 99999999999999999887
+
+
+Q sp|P40468|TAO3 1207 KEGS----S---NNQIRVEMFHILTILSPYLKSDM----IFND-EWILRKLSEFLQKTKQFLEKDSVQISYEYQSLRSYF 1274 (2376)
+Q Consensus      1207 ~d~~----~---~~~lr~qv~~Il~l~a~~l~~~~----~~~d-~~ll~~l~~fI~~~~~fL~~~~~~~~~~~qrLR~~F 1274 (2376)
+                      .+..    .   .-.|.+|++.|+|++.++..++.    ...| ..++..+++||+.+.    ..    +..+.|+|.+|
+T Consensus      1414 ~~~~~~~~~~~~~~lFlEQ~I~ILk~ILer~~~~~~~~l~svdi~~li~~l~~~i~~i~----~~----s~~~lRikikf 1485 (3092)
+T sp|P18963|IRA1 1414 MSIDLSKSHEDSSFVLLEQIIIIIRTILKRDDDEKIMLLFSTDLLDAVDKLIEIVEKIS----IK----SSKYYKGIIQM 1485 (3092)
+T ss_pred             hhccccccCCccchhhHHHHHHHHHHHhcCCCCccceeeeeccHHHHHHHHHHHHHhcc----CC----cchHHHHHHHH
+Confidence            6632    1   12399999999999999987642    3466 888899999999885    22    13789999999
+
+
+Q sp|P40468|TAO3 1275 AGLILSYYMAVREHPLIDELFPF----QARASCFNFLKEWCGYGEYEPISEERYAIMIKNTESGRDRTAITTGIEFQKNR 1350 (2376)
+Q Consensus      1275 C~lve~l~~~l~~~~~~~~~lp~----~~R~~LF~l~~eWcg~~~~~~~~~~r~~~m~~~~~~~~~~~~~~~~~e~e~~~ 1350 (2376)
+                      |+|++.++.+       .+.+.+    ..|+++.+++.+|...........+.........+      .....++..+++
+T Consensus      1486 CkL~~~l~~~-------~~~l~l~~~~~lRNkll~~v~eW~~~~~~~~~~~~~~~~~~~e~~------~~~rd~~~L~~D 1552 (3092)
+T sp|P18963|IRA1 1486 SKMFRAFEHS-------EKNLGISNHFHLKNKWLKLVIGWFKLSINKDYDFENLSRPLREMD------LQKRDEDFLYID 1552 (3092)
+T ss_pred             HHHHHHHHcC-------ccceeccccchhhHHHHHHHHHHhhccccCCCCccccCcchhhhc------cccccchhhhhh
+Confidence            9999999987       455544    78999999999999987654322111000000000      000122567789
+
+
+Q sp|P40468|TAO3 1351 LQMIVLETMVVLCSDPITQTLDDD--LELPIVISFDTEDLLAWIEALFDSDN-------------TTVKNLGVRALENLL 1415 (2376)
+Q Consensus      1351 L~~AAl~AMA~Lc~Gp~~~~~~~~--~~~~~~~s~~~~~~l~Wl~~Ll~s~~-------------~~i~~l~~~AL~nLL 1415 (2376)
+                      |+.+|++|+|.|+.|.++++.++.  ++....++..|++||+.|.++|+.+.             ..+++.++.||.|||
+T Consensus      1553 l~iac~kAla~Ll~~LpLq~~~~~~~~e~~~~ks~lF~~YF~~flk~Le~~~~~~~~~~~~~~k~~~l~e~vI~aLsNLl 1632 (3092)
+T sp|P18963|IRA1 1553 TSIESAKALAYLTHNVPLEIPPSSSKEDWNRSSTVSFGNHFTILLKGLEKSADLNQFPVSLRHKISILNENVIIALTNLS 1632 (3092)
+T ss_pred             HHHHHHHHHHHHhcCCCCCCCCCCCcccccchhhhhHhhhHHHHHHhhhhccccCCCCcccchhhhhhhhHHHHHHHhhh
+Confidence            999999999999999999876544  45557788999999999999999874             247899999999999
+
+
+Q sp|P40468|TAO3 1416 DKNRENFKLFRDVAFQCVSHHSHPSVAVLYYTTLCKSVLKLDNLV----------------------------------- 1460 (2376)
+Q Consensus      1416 ~~N~d~~~LL~~~i~~cY~~~~d~~v~~~yF~vla~Vl~~~~~~~----------------------------------- 1460 (2376)
+                      .+|.|.|  +++++..||++  ++.+|.+|.+|+++++.+++.++                                   
+T Consensus      1633 ~aNvd~G--lk~~L~mgy~~--d~~iR~aFl~V~~~IL~~~~~~~~~~~~ek~~~~~eLl~~l~~~~~l~la~~~~cp~~ 1708 (3092)
+T sp|P18963|IRA1 1633 NANVNVS--LKFTLPMGYSP--NKDIRIAFLRVFIDIVTNYPVNPEKHEMDKMLAIDDFLKYIIKNPILAFFGSLACSPA 1708 (3092)
+T ss_pred             hcCcccc--ceEeeccccCC--CCcceeehhHHHHHHhhcCCCCCCcchhhhHHHHHHHHHHHhcCchhhhhhhhcCCCc
+Confidence            9999999  99999999998  67899999999988875431000                                   
+
+
+Q sp|P40468|TAO3 1461 -------------------------------------------------------------------------------- 1460 (2376)
+Q Consensus      1461 -------------------------------------------------------------------------------- 1460 (2376)
+                                                                                                      
+T Consensus      1709 e~d~la~~LL~lF~s~~~l~~LL~~LI~~EI~~t~~~~tLFRgNS~aTKlLs~y~k~~G~~YL~~~L~plI~~Ii~~~~~ 1788 (3092)
+T sp|P18963|IRA1 1709 DVDLYAGGFLNAFDTRNASHILVTELLKQEIKRAARSDDILRRNSCATRALSLYTRSRGNKYLIKTLRPVLQGIVDNKES 1788 (3092)
+T ss_pred             chhhHHHHHHHHhhcCCcHHHHHHHHHHHHHHhhcCccccccCCchHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcCCCc
+Confidence                                                                                            
+
+
+Q sp|P40468|TAO3 1461 -------------------------------------------------------------------------------- 1460 (2376)
+Q Consensus      1461 -------------------------------------------------------------------------------- 1460 (2376)
+                                                                                                      
+T Consensus      1789 ~EIDP~k~~~e~~e~n~~~L~~~~~~fl~~I~~S~~~~P~~LR~Ic~~I~~~v~~kFPe~~~~aVgsFIFLRFicPAIvS 1868 (3092)
+T sp|P18963|IRA1 1789 FEIDKMKPGSENSEKMLDLFEKYMTRLIDAITSSIDDFPIELVDICKTIYNAASVNFPEYAYIAVGSFVFLRFIGPALVS 1868 (3092)
+T ss_pred             cccCCCCCCCCcHHHHHHHHHHHHHHHHHHHHhccccCCHHHHHHHHHHHHHHHhhCccchhhHHHHHHHHhhccccccc
+Confidence                                                                                            
+
+
+Q sp|P40468|TAO3 1461 -------------------------------------------------------------------------------- 1460 (2376)
+Q Consensus      1461 -------------------------------------------------------------------------------- 1460 (2376)
+                                                                                                      
+T Consensus      1869 Pe~fglv~~~~~~~rR~LilIAKVLQnLAN~~~f~~Ke~~m~~lN~Fl~~~~~~i~~FL~~Is~~~~~~~~~~~~e~~~~ 1948 (3092)
+T sp|P18963|IRA1 1869 PDSENIIIVTHAHDRKPFITLAKVIQSLANGRENIFKKDILVSKEEFLKTCSDKIFNFLSELCKIPTNNFTVNVREDPTP 1948 (3092)
+T ss_pred             CCcccccccCCCCCCchHHHHHHHHHHhhcCCCCCccccchhhhHHHHHhhHHHHHHHHHHhccCCCCCccccCCCCCCC
+Confidence                                                                                            
+
+
+Q sp|P40468|TAO3 1461 -------------------------------------------------------------------------------- 1460 (2376)
+Q Consensus      1461 -------------------------------------------------------------------------------- 1460 (2376)
+                                                                                                      
+T Consensus      1949 ~~~d~~~LHr~l~~~~~~I~~~L~~~~~~~~~~~~~K~~~d~l~~lL~~LG~P~~~~~~~ip~~~~~~~e~~~~y~eFMs 2028 (3092)
+T sp|P18963|IRA1 1949 ISFDYSFLHKFFYLNEFTIRKEIINESKLPGEFSFLKNTVMLNDKILGVLGQPSMEIKNEIPPFVVENREKYPSLYEFMS 2028 (3092)
+T ss_pred             CcchhHHHHHHHhhchhhhhhhhhcccCCCCccchhhhHHhHHHHHHHhcCCCCccccCCCCCccccCCCcChHHHHHHH
+Confidence                                                                                            
+
+
+Q sp|P40468|TAO3 1461 -------------------------------------------------------------------------------- 1460 (2376)
+Q Consensus      1461 -------------------------------------------------------------------------------- 1460 (2376)
+                                                                                                      
+T Consensus      2029 R~s~r~~d~~~~i~~~~~F~~~~is~DG~PVfy~i~r~l~~e~~DlElLlY~ilqtls~i~~~~f~lViDcT~Fs~~n~~ 2108 (3092)
+T sp|P18963|IRA1 2029 RYAFKKVDMKEEEEDNAPFVHEAMTLDGIQIIVVTFTNCEYNNFVMDSLVYKVLQIYARMWCSKHYVVIDCTTFYGGKAN 2108 (3092)
+T ss_pred             hhccCCCccccccccCCCeeeeeccCCCcEEEEEEEecccCCCccHHHHHHHHHHHhhhhccCCcEEEEEccccCCCCCC
+Confidence                                                                                            
+
+
+Q sp|P40468|TAO3 1461 -------------------------------------------------------------------------------- 1460 (2376)
+Q Consensus      1461 -------------------------------------------------------------------------------- 1460 (2376)
+                                                                                                      
+T Consensus      2109 p~~wlk~l~~LlP~~~~kNl~~vYi~NpNs~f~~~~~k~~~~~~~~~~~~~~~~fisS~sd~i~i~~L~Lp~~Tl~l~~D 2188 (3092)
+T sp|P18963|IRA1 2109 FQKLTTLFFSLIPEQASSNCMGCYYFNVNKSFMDQWASSYTVENPYLVTTIPRCFINSNTDQSLIKSLGLSGRSLEVLKD 2188 (3092)
+T ss_pred             hHHHHHHHHHhCcHHHhhccceEEEEeCCchhhHHHHHHHHhhccccccCCceEEecCCcccchhhhcCCCchhhhhhcc
+Confidence                                                                                            
+
+
+Q sp|P40468|TAO3 1461 -------------------------------------------------------------------------------- 1460 (2376)
+Q Consensus      1461 -------------------------------------------------------------------------------- 1460 (2376)
+                                                                                                      
+T Consensus      2189 ~rv~f~~V~l~~~~~~~~~PVtLKIG~~~lqI~s~k~~~~ki~~~~~~~~~~~nDV~~isdI~dv~~s~~t~~~~EFtI~ 2268 (3092)
+T sp|P18963|IRA1 2189 VRVTLHDITLYDKEKKKFCPVSLKIGNKYFQVLHEIPQLYKVTVSNRTFSIKFNNVYKISNLISVDVSNTTGVSSEFTLS 2268 (3092)
+T ss_pred             CceEeeeeEEEecCCCcccceEEEEcCeEEEEEEecccceeeeeccCcceeEEeeEEEeeeeeeeeeccCCCCCceEEEE
+Confidence                                                                                            
+
+
+Q sp|P40468|TAO3 1461 -----------------------------L------------------------------D-EDELVSLGLYGLVADKED 1480 (2376)
+Q Consensus      1461 -----------------------------~------------------------------~-~~~lL~laL~~l~s~~~e 1480 (2376)
+                                                   -                              + ++++|+++|++++++|++
+T Consensus      2269 ~~~g~~l~fsSp~r~eIvk~i~~ak~R~~~~~~~~~~~~~r~~~~~~~~~~~~~r~~~~~dv~gtLLniaLlnL~s~D~~ 2348 (3092)
+T sp|P18963|IRA1 2269 LDNEEKLVFCSPKYLEIVKMFYYAQLKMEEDFGTDFSNDISFSTSSSAVNASYCNVKEVGEIISHLSLVILVGLFNEDDL 2348 (3092)
+T ss_pred             EcCCceEEEecCChHHHHHHHHHHHhhccccCCCCCCCcccccccccccccccccccccchhHHHHHHHHHhcCCCCcHH
+Confidence                                         0                              0 157889999999999999
+
+
+Q sp|P40468|TAO3 1481 TRTFAVDLLSAVETKLH-NSSY--TKVFKERLANSSKTVYKSTAKEISSIFAELLSQDLCLRIFSSLVRILDLFPF--EI 1555 (2376)
+Q Consensus      1481 vR~~A~~LL~~l~~~f~-~~~~--~~~~~~~v~~~~p~~y~~~~~~iS~~LA~~~~PeLT~~~lsE~~~~~~~~~~--~~ 1555 (2376)
+                      +|.+||+||++++..|+ +.+.  ..+.+.++    |.++..++..||++||+.+ |+||++|+.||+.+|++...  ++
+T Consensus      2349 lR~aAYnLL~Al~~~F~~d~~~~l~~s~~l~i----P~n~t~Fi~~ISe~LA~~~-PeLTl~Fl~e~~~g~~k~~~~~~~ 2423 (3092)
+T sp|P18963|IRA1 2349 VKNISYNLLVATQEAFNLDFGTRLHKSPETYV----PDDTTTFLALIFKAFSESS-TELTPYIWKYMLDGLENDVIPQEH 2423 (3092)
+T ss_pred             HHHHHHHHHHHHHHhhCCCcccccccCCCCCC----CCCCHHHHHHHHHHHhccC-CcchHHHHHHHHhhcccCCCcccc
+Confidence            99999999999999998 3332  34455566    8899999999999999998 99999999999999998654  44
+
+
+Q sp|P40468|TAO3 1556 KRDLLVLMVPWVNKFTLKSLE------ELDTFMVLNNLFYITIDLNDSLPNEVEQLWISLGKGNSFQNIHVSLEYIINSS 1629 (2376)
+Q Consensus      1556 r~~~L~~L~PWl~Nl~l~~~~------~~~~~~iL~nLi~lTi~~~~~~~~~i~~lW~~L~~~~~~~n~~iildfLi~~a 1629 (2376)
+                      +..||.||.|||+||+.++..      .+++++|+++|+++|+++.+.++.++++||..|+..  ++++++|+|++|+.|
+T Consensus      2424 ~p~~L~YmsPWI~NL~~~v~~~~~e~g~~rv~~IIR~LI~LTv~e~e~~~~~q~~IW~~L~~~--~~Li~ivlDElI~~A 2501 (3092)
+T sp|P18963|IRA1 2424 IPTVVCSLSYWVPNLYEHVYLANDEEGPEAISRIIYSLIRLTVKEPNFTTAYLQQIWFLLALD--GRLTNVIVEEIVSHA 2501 (3092)
+T ss_pred             cchhHHhhhhhhhhHHHhhccCCCCCcHHHHHHHHHHHHHhhcCCCcccHHHHHHHHHHHhcC--CccHHHHHHHHHHHH
+Confidence            559999999999999976532      256999999999999999999999999999999997  789999999999999
+
+
+Q sp|P40468|TAO3 1630 MNHCN-PLFVQYARDIVLYLANIPGGIGLLDTLLNNLEPKYMVPLAKHTFNEPMNNNKYSFLGNIWERLNYNGKRIIFSK 1708 (2376)
+Q Consensus      1630 ~~~~~-~~~~~~ak~Ivv~Ls~~~~~~~vi~~L~~~L~~~~~~p~~~~~~~~p~~~~~~~~~~ei~~~L~~~~~~~~lsr 1708 (2376)
+                      +++|. +..++.+..+++.+++..++.+||.+|++.|.+..  |+....       ..++.|.||+.          |.|
+T Consensus      2502 iD~g~~s~~~e~ia~~lvsl~Si~V~gkIIsRLrk~I~~~~--Ps~~L~-------~~~~~W~EIai----------LvR 2562 (3092)
+T sp|P18963|IRA1 2502 LDRDSENRDWMKAVSILTSFPTTEIACQVIEKLINMIKSFL--PSLAVE-------ASAHSWSELTI----------LSK 2562 (3092)
+T ss_pred             hcCCCCcchHHHHHHHHHhcCcchhHHHHHHHHHHhhhhcC--CCCCCc-------cccccHHHHHH----------HHH
+Confidence            99873 45688899999999999888899999999999744  655321       13789999999          556
+
+
+Q sp|P40468|TAO3 1709 AQLSIIFLVNLLTNLSESVKAKIPLLLHMSICLLDHYVPLIHESACKIASTLIFGLAPSHEKSEETVKL-------LRN- 1780 (2376)
+Q Consensus      1709 ~~laLi~L~dl~~~~~~~~~~~LP~LLHiv~llld~~~~~Vr~~~~~LLvnli~sl~~~~~~~~~~~~~-------l~~- 1780 (2376)
+                      ..++|      +|++....+.|||++||+|+|++|.|++.||.++|+||+|++|+|+.+...+++..+.       +.. 
+T Consensus      2563 ~~l~L------sF~s~~~~q~yLPEI~hIVTLLid~Gp~~vR~svh~LlvN~ihSL~~~~~l~~~~~~~L~~~l~~fs~~ 2636 (3092)
+T sp|P18963|IRA1 2563 ISVSI------FFESPLLSQMYLPEILFAVSLLIDVGPSEIRVSLYELLMNVCHSLTNNESLPERNRKNLDIVCATFARQ 2636 (3092)
+T ss_pred             HHhhh------hcCCchhhhhhhHHHHHHHHHhhcCCchHHHHHHHHHHHHHHHHHhcCCCCChhhhhHHHHHHHHhccc
+Confidence            65555      8898899999999999999999999999999999999999999999987766544332       222 
+
+
+Q sp|P40468|TAO3 1781 -KHALWSYDNLMKK---------GARSPKTMDLLIRNIISIFSD-L----DEFQVTWQRIALKWATTCSVRHIACRSFQI 1845 (2376)
+Q Consensus      1781 -~~~lw~~~d~~~~---------~~~~~~~l~~lv~~lv~i~~~-~----~~l~~~W~~~Al~wAt~c~~r~iA~RSfqv 1845 (2376)
+                       .+.+||+.+..++         .......||.|++.|+++++. .    +.|+.||++++++||+ +.++++|+|||+|
+T Consensus      2637 k~~~LFGls~~~~~~~~~~~~ss~~~~l~~lE~l~~~Ll~~me~~s~~~~n~WraRW~slv~s~AF-q~np~lQ~RAfvv 2715 (3092)
+T sp|P18963|IRA1 2637 KLNFISGFSQEKGRVLPNFAASSFSSKFGTLDLFTKNIMLLMEYGSISEGAQWEAKYKKYLMDAIF-GHRSFFSARAMMI 2715 (3092)
+T ss_pred             ccccccccccCCCcCcCCCCCCCccccchhHHHHHHHHHHHHHccCCCcchhHHHHHHHHHHHHhc-cCCCcchhhHHHH
+Confidence             3789999765432         134578899999999999986 2    4899999999999995 5599999999999
+
+
+Q sp|P40468|TAO3 1846 FRSLLT-FLDQEMLRDMLHRLSNTISDGNVDI--QGFAMQILMTLNAIMAELDPTNLISFPQLFWSITACLSSIHEQEFI 1922 (2376)
+Q Consensus      1846 ~r~L~~-~ld~~~l~~lL~rL~~tia~~~~~~--~~~~~eIL~tL~~iv~~L~~~~~~~~pqLFW~avAlL~s~~e~eF~ 1922 (2376)
+                      +|||.+ .+|+++|++||++|.++++++.++.  ..++++|++||++++++|++. +++++||||+++||++++|+.+|.
+T Consensus      2716 LG~Lak~~vdddll~qiL~~l~~als~~~~~d~~~~l~isil~cLskiv~gL~~~-S~yl~qLFWlaiallqs~~~~lF~ 2794 (3092)
+T sp|P18963|IRA1 2716 LGIMSKSHTSLFLCKELLVETMKVFAEPVVDDEQMFIIIAHVFTYSKIVEGLDPS-SELMKELFWLATICVESPHPLLFE 2794 (3092)
+T ss_pred             HHhcccCCCCHHHHHHHHHHHHHhhcCCCCCchHHHHHHHHHHHHHHHhcCCCCC-ChhhHHHHHHHHHHHhCCCchhHH
+Confidence            999999 8999999999999999999876544  889999999999999999776 789999999999999999999999
+
+
+Q sp|P40468|TAO3 1923 EVLSCLSKFISKI---D----LDSPDTVQCLVAIFPS--------------NWEG-RF-DGLQQIVMTGLRSANSLEITW 1979 (2376)
+Q Consensus      1923 ~aL~LL~~~L~~l---d----~~~~~~~~~Ll~~rp~--------------~w~~-~F-~gl~~lLlkGLrss~t~~~tl 1979 (2376)
+                      +||.||+.+|+++   +    +.+.++.+.|+++|.+              .|+. +| ++++++|+|||+++.++..++
+T Consensus      2795 ~al~LL~~~L~~L~~~d~~~~f~~~~l~~~Ll~aR~~le~~~~~lD~~~gisf~~~nFsfal~ail~KGLr~p~tk~~a~ 2874 (3092)
+T sp|P18963|IRA1 2795 GGLLFMVNCLKRLYTVHLQLGFDGKSLAKKLMESRNFAATLLAKLESYNGCIWNEDNFPHIILGFIANGLSIPVVKGAAL 2874 (3092)
+T ss_pred             HHHHHHHHHHHHhhhhhhhccCCCChHHHHHHhhchHHHHHHHHHhhhcCceeecCCchHHHHHHHHhcccCccchHHHH
+Confidence            9999999999999   4    3356789999999975              5776 89 699999999999999999999
+
+
+Q sp|P40468|TAO3 1980 KFLDKLNLLKDSRIIANTESRLLFALIANLPRFLNAMDRKDFTGIQVAADSLIELANAYKQPSLSRLIDSLAKNKFRSKK 2059 (2376)
+Q Consensus      1980 ~~L~~L~~~~~~~li~~s~~rl~~~~~a~LP~~l~~~~~~~~~~~~~~a~~la~~~~~~~~~~l~~i~~~~a~~~fr~~~ 2059 (2376)
+                      ++|.+|+++.+....+...+.-.+++++.||...   +.+....+.+.|..=..+.+-.+...|.+++..|.........
+T Consensus      2875 ~~L~~ll~~~~~~~~~~~~~~~~l~Yl~~Lp~~~---~~~~~~~lL~~~~~~~~~~~l~~~~~Ipk~l~d~l~s~~~~~~ 2951 (3092)
+T sp|P18963|IRA1 2875 DCLQALFKNTYYERKSNPKSSDYLCYLFLLHLVL---SPEQLSTLLLEVGFEDELVPLNNTLKVPLTLINWLSSDSDKSN 2951 (3092)
+T ss_pred             HHHHHHHhhccccccCCCCCchhHHHHHHHHhcC---ChHHHHHHHHHcCCCCccccccCCCCCcHHHHHHhhcCCCchh
+Confidence            9999999999844333212223344666666553   2111112222222223333334677899999999999888889
+
+
+Q sp|P40468|TAO3 2060 DFMSQVVSFISRNYFPSYSAQT-LVFLLGLLFNKIGWIRVQTLEILKYVFPLI 2111 (2376)
+Q Consensus      2060 dfl~~~~~~l~~~~~p~~~~~~-~~~L~~lL~n~~~~~~~~~l~iL~~ll~~~ 2111 (2376)
+                      .++-|.+.+++... ++..... +.++++.|.+..+|+-..+-.+++.=+..+
+T Consensus      2952 ~~lyq~a~~f~~~~-~De~~k~Rf~ll~~~L~~~~p~~~~~~y~~i~~elr~~ 3003 (3092)
+T sp|P18963|IRA1 2952 IVLYQGALLFSCVM-SDEPCKFRFALLMRYLLKVNPICVFRFYTLTRKEFRRL 3003 (3092)
+T ss_pred             HHHHHHHHHhcCCC-CCchHHHHHHHHHHHHhhcChhhhHHHHHHHHHHHHhh
+Confidence            99999999998764 4455555 888999999988887766666655544443
+
+
+No 3
+>sp|P19158|IRA2_YEAST Inhibitory regulator protein IRA2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=IRA2 PE=1 SV=2
+Probab=100.00  E-value=8.1e-83  Score=917.15  Aligned_cols=1026  Identities=12%  Similarity=0.127  Sum_probs=800.4  Template_Neff=6.000
+
+Q sp|P40468|TAO3  804 PYKSTIEILSRNAVHSEVIISSSSQNALRALASKKNP------------YTLITWFAKYSFDFDEKTQSSYNMSYLSSKE  871 (2376)
+Q Consensus       804 ~~~~li~lL~r~~vH~d~~Vr~~A~~aL~~L~~~~~~------------~~vi~~f~~~~~~~~~~~~~~~~~~~L~~~~  871 (2376)
+                      .+..+|.-+..+.+..|+.+...|...+..+...-..            +.++..|.-.+|.      .+-..-.|....
+T Consensus      1084 ~f~~iikpi~~a~~d~~~~l~~ta~~f~~~~~~~~~~~~~~~~~~~~~~~~~~~~y~v~l~s------~~l~~l~l~~~K 1157 (3079)
+T sp|P19158|IRA2 1084 DFRNIMKPIFVAIVSPDVDLQNTAQSFMDTLLSNVITYGESDENISIEGYHLLCSYTVTLFA------MGLFDLKINNEK 1157 (3079)
+T ss_pred             hHHHHHHHHHHHhhCCChhHHHHHHHHHHHHHHHhhhcCCCCCccccchhhhHHHHHHHHHH------HHhccCCCCchh
+Confidence            4456777777788888888888887776666521110            1111111111100      000001111245
+
+
+Q sp|P40468|TAO3  872 YNRLLILYVELLECWLEEFQSSNKEENKKETGLDGIRLLPIDAEQEESNETEKLEWKNTVTVIEEVEGNGLFFLCSHDAK  951 (2376)
+Q Consensus       872 ~~~lL~Ll~~LL~~W~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~vE~~~L~~LCS~d~~  951 (2376)
+                      .+.+|..++.+|+. |..+.+.......-.                   .....+..........+|.+.|+.|||++++
+T Consensus      1158 re~~l~~~~~fl~~-R~~~~~~~~~~~~~~-------------------~~~~~~~~~~~~~~~~ve~allvsL~S~d~~ 1217 (3079)
+T sp|P19158|IRA2 1158 RQILLDITVKFMKV-RSHLAGIAEASHHME-------------------YISDSEKLTFPLIMGTVGRALFVSLYSSQQK 1217 (3079)
+T ss_pred             hHHHHHHHHHHHHH-HHHHHhhhhhccccc-------------------cccccccccchhhHHHHHHHHHhhhhCCChh
+Confidence            67889999999998 776654322111000                   0112222344556788999999999999999
+
+
+Q sp|P40468|TAO3  952 IRRLGIQILR-IIFKFDEAMMEKTEKLSNGHSRSSSHFAADRGTRLIDLLNECNTTTLINPHKATLSAVEKTRFSRLNSK 1030 (2376)
+Q Consensus       952 vR~lAv~iLr-lv~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~i~vL~~~~~~~v~~~~~~l~~~s~l~~~~~~~~~ 1030 (2376)
+                      |.++|.+|+| .+++.+ .......                  ........+.+   +   |+++++.            
+T Consensus      1218 i~~~a~~~~~~~l~~~~-~~~~~~~------------------~~~~~~~~n~~---~---y~~l~~~------------ 1260 (3079)
+T sp|P19158|IRA2 1218 IEKTLKIAYTEYLSAIN-FHERNID------------------DADKTWVHNIE---F---VEAMCHD------------ 1260 (3079)
+T ss_pred             HHHHHHHHHHHHHHHHh-cccCCcc------------------ccccchhhhHH---H---HHHhcCC------------
+Confidence            9999999999 777643 3221110                  11112223333   2   5555443            
+
+
+Q sp|P40468|TAO3 1031 YKRGLLIKLAESEYGVDAALWQRAFPK-LLALVFKTCPMAMALCRSIVCIRLVQVHEIILRVANDVDFKLKNVLPETIVN 1109 (2376)
+Q Consensus      1031 ~~~~~l~~la~S~~~~D~~~W~k~l~~-lLr~~~~~cp~av~~aw~~v~~Rl~~l~~~I~~~s~~~~~~~~~~~~e~~i~ 1109 (2376)
+                             +.    ...|++++||++|+ +||.+ +++..++..+|+++|.||..+.+.+..             .++...
+T Consensus      1261 -------~~----~~tGrvA~QKRiR~~iLR~i-~~Pt~~~~~aW~e~y~RW~~lt~~~~~-------------~~e~~~ 1315 (3079)
+T sp|P19158|IRA2 1261 -------NY----TTSGSIAFQRRTRNNILRFA-TIPNAILLDSMRMIYKKWHTYTHSKSL-------------EKQERN 1315 (3079)
+T ss_pred             -------CC----cccccHHHHHHHHHHHHHhc-cCCChhHHHHHHHHHHHHHHhcccccc-------------hhhhhh
+Confidence                   11    23589999999999 99999 999999999999999999999988641             146789
+
+
+Q sp|P40468|TAO3 1110 QWKLYLIAACTSLTSTFDQKLHIPSNIPQHGRKKSQQIFTVQHQKIKSAKSIFKMVLPLLNAKYIMIRDAIITGLSS-MN 1188 (2376)
+Q Consensus      1110 qWrnyliflCs~~~~~~~~~~~~p~~~~~h~r~~S~~~~~~~~~~~~s~~~lf~~lvplL~se~~~iRdAvv~aLGs-in 1188 (2376)
+                      +||||++|+|+++|+|...........+..   +     ....+....+..|+..++.+|.+++..+||.++++||. +|
+T Consensus      1316 ewrN~tGFLaslgGvcl~~~~~~~~~~p~~---~-----d~~~~~~~~v~~FI~~~i~lL~~~dl~iRE~aKd~Lg~ELh 1387 (3079)
+T sp|P19158|IRA2 1316 DFRNFAGILASLSGILFINKKILQEMYPYL---L-----DTVSELKKNIDSFISKQCQWLNYPDLLTRENSRDILSVELH 1387 (3079)
+T ss_pred             hhhhHHHHHHHhhcccccCcccccccCCCc---c-----cchhhHHHHHHHHHHHHHHhhcCCChhhhHHHHHHhccCCC
+Confidence            999999999999999986532100000000   0     01123467788999999999999999999999999999 99
+
+
+Q sp|P40468|TAO3 1189 INIFKAYVEAIDVFLVAWKEGSS-------NNQIRVEMFHILTILSPYLKSDM----IFND-EWILRKLSEFLQKTKQFL 1256 (2376)
+Q Consensus      1189 ~~ly~~Lle~L~~~~~~~~d~~~-------~~~lr~qv~~Il~l~a~~l~~~~----~~~d-~~ll~~l~~fI~~~~~fL 1256 (2376)
+                      |.+|+.||++|+..+.+.++...       ...|.+|++.|+|++.++..++.    ...| ..++..+++||+.+.   
+T Consensus      1388 P~ly~~Lf~~L~~~~~~~~~~~~~~~~~~~~~lflEQ~I~ILk~IL~r~~~~~~~~l~~vdi~~li~~l~~~i~~~~--- 1464 (3079)
+T sp|P19158|IRA2 1388 PLSFNLLFNNLRLKLKELACSDLSIPENESSYVLLEQIIKMLRTILGRDDDNYVMMLFSTEIVDLIDLLTDEIKKIP--- 1464 (3079)
+T ss_pred             hhhHHHHHHHHHHHHHHhhccCCCCCCcccchhhHHHHHHHHHHHhcCCCCCcceeeecccHHHHHHHHHHHHHhCC---
+Confidence            99999999999999988776532       12399999999999999986542    2456 778888888888875   
+
+
+Q sp|P40468|TAO3 1257 EKDSVQISYEYQSLRSYFAGLILSYYMAVREHPLIDELFPF----QARASCFNFLKEWCGYGEYEPISEERYAIMIKNTE 1332 (2376)
+Q Consensus      1257 ~~~~~~~~~~~qrLR~~FC~lve~l~~~l~~~~~~~~~lp~----~~R~~LF~l~~eWcg~~~~~~~~~~r~~~m~~~~~ 1332 (2376)
+                       .    ++....|+|.+||+|++.++.+       ++.+.+    .+|+++.+++.+|...........+-.        
+T Consensus      1465 -~----~s~~~lrikik~ckL~~~l~~~-------~~~l~l~~~~~~RNkll~~v~eW~~~~~~~~~~~~~~-------- 1524 (3079)
+T sp|P19158|IRA2 1465 -A----YCPKYLKAIIQMTKMFSALQHS-------EVNLGVKNHFHVKNKWLRQITDWFQVSIAREYDFENL-------- 1524 (3079)
+T ss_pred             -C----CCchhHHHHHHHHHHHHHHhcC-------ccceeccCchhhHHHHHHHHHHHhhcccccccccccC--------
+Confidence             2    1237899999999999999987       455544    789999999999999765443211000        
+
+
+Q sp|P40468|TAO3 1333 SGRDRTAITTGIEFQKNRLQMIVL-------ETMVVLCSDPITQTLDDD--LELPIVISFDTEDLLAWIEALFDSDNT-- 1401 (2376)
+Q Consensus      1333 ~~~~~~~~~~~~e~e~~~L~~AAl-------~AMA~Lc~Gp~~~~~~~~--~~~~~~~s~~~~~~l~Wl~~Ll~s~~~-- 1401 (2376)
+                           ......++..+++|+.+|+       +|+|.|+.|.++++.++.  ++....++..|++||+.|.++|+.+..  
+T Consensus      1525 -----~~~~~e~~~~~rDLD~a~lD~aiEsskala~Ll~~LpLe~~~~~~~~e~~~~ks~lF~kYF~~flk~Le~~~~~~ 1599 (3079)
+T sp|P19158|IRA2 1525 -----SKPLKEMDLVKRDMDILYIDTAIEASTAIAYLTRHTFLEIPPAASDPELSRSRSVIFGFYFNILMKGLEKSSDRD 1599 (3079)
+T ss_pred             -----CCccchhhhhhhhhhHHhhhhHHHHHHHHHHHHhcCCCCCCCCCCCcchhhhhhhhHHhHHHHHHHhhhcccCCC
+Confidence                 0001224677899999999       999999999998766443  455678899999999999999998854  
+
+
+Q sp|P40468|TAO3 1402 -----------TVKNLGVRALENLLDKNRENFKLFRDVAFQCVSHHSHPSVAVLYYTTLCKSVLKLDNLV---------- 1460 (2376)
+Q Consensus      1402 -----------~i~~l~~~AL~nLL~~N~d~~~LL~~~i~~cY~~~~d~~v~~~yF~vla~Vl~~~~~~~---------- 1460 (2376)
+                                 .+++.++.||.|||.+|.|.|  +++|+.+||+.  +..+|.+|.+|++++|.+|++|+          
+T Consensus      1600 ~~~~~~~~k~~~l~e~iI~aLsnLl~aN~d~G--l~~~l~mGy~~--d~~~R~aFl~V~~niL~qgt~f~~~~~~~~~e~ 1675 (3079)
+T sp|P19158|IRA2 1600 NYPVFLRHKMSVLNDNVILSLTNLSNTNVDAS--LQFTLPMGYSG--NRNIRNAFLEVFINIVTNYRTYTAKTDLGKLEA 1675 (3079)
+T ss_pred             CCCcccccchhhhHHHHHHHHHHHhhcCCccc--hhcccccccCC--ChhhHHHHHHHHHHHhccCCccccccchhhhhH
+Confidence                       368999999999999999999  99999999998  77999999999998886552211          
+
+
+Q sp|P40468|TAO3 1461 -------------------------------------------------------------------------------- 1460 (2376)
+Q Consensus      1461 -------------------------------------------------------------------------------- 1460 (2376)
+                                                                                                      
+T Consensus      1676 y~~L~~lL~~~p~La~al~~~~p~~e~d~la~~Ll~lF~~r~~l~~LL~~LI~~EI~~t~~~~tLFRgNS~aTklLs~y~ 1755 (3079)
+T sp|P19158|IRA2 1676 ADKFLRYTIEHPQLSSFGAAVCPASDIDAYAAGLINAFETRNATHIVVAQLIKNEIEKSSRPTDILRRNSCATRSLSMLA 1755 (3079)
+T ss_pred             HHHHHHHHhcCchHHHHHHhcCCccchHHHHHHHHHHHhcCChHHHHHHHHHHHHHhccCCccccccCCchHHHHHHHHH
+Confidence                                                                                            
+
+
+Q sp|P40468|TAO3 1461 -------------------------------------------------------------------------------- 1460 (2376)
+Q Consensus      1461 -------------------------------------------------------------------------------- 1460 (2376)
+                                                                                                      
+T Consensus      1756 r~~G~~YL~~~L~p~I~~I~~~~~~~EIDP~k~~~~~~e~n~~~L~~~~~~fl~~I~~S~~~~P~~LR~Ic~~I~~~v~~ 1835 (3079)
+T sp|P19158|IRA2 1756 RSKGNEYLIRTLQPLLKKIIQNRDFFEIEKLKPEDSDAERQIELFVKYMNELLESISNSVSYFPPPLFYICQNIYKVACE 1835 (3079)
+T ss_pred             HHHHHHHHHHHHHHHHHHHhcCCccccccCCCCCchhHHHHHHHHHHHHHHHHHHHHhccccCCHHHHHHHHHHHHHHHH
+Confidence                                                                                            
+
+
+Q sp|P40468|TAO3 1461 -------------------------------------------------------------------------------- 1460 (2376)
+Q Consensus      1461 -------------------------------------------------------------------------------- 1460 (2376)
+                                                                                                      
+T Consensus      1836 kFP~~~~~aVg~FIFLRFIcPAIVsPe~~gl~~~~s~~~rR~LilIAKVLQnLAN~~~f~~Ke~~m~~lN~Fl~~~~~~i 1915 (3079)
+T sp|P19158|IRA2 1836 KFPDHAIIAAGSFVFLRFFCPALVSPDSENIIDISHLSEKRTFISLAKVIQNIANGSENFSRWPALCSQKDFLKECSDRI 1915 (3079)
+T ss_pred             hCCchhhHHHHHHHHHhhhhhcccCCCccccccCCCchhhhHHHHHHHHHHHhhcCCCCCCCCchhhhhHHHHHHHHHHH
+Confidence                                                                                            
+
+
+Q sp|P40468|TAO3 1461 -------------------------------------------------------------------------------- 1460 (2376)
+Q Consensus      1461 -------------------------------------------------------------------------------- 1460 (2376)
+                                                                                                      
+T Consensus      1916 ~~FL~~Is~~~~~~~~~~~~d~~~~~~dl~~LHrfl~~~~~~I~~~L~~~~~~~~~~~~~~~~~K~~~d~l~~lL~~LG~ 1995 (3079)
+T sp|P19158|IRA2 1916 FRFLAELCRTDRTIDIQVRTDPTPIAFDYQFLHSFVYLYGLEVRRNVLNEAKHDDGDIDGDDFYKTTFLLIDDVLGQLGQ 1995 (3079)
+T ss_pred             HHHHHHHcCCCCcccccccCCCCCCchhHHHHHHHHhhhhhhhhhhhhcccCCCCCCCCCCcchhhHHHHHHHHHHhcCC
+Confidence                                                                                            
+
+
+Q sp|P40468|TAO3 1461 -------------------------------------------------------------------------------- 1460 (2376)
+Q Consensus      1461 -------------------------------------------------------------------------------- 1460 (2376)
+                                                                                                      
+T Consensus      1996 P~~~~~~~~p~~~~~~~~~~~~y~eFM~R~a~r~~~~~~s~~~~y~~gvssdG~PVfv~i~rrl~~e~iD~ElLlY~iLk 2075 (3079)
+T sp|P19158|IRA2 1996 PKMEFSNEIPIYIREHMDDYPELYEFMNRHAFRNIETSTAYSPSVHESTSSEGIPIITLTMSNFSDRHVDIDTVAYKFLQ 2075 (3079)
+T ss_pred             CCcccCCCCccccccCCCCCHHHHHHHHhhccCCCccccccccccccccCCCCceEEEEEeeccccCCCCHHHHHHHHHH
+Confidence                                                                                            
+
+
+Q sp|P40468|TAO3 1461 -------------------------------------------------------------------------------- 1460 (2376)
+Q Consensus      1461 -------------------------------------------------------------------------------- 1460 (2376)
+                                                                                                      
+T Consensus      2076 tls~iw~~pF~IViD~T~Fs~~n~~~~~wlk~~~~LlP~~~~kNL~~vYI~NpNs~f~~~~lr~l~~~~~~~~~~~~~~f 2155 (3079)
+T sp|P19158|IRA2 2076 IYARIWTTKHCLIIDCTEFDEGGLDMRKFISLVMGLLPEVAPKNCIGCYYFNVNETFMDNYGKCLDKDNVYVSSKIPHYF 2155 (3079)
+T ss_pred             HHHHhhCCCeEEEEEcCCCCCCCCChHHHHHHHHHhCCccccccceEEEEEcCCHHHHHHHHHhhhcccccccCCCceEE
+Confidence                                                                                            
+
+
+Q sp|P40468|TAO3 1461 -------------------------------------------------------------------------------- 1460 (2376)
+Q Consensus      1461 -------------------------------------------------------------------------------- 1460 (2376)
+                                                                                                      
+T Consensus      2156 i~~~s~~eL~~~L~Lp~~t~~l~~D~rv~f~~Vt~~~~~~~~~~PVtlkIG~~~lqI~s~~~k~~~i~~~~~~~~~~~nD 2235 (3079)
+T sp|P19158|IRA2 2156 INSNSDEGLMKSVGITGQGLKVLQDIRVSLHDITLYDEKRNRFTPVSLKIGDIYFQVLHETPRQYKIRDMGTLFDVKFND 2235 (3079)
+T ss_pred             EecCChhhHHhhcCCCcchhhhhcccceeecceEEEeccCCcccceEEEEcceEEEEEeccceeeeeeccCcccceeeee
+Confidence                                                                                            
+
+
+Q sp|P40468|TAO3 1461 ------------------------------------------------------L------------------------- 1461 (2376)
+Q Consensus      1461 ------------------------------------------------------~------------------------- 1461 (2376)
+                                                                            -                         
+T Consensus      2236 V~~lsdI~~v~~s~~t~~~~EF~I~~~~g~~l~fsSp~~~eIvk~i~~ak~R~~~~~~~~~~~r~~~~~~~~~~~~~~~~ 2315 (3079)
+T sp|P19158|IRA2 2236 VYEISRIFEVHVSSITGVAAEFTVTFQDERRLIFSSPKYLEIVKMFYYAQIRLESEYEMDNNSSTSSPNSNNKDKQQKER 2315 (3079)
+T ss_pred             EEeeccceeeeeeccCCCCceEEEEEcCCcEEEEecCCHHHHHHHHHHHHhhcccccccCCCCCCCCCCCCCcccccccc
+Confidence                                                                  0                         
+
+
+Q sp|P40468|TAO3 1462 --DEDELVSLGLYGLVADKEDTRTFAVDLLSAVETKLH-NSS--YTKVFKERLANSSKTVYKSTAKEISSIFAELLSQDL 1536 (2376)
+Q Consensus      1462 --~~~~lL~laL~~l~s~~~evR~~A~~LL~~l~~~f~-~~~--~~~~~~~~v~~~~p~~y~~~~~~iS~~LA~~~~PeL 1536 (2376)
+                        -++++|+++|++||++|+++|.+||+||++++..|+ +.+  ...+.+.++    |.++..++..||++||+.+ |+|
+T Consensus      2316 ~dvpgtLLNiaLlnL~S~D~~LR~aAYnLL~Al~~~F~~d~~~~l~~s~~l~I----P~n~t~Fi~~ISe~LA~~~-PeL 2390 (3079)
+T sp|P19158|IRA2 2316 TKLLCHLLLVSLIGLFDESKKMKNSSYNLIAATEASFGLNFGSHFHRSPEVYV----PEDTTTFLGVIGKSLAESN-PEL 2390 (3079)
+T ss_pred             cchHHHHHHHHHhcCCCCChhhHHHHHHHHHHHHHHhCCCCcccccCCCCccc----CCCCHHHHHHHHHHHhccC-hhc
+Confidence              047889999999999999999999999999999998 433  234455666    8889999999999999998 999
+
+
+Q sp|P40468|TAO3 1537 CLRIFSSLVRILDLFPFEI--KRDLLVLMVPWVNKFTLKSLE------ELDTFMVLNNLFYITIDLNDSLPNEVEQLWIS 1608 (2376)
+Q Consensus      1537 T~~~lsE~~~~~~~~~~~~--r~~~L~~L~PWl~Nl~l~~~~------~~~~~~iL~nLi~lTi~~~~~~~~~i~~lW~~ 1608 (2376)
+                      |++||.||+.+|++....+  ++.||.||.|||+||+.++..      .+++..|+++|+++|+++.+.++.++++||..
+T Consensus      2391 Tl~Fl~e~~~g~~~~~~~~~~~~~~L~YmsPWI~NL~~~v~~~d~e~g~~rv~~IIR~LI~LTi~e~~~~~~~q~~IW~~ 2470 (3079)
+T sp|P19158|IRA2 2391 TAYMFIYVLEALKNNVIPHVYIPHTICGLSYWIPNLYQHVYLADDEEGPENISHIFRILIRLSVRETDFKAVYMQYVWLL 2470 (3079)
+T ss_pred             hHHHHHHHHHHhhcCCCCccccCchhhccchhhhhHHHhhccCCCCCChhhHHHHHHHHHHhhhcCchhhHHHHHHHHHH
+Confidence            9999999999999765444  499999999999999986532      25699999999999999999999999999999
+
+
+Q sp|P40468|TAO3 1609 LGKGNSFQNIHVSLEYIINSSMNHCN-PLFVQYARDIVLYLANIPGGIGLLDTLLNNLEPKYMVPLAKHTFNEPMNNNKY 1687 (2376)
+Q Consensus      1609 L~~~~~~~n~~iildfLi~~a~~~~~-~~~~~~ak~Ivv~Ls~~~~~~~vi~~L~~~L~~~~~~p~~~~~~~~p~~~~~~ 1687 (2376)
+                      |+..  +.++++|+|++|..|+++|. +..++.+..+++.++++.++..|+++|+..|.+  ..|...  +.     ..+
+T Consensus      2471 L~~~--~~Li~ivlDElI~~Aid~g~~s~~~e~ia~il~~lsSi~v~~~V~~KLi~rlrk--~L~~ts--l~-----~~~ 2539 (3079)
+T sp|P19158|IRA2 2471 LLDD--GRLTDIIVDEVINHALERDSENRDWKKTISLLTVLPTTEVANNIIQKILAKIRS--FLPSLK--LE-----AMT 2539 (3079)
+T ss_pred             HhcC--CccHHHHHHHHHHHHhccCCCcccHHHHHHHHHhcCCcchhHHHHHHHHHHHHh--hCCCCC--Cc-----ccC
+Confidence            9996  78999999999999999884 345888999999999987544555555555543  112111  11     127
+
+
+Q sp|P40468|TAO3 1688 SFLGNIWERLNYNGKRIIFSKAQLSIIFLVNLLTNLSESVKAKIPLLLHMSICLLDHYVPLIHESACKIASTLIFGLAPS 1767 (2376)
+Q Consensus      1688 ~~~~ei~~~L~~~~~~~~lsr~~laLi~L~dl~~~~~~~~~~~LP~LLHiv~llld~~~~~Vr~~~~~LLvnli~sl~~~ 1767 (2376)
+                      +.|.||+.          |.|..++|      +|++....+.|||++||+|+|++|+|++.||.++|+||+|++|+||++
+T Consensus      2540 ~~W~EIai----------L~R~~l~L------sF~s~~~~q~yLPEi~hIVTLLid~Gp~~vR~svhgLl~N~ihSL~t~ 2603 (3079)
+T sp|P19158|IRA2 2540 QSWSELTI----------LVKISIHV------FFETSLLVQMYLPEILFIVSLLIDVGPRELRSSLHQLLMNVCHSLAIN 2603 (3079)
+T ss_pred             ccHHHHHH----------HHHHHHHH------hccchhhhHhhhhHHHHHHhhhhcCCchHHHHHHHHHHHHHHHHHhcc
+Confidence            89999998          55655555      889999999999999999999999999999999999999999999998
+
+
+Q sp|P40468|TAO3 1768 HEKSEETVKL-------LRN--KHALWSYDNLMKK---------GARSPKTMDLLIRNIISIFSD-L----DEFQVTWQR 1824 (2376)
+Q Consensus      1768 ~~~~~~~~~~-------l~~--~~~lw~~~d~~~~---------~~~~~~~l~~lv~~lv~i~~~-~----~~l~~~W~~ 1824 (2376)
+                      ...+++..+.       +..  .+.+||..+..++         .......|+.|+..++++++. +    +.|+.||++
+T Consensus      2604 ~~l~~~~~~~L~~ll~~fs~~k~~~lFGls~~~~~~~~~~~~~s~~~~~~~Le~l~~~Ll~lme~~s~~~~n~WraRW~s 2683 (3079)
+T sp|P19158|IRA2 2604 SALPQDHRNNLDEISDIFAHQKVKFMFGFSEDKGRILQIFSASSFASKFNILDFFINNILLLMEYSSTYEANVWKTRYKK 2683 (3079)
+T ss_pred             CCCCccchhhHHHHHHHhcchhhhhhcCCccCCcccccccCcccccchhHHHHHHHHHHHHHHhcCCchhhHHHHHHHHH
+Confidence            7766544332       222  3789998664432         134578999999999999875 2    589999999
+
+
+Q sp|P40468|TAO3 1825 IALKWATTCSVRHIACRSFQIFRSLLT-FLDQEMLRDMLHRLSNTISDGNV--DIQGFAMQILMTLNAIMAELDPTNLIS 1901 (2376)
+Q Consensus      1825 ~Al~wAt~c~~r~iA~RSfqv~r~L~~-~ld~~~l~~lL~rL~~tia~~~~--~~~~~~~eIL~tL~~iv~~L~~~~~~~ 1901 (2376)
+                      ++++|| ++.++++|+|||+|+|||.+ .+|+++|++||++|+++++.+.+  +...++++|++||++++++|+++ +++
+T Consensus      2684 lv~s~A-Fq~np~lQ~RAf~vLG~Lak~~VdddLl~qlL~~l~~als~~~~~de~~~l~isil~cLskiv~gL~~~-S~~ 2761 (3079)
+T sp|P19158|IRA2 2684 YVLESV-FTSNSFLSARSIMIVGIMGKSYITEGLCKAMLIETMKVIAEPKITDEHLFLAISHIFTYSKIVEGLDPN-LDL 2761 (3079)
+T ss_pred             HHHHHh-ccCCccchhHHHHHHHHhccCCCChhHHHHHHHHHHHhhcCCCCCchhhHHHHHHHHHHHHHhcCCCCC-Chh
+Confidence            999999 56699999999999999999 89999999999999999998764  34899999999999999999776 789
+
+
+Q sp|P40468|TAO3 1902 FPQLFWSITACLSSIHEQEFIEVLSCLSKFISKIDL---D---SPDTVQCLVAIFPS--------------NWEG-RF-D 1959 (2376)
+Q Consensus      1902 ~pqLFW~avAlL~s~~e~eF~~aL~LL~~~L~~ld~---~---~~~~~~~Ll~~rp~--------------~w~~-~F-~ 1959 (2376)
+                      ++||||+|+||++++|+.+|.+||.||+.+|++++.   .   +..+.++|+++|.+              .|+. +| +
+T Consensus      2762 ~~qLFWlaiallq~~~~~lf~~al~lL~~~L~~L~~~~f~~~~~~~l~~~Ll~~R~~le~~~~~lD~~~Gisf~~~nF~f 2841 (3079)
+T sp|P19158|IRA2 2762 MKHLFWFSTLFLESRHPIIFEGALLFVSNCIRRLYMAQFENESETSLISTLLKGRKFAHTFLSKIENLSGIVWNEDNFTH 2841 (3079)
+T ss_pred             hhHHHHHHHHHHhcCChhhHHHHHHHHHHHHHHHHHhhhcccCCChHHHHHhhcccchHHHHHHHHhHcCceeecCCchH
+Confidence            999999999999999999999999999999999997   2   45788999999985              4775 89 6
+
+
+Q sp|P40468|TAO3 1960 GLQQIVMTGLRSANSLEITWKFLDKLNLLKDS 1991 (2376)
+Q Consensus      1960 gl~~lLlkGLrss~t~~~tl~~L~~L~~~~~~ 1991 (2376)
+                      +++++|+||||++.+++.++++|..|+++...
+T Consensus      2842 al~a~l~KGLr~p~~k~~a~~~L~~ll~~~~~ 2873 (3079)
+T sp|P19158|IRA2 2842 ILIFIINKGLSNPFIKSTAFDFLKMMFRNSYF 2873 (3079)
+T ss_pred             HHHHHHHhccCCcccHHHHHHHHHHHHhhhhh
+Confidence            99999999999999999999999999999883
+
+
+No 4
+>sp|P33892|GCN1_YEAST eIF-2-alpha kinase activator GCN1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=GCN1 PE=1 SV=1
+Probab=88.54  E-value=0.018  Score=83.81  Aligned_cols=112  Identities=7%  Similarity=-0.026  Sum_probs=62.4  Template_Neff=10.200
+
+Q sp|P40468|TAO3 1386 EDLLAWIEALFDSDNTTVKNLGVRALENLLDKNRE-NFKLFRDVAFQCVSHHSHPSVAVLYYTTLCKSVLKLDNLVLDED 1464 (2376)
+Q Consensus      1386 ~~~l~Wl~~Ll~s~~~~i~~l~~~AL~nLL~~N~d-~~~LL~~~i~~cY~~~~d~~v~~~yF~vla~Vl~~~~~~~~~~~ 1464 (2376)
+                      ..++..+...+.+.+..++..+.++|..++..-.+ ...+++.+++.......+..++.....+++.++...........
+T Consensus      1287 ~~i~~~Ll~~L~~~~~~vr~~a~~~L~~l~~~~~~~~~~~l~~l~~~L~~~~~~~~~r~~a~~~L~~l~~~~~~~~~~~~ 1366 (2672)
+T sp|P33892|GCN1 1287 HTIIERLLSTLDTPSADIQQAVSACIAPLVFQFKQKVGDYLGILMEKLLNPTVASSMRKGAAWGIAGLVKGYGISALSEF 1366 (2672)
+T ss_pred             HHHHHHHHHhcCCCCHHHHHHHHHHHHHHHHHhhhhHHHHHHHHHHHHhCCCCCHHHHHHHHHHHHHHHhhcCcccchhh
+Confidence            34666666677777778888888888888754332 23345555544443311235677777777776543211111111
+
+
+Q sp|P40468|TAO3 1465 ELVSLGLYGLVAD-KEDTRTFAVDLLSAVETKLH 1497 (2376)
+Q Consensus      1465 ~lL~laL~~l~s~-~~evR~~A~~LL~~l~~~f~ 1497 (2376)
+                      .++...+-.+.++ +..+|..+..++..+...+.
+T Consensus      1367 ~il~~l~~~l~~~~~~~~r~~a~~~l~~l~~~~~ 1400 (2672)
+T sp|P33892|GCN1 1367 DIIRNLIEAAEDKKEPKRRESVGFCFQYLSESLG 1400 (2672)
+T ss_pred             hHHHHHHHHhhCCCChHHHHHHHHHHHHHHHhhc
+Confidence            1122112222332 56788888888888877653
+
+
+No 5
+>sp|P33892|GCN1_YEAST eIF-2-alpha kinase activator GCN1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=GCN1 PE=1 SV=1
+Probab=86.40  E-value=0.032  Score=81.09  Aligned_cols=109  Identities=13%  Similarity=-0.003  Sum_probs=66.5  Template_Neff=10.200
+
+Q sp|P40468|TAO3 1387 DLLAWIEALFDSDNTTVKNLGVRALENLLDKNRE--NFKLFRDVAFQCVSHHSHPSVAVLYYTTLCKSVLKLDN-LVLDE 1463 (2376)
+Q Consensus      1387 ~~l~Wl~~Ll~s~~~~i~~l~~~AL~nLL~~N~d--~~~LL~~~i~~cY~~~~d~~v~~~yF~vla~Vl~~~~~-~~~~~ 1463 (2376)
+                      .++.-+...+.+.+..++..+..++..++.....  ...++..++......  +..++...+..+..+...... ..-..
+T Consensus      1409 ~il~~l~~~l~d~~~~vR~aa~~~l~~l~~~~~~~~~~~ll~~L~~~l~~~--~~~vr~~a~~~L~~l~~~~~~~~~~~l 1486 (2672)
+T sp|P33892|GCN1 1409 EILPNILKNLGDAVPEVRDATARATKAIMAHTTGYGVKKLIPVAVSNLDEI--AWRTKRGSVQLLGNMAYLDPTQLSASL 1486 (2672)
+T ss_pred             HHHHHHHHHhcCCChHHHHHHHHHHHHHHHhcChhhHHHHHHHHHHhcCCC--CHHHHHHHHHHHHHHhhcChhhHHHHH
+Confidence            3455555566677888999999999999987653  223344444333322  346777777777665432111 10011
+
+
+Q sp|P40468|TAO3 1464 DELVSLGLYGLVADKEDTRTFAVDLLSAVETKLH 1497 (2376)
+Q Consensus      1464 ~~lL~laL~~l~s~~~evR~~A~~LL~~l~~~f~ 1497 (2376)
+                      ..++...+-.+.+++++||..|...|..+...+.
+T Consensus      1487 ~~il~~l~~~L~d~~~~Vr~~a~~~L~~l~~~~~ 1520 (2672)
+T sp|P33892|GCN1 1487 STIVPEIVGVLNDSHKEVRKAADESLKRFGEVIR 1520 (2672)
+T ss_pred             HHHHHHHHHHHcCCChHHHHHHHHHHHHHHHhhc
+Confidence            3344444444567888999999999888876553
+
+
+No 6
+>sp|P33892|GCN1_YEAST eIF-2-alpha kinase activator GCN1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=GCN1 PE=1 SV=1
+Probab=84.25  E-value=0.049  Score=78.94  Aligned_cols=73  Identities=15%  Similarity=0.018  Sum_probs=47.0  Template_Neff=10.200
+
+Q sp|P40468|TAO3 2079 AQTLVFLLGLLFNKIGWIRVQTLEILKYVFPLIDLRRPEFIGVGADLISPLLRLLFT-E---YEAKALEVLDCVPNVSG 2153 (2376)
+Q Consensus      2079 ~~~~~~L~~lL~n~~~~~~~~~l~iL~~ll~~~d~~~~~~~~~g~dll~pllrll~t-~---~~~~AL~VLd~~~~~sg 2153 (2376)
+                      ..++.++...+.++....|...+..|..++.....  ..+..+...++.+|.+.+.. .   .-..|+++|...+...|
+T Consensus      2209 ~~i~~~l~~~l~~~~~~~r~~a~~~L~~lv~~~~~--~~l~~~~~~il~~Li~~l~~~~~~~vr~~al~~L~~ll~~~~ 2285 (2672)
+T sp|P33892|GCN1 2209 NCVLPIFLHGLMYGSNDEREESALAIADVVSKTPA--ANLKPFVSVITGPLIRVVGERFSSDIKAAILFALNVLFIKIP 2285 (2672)
+T ss_pred             cchHHHHHHhhcCCChHHHHHHHHHHHHHHhcCCh--hhhhhhHHHhHHHHHHHhccCCCHHHHHHHHHHHHHHHHhcc
+Confidence            33556665666667778888888888888776543  12233445677888888765 2   23467777777666555
+
+
+No 7
+>sp|P31383|2AAA_YEAST Protein phosphatase PP2A regulatory subunit A OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=TPD3 PE=1 SV=3
+Probab=78.76  E-value=0.11  Score=62.42  Aligned_cols=108  Identities=12%  Similarity=0.085  Sum_probs=62.8  Template_Neff=12.700
+
+Q sp|P40468|TAO3 1387 DLLAWIEALFDSDNTTVKNLGVRALENLLDKNRE----NFKLFRDVAFQCVSHHSHPSVAVLYYTTLCKSVLKLDNLVLD 1462 (2376)
+Q Consensus      1387 ~~l~Wl~~Ll~s~~~~i~~l~~~AL~nLL~~N~d----~~~LL~~~i~~cY~~~~d~~v~~~yF~vla~Vl~~~~~~~~~ 1462 (2376)
+                      .++..+..++.+.+..++..+.++|..+...-.+    ...++..++..+-+.  ++.++.....++..+..........
+T Consensus       280 ~~~~~l~~~l~~~~~~vr~~~~~~l~~l~~~~~~~~~~~~~~~~~l~~~l~~~--~~~vr~~a~~~l~~l~~~~~~~~~~  357 (635)
+T sp|P31383|2AAA  280 DLLNSAVKLIGDEAWRVRYMAADRFSDLASQFSSNQAYIDELVQPFLNLCEDN--EGDVREAVAKQVSGFAKFLNDPSII  357 (635)
+T ss_pred             HHHHHHHHHhcCccHHHHHHHHHHHHHHHHhcCCchhhhhhhHHHHHHHhcCC--CHHHHHHHHHHHHHHHHhcCChHHH
+Confidence            4566666777777888888888888888875443    234455555444433  4567777766665543221100000
+
+
+Q sp|P40468|TAO3 1463 EDELVSLGLYGLVADKEDTRTFAVDLLSAVETKL 1496 (2376)
+Q Consensus      1463 ~~~lL~laL~~l~s~~~evR~~A~~LL~~l~~~f 1496 (2376)
+                      ...++....-.+.+++..+|..+...|..+...+
+T Consensus       358 ~~~~~~~l~~~l~~~~~~vr~~~~~~l~~l~~~~  391 (635)
+T sp|P31383|2AAA  358 LNKILPAVQNLSMDESETVRSALASKITNIVLLL  391 (635)
+T ss_pred             HHHHHHHHHHhcCCCChhHHHHHHHHHHHHHhhc
+Confidence            1222222223345567789999888887777654
+
+
+No 8
+>sp|P32337|IMB3_YEAST Importin subunit beta-3 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=PSE1 PE=1 SV=2
+Probab=63.26  E-value=0.46  Score=61.11  Aligned_cols=80  Identities=9%  Similarity=0.105  Sum_probs=51.5  Template_Neff=12.200
+
+Q sp|P40468|TAO3 2071 RNYFPSYSAQTLVFLLGLLFNKIGWIRVQTLEILKYVFPLIDLRRPEFIGVGADLISPLLRLLFTE---YEAKALEVLDC 2147 (2376)
+Q Consensus      2071 ~~~~p~~~~~~~~~L~~lL~n~~~~~~~~~l~iL~~ll~~~d~~~~~~~~~g~dll~pllrll~t~---~~~~AL~VLd~ 2147 (2376)
+                      +.+.+ +...++..+..++.+....+|..++.+|..++.....   .+..+-.+++..+++.+...   ....|+.+|..
+T Consensus       851 ~~~~~-~~~~l~~~l~~~~~~~~~~~r~~~~~~l~~l~~~~~~---~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~l~~  926 (1089)
+T sp|P32337|IMB3  851 GHYLK-NLENIWPMINTFLLDNEPILVIFALVVIGDLIQYGGE---QTASMKNAFIPKVTECLISPDARIRQAASYIIGV  926 (1089)
+T ss_pred             hhhHh-hHHHHHHHHHHHhcCCChhHHHHHHHHHHHHHhhhch---hhhhhHHhhHHHHHHhhcCCCHhhHHHHHHHHHH
+Confidence            33433 3345667777777777788888899998888876532   22333456677777777542   34467777777
+
+
+Q sp|P40468|TAO3 2148 VPNVSGS 2154 (2376)
+Q Consensus      2148 ~~~~sg~ 2154 (2376)
+                      +....|.
+T Consensus       927 l~~~~~~  933 (1089)
+T sp|P32337|IMB3  927 CAQYAPS  933 (1089)
+T ss_pred             HHHhCCc
+Confidence            7666553
+
+
+No 9
+>sp|P31383|2AAA_YEAST Protein phosphatase PP2A regulatory subunit A OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=TPD3 PE=1 SV=3
+Probab=47.54  E-value=1.3  Score=52.08  Aligned_cols=107  Identities=14%  Similarity=0.051  Sum_probs=58.7  Template_Neff=12.700
+
+Q sp|P40468|TAO3 1387 DLLAWIEALFDSDNTTVKNLGVRALENLLDKNRE---NFKLFRDVAFQCVSHHSHPSVAVLYYTTLCKSVLKLDNLVLDE 1463 (2376)
+Q Consensus      1387 ~~l~Wl~~Ll~s~~~~i~~l~~~AL~nLL~~N~d---~~~LL~~~i~~cY~~~~d~~v~~~yF~vla~Vl~~~~~~~~~~ 1463 (2376)
+                      .+...+..++...+..++..+.++|..+......   ...++..+....-..  +..++...+.++..+........+ .
+T Consensus       399 ~~~~~l~~~l~~~~~~vr~~~~~~l~~l~~~~~~~~~~~~~~~~l~~~~~~~--~~~vr~~~~~~l~~l~~~~~~~~~-~  475 (635)
+T sp|P31383|2AAA  399 NFLPILLNMLRDEFPDVRLNIIASLKVVNDVIGIELLSDSLLPAITELAKDV--NWRVRMAIIEYIPILAEQLGMQFF-D  475 (635)
+T ss_pred             hHHHHHHHhhcCCCchHHHHHHHhhhhhhhhhchHhhhhhHHHHHHHHhcCC--ChHHHHHHHHHHHHHHHhcChhch-H
+Confidence            3455555666677788888888888888765432   122333333332222  346777777777655332111001 0
+
+
+Q sp|P40468|TAO3 1464 DELVSLGLYGLVADKEDTRTFAVDLLSAVETKL 1496 (2376)
+Q Consensus      1464 ~~lL~laL~~l~s~~~evR~~A~~LL~~l~~~f 1496 (2376)
+                      ..++....-.+.+++.++|..|...|..+...+
+T Consensus       476 ~~~~~~l~~~l~d~~~~vr~~a~~~l~~l~~~~  508 (635)
+T sp|P31383|2AAA  476 QQLSDLCLSWLWDTVYSIREAAVNNLKRLTEIF  508 (635)
+T ss_pred             HHHHHHHHHhhcCChHHHHHHHHHHHHHHHHHc
+Confidence            112222233345677888888888877776654
+
+
+No 10
+>sp|P31383|2AAA_YEAST Protein phosphatase PP2A regulatory subunit A OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=TPD3 PE=1 SV=3
+Probab=36.70  E-value=2.4  Score=49.34  Aligned_cols=110  Identities=8%  Similarity=-0.041  Sum_probs=60.8  Template_Neff=12.700
+
+Q sp|P40468|TAO3 1387 DLLAWIEALFDSDNTTVKNLGVRALENLLDKNREN---FKLFRDVAFQCVSHHSHPSVAVLYYTTLCKSVLKLDNLVLDE 1463 (2376)
+Q Consensus      1387 ~~l~Wl~~Ll~s~~~~i~~l~~~AL~nLL~~N~d~---~~LL~~~i~~cY~~~~d~~v~~~yF~vla~Vl~~~~~~~~~~ 1463 (2376)
+                      .+...+..++...+..++..+..+|..+.....+.   ..++...++..-....+..++..+..++..+...... ....
+T Consensus       477 ~~~~~l~~~l~d~~~~vr~~a~~~l~~l~~~~~~~~~~~~~~~~l~~~l~~~~~~~~~r~~~~~~l~~l~~~~~~-~~~~  555 (635)
+T sp|P31383|2AAA  477 QLSDLCLSWLWDTVYSIREAAVNNLKRLTEIFGSDWCRDEIISRLLKFDLQLLENFVSRFTILSALTTLVPVVSL-DVVT  555 (635)
+T ss_pred             HHHHHHHHhhcCChHHHHHHHHHHHHHHHHHcCchhHHHHHHHHHHHhhhhhccchHHHHHHHHHHHHhhcccCh-hhhh
+Confidence            45566667777788889999999999998765431   1223333322111111224555555555443221110 0001
+
+
+Q sp|P40468|TAO3 1464 DELVSLGLYGLVADKEDTRTFAVDLLSAVETKLH 1497 (2376)
+Q Consensus      1464 ~~lL~laL~~l~s~~~evR~~A~~LL~~l~~~f~ 1497 (2376)
+                      ..++...+-.+.+++.++|..|...|..+...+.
+T Consensus       556 ~~~~~~l~~~l~~~~~~vr~~a~~~l~~l~~~~~  589 (635)
+T sp|P31383|2AAA  556 EQLLPFISHLADDGVPNIRFNVAKSYAVIVKVLI  589 (635)
+T ss_pred             HhHHHHHHHHhcCCChHHHHHHHHHHHHHHHHhh
+Confidence            2333333444566778899999988888876654
+
+
+No 11
+>sp|P49955|SF3B1_YEAST U2 snRNP component HSH155 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=HSH155 PE=1 SV=1
+Probab=35.89  E-value=2.6  Score=53.12  Aligned_cols=102  Identities=13%  Similarity=0.085  Sum_probs=52.8  Template_Neff=10.900
+
+Q sp|P40468|TAO3 1394 ALFDSDNTTVKNLGVRALENLLDKNREN--F-----KLFRDVAFQCVSHHSHPSVAVLYYTTLCKSVLKLDNLVLDEDEL 1466 (2376)
+Q Consensus      1394 ~Ll~s~~~~i~~l~~~AL~nLL~~N~d~--~-----~LL~~~i~~cY~~~~d~~v~~~yF~vla~Vl~~~~~~~~~~~~l 1466 (2376)
+                      ..+...+..++..+..+|..+.......  .     .+++.++........+...+...+.+++.++..  .+.-....+
+T Consensus       524 ~~l~d~~~~vr~~a~~~l~~l~~~~~~~~~~~~l~~~ll~~l~~~l~~~~~~~~~~~~al~~l~~~~~~--~~~~~l~~l  601 (971)
+T sp|P49955|SF3B  524 TPLRDEAEPFRTMAVHAVTRTVNLLGTADLDERLETRLIDALLIAFQEQTNSDSIIFKGFGAVTVSLDI--RMKPFLAPI  601 (971)
+T ss_pred             hhccCCChhHHHHHHHHHHHHHHhcCcCcchhhHHHHHHHHHHHHHhcCCCChHHHHHHHHHHHHhcCc--cccchhHHH
+Confidence            3344455666777777776665543221  0     133333333332222234556666666665422  111011233
+
+
+Q sp|P40468|TAO3 1467 VSLGLYGLVADKEDTRTFAVDLLSAVETKLH 1497 (2376)
+Q Consensus      1467 L~laL~~l~s~~~evR~~A~~LL~~l~~~f~ 1497 (2376)
+                      +...+..+.+++..+|..|..++..+.....
+T Consensus       602 ~~~l~~~l~d~~~~vr~~a~~~l~~l~~~~~  632 (971)
+T sp|P49955|SF3B  602 VSTILNHLKHKTPLVRQHAADLCAILIPVIK  632 (971)
+T ss_pred             HHHHHHhhcCCCHHHHHHHHHHHHHHHHHhh
+Confidence            3333344566788999999998888876543
+
+
+No 12
+>sp|P49955|SF3B1_YEAST U2 snRNP component HSH155 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=HSH155 PE=1 SV=1
+Probab=35.50  E-value=2.6  Score=53.01  Aligned_cols=129  Identities=10%  Similarity=0.017  Sum_probs=77.4  Template_Neff=10.900
+
+Q sp|P40468|TAO3 1350 RLQMIVLETMVVLCSDPITQTLDDDLELPIVISFDTEDLLAWIEALFDSDNTTVKNLGVRALENLLDKNRE------NFK 1423 (2376)
+Q Consensus      1350 ~L~~AAl~AMA~Lc~Gp~~~~~~~~~~~~~~~s~~~~~~l~Wl~~Ll~s~~~~i~~l~~~AL~nLL~~N~d------~~~ 1423 (2376)
+                      .+..+++.++..++........          . ....+...+..++...+..++..+.++|..|+.....      ...
+T Consensus       811 ~vr~~al~al~~l~~~~~~~~~----------~-~~~~l~~~l~~ll~~~~~~vr~~a~~~l~~l~~~~~~~~~~~~~~~  879 (971)
+T sp|P49955|SF3B  811 NVQNGVLKAMSFMFEYIGNMSK----------D-YIYFITPLLEDALTDRDLVHRQTASNVITHLALNCSGTGHEDAFIH  879 (971)
+T ss_pred             hhHHHHHHHHHHHHHHhcccCh----------h-hHHHHHHHHHHHHhCCCHHHHHHHHHHHHHHHHhccccCcHHHHHH
+Confidence            4566777777666544221100          0 1234566677777777788999999999999876532      234
+
+
+Q sp|P40468|TAO3 1424 LFRDVAFQCVSHHSHPSVAVLYYTTLCKSVLKLDNLVLDEDELVSLGLYGLVADKEDTRTFAVDLLSAVETKL 1496 (2376)
+Q Consensus      1424 LL~~~i~~cY~~~~d~~v~~~yF~vla~Vl~~~~~~~~~~~~lL~laL~~l~s~~~evR~~A~~LL~~l~~~f 1496 (2376)
+                      +++.++..-+..  ++.++.....++..++...     ....++...+..+.++...+|..+...++.+....
+T Consensus       880 ~l~~l~~~l~~~--~~~v~~~~l~~l~~l~~~~-----~~~~l~~~l~~~l~~~~~~vr~~~~~~~~~~~~~~  945 (971)
+T sp|P49955|SF3B  880 LMNLLIPNIFET--SPHAIMRILEGLEALSQAL-----GPGLFMNYIWAGLFHPAKNVRKAFWRVYNNMYVMY  945 (971)
+T ss_pred             HHHHHhhhhccC--CHHHHHHHHHHHHHHHHhh-----ChhhhHHHHHHhccCchHHHHHHHHHHHHHHhhhc
+Confidence            555556555533  4456666666666553221     11233444455566778888888888777776443
+
+
+No 13
+>sp|P22219|VPS15_YEAST Serine/threonine-protein kinase VPS15 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=VPS15 PE=1 SV=4
+Probab=35.44  E-value=2.6  Score=55.20  Aligned_cols=281  Identities=14%  Similarity=0.158  Sum_probs=136.9  Template_Neff=7.500
+
+Q sp|P40468|TAO3 1838 IACRSFQIFRSLLTFLDQEML-RDMLHRLSNTISDGNVDIQGFAMQILMTLNAIMAELDPTNLISFPQLFWSITACLSSI 1916 (2376)
+Q Consensus      1838 iA~RSfqv~r~L~~~ld~~~l-~~lL~rL~~tia~~~~~~~~~~~eIL~tL~~iv~~L~~~~~~~~pqLFW~avAlL~s~ 1916 (2376)
+                      ...+++.++..+...++++.. ..+|=-|...+.+.....+..++..+..+-.+|..+++.+..+++...|-.+.-|-.+
+T Consensus       441 ~k~~al~ll~~l~~~~~de~~ldrilPyl~~~l~d~~~~V~~~Al~~l~~~L~~V~~i~~~d~~if~eYIlP~l~~l~~~  520 (1454)
+T sp|P22219|VPS1  441 TKLKNLELLAVFAQFVSDENKIDRVVPYFVCCFEDSDQDVQALSLLTLIQVLTSVRKLNQLNENIFVDYLLPRLKRLLIS  520 (1454)
+T ss_pred             HHHHHHHHHHHHHhhCCchhhhhhHHHHHHHHhcCCchHHHHHHHHHHHHHHhhcccCCcccccchhhhhhHhHHHHhcc
+Confidence            334567888888887766654 4477777778877777778888777777777788888877777777777766655444
+
+
+Q sp|P40468|TAO3 1917 HE-------QEFIEVLSCLSKFISKIDLDSPDTVQCLVAIFP-----SNWEGRFD--------GLQQIVMTGLRSANSLE 1976 (2376)
+Q Consensus      1917 ~e-------~eF~~aL~LL~~~L~~ld~~~~~~~~~Ll~~rp-----~~w~~~F~--------gl~~lLlkGLrss~t~~ 1976 (2376)
+                      ..       ..|.+.|.-|-....+.-.    +.+.+.....     ..-...|.        .++.++..=|..+.+ .
+T Consensus       521 ~~~~~~~Vr~~~a~~l~~La~~a~rfl~----~~~~~~~~~~~~~~~~~~~~~~d~~~~~L~~~~~~~~~~LltD~~~-~  595 (1454)
+T sp|P22219|VPS1  521 NRQNTNYLRIVFANCLSDLAIIINRFQE----FTFAQHCNDNSMDNNTEIMESSTKYSAKLIQSVEDLTVSFLTDNDT-Y  595 (1454)
+T ss_pred             CCCCchHHHHHHHHHHHHHHHHHHHHHH----HHHHhhccCCCCCCcccccccchhHHHHHHHHHHHHHHHHhcCCCh-H
+Confidence            21       2233333333332222211    0000000000     00000110        111111111111110 0
+
+
+Q sp|P40468|TAO3 1977 ITWKFLDKLNLLKDSRIIANTESRLLFALIANLPRFLNAMDRKDFTGIQVAADSLIELANAYKQPSLSRLIDSLAKNKFR 2056 (2376)
+Q Consensus      1977 ~tl~~L~~L~~~~~~~li~~s~~rl~~~~~a~LP~~l~~~~~~~~~~~~~~a~~la~~~~~~~~~~l~~i~~~~a~~~fr 2056 (2376)
+                      .-..+|..+..+  +..+|.  .+--..   +||+++-.+.+.+..--..+-+.|..+|.--|...+..++-=+.-....
+T Consensus       596 VkraLL~~i~~L--c~FfG~--~k~nd~---lLsHliTyLND~Dw~LR~aFfe~IvgVa~~vG~~s~e~~ilPll~Q~L~  668 (1454)
+T sp|P22219|VPS1  596 VKMALLQNILPL--CKFFGR--ERTNDI---ILSHLITYLNDKDPALRVSLIQTISGISILLGTVTLEQYILPLLIQTIT  668 (1454)
+T ss_pred             HHHHHHhChHHH--HHhhCc--Ccchhh---hHHhHHHhhcCCChHHHHHHHhhhhhhhhhhcchhhHHHHHHHHHHhcC
+Confidence            011223332222  233442  111112   2333333333222100011223344444333444443443333334445
+
+
+Q sp|P40468|TAO3 2057 SKKDFM-SQVVSFISRN----Y-FPSYSAQTLVFLLGLLFNKIGWIRVQTLEILKYVFPLIDLRRPEFIGVGADLISPLL 2130 (2376)
+Q Consensus      2057 ~~~dfl-~~~~~~l~~~----~-~p~~~~~~~~~L~~lL~n~~~~~~~~~l~iL~~ll~~~d~~~~~~~~~g~dll~pll 2130 (2376)
+                      +.++|+ ..+..+|..-    . ....-.+++.-...||.....|+|..+..++..+-.....  ......-.-+|+|.+
+T Consensus       669 D~EE~VV~~aL~~l~~L~~lgLl~k~~~~el~~~~~pll~HPN~WIR~aav~fI~~~a~~Ls~--aD~~c~l~P~i~PfL  746 (1454)
+T sp|P22219|VPS1  669 DSEELVVISVLQSLKSLFKTGLIRKKYYIDISKTTSPLLLHPNNWIRQFTLMIIIEIINKLSK--AEVYCILYPIIRPFF  746 (1454)
+T ss_pred             CCchHHHHHHHHHHHHHHHcCCCChhHHHHHHHhhhhhhcCccHHHHHHHHHHHHHHHhcCCc--cceeEEeeecccccc
+Confidence            555552 2333333321    1 2223456777778899999999999999999998888754  334455556777777
+
+
+Q sp|P40468|TAO3 2131 RL 2132 (2376)
+Q Consensus      2131 rl 2132 (2376)
+                      |.
+T Consensus       747 ~~  748 (1454)
+T sp|P22219|VPS1  747 EF  748 (1454)
+T ss_pred             cC
+Confidence            65
+
+
+No 14
+>sp|Q04002|SCC2_YEAST Sister chromatid cohesion protein 2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=SCC2 PE=1 SV=1
+Probab=26.51  E-value=4.7  Score=52.74  Aligned_cols=130  Identities=13%  Similarity=0.161  Sum_probs=84.6  Template_Neff=7.500
+
+Q sp|P40468|TAO3 1349 NRLQMIVLETMVVLCSDPITQTLDDDLELPIVISFDTEDLLAWIEALFDSDNTTVKNLGVRALENLLD------------ 1416 (2376)
+Q Consensus      1349 ~~L~~AAl~AMA~Lc~Gp~~~~~~~~~~~~~~~s~~~~~~l~Wl~~Ll~s~~~~i~~l~~~AL~nLL~------------ 1416 (2376)
+                      ..++.+|+.++..+|..-+-.-             .-..+...++..|++.+..++..+.++|.-+|.            
+T Consensus      1111 ~~iR~~AL~aLG~lc~~~P~l~-------------~~~~v~~~~~~~l~~~~~~lk~~vL~~l~dfL~~EE~r~~~~~~~ 1177 (1493)
+T sp|Q04002|SCC2 1111 HVIRRVAVKNLTKLCGNHPKLF-------------NSRHVLHLLDKEFQSDQLDIKLVILESLYDLFLLEERKSVRNTGV 1177 (1493)
+T ss_pred             hhHHHHHHHHHHHHHhhCcccc-------------cchHHHHHHHHhccCCChhHHHHHHHHHHHHHHHHHhhhhcccCC
+Confidence            3678899999999988765211             113345566666666555555555555555440            
+
+
+Q sp|P40468|TAO3 1417 ----------------KN-----------RENFKLFRDVAFQCVSHHSHPSVAVLYYTTLCKSVLKLDNLVLD-EDELVS 1468 (2376)
+Q Consensus      1417 ----------------~N-----------~d~~~LL~~~i~~cY~~~~d~~v~~~yF~vla~Vl~~~~~~~~~-~~~lL~ 1468 (2376)
+                                      .|           .=....++++++.|.+.  +..++..-++++..++.+|=-+|-. ...++ 
+T Consensus      1178 ~~~~~~~~~~~~~~l~g~~~~~~~dgvasslvQryl~~Il~~~ls~--~~~vr~~Al~vl~~ilrQGLvhP~~c~p~LI- 1254 (1493)
+T sp|Q04002|SCC2 1178 NSTLSSNSILKKKLLKTNRVEFANDGVCSALATRFLDNILQLCLLR--DLKNSLVAIRLLKLILKFGYTNPSHSIPTVI- 1254 (1493)
+T ss_pred             CCCCCcchhhhhhcccCCcccccccchHHHHHHHHHHHHHHHHhCC--CchHHHHHHHHHHHHHhcCCCChhhhhhHhh-
+Confidence                            11           00224567777777776  5578888888888888887555533 22333 
+
+
+Q sp|P40468|TAO3 1469 LGLYGLVADKEDTRTFAVDLLSAVETKLH 1497 (2376)
+Q Consensus      1469 laL~~l~s~~~evR~~A~~LL~~l~~~f~ 1497 (2376)
+                         .-.+++++.||..|+.++..+.+++.
+T Consensus      1255 ---ALetd~~~~Ir~~A~~~l~~L~eKhe 1280 (1493)
+T sp|Q04002|SCC2 1255 ---ALFASTSQYIRHVAYELLEDLFEKYE 1280 (1493)
+T ss_pred             ---hhcCCCcHHHHHHHHHHHHHHHhhch
+Confidence               22456899999999999999998875
+
+
+No 15
+>sp|P31383|2AAA_YEAST Protein phosphatase PP2A regulatory subunit A OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=TPD3 PE=1 SV=3
+Probab=24.52  E-value=5.4  Score=45.97  Aligned_cols=33  Identities=15%  Similarity=0.181  Sum_probs=25.6  Template_Neff=12.700
+
+Q sp|P40468|TAO3 1387 DLLAWIEALFDSDNTTVKNLGVRALENLLDKNR 1419 (2376)
+Q Consensus      1387 ~~l~Wl~~Ll~s~~~~i~~l~~~AL~nLL~~N~ 1419 (2376)
+                      .++..+..++...+..++..+.++|..|+....
+T Consensus       557 ~~~~~l~~~l~~~~~~vr~~a~~~l~~l~~~~~  589 (635)
+T sp|P31383|2AAA  557 QLLPFISHLADDGVPNIRFNVAKSYAVIVKVLI  589 (635)
+T ss_pred             hHHHHHHHHhcCCChHHHHHHHHHHHHHHHHhh
+Confidence            466666777777888899999999998887643
+
+
+No 16
+>sp|P39968|VAC8_YEAST Vacuolar protein 8 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=VAC8 PE=1 SV=3
+Probab=24.41  E-value=5.4  Score=45.81  Aligned_cols=32  Identities=6%  Similarity=0.149  Sum_probs=26.7  Template_Neff=11.900
+
+Q sp|P40468|TAO3 1159 KSIFKMVLPLLNAKYIMIRDAIITGLSSMNIN 1190 (2376)
+Q Consensus      1159 ~~lf~~lvplL~se~~~iRdAvv~aLGsin~~ 1190 (2376)
+                      .+.+..++.+|.+++..+|..+..+|+.+...
+T Consensus        46 ~~~~~~L~~~l~~~~~~~~~~a~~~L~~l~~~   77 (578)
+T sp|P39968|VAC8   46 GGPLKALTTLVYSDNLNLQRSAALAFAEITEK   77 (578)
+T ss_pred             CCcHHHHHHHhcCCChHHHHHHHHHHHHHHhh
+Confidence            36788888999999999999999999885543
+
+
+No 17
+>sp|Q02821|IMA1_YEAST Importin subunit alpha OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=SRP1 PE=1 SV=1
+Probab=22.96  E-value=6  Score=45.09  Aligned_cols=61  Identities=18%  Similarity=0.187  Sum_probs=40.0  Template_Neff=11.600
+
+Q sp|P40468|TAO3 1350 RLQMIVLETMVVLCSDPITQTLDDDLELPIVISFDTEDLLAWIEALFDSDNTTVKNLGVRALENLLDKNRE 1420 (2376)
+Q Consensus      1350 ~L~~AAl~AMA~Lc~Gp~~~~~~~~~~~~~~~s~~~~~~l~Wl~~Ll~s~~~~i~~l~~~AL~nLL~~N~d 1420 (2376)
+                      .+...|+.+++.|+.+......       .   ..-..++..+..++.+.+..++..+..+|.+|...+++
+T Consensus       314 ~~~~~a~~~L~~l~~~~~~~~~-------~---~~~~~~~~~L~~ll~~~~~~~~~~a~~~L~~l~~~~~~  374 (542)
+T sp|Q02821|IMA1  314 LVQTPALRAVGNIVTGNDLQTQ-------V---VINAGVLPALRLLLSSPKENIKKEACWTISNITAGNTE  374 (542)
+T ss_pred             ccHHHHHHHHHHHhcCChHHHH-------H---HHHcCCHHHHHHHhcCCchhHHHHHHHHHHHHhcCCHH
+Confidence            3556777788777665321110       0   00124566677777778888999999999999887654
+
+
+No 18
+>sp|Q04264|PDS5_YEAST Sister chromatid cohesion protein PDS5 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=PDS5 PE=1 SV=1
+Probab=20.21  E-value=7.5  Score=49.90  Aligned_cols=105  Identities=12%  Similarity=0.197  Sum_probs=82.8  Template_Neff=7.800
+
+Q sp|P40468|TAO3 1385 TEDLLAWIEALFDSDNTTVKNLGVRALENLLDKNR------ENFKLFRDVAFQCVSHHSHPSVAVLYYTTLCKSVLKLDN 1458 (2376)
+Q Consensus      1385 ~~~~l~Wl~~Ll~s~~~~i~~l~~~AL~nLL~~N~------d~~~LL~~~i~~cY~~~~d~~v~~~yF~vla~Vl~~~~~ 1458 (2376)
+                      ...+..||...+.+.+..+|..|.++|..|+...+      ++..++...+.||-..  ++.+|..+.+++.+++....+
+T Consensus       277 l~~vip~L~~~L~~~d~~~R~~Av~~Lg~l~~~~~~~~~~~~~~~l~~~~L~R~~D~--~~~VR~~~v~~l~~il~~~~~  354 (1277)
+T sp|Q04264|PDS5  277 INAVIGFIYHELSSENELFRKEATKLIGQILTSYSDLNFVSTHSDTFKAWISKIADI--SPDVRVEWTESIPQIIATRED  354 (1277)
+T ss_pred             HHHHHHHHHHHhcCCCHHHHHHHHHHHHHHHHhCCCcchhhhhHHHHHHHHhhcCCC--CchHHHHHHHHHHHHHhcChh
+Confidence            35688999999999999999999999999996422      3467888999999987  668999999999998776543
+
+
+Q sp|P40468|TAO3 1459 LVLDEDELVSLGLYGLVADKEDTRTFAVDLLSAVET 1494 (2376)
+Q Consensus      1459 ~~~~~~~lL~laL~~l~s~~~evR~~A~~LL~~l~~ 1494 (2376)
+                      +   ...++....-.+.+++..||..|...+..+..
+T Consensus       355 l---~~~i~~~L~~rl~D~de~VR~~av~~l~~l~~  387 (1277)
+T sp|Q04264|PDS5  355 I---SKELNQALAKTFIDSDPRVRRTSVMIFNKVPV  387 (1277)
+T ss_pred             h---HHHHHHHHHHhcCCCChHHHHHHHHHHhcCch
+Confidence            2   13344444556778999999999998877654
+
+
+No 19
+>sp|P46675|STU2_YEAST Protein STU2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=STU2 PE=1 SV=1
+Probab=20.03  E-value=7.6  Score=47.91  Aligned_cols=98  Identities=11%  Similarity=0.006  Sum_probs=66.7  Template_Neff=8.200
+
+Q sp|P40468|TAO3 1395 LFDSDNTTVKNLGVRALENLLDKNRENFKLFRDVAFQCVSHHSHPSVAVLYYTTLCKSVLKLDNLVLD-------EDELV 1467 (2376)
+Q Consensus      1395 Ll~s~~~~i~~l~~~AL~nLL~~N~d~~~LL~~~i~~cY~~~~d~~v~~~yF~vla~Vl~~~~~~~~~-------~~~lL 1467 (2376)
+                      ++.+....+++.+.++|..+++.......+++.++..+=+  ..+.++.+++.+|+.++..   |.+.       ...++
+T Consensus       111 ~l~s~r~~~r~~A~eaL~~l~e~~~~~~~vie~Ll~~l~~--k~pkv~~a~l~~L~~il~~---~g~~~~~~~~~~~~ll  185 (888)
+T sp|P46675|STU2  111 GLTSSRATTKTQSMSCILSLCGLDTSITQSVELVIPFFEK--KLPKLIAAAANCVYELMAA---FGLTNVNVQTFLPELL  185 (888)
+T ss_pred             cCCCCchhhHHHHHHHHHHHHhcCCChhhHHHHHHHhhcC--CChHHHHHHHHHHHHHHHH---hCCCccccccchhHHH
+Confidence            3333456788999999999998722233456655544332  3678999999999988653   3322       12233
+
+
+Q sp|P40468|TAO3 1468 SLGLYGLVADKEDTRTFAVDLLSAVETKLH 1497 (2376)
+Q Consensus      1468 ~laL~~l~s~~~evR~~A~~LL~~l~~~f~ 1497 (2376)
+                      ....-.+++.|.+||..|.+++..+.....
+T Consensus       186 ~~l~kll~dad~~VR~aA~~ll~~l~~~lg  215 (888)
+T sp|P46675|STU2  186 KHVPQLAGHGDRNVRSQTMNLIVEIYKVTG  215 (888)
+T ss_pred             hhhhhhhcCCCHHHHHHHHHHHHHHHHHhC
+Confidence            333345678899999999999999988764
+
+

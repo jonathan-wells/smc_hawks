@@ -1,0 +1,213 @@
+Query         sp|Q03718|NSE5_YEAST Non-structural maintenance of chromosome element 5 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=NSE5 PE=1 SV=1
+Match_columns 556
+No_of_seqs    39 out of 42
+Neff          5.5
+Searched_HMMs 6721
+Date          Mon Apr 11 01:48:24 2016
+Command       hhsearch -i Q03718.hhm -d /usr/local/hh-suite/db/saccharomyces_cerevisiae/scerevisiae -cpu 2 -v 0 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 sp|Q03718|NSE5_YEAST Non-struc 100.0  5E-146  8E-150 1177.0   0.0  547    1-556     1-556 (556)
+  2 sp|P0C5L2|YB076_YEAST Putative   8.7      26  0.0038   24.4   0.0   19  127-145    43-66  (88)
+  3 sp|Q07829|RRT7_YEAST Putative    6.2      40   0.006   24.2   0.0   23   10-32     90-112 (113)
+  4 sp|O13539|THP2_YEAST THO compl   5.3      49  0.0073   28.4   0.0   48   93-150   142-189 (261)
+  5 sp|Q3E737|YJ047_YEAST Uncharac   4.5      60  0.0089   19.8   0.0   15   71-85      7-21  (44)
+  6 sp|Q8TGP5|YD464_YEAST Putative   2.8 1.1E+02   0.016   19.7   0.0   17  480-496    42-58  (62)
+  7 sp|Q12281|YD032_YEAST Putative   2.6 1.2E+02   0.018   21.1   0.0   35  102-136    14-51  (103)
+  8 sp|Q8TGQ8|YO85A_YEAST Putative   2.6 1.2E+02   0.018   19.8   0.0   11  219-229     8-18  (70)
+  9 sp|P06633|HIS7_YEAST Imidazole   2.5 1.2E+02   0.018   24.9   0.0   23    1-23    124-146 (220)
+ 10 sp|Q8TGM4|YL286_YEAST Putative   2.3 1.4E+02   0.021   18.3   0.0   14  293-306     8-21  (44)
+
+No 1
+>sp|Q03718|NSE5_YEAST Non-structural maintenance of chromosome element 5 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=NSE5 PE=1 SV=1
+Probab=100.00  E-value=5.2e-146  Score=1176.98  Aligned_cols=547  Identities=96%  Similarity=1.414  Sum_probs=520.0  Template_Neff=4.600
+
+Q sp|Q03718|NSE5    1 MDGALINSVLYVSPRNGAHYFVELTEKHLLAFEMLNSMCLLENYDHVLLFLECQFGKSHNLAVIPFDIILVLFTLSTLSE   80 (556)
+Q Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~FE~lnS~c~~~~Yd~lL~~LE~~~~~~~~l~vpp~dVi~VL~TLaTis~   80 (556)
+                      ||||+||||-||++++++||||||||++|++||+|||||++|||||||+|||||++++++|+|||+|||+|||||||||+
+T Consensus         1 ~~~~~~~~~~yv~g~~~p~Y~VeLte~~L~~FE~lNS~c~l~~Yd~LL~~LE~~~~~~~~l~vpp~dVi~VL~TLaTvs~   80 (556)
+T sp|Q03718|NSE5    1 MDGALINSVLYVSPRNGAHYFVELTEKHLLAFEMLNSMCLLENYDHVLLFLECQFGKSHNLAVIPFDIILVLFTLSTLSE   80 (556)
+T ss_pred             CCCcceeeeEEecCCCCcceeeecchhhhhHHHHHHhhhhccChHHHHHHHHHhhcCCCceecCCHHHHHHHHHhhhccC
+Confidence            89999999999999999999999999999999999999999999999999999999889999999999999999999999
+
+
+Q sp|Q03718|NSE5   81 YYKEPILRANDPYNTSRETLSRRALKLLQKYLAILKEFDSEQYNLYDLELLRCQFFLAIDTLTPKKQKWGFDRFRRTKSE  160 (556)
+Q Consensus        81 ~~k~~~lr~ndpyn~~r~~ls~RaikiL~~~v~il~~fd~~~y~~y~LelLRcQfF~~iD~l~p~~~~~~~~~~~~~k~~  160 (556)
+                      |||++++|+|||||+||+++|+|||||||+||+||++||+++|++|||||||||||+|||+++|+++++..+|+||+|.+
+T Consensus        81 ~yk~~~lr~nDpyn~~r~~ls~RaikiL~~yv~il~~fD~~~y~~ydLELLRCQfFl~iDsl~p~~~~~~~~r~kr~kt~  160 (556)
+T sp|Q03718|NSE5   81 YYKEPILRANDPYNTSRETLSRRALKLLQKYLAILKEFDSEQYNLYDLELLRCQFFLAIDTLTPKKQKWGFDRFRRTKSE  160 (556)
+T ss_pred             ccccchhhhcCCCCCcccchhHHHHHHHHHHHHHHhhcCccccchhcHHHHHhhHHHHhhhcccCccccCCcccccccCC
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999986778888866
+
+
+Q sp|Q03718|NSE5  161 SG-VTYRQNASVDPELDQAKTFKNPYRSYISCLEQRNTILGNRLLNLKLNEPGEFINMILWTLSNSLQESTPLFLSSHEI  239 (556)
+Q Consensus       161 ~~-~~~~~~~~~~~~~~~~~~~~~py~~~~~~~~~~~~Vf~n~LL~~kLs~~g~fWNlI~WTL~cS~~s~~~~y~~~h~I  239 (556)
+                      ++ ..+... ++++++..+.+++|||.++.+|.|++++||||+||+.+|+|+|+|||||+|||+||+++++++|++||++
+T Consensus       161 ~~~~~~~~~-~~~~~~~~~~~~~npy~sYis~Le~k~~Vfgn~LL~~kLs~~geFwNlI~WTL~cS~~~~~~~~~~~he~  239 (556)
+T sp|Q03718|NSE5  161 SGVTYRQNA-SVDPELDQAKTFKNPYRSYISCLEQRNTILGNRLLNLKLNEPGEFINMILWTLSNSLQESTPLFLSSHEI  239 (556)
+T ss_pred             CCccccccC-CCCccccccccCCCCCcccceeeccCcceecccchhhhcCCCcchHHHHHHHHHhccCCCccchhhhHhH
+Confidence            66 444433 6778888999999999999999999999999999999999999999999999999999999999999999
+
+
+Q sp|Q03718|NSE5  240 WMPLLEILIDLFSCRQDYFIQHEVAQNVSKSLFVQRLSESPLAVFFESLNTRNFANRFSEYVFLNCDYKLPSDNYATPVH  319 (556)
+Q Consensus       240 W~piL~lIfDi~elr~~yfl~~e~~~~~~k~~~~q~ls~spL~~lf~qlgs~~~~dRf~EyVF~gc~~~~~~~~~~~~p~  319 (556)
+                      |+|+|++||||+|+||+||+++|+.++.+++.++|+|++|||++||+++|+.+|++|||||||+||+++.++++++..||
+T Consensus       240 W~piLdlIfDi~elr~~yfl~~e~~~~~~k~~~~q~L~eSPLa~L~kslgs~~~~~rf~EyIF~gc~~~~~~~~~~~~p~  319 (556)
+T sp|Q03718|NSE5  240 WMPLLEILIDLFSCRQDYFIQHEVAQNVSKSLFVQRLSESPLAVFFESLNTRNFANRFSEYVFLNCDYKLPSDNYATPVH  319 (556)
+T ss_pred             HHHHHHHHHHHHHhhhHHHHHhhhhcCCchhhHHHhhccChHHHHHHhhccchHHHHHHHHhhcCCCCCCCCCCCCCCcc
+Confidence            99999999999999999999999999999999999999999999999998779999999999999999998788889999
+
+
+Q sp|Q03718|NSE5  320 PVYNGENTIVDTYIPTIKCSPLYKSQKSLALRRKLIGSCFKLLLRVPDGHRLITPRIVADDVIQGISRTLASFNDILQFK  399 (556)
+Q Consensus       320 p~Y~~E~~L~k~~~~r~~~~~~yk~~~SM~LRrKIi~l~~~ll~~~p~~~~l~~p~~s~d~li~~iS~kL~~~~di~~fk  399 (556)
+                      |||++|++++++|+|+.+++++||+.+||+|||||+++||+++..+|+++++..|++++++++++||++|++++|++||+
+T Consensus       320 pvY~~E~~L~~~~~~r~~ys~~yK~~~SM~LRrKii~l~f~lL~~vp~~~~l~~p~ls~d~li~~Ls~~L~~~~di~~Fk  399 (556)
+T sp|Q03718|NSE5  320 PVYNGENTIVDTYIPTIKCSPLYKSQKSLALRRKLIGSCFKLLLRVPDGHRLITPRIVADDVIQGISRTLASFNDILQFK  399 (556)
+T ss_pred             ccCCCCcccccccccccccCcchhhhhhHHHHHHHHHHHHHHhcccCCCCcccCCCCCHHHHHHHHHHHhhchhcHHHHH
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q sp|Q03718|NSE5  400 KFFMTENLSQESYFIPLLAEGTLSEILKDTQECVV-ILTLVENLSDGVSFCNEVIGLVKSKC---FAFTEQCSQASYEEA  475 (556)
+Q Consensus       400 ~FF~s~~~~~~~~FLp~Lae~~L~ei~~~~~~~~~-~~~lv~~l~~~d~~l~ell~l~~~~~---~~f~e~et~~s~~~f  475 (556)
+                      +||+++++++++.|||.|||+||++++++.+ +.. ++++|++++|.+++++|+++++++|+   +++.+++   +.++.
+T Consensus       400 ~FF~t~~~~~~~~fIP~laE~tl~el~~~~~-~~~~~~~lv~nl~n~~~f~~e~~~l~~~g~~~f~~~~~~~---~~~~~  475 (556)
+T sp|Q03718|NSE5  400 KFFMTENLSQESYFIPLLAEGTLSEILKDTQ-ECVVILTLVENLSDGVSFCNEVIGLVKSKCFAFTEQCSQA---SYEEA  475 (556)
+T ss_pred             HHhcccCccccchhhhHHHHHHHHHHHHhhc-CCeeEEEEeecCCChhHHHHHHHHHHhhcccccccccccC---Cchhh
+Confidence            9999999966889999999999999999999 555 99999999999999999999999999   4554433   79999
+
+
+Q sp|Q03718|NSE5  476 VLNIEKCDVCLLVLLRYLLHLIGTEAILD-AKEQLEMLHAIEKNDSGRRQWAKALN--LGN-DPPLLYPIVSQMFGVHDK  551 (556)
+Q Consensus       476 ~~~~~K~dicLl~Llr~~l~~~~~~~~~s-~~~~~~il~~~k~~D~~R~k~~~~i~--~~~-~~~~L~~~~~~~~~~~~~  551 (556)
+                      +..++|||+|+++|+||+++.|+++++.+ .++ .++++++++.|+.|.+   +++  +.+ ++|.|+|++.+++++|||
+T Consensus       476 ~~~i~K~diCllvllry~~~~~~~~~~~~~~~~-~~~L~~ik~~d~~~~~---~~~~~~~~~~~p~L~~~~~~~~~~~~~  551 (556)
+T sp|Q03718|NSE5  476 VLNIEKCDVCLLVLLRYLLHLIGTEAILDAKEQ-LEMLHAIEKNDSGRRQ---WAKALNLGNDPPLLYPIVSQMFGVHDK  551 (556)
+T ss_pred             hhhhhhcchHHHHHHHHHHHHcCchhhhhhHHH-HHHHHHHhhhhhhhhH---HHhhhccCCCCCchHHHHHHHhcccCc
+Confidence            99999999999999999999999998888 667 9999999999999944   344  456 889999999999999999
+
+
+Q sp|Q03718|NSE5  552 SVIIE  556 (556)
+Q Consensus       552 ~~~~~  556 (556)
+                      +||||
+T Consensus       552 ~~~~~  556 (556)
+T sp|Q03718|NSE5  552 SVIIE  556 (556)
+T ss_pred             ccccC
+Confidence            99997
+
+
+No 2
+>sp|P0C5L2|YB076_YEAST Putative uncharacterized protein YBR076C-A OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=YBR076C-A PE=5 SV=1
+Probab=8.72  E-value=26  Score=24.42  Aligned_cols=19  Identities=42%  Similarity=0.714  Sum_probs=11.8  Template_Neff=1.000
+
+Q sp|Q03718|NSE5  127 DLELLRCQF-----FLAIDTLTPK  145 (556)
+Q Consensus       127 ~LelLRcQf-----F~~iD~l~p~  145 (556)
+                      -=||||||.     |-++.-+.-+
+T Consensus        43 pnellrcqiclcslfwmvtvinlk   66 (88)
+T sp|P0C5L2|YB07   43 PNELLRCQICLCSLFWMVTVINLK   66 (88)
+T ss_pred             cchhhHhHHHHHHHHHHHHHHHHH
+Confidence            458999995     5555444433
+
+
+No 3
+>sp|Q07829|RRT7_YEAST Putative regulator of rDNA transcription protein 7 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=RRT7 PE=5 SV=1
+Probab=6.22  E-value=40  Score=24.24  Aligned_cols=23  Identities=43%  Similarity=0.641  Sum_probs=18.6  Template_Neff=1.000
+
+Q sp|Q03718|NSE5   10 LYVSPRNGAHYFVELTEKHLLAF   32 (556)
+Q Consensus        10 ~~~~~~~~~~~~~~~~~~~l~~F   32 (556)
+                      ++.-..|||||--..|.|.|+-|
+T Consensus        90 lfllqgngahyasamtskvlsff  112 (113)
+T sp|Q07829|RRT7   90 LFLLQGNGAHYASAMTSKVLSFF  112 (113)
+T ss_pred             HHHHhcCchhhHHHHHHHHHhHh
+Confidence            45567899999999999988754
+
+
+No 4
+>sp|O13539|THP2_YEAST THO complex subunit THP2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=THP2 PE=1 SV=1
+Probab=5.31  E-value=49  Score=28.41  Aligned_cols=48  Identities=21%  Similarity=0.283  Sum_probs=34.5  Template_Neff=4.000
+
+Q sp|Q03718|NSE5   93 YNTSRETLSRRALKLLQKYLAILKEFDSEQYNLYDLELLRCQFFLAIDTLTPKKQKWG  150 (556)
+Q Consensus        93 yn~~r~~ls~RaikiL~~~v~il~~fd~~~y~~y~LelLRcQfF~~iD~l~p~~~~~~  150 (556)
+                      |.+.+.+.+..-..||+.|...          .-|.+.||.|++.-+|.|.-.+.|..
+T Consensus       142 ~~vd~~~pP~el~~iLe~y~~~----------~~d~~~Lr~qL~~YLD~IKm~RAKYt  189 (261)
+T sp|O13539|THP2  142 YEMDKWVPSEKLQGILEQYCAP----------DTDIRGVDAQIKNYLDQIKMARAKFG  189 (261)
+T ss_pred             EeecCCCCCHHHHHHHHHhcCC----------ccChhhHHHHHHHHHHHHhhhhhhhh
+Confidence            4556666666555555555443          66889999999999999987776655
+
+
+No 5
+>sp|Q3E737|YJ047_YEAST Uncharacterized protein YJL047C-A OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=YJL047C-A PE=4 SV=1
+Probab=4.55  E-value=60  Score=19.75  Aligned_cols=15  Identities=47%  Similarity=0.574  Sum_probs=11.1  Template_Neff=1.000
+
+Q sp|Q03718|NSE5   71 VLFTLSTLSEYYKEP   85 (556)
+Q Consensus        71 VL~TLaTis~~~k~~   85 (556)
+                      +=..|+-+|+|||..
+T Consensus         7 ieislsllsehykrn   21 (44)
+T sp|Q3E737|YJ04    7 IEISLSLLSEHYKRN   21 (44)
+T ss_pred             EEehhHHHHHhhhcc
+Confidence            345678889999864
+
+
+No 6
+>sp|Q8TGP5|YD464_YEAST Putative uncharacterized protein YDR464C-A OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=YDR464C-A PE=5 SV=1
+Probab=2.84  E-value=1.1e+02  Score=19.65  Aligned_cols=17  Identities=35%  Similarity=0.639  Sum_probs=13.3  Template_Neff=1.000
+
+Q sp|Q03718|NSE5  480 EKCDVCLLVLLRYLLHL  496 (556)
+Q Consensus       480 ~K~dicLl~Llr~~l~~  496 (556)
+                      .|..+|+.+.+||+...
+T Consensus        42 skfktclgvffryftfs   58 (62)
+T sp|Q8TGP5|YD46   42 SKFKTCLGVFFRYFTFS   58 (62)
+T ss_pred             hhhhhhHhhhhhheeee
+Confidence            35678999999998764
+
+
+No 7
+>sp|Q12281|YD032_YEAST Putative uncharacterized protein YDL032w OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=YDL032W PE=5 SV=1
+Probab=2.59  E-value=1.2e+02  Score=21.08  Aligned_cols=35  Identities=29%  Similarity=0.413  Sum_probs=24.9  Template_Neff=1.000
+
+Q sp|Q03718|NSE5  102 RRALKLLQKYLAILKEFDSE---QYNLYDLELLRCQFF  136 (556)
+Q Consensus       102 ~RaikiL~~~v~il~~fd~~---~y~~y~LelLRcQfF  136 (556)
+                      +.+--||--|++||++.-..   ...+-.|-|-|||-.
+T Consensus        14 tssayillgyleilrqivlppqrnlpqmtlplsrcqtl   51 (103)
+T sp|Q12281|YD03   14 TSSAYILLGYLEILRQIVLPPQRNLPQMTLPLSRCQTL   51 (103)
+T ss_pred             cchHHHHHHHHHHHHHhcCCCCcCCCcccccccccCcc
+Confidence            34556788888888876433   456678889999954
+
+
+No 8
+>sp|Q8TGQ8|YO85A_YEAST Putative uncharacterized protein YOL085W-A OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=YOL085W-A PE=5 SV=1
+Probab=2.58  E-value=1.2e+02  Score=19.78  Aligned_cols=11  Identities=27%  Similarity=0.486  Sum_probs=7.7  Template_Neff=1.000
+
+Q sp|Q03718|NSE5  219 LWTLSNSLQES  229 (556)
+Q Consensus       219 ~WTL~cS~~s~  229 (556)
+                      .|.+|||.-..
+T Consensus         8 swslycshhrq   18 (70)
+T sp|Q8TGQ8|YO85    8 SWSLYCSHHRQ   18 (70)
+T ss_pred             ceeeeeccccc
+Confidence            58899985443
+
+
+No 9
+>sp|P06633|HIS7_YEAST Imidazoleglycerol-phosphate dehydratase OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=HIS3 PE=1 SV=2
+Probab=2.52  E-value=1.2e+02  Score=24.86  Aligned_cols=23  Identities=30%  Similarity=0.210  Sum_probs=18.7  Template_Neff=4.600
+
+Q sp|Q03718|NSE5    1 MDGALINSVLYVSPRNGAHYFVE   23 (556)
+Q Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~   23 (556)
+                      ||+||...++-+|.|....|-.+
+T Consensus       124 MDEALa~v~vDlsgRpy~~~~~~  146 (220)
+T sp|P06633|HIS7  124 LDEALSRAVVDLSNRPYAVVELG  146 (220)
+T ss_pred             ccCceEEEEEEecCCceEEEEee
+Confidence            89999999999998876665544
+
+
+No 10
+>sp|Q8TGM4|YL286_YEAST Putative uncharacterized protein YLR286W-A OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=YLR286W-A PE=5 SV=1
+Probab=2.27  E-value=1.4e+02  Score=18.32  Aligned_cols=14  Identities=14%  Similarity=0.190  Sum_probs=10.1  Template_Neff=1.700
+
+Q sp|Q03718|NSE5  293 FANRFSEYVFLNCD  306 (556)
+Q Consensus       293 ~~dRf~EyVF~gc~  306 (556)
+                      +..|.||++|.|--
+T Consensus         8 ~~~R~cef~Fs~Gr   21 (44)
+T sp|Q8TGM4|YL28    8 PISRACNFTFSTGR   21 (44)
+T ss_pred             ceeEeeEEEEeCCE
+Confidence            45678888887754
+
+

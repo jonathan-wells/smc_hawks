@@ -1,0 +1,186 @@
+Query         sp|O13539|THP2_YEAST THO complex subunit THP2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=THP2 PE=1 SV=1
+Match_columns 261
+No_of_seqs    22 out of 25
+Neff          3.8
+Searched_HMMs 6721
+Date          Mon Apr 11 01:13:44 2016
+Command       hhsearch -i O13539.hhm -d /usr/local/hh-suite/db/saccharomyces_cerevisiae/scerevisiae -cpu 2 -v 0 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 sp|O13539|THP2_YEAST THO compl 100.0 1.1E-99  2E-103  683.6   0.0  261    1-261     1-261 (261)
+  2 sp|Q3E833|PCC1_YEAST EKC/KEOPS  23.5     5.8 0.00086   26.2   0.0   43  141-183    31-79  (88)
+  3 sp|A0A023PZD5|YH030_YEAST Puta  17.2     9.7  0.0014   27.5   0.0   39  186-224    20-68  (153)
+  4 sp|P47093|LSM8_YEAST U6 snRNA-  13.1      15  0.0022   24.8   0.0   21  196-216    86-106 (109)
+  5 sp|P32618|YEF3_YEAST Uncharact  12.2      16  0.0024   33.6   0.0   90  150-244   393-482 (956)
+  6 sp|P11747|TAF13_YEAST Transcri  10.5      20   0.003   26.6   0.0   23  217-239    15-39  (167)
+  7 sp|P11986|INO1_YEAST Inositol-   9.2      24  0.0035   30.6   0.0   34  207-240   408-441 (533)
+  8 sp|P53253|NNF2_YEAST Protein N   7.9      29  0.0043   31.8   0.0   50  167-217   716-765 (936)
+  9 sp|P0C5L4|YB121_YEAST Uncharac   7.8      30  0.0044   20.8   0.0   18  116-133    16-33  (52)
+ 10 sp|Q02199|NUP49_YEAST Nucleopo   6.7      37  0.0055   28.1   0.0   29  195-223   372-400 (472)
+
+No 1
+>sp|O13539|THP2_YEAST THO complex subunit THP2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=THP2 PE=1 SV=1
+Probab=100.00  E-value=1.1e-99  Score=683.58  Aligned_cols=261  Identities=100%  Similarity=1.402  Sum_probs=255.8  Template_Neff=4.000
+
+Q sp|O13539|THP2    1 MTKEEGRTYFESLCEEEQSLQESQTHLLNILDILSVLADPRSSDDLLTESLKKLPDLHRELINSSIRLRYDKYQTREAQL   80 (261)
+Q Consensus         1 ~~~~~~~~Yfd~LcEqeq~L~~N~~~l~~vLd~L~~L~~~~~sD~~~~~~L~~L~~~~~~L~~S~~dLR~~k~n~rEsq~   80 (261)
+                      |+.+.+++|||+||||||+|++||+++++||++|+.|++++.+|++++++|+.|+++|++|++|+|||||+||||||+|+
+T Consensus         1 ~~~~m~~~Yfd~Lceqeq~L~~N~~~l~~vLd~L~~L~~~~~~D~~~~~~L~~L~~~~~~L~~S~~dLR~~k~n~rEsq~   80 (261)
+T sp|O13539|THP2    1 MTKEEGRTYFESLCEEEQSLQESQTHLLNILDILSVLADPRSSDDLLTESLKKLPDLHRELINSSIRLRYDKYQTREAQL   80 (261)
+T ss_pred             CchhhhhhHHHhhHHHHHHHHHHHHHHHHHHHHHHHhcCCCCChHHHHHHHhhhhhhhHHHhhhhhhhhcccccchhhhh
+Confidence            67788999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q sp|O13539|THP2   81 LEDTKTGRDVAAGVQNPKSISEYYSTFEHLNRDTLRYINLLKRLSVDLAKQVEVSDPSVTVYEMDKWVPSEKLQGILEQY  160 (261)
+Q Consensus        81 ~~~~~~s~~~~~~~~~~~~L~eYv~~~e~ln~~~l~yiNLl~rLSvdL~~qie~sd~sv~~~~vd~w~pp~eL~~ILe~y  160 (261)
+                      +++|+..++++++++++++|++||++++++|++||+|||||+|||||||+|||+||++|++|+||+|+||++|++||++|
+T Consensus        81 ~~~~ks~~~~~~~~~~~~nL~eyv~~~e~ln~~~l~yiNLl~rLSvdL~~qie~sd~s~s~~~vd~~~pP~el~~iLe~y  160 (261)
+T sp|O13539|THP2   81 LEDTKTGRDVAAGVQNPKSISEYYSTFEHLNRDTLRYINLLKRLSVDLAKQVEVSDPSVTVYEMDKWVPSEKLQGILEQY  160 (261)
+T ss_pred             cccccccccccccCCChhhHHHHHHHHHHHhHHHHHHHHHHHHhhHHHHhhhhccCCCccEEeecCCCCCHHHHHHHHHh
+Confidence            99994459999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q sp|O13539|THP2  161 CAPDTDIRGVDAQIKNYLDQIKMARAKFGLENKYSLKERLSTLTKELNHWRKEWDDIEMLMFGDDAHSMKKMIQKIDSLK  240 (261)
+Q Consensus       161 ~~~~~d~~~Lr~qL~~YLD~IKm~RAKYtLENKy~L~d~L~~LtkEVn~Wrkewd~IE~lMFGD~pnSmkkMlq~ieslk  240 (261)
+                      +++++||++||++|++|||+|||+||||+|||||+|+++|++||||||+||++|++|||+||||||||||+|||+||+||
+T Consensus       161 ~~~~~d~~~Lr~qL~~YLD~IKm~RAKYtLENKy~L~d~L~~LtkEVn~Wrkewd~IE~~MFGD~p~SmkkMlq~ieslk  240 (261)
+T sp|O13539|THP2  161 CAPDTDIRGVDAQIKNYLDQIKMARAKFGLENKYSLKERLSTLTKELNHWRKEWDDIEMLMFGDDAHSMKKMIQKIDSLK  240 (261)
+T ss_pred             cCCccChhhHHHHHHHHHHHHhhhhhhhhhhcccchHHHHHHHHHHHHHHHHHHHHHHhhhcCCCchHHHHHHHHHHHHH
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q sp|O13539|THP2  241 SEINAPSESYPVDKEGDIVLE  261 (261)
+Q Consensus       241 ~kL~~~~~~~~~~~~~~~~~~  261 (261)
+                      ++|.+++++++++.+|++..|
+T Consensus       241 ~kl~~~~~~~~~~~~~~~~~~  261 (261)
+T sp|O13539|THP2  241 SEINAPSESYPVDKEGDIVLE  261 (261)
+T ss_pred             hhcCCCCCCCCccccccccCC
+Confidence            999999999999999998764
+
+
+No 2
+>sp|Q3E833|PCC1_YEAST EKC/KEOPS complex subunit PCC1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=PCC1 PE=1 SV=1
+Probab=23.53  E-value=5.8  Score=26.21  Aligned_cols=43  Identities=19%  Similarity=0.143  Sum_probs=31.3  Template_Neff=6.400
+
+Q sp|O13539|THP2  141 VYEMDKWVPSEKLQGILEQYCAP------DTDIRGVDAQIKNYLDQIKM  183 (261)
+Q Consensus       141 ~~~vd~w~pp~eL~~ILe~y~~~------~~d~~~Lr~qL~~YLD~IKm  183 (261)
+                      .+.+|....|..++..+.-=+..      ..|.+.||.-+..|||+|+.
+T Consensus        31 sL~vD~e~~~~~v~~~l~v~~~~L~i~~~A~d~r~LR~svns~ld~l~L   79 (88)
+T sp|Q3E833|PCC1   31 VLSPDPILKPQDFQVDYSSEKNVMLVQFRSIDDRVLRVGVSSIIDSIKT   79 (88)
+T ss_pred             hhcCCcccCCCcEEEEEEecCcEEEEEEEEecccHHHHHHHHHHHHHHH
+Confidence            36677777776665555432222      78999999999999999986
+
+
+No 3
+>sp|A0A023PZD5|YH030_YEAST Putative uncharacterized protein YHL030W-A OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=YHL030W-A PE=5 SV=1
+Probab=17.19  E-value=9.7  Score=27.49  Aligned_cols=39  Identities=31%  Similarity=0.579  Sum_probs=29.2  Template_Neff=1.000
+
+Q sp|O13539|THP2  186 AKFGLENKYSLKE----------RLSTLTKELNHWRKEWDDIEMLMFGD  224 (261)
+Q Consensus       186 AKYtLENKy~L~d----------~L~~LtkEVn~Wrkewd~IE~lMFGD  224 (261)
+                      .-|+|.||++|-.          +|-+-.-.++-||-.|++.|.-+-|=
+T Consensus        20 sfftlnnkfsllrscwmedlilrklfqwsckislwrcswesfeaeiagl   68 (153)
+T sp|A0A023PZD5|   20 SFFTLNNKFSLLRSCWMEDLILRKLFQWSCKISLWRCSWESFEAEIAGL   68 (153)
+T ss_pred             hhhcccchhhHHHHhhHHHHHHHHHHhhhceeeeEecchhhHHHHHhcc
+Confidence            3478888887643          34555667899999999999877663
+
+
+No 4
+>sp|P47093|LSM8_YEAST U6 snRNA-associated Sm-like protein LSm8 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=LSM8 PE=1 SV=2
+Probab=13.07  E-value=15  Score=24.84  Aligned_cols=21  Identities=24%  Similarity=0.518  Sum_probs=16.0  Template_Neff=6.500
+
+Q sp|O13539|THP2  196 LKERLSTLTKELNHWRKEWDD  216 (261)
+Q Consensus       196 L~d~L~~LtkEVn~Wrkewd~  216 (261)
+                      |.++-..+..|..-|+|.|++
+T Consensus        86 l~~~~~~~~~e~~~w~~~~~~  106 (109)
+T sp|P47093|LSM8   86 LKDTKNKIENEHVIWEKVYES  106 (109)
+T ss_pred             cccccccccchhHHHHHHhhh
+Confidence            445555568899999999985
+
+
+No 5
+>sp|P32618|YEF3_YEAST Uncharacterized protein YEL043W OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=YEL043W PE=1 SV=1
+Probab=12.16  E-value=16  Score=33.63  Aligned_cols=90  Identities=12%  Similarity=0.113  Sum_probs=52.0  Template_Neff=6.000
+
+Q sp|O13539|THP2  150 SEKLQGILEQYCAPDTDIRGVDAQIKNYLDQIKMARAKFGLENKYSLKERLSTLTKELNHWRKEWDDIEMLMFGDDAHSM  229 (261)
+Q Consensus       150 p~eL~~ILe~y~~~~~d~~~Lr~qL~~YLD~IKm~RAKYtLENKy~L~d~L~~LtkEVn~Wrkewd~IE~lMFGD~pnSm  229 (261)
+                      ...+++++.++.+...+...+..+   ..+.++..--. .-+-...|++.+..+.+....|+.....++. -|-.-....
+T Consensus       393 ~~kl~el~~kLee~ieEk~glls~---E~EEllskL~~-~~~~~~eL~~Eie~Le~~esewKskke~~~k-rie~Le~e~  467 (956)
+T sp|P32618|YEF3  393 SGELSAVLKKLNDFTLEKNGFLSN---AGEEFLSKLNA-DSSLIKMIKQELSIDQELEANWKLQRSNLLK-KISALENQF  467 (956)
+T ss_pred             chhHHHHHHHHHHHHHHhccccCh---hHHHHHHHhhh-chHHHHHHHHHHHHHHHHHHHHHHhhHHHHH-HHHHHHHHH
+Confidence            356777777777765554444333   22222221111 2222266788888899999999987665433 334444455
+
+
+Q sp|O13539|THP2  230 KKMIQKIDSLKSEIN  244 (261)
+Q Consensus       230 kkMlq~ieslk~kL~  244 (261)
+                      ..+-..+..||..|.
+T Consensus       468 eELs~~n~~LR~eL~  482 (956)
+T sp|P32618|YEF3  468 NEMSLNNRNLKTKLM  482 (956)
+T ss_pred             HHHHHHHHHHHHHHh
+Confidence            566666777777773
+
+
+No 6
+>sp|P11747|TAF13_YEAST Transcription initiation factor TFIID subunit 13 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=TAF13 PE=1 SV=2
+Probab=10.51  E-value=20  Score=26.58  Aligned_cols=23  Identities=26%  Similarity=0.611  Sum_probs=16.8  Template_Neff=4.700
+
+Q sp|O13539|THP2  217 IEMLM--FGDDAHSMKKMIQKIDSL  239 (261)
+Q Consensus       217 IE~lM--FGD~pnSmkkMlq~iesl  239 (261)
+                      |-.||  |||.++.+-..+.=||.+
+T Consensus        15 I~~MMygfGD~~~Pl~ETv~llEdI   39 (167)
+T sp|P11747|TAF1   15 VSSLLYAYGDVPQPLQATVQCLDEL   39 (167)
+T ss_pred             HHHhhhhhcCCCCCchhHHHHHHHH
+Confidence            66777  789998887766666554
+
+
+No 7
+>sp|P11986|INO1_YEAST Inositol-3-phosphate synthase OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=INO1 PE=1 SV=3
+Probab=9.23  E-value=24  Score=30.56  Aligned_cols=34  Identities=12%  Similarity=-0.020  Sum_probs=28.5  Template_Neff=4.700
+
+Q sp|O13539|THP2  207 LNHWRKEWDDIEMLMFGDDAHSMKKMIQKIDSLK  240 (261)
+Q Consensus       207 Vn~Wrkewd~IE~lMFGD~pnSmkkMlq~ieslk  240 (261)
+                      +.-|+..|+.|+...||.+|++|.=-++--||+-
+T Consensus       408 lGD~K~A~d~i~~e~FlG~~~ti~i~~~c~DS~L  441 (533)
+T sp|P11986|INO1  408 VGDSKVAMDEYYSELMLGGHNRISIHNVCEDSLL  441 (533)
+T ss_pred             CCCceeeeEeeeecccCCcceEEEEEeecccccc
+Confidence            5679999999999999999999987766666653
+
+
+No 8
+>sp|P53253|NNF2_YEAST Protein NNF2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=NNF2 PE=1 SV=1
+Probab=7.94  E-value=29  Score=31.81  Aligned_cols=50  Identities=14%  Similarity=0.232  Sum_probs=31.2  Template_Neff=5.400
+
+Q sp|O13539|THP2  167 IRGVDAQIKNYLDQIKMARAKFGLENKYSLKERLSTLTKELNHWRKEWDDI  217 (261)
+Q Consensus       167 ~~~Lr~qL~~YLD~IKm~RAKYtLENKy~L~d~L~~LtkEVn~Wrkewd~I  217 (261)
+                      ++.|+.+|..--.++.-.|+++.-..+ -++.++.++.+|+..|+.+|...
+T Consensus       716 i~TLK~sL~taqaeLae~kakLKk~rK-E~qkKl~eLrkEId~LKseLsq~  765 (936)
+T sp|P53253|NNF2  716 LLTLKHSVLTTNANLSDERTKLKKTKK-EFSKKLSLLRQEIDYFKGRISQN  765 (936)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHH-HHHHHHHHHHHHHHHHHHHhhhh
+Confidence            455555555555555555555444333 35667788888888888888764
+
+
+No 9
+>sp|P0C5L4|YB121_YEAST Uncharacterized protein YBR121C-A OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=YBR121C-A PE=1 SV=1
+Probab=7.83  E-value=30  Score=20.81  Aligned_cols=18  Identities=39%  Similarity=0.475  Sum_probs=15.0  Template_Neff=1.000
+
+Q sp|O13539|THP2  116 RYINLLKRLSVDLAKQVE  133 (261)
+Q Consensus       116 ~yiNLl~rLSvdL~~qie  133 (261)
+                      +-+-||+.||..|++|+-
+T Consensus        16 kklvllnqlsrqlvkqll   33 (52)
+T sp|P0C5L4|YB12   16 KKLVLLNQLSRQLVKQLL   33 (52)
+T ss_pred             HHHHHHHHHHHHHHHHHH
+Confidence            446688999999999986
+
+
+No 10
+>sp|Q02199|NUP49_YEAST Nucleoporin NUP49/NSP49 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=NUP49 PE=1 SV=1
+Probab=6.66  E-value=37  Score=28.09  Aligned_cols=29  Identities=21%  Similarity=0.378  Sum_probs=19.6  Template_Neff=6.800
+
+Q sp|O13539|THP2  195 SLKERLSTLTKELNHWRKEWDDIEMLMFG  223 (261)
+Q Consensus       195 ~L~d~L~~LtkEVn~Wrkewd~IE~lMFG  223 (261)
+                      .+.+.+..+.+.+......++.||.-|.+
+T Consensus       372 ~f~~~l~~~e~~l~eye~~L~eIE~~l~~  400 (472)
+T sp|Q02199|NUP4  372 FFQKKIHLYEKKLEDYCRILSDIETAVNG  400 (472)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHhc
+Confidence            55666667776677777777777766655
+
+

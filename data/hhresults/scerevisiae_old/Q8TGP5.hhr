@@ -1,0 +1,150 @@
+Query         sp|Q8TGP5|YD464_YEAST Putative uncharacterized protein YDR464C-A OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=YDR464C-A PE=5 SV=1
+Match_columns 62
+No_of_seqs    1 out of 2
+Neff          1
+Searched_HMMs 6721
+Date          Mon Apr 11 01:57:51 2016
+Command       hhsearch -i Q8TGP5.hhm -d /usr/local/hh-suite/db/saccharomyces_cerevisiae/scerevisiae -cpu 2 -v 0 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 sp|Q8TGP5|YD464_YEAST Putative 100.0 1.6E-47 2.4E-51  233.4   0.0   62    1-62      1-62  (62)
+  2 sp|P32191|GPDM_YEAST Glycerol-  23.5     5.8 0.00086   24.5   0.0   16   16-31    591-606 (649)
+  3 sp|P32349|RPC3_YEAST DNA-direc  20.4     7.4  0.0011   25.3   0.0   43   11-53     57-100 (654)
+  4 sp|Q06680|CND3_YEAST Condensin  16.7      10  0.0015   26.3   0.0   31   30-60    728-759 (1035)
+  5 sp|Q04201|CUE4_YEAST CUE domai  14.0      13   0.002   20.1   0.0   14   46-59     13-26  (117)
+  6 sp|P41800|MMM1_YEAST Maintenan  12.7      15  0.0023   23.2   0.0   14   47-60    111-124 (426)
+  7 sp|Q3E787|YC095_YEAST Putative  11.5      18  0.0026   18.2   0.0   11   50-60     22-32  (52)
+  8 sp|Q12050|ELG1_YEAST Telomere   11.3      18  0.0027   24.4   0.0   27   10-36     64-97  (791)
+  9 sp|Q8TGQ0|YC081_YEAST Putative  11.3      18  0.0027   19.4   0.0   13   47-59     65-77  (78)
+ 10 sp|P38428|CUE1_YEAST Coupling    8.0      29  0.0043   19.8   0.0   11   49-59     16-26  (203)
+
+No 1
+>sp|Q8TGP5|YD464_YEAST Putative uncharacterized protein YDR464C-A OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=YDR464C-A PE=5 SV=1
+Probab=100.00  E-value=1.6e-47  Score=233.40  Aligned_cols=62  Identities=100%  Similarity=1.542  Sum_probs=61.7  Template_Neff=1.000
+
+Q sp|Q8TGP5|YD46    1 MDSLFAFPSASGAVVASAESFLMRRTRLALVIHLPDGGTSPSKFKTCLGVFFRYFTFSSSYW   62 (62)
+Q Consensus         1 mdslfafpsasgavvasaesflmrrtrlalvihlpdggtspskfktclgvffryftfsssyw   62 (62)
+                      ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+T Consensus         1 mdslfafpsasgavvasaesflmrrtrlalvihlpdggtspskfktclgvffryftfsssyw   62 (62)
+T sp|Q8TGP5|YD46    1 MDSLFAFPSASGAVVASAESFLMRRTRLALVIHLPDGGTSPSKFKTCLGVFFRYFTFSSSYW   62 (62)
+T ss_pred             CCceeecccccceeeehhhhHhhhcceeEEEEEcCCCCCCchhhhhhHhhhhhheeeecccC
+Confidence            89999999999999999999999999999999999999999999999999999999999999
+
+
+No 2
+>sp|P32191|GPDM_YEAST Glycerol-3-phosphate dehydrogenase, mitochondrial OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=GUT2 PE=1 SV=2
+Probab=23.52  E-value=5.8  Score=24.48  Aligned_cols=16  Identities=44%  Similarity=0.781  Sum_probs=13.2  Template_Neff=9.000
+
+Q sp|Q8TGP5|YD46   16 ASAESFLMRRTRLALV   31 (62)
+Q Consensus        16 asaesflmrrtrlalv   31 (62)
+                      .+.+.+|.||||+++.
+T Consensus       591 ~~~~D~l~RRt~~~~~  606 (649)
+T sp|P32191|GPDM  591 RTPLDFLLRRTRFAFL  606 (649)
+T ss_pred             CCHHHHHHhhhhhhcc
+Confidence            4567899999999985
+
+
+No 3
+>sp|P32349|RPC3_YEAST DNA-directed RNA polymerase III subunit RPC3 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=RPC82 PE=1 SV=2
+Probab=20.35  E-value=7.4  Score=25.25  Aligned_cols=43  Identities=23%  Similarity=0.174  Sum_probs=33.0  Template_Neff=7.400
+
+Q sp|Q8TGP5|YD46   11 SGAVVASAESFLMRRTRLALVIHLPDG-GTSPSKFKTCLGVFFR   53 (62)
+Q Consensus        11 sgavvasaesflmrrtrlalvihlpdg-gtspskfktclgvffr   53 (62)
+                      -|.+++..-+.|+++-|+.|.--.-.. +-++++.|.+|-|.+.
+T Consensus        57 FG~~v~~V~~~Ll~~Grltl~~L~~~t~~L~~~~Vk~aL~vLIQ  100 (654)
+T sp|P32349|RPC3   57 LGERAASVIGMLVALGRLSVRELVEKIDGMDVDSVKTTLVSLTQ  100 (654)
+T ss_pred             ccchHHHHHHHHHhcCCCCHHHHHHhccCCCHHHHHHHHHHHHh
+Confidence            477778888889999888776444444 7788999999988765
+
+
+No 4
+>sp|Q06680|CND3_YEAST Condensin complex subunit 3 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=YCG1 PE=1 SV=2
+Probab=16.71  E-value=10  Score=26.27  Aligned_cols=31  Identities=16%  Similarity=0.207  Sum_probs=20.5  Template_Neff=7.000
+
+Q sp|Q8TGP5|YD46   30 LVIHLPDGGTSP-SKFKTCLGVFFRYFTFSSS   60 (62)
+Q Consensus        30 lvihlpdggtsp-skfktclgvffryftfsss   60 (62)
+                      |++..=+..|.. ...+.||++||..|.+|+.
+T Consensus       728 Lll~yF~P~t~~n~~LrQcLs~Ffp~Y~~ss~  759 (1035)
+T sp|Q06680|CND3  728 LVLSYFSPINSSNEALVQAFAFCIPVYCFSHP  759 (1035)
+T ss_pred             HHHHHcCcCCCCCHhHHHHHHHHHHHhhccCh
+Confidence            333333333333 3689999999999988764
+
+
+No 5
+>sp|Q04201|CUE4_YEAST CUE domain-containing protein CUE4 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=CUE4 PE=1 SV=1
+Probab=13.99  E-value=13  Score=20.06  Aligned_cols=14  Identities=21%  Similarity=0.197  Sum_probs=10.3  Template_Neff=5.100
+
+Q sp|Q8TGP5|YD46   46 TCLGVFFRYFTFSS   59 (62)
+Q Consensus        46 tclgvffryftfss   59 (62)
+                      .|..+++|||.++.
+T Consensus        13 vv~f~~iRwf~~s~   26 (117)
+T sp|Q04201|CUE4   13 VCLFVYTVKHRGAK   26 (117)
+T ss_pred             HHHHHHHHHhhCCC
+Confidence            35677889998765
+
+
+No 6
+>sp|P41800|MMM1_YEAST Maintenance of mitochondrial morphology protein 1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=MMM1 PE=1 SV=2
+Probab=12.72  E-value=15  Score=23.16  Aligned_cols=14  Identities=29%  Similarity=0.695  Sum_probs=11.1  Template_Neff=6.100
+
+Q sp|Q8TGP5|YD46   47 CLGVFFRYFTFSSS   60 (62)
+Q Consensus        47 clgvffryftfsss   60 (62)
+                      .++.|+|||-|+++
+T Consensus       111 ll~~~ikyf~f~~~  124 (426)
+T sp|P41800|MMM1  111 LFIFFLKFFIFSDE  124 (426)
+T ss_pred             HHHHHHhheeccCC
+Confidence            46789999999764
+
+
+No 7
+>sp|Q3E787|YC095_YEAST Putative uncharacterized protein YCR095W-A OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=YCR095W-A PE=4 SV=1
+Probab=11.51  E-value=18  Score=18.22  Aligned_cols=11  Identities=55%  Similarity=1.008  Sum_probs=8.2  Template_Neff=1.000
+
+Q sp|Q8TGP5|YD46   50 VFFRYFTFSSS   60 (62)
+Q Consensus        50 vffryftfsss   60 (62)
+                      |...||.|||.
+T Consensus        22 vilkyfffsse   32 (52)
+T sp|Q3E787|YC09   22 VILKYFFFSSE   32 (52)
+T ss_pred             HHHHHhhhccc
+Confidence            56678888874
+
+
+No 8
+>sp|Q12050|ELG1_YEAST Telomere length regulation protein ELG1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=ELG1 PE=1 SV=1
+Probab=11.26  E-value=18  Score=24.44  Aligned_cols=27  Identities=30%  Similarity=0.332  Sum_probs=20.9  Template_Neff=6.400
+
+Q sp|Q8TGP5|YD46   10 ASGAVVASAESFLMRRTRLA-------LVIHLPD   36 (62)
+Q Consensus        10 asgavvasaesflmrrtrla-------lvihlpd   36 (62)
+                      .+.+--.|+.+|||.|..--       .||.+.|
+T Consensus        64 ~~~~~~~s~~~~lm~~~~~~~~~~~~~~~i~~~~   97 (791)
+T sp|Q12050|ELG1   64 AVSTNHKSAKEFLMTKRTKEKCDDDDDDLIVISD   97 (791)
+T ss_pred             cCCCCCccHHHHhhcCCCCCCCCCCCCeEEEecC
+Confidence            34555678999999987766       7888887
+
+
+No 9
+>sp|Q8TGQ0|YC081_YEAST Putative uncharacterized protein YCR081C-A OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=YCR081C-A PE=5 SV=1
+Probab=11.26  E-value=18  Score=19.35  Aligned_cols=13  Identities=46%  Similarity=0.902  Sum_probs=9.7  Template_Neff=1.000
+
+Q sp|Q8TGP5|YD46   47 CLGVFFRYFTFSS   59 (62)
+Q Consensus        47 clgvffryftfss   59 (62)
+                      .|-||.|||.+..
+T Consensus        65 flfvfvryfnyad   77 (78)
+T sp|Q8TGQ0|YC08   65 FLFVFVRYFNYAD   77 (78)
+T ss_pred             eEEEEEeeeeccC
+Confidence            4678899998754
+
+
+No 10
+>sp|P38428|CUE1_YEAST Coupling of ubiquitin conjugation to ER degradation protein 1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=CUE1 PE=1 SV=2
+Probab=8.00  E-value=29  Score=19.76  Aligned_cols=11  Identities=27%  Similarity=0.446  Sum_probs=8.3  Template_Neff=5.700
+
+Q sp|Q8TGP5|YD46   49 GVFFRYFTFSS   59 (62)
+Q Consensus        49 gvffryftfss   59 (62)
+                      ++|+|||.++.
+T Consensus        16 fl~lRwf~~~~   26 (203)
+T sp|P38428|CUE1   16 VIFLKKFFQSN   26 (203)
+T ss_pred             HHHHHHhhCCC
+Confidence            56789998864
+
+

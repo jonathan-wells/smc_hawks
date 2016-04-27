@@ -1,0 +1,177 @@
+Query         sp|Q10112|YAQD_SCHPO Uncharacterized protein C18G6.13 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=SPAC18G6.13 PE=4 SV=1
+Match_columns 114
+No_of_seqs    8 out of 9
+Neff          2.6
+Searched_HMMs 5121
+Date          Mon Apr 11 03:14:29 2016
+Command       hhsearch -i Q10112.hhm -d /usr/local/hh-suite/db/schizosaccharomyces_pombe/spombe -cpu 2 -v 0 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 sp|Q10112|YAQD_SCHPO Uncharact 100.0 6.5E-62 1.3E-65  351.2   0.0  114    1-114     1-114 (114)
+  2 sp|O74434|MU174_SCHPO Meiotica 100.0 2.1E-35   4E-39  251.4   0.0  112    1-114     1-138 (626)
+  3 sp|O13974|OTU1_SCHPO Putative   74.7    0.13 2.6E-05   36.6   0.0   68    1-78      4-77  (329)
+  4 sp|O14399|UBL1_SCHPO Ubiquitin  33.7     2.2 0.00044   19.3   0.0   51   26-77     19-70  (78)
+  5 sp|O13351|PMT3_SCHPO Ubiquitin  30.4     2.7 0.00054   24.1   0.0   55   25-80     53-108 (117)
+  6 sp|P0C8R3|RS27B_SCHPO Ubiquiti  24.7     4.1 0.00079   22.6   0.0   51   26-77     19-70  (150)
+  7 sp|Q9USX3|RAD60_SCHPO DNA repa  23.5     4.4 0.00086   29.6   0.0   52   26-77    352-404 (406)
+  8 sp|Q9P3U9|URM1_SCHPO Ubiquitin  17.2     7.4  0.0014   19.8   0.0   21   21-41     23-44  (97)
+  9 sp|P0CH07|RL402_SCHPO Ubiquiti  15.0     9.1  0.0018   20.3   0.0   51   26-77     19-70  (128)
+ 10 sp|P0CH06|RL401_SCHPO Ubiquiti  15.0     9.1  0.0018   20.3   0.0   51   26-77     19-70  (128)
+
+No 1
+>sp|Q10112|YAQD_SCHPO Uncharacterized protein C18G6.13 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=SPAC18G6.13 PE=4 SV=1
+Probab=100.00  E-value=6.5e-62  Score=351.20  Aligned_cols=114  Identities=100%  Similarity=1.576  Sum_probs=113.3  Template_Neff=2.600
+
+Q sp|Q10112|YAQD    1 MRLKVSCTEFPIQQWVETSSLELVDSVNCVADLCHAIWMFNGGCADWRLQILKEGFTVPMTGIISQYLKTDDHIKIVKEI   80 (114)
+Q Consensus         1 M~LrV~~~e~Pi~QWihT~~l~L~D~~~tvaDl~~~i~~fN~g~~d~rlQlvkegfalP~t~~l~~yLkd~~~ieL~~e~   80 (114)
+                      |+||||||||||||||||++|+|+|+++|||||||+||+||+||+|||+|+||||||||+||+|++||||||+|||++|+
+T Consensus         1 M~LrV~~~e~Pi~QWihT~~l~L~D~~~tvaDl~~~i~~fN~g~~d~rlQlvkegfalP~t~~l~~yLkd~~~ieL~~e~   80 (114)
+T sp|Q10112|YAQD    1 MRLKVSCTEFPIQQWVETSSLELVDSVNCVADLCHAIWMFNGGCADWRLQILKEGFTVPMTGIISQYLKTDDHIKIVKEI   80 (114)
+T ss_pred             CceeEeecccchhheeeeeecccccchhhHHHHHHHHHHHhCCCCceeEEEEeccceeeeeeeeeeeecCCcEEEEeeec
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q sp|Q10112|YAQD   81 YPPNLPVLPFRVYTTQNTSVESELVEWEDVEMEA  114 (114)
+Q Consensus        81 l~~~~~v~~l~~~~~~~~~~~~~l~~W~~~~m~~  114 (114)
+                      |++||+|+|||+++++++++++|+++|++++|+|
+T Consensus        81 l~~~~~v~~l~~~~~~~~~~~~~l~~W~~~~m~~  114 (114)
+T sp|Q10112|YAQD   81 YPPNLPVLPFRVYTTQNTSVESELVEWEDVEMEA  114 (114)
+T ss_pred             CCCCCceeeEEEEccCCcchhhhchhhhhhcccC
+Confidence            9999999999999999999999999999999986
+
+
+No 2
+>sp|O74434|MU174_SCHPO Meiotically up-regulated gene 174 protein OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=mug174 PE=1 SV=2
+Probab=99.96  E-value=2.1e-35  Score=251.37  Aligned_cols=112  Identities=35%  Similarity=0.513  Sum_probs=107.9  Template_Neff=1.900
+
+Q sp|Q10112|YAQD    1 MRLKVSCTE--FPIQQWVETSSLELVDSVNCVADLCHAIWMFNGG-CAD-------------------WRLQILKEGFTV   58 (114)
+Q Consensus         1 M~LrV~~~e--~Pi~QWihT~~l~L~D~~~tvaDl~~~i~~fN~g-~~d-------------------~rlQlvkegfal   58 (114)
+                      |||||++|+  +||+||++|..++|+|..+||||||++||.||+| |+|                   |++||+||||||
+T Consensus         1 MRLKIQTc~PLPpLKAWF~t~sl~L~D~psTVADLCqsI~~LndG~~~d~r~i~~g~~~~~~y~~gne~~LQl~kdgfal   80 (626)
+T sp|O74434|MU17    1 MLLKVSSCEPLVPIKQWIHTSQLDLSDSSSLVADLLYNIIKFNFSGLEDKRAIFTGYESIKRYTIGNEMFLQLAKDGFAL   80 (626)
+T ss_pred             CceeeecCCCCCcceeeeecccccCCCChhHHHHHHHHHHHhhcCCCcccccccccccccccccccchhhhhhhhcCcee
+Confidence            999999777  9999999999999999999999999999999966 999                   889999999999
+
+
+Q sp|Q10112|YAQD   59 PMTGIISQYLKTDDHIKIV----KEIYPPNLPVLPFRVYTTQNTSVESELVEWEDVEMEA  114 (114)
+Q Consensus        59 P~t~~l~~yLkd~~~ieL~----~e~l~~~~~v~~l~~~~~~~~~~~~~l~~W~~~~m~~  114 (114)
+                      |++|+|++||+|+++|||+    .|.++++|+|+++|+.  ++++++++|++|++++|.+
+T Consensus        81 P~s~~~~lfL~d~~~leLr~L~r~E~l~R~cEv~~lrL~--S~~~l~~~~~ews~~~~~~  138 (626)
+T sp|O74434|MU17   81 PVSMSYGLFLEETDTLELRALPRSEGLHRGCEVLVLRLD--SPNELKENIREWSSKFMNS  138 (626)
+T ss_pred             eeceeeeeccccCCeEEEEecCCCcccccceeEEEEecC--CchhhhHHHHHHhhhhhcc
+Confidence            9999999999999999999    8999999999999999  9999999999999999863
+
+
+No 3
+>sp|O13974|OTU1_SCHPO Putative ubiquitin thioesterase otu1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=otu1 PE=1 SV=1
+Probab=74.68  E-value=0.13  Score=36.61  Aligned_cols=68  Identities=16%  Similarity=0.191  Sum_probs=45.7  Template_Neff=6.700
+
+Q sp|Q10112|YAQD    1 MRLKVSCTEFPIQQWVETSSLELVDSVNCVADLCHAIWMFNGGCADWRLQILKEGFT---VPMT---GIISQYLKTDDHI   74 (114)
+Q Consensus         1 M~LrV~~~e~Pi~QWihT~~l~L~D~~~tvaDl~~~i~~fN~g~~d~rlQlvkegfa---lP~t---~~l~~yLkd~~~i   74 (114)
+                      |+|||++.+-       +..++|++ ..|++||...|-+-.+-+.  ..|.++-||-   |..+   ..|...+++||.|
+T Consensus         4 mrlRvr~~~g-------~~~~~l~~-~aTv~dL~~~I~~~tgi~~--~~~~i~~GfPPk~l~~s~~~~~L~~~~~sGdtL   73 (329)
+T sp|O13974|OTU1    4 LRLRLKYENQ-------SAVETVEA-NATVGSFLDLVAAKFSLPR--NSIALKFGFPPQDIPLVNSDVPLSTLVSSGQQI   73 (329)
+T ss_pred             EEEEEEcCCc-------ceeEeeCC-CCCHHHHHHHHHHHhCCCC--cceeEEecCCCCCCCCCCCCCCcccccCCCCeE
+Confidence            7899998861       12355555 5799999999988775432  3467788884   2222   2355567899988
+
+
+Q sp|Q10112|YAQD   75 KIVK   78 (114)
+Q Consensus        75 eL~~   78 (114)
+                      .+..
+T Consensus        74 ~Ve~   77 (329)
+T sp|O13974|OTU1   74 LVLK   77 (329)
+T ss_pred             EEEE
+Confidence            8874
+
+
+No 4
+>sp|O14399|UBL1_SCHPO Ubiquitin-like protein 1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=ubl1 PE=3 SV=1
+Probab=33.69  E-value=2.2  Score=19.30  Aligned_cols=51  Identities=12%  Similarity=0.153  Sum_probs=26.7  Template_Neff=11.800
+
+Q sp|Q10112|YAQD   26 SVNCVADLCHAIWMFNGGCADWRLQILKEGFTVPMTGIISQY-LKTDDHIKIV   77 (114)
+Q Consensus        26 ~~~tvaDl~~~i~~fN~g~~d~rlQlvkegfalP~t~~l~~y-Lkd~~~ieL~   77 (114)
+                      ...|+.+|...+-. +.+.+..+..+...|..+.....+..| +++++.+.+.
+T Consensus        19 ~~~~v~~lk~~l~~-~~~~~~~~~~l~~~~~~l~~~~~l~~~~i~~~~~~~~~   70 (78)
+T sp|O14399|UBL1   19 PNDKVSRIKERVEE-KEGIPPSQQRLIYAGKQMADDKNAESYHLEGGSVLHLV   70 (78)
+T ss_pred             CcccHHHHHHHHHH-hcCCCCCCeEEEECCEEeCCCCCccccCCCCCcEEEEE
+Confidence            45777777655543 333344445555555555444333332 5566666554
+
+
+No 5
+>sp|O13351|PMT3_SCHPO Ubiquitin-like protein pmt3/smt3 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=pmt3 PE=1 SV=2
+Probab=30.44  E-value=2.7  Score=24.13  Aligned_cols=55  Identities=16%  Similarity=0.158  Sum_probs=39.0  Template_Neff=7.700
+
+Q sp|Q10112|YAQD   25 DSVNCVADLCHAIWMFNGGCADWRLQILKEGFTVPMTGIISQY-LKTDDHIKIVKEI   80 (114)
+Q Consensus        25 D~~~tvaDl~~~i~~fN~g~~d~rlQlvkegfalP~t~~l~~y-Lkd~~~ieL~~e~   80 (114)
+                      ..+.++..|..++.+-. +.+-..+.++++|-.|........+ ++||+.|++....
+T Consensus        53 ~~~~~l~~L~~~~~~~~-gi~~~~~~f~f~G~~L~~~~Tp~~l~ledgd~I~v~~~~  108 (117)
+T sp|O13351|PMT3   53 KKTTEFSKLMKIYCARQ-GKSMNSLRFLVDGERIRPDQTPAELDMEDGDQIEAVLEQ  108 (117)
+T ss_pred             cCCChHHHHHHHHHHHh-CCCCCeEEEEEcCEEeCCCCCccccCCCCCCEEEEEEec
+Confidence            46678888887776443 4444568888899888666555544 8999999977443
+
+
+No 6
+>sp|P0C8R3|RS27B_SCHPO Ubiquitin-40S ribosomal protein S27b OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=ubi5 PE=1 SV=2
+Probab=24.70  E-value=4.1  Score=22.61  Aligned_cols=51  Identities=14%  Similarity=0.233  Sum_probs=33.6  Template_Neff=9.800
+
+Q sp|Q10112|YAQD   26 SVNCVADLCHAIWMFNGGCADWRLQILKEGFTVPMTGIISQY-LKTDDHIKIV   77 (114)
+Q Consensus        26 ~~~tvaDl~~~i~~fN~g~~d~rlQlvkegfalP~t~~l~~y-Lkd~~~ieL~   77 (114)
+                      ...||+||-..|..-- +.+.....++..|-.|.....|..| +++++.|.+.
+T Consensus        19 ~~~tv~~Lk~~i~~~~-gi~~~~~~L~~~g~~L~d~~~l~~~~i~~~~~i~l~   70 (150)
+T sp|P0C8R3|RS27   19 SSDTIDNVKSKIQDKE-GIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLV   70 (150)
+T ss_pred             CCchHHHHHHHHHHhh-CCCCCceEEEECCEEecCCCcccccCCCCCCEEEEe
+Confidence            5678999988776543 3333445667777777666555544 6778877776
+
+
+No 7
+>sp|Q9USX3|RAD60_SCHPO DNA repair protein rad60 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=rad60 PE=1 SV=1
+Probab=23.53  E-value=4.4  Score=29.58  Aligned_cols=52  Identities=17%  Similarity=0.092  Sum_probs=35.4  Template_Neff=4.900
+
+Q sp|Q10112|YAQD   26 SVNCVADLCHAIWMFNGGCADWRLQILKEGFTVPMTGIISQY-LKTDDHIKIV   77 (114)
+Q Consensus        26 ~~~tvaDl~~~i~~fN~g~~d~rlQlvkegfalP~t~~l~~y-Lkd~~~ieL~   77 (114)
+                      .+.+++.++.++.+-++-+....++|+.||-.|....-..-+ |+|||+|+++
+T Consensus       352 ptTti~kL~~ay~k~~~I~~~~~irL~FDGErLdp~~Tp~DldLEDgD~IDV~  404 (406)
+T sp|Q9USX3|RAD6  352 VDFTVKDLIKRYCTEVKISFHERIRLEFEGEWLDPNDQVQSTELEDEDQVSVV  404 (406)
+T ss_pred             CCCcHHHHHHHHHHhhCCCCCCeEEEEEcCeeeCCCCCccccCCCCCCEEEEE
+Confidence            345677777776666655556778888888888666555443 7888888764
+
+
+No 8
+>sp|Q9P3U9|URM1_SCHPO Ubiquitin-related modifier 1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=urm1 PE=3 SV=2
+Probab=17.22  E-value=7.4  Score=19.78  Aligned_cols=21  Identities=14%  Similarity=0.105  Sum_probs=14.2  Template_Neff=9.700
+
+Q sp|Q10112|YAQD   21 LELVD-SVNCVADLCHAIWMFN   41 (114)
+Q Consensus        21 l~L~D-~~~tvaDl~~~i~~fN   41 (114)
+                      +.+.+ ...|+.|++..+-.-.
+T Consensus        23 ~~~~~~~~~tv~~ll~~l~~~~   44 (97)
+T sp|Q9P3U9|URM1   23 LSLSNLGSTKLGSLIDYMAQII   44 (97)
+T ss_pred             EEecCCCCCcHHHHHHHHHHHh
+Confidence            44554 3379999998886543
+
+
+No 9
+>sp|P0CH07|RL402_SCHPO Ubiquitin-60S ribosomal protein L40 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=uep1 PE=1 SV=1
+Probab=14.98  E-value=9.1  Score=20.31  Aligned_cols=51  Identities=14%  Similarity=0.221  Sum_probs=27.8  Template_Neff=9.800
+
+Q sp|Q10112|YAQD   26 SVNCVADLCHAIWMFNGGCADWRLQILKEGFTVPMTGIISQY-LKTDDHIKIV   77 (114)
+Q Consensus        26 ~~~tvaDl~~~i~~fN~g~~d~rlQlvkegfalP~t~~l~~y-Lkd~~~ieL~   77 (114)
+                      ...||++|-..|..- .+.+.....++..|-.+.....+..| +.+++.|.+.
+T Consensus        19 ~~~tv~~Lk~~i~~~-~~i~~~~~~l~~~g~~l~~~~tl~~~~i~~~~~i~~~   70 (128)
+T sp|P0CH07|RL40   19 SSDTIDNVKSKIQDK-EGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLV   70 (128)
+T ss_pred             CchhHHHHHHHHHHh-hCCCCCcEEEEEcCEEecCCCcccccccCCCCEEEEE
+Confidence            456888887655432 23333344455666666554444433 5566666554
+
+
+No 10
+>sp|P0CH06|RL401_SCHPO Ubiquitin-60S ribosomal protein L40 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=ubi1 PE=1 SV=1
+Probab=14.98  E-value=9.1  Score=20.31  Aligned_cols=51  Identities=14%  Similarity=0.221  Sum_probs=27.8  Template_Neff=9.800
+
+Q sp|Q10112|YAQD   26 SVNCVADLCHAIWMFNGGCADWRLQILKEGFTVPMTGIISQY-LKTDDHIKIV   77 (114)
+Q Consensus        26 ~~~tvaDl~~~i~~fN~g~~d~rlQlvkegfalP~t~~l~~y-Lkd~~~ieL~   77 (114)
+                      ...||++|-..|..- .+.+.....++..|-.+.....+..| +.+++.|.+.
+T Consensus        19 ~~~tv~~Lk~~i~~~-~~i~~~~~~l~~~g~~l~~~~tl~~~~i~~~~~i~~~   70 (128)
+T sp|P0CH06|RL40   19 SSDTIDNVKSKIQDK-EGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLV   70 (128)
+T ss_pred             CchhHHHHHHHHHHh-hCCCCCcEEEEEcCEEecCCCcccccccCCCCEEEEE
+Confidence            456888887655432 23333344455666666554444433 5566666554
+
+

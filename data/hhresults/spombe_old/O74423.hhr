@@ -1,0 +1,819 @@
+Query         sp|O74423|ENT1_SCHPO Epsin-1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=ent1 PE=1 SV=1
+Match_columns 706
+No_of_seqs    1053 out of 2336
+Neff          4.8
+Searched_HMMs 5121
+Date          Mon Apr 11 03:04:06 2016
+Command       hhsearch -i O74423.hhm -d /usr/local/hh-suite/db/schizosaccharomyces_pombe/spombe -cpu 2 -v 0 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 sp|O74423|ENT1_SCHPO Epsin-1 O 100.0  4E-167  8E-171 1405.7   0.0  706    1-706     1-706 (706)
+  2 sp|P78813|YCTB_SCHPO ENTH doma 100.0 1.6E-43 3.1E-47  380.3   0.0  157    3-159    14-171 (476)
+  3 sp|O60167|YHC3_SCHPO ENTH doma  99.1 9.2E-15 1.8E-18  159.4   0.0  116   17-139     5-122 (649)
+  4 sp|O74423|ENT1_SCHPO Epsin-1 O  98.7 1.3E-12 2.6E-16  143.4   0.0  101  345-445   329-429 (706)
+  5 sp|O74423|ENT1_SCHPO Epsin-1 O  98.6 2.5E-12 4.9E-16  141.1   0.0   19  228-246   256-274 (706)
+  6 sp|O13736|SLA1_SCHPO Actin cyt  98.4   3E-11 5.9E-15  140.4   0.0   13  535-547  1231-1243(1420)
+  7 sp|Q10172|PAN1_SCHPO Actin cyt  98.2   2E-10 3.8E-14  132.7   0.0   38  592-629   281-323 (1794)
+  8 sp|Q9P6L5|SLA2_SCHPO Endocytos  98.1 5.3E-10   1E-13  128.4   0.0  118   18-138    13-131 (1102)
+  9 sp|Q10172|PAN1_SCHPO Actin cyt  98.1 5.4E-10   1E-13  129.0   0.0   41  576-622   811-857 (1794)
+ 10 sp|Q10172|PAN1_SCHPO Actin cyt  97.9 2.5E-09 4.8E-13  123.4   0.0   19  388-406   176-194 (1794)
+ 11 sp|O74749|HSE1_SCHPO Class E v  97.8 3.5E-09 6.9E-13  107.0   0.0  114   19-139     6-121 (373)
+ 12 sp|O13736|SLA1_SCHPO Actin cyt  97.2 2.1E-07   4E-11  107.4   0.0   36  506-547  1189-1224(1420)
+ 13 sp|O13736|SLA1_SCHPO Actin cyt  97.1   3E-07 5.9E-11  105.9   0.0   14  467-480  1232-1245(1420)
+ 14 sp|Q10172|PAN1_SCHPO Actin cyt  96.7 1.9E-06 3.8E-10   98.7   0.0   29  468-496   595-624 (1794)
+ 15 sp|O13821|VPS27_SCHPO Vacuolar  96.7 2.1E-06 4.1E-10   92.1   0.0  116   18-139     7-125 (610)
+ 16 sp|O74423|ENT1_SCHPO Epsin-1 O  96.6 2.9E-06 5.7E-10   91.5   0.0   21  256-276   228-248 (706)
+ 17 sp|P87308|LSB5_SCHPO Protein l  96.4 5.4E-06   1E-09   81.3   0.0  114   18-138     9-123 (304)
+ 18 sp|P87157|YB0G_SCHPO Probable   96.1 1.5E-05   3E-09   83.5   0.0  117   18-139     4-122 (533)
+ 19 sp|Q10410|YD85_SCHPO Probable   95.7 4.6E-05 8.9E-09   79.1   0.0  116   19-139     4-121 (510)
+ 20 sp|O13736|SLA1_SCHPO Actin cyt  93.2  0.0015 2.9E-07   74.0   0.0   46  433-483  1278-1325(1420)
+ 21 sp|O94444|RPN10_SCHPO 26S prot  85.8   0.027 5.3E-06   50.4   0.0   23  257-279   204-226 (243)
+ 22 sp|Q9P7W4|POF10_SCHPO F-box/WD  83.0   0.046   9E-06   54.4   0.0   48  233-280   542-603 (662)
+ 23 sp|Q10168|NSP1_SCHPO Nucleopor  63.5    0.35 6.8E-05   49.3   0.0   13   54-66    493-505 (598)
+ 24 sp|Q09793|NUP45_SCHPO Nucleopo  60.5    0.43 8.4E-05   46.3   0.0   16   59-74    302-317 (425)
+ 25 sp|O74372|DUO1_SCHPO DASH comp  58.3     0.5 9.7E-05   43.5   0.0   21  120-140    48-68  (282)
+ 26 sp|O14128|PIL2_SCHPO Probable   51.6    0.76 0.00015   44.1   0.0   78    6-85     58-136 (383)
+ 27 sp|Q10237|YD14_SCHPO Uncharact  51.1    0.79 0.00015   46.7   0.0   77   52-138    34-110 (638)
+ 28 sp|Q10428|2AD1_SCHPO Serine/th  49.1    0.89 0.00017   45.5   0.0   81   51-138   395-478 (548)
+ 29 sp|Q9UTE3|SEB1_SCHPO Rpb7-bind  47.5    0.98 0.00019   45.6   0.0   71   19-92      4-75  (620)
+ 30 sp|Q10475|IF4G_SCHPO Eukaryoti  43.6     1.2 0.00024   48.9   0.0   45    7-51   1007-1056(1403)
+ 31 sp|O43028|VAC8_SCHPO Vacuolar   36.6     1.9 0.00036   38.9   0.0   79   58-140   465-548 (550)
+ 32 sp|O74960|PIL1_SCHPO Probable   35.1       2  0.0004   40.3   0.0   53   33-87     87-139 (351)
+ 33 sp|P78759|2AD2_SCHPO Serine/th  33.7     2.2 0.00044   42.9   0.0   83   51-140   496-581 (627)
+ 34 sp|Q9Y7I8|ZUO1_SCHPO Zuotin OS  32.5     2.4 0.00047   40.8   0.0   25   95-119   216-240 (442)
+ 35 sp|Q10168|NSP1_SCHPO Nucleopor  32.0     2.5 0.00048   42.3   0.0   47   49-95    418-464 (598)
+ 36 sp|O94652|GLE1_SCHPO Nucleopor  29.3       3 0.00058   40.6   0.0    9  610-618   427-435 (480)
+ 37 sp|Q9HDW6|VATC_SCHPO V-type pr  28.9       3 0.00059   39.4   0.0   41   71-114   200-259 (394)
+ 38 sp|Q9P7Q8|PMO25_SCHPO Mo25-lik  28.2     3.2 0.00062   38.4   0.0   88   37-130    58-148 (329)
+ 39 sp|Q7LL15|SUS1_SCHPO Transcrip  22.6     4.7 0.00092   31.3   0.0   37   44-82     14-50  (108)
+ 40 sp|O59817|EFR3_SCHPO Protein e  22.3     4.9 0.00095   41.2   0.0   55   36-93     26-86  (798)
+ 41 sp|Q09822|CDC15_SCHPO Cell div  22.2     4.9 0.00095   41.9   0.0   50   29-78     21-74  (927)
+ 42 sp|O74352|HOB1_SCHPO Protein h  21.0     5.4   0.001   36.8   0.0   12  236-247   184-195 (466)
+ 43 sp|Q09933|DIS1_SCHPO Phosphopr  20.1     5.8  0.0011   40.6   0.0   63   33-97    328-394 (882)
+
+No 1
+>sp|O74423|ENT1_SCHPO Epsin-1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=ent1 PE=1 SV=1
+Probab=100.00  E-value=4e-167  Score=1405.72  Aligned_cols=706  Identities=100%  Similarity=1.446  Sum_probs=651.0  Template_Neff=4.800
+
+Q sp|O74423|ENT1    1 MAFSALAYNLLAKNFSKGYTDTQIKVRNATTNDSWGPSGTAMAEIAELTYDQNEMLEVMDIIDRRLNDKGKNWRHVFKSL   80 (706)
+Q Consensus         1 ~~~~~~~~~r~akN~v~~yS~~E~kVrEATsnDpWGPs~~~M~eIA~aT~~~~~~~eIm~~L~KRL~d~gknWR~VyKAL   80 (706)
+                      |||++|||||+|||+|++||++|+||||||+||+|||++++|+|||++||++++|.+||+||||||+|++|+||||||||
+T Consensus         1 ~~~~~~~~~r~~KN~~~gyS~~E~kVReATsnDpwGPs~~~M~EIA~~T~n~~d~~eIm~~L~KRL~dkgknWRhVyKAL   80 (706)
+T sp|O74423|ENT1    1 MAFSALAYNLLAKNFSKGYTDTQIKVRNATTNDSWGPSGTAMAEIAELTYDQNEMLEVMDIIDRRLNDKGKNWRHVFKSL   80 (706)
+T ss_pred             CchhHHHHHHHHhhhhcCCCHHHHHHHhhcCCCCCCCCHHHHHHHHHhhcChhhHHHHHHHHHHHhhccCCceEEEeehH
+Confidence            89999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q sp|O74423|ENT1   81 SLLEYCLHNGSENVVRWAKDNIYIITTLREFVYVDDNGHDQGQNVRTKAKEITSLLEDEHALKEARGDSRERDRDRDRTR  160 (706)
+Q Consensus        81 ~LLeYLL~nGSErvV~~~r~~~~~I~~L~~F~yiDe~GkD~G~nVR~KAk~L~~LL~D~e~LreER~kar~~~~~~~~~~  160 (706)
+                      +||||||+||||+||+|||+|+++|++|++|+|+|++|+|+|++||+|||+|++||+|+++|++||+++|+|++++.+.+
+T Consensus        81 ~VLeYLL~nGSe~vV~~~r~n~~~IktL~~F~yvDe~G~D~G~nVR~kAk~L~~LL~Dee~Lr~ER~~a~~~~~~~~~~~  160 (706)
+T sp|O74423|ENT1   81 SLLEYCLHNGSENVVRWAKDNIYIITTLREFVYVDDNGHDQGQNVRTKAKEITSLLEDEHALKEARGDSRERDRDRDRTR  160 (706)
+T ss_pred             HHHHHHHhcCChHHHHHHHhhHHHHHhccceEEecCCCCcchHHHHHHHHHHHHhcCCHHHHHHHHhhhhhhhccccccc
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999877
+
+
+Q sp|O74423|ENT1  161 SSRFDDDDDDRAPYEESRLSRAPSRASRYDDDDRDHRSRRRSRSRRPGRSRSRRRSRRPSPSAEHNSAEENDPELQRVIE  240 (706)
+Q Consensus       161 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~eed~~lq~Ale  240 (706)
+                      .+++++++.++..|+.++++++++++++|++++.++++|||++++++++.+++++++|+++.+++.+.+|||+||+||||
+T Consensus       161 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~r~~~~~~~~~~~~~~~~~~~~~~~~~~~~~eed~~lq~Ale  240 (706)
+T sp|O74423|ENT1  161 SSRFDDDDDDRAPYEESRLSRAPSRASRYDDDDRDHRSRRRSRSRRPGRSRSRRRSRRPSPSAEHNSAEENDPELQRVIE  240 (706)
+T ss_pred             cCCCCCCCCCCccccccccccCCccccCCCCCCcccccccccCCCCCCCCccccccCCCCCCCcCCCCCCCcHHHHHHHH
+Confidence            76664433334445556778899999999988877665555544443334444555566555566778999999999999
+
+
+Q sp|O74423|ENT1  241 ESKRQAEEDAKRRNMANDSEAELQKAIQLSKEEDEARQRHQREREQQEQAFMGNQQNAYQPVDFFGNPVQPQPTGFLQQQ  320 (706)
+Q Consensus       241 ~Sk~~aeee~~rr~~~~~~d~~L~~Al~lSkeEee~r~~~~~~~~~~~~~~~~~~qq~~~~vD~fgnpi~~Q~tg~~q~Q  320 (706)
+                      |||++||||+|||++.++||+||++||+|||||||+|+|++||.++++++|+++|++++.+||||||++++++|+|++++
+T Consensus       241 ~Sk~~aee~~~rr~~~~~~d~~l~~Ai~lSkeeee~r~~~~~~~~~~~~~~~~~~qq~~~~vd~f~np~~~Q~tg~~q~Q  320 (706)
+T sp|O74423|ENT1  241 ESKRQAEEDAKRRNMANDSEAELQKAIQLSKEEDEARQRHQREREQQEQAFMGNQQNAYQPVDFFGNPVQPQPTGFLQQQ  320 (706)
+T ss_pred             HHHHHHHHHHHHhhccCccHHHHHHHHhhchHHHHHHHHHHHHHHHHHHhhhcccccCCCCccccCCCCCCCCCCCCCCC
+Confidence            99999999999887778999999999999999999999999998655555877777778999999999999999999999
+
+
+Q sp|O74423|ENT1  321 PTGFIRPQNTGFVQPQYTGFVQPQHTGFVQPQATGFMQPQRTGFVQPQATGFVQPQATGFVQPQATGFMQPQRTGFVQPQ  400 (706)
+Q Consensus       321 ptg~~p~q~tG~lq~q~tg~~qpQ~tgf~qpq~tg~~~pq~tg~~~pQ~Tg~~q~Q~tg~~q~Q~~g~~qpQ~tg~~qpQ  400 (706)
+                      |+++|+++++||++++++++++++.++|++++.+|+++++++|++++++|+|.++|.+++++++.+|+++|++||+++||
+T Consensus       321 ptg~~p~q~tG~lq~q~tg~~qpQ~tgf~qpq~tg~~~pQ~tg~~~pQ~Tg~~q~Q~tg~~q~Q~~g~~qpq~tg~~qpQ  400 (706)
+T sp|O74423|ENT1  321 PTGFIRPQNTGFVQPQYTGFVQPQHTGFVQPQATGFMQPQRTGFVQPQATGFVQPQATGFVQPQATGFMQPQRTGFVQPQ  400 (706)
+T ss_pred             CCCCCCCCCCCCCCCCcCCCCCCCCCCCCCCCCCCCCCCCCCCcCCCCCCCCCCCccccCCCCCCCCCCCCCCCCCCCCC
+Confidence            99999999999999999999889999999998999999999999999999999889998888999999999999999999
+
+
+Q sp|O74423|ENT1  401 ATGFMQPQRTGFVQPQATGFMQPQRTGFVQPQATGFIQPQRTGFVQPQQNGFFNPQPTGYMQPQRTGMMQPQRTGFSQPF  480 (706)
+Q Consensus       401 ~tg~~~~q~~g~~qpQ~TG~~qpQ~Tgf~q~n~~g~~qpQ~tg~~qpg~~np~~~q~tG~lqpq~~~~l~PqpTGsnnpf  480 (706)
+                      ++|+|+++++|++++|.||+.++|.|||+++|++++++++.||+++|++||+|+++.+++++++++++|+|++|||++||
+T Consensus       401 ~tg~~q~q~~g~~qpQ~TG~~qpQ~Tgf~q~n~~g~~qpQ~tg~~Qpg~nnp~~~q~tG~~qpq~~~~lqPqpTGsnnPf  480 (706)
+T sp|O74423|ENT1  401 ATGFMQPQRTGFVQPQATGFMQPQRTGFVQPQATGFIQPQRTGFVQPQQNGFFNPQPTGYMQPQRTGMMQPQRTGFSQPF  480 (706)
+T ss_pred             CCCCCCCCCCCCccCCCCCCCCCcccccCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Confidence            99999999999999999999999999999889999999999999999999999999999988888899999999999999
+
+
+Q sp|O74423|ENT1  481 ESNNPFPVMQPQRTGFGQTPNAPMMAPNHTGYVHPQPTGLQRQTTGYTGNNNPYSRPLQSQSTGILQQQQQQSAPRLEPT  560 (706)
+Q Consensus       481 a~~~~~~~~~pq~tg~~~~~~~p~~~pq~tG~lqpq~tg~~p~~tgy~g~~p~~~~~L~~Q~tg~~~~~~~~~~~~~~~~  560 (706)
+                      ++.+++.+++++.|||++++++|+|+|++|||++|+.|||++++++|++++|+++++|++|+|++.+++++++|+.|++.
+T Consensus       481 a~~~~~~~~~pq~tg~~~~~~~~~~~pq~tG~~~pq~tg~~~~~~~~~~~~pp~~~~L~~Q~tg~~~~~~~~~~~~~~~~  560 (706)
+T sp|O74423|ENT1  481 ESNNPFPVMQPQRTGFGQTPNAPMMAPNHTGYVHPQPTGLQRQTTGYTGNNNPYSRPLQSQSTGILQQQQQQSAPRLEPT  560 (706)
+T ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCcccCCCCCCCCCCCcccccccCccchhhccccccCCCC
+Confidence            99999999999999999888899999999999999999999999999999999999999999999998899999999877
+
+
+Q sp|O74423|ENT1  561 KTGSNNPFAQFSNLPSQSTAPATKPMKPVRTGDDRFSNIAQAISTGNPMGTDSFGNIGLTRVPTQHTGSKFTNSAGQTIQ  640 (706)
+Q Consensus       561 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Ln~llatG~~~g~DTFGNtG~lRip~qht~~~f~ns~g~~~~  640 (706)
+                      +++++|.++++++++++++|++++++++++++|+||++||+||++|+++|||||||+|+||||||||+++||||||++++
+T Consensus       561 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Ln~llatG~~~g~DTFGNtG~lRip~qht~~~f~ns~g~~~~  640 (706)
+T sp|O74423|ENT1  561 KTGSNNPFAQFSNLPSQSTAPATKPMKPVRTGDDRFSNIAQAISTGNPMGTDSFGNIGLTRVPTQHTGSKFTNSAGQTIQ  640 (706)
+T ss_pred             CCCCCCCcccccCCCCCCCCCCCCCCCCCCCCChhHHHHHHHHhcCCCccccccccccccCCCccccccceecccccccc
+Confidence            77887777777778899999999999999999999999999999999999999999999999999999999999999999
+
+
+Q sp|O74423|ENT1  641 AQATGNTHNPFQSQQATGYYKQPMQQQQNMQQPYYNQQNYNYQNQQPMQGMQQQSMQPQVGSLIDL  706 (706)
+Q Consensus       641 ~~~~~~~~npf~~~q~tg~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~q~~~~~~~~~~li~~  706 (706)
+                      ++++++++|||+++|||||++++++++++++||||++++++|+++++++++|+++++.+++|||||
+T Consensus       641 ~~~~~~~~npf~~~q~tg~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~q~~~~~~~~~~li~~  706 (706)
+T sp|O74423|ENT1  641 AQATGNTHNPFQSQQATGYYKQPMQQQQNMQQPYYNQQNYNYQNQQPMQGMQQQSMQPQVGSLIDL  706 (706)
+T ss_pred             ccccCCCCCCCcccccccccccchhhhccccCCcccccccccccCCCccccccccCCCCCCCcccC
+Confidence            999988889999999999999999999999999999999999999887666777778899999998
+
+
+No 2
+>sp|P78813|YCTB_SCHPO ENTH domain-containing protein C794.11c OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=SPCC794.11c PE=1 SV=2
+Probab=100.00  E-value=1.6e-43  Score=380.27  Aligned_cols=157  Identities=37%  Similarity=0.592  Sum_probs=149.8  Template_Neff=4.400
+
+Q sp|O74423|ENT1    3 FSALAYNLLAKNFSKGYTDTQIKVRNATTNDSWGPSGTAMAEIAELTYDQNEMLEVMDIIDRRLNDK-GKNWRHVFKSLS   81 (706)
+Q Consensus         3 ~~~~~~~r~akN~v~~yS~~E~kVrEATsnDpWGPs~~~M~eIA~aT~~~~~~~eIm~~L~KRL~d~-gknWR~VyKAL~   81 (706)
+                      +.+|+.+|+|||+|++|+++|+||+|||++|+|||+.++|.|||++||++.+|.+||.+|||||.++ +++||||||||+
+T Consensus        14 ydiK~~vRkaKN~v~nySe~E~kVrEATSnDpwGPs~~lL~EIAq~T~n~~~~~eIm~~L~kRL~dk~gknWR~VyKAL~   93 (476)
+T sp|P78813|YCTB   14 YDIKAAVRKAQNVVMNYTSMEARVREATNNEPWGASTSLMMEIAQGTHNYSQLNEILPMIYRRFTEKTAEEWRQIYKALQ   93 (476)
+T ss_pred             HHHHHHHHHHHHhhcCCCHHHHHHHHhcCCCCCCCCHHHHHHHHhCcCChhhHHHHHHHHHHHhhcCCCCceeEeeehHH
+Confidence            4589999999999999999999999999999999999999999999999999999999999999985 699999999999
+
+
+Q sp|O74423|ENT1   82 LLEYCLHNGSENVVRWAKDNIYIITTLREFVYVDDNGHDQGQNVRTKAKEITSLLEDEHALKEARGDSRERDRDRDRT  159 (706)
+Q Consensus        82 LLeYLL~nGSErvV~~~r~~~~~I~~L~~F~yiDe~GkD~G~nVR~KAk~L~~LL~D~e~LreER~kar~~~~~~~~~  159 (706)
+                      ||||||+||+++||+|||+|+++|+.|++|+|+|++|+|+|++||+||++|++||.|+++|++||+++++.+.+..+.
+T Consensus        94 LLEYLLknGSErfVdd~R~h~~~Ir~L~~F~yiD~~GkDqGinVR~KAkeLleLL~D~e~Lr~ER~kA~~nR~Ky~G~  171 (476)
+T sp|P78813|YCTB   94 LLEFLVKNGSERVVDDARAHQATIKMLRNFHYIDHRQKDQGLNVRTRAKELVELLNDSERIRKERKRARQNRGKFIGV  171 (476)
+T ss_pred             HHHHHHhcCChHHHHHHHhhhhhhhhhhhccccCCCCcchhHHHHHHHHHHHHHhCChHHHHHHHHHHHhhhcccccc
+Confidence            999999999999999999999999999999999999999999999999999999999999999999998766555543
+
+
+No 3
+>sp|O60167|YHC3_SCHPO ENTH domain-containing protein C19F8.03c OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=SPBC19F8.03c PE=1 SV=1
+Probab=99.06  E-value=9.2e-15  Score=159.43  Aligned_cols=116  Identities=20%  Similarity=0.251  Sum_probs=95.5  Template_Neff=4.600
+
+Q sp|O74423|ENT1   17 KGYTDTQIKVRNATTNDSWGPSGTAMAEIAELTYD-QNEMLEVMDIIDRRLNDKGKNWRHVFKSLSLLEYCLHNGSENV-   94 (706)
+Q Consensus        17 ~~yS~~E~kVrEATsnDpWGPs~~~M~eIA~aT~~-~~~~~eIm~~L~KRL~d~gknWR~VyKAL~LLeYLL~nGSErv-   94 (706)
+                      +.++++|+.|.+||+++.|+|+.+++..|..+||. ...+..|+..|++||.  .++|++|||||+|||+||+.|++.| 
+T Consensus         5 k~~SdLEkAVvKATShde~PPKEKHVr~II~aT~~s~~si~~i~~~L~kRLk--tsnWvVaLKALILLHRLLReGspsf~   82 (649)
+T sp|O60167|YHC3    5 KWLLTYERAVKKATKVKLAAPKYKHVEIILEATTEDPETLENVIQALCERLK--EQSWTIVFKTLIVFHVMLKEGAPNTT   82 (649)
+T ss_pred             ccchHHHHHHHHcCCCCCCCCCHHHHHHHHHHhcCCcchHHHHHHHHHHhhc--CCCceehhhHHHHHHHHHccCCchHH
+Confidence            46789999999999999999999999999999997 4578899999999994  5799999999999999999999987 
+
+
+Q sp|O74423|ENT1   95 VRWAKDNIYIITTLREFVYVDDNGHDQGQNVRTKAKEITSLLEDE  139 (706)
+Q Consensus        95 V~~~r~~~~~I~~L~~F~yiDe~GkD~G~nVR~KAk~L~~LL~D~  139 (706)
+                      +.++..+..++. |.+    +.++.|+|..||.+|++|.+.|.--
+T Consensus        83 L~~Lssr~~lLn-l~~----~Ss~~d~g~fIR~YAkYLdERL~~f  122 (649)
+T sp|O60167|YHC3   83 IVALSQRPRILE-VLK----ASSLLAQGKNIYNYSRFLSERAKQY  122 (649)
+T ss_pred             HHHHHcCCcHHH-Hhc----ccccccCCccHHHHHHHHHHHHHHH
+Confidence            455544332222 211    2356789999999999998777543
+
+
+No 4
+>sp|O74423|ENT1_SCHPO Epsin-1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=ent1 PE=1 SV=1
+Probab=98.70  E-value=1.3e-12  Score=143.38  Aligned_cols=101  Identities=91%  Similarity=1.415  Sum_probs=48.6  Template_Neff=4.800
+
+Q sp|O74423|ENT1  345 HTGFVQPQATGFMQPQRTGFVQPQATGFVQPQATGFVQPQATGFMQPQRTGFVQPQATGFMQPQRTGFVQPQATGFMQPQ  424 (706)
+Q Consensus       345 ~tgf~qpq~tg~~~pq~tg~~~pQ~Tg~~q~Q~tg~~q~Q~~g~~qpQ~tg~~qpQ~tg~~~~q~~g~~qpQ~TG~~qpQ  424 (706)
+                      .+|+++++.+++++++.+++.+++.|++.+++.+++.+++.+++.+++.|+++++|.+|+++++.+|.+++|.||+++++
+T Consensus       329 ~tG~lq~q~tg~~qpQ~tgf~qpq~tg~~~pQ~tg~~~pQ~Tg~~q~Q~tg~~q~Q~~g~~qpq~tg~~qpQ~tg~~q~q  408 (706)
+T sp|O74423|ENT1  329 NTGFVQPQYTGFVQPQHTGFVQPQATGFMQPQRTGFVQPQATGFVQPQATGFVQPQATGFMQPQRTGFVQPQATGFMQPQ  408 (706)
+T ss_pred             CCCCCCCCcCCCCCCCCCCCCCCCCCCCCCCCCCCcCCCCCCCCCCCccccCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Confidence            33443333333333444444444444444344444444444455445555555555555555555555555555555555
+
+
+Q sp|O74423|ENT1  425 RTGFVQPQATGFIQPQRTGFV  445 (706)
+Q Consensus       425 ~Tgf~q~n~~g~~qpQ~tg~~  445 (706)
+                      .+|+.+++.+|+.+++.|||.
+T Consensus       409 ~~g~~qpQ~TG~~qpQ~Tgf~  429 (706)
+T sp|O74423|ENT1  409 RTGFVQPQATGFMQPQRTGFV  429 (706)
+T ss_pred             CCCCccCCCCCCCCCcccccC
+Confidence            555544444444444444443
+
+
+No 5
+>sp|O74423|ENT1_SCHPO Epsin-1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=ent1 PE=1 SV=1
+Probab=98.65  E-value=2.5e-12  Score=141.11  Aligned_cols=19  Identities=37%  Similarity=0.581  Sum_probs=16.1  Template_Neff=4.800
+
+Q sp|O74423|ENT1  228 AEENDPELQRVIEESKRQA  246 (706)
+Q Consensus       228 ~~eed~~lq~Ale~Sk~~a  246 (706)
+                      ..+||++|++||++||||.
+T Consensus       256 ~~~~d~~l~~Ai~lSkeee  274 (706)
+T sp|O74423|ENT1  256 ANDSEAELQKAIQLSKEED  274 (706)
+T ss_pred             cCccHHHHHHHHhhchHHH
+Confidence            4678999999999999653
+
+
+No 6
+>sp|O13736|SLA1_SCHPO Actin cytoskeleton-regulatory complex protein sla1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=sla1 PE=1 SV=1
+Probab=98.41  E-value=3e-11  Score=140.44  Aligned_cols=13  Identities=46%  Similarity=0.613  Sum_probs=7.6  Template_Neff=5.200
+
+Q sp|O74423|ENT1  535 SRPLQSQSTGILQ  547 (706)
+Q Consensus       535 ~~~L~~Q~tg~~~  547 (706)
+                      +.+|+.|+||+..
+T Consensus      1231 ~qp~~~q~Tg~pg 1243 (1420)
+T sp|O13736|SLA1 1231 AQPMLSQYTGYQQ 1243 (1420)
+T ss_pred             CCCCCCccCCCCC
+Confidence            3455666677654
+
+
+No 7
+>sp|Q10172|PAN1_SCHPO Actin cytoskeleton-regulatory complex protein pan1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=pan1 PE=1 SV=1
+Probab=98.21  E-value=2e-10  Score=132.75  Aligned_cols=38  Identities=11%  Similarity=0.142  Sum_probs=25.0  Template_Neff=3.900
+
+Q sp|O74423|ENT1  592 GDDRFSNIAQAISTGNP-----MGTDSFGNIGLTRVPTQHTGS  629 (706)
+Q Consensus       592 ~~~~~~~Ln~llatG~~-----~g~DTFGNtG~lRip~qht~~  629 (706)
+                      ...+|++||..|+..+.     ...++|..+|+-|.=--|-..
+T Consensus       281 eK~kYdqLF~sld~~~G~ISG~~AreIL~kSGLp~~tLakIW~  323 (1794)
+T sp|Q10172|PAN1  281 DQAKFEQLFKSAVGREEAMSSEIGKAILVRSKLPTVQLSKIWR  323 (1794)
+T ss_pred             HHHHHHHHHHhcCCCCCCcchHHHHHHHHhcCCCHHHHHHHHH
+Confidence            34559999999973211     477889998877665444433
+
+
+No 8
+>sp|Q9P6L5|SLA2_SCHPO Endocytosis protein end4 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=end4 PE=1 SV=2
+Probab=98.09  E-value=5.3e-10  Score=128.44  Aligned_cols=118  Identities=16%  Similarity=0.111  Sum_probs=90.2  Template_Neff=6.500
+
+Q sp|O74423|ENT1   18 GYTDTQIKVRNATTNDSWGPSGTAMAEIAELTYDQNEMLEVMDIIDRRLNDKGKNWRHVFKSLSLLEYCLHNGSENVVRW   97 (706)
+Q Consensus        18 ~yS~~E~kVrEATsnDpWGPs~~~M~eIA~aT~~~~~~~eIm~~L~KRL~d~gknWR~VyKAL~LLeYLL~nGSErvV~~   97 (706)
+                      ...++++.|.+||+.|.-.|..+|+..|..+||.......++..|.+|..  .++|.+|||+|+|||.||+.|++.|+.+
+T Consensus        13 ~~~dl~~aV~KATs~de~pPKeKHVr~iI~~T~~~~ss~~~~~~l~~~~l--t~nwvValKsLiliHrLLreG~p~~l~~   90 (1102)
+T sp|Q9P6L5|SLA2   13 SDASLMTSVRKATSIDETAPKRKHVRSCIIFTWDHHTARPFWTAIKVQPL--LANEVQTFKALITIHRVLQEGHKSALVD   90 (1102)
+T ss_pred             cCchHHHHHHHcCCCCCCCCChHhHHHHHHHhcccCCchhhHHHHhhccc--CCchhhhhHHHHHHHHHHhcCChhhhHH
+Confidence            57889999999999999999999999999999975333334444554544  3589999999999999999999998776
+
+
+Q sp|O74423|ENT1   98 AKDNIYIITTLREFVYVD-DNGHDQGQNVRTKAKEITSLLED  138 (706)
+Q Consensus        98 ~r~~~~~I~~L~~F~yiD-e~GkD~G~nVR~KAk~L~~LL~D  138 (706)
+                      +..+...|. +..|.+.+ ..+.+++..||.||++|.+.|.-
+T Consensus        91 ~~~~~~~L~-~~~~~~~~~s~~~~ys~fIr~Ya~YL~~Kl~f  131 (1102)
+T sp|Q9P6L5|SLA2   91 SQSEKGWLK-TCERQYDGESSPKGYSDLIRDYVDYLLDKLSF  131 (1102)
+T ss_pred             HhhccCccc-cccccCCCCCCCccchHHHHHHHHHHHHHHHH
+Confidence            654444443 33343332 23678999999999999865543
+
+
+No 9
+>sp|Q10172|PAN1_SCHPO Actin cytoskeleton-regulatory complex protein pan1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=pan1 PE=1 SV=1
+Probab=98.09  E-value=5.4e-10  Score=129.04  Aligned_cols=41  Identities=22%  Similarity=0.201  Sum_probs=27.6  Template_Neff=3.900
+
+Q sp|O74423|ENT1  576 SQSTAPATKPMKPVRTGDDRFSNIAQAISTGNP------MGTDSFGNIGLTRV  622 (706)
+Q Consensus       576 ~~~~~~~~~~~~~~~~~~~~~~~Ln~llatG~~------~g~DTFGNtG~lRi  622 (706)
+                      ....|.++.-++.      +|++||..|+...+      ...++|.++|+-|-
+T Consensus       811 ~~~~WaITpeEKa------KYdqIF~slD~d~dG~ISG~eAreIF~qSGLP~e  857 (1794)
+T sp|Q10172|PAN1  811 KDIPWAISKEEKR------IYDQIFDAWDKERKGTLGGNAVLEIFGQSKLTRT  857 (1794)
+T ss_pred             CCCCCCCCHHHHH------HHHHHHHHhCCCCCCcccHHHHHHHHHhCCCCHH
+Confidence            4456776655444      49999999974221      46789999986543
+
+
+No 10
+>sp|Q10172|PAN1_SCHPO Actin cytoskeleton-regulatory complex protein pan1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=pan1 PE=1 SV=1
+Probab=97.89  E-value=2.5e-09  Score=123.37  Aligned_cols=19  Identities=79%  Similarity=1.167  Sum_probs=8.5  Template_Neff=3.900
+
+Q sp|O74423|ENT1  388 FMQPQRTGFVQPQATGFMQ  406 (706)
+Q Consensus       388 ~~qpQ~tg~~qpQ~tg~~~  406 (706)
+                      |++++.||++++|.|||++
+T Consensus       176 f~qpQ~TGg~q~Q~TGf~~  194 (1794)
+T sp|Q10172|PAN1  176 FMQPQKTGGFAPQATGFMQ  194 (1794)
+T ss_pred             CCCCCCCCCCCCCCCCCCC
+Confidence            3344444444444444443
+
+
+No 11
+>sp|O74749|HSE1_SCHPO Class E vacuolar protein-sorting machinery protein hse1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=hse1 PE=3 SV=1
+Probab=97.84  E-value=3.5e-09  Score=107.02  Aligned_cols=114  Identities=11%  Similarity=0.131  Sum_probs=88.6  Template_Neff=8.700
+
+Q sp|O74423|ENT1   19 YTDTQIKVRNATTNDSWGPSGTAMAEIAELTYDQ--NEMLEVMDIIDRRLNDKGKNWRHVFKSLSLLEYCLHNGSENVVR   96 (706)
+Q Consensus        19 yS~~E~kVrEATsnDpWGPs~~~M~eIA~aT~~~--~~~~eIm~~L~KRL~d~gknWR~VyKAL~LLeYLL~nGSErvV~   96 (706)
+                      .++++.+|.+||+.....|.-.++-+|++.....  ....+++..|+|||.++  ++++++.||.|||+|++|+...|..
+T Consensus         6 ~~~~~~~i~~at~~~~~~~d~~~~~~icd~i~~~~~~~~~~a~~~l~krl~~~--n~~~~~~aL~Lld~~vkNcg~~f~~   83 (373)
+T sp|O74749|HSE1    6 PNSIETLILQATDEKNTKEKWDVIMDACDQLSSTSGDVGRNSIKFLNKRLDTA--NANIQLLALTLTDAIVKNCKTSIVR   83 (373)
+T ss_pred             CCcHHHHHHHHcCCCCCCCcHHHHHHHHHHhhcCCCCcHHHHHHHHHHHhccC--ChHHHHHHHHHHHHHHHHCCchhhh
+Confidence            5788999999999887788888999999988763  34789999999999875  8999999999999999999998877
+
+
+Q sp|O74423|ENT1   97 WAKDNIYIITTLREFVYVDDNGHDQGQNVRTKAKEITSLLEDE  139 (706)
+Q Consensus        97 ~~r~~~~~I~~L~~F~yiDe~GkD~G~nVR~KAk~L~~LL~D~  139 (706)
+                      ++.+. ..+..|...-.    .......||+|+.+|+..+.+.
+T Consensus        84 ei~~~-~fl~~l~~l~~----~~~~~~~V~~k~l~li~~W~~~  121 (373)
+T sp|O74749|HSE1   84 EISSR-TFTDSLLKIAS----DSTTHNRVRSRIAVLVNEWAEI  121 (373)
+T ss_pred             hhcch-hHHHHHHHHhc----CCCCChhHHHHHHHHHHHHHHH
+Confidence            76542 33334433211    1234567898888888777763
+
+
+No 12
+>sp|O13736|SLA1_SCHPO Actin cytoskeleton-regulatory complex protein sla1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=sla1 PE=1 SV=1
+Probab=97.18  E-value=2.1e-07  Score=107.37  Aligned_cols=36  Identities=42%  Similarity=0.667  Sum_probs=22.9  Template_Neff=5.200
+
+Q sp|O74423|ENT1  506 APNHTGYVHPQPTGLQRQTTGYTGNNNPYSRPLQSQSTGILQ  547 (706)
+Q Consensus       506 ~pq~tG~lqpq~tg~~p~~tgy~g~~p~~~~~L~~Q~tg~~~  547 (706)
+                      +|++||+.+  .++++++.++|++++|+    |..|+|||.+
+T Consensus      1189 ~~q~tg~~~--~~~~~~q~tg~~~~~pp----~~p~~tg~~~ 1224 (1420)
+T sp|O13736|SLA1 1189 MPQATGMMQ--PTGMQPQVTGIMPQSMP----MQPQMTGVQV 1224 (1420)
+T ss_pred             CCCCCCCCC--CCCCCCcccCCCCCCCC----CCCCcCCCcc
+Confidence            445555432  23456778889887765    5678888844
+
+
+No 13
+>sp|O13736|SLA1_SCHPO Actin cytoskeleton-regulatory complex protein sla1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=sla1 PE=1 SV=1
+Probab=97.11  E-value=3e-07  Score=105.92  Aligned_cols=14  Identities=36%  Similarity=0.522  Sum_probs=10.2  Template_Neff=5.200
+
+Q sp|O74423|ENT1  467 GMMQPQRTGFSQPF  480 (706)
+Q Consensus       467 ~~l~PqpTGsnnpf  480 (706)
+                      .+|.||+||..+.+
+T Consensus      1232 qp~~~q~Tg~pgqw 1245 (1420)
+T sp|O13736|SLA1 1232 QPMLSQYTGYQQNY 1245 (1420)
+T ss_pred             CCCCCccCCCCCCC
+Confidence            45677789987765
+
+
+No 14
+>sp|Q10172|PAN1_SCHPO Actin cytoskeleton-regulatory complex protein pan1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=pan1 PE=1 SV=1
+Probab=96.70  E-value=1.9e-06  Score=98.73  Aligned_cols=29  Identities=48%  Similarity=0.767  Sum_probs=16.6  Template_Neff=3.900
+
+Q sp|O74423|ENT1  468 MMQPQRTGFSQPFE-SNNPFPVMQPQRTGF  496 (706)
+Q Consensus       468 ~l~PqpTGsnnpfa-~~~~~~~~~pq~tg~  496 (706)
+                      +|.|+.||++.+.+ +.+++.+++++.||+
+T Consensus       595 p~~~q~TG~~~~~~~q~~g~~p~~pq~Tg~  624 (1794)
+T sp|Q10172|PAN1  595 PMMPQRTGMQQPMAPQRTGMQPMMPQRTGM  624 (1794)
+T ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Confidence            46677777765432 345555566666653
+
+
+No 15
+>sp|O13821|VPS27_SCHPO Vacuolar protein sorting-associated protein 27 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=sst4 PE=3 SV=1
+Probab=96.69  E-value=2.1e-06  Score=92.07  Aligned_cols=116  Identities=13%  Similarity=0.122  Sum_probs=78.9  Template_Neff=6.300
+
+Q sp|O74423|ENT1   18 GYTDTQIKVRNATTNDSW--GPSGTAMAEIAELTYD-QNEMLEVMDIIDRRLNDKGKNWRHVFKSLSLLEYCLHNGSENV   94 (706)
+Q Consensus        18 ~yS~~E~kVrEATsnDpW--GPs~~~M~eIA~aT~~-~~~~~eIm~~L~KRL~d~gknWR~VyKAL~LLeYLL~nGSErv   94 (706)
+                      +.++++.+|.+||+..--  .+.-.++-+|++..-. ...-.++|..|.|||...  |-.+++.||.|||.|++|+...|
+T Consensus         7 ~~s~~d~lIekATse~l~~~~~Dw~~ileIcD~I~s~~~~aKeAvraLkKRL~~~--Np~vql~AL~LLd~cVKNcG~~F   84 (610)
+T sp|O13821|VPS2    7 SNSQFASDIEKATSETLPAGSEEISLYLEISDQIRSKSVDPKFAMRILKSRIDHS--NPNVQIMALKLTDTCVKNGGSGF   84 (610)
+T ss_pred             CCChHHHHHHHHhcCCCCCCCCcHHHHHHHHHHHhcCCCCHHHHHHHHHHHhcCC--ChHHHHHHHHHHHHHHHHcCcch
+Confidence            478899999999996431  2344466677776654 355788999999999864  77889999999999999999988
+
+
+Q sp|O74423|ENT1   95 VRWAKDNIYIITTLREFVYVDDNGHDQGQNVRTKAKEITSLLEDE  139 (706)
+Q Consensus        95 V~~~r~~~~~I~~L~~F~yiDe~GkD~G~nVR~KAk~L~~LL~D~  139 (706)
+                      ..++.+. ..|..|..... +.  ...-..||+|+.+++..+.+.
+T Consensus        85 ~~evask-eFld~L~~l~~-~~--~~~~~~Vk~kiL~LIq~Wa~a  125 (610)
+T sp|O13821|VPS2   85 LLEIASR-EFMDNLVSILR-SP--AGIDEDVKMVILRYIQSWALA  125 (610)
+T ss_pred             hhhhcCH-HHHHHHHHHhc-CC--CCCCHHHHHHHHHHHHHHHHh
+Confidence            7776432 22333333221 11  112346777777766555543
+
+
+No 16
+>sp|O74423|ENT1_SCHPO Epsin-1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=ent1 PE=1 SV=1
+Probab=96.60  E-value=2.9e-06  Score=91.53  Aligned_cols=21  Identities=38%  Similarity=0.583  Sum_probs=17.2  Template_Neff=4.800
+
+Q sp|O74423|ENT1  256 ANDSEAELQKAIQLSKEEDEA  276 (706)
+Q Consensus       256 ~~~~d~~L~~Al~lSkeEee~  276 (706)
+                      ..+||+||++||++||+|+|.
+T Consensus       228 ~~eed~~lq~Ale~Sk~~aee  248 (706)
+T sp|O74423|ENT1  228 AEENDPELQRVIEESKRQAEE  248 (706)
+T ss_pred             CCCCcHHHHHHHHHHHHHHHH
+Confidence            468899999999999976443
+
+
+No 17
+>sp|P87308|LSB5_SCHPO Protein lsb5 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=lsb5 PE=3 SV=1
+Probab=96.44  E-value=5.4e-06  Score=81.30  Aligned_cols=114  Identities=12%  Similarity=0.132  Sum_probs=82.0  Template_Neff=7.500
+
+Q sp|O74423|ENT1   18 GYTDTQIKVRNATTNDSWGPSGTAMAEIAELTYD-QNEMLEVMDIIDRRLNDKGKNWRHVFKSLSLLEYCLHNGSENVVR   96 (706)
+Q Consensus        18 ~yS~~E~kVrEATsnDpWGPs~~~M~eIA~aT~~-~~~~~eIm~~L~KRL~d~gknWR~VyKAL~LLeYLL~nGSErvV~   96 (706)
+                      .+++++..|.+||+...-.|.-..+-+|+...-. .....+++..|.|||...  +-+++++||.|||+|++|+..+|..
+T Consensus         9 ~~t~~~~~I~~aTs~~~~~~dw~~~~eicD~I~~~~~~~keA~r~l~krL~~~--~~~vq~~AL~LLe~lvkNcG~~F~~   86 (304)
+T sp|P87308|LSB5    9 PITAVTTYIDRLTSRDTDDEDLSGIVQLSEAVNLTVTGPREASRTLRKKLKYS--TPHEQVRALVILQALIENAGSHFLQ   86 (304)
+T ss_pred             CCChHHHHHHHHcCCCCCCCCHHHHHHHHHHHhcCCCCHHHHHHHHHHHhcCC--ChHHHHHHHHHHHHHHHHcChhhHh
+Confidence            4688999999999875555666677888887765 455678999999999765  5578999999999999999998877
+
+
+Q sp|O74423|ENT1   97 WAKDNIYIITTLREFVYVDDNGHDQGQNVRTKAKEITSLLED  138 (706)
+Q Consensus        97 ~~r~~~~~I~~L~~F~yiDe~GkD~G~nVR~KAk~L~~LL~D  138 (706)
+                      .+.+ ...+..|...-..    ......||+|+.+|+..+.+
+T Consensus        87 ~va~-~~Fl~~L~~l~~~----~~~~~~Vk~kil~li~~W~~  123 (304)
+T sp|P87308|LSB5   87 NFSD-EKLEDRMLQCATN----SEYSKPVRKRAIHMIKLWHN  123 (304)
+T ss_pred             hccC-hHHHHHHHHHhcC----cCCCHHHHHHHHHHHHHHHH
+Confidence            6643 2233333322111    11224688888888877665
+
+
+No 18
+>sp|P87157|YB0G_SCHPO Probable ADP-ribosylation factor-binding protein C25H2.16c OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=SPBC25H2.16c PE=1 SV=1
+Probab=96.13  E-value=1.5e-05  Score=83.47  Aligned_cols=117  Identities=16%  Similarity=0.149  Sum_probs=83.6  Template_Neff=7.500
+
+Q sp|O74423|ENT1   18 GYTDTQIKVRNATTNDSWGPSGTAMAEIAELTYDQN--EMLEVMDIIDRRLNDKGKNWRHVFKSLSLLEYCLHNGSENVV   95 (706)
+Q Consensus        18 ~yS~~E~kVrEATsnDpWGPs~~~M~eIA~aT~~~~--~~~eIm~~L~KRL~d~gknWR~VyKAL~LLeYLL~nGSErvV   95 (706)
+                      ..++++..|.+||+...-.+.-.++-+|+++.-...  ...+++..|.|||.+.  +-++++.||.|||+|++|+...|.
+T Consensus         4 ~~~~l~~~I~~ATs~~~~~~dw~~~leicD~In~~~~~~~keA~r~i~krL~~~--n~~v~l~AL~LLe~~vkNcG~~F~   81 (533)
+T sp|P87157|YB0G    4 AKRRLYSLIQNATEPYAFEPDLAVNLDIADLINQTGGNLPREAAFAIVRKVNDR--NPTVAYLALNLLDICVKNCGYAFR   81 (533)
+T ss_pred             ccchHHHHHHHHcCCCCCCCChHhHHHHHHHHhcCCCCChHHHHHHHHHHhcCC--ChhHHHHHHHHHHHHHHhCCchhh
+Confidence            467888999999997665666667778888876643  4789999999999875  678999999999999999999887
+
+
+Q sp|O74423|ENT1   96 RWAKDNIYIITTLREFVYVDDNGHDQGQNVRTKAKEITSLLEDE  139 (706)
+Q Consensus        96 ~~~r~~~~~I~~L~~F~yiDe~GkD~G~nVR~KAk~L~~LL~D~  139 (706)
+                      .++.+. ..+..|...-. + .....-..||+|+.+|+..+.+.
+T Consensus        82 ~~ia~~-~Fl~~L~~l~~-~-~~~~~~~~Vk~kil~ll~~W~~~  122 (533)
+T sp|P87157|YB0G   82 LQIASK-EFLNELVRRFP-E-RPPSRLNKIQVMILSLIEEWRKT  122 (533)
+T ss_pred             hhhcCh-HHHHHHHHhcC-C-CCCCcchHHHHHHHHHHHHHHHH
+Confidence            776432 22333322211 1 11112256888888888777654
+
+
+No 19
+>sp|Q10410|YD85_SCHPO Probable ADP-ribosylation factor-binding protein C1F3.05 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=SPAC1F3.05 PE=3 SV=1
+Probab=95.72  E-value=4.6e-05  Score=79.12  Aligned_cols=116  Identities=16%  Similarity=0.128  Sum_probs=82.3  Template_Neff=7.700
+
+Q sp|O74423|ENT1   19 YTDTQIKVRNATTNDSWGPSGTAMAEIAELTYDQN--EMLEVMDIIDRRLNDKGKNWRHVFKSLSLLEYCLHNGSENVVR   96 (706)
+Q Consensus        19 yS~~E~kVrEATsnDpWGPs~~~M~eIA~aT~~~~--~~~eIm~~L~KRL~d~gknWR~VyKAL~LLeYLL~nGSErvV~   96 (706)
+                      -++++..|.+||+...-.|.-..+-+||++.-...  .-.+++..|.|||++.  +-+++|.||.|||+|++|+...|..
+T Consensus         4 ~~~l~~lI~~ATs~~~~~~d~~~~leicD~In~~~~~~~keA~~~i~krL~~~--n~~v~l~AL~LLd~~vkNcG~~F~~   81 (510)
+T sp|Q10410|YD85    4 SQTLSKYIDKATDQFNLEPNLALNIEIADLINEKKGNTPREAALLILKRVNSA--NPTVSYLALHLLDICVKNCGYPFHF   81 (510)
+T ss_pred             cchHHHHHHHHccCCCCCCCHHHHHHHHHHHhcCCCCCHHHHHHHHHHHhcCC--CchHHHHHHHHHHHHHHHCCchhhh
+Confidence            46788999999997655666678888888776543  4689999999999975  7789999999999999999998877
+
+
+Q sp|O74423|ENT1   97 WAKDNIYIITTLREFVYVDDNGHDQGQNVRTKAKEITSLLEDE  139 (706)
+Q Consensus        97 ~~r~~~~~I~~L~~F~yiDe~GkD~G~nVR~KAk~L~~LL~D~  139 (706)
+                      ++.+. ..+..|...-. + .....-..||+|+.+|+....+.
+T Consensus        82 ~ia~k-~Fl~~l~~l~~-~-~~~~~~~~V~~kil~li~~W~~~  121 (510)
+T sp|Q10410|YD85   82 QIASE-EFLNGFVSRFP-N-HPISRMNKIQSKMLEMLEEWNYM  121 (510)
+T ss_pred             hhcCh-hhHHHHHHhcC-C-CCCcchhHHHHHHHHHHHHHHHH
+Confidence            66432 12222222111 1 11112357888888887766643
+
+
+No 20
+>sp|O13736|SLA1_SCHPO Actin cytoskeleton-regulatory complex protein sla1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=sla1 PE=1 SV=1
+Probab=93.21  E-value=0.0015  Score=74.04  Aligned_cols=46  Identities=33%  Similarity=0.395  Sum_probs=24.6  Template_Neff=5.200
+
+Q sp|O74423|ENT1  433 ATGFIQPQRTGFVQPQQ--NGFFNPQPTGYMQPQRTGMMQPQRTGFSQPFESN  483 (706)
+Q Consensus       433 ~~g~~qpQ~tg~~qpg~--~np~~~q~tG~lqpq~~~~l~PqpTGsnnpfa~~  483 (706)
+                      .+++.+.|.++|..+.+  +++++.+..++     .+.++...+|++.|..+.
+T Consensus      1278 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-----~~~~~~~~~~~~~~~~~~ 1325 (1420)
+T sp|O13736|SLA1 1278 NYGFAGGQDTSFGYEQQQMYSPMQQQQQQY-----YGTEMQPDMGYQQPMMSN 1325 (1420)
+T ss_pred             ccCCCCCcccccchhhhhhcChhhhhHHhh-----ccccccCCCCCCCCCccc
+Confidence            34456666777765544  22333333322     234566677888876543
+
+
+No 21
+>sp|O94444|RPN10_SCHPO 26S proteasome regulatory subunit rpn10 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=rpn10 PE=1 SV=1
+Probab=85.81  E-value=0.027  Score=50.44  Aligned_cols=23  Identities=39%  Similarity=0.521  Sum_probs=19.1  Template_Neff=9.000
+
+Q sp|O74423|ENT1  257 NDSEAELQKAIQLSKEEDEARQR  279 (706)
+Q Consensus       257 ~~~d~~L~~Al~lSkeEee~r~~  279 (706)
+                      .++|+||+.||++|-|||++|+.
+T Consensus       204 ~~~dpela~alr~s~ee~~~~~~  226 (243)
+T sp|O94444|RPN1  204 PNLDVELALALELSMAEERARQE  226 (243)
+T ss_pred             CCCCHHHHHHHHhhHHHHHHHHH
+Confidence            46899999999999988887743
+
+
+No 22
+>sp|Q9P7W4|POF10_SCHPO F-box/WD repeat-containing protein pof10 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=pof10 PE=1 SV=1
+Probab=83.03  E-value=0.046  Score=54.43  Aligned_cols=48  Identities=21%  Similarity=0.201  Sum_probs=32.4  Template_Neff=10.700
+
+Q sp|O74423|ENT1  233 PELQRVIEESKRQAEEDAKR-------RNMA-------NDSEAELQKAIQLSKEEDEARQRH  280 (706)
+Q Consensus       233 ~~lq~Ale~Sk~~aeee~~r-------r~~~-------~~~d~~L~~Al~lSkeEee~r~~~  280 (706)
+                      .++.+.|++++++.++|+++       ++..       -.|++.|+-||.||+||||+|+.+
+T Consensus       542 ~~~~~~i~~~~~~~~~e~~~~~~~~~~~~~~~~~~~~~l~e~eal~~al~ls~~~~~~~~~~  603 (662)
+T sp|Q9P7W4|POF1  542 NEVEREIMLGLDQIAQERREKMEARQKFEQHFGEGLVGLSEEEIIAYVTMLSQEEEAKRMVQ  603 (662)
+T ss_pred             hhHHHHHHhHHHHHHHHHHHHHHHHHHHHhhcCCCCCCCCHHHHHHHHHhhChHHHHhhhhh
+Confidence            56777777777666543321       1111       237789999999999999988654
+
+
+No 23
+>sp|Q10168|NSP1_SCHPO Nucleoporin nsp1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=nsp1 PE=1 SV=1
+Probab=63.53  E-value=0.35  Score=49.26  Aligned_cols=13  Identities=23%  Similarity=0.626  Sum_probs=5.3  Template_Neff=6.100
+
+Q sp|O74423|ENT1   54 EMLEVMDIIDRRL   66 (706)
+Q Consensus        54 ~~~eIm~~L~KRL   66 (706)
+                      ++.+|++-|.+.|
+T Consensus       493 eLe~lLd~lE~~l  505 (598)
+T sp|Q10168|NSP1  493 ELFKLLDSYETQL  505 (598)
+T ss_pred             HHHHHHHHHHHHH
+Confidence            3334444444333
+
+
+No 24
+>sp|Q09793|NUP45_SCHPO Nucleoporin nup45 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=nup45 PE=1 SV=2
+Probab=60.54  E-value=0.43  Score=46.28  Aligned_cols=16  Identities=19%  Similarity=0.383  Sum_probs=7.7  Template_Neff=7.200
+
+Q sp|O74423|ENT1   59 MDIIDRRLNDKGKNWR   74 (706)
+Q Consensus        59 m~~L~KRL~d~gknWR   74 (706)
+                      ++.|.+.+..+.++|.
+T Consensus       302 l~tlk~~l~~D~~~ae  317 (425)
+T sp|Q09793|NUP4  302 IETTKRVVDEDTSNAR  317 (425)
+T ss_pred             HHHHHHHHHHHHHHHH
+Confidence            3444444444445555
+
+
+No 25
+>sp|O74372|DUO1_SCHPO DASH complex subunit duo1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=duo1 PE=3 SV=2
+Probab=58.35  E-value=0.5  Score=43.54  Aligned_cols=21  Identities=10%  Similarity=0.159  Sum_probs=15.1  Template_Neff=3.400
+
+Q sp|O74423|ENT1  120 DQGQNVRTKAKEITSLLEDEH  140 (706)
+Q Consensus       120 D~G~nVR~KAk~L~~LL~D~e  140 (706)
+                      |.-+.|-..++.+-.||.|+.
+T Consensus        48 D~WirILSQTEhTqrLLlDp~   68 (282)
+T sp|O74372|DUO1   48 QLWSSVLSQTEHTQNLILNSD   68 (282)
+T ss_pred             HHHHHHhccchhhHHhhhCCC
+Confidence            566677777777778887754
+
+
+No 26
+>sp|O14128|PIL2_SCHPO Probable sphingolipid long chain base-responsive protein pil2 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=pil2 PE=3 SV=1
+Probab=51.59  E-value=0.76  Score=44.12  Aligned_cols=78  Identities=14%  Similarity=0.332  Sum_probs=44.6  Template_Neff=5.200
+
+Q sp|O74423|ENT1    6 LAYNLLAKNFSKGYTDTQIKVRNATT-NDSWGPSGTAMAEIAELTYDQNEMLEVMDIIDRRLNDKGKNWRHVFKSLSLLE   84 (706)
+Q Consensus         6 ~~~~r~akN~v~~yS~~E~kVrEATs-nDpWGPs~~~M~eIA~aT~~~~~~~eIm~~L~KRL~d~gknWR~VyKAL~LLe   84 (706)
+                      ..+|..-|+++..+.-+-...++|-. --.||-...  ..|.+.+-....+...+.-+...|.++-+.||+.+|++.-+|
+T Consensus        58 q~LI~aEK~v~~sle~La~d~~~aSkaL~~WG~~E~--dDL~DV~dkla~LL~~~~el~~~fA~~ld~~R~~LKsIRd~E  135 (383)
+T sp|O14128|PIL2   58 AALVKMEKDLLRSYENVAMERKECANQLSYWGEDCD--DDISDISDKLGVLLYEIGELEEHMVDRYDQYRVSLKTIRDIE  135 (383)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhcCCC--CchHhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            34455555555554444333333333 346886553  455555444444444455555666666678999999988665
+
+
+Q sp|O74423|ENT1   85 Y   85 (706)
+Q Consensus        85 Y   85 (706)
+                      -
+T Consensus       136 ~  136 (383)
+T sp|O14128|PIL2  136 A  136 (383)
+T ss_pred             h
+Confidence            3
+
+
+No 27
+>sp|Q10237|YD14_SCHPO Uncharacterized protein C4G9.04c OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=SPAC4G9.04c PE=3 SV=1
+Probab=51.07  E-value=0.79  Score=46.68  Aligned_cols=77  Identities=10%  Similarity=0.182  Sum_probs=55.0  Template_Neff=6.300
+
+Q sp|O74423|ENT1   52 QNEMLEVMDIIDRRLNDKGKNWRHVFKSLSLLEYCLHNGSENVVRWAKDNIYIITTLREFVYVDDNGHDQGQNVRTKAKE  131 (706)
+Q Consensus        52 ~~~~~eIm~~L~KRL~d~gknWR~VyKAL~LLeYLL~nGSErvV~~~r~~~~~I~~L~~F~yiDe~GkD~G~nVR~KAk~  131 (706)
+                      .+....|+++|.++|...  ...+-+-+|-||+-+|+|-...++..|..+++.+- +.-|..+|       ..+|+|.++
+T Consensus        34 ~~~A~~Iv~~i~~~i~~~--~p~~KL~~LYLlDSI~KNvg~pY~~~F~~~L~~~F-~~~y~~vd-------~~~R~kl~~  103 (638)
+T sp|Q10237|YD14   34 EPYAISIVNAIEKHIQKC--PPNCKLPALYLLDSISKNLGAPYTYFFGLHLFSTF-MSAYTVVE-------PRLRLKLDQ  103 (638)
+T ss_pred             hhHHHHHHHHHHHHhhcC--CCCCcccHhHHHHHHHHhcCcchhhhhHhhHHHHH-HHHHhcCC-------HHHHHHHHH
+Confidence            344578999999999754  45667779999999999988778888777754331 11222233       488999999
+
+
+Q sp|O74423|ENT1  132 ITSLLED  138 (706)
+Q Consensus       132 L~~LL~D  138 (706)
+                      |++.-+.
+T Consensus       104 ll~tW~~  110 (638)
+T sp|Q10237|YD14  104 LLATWKQ  110 (638)
+T ss_pred             HHHHHhc
+Confidence            8877765
+
+
+No 28
+>sp|Q10428|2AD1_SCHPO Serine/threonine-protein phosphatase 2A 56 kDa regulatory subunit delta 1 isoform OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=par1 PE=1 SV=1
+Probab=49.05  E-value=0.89  Score=45.48  Aligned_cols=81  Identities=14%  Similarity=0.251  Sum_probs=50.7  Template_Neff=5.900
+
+Q sp|O74423|ENT1   51 DQNEMLEVMDIIDRRLND--KGKNWRHVFKSLSLLEYCLHNGSENVVRWAKDNIYIITTLREFVYVDDNG-HDQGQNVRT  127 (706)
+Q Consensus        51 ~~~~~~eIm~~L~KRL~d--~gknWR~VyKAL~LLeYLL~nGSErvV~~~r~~~~~I~~L~~F~yiDe~G-kD~G~nVR~  127 (706)
+                      ..++|..|+..|.+||..  ...+..++-+||.++      ..+.|+..+.+|...|-.+- |..+.... ..|-..||.
+T Consensus       395 ~~~~f~~i~~~lf~~La~Ci~S~hfqVAErAL~~w------~N~~i~~li~~n~~~ilPiI-f~aL~~~sk~HWn~~Vr~  467 (548)
+T sp|Q10428|2AD1  395 EPSEFLKIQVPLFHKLATSISSQNFQVAERALYFF------NNDYFVHLVEENVDIILPII-YPALFEISKSHWNRVIHS  467 (548)
+T ss_pred             ChhhHHhhHHHHHHHHHHHHcCCcHHHHHHHHHHh------cChHHHHHHHhchhhhHHHH-HHHHHHHHhhccCHHHHH
+Confidence            356778888888888764  234667777777665      34556666566654332110 11111122 368889999
+
+
+Q sp|O74423|ENT1  128 KAKEITSLLED  138 (706)
+Q Consensus       128 KAk~L~~LL~D  138 (706)
+                      .+..++++|.+
+T Consensus       468 la~~vLk~l~~  478 (548)
+T sp|Q10428|2AD1  468 MVCNVLKLFMD  478 (548)
+T ss_pred             HHHHHHHHHHH
+Confidence            99999999976
+
+
+No 29
+>sp|Q9UTE3|SEB1_SCHPO Rpb7-binding protein seb1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=seb1 PE=1 SV=3
+Probab=47.49  E-value=0.98  Score=45.61  Aligned_cols=71  Identities=11%  Similarity=0.168  Sum_probs=47.3  Template_Neff=7.000
+
+Q sp|O74423|ENT1   19 YTDTQIKVRNATTNDSWGPSGTAMAEIAELTYD-QNEMLEVMDIIDRRLNDKGKNWRHVFKSLSLLEYCLHNGSE   92 (706)
+Q Consensus        19 yS~~E~kVrEATsnDpWGPs~~~M~eIA~aT~~-~~~~~eIm~~L~KRL~d~gknWR~VyKAL~LLeYLL~nGSE   92 (706)
+                      +.+++.++++..... -|.++..+..|..++.+ ...+..|+..|.++|...  .-.|.+-+|-||+-++++--+
+T Consensus         4 v~ef~~~L~~l~~~k-pg~S~s~I~~lt~~a~~n~~~~~~iv~~i~~~~k~~--~~~~KL~~LYvvDsI~r~~~~   75 (620)
+T sp|Q9UTE3|SEB1    4 IAEFDGILDSLEHSK-TGISGSKILKLTNLSMENVSENAQFVASVYKYAKRA--PVTHKLGALYILDSIVRSFQD   75 (620)
+T ss_pred             HHHHHHHHHHHhccC-CCCCHHHHHHHHHHHHhhhhhhHHHHHHHHHHHHhC--CCCCeehhhHhHHHHHHHHhh
+Confidence            344555555554434 36677777777777665 566788999998888753  235667778888888876643
+
+
+No 30
+>sp|Q10475|IF4G_SCHPO Eukaryotic translation initiation factor 4 gamma OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=tif471 PE=1 SV=1
+Probab=43.64  E-value=1.2  Score=48.90  Aligned_cols=45  Identities=11%  Similarity=0.126  Sum_probs=25.8  Template_Neff=5.500
+
+Q sp|O74423|ENT1    7 AYNLLAKNFSKGYTDT-----QIKVRNATTNDSWGPSGTAMAEIAELTYD   51 (706)
+Q Consensus         7 ~~~r~akN~v~~yS~~-----E~kVrEATsnDpWGPs~~~M~eIA~aT~~   51 (706)
+                      ..+|+||-+|+.+|+-     -..|.+......|-.+...|..|+.++|+
+T Consensus      1007 ~V~RKVrsLLNKLTpeNFDsIsdqIl~l~i~s~~e~d~etL~~VI~LIFE 1056 (1403)
+T sp|Q10475|IF4G 1007 VVQRKVKGSLNKMTLEKFDKISDQILEIAMQSRKENDGRTLKQVIQLTFE 1056 (1403)
+T ss_pred             HHHHHHHHHHhcCChhhHHHHHHHHHHHHHhccccchhHHHHHHHHHHHH
+Confidence            3456666666665542     22233333344455667778888888876
+
+
+No 31
+>sp|O43028|VAC8_SCHPO Vacuolar protein 8 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=vac8 PE=1 SV=4
+Probab=36.64  E-value=1.9  Score=38.91  Aligned_cols=79  Identities=13%  Similarity=0.118  Sum_probs=48.7  Template_Neff=12.300
+
+Q sp|O74423|ENT1   58 VMDIIDRRLNDKGKNWRHVFKSLSLLEYCLHNGSENVVRWAKDNIYIIT----TLREFVYVDDNGHDQG-QNVRTKAKEI  132 (706)
+Q Consensus        58 Im~~L~KRL~d~gknWR~VyKAL~LLeYLL~nGSErvV~~~r~~~~~I~----~L~~F~yiDe~GkD~G-~nVR~KAk~L  132 (706)
+                      |+..|.+.|.+  .+|.....++.+|..|+.++.+.++..+...-.++.    .|..+...  ...+.+ ..+...++.|
+T Consensus       465 ~~~~l~~~l~~--~~~~v~~~a~~~L~~l~~~~~~~~~~~l~~~~~~~~~l~~~l~~~~~~--~~~~~~~~~~~~~~~~~  540 (550)
+T sp|O43028|VAC8  465 IHGYLVRFLSS--EDSTFAHIAAWTIVQLLEAGVPRLTAFIQSSDDIIELLNDIVARDANN--GEYEDGEGDVILLSGRA  540 (550)
+T ss_pred             hHHHHHHHcCC--CChhhHHHHHHHHHHHhhcChHHHHHHhcChhHHHHHHHHHHHhhccC--CccccCcceeeeecccc
+Confidence            44555555544  357777788999999999988777777765322222    23333211  112233 3678888899
+
+
+Q sp|O74423|ENT1  133 TSLLEDEH  140 (706)
+Q Consensus       133 ~~LL~D~e  140 (706)
+                      +.+|.++.
+T Consensus       541 ~~~~~~~~  548 (550)
+T sp|O43028|VAC8  541 LHLIEQDT  548 (550)
+T ss_pred             hhhhcccC
+Confidence            99887653
+
+
+No 32
+>sp|O74960|PIL1_SCHPO Probable sphingolipid long chain base-responsive protein pil1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=pil1 PE=1 SV=1
+Probab=35.11  E-value=2  Score=40.31  Aligned_cols=53  Identities=21%  Similarity=0.370  Sum_probs=32.8  Template_Neff=5.500
+
+Q sp|O74423|ENT1   33 DSWGPSGTAMAEIAELTYDQNEMLEVMDIIDRRLNDKGKNWRHVFKSLSLLEYCL   87 (706)
+Q Consensus        33 DpWGPs~~~M~eIA~aT~~~~~~~eIm~~L~KRL~d~gknWR~VyKAL~LLeYLL   87 (706)
+                      -.||-...  ..|.+.+-....+...+.-+...|.++-+.||+.+|++.-.|--|
+T Consensus        87 ~~WG~~e~--~DL~DV~dkla~Ll~~~~el~~~~A~~ld~~R~~LK~IR~~E~sL  139 (351)
+T sp|O74960|PIL1   87 SYWGEDCD--DDISDVTDKLGVLFYEMAELENYLIDRYDQYRMTLKSIRNIESSV  139 (351)
+T ss_pred             HHHhcCCC--CchhhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhHHhhc
+Confidence            46887654  345544444444444445555666666678999999988776433
+
+
+No 33
+>sp|P78759|2AD2_SCHPO Serine/threonine-protein phosphatase 2A 56 kDa regulatory subunit delta 2 isoform OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=par2 PE=1 SV=2
+Probab=33.74  E-value=2.2  Score=42.94  Aligned_cols=83  Identities=11%  Similarity=0.221  Sum_probs=47.3  Template_Neff=5.300
+
+Q sp|O74423|ENT1   51 DQNEMLEVMDIIDRRLND--KGKNWRHVFKSLSLLEYCLHNGSENVVRWAKDNIYIITTLREFVYVDD-NGHDQGQNVRT  127 (706)
+Q Consensus        51 ~~~~~~eIm~~L~KRL~d--~gknWR~VyKAL~LLeYLL~nGSErvV~~~r~~~~~I~~L~~F~yiDe-~GkD~G~nVR~  127 (706)
+                      ...+|..|+..|.+||..  ...+..+.-+||.++.      .+.|+..+.+|...|-.+- |..+.. .-..|-..||.
+T Consensus       496 ~~~~f~~i~~plf~~LakCi~S~hfqVAERAL~~wn------Ne~i~~li~~n~~~IlPiI-fpaLy~~sk~HWN~tVr~  568 (627)
+T sp|P78759|2AD2  496 EPSEFVNIMSPLFQQLARSISSMHFQVAERALCLWS------NEYFTSLVSQNVVTLLPII-YPSLYKTANEHWNSTIQA  568 (627)
+T ss_pred             ChHhHHHHHHHHHHHHHHHHhcccHhHHHHHHHHhh------hhHHHHHhhcchhhhhhhH-HHHHHHHHhhcccHHHHH
+Confidence            466777888888777764  2234555555555443      3445555555543322110 111111 12468889999
+
+
+Q sp|O74423|ENT1  128 KAKEITSLLEDEH  140 (706)
+Q Consensus       128 KAk~L~~LL~D~e  140 (706)
+                      .+..++++|.+-+
+T Consensus       569 la~~vLk~l~e~D  581 (627)
+T sp|P78759|2AD2  569 IACNVLQIFVDMD  581 (627)
+T ss_pred             HHHHHHHHHHHcC
+Confidence            9999998887653
+
+
+No 34
+>sp|Q9Y7I8|ZUO1_SCHPO Zuotin OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=zuo1 PE=1 SV=2
+Probab=32.45  E-value=2.4  Score=40.83  Aligned_cols=25  Identities=24%  Similarity=0.276  Sum_probs=14.6  Template_Neff=6.200
+
+Q sp|O74423|ENT1   95 VRWAKDNIYIITTLREFVYVDDNGH  119 (706)
+Q Consensus        95 V~~~r~~~~~I~~L~~F~yiDe~Gk  119 (706)
+                      |..|-+.-+.+.+.|+|.|.|+...
+T Consensus       216 V~~FY~fW~~F~SwR~F~~~de~~~  240 (442)
+T sp|Q9Y7I8|ZUO1  216 VDNFYNFWYNFDSWRSFEYLDKDIP  240 (442)
+T ss_pred             HHHHhhhhhhccccccccccCCCCC
+Confidence            4444444455666777777765433
+
+
+No 35
+>sp|Q10168|NSP1_SCHPO Nucleoporin nsp1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=nsp1 PE=1 SV=1
+Probab=32.05  E-value=2.5  Score=42.29  Aligned_cols=47  Identities=9%  Similarity=0.187  Sum_probs=30.2  Template_Neff=6.100
+
+Q sp|O74423|ENT1   49 TYDQNEMLEVMDIIDRRLNDKGKNWRHVFKSLSLLEYCLHNGSENVV   95 (706)
+Q Consensus        49 T~~~~~~~eIm~~L~KRL~d~gknWR~VyKAL~LLeYLL~nGSErvV   95 (706)
+                      ...+..+.||++...++|.+..+...+.-.-|...|.+|....+++.
+T Consensus       418 ~l~~ktlEeiInkW~~eLe~q~k~F~~qA~~Vn~WDr~L~~N~~kIs  464 (598)
+T sp|Q10168|NSP1  418 SIKHKTLQEILNKWSTDLTTQTEVFNKLCDQVSDWDRTLVDNGALIS  464 (598)
+T ss_pred             CCCCCcHHHHHHHhHHHHHHHHHHHHHHHHHHHHhhHHHHHHHHHHH
+Confidence            34456677777777778887766666666666666665555554443
+
+
+No 36
+>sp|O94652|GLE1_SCHPO Nucleoporin gle1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=gle1 PE=3 SV=1
+Probab=29.26  E-value=3  Score=40.58  Aligned_cols=9  Identities=11%  Similarity=0.106  Sum_probs=4.0  Template_Neff=6.000
+
+Q sp|O74423|ENT1  610 GTDSFGNIG  618 (706)
+Q Consensus       610 g~DTFGNtG  618 (706)
+                      -+.+||+-+
+T Consensus       427 l~~~YG~Qf  435 (480)
+T sp|O94652|GLE1  427 LLRIYGRQA  435 (480)
+T ss_pred             HHHHHHHHH
+Confidence            444444443
+
+
+No 37
+>sp|Q9HDW6|VATC_SCHPO V-type proton ATPase subunit C OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=vma5 PE=1 SV=1
+Probab=28.90  E-value=3  Score=39.36  Aligned_cols=41  Identities=20%  Similarity=0.487  Sum_probs=23.3  Template_Neff=6.600
+
+Q sp|O74423|ENT1   71 KNWRHVFKSL--SLLE-----------------YCLHNGSENVVRWAKDNIYIITTLREFVYV  114 (706)
+Q Consensus        71 knWR~VyKAL--~LLe-----------------YLL~nGSErvV~~~r~~~~~I~~L~~F~yi  114 (706)
+                      +.|...|..|  .|+-                 .|+++.-++|...||++.+++   |+|.|.
+T Consensus       200 ~ewl~~Ye~l~~~VVPrSs~~i~eD~e~~Ly~V~lfkk~~~eFk~~~re~kf~v---Ref~yd  259 (394)
+T sp|Q9HDW6|VATC  200 KQFLNSYETLTDLVIPRSAKKLDQDSEFVLYTVVVFKKTADSFITKAREAKYTI---REFTFE  259 (394)
+T ss_pred             hHHHHHhhhhccccccCccccccccCCceEEEEEEEeCCHHHHHHHHHHcCCee---eecccC
+Confidence            4799999988  3321                 144444455555555555544   355553
+
+
+No 38
+>sp|Q9P7Q8|PMO25_SCHPO Mo25-like protein OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=pmo25 PE=3 SV=1
+Probab=28.23  E-value=3.2  Score=38.43  Aligned_cols=88  Identities=14%  Similarity=0.215  Sum_probs=47.3  Template_Neff=6.000
+
+Q sp|O74423|ENT1   37 PSGTAMAEIAELTYDQNEMLEVMDIIDRRLNDKGKNWRHVFKSLSLLEYCLHNGSE---NVVRWAKDNIYIITTLREFVY  113 (706)
+Q Consensus        37 Ps~~~M~eIA~aT~~~~~~~eIm~~L~KRL~d~gknWR~VyKAL~LLeYLL~nGSE---rvV~~~r~~~~~I~~L~~F~y  113 (706)
+                      |......+++...|..+-+..++..|.+-=-+..|.-.+||..|      |++...   -.|+++..|..+|..|-....
+T Consensus        58 p~~e~~~qL~~e~~~~dll~~Li~~L~~LeFE~RKdv~~If~~l------lrr~~~~~~p~v~Yl~~~~~il~~L~~gy~  131 (329)
+T sp|Q9P7Q8|PMO2   58 PDADLVSDLSFQIYQSNLPFLLVRYLPKLEFESKKDTGLIFSAL------LRRHVASRYPTVDYMLAHPQIFPVLVSYYR  131 (329)
+T ss_pred             CChHHHHHHHHHHHhcCCHHHHHhhcCcCCccccccHHHHHHHH------HhhccCCCCcchhhhccCccHHHHHHhccc
+Confidence            55566677777766665555555544432224445555555443      333332   356777777667766644221
+
+
+Q sp|O74423|ENT1  114 VDDNGHDQGQNVRTKAK  130 (706)
+Q Consensus       114 iDe~GkD~G~nVR~KAk  130 (706)
+                      ..+--.-.|..+|+-++
+T Consensus       132 ~~d~al~~G~mlRec~~  148 (329)
+T sp|Q9P7Q8|PMO2  132 YQEVAFTAGSILRECSR  148 (329)
+T ss_pred             cccchhhhHHHHHHhhh
+Confidence            12233457777777443
+
+
+No 39
+>sp|Q7LL15|SUS1_SCHPO Transcription and mRNA export factor sus1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=sus1 PE=3 SV=1
+Probab=22.61  E-value=4.7  Score=31.33  Aligned_cols=37  Identities=14%  Similarity=0.395  Sum_probs=28.0  Template_Neff=5.800
+
+Q sp|O74423|ENT1   44 EIAELTYDQNEMLEVMDIIDRRLNDKGKNWRHVFKSLSL   82 (706)
+Q Consensus        44 eIA~aT~~~~~~~eIm~~L~KRL~d~gknWR~VyKAL~L   82 (706)
+                      .|-+..-...++.+|..+|..||.+.  .|+.-.|.+..
+T Consensus        14 ~i~~~LveSGe~~rL~~~Lr~rL~Es--GW~D~vr~~cr   50 (108)
+T sp|Q7LL15|SUS1   14 KIVEQLYETGDYERLANELEYKLESC--GWTTQLRDYTR   50 (108)
+T ss_pred             HHHHHHHhcCCHHHHHHHHHHhhhhc--CcHHHHHHHHH
+Confidence            34444455788999999999999997  58888877643
+
+
+No 40
+>sp|O59817|EFR3_SCHPO Protein efr3 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=efr3 PE=1 SV=1
+Probab=22.26  E-value=4.9  Score=41.20  Aligned_cols=55  Identities=20%  Similarity=0.389  Sum_probs=41.2  Template_Neff=6.500
+
+Q sp|O74423|ENT1   36 GPSGTAMAEIAELTY----DQNEMLEVMDIIDRRLNDK--GKNWRHVFKSLSLLEYCLHNGSEN   93 (706)
+Q Consensus        36 GPs~~~M~eIA~aT~----~~~~~~eIm~~L~KRL~d~--gknWR~VyKAL~LLeYLL~nGSEr   93 (706)
+                      .|....   |.+++|    +++.+.+|..+|.||+..+  .+.+-.|.=+|.+|+-||..-.++
+T Consensus        26 kPNsse---LSkL~yYAsSrP~KL~KVG~yLekR~~~Dl~r~R~g~V~VTL~Il~~LI~~C~~~   86 (798)
+T sp|O59817|EFR3   26 EPNGSP---LAYLSYYAASNSSKLRKVAHFLGSRVRHSYYHKRDNEVIIGLKICKTLVQKCRDN   86 (798)
+T ss_pred             CCCChh---hHHHHHHHhcChhhhhHHHHHHHHHHHHHHhhcCCCceehHHHHHHHHHHhcccc
+Confidence            344444   455554    3788999999999998754  456677888999999999888764
+
+
+No 41
+>sp|Q09822|CDC15_SCHPO Cell division control protein 15 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=cdc15 PE=1 SV=2
+Probab=22.23  E-value=4.9  Score=41.94  Aligned_cols=50  Identities=10%  Similarity=0.243  Sum_probs=31.6  Template_Neff=5.900
+
+Q sp|O74423|ENT1   29 ATTNDSWGPSGTAMAEIAELTYD-QNEMLEVMDIIDRRLN---DKGKNWRHVFK   78 (706)
+Q Consensus        29 ATsnDpWGPs~~~M~eIA~aT~~-~~~~~eIm~~L~KRL~---d~gknWR~VyK   78 (706)
+                      .-.++-||++..-+..|....-+ ...+.+|..+|.+|..   ++.+....+.|
+T Consensus        21 sF~nnFWg~dd~Gfe~Ll~R~~~gi~~~eEL~sF~kERAaIEeEYAkkL~KLsk   74 (927)
+T sp|Q09822|CDC1   21 KFRDNFWGSEDAGMDALMSRTKSSLSVLESIDEFYAKRASIEREYASKLQELAA   74 (927)
+T ss_pred             ccccccCCCCcccHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHh
+Confidence            33467799876666666666654 5667778888888854   23344444444
+
+
+No 42
+>sp|O74352|HOB1_SCHPO Protein hob1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=hob1 PE=1 SV=1
+Probab=20.96  E-value=5.4  Score=36.75  Aligned_cols=12  Identities=25%  Similarity=0.412  Sum_probs=5.2  Template_Neff=9.700
+
+Q sp|O74423|ENT1  236 QRVIEESKRQAE  247 (706)
+Q Consensus       236 q~Ale~Sk~~ae  247 (706)
+                      +..|++++++-|
+T Consensus       184 e~~l~~a~~~ye  195 (466)
+T sp|O74352|HOB1  184 ETAFEQSSQEYE  195 (466)
+T ss_pred             HHHHHHHHHHHH
+Confidence            334444444433
+
+
+No 43
+>sp|Q09933|DIS1_SCHPO Phosphoprotein p93 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=dis1 PE=1 SV=1
+Probab=20.09  E-value=5.8  Score=40.65  Aligned_cols=63  Identities=16%  Similarity=0.243  Sum_probs=41.3  Template_Neff=8.000
+
+Q sp|O74423|ENT1   33 DSWGPSGTAMAEIAELTYD----QNEMLEVMDIIDRRLNDKGKNWRHVFKSLSLLEYCLHNGSENVVRW   97 (706)
+Q Consensus        33 DpWGPs~~~M~eIA~aT~~----~~~~~eIm~~L~KRL~d~gknWR~VyKAL~LLeYLL~nGSErvV~~   97 (706)
+                      ..|---...+.+|..+...    ..+|.+|+.+|.+.|.|.  ++.++..++.+|+.|+..-...+..+
+T Consensus       328 ~~wk~R~eALe~L~~i~~~~~i~~~~~~~ll~~L~~~l~D~--n~~V~~~A~~~L~~La~~l~~~~~~~  394 (882)
+T sp|Q09933|DIS1  328 PKWKDRKEALESMVPVCSNPVYQEGDYSELLRVIAKSLKDA--NVVVVGVAALLLTHIAKALRKGFLPY  394 (882)
+T ss_pred             CCHHHHHHHHHHHHHHhcCCCCCcccHHHHHHHHHHHhcCC--cHHHHHHHHHHHHHHHHHhcccchhh
+Confidence            3465555555555444322    345778888888888665  78888889999988887655544333
+
+

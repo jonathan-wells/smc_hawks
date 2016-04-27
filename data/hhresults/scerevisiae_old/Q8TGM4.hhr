@@ -1,0 +1,150 @@
+Query         sp|Q8TGM4|YL286_YEAST Putative uncharacterized protein YLR286W-A OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=YLR286W-A PE=5 SV=1
+Match_columns 44
+No_of_seqs    1 out of 2
+Neff          1
+Searched_HMMs 6721
+Date          Mon Apr 11 01:57:47 2016
+Command       hhsearch -i Q8TGM4.hhm -d /usr/local/hh-suite/db/saccharomyces_cerevisiae/scerevisiae -cpu 2 -v 0 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 sp|Q8TGM4|YL286_YEAST Putative  99.9 8.1E-30 1.2E-33  139.2   0.0   44    1-44      1-44  (44)
+  2 sp|A0A023PYG5|YH046_YEAST Puta  23.8     5.7 0.00085   21.5   0.0   15   24-38     47-61  (108)
+  3 sp|P00044|CYC1_YEAST Cytochrom  17.2     9.7  0.0014   15.7   0.0    7   37-43     18-24  (109)
+  4 sp|P53263|YG2U_YEAST Putative   16.9      10  0.0015   21.3   0.0   34    7-40     55-93  (149)
+  5 sp|P00045|CYC7_YEAST Cytochrom  13.8      13   0.002   15.5   0.0    7   37-43     22-28  (113)
+  6 sp|I2HB70|YM16A_YEAST Uncharac   9.8      22  0.0033   18.7   0.0   12    7-18     52-63  (103)
+  7 sp|P27999|RPB9_YEAST DNA-direc   9.4      23  0.0035   16.1   0.0   14   30-43     94-107 (122)
+  8 sp|P40368|NUP82_YEAST Nucleopo   8.6      26  0.0039   20.4   0.0   20    8-27    178-197 (713)
+  9 sp|P40898|YJV1_YEAST Putative    7.8      30  0.0045   19.0   0.0    9   30-38     75-83  (147)
+ 10 sp|Q04307|RPC10_YEAST DNA-dire   7.6      31  0.0046   14.9   0.0   10   33-42     94-103 (110)
+
+No 1
+>sp|Q8TGM4|YL286_YEAST Putative uncharacterized protein YLR286W-A OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=YLR286W-A PE=5 SV=1
+Probab=99.90  E-value=8.1e-30  Score=139.17  Aligned_cols=44  Identities=100%  Similarity=1.504  Sum_probs=43.4  Template_Neff=1.700
+
+Q sp|Q8TGM4|YL28    1 MITNGELPISRACNFTFSTGRFTVQFTSRILSIQFFSQCTSCTV   44 (44)
+Q Consensus         1 mitngelpisracnftfstgrftvqftsrilsiqffsqctsctv   44 (44)
+                      ||||||+|++|+|||+||+|||++||++|+|+||+||||+||||
+T Consensus         1 ~~~~~el~~~R~cef~Fs~Gr~tmdF~~r~L~Iqt~~~~~~~~~   44 (44)
+T sp|Q8TGM4|YL28    1 MITNGELPISRACNFTFSTGRFTVQFTSRILSIQFFSQCTSCTV   44 (44)
+T ss_pred             CcccCccceeEeeEEEEeCCEEEEEecCcEEeeEEeeeeeeeeC
+Confidence            89999999999999999999999999999999999999999997
+
+
+No 2
+>sp|A0A023PYG5|YH046_YEAST Putative uncharacterized protein YHL046W-A OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=YHL046W-A PE=5 SV=1
+Probab=23.77  E-value=5.7  Score=21.53  Aligned_cols=15  Identities=53%  Similarity=0.709  Sum_probs=11.5  Template_Neff=1.000
+
+Q sp|Q8TGM4|YL28   24 VQFTSRILSIQFFSQ   38 (44)
+Q Consensus        24 vqftsrilsiqffsq   38 (44)
+                      --|.|.|.|.||||-
+T Consensus        47 sifsstisslqffsv   61 (108)
+T sp|A0A023PYG5|   47 SIFSSTISSLQFFSV   61 (108)
+T ss_pred             hhhhhhhhHHHHHHH
+Confidence            347788889999874
+
+
+No 3
+>sp|P00044|CYC1_YEAST Cytochrome c iso-1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=CYC1 PE=1 SV=2
+Probab=17.21  E-value=9.7  Score=15.68  Aligned_cols=7  Identities=29%  Similarity=1.170  Sum_probs=5.4  Template_Neff=10.200
+
+Q sp|Q8TGM4|YL28   37 SQCTSCT   43 (44)
+Q Consensus        37 sqctsct   43 (44)
+                      .+|.+|-
+T Consensus        18 ~~C~~CH   24 (109)
+T sp|P00044|CYC1   18 TRCLQCH   24 (109)
+T ss_pred             hhccccc
+Confidence            5898884
+
+
+No 4
+>sp|P53263|YG2U_YEAST Putative uncharacterized protein YGR107W OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=YGR107W PE=5 SV=1
+Probab=16.88  E-value=10  Score=21.32  Aligned_cols=34  Identities=35%  Similarity=0.756  Sum_probs=23.6  Template_Neff=1.000
+
+Q sp|Q8TGM4|YL28    7 LPISRACNFTFSTGR-----FTVQFTSRILSIQFFSQCT   40 (44)
+Q Consensus         7 lpisracnftfstgr-----ftvqftsrilsiqffsqct   40 (44)
+                      -|+|.-|.+||..|-     |--|--...|.+-||..|.
+T Consensus        55 aplssyckwtfqrgyacpvsflkqahtdalqlvfftrci   93 (149)
+T sp|P53263|YG2U   55 APLSSYCKWTFQRGYACPVSFLKQAHTDALQLVFFTRCI   93 (149)
+T ss_pred             ecccccceeeeccccccchhhhhhhccchHHHHHHHHHH
+Confidence            377889999998774     3444445566777887774
+
+
+No 5
+>sp|P00045|CYC7_YEAST Cytochrome c iso-2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=CYC7 PE=1 SV=1
+Probab=13.79  E-value=13  Score=15.48  Aligned_cols=7  Identities=29%  Similarity=1.231  Sum_probs=5.4  Template_Neff=9.900
+
+Q sp|Q8TGM4|YL28   37 SQCTSCT   43 (44)
+Q Consensus        37 sqctsct   43 (44)
+                      ..|.+|-
+T Consensus        22 ~~C~~CH   28 (113)
+T sp|P00045|CYC7   22 TRCQQCH   28 (113)
+T ss_pred             Hhhhhcc
+Confidence            6888884
+
+
+No 6
+>sp|I2HB70|YM16A_YEAST Uncharacterized protein YMR316C-A OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=YMR316C-A PE=3 SV=1
+Probab=9.76  E-value=22  Score=18.71  Aligned_cols=12  Identities=42%  Similarity=0.913  Sum_probs=8.9  Template_Neff=1.000
+
+Q sp|Q8TGM4|YL28    7 LPISRACNFTFS   18 (44)
+Q Consensus         7 lpisracnftfs   18 (44)
+                      ..+||.||..|-
+T Consensus        52 vhvsrvcnvsfi   63 (103)
+T sp|I2HB70|YM16   52 VHVSRVCNVSFI   63 (103)
+T ss_pred             heeeeccceeee
+Confidence            457999997663
+
+
+No 7
+>sp|P27999|RPB9_YEAST DNA-directed RNA polymerase II subunit RPB9 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=RPB9 PE=1 SV=1
+Probab=9.37  E-value=23  Score=16.14  Aligned_cols=14  Identities=36%  Similarity=0.672  Sum_probs=7.9  Template_Neff=8.000
+
+Q sp|Q8TGM4|YL28   30 ILSIQFFSQCTSCT   43 (44)
+Q Consensus        30 ilsiqffsqctsct   43 (44)
+                      --....|-.|+.|.
+T Consensus        94 DE~~t~fy~C~~C~  107 (122)
+T sp|P27999|RPB9   94 DTSMVLFFVCLSCS  107 (122)
+T ss_pred             CCccEEEEEeCCCC
+Confidence            33445566677663
+
+
+No 8
+>sp|P40368|NUP82_YEAST Nucleoporin NUP82 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=NUP82 PE=1 SV=2
+Probab=8.56  E-value=26  Score=20.42  Aligned_cols=20  Identities=15%  Similarity=0.277  Sum_probs=15.7  Template_Neff=8.600
+
+Q sp|Q8TGM4|YL28    8 PISRACNFTFSTGRFTVQFT   27 (44)
+Q Consensus         8 pisracnftfstgrftvqft   27 (44)
+                      +.+.+.+|.|+.|+||+-..
+T Consensus       178 ~~~~~~s~~Fg~~~ltly~l  197 (713)
+T sp|P40368|NUP8  178 RVNDITDLEFSKDGLTLYCL  197 (713)
+T ss_pred             ccccceeeeccCCceeEEEE
+Confidence            44568899999999998553
+
+
+No 9
+>sp|P40898|YJV1_YEAST Putative uncharacterized protein YJL211C OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=YJL211C PE=5 SV=1
+Probab=7.76  E-value=30  Score=19.01  Aligned_cols=9  Identities=67%  Similarity=0.907  Sum_probs=6.8  Template_Neff=1.000
+
+Q sp|Q8TGM4|YL28   30 ILSIQFFSQ   38 (44)
+Q Consensus        30 ilsiqffsq   38 (44)
+                      -||||||-.
+T Consensus        75 klsiqffik   83 (147)
+T sp|P40898|YJV1   75 KLSIQFFIK   83 (147)
+T ss_pred             ceeeeEeee
+Confidence            489999853
+
+
+No 10
+>sp|Q04307|RPC10_YEAST DNA-directed RNA polymerase III subunit RPC10 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=RPC11 PE=1 SV=1
+Probab=7.57  E-value=31  Score=14.94  Aligned_cols=10  Identities=30%  Similarity=1.025  Sum_probs=5.2  Template_Neff=8.600
+
+Q sp|Q8TGM4|YL28   33 IQFFSQCTSC   42 (44)
+Q Consensus        33 iqffsqctsc   42 (44)
+                      ...|-.|+.|
+T Consensus        94 ~t~~y~C~~C  103 (110)
+T sp|Q04307|RPC1   94 MTTFYKCVNC  103 (110)
+T ss_pred             ceEEEEeCCC
+Confidence            4445555555
+
+
