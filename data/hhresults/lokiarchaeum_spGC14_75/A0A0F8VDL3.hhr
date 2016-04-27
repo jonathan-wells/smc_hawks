@@ -1,0 +1,255 @@
+Query         tr|A0A0F8VDL3|A0A0F8VDL3_9ARCH Uncharacterized protein OS=Lokiarchaeum sp. GC14_75 GN=Lokiarch_34650 PE=4 SV=1
+Match_columns 94
+No_of_seqs    107 out of 149
+Neff          4.40216
+Searched_HMMs 5378
+Date          Wed Apr 27 14:34:23 2016
+Command       hhsearch -i A0A0F8VDL3.a3m -d /usr/local/hh-suite/db/lokiarchaeum_spGC14_75/loki -cpu 3 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 tr|A0A0F8VDL3|A0A0F8VDL3_9ARCH 100.0 2.7E-46   5E-50  249.6  11.1   94    1-94      1-94  (94)
+  2 tr|A0A0F8Y294|A0A0F8Y294_9ARCH 100.0 1.2E-40 2.2E-44  220.9  10.3   86    8-93      6-91  (91)
+  3 tr|A0A0F8Y294|A0A0F8Y294_9ARCH  88.0    0.12 2.3E-05   30.5   4.2   37   12-48     52-88  (91)
+  4 tr|A0A0F8VDL3|A0A0F8VDL3_9ARCH  86.8    0.17 3.1E-05   30.0   4.3   37   54-90     12-48  (94)
+  5 tr|A0A0F8VDL3|A0A0F8VDL3_9ARCH  86.4     0.2 3.8E-05   29.6   4.5   36   13-48     55-90  (94)
+  6 tr|A0A0F8Y294|A0A0F8Y294_9ARCH  81.5    0.45 8.4E-05   27.8   4.2   35   56-90     12-46  (91)
+  7 tr|A0A0F8W6E5|A0A0F8W6E5_9ARCH  58.0     1.8 0.00033   28.3   2.8   51   36-86     78-128 (201)
+  8 tr|A0A0F8XFG6|A0A0F8XFG6_9ARCH  34.7      29  0.0053   20.8   6.5   38   11-48    118-155 (310)
+  9 tr|A0A0F8XD41|A0A0F8XD41_9ARCH  31.0     5.6   0.001   25.0   1.6   15   78-92    155-169 (186)
+ 10 tr|A0A0F8V7X7|A0A0F8V7X7_9ARCH  28.7     5.1 0.00094   25.9   1.1   51   36-86     78-128 (202)
+ 11 tr|A0A0F8VJ97|A0A0F8VJ97_9ARCH  26.3      12  0.0023   19.8   2.5   22    1-22      1-22  (125)
+ 12 tr|A0A0F8W8Q4|A0A0F8W8Q4_9ARCH  23.6      50  0.0092   19.9   6.2   38   11-48    125-162 (320)
+ 13 tr|A0A0F8VKM8|A0A0F8VKM8_9ARCH  23.5      42  0.0078   19.0   6.0   39   10-48    127-165 (200)
+ 14 tr|A0A0F8XWE0|A0A0F8XWE0_9ARCH  23.3      52  0.0097   20.1   6.1   38   11-48    120-157 (341)
+ 15 tr|A0A0F8V7W8|A0A0F8V7W8_9ARCH  21.8      52  0.0096   19.4   6.1   37   12-48    104-140 (315)
+
+No 1
+>tr|A0A0F8VDL3|A0A0F8VDL3_9ARCH Uncharacterized protein OS=Lokiarchaeum sp. GC14_75 GN=Lokiarch_34650 PE=4 SV=1
+Probab=100.00  E-value=2.7e-46  Score=249.59  Aligned_cols=94  Identities=100%  Similarity=1.351  Sum_probs=92.8  Template_Neff=4.400
+
+Q ss_pred             CcccCCChhhHHHHHHHHHHHHHhhhcCCCCChhHHHHHHHHHHHHhcCCCChhhHHHHHHHHHHhhhcCCCCCchhHHH
+Q tr|A0A0F8VDL3|    1 MAEKELTPEETSKIFEEVKELLTGMLNDRSVPRNIKRVSQKCIDELNRTDETSGVLSANAMYSIGDISTDPNVPFHTRTT   80 (94)
+Q Consensus         1 ~~~~~~~~~~~~~~i~~v~~~L~~i~~D~sVPRNIRr~a~ea~~~L~~~~~~~~VRaa~AIs~LDeIsnDPNmP~h~RT~   80 (94)
+                      |||||||++++++.|++|+++|++|++|++|||||||+|++|++.|.+++++++|||++|||+||||+||||||+|+||.
+T Consensus         1 ~~~~~~~~~~~~~~i~~v~~~L~~i~~D~sVPRNIRr~a~ea~~~L~~~~~~~~VRaa~AIs~LDeIsnDPNmP~h~RT~   80 (94)
+T tr|A0A0F8VDL3|    1 MAEKELTPEETSKIFEEVKELLTGMLNDRSVPRNIKRVSQKCIDELNRTDETSGVLSANAMYSIGDISTDPNVPFHTRTT   80 (94)
+T ss_pred             CcccCCChhhHHHHHHHHHHHHHhhhcCCCCChhHHHHHHHHHHHHhcCCCChhhHHHHHHHHHHhhhcCCCCCchhHHH
+Confidence            89999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             HHHHHHHHhhhccC
+Q tr|A0A0F8VDL3|   81 VYRIISILERVKDS   94 (94)
+Q Consensus        81 IW~iiS~LE~i~~~   94 (94)
+                      ||||+|+||+|++|
+T Consensus        81 IW~iiS~LE~i~~~   94 (94)
+T tr|A0A0F8VDL3|   81 VYRIISILERVKDS   94 (94)
+T ss_pred             HHHHHHHHhhhccC
+Confidence            99999999999986
+
+
+No 2
+>tr|A0A0F8Y294|A0A0F8Y294_9ARCH Uncharacterized protein OS=Lokiarchaeum sp. GC14_75 GN=Lokiarch_34640 PE=4 SV=1
+Probab=100.00  E-value=1.2e-40  Score=220.90  Aligned_cols=86  Identities=64%  Similarity=1.020  Sum_probs=82.2  Template_Neff=4.400
+
+Q ss_pred             hhhHHHHHHHHHHHHHhhhcCCCCChhHHHHHHHHHHHHhcCCCChhhHHHHHHHHHHhhhcCCCCCchhHHHHHHHHHH
+Q tr|A0A0F8VDL3|    8 PEETSKIFEEVKELLTGMLNDRSVPRNIKRVSQKCIDELNRTDETSGVLSANAMYSIGDISTDPNVPFHTRTTVYRIISI   87 (94)
+Q Consensus         8 ~~~~~~~i~~v~~~L~~i~~D~sVPRNIRr~a~ea~~~L~~~~~~~~VRaa~AIs~LDeIsnDPNmP~h~RT~IW~iiS~   87 (94)
+                      +++..+.+++|+++|++|++|++|||||||+|++|++.|.+++++++|||++|||+||||+||||||+|+||.||||+|+
+T Consensus         6 ~~~~~~~i~~v~~~L~~i~~D~sVPRNIRr~a~~a~~~L~~~~~~~~VRaa~AIs~LDeisnDPN~P~h~RT~IW~iiS~   85 (91)
+T tr|A0A0F8Y294|    6 SEEVKTAFVTVEELLNGLLGDRSVPRNIKRVAQKSIDELHKEGETHGVLSSNVMYMVDDLATDPNIPLHARTTVYRIISM   85 (91)
+T ss_pred             HHHHHHHHHHHHHHHHHhhcCCCCChhHHHHHHHHHHHHhcCCCCcchhHHHHHHHHHhhhcCCCCCchhHHHHHHHHHH
+Confidence            45567789999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             Hhhhcc
+Q tr|A0A0F8VDL3|   88 LERVKD   93 (94)
+Q Consensus        88 LE~i~~   93 (94)
+                      ||+|++
+T Consensus        86 LE~i~~   91 (91)
+T tr|A0A0F8Y294|   86 LEKIKD   91 (91)
+T ss_pred             hhhhcC
+Confidence            999974
+
+
+No 3
+>tr|A0A0F8Y294|A0A0F8Y294_9ARCH Uncharacterized protein OS=Lokiarchaeum sp. GC14_75 GN=Lokiarch_34640 PE=4 SV=1
+Probab=88.05  E-value=0.12  Score=30.53  Aligned_cols=37  Identities=14%  Similarity=0.281  Sum_probs=31.4  Template_Neff=4.400
+
+Q ss_pred             HHHHHHHHHHHHhhhcCCCCChhHHHHHHHHHHHHhc
+Q tr|A0A0F8VDL3|   12 SKIFEEVKELLTGMLNDRSVPRNIKRVSQKCIDELNR   48 (94)
+Q Consensus        12 ~~~i~~v~~~L~~i~~D~sVPRNIRr~a~ea~~~L~~   48 (94)
+                      .-+...++..|+.|.+||.+|--.|-.+=+++..|..
+T Consensus        52 ~VRaa~AIs~LDeisnDPN~P~h~RT~IW~iiS~LE~   88 (91)
+T tr|A0A0F8Y294|   52 GVLSSNVMYMVDDLATDPNIPLHARTTVYRIISMLEK   88 (91)
+T ss_pred             chhHHHHHHHHHhhhcCCCCCchhHHHHHHHHHHhhh
+Confidence            3467789999999999999999999988888777754
+
+
+No 4
+>tr|A0A0F8VDL3|A0A0F8VDL3_9ARCH Uncharacterized protein OS=Lokiarchaeum sp. GC14_75 GN=Lokiarch_34650 PE=4 SV=1
+Probab=86.85  E-value=0.17  Score=30.05  Aligned_cols=37  Identities=16%  Similarity=0.201  Sum_probs=31.9  Template_Neff=4.400
+
+Q ss_pred             hhHHHHHHHHHHhhhcCCCCCchhHHHHHHHHHHHhh
+Q tr|A0A0F8VDL3|   54 GVLSANAMYSIGDISTDPNVPFHTRTTVYRIISILER   90 (94)
+Q Consensus        54 ~VRaa~AIs~LDeIsnDPNmP~h~RT~IW~iiS~LE~   90 (94)
+                      .-+...++..|+.|.+|+.+|--.|..+=+++..|..
+T Consensus        12 ~~~i~~v~~~L~~i~~D~sVPRNIRr~a~ea~~~L~~   48 (94)
+T tr|A0A0F8VDL3|   12 SKIFEEVKELLTGMLNDRSVPRNIKRVSQKCIDELNR   48 (94)
+T ss_pred             HHHHHHHHHHHHhhhcCCCCChhHHHHHHHHHHHHhc
+Confidence            3477889999999999999999999988888777754
+
+
+No 5
+>tr|A0A0F8VDL3|A0A0F8VDL3_9ARCH Uncharacterized protein OS=Lokiarchaeum sp. GC14_75 GN=Lokiarch_34650 PE=4 SV=1
+Probab=86.44  E-value=0.2  Score=29.63  Aligned_cols=36  Identities=17%  Similarity=0.203  Sum_probs=31.2  Template_Neff=4.400
+
+Q ss_pred             HHHHHHHHHHHhhhcCCCCChhHHHHHHHHHHHHhc
+Q tr|A0A0F8VDL3|   13 KIFEEVKELLTGMLNDRSVPRNIKRVSQKCIDELNR   48 (94)
+Q Consensus        13 ~~i~~v~~~L~~i~~D~sVPRNIRr~a~ea~~~L~~   48 (94)
+                      -+...++..|+.|.+||.+|--.|-.+=+++..|..
+T Consensus        55 VRaa~AIs~LDeIsnDPNmP~h~RT~IW~iiS~LE~   90 (94)
+T tr|A0A0F8VDL3|   55 VLSANAMYSIGDISTDPNVPFHTRTTVYRIISILER   90 (94)
+T ss_pred             hHHHHHHHHHHhhhcCCCCCchhHHHHHHHHHHHhh
+Confidence            467789999999999999999999988888777764
+
+
+No 6
+>tr|A0A0F8Y294|A0A0F8Y294_9ARCH Uncharacterized protein OS=Lokiarchaeum sp. GC14_75 GN=Lokiarch_34640 PE=4 SV=1
+Probab=81.46  E-value=0.45  Score=27.78  Aligned_cols=35  Identities=14%  Similarity=0.160  Sum_probs=28.9  Template_Neff=4.400
+
+Q ss_pred             HHHHHHHHHHhhhcCCCCCchhHHHHHHHHHHHhh
+Q tr|A0A0F8VDL3|   56 LSANAMYSIGDISTDPNVPFHTRTTVYRIISILER   90 (94)
+Q Consensus        56 Raa~AIs~LDeIsnDPNmP~h~RT~IW~iiS~LE~   90 (94)
+                      ....+++.|+.|.+|+.+|--.|..+=+++..|..
+T Consensus        12 ~i~~v~~~L~~i~~D~sVPRNIRr~a~~a~~~L~~   46 (91)
+T tr|A0A0F8Y294|   12 AFVTVEELLNGLLGDRSVPRNIKRVAQKSIDELHK   46 (91)
+T ss_pred             HHHHHHHHHHHhhcCCCCChhHHHHHHHHHHHHhc
+Confidence            34556799999999999999999988887777754
+
+
+No 7
+>tr|A0A0F8W6E5|A0A0F8W6E5_9ARCH Uncharacterized protein (Fragment) OS=Lokiarchaeum sp. GC14_75 GN=Lokiarch_24330 PE=4 SV=1
+Probab=58.05  E-value=1.8  Score=28.31  Aligned_cols=51  Identities=12%  Similarity=0.109  Sum_probs=42.8  Template_Neff=3.700
+
+Q ss_pred             HHHHHHHHHHHhcCCCChhhHHHHHHHHHHhhhcCCCCCchhHHHHHHHHH
+Q tr|A0A0F8VDL3|   36 KRVSQKCIDELNRTDETSGVLSANAMYSIGDISTDPNVPFHTRTTVYRIIS   86 (94)
+Q Consensus        36 Rr~a~ea~~~L~~~~~~~~VRaa~AIs~LDeIsnDPNmP~h~RT~IW~iiS   86 (94)
+                      |....+++..|+..+..++|-++--++-+.++.+.-.+-+|+=..=..+..
+T Consensus        78 ~e~v~~vLk~LKe~dlGiSvvvSGl~dev~~~c~e~gl~pHTvn~SLG~~G  128 (201)
+T tr|A0A0F8W6E5|   78 IETVKIIIQILKKEDFGISIVISGLVSEIENVLKEVNLEVDTVHFSLNFHG  128 (201)
+T ss_pred             HHHHHHHHHHHhhccCCceEEEEcchHHHHHHHHHcCCeeeeeeeeecccc
+Confidence            677888899999999999999999999999999999999998655433333
+
+
+No 8
+>tr|A0A0F8XFG6|A0A0F8XFG6_9ARCH Transcription initiation factor IIB OS=Lokiarchaeum sp. GC14_75 GN=tfb_8 PE=4 SV=1
+Probab=34.67  E-value=29  Score=20.83  Aligned_cols=38  Identities=18%  Similarity=0.237  Sum_probs=32.1  Template_Neff=9.400
+
+Q ss_pred             HHHHHHHHHHHHHhhhcCCCCChhHHHHHHHHHHHHhc
+Q tr|A0A0F8VDL3|   11 TSKIFEEVKELLTGMLNDRSVPRNIKRVSQKCIDELNR   48 (94)
+Q Consensus        11 ~~~~i~~v~~~L~~i~~D~sVPRNIRr~a~ea~~~L~~   48 (94)
+                      .+..+.++...++++.+.-.+|..+...|......+..
+T Consensus       118 ~~~~l~~~~~~I~~i~~~l~l~~~v~~~A~~l~~~~~~  155 (310)
+T tr|A0A0F8XFG6|  118 IERNFWEAKPKLKMLTSKLNIPEHIAETAWKIYSIVAK  155 (310)
+T ss_pred             hhHHHHHHHHHHHHHHhccCCCHHHHHHHHHHHHHHHh
+Confidence            44667788889999999999999999999888888664
+
+
+No 9
+>tr|A0A0F8XD41|A0A0F8XD41_9ARCH Uncharacterized protein OS=Lokiarchaeum sp. GC14_75 GN=Lokiarch_53720 PE=4 SV=1
+Probab=30.98  E-value=5.6  Score=25.04  Aligned_cols=15  Identities=27%  Similarity=0.598  Sum_probs=12.4  Template_Neff=1.500
+
+Q ss_pred             HHHHHHHHHHHhhhc
+Q tr|A0A0F8VDL3|   78 RTTVYRIISILERVK   92 (94)
+Q Consensus        78 RT~IW~iiS~LE~i~   92 (94)
+                      -.+||.|+|.||+-+
+T Consensus       155 NSQIWKvMsdLE~a~  169 (186)
+T tr|A0A0F8XD41|  155 NSQIWKVMSELENSK  169 (186)
+T ss_pred             hHHHHHHHHhhhhhH
+Confidence            368999999999753
+
+
+No 10
+>tr|A0A0F8V7X7|A0A0F8V7X7_9ARCH Uncharacterized protein (Fragment) OS=Lokiarchaeum sp. GC14_75 GN=Lokiarch_49920 PE=4 SV=1
+Probab=28.71  E-value=5.1  Score=25.88  Aligned_cols=51  Identities=14%  Similarity=0.114  Sum_probs=42.4  Template_Neff=3.600
+
+Q ss_pred             HHHHHHHHHHHhcCCCChhhHHHHHHHHHHhhhcCCCCCchhHHHHHHHHH
+Q tr|A0A0F8VDL3|   36 KRVSQKCIDELNRTDETSGVLSANAMYSIGDISTDPNVPFHTRTTVYRIIS   86 (94)
+Q Consensus        36 Rr~a~ea~~~L~~~~~~~~VRaa~AIs~LDeIsnDPNmP~h~RT~IW~iiS   86 (94)
+                      |....+++..|+..+..++|-++--+.-+.++.+.-.+-+|+=..=..+..
+T Consensus        78 ~e~v~~vLk~LKe~dlGiSivvSGl~dev~~~c~e~gl~pHTvn~SLG~~G  128 (202)
+T tr|A0A0F8V7X7|   78 IETVKKIIQILKEEDFGISIVVSGLISEIEKALKSVDLEMHTVHFSLGAYG  128 (202)
+T ss_pred             HHHHHHHHHHHhhhcCCceEEEecchHHHHHHHHHcCCceeeeeeeeeccc
+Confidence            567788889999999999999999999999999999999998655433333
+
+
+No 11
+>tr|A0A0F8VJ97|A0A0F8VJ97_9ARCH Uncharacterized protein OS=Lokiarchaeum sp. GC14_75 GN=Lokiarch_18230 PE=4 SV=1
+Probab=26.28  E-value=12  Score=19.81  Aligned_cols=22  Identities=27%  Similarity=0.330  Sum_probs=16.5  Template_Neff=8.900
+
+Q ss_pred             CcccCCChhhHHHHHHHHHHHH
+Q tr|A0A0F8VDL3|    1 MAEKELTPEETSKIFEEVKELL   22 (94)
+Q Consensus         1 ~~~~~~~~~~~~~~i~~v~~~L   22 (94)
+                      |.||++++.+....++.+++.|
+T Consensus         1 ~~~~~~~~~~~~~~l~~~L~~l   22 (125)
+T tr|A0A0F8VJ97|    1 MKEKAINSSAANKELNAVLNDL   22 (125)
+T ss_pred             CccccCCchhhHHHHHHHHHHH
+Confidence            6789999988777777665555
+
+
+No 12
+>tr|A0A0F8W8Q4|A0A0F8W8Q4_9ARCH Transcription initiation factor IIB OS=Lokiarchaeum sp. GC14_75 GN=tfb_3 PE=4 SV=1
+Probab=23.55  E-value=50  Score=19.88  Aligned_cols=38  Identities=8%  Similarity=0.002  Sum_probs=31.7  Template_Neff=9.000
+
+Q ss_pred             HHHHHHHHHHHHHhhhcCCCCChhHHHHHHHHHHHHhc
+Q tr|A0A0F8VDL3|   11 TSKIFEEVKELLTGMLNDRSVPRNIKRVSQKCIDELNR   48 (94)
+Q Consensus        11 ~~~~i~~v~~~L~~i~~D~sVPRNIRr~a~ea~~~L~~   48 (94)
+                      .+..+..+...|+++.+.-.+|..+...|......+..
+T Consensus       125 ~~r~l~~a~~~I~~i~~~L~Lp~~v~~~A~~l~~~~~~  162 (320)
+T tr|A0A0F8W8Q4|  125 FERNLWIALPNLQRLQKRLGIPDAAAEDALRIYTETVK  162 (320)
+T ss_pred             HHHHHHHHHHHHHHHHHHhCCChHHHHHHHHHHHHHHh
+Confidence            34567788889999999999999999999888887653
+
+
+No 13
+>tr|A0A0F8VKM8|A0A0F8VKM8_9ARCH Transcription initiation factor IIB 2 (Fragment) OS=Lokiarchaeum sp. GC14_75 GN=tfb2_1 PE=4 SV=1
+Probab=23.45  E-value=42  Score=18.97  Aligned_cols=39  Identities=13%  Similarity=0.115  Sum_probs=32.0  Template_Neff=8.600
+
+Q ss_pred             hHHHHHHHHHHHHHhhhcCCCCChhHHHHHHHHHHHHhc
+Q tr|A0A0F8VDL3|   10 ETSKIFEEVKELLTGMLNDRSVPRNIKRVSQKCIDELNR   48 (94)
+Q Consensus        10 ~~~~~i~~v~~~L~~i~~D~sVPRNIRr~a~ea~~~L~~   48 (94)
+                      ..+..+..+...+.++.+.=.+|..++..|......+.+
+T Consensus       127 ~~~~~l~~~~~~I~~i~~~L~L~~~i~~~A~~l~~~~~~  165 (200)
+T tr|A0A0F8VKM8|  127 ATERNLTFALSELDRMASILDLQKNLRECAAKIYRDAVE  165 (200)
+T ss_pred             chhhhHHHHHHHHHHHHhhhchhHHHHHHHHHHHHHHHH
+Confidence            344567788888999999999999999999988877654
+
+
+No 14
+>tr|A0A0F8XWE0|A0A0F8XWE0_9ARCH Transcription initiation factor IIB 2 OS=Lokiarchaeum sp. GC14_75 GN=tfb2_2 PE=4 SV=1
+Probab=23.31  E-value=52  Score=20.06  Aligned_cols=38  Identities=13%  Similarity=0.093  Sum_probs=32.0  Template_Neff=8.800
+
+Q ss_pred             HHHHHHHHHHHHHhhhcCCCCChhHHHHHHHHHHHHhc
+Q tr|A0A0F8VDL3|   11 TSKIFEEVKELLTGMLNDRSVPRNIKRVSQKCIDELNR   48 (94)
+Q Consensus        11 ~~~~i~~v~~~L~~i~~D~sVPRNIRr~a~ea~~~L~~   48 (94)
+                      .+..+.++...++++.+.=.+|..+...|.+....+..
+T Consensus       120 ~~~~l~~~~~~I~~i~~~L~Lp~~v~~~A~~l~~~~~~  157 (341)
+T tr|A0A0F8XWE0|  120 NHETEYRIFNILNKISLYLNLNKNIKNNSAYFYKKIIK  157 (341)
+T ss_pred             chHHHHHHHHHHHHHHHHhcCcHHHHHHHHHHHHHHHH
+Confidence            34558888899999999999999999999888887664
+
+
+No 15
+>tr|A0A0F8V7W8|A0A0F8V7W8_9ARCH Transcription initiation factor IIB OS=Lokiarchaeum sp. GC14_75 GN=tfb_9 PE=4 SV=1
+Probab=21.79  E-value=52  Score=19.44  Aligned_cols=37  Identities=11%  Similarity=0.091  Sum_probs=30.7  Template_Neff=9.500
+
+Q ss_pred             HHHHHHHHHHHHhhhcCCCCChhHHHHHHHHHHHHhc
+Q tr|A0A0F8VDL3|   12 SKIFEEVKELLTGMLNDRSVPRNIKRVSQKCIDELNR   48 (94)
+Q Consensus        12 ~~~i~~v~~~L~~i~~D~sVPRNIRr~a~ea~~~L~~   48 (94)
+                      +..+.++...+..+.+.-.+|.++...|......+.+
+T Consensus       104 ~~~l~~~~~~I~~i~~~L~Lp~~v~~~A~~i~~~~~~  140 (315)
+T tr|A0A0F8V7W8|  104 RRNLLIAIMELKRIACHLRIPDYIQKAVVKIYKKATK  140 (315)
+T ss_pred             hhHHHHHHHHHHHHHHHhCCCHHHHHHHHHHHHHHHh
+Confidence            4456778888899999999999999999888888764
+
+

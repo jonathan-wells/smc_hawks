@@ -1,0 +1,422 @@
+>ss_pred PSIPRED predicted secondary structure
+CHHHHHHHHHHHHCCCCHHHHHHHHHHHCCCCHHHHHHHHHHHHCCCHHHHHHHHHHHHHHHHHHCCCCCCCHHHHHHHHHHCCCCCHHHHHHHHHHHHHHHCCCCCCHHHHHHHHHHHCCCCHHHHHHHHHHHHCCCCCCHHHHHHHHHHHCCCCHHHHHHHHHHHHCCCHHHHHHHHHHHHHCCHHHHHHHHHHHHHHHHHHHCHHHHHHHHHCCCCCCHHHHHHHHHHHHHHHHHHHCC
+>ss_conf PSIPRED confidence values
+92468899988624992478999999854982568989999983230556999988899999986399899489999999851799886799999999987057779099999999870499805889999997328999989999999873499935799999997248947788754221114110577899999986335524898999874388341578887754678999987219
+>tr|A0A0F8VC82|A0A0F8VC82_9ARCH Uncharacterized protein OS=Lokiarchaeum sp. GC14_75 GN=Lokiarch_38680 PE=4 SV=1
+MAFFKQEFDEIKESNNPVIINDFIIKLSENPNKDHIKYLNYFIDNLNTQIHDKVKLNLIYALGETGNLTLIEEKYLNFLHETYHHSDRWVRNEIIQAIDKISKKSKLTEKIIVLIGNVLNDDYTPIKINALKVLLNLTQIPDLIFKNIFRVLNSRDSAVSEGCRRILEQFDKHKLFDLLNQLENYKILKPRAIRSLLLVQFKSILNLESFREMILNSNWDDSYRMNYLKEIDTFQRIIAKNL
+>tr|A0A0F9F5D0|A0A0F9F5D0_9ZZZZ Uncharacterized protein OS=marine sediment metagenome GN=LCGC14_1994300 PE=4 SV=1
+MVLFNQEFDEIKESNNPDKINDFVIKLSKNPNKEQFKYLEYFIDNLNTQILDKVKLNLIFALGEAGNLNLIEEKYLNFLHKTYHHSDRWVRNEIIQAIDKISKKSKLNEKIIVLIGNVLNDDYTPIKINALKVLLNLKQVPDLIFKNIFRVLNSKDSAVVEGCRRVLKHLDISKLFSLLNQLDNYKILKQRAIRSLLIIQFKSIINLESFREMILSSNWIDSYRLNYLKEIDTFQRIIAKNL
+>tr|A0A0F9ECN6|A0A0F9ECN6_9ZZZZ Uncharacterized protein OS=marine sediment metagenome GN=LCGC14_2091940 PE=4 SV=1
+MELIKKSFEEIKKTRNQEEINMFLIKLSKNPIEDYLNILEYFINNLEPEIMNAIKLNLIFLLGEIGKTTALKREFINFILNMYSTSDRWVRNEIIQTIEKISNHSQLSEDIINLIENALNDEYSPIRHNVLKVLLKLEKQPNV--RNIFQILNSKEPELVEIGLEVLIKHfpSNNQLFNSLNTSENHRILKSKAIRTLLLFYFRSIIDLDSFRNFIIKSTWLNDFKEKYLKEIEIYERILLKII
+>tr|A0A0F9LQU7|A0A0F9LQU7_9ZZZZ Uncharacterized protein (Fragment) OS=marine sediment metagenome GN=LCGC14_1248190 PE=4 SV=1
+---IKKSFETIKKTRKPEEINNFLIKLSKNPIEEYLIFLDFFIKNLETQIFDKIKLNLIFLLGEIGKSTPLQQDYLEFISDSYYVSDRWIRNEIIQTINKISTQSELSEKIIELIGYAINDEYTPIRNNALKILLKLEVFPNV--KNIFQILNSKDSELVENGLEILTKFipNSARLFDSLNSSNNYKILKIKAIRTVLLICFNSLIYLESLRDLILKSSWEKNYKEIYLKEIDTYERILLKKI
+>tr|A0A0F9GPC7|A0A0F9GPC7_9ZZZZ Uncharacterized protein OS=marine sediment metagenome GN=LCGC14_1802160 PE=4 SV=1
+MELINKSFEEIKKTRNPEDINRFLLKLIKNPIEEHLNFLDFFIKNLEPQILDAIKLNLIFLLGEIGKITALKRDFINFILNMYSTSDRWVRNEIIQTIEKISNHSQLSEKLINLIENALNDEYIPIKHNSLKILLKLEKQPNV--RNIFQILNSKEPELVELGLEVLIKHlpSYNQLFNSLNTSENHRILKSKAIRVFLLFSFRSLLDLESFRNLIIKSTWLNDFKEKYLKEIETYEKILLKIV
+>tr|X1EX02|X1EX02_9ZZZZ Uncharacterized protein (Fragment) OS=marine sediment metagenome GN=S03H2_02367 PE=4 SV=1
+---IENILLKIQDITNPQEINDILIKLSKNPNEKTLVIVDYFLDSLNATILNKIKLNLVFLIGAIGSVTVLNRKYLNFLIESYFNSDRWVRNEIIQSFLVILQNHEYNNEIYQIIEHALNEDYVPIKKSALSVLMILKELPEKVILTLLRILD-----------------------------------------------------------------------------------------
+>tr|X1A5W5|X1A5W5_9ZZZZ Uncharacterized protein (Fragment) OS=marine sediment metagenome GN=S01H4_21080 PE=4 SV=1
+---LiKAYYKEAKESRDPEIINNFLIELGKNPKSEYLNLLDFFINDLEDQLYEKIKLNLIYVIGEIGNLIPLSNDFLELLYNTYYISDRWVRNEIIQAIDKISKNTELNEKTVELISNALNDEYSVIKISTLKLISNFKKLPDSILKNLIRLM------------------------------------------------------------------------------------------
+>tr|X1BBS1|X1BBS1_9ZZZZ Uncharacterized protein (Fragment) OS=marine sediment metagenome GN=S01H4_48690 PE=4 SV=1
+------------------------------------------------------------------------------------------------------------ENIISLLGKALNDDYSFVKLSALEVLKNFNIFPNSILRNFFQVLNSKDSEILDFCGRVLEQVslEPQSIFESLDTSENYKILKPRAIRLLLLIKFKSLFNLEPFREKIFNAGWDDSFKEKYLTEIDTFQRILINNM
+>tr|X1JFK5|X1JFK5_9ZZZZ Uncharacterized protein (Fragment) OS=marine sediment metagenome GN=S03H2_72736 PE=4 SV=1
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------TQLFDSLNNSDNYKILKIRAFRALIFIYFKSPINLETFRQKISK--------------------------
+>tr|X1Q4V1|X1Q4V1_9ZZZZ Uncharacterized protein (Fragment) OS=marine sediment metagenome GN=S12H4_05358 PE=4 SV=1
+--------------------------------------------------------------------------------------------------------------------------------------------------TLLRVLDTNNDEILEMGLKILKRSvqTWDELFELLNISKGYTILNKFIVRVLILEYFDSISELEAFIEKINSSKWEEEYKILCNTEIKSFQRILKKK-
+>tr|X0BGX5|X0BGX5_FUSOX Uncharacterized protein OS=Fusarium oxysporum f. sp. raphani 54005 GN=FOQG_14418 PE=4 SV=1
+-------------------------------------------------------------IEVLGKQPTLPDDILKAIAEYLEDPDAWVRKA---AIKLLSKQSIFSDDMLRLISTYLKHDYSYVQSAALDVISNFHDLPNEVLRDVIACLKSKTGYIRREAVDVLGNLA-----------------------------------------------------------------------
+>tr|X0B2Q4|X0B2Q4_FUSOX Uncharacterized protein OS=Fusarium oxysporum f. sp. raphani 54005 GN=FOQG_18858 PE=4 SV=1
+--------------------------------------------NLPESALRAIVIHLQdedafvrnAAVSALRRQSVLPEDILRDIVAHLDNGNPAIRSE---AAGILGQRPGLPESTVRAIVAHLANGNPAIRSEAAGILGQRPGLPDSALRAITTHLEDQDASVRSAAIDALGNL------------------------------------------------------------------------
+>tr|W3XM06|W3XM06_9PEZI Uncharacterized protein OS=Pestalotiopsis fici W106-1 GN=PFICI_00345 PE=4 SV=1
+--------------------------------------------DLPEDVIRGLKDLVNhkslevreIAAWTLRQQPILPRDVLEAVIRQLEDRDEAKIRA---AVGIMDRGRTLDGELIDLIIDCSRDKYPSTRKAAVDVLGRQQDLLPAAVDALKALVEDTDVNVGDAAIEVLKKH------------------------------------------------------------------------
+>tr|A0A0C2LTA5|A0A0C2LTA5_9CYAN Signal transduction protein (Fragment) OS=Tolypothrix campylonemoides VB511288 GN=SD81_08815 PE=4 SV=1
+--------------------------------------------NALVQVVDALLLRLAdedssmreYAAQALGKLGNASVQVVDALLGRLADEDSSVRVF---AADALGKLGNASVQVVEALLLRLADKHSLVRAFAADALGKLGNASVQVVDALLGRLADKHSWVRRNAADALGNL------------------------------------------------------------------------
+>tr|T2GEC4|T2GEC4_DESGI Uncharacterized protein OS=Desulfovibrio gigas DSM 1382 = ATCC 19364 GN=DGI_3248 PE=4 SV=1
+-----------------------------------------------MQELDRLVHNLQtgdetvrrYAAEDLGSLGL--EGAVPALVTALEDPVVAVREA---AAEALGVIggretarrvvplmaseevplrnisfeilEALSLDALEELTACCTSPVSDIRKFAVDILGKIGEVSEIDAEALFVRmLDDPNPNVAGAAAEAIGRV------------------------------------------------------------------------
+>tr|A0A094D2T6|A0A094D2T6_9PEZI Uncharacterized protein (Fragment) OS=Pseudogymnoascus pannorum VKM F-3775 GN=V491_00179 PE=4 SV=1
+--------------------------------------------TLSEEILTAIAVRLEhedsdvrrAAVDALKGQPTLSEEILIAIAARLKDEDSYIRWA---AVDALQGQPTLSEEILTAIAARLKDEDSYIRWAAVDALQGQPTLSEEILTAIAARLKDEDSYIRWAAVMPIEFF------------------------------------------------------------------------
+>tr|A6RCU7|A6RCU7_AJECN Predicted protein OS=Ajellomyces capsulatus (strain NAm1 / WU24) GN=HCAG_07455 PE=4 SV=1
+---------------------------------NALQGLVSLLKNKDGYVR-------QSAADALGKQSSLSEDALQGLVSLLKDKNEDVRQS---AADALGKQSSLPEDALQSLVSLLKDKNEDVRQSAADALGKQSSLPEDALHGLVSLLKNKNGYVRQSAAYTLGKQ------------------------------------------------------------------------
+>tr|B6QDL3|B6QDL3_TALMQ Putative uncharacterized protein OS=Talaromyces marneffei (strain ATCC 18224 / CBS 334.59 / QM 7333) GN=PMAA_078280 PE=4 SV=1
+---------------------------------GLLKQAISFLGQnVFTNLK-------QSAIDALGGQTALPEDILYAIIRQLEHSNKDIRQS---AIDVLSSRTTLSKDILYIILRQLEHSNKDIRQSTIYALDSQTALPKDILYAIMRQLEDPDKDIRQSTIYVLGRQ------------------------------------------------------------------------
+>tr|B8MUT2|B8MUT2_TALSN Putative uncharacterized protein OS=Talaromyces stipitatus (strain ATCC 10500 / CBS 375.48 / QM 6759 / NRRL 1006) GN=TSTA_11000
+---------------------------------CLVNLIAYLLGQnVSSDLE-------WFAINALGRQTSLPDNILQAIVHRLEHSEW---RT---AINVLGKQTVLSDDILQAIVRRLEDSNGYVRQSANYALNKQIT-------------------------------------------------------------------------------------------------------
+>tr|A1DCK6|A1DCK6_NEOFI HEAT repeat protein OS=Neosartorya fischeri (strain ATCC 1020 / DSM 3700 / FGSC A1164 / NRRL 181) GN=NFIA_026400 PE=4 SV=1
+---------------------------------SVLEKVVYRFNDddglvrwaaaqalrrqppeilqavmcqlgnDNSLVR-------EAAVHALGGQSPWPPEIMQAVTCRLVDDNASMRTA---AVQALGGQTPWPPEILQAVRCRLGDDNADVRAAAVQALGRHSPWPPQISKAVICRLEDNDLVVRALAALAFGRQ------------------------------------------------------------------------
+>tr|A0A0F9XMV2|A0A0F9XMV2_TRIHA Peptidase C14 OS=Trichoderma harzianum GN=THAR02_01893 PE=4 SV=1
+----------------------------------------------------------RISINILYQQPALPEEVLKAITVHLEEEEDwSIQRV---GTAALLKQKALPTEIV---KARLENKNEFIQLATIKALDDRVNfgLPKEILEAVIARLQDENDTVREAAVCLILKH------------------------------------------------------------------------
+>tr|S3C2K7|S3C2K7_OPHP1 Peptidase c14 OS=Ophiostoma piceae (strain UAMH 11346) GN=F503_03439 PE=4 SV=1
+----------------------------------------------------------CMAIEALSQTPL-APETLQAITARLEDENDSVRYA---AVKALQRYAPLAPETLQAITARLENENSNVRCTAIEVLRRHTPf-SLQTLRAITARLEDEDETVRYAAVEALQRH------------------------------------------------------------------------
+>tr|G9MZ30|G9MZ30_HYPVG Uncharacterized protein OS=Hypocrea virens (strain Gv29-8 / FGSC 10586) GN=TRIVIDRAFT_192935 PE=4 SV=1
+----------------------------------------------------------VAAIMALGNQPALPNNTLEDVAARLKDEDESVQMA---AIEALCRQPALPNNILEDVAARLKDENESIQVAAIRALGKQSALPNNILKTIAAQLENKYTSVREAAIRTLAY-------------------------------------------------------------------------
+>tr|G9NH30|G9NH30_HYPAI Uncharacterized protein (Fragment) OS=Hypocrea atroviridis (strain ATCC 20476 / IMI 206040) GN=TRIATDRAFT_171588 PE=4 SV=1
+----------------------------------------------------------YWAVQALGERSTLPNEILKAIAARLEDESQFVQET---AVEALVRQLILPEEILETMAARLEDEDWRVRQTTIKGLGLFKRlgLQSKRLEDIATRLKTKDWSIRQAAFGALNQH------------------------------------------------------------------------
+>tr|Q0CPZ3|Q0CPZ3_ASPTN Predicted protein OS=Aspergillus terreus (strain NIH 2624 / FGSC A1156) GN=ATEG_04241 PE=4 SV=1
+----------------------------------------------------------LVALEALASQSTLTSEIVEKVSARLQDKNQRVRVA---AIEALLNQSTLTLELLEKVEVQLADVKWDTRPQALRALASQL--------------------------------------------------------------------------------------------------------
+>tr|A0A017SP49|A0A017SP49_9EURO ARM repeat-containing protein OS=Aspergillus ruber CBS 135680 GN=EURHEDRAFT_407970 PE=4 SV=1
+----------------------------------------------------------SVAAEALQNQQDPSSESVRAIAGRLEN-KDwLVRRT---AVEALQNRQDLSPEIVNFVAERLEHEVSHIRRAAIEALQNQQDLSPAIVNAIAGRLKDNDQRVQWAAVRALQNR------------------------------------------------------------------------
+>tr|A0A0A2VUG1|A0A0A2VUG1_BEABA NACHT, LRR and PYD domains-containing protein 12 OS=Beauveria bassiana D1-5 GN=BBAD15_g2721 PE=4 SV=1
+----------------------------------------------------------RAVSQDLGNRTALPAEVLEVVAARLSDKKQyM-RWI---ATT-ALKRAALPDHVFKVMVARLSDEDRDVRVGAVEALGTRATLSNEVLMALALRLSDEDFHVRLAAIK-----------------------------------------------------------------------------
+>tr|W3WME6|W3WME6_9PEZI Uncharacterized protein OS=Pestalotiopsis fici W106-1 GN=PFICI_13574 PE=4 SV=1
+----------------------------------------------------------LASIKSLEQQPHLSHDILDVVQARAQDQTEDDQVRG-LAIHTLMERktsvdgidelvktwlreENYSIqqeiigalrtwpqpsnEILDTVLERLKEGDHYAQEKALDAVRNWPQFNDTALHAIARRVP-----------------------------------------------------------------------------------------
+>tr|C5FNC0|C5FNC0_ARTOC Peptidase C14 OS=Arthroderma otae (strain ATCC MYA-4605 / CBS 113480) GN=MCYG_04175 PE=4 SV=1
+------------------------------------------------------------------------------------------------------RGFNLSQAALNGLILLLKDEYWESRVSAASALKEQSNLPQAALDALILLLKDKDQSVRKAVANAIGGQ------------------------------------------------------------------------
+>tr|E4UV79|E4UV79_ARTGP Putative uncharacterized protein OS=Arthroderma gypseum (strain ATCC MYA-4604 / CBS 118893) GN=MGYG_05209 PE=4 SV=1
+-------------------------------------------------------------------------------------------------------RWQPPQVTLNELVSLYKDKNWEPREAAIKVLERKSTLP--TLNGLILLLNDKNQEVREAIVKALKGQ------------------------------------------------------------------------
+>tr|F0X6P0|F0X6P0_GROCL Nacht nucleoside triphosphatase OS=Grosmannia clavigera (strain kw1407 / UAMH 11150) GN=CMQ_6821 PE=4 SV=1
+----------------------------------------------------------EVVIQVLGEQASLPERMLEAVAAKLKDANAHVLYA---AVMALEKQASLSERMLEAVAAKLEDEDAYVRRGAVRTLGNQASLPERMLEAVAAKLKDADVYVQQSAVKTLGK-------------------------------------------------------------------------
+>tr|A0A0B4HZY9|A0A0B4HZY9_9HYPO Nacht nucleoside triphosphatase OS=Metarhizium guizhouense ARSEF 977 GN=MGU_07326 PE=4 SV=1
+----------------------------------------------------------SVAAKtlgSQYY-L--SDAAIKALETLLESKD-yNDQIA---AAEALh-SQHELSDAGIARLIALLKDESSPAQSAAAKALSAQYFLSDTATANFLALLEHERKEIRSVAVEVLSCG------------------------------------------------------------------------
+>tr|B2B3U0|B2B3U0_PODAN Podospora anserina S mat+ genomic DNA chromosome 6, supercontig 2 OS=Podospora anserina (strain S / ATCC MYA-4624 / DSM 980 / F
+----------------------------------------------------------RIAIDELQGRADLPEEILQGIAARLEDQDTGVRRA---AIKALQGRADLPEEVLQGIAAKLEDQDVDVRRIAIDELQGRADLPEEMLQGIAARLEDQAAYVRLRAINALQGR------------------------------------------------------------------------
+>tr|U1HWK6|U1HWK6_ENDPU Uncharacterized protein OS=Endocarpon pusillum (strain Z07020 / HMAS-L-300199) GN=EPUS_09250 PE=4 SV=1
+----------------------------------------------------------WAAIKALEGRANLTEEVLQGIAARLKDKDIDVRRE---AIEALVNPASLLLEAFRPCVKPLYEALLQ---I---------------------SFQEHTNFLKLHA-------------------------------------------------------------------------------
+>tr|A0A0K8KZZ9|A0A0K8KZZ9_9EURO NACHT, LRR and PYD domains-containing protein 3 OS=Neosartorya udagawae GN=AUD_0631 PE=4 SV=1
+----------------------------------------------------------IAASNALEHQINLPEGTLNQIAARLKDQQPDVKI-A--AINILe-KQINLPEVILDQIVAQLDHQSQDIRRAASNTLKQQSNLPEGTLNKIV---------------------------------------------------------------------------------------------
+>tr|A0A0L9SVU6|A0A0L9SVU6_9HYPO Uncharacterized protein OS=Ophiocordyceps unilateralis GN=XA68_1005 PE=4 SV=1
+----------------------------------------------------------VTAVHalgV--YQSELSNDVFKSIAARLEDNSD-KMKV---AAGSILSRFSLPDEIVQTIAALLKHKNLKTQINALEALKGSS-LPKEIIENIAARFEDKRSLVRQRAIETLGRS------------------------------------------------------------------------
+>tr|A0A0A2W9A1|A0A0A2W9A1_BEABA Protein NLRC5 OS=Beauveria bassiana D1-5 GN=BBAD15_g5102 PE=4 SV=1
+----------------------------------------------------------RAAVEALIGRITLPDGMLTAVAALLGDKNSNVRMA---AIETLGGRAMLPDGMLTAVAARLDDKDWNVRMAAVEALGGRAMLPDVMLTAVVVRLEDEDSNVRRAAVKALGRR------------------------------------------------------------------------
+>tr|J5J751|J5J751_BEAB2 Peptidase C14 OS=Beauveria bassiana (strain ARSEF 2860) GN=BBA_08800 PE=4 SV=1
+----------------------------------------------------------GAAVEALCGRSELPE------AARLDDGDENVQGA---AIEALDGRSELPDTVLMAVAARLDYDDWRVRGAAVKALGRRSELPQAVLTAVAARLDDDGDEV-----------------------------------------------------------------------------------
+>tr|A0A0A2V700|A0A0A2V700_BEABA Protein SERAC1 OS=Beauveria bassiana D1-5 GN=BBAD15_g11511 PE=4 SV=1
+----------------------------------------------------------SAAVETLGRNSTLPHKILAAVVERLDDIDEDVRSI---TVWVLGRRSTLPDEILATVAGRLNDEDWDVRRAAVDALGGRSALPDEMLAAVAGRLDDKDSDVRRAAVEALGGR------------------------------------------------------------------------
+>tr|A0A084G2D1|A0A084G2D1_9PEZI Uncharacterized protein OS=Scedosporium apiospermum GN=SAPIO_CDS7648 PE=4 SV=1
+----------------------------------------------------------SSVAVALGRQPALPEAILQELVVLLKDPDKDVRQ-E--VARALg-RQPALPEAILEGLAVRLKDPNWDIWSIAEVALGWQPTLPEAVLQGLAALLKDPNCHIQY---------------------------------------------------------------------------------
+>tr|J3PG98|J3PG98_GAGT3 Uncharacterized protein OS=Gaeumannomyces graminis var. tritici (strain R3-111a-1) GN=GGTG_12522 PE=4 SV=1
+----------------------------------------------------------SAAAAALSGRSDLPDERFYSLLIKMDFLSFNNLYQV-VVERSFsdnlicRGATGTPEqglvagrRIGTGLIGVLVRTAYAVDLVGSDADAADPRR-AAALDEVD----QTNSAMD----------------------------------------------------------------------------------
+>tr|A0A0B4GKR6|A0A0B4GKR6_9HYPO Nacht nucleoside triphosphatase OS=Metarhizium guizhouense ARSEF 977 GN=MGU_09569 PE=4 SV=1
+----------------------------------------------------------EAALEILERQSNLSNEVLTAVTRRLDDEDEWMRRA---AVKVLEKQSHLSDEILTAVLQQLDCEDRNMQWNVRKVLKKQSDLSDEILAALVQRLDSGDDDMREGVLGVLEGQ------------------------------------------------------------------------
+>tr|B6HE40|B6HE40_PENRW Pc20g04700 protein OS=Penicillium rubens (strain ATCC 28089 / DSM 1075 / NRRL 1951 / Wisconsin 54-1255) GN=Pc20g04700 PE=4 SV=1
+----------------------------------------------------------CAAINILAGQPDLSFSILNRIVEQLEDGTSKVRTA---AVYAIRRQPRLPIETALEIARRFKNDKLP-SKIVLQIFEHQSNSPKEVLVQIARCIEDQDVSIRSAAIRALSGQ------------------------------------------------------------------------
+>tr|A0A0B4H246|A0A0B4H246_9HYPO Nacht nucleoside triphosphatase (Fragment) OS=Metarhizium majus ARSEF 297 GN=MAJ_10177 PE=4 SV=1
+----------------------------------------------------------AAMVCLMR--LKIPQHIQRKIVEMTRSGNAKLRVA---TIYALCFQQKLAQEAYQLITEGLADANKEVREAAFKSLCAFIHwgLSAKALNQLRNKVADLIMNQRlsqeesKHAMRFLFLP------------------------------------------------------------------------
+>tr|A0A086NEY5|A0A086NEY5_METAN Ankyrin repeat-containing OS=Metarhizium anisopliae GN=MANI_018884 PE=4 SV=1
+----------------------------------------------------------SVAVETLSWRPDLSDEMRRELMAALDDEA-fCVRNA---FVHTSSHQRALSNEVLSAVVRQLGHDAYATRFGVMSTLSRQTKLSHEFLAVVASHVKDENFMVRRAAMEALSNM------------------------------------------------------------------------
+>tr|A0A0D9PC08|A0A0D9PC08_METAN Uncharacterized protein OS=Metarhizium anisopliae BRIP 53293 GN=H634G_01710 PE=4 SV=1
+----------------------------------------------------------SVAAEalgRMAF-S--SDAVVEALETLLQSKD-yNDQIS---AVKALPEPHDLSDATIASLIARLKDESSPAQSVVAKALCGQRNLSNTTIAKILALLEHEREEIRSVAVGVLSR-------------------------------------------------------------------------
+>tr|J5JUJ2|J5JUJ2_BEAB2 Peptidase C14 OS=Beauveria bassiana (strain ARSEF 2860) GN=BBA_02435 PE=4 SV=1
+----------------------------------------------------------RYAIQSFNSMVNIPWPIVVAMTKLVTDDsENyILRET---AASTLCREDESP-AMTEDLQRLLEHDSDSMQHYALYNLIDRDNwrITTEMLCVFLQHQRNSD--IPLLAAHYLKDC------------------------------------------------------------------------
+>tr|A0A0B4G2I5|A0A0B4G2I5_9HYPO Nacht nucleoside triphosphatase (Fragment) OS=Metarhizium brunneum ARSEF 3297 GN=MBR_02092 PE=4 SV=1
+----------------------------------------------------------SVAAKalgTQLQ-S---TKAVEALETLLQSQD-yNDKIA---AVEAL---WGLSDATMF-------------------------ILSETAVASILALLEHEREEIRSVAARVLSR-------------------------------------------------------------------------
+>tr|A0A0B4HLR5|A0A0B4HLR5_9HYPO Nacht nucleoside triphosphatase (Fragment) OS=Metarhizium majus ARSEF 297 GN=MAJ_10740 PE=4 SV=1
+----------------------------------------------------------SAAAKvlgSQYY-L--SDAAINALETLLQSKD-yNDQIA---AAEAFn-GQHDLPDSAIASLIALLKDESSPARSAAANALRHQYRLSNTAIANLLALLEHEREEIRSVASRVLYGQ------------------------------------------------------------------------
+>tr|A0A0A1UU12|A0A0A1UU12_9HYPO NACHT and HEAT repeat domain protein OS=Metarhizium robertsii GN=X797_005850 PE=4 SV=1
+----------------------------------------------------------SVAAKalgTCTQ-RRYLKTVVEPLETLLQSQD-yNDKMA---AVEALhl--SYGLSDATIVSLIALLKDESLPAQSVAAKALKSQSHLSDTAIVSLLALLEHEREEIRSVAVEVLSR-------------------------------------------------------------------------
+>tr|A0A0F9XBZ7|A0A0F9XBZ7_TRIHA Peptidase C14 OS=Trichoderma harzianum GN=THAR02_05860 PE=4 SV=1
+----------------------------------------------------------IQAIRtlsVLRCQQGIPGEILYKLAMKCKDEDKDVREA----ILKLFPQYLVPDAILDFIVSQFKDQDPDIRYYTLSALTDHPGLSTYILNQIAEQLEDQDDHVRSMAASTLGNQ------------------------------------------------------------------------
+>tr|A0A0P7ATH2|A0A0P7ATH2_9HYPO Uncharacterized protein OS=Neonectria ditissima GN=AK830_g10416 PE=4 SV=1
+----------------------------------------------------------RAALDILQYQSSLSNGTLKAVVQQLQDKQPSIRKV---VLGVLQNQSSLSGEILEAVVQQLHDKQSSIRCAALDVLIVQSRLSNGLLKAVVQQLHDKDSRTRVAALAVLQKQ------------------------------------------------------------------------
+>tr|A0A0A1V6D8|A0A0A1V6D8_9HYPO NACHT and HEAT repeat domain protein OS=Metarhizium robertsii GN=X797_002869 PE=4 SV=1
+----------------------------------------------------------AAVVFLKRHDLEIPEYIQRKIVDMARSGNAKLRAA---AIEVLCYQRKLSQEAEQLISEGLADANKEVREAAFESLSFFSLrgLSAKALNELRNKVSDLTMNKRlsqresEGAIRFLCQE------------------------------------------------------------------------
+>tr|A0A0B4EPL2|A0A0B4EPL2_METAN Nacht nucleoside triphosphatase (Fragment) OS=Metarhizium anisopliae ARSEF 549 GN=MAN_07141 PE=4 SV=1
+----------------------------------------------------------AAVIFLRRHSLEIPEYIQRKIVEMTRSGNAKFRAA---AIEVLCYR-KLSQEAQQLISEGLVDANKEVREAAFESLRFFSRwgLTAKALNELINKVADLTMNKRlsqresKGAIQFFTRE------------------------------------------------------------------------
+>tr|A0A0C3CEC9|A0A0C3CEC9_9PEZI Uncharacterized protein OS=Oidiodendron maius Zn GN=OIDMADRAFT_182640 PE=4 SV=1
+----------------------------------------------------------ISAAEFLGTQFSLSETALQALASLLEEDDNpDLSEA---VAHA----LNKSEMTLQAIALALKDNDERVRVLADEALGRPSSLSETTLRTLASLLEDDNPDVRQAAAKSLGTH------------------------------------------------------------------------
+>tr|A0A0B4GYI9|A0A0B4GYI9_9HYPO Nacht nucleoside triphosphatase OS=Metarhizium guizhouense ARSEF 977 GN=MGU_10141 PE=4 SV=1
+----------------------------------------------------------QTAAHFRQICPRIPEQIQRTIVAGARSGSAKVREA---AISTLRFQAVLSREAEQLIAEGLTDANIEIRDVAYLSTQSLYVmkISN-LSDEFIQLLADLIMDENlsqnrlLQILNVLSLR------------------------------------------------------------------------
+>tr|A0A0B2XE80|A0A0B2XE80_METRA Maleylacetate reductase OS=Metarhizium robertsii (strain ARSEF 23 / ATCC MYA-3075) GN=MAA_11304 PE=4 SV=1
+----------------------------------------------------------QAVMDLLK------TVPKSPSNPLPDHPNAVVWTE---AARAVCR-rpyeEALPEELTLALEYLLKDSDKWVCTAALLVLTDQPGpwrlgLQEELAKVAVDLLTDSEEDVRKSAIFY--GS------------------------------------------------------------------------
+>tr|A0A0B4HYH6|A0A0B4HYH6_9HYPO Nacht nucleoside triphosphatase OS=Metarhizium guizhouense ARSEF 977 GN=MGU_07929 PE=4 SV=1
+----------------------------------------------------------RCIAGCLWHPLVPTSKVTRLMAHAKDHPNAVVRTK---AAWAMEGRrpfeKALPEELTLALEYLLNDSVKSVRIAALLALKAQPGpwhlgLQEELTKVAVDLLTDSEEDVRKDAIDY--GG------------------------------------------------------------------------
+>tr|A0A0B4FRZ3|A0A0B4FRZ3_METAN Nacht nucleoside triphosphatase (Fragment) OS=Metarhizium anisopliae ARSEF 549 GN=MAN_00091 PE=4 SV=1
+----------------------------------------------------------QSIARSLRHPGVSTTKVIQMMAHAKNHPDAFVREA---AAWAMGRQrqhgEVLPEEFTLALEYLLKDSAKSVRIAALIVLTHARGpwrlgLQEELAKVAVDSLTDSEEQVRNSVAFYVTfpGI------------------------------------------------------------------------
+>tr|E9E035|E9E035_METAQ Putative uncharacterized protein OS=Metarhizium acridum (strain CQMa 102) GN=MAC_03311 PE=4 SV=1
+----------------------------------------------------------DAAVEALGEQSALSNGILTAIAARLDNENVYVRQA---AIEALGRQSALPDEILTAVAVRLDDKNEEVQYAAIETLGRQLALPDKMLTAIAARLNEKDRHVRRAAIEALGRR------------------------------------------------------------------------
+>tr|E9F1W3|E9F1W3_METRA Nacht nucleoside triphosphatase OS=Metarhizium robertsii (strain ARSEF 23 / ATCC MYA-3075) GN=MAA_06161 PE=4 SV=2
+----------------------------------------------------------YAAVIALGGRPALPDEVFIAVTARLDDEDKNVRRA---AIITLGGRPALPNNILTAITARINDAEGDVQQATIITLGGRPGLPYEILTIIAARLDSKNGDARRTAVEALSRQ------------------------------------------------------------------------
+>tr|A0A0B4FDK7|A0A0B4FDK7_9HYPO Nacht nucleoside triphosphatase (Fragment) OS=Metarhizium brunneum ARSEF 3297 GN=MBR_08636 PE=4 SV=1
+----------------------------------------------------------RCIAGSLSHPGVSTTKVIQMMAHAKDHPDALVRME---AARAMNRRrlyeDALPEELALALEYLLKDSDKSVRMTALLVLRHEPGpwrlgLQEELAKVAVDLLTNSEEDVRKRAISC--SS------------------------------------------------------------------------
+>tr|A0A0P4UJ66|A0A0P4UJ66_ROSNE Putative peptidase c14 OS=Rosellinia necatrix GN=SAMD00023353_7000220 PE=4 SV=1
+----------------------------------------------------------EKVFEMLKGLPRLDRDTLQAIRARVQNKYEKISIWK-GAVDLLINQkqldndicntmisewlhdEEKPAryaafvklaswpqptrEIIDMVVVRIEDWDPEIRKLALKVLENQPQLSGAALDTIVKRLSDDDQEVRLAAVDALVNR------------------------------------------------------------------------
+>tr|W3WP46|W3WP46_9PEZI Uncharacterized protein OS=Pestalotiopsis fici W106-1 GN=PFICI_12518 PE=4 SV=1
+----------------------------------------------------------KEAITLLGAQYLFRDEDIDLFKSIL-WYDQDLSVRQ-EALRVLWSRldfndigfdliseclqhpglcshaldewqrrPELCRnacpEIMQLLLgscLKSSNWENRAKTYEIL--------------------------------------------------------------------------------------------------------------
+>tr|A0A0J0CCH7|A0A0J0CCH7_GIBFU Uncharacterized protein OS=Gibberella fujikuroi GN=LW93_10048 PE=4 SV=1
+----------------------------------------------------------KAALEALASLRYLPRATTEAINERLKDLDREVQKA---ALRALPWQSELPQVTVDVVVELLSENVWHVQNTALRVLRNQKALPKATVDGITRHLHDPHDNVRQEAVEALGAH------------------------------------------------------------------------
+>tr|A0A098DTC5|A0A098DTC5_GIBZA Uncharacterized protein OS=Gibberella zeae GN=FGRRES_17134 PE=4 SV=1
+----------------------------------------------------------SSAARAIGNQSTLSDTTVAALVELLKDEDRSVRYH---AARAIGKQSTLSDTTVAALMELFKDKDRSVRSSAAEAIGNQSILSDTTVAALMELFKDKDSSIRSSAARAIGNQ------------------------------------------------------------------------
+>tr|W3WXT1|W3WXT1_9PEZI Uncharacterized protein OS=Pestalotiopsis fici W106-1 GN=PFICI_10004 PE=4 SV=1
+----------------------------------------------------------VSALKALQRQRALPQAMDA-SIKKLKDPEYIVRGE---ALRVLkkENQSALPQATVEVIVECMNDDVWYVRETALDVLADQSVLSKAIVDAIAKKLADKNAYVRRAAVRALGAQ------------------------------------------------------------------------
+>tr|A0A0J0EQA7|A0A0J0EQA7_GIBFU Uncharacterized protein OS=Gibberella fujikuroi GN=LW94_2076 PE=4 SV=1
+----------------------------------------------------------KAALEALNRQSNLPQATIEAIQARLKDPDL---------------------------------------------------------DKIAECLGDKDYSVRREAVKALGAH------------------------------------------------------------------------
+>tr|X0B2Q4|X0B2Q4_FUSOX Uncharacterized protein OS=Fusarium oxysporum f. sp. raphani 54005 GN=FOQG_18858 PE=4 SV=1
+------------------------------------------------------------ATGILEQQPNLPESALRAIVIHLQDEDAFVRNA---AVSALRRQSVLPEDILRDIVAHLDNGNPAIRSEAAGILGQRPGLPESTVRAIVAHLANGNPAIRSEAAGILGQR------------------------------------------------------------------------
+>tr|W3XM06|W3XM06_9PEZI Uncharacterized protein OS=Pestalotiopsis fici W106-1 GN=PFICI_00345 PE=4 SV=1
+------------------------------------------------------------IISIFRVRSDLPEDVIRGLKDLVNHKSLEVREI---AAWTLRQQPILPRDVLEAVIRQLEDRDEAKIRAAVGIMDRGRTLDGELIDLIIDCSRDKYPSTRKAAVDVLGRQ------------------------------------------------------------------------
+>tr|A0A0C2LTA5|A0A0C2LTA5_9CYAN Signal transduction protein (Fragment) OS=Tolypothrix campylonemoides VB511288 GN=SD81_08815 PE=4 SV=1
+--------------------------------------------------------------EALGKLGNALVQVVDALLLRLADEDSSMREY---AAQALGKLGNASVQVVDALLGRLADEDSSVRVFAADALGKLGNASVQVVEALLLRLADKHSLVRAFAADALGKL------------------------------------------------------------------------
+>tr|T2GEC4|T2GEC4_DESGI Uncharacterized protein OS=Desulfovibrio gigas DSM 1382 = ATCC 19364 GN=DGI_3248 PE=4 SV=1
+------------------------------------------------------------------------MQELDRLVHNLQTGDETVRRY---AAEDLGSLGL--EGAVPALVTALEDPVVAVREAAAEALGVIggretarrvvplmaseevplrnisfeilEALSLDALEELTACCTSPVSDIRKFAVDILGKI------------------------------------------------------------------------
+>tr|A0A094D2T6|A0A094D2T6_9PEZI Uncharacterized protein (Fragment) OS=Pseudogymnoascus pannorum VKM F-3775 GN=V491_00179 PE=4 SV=1
+------------------------------------------------------------AILTLKGQPTLSEEILTAIAVRLEHEDSDVRRA---AVDALKGQPTLSEEILIAIAARLKDEDSYIRWAAVDALQGQPTLSEEILTAIAARLKDEDSYIRWAAVDALQGQ------------------------------------------------------------------------
+>tr|A1DJ25|A1DJ25_NEOFI PBS lyase HEAT-like repeat protein OS=Neosartorya fischeri (strain ATCC 1020 / DSM 3700 / FGSC A1164 / NRRL 181) GN=NFIA_093500
+------------------------------------------------------------AIKALGRQSPWPPEILQAIMCRLDDDDKGVRQE---AVDALGIQSPWPPEILHAVTCRLDDDASYVRQAAIQALGTQSPWPPGILQAVTCRLRDAASYVRHAAVDALGRQ------------------------------------------------------------------------
+>tr|A0A0J7K8D7|A0A0J7K8D7_LASNI Pbs lyase heat-like repeat protein OS=Lasius niger GN=RF55_14383 PE=4 SV=1
+------------------------------------------------------------ATCAVGHENAQPVQLN----TRMRGLCSWTREC---AACAVGHENAWPVQLD----TRMRGLCSWTRECAASAVGHKNAWPVQL----DTRMRDLCSWTRECAVSAVGHE------------------------------------------------------------------------
+>tr|A0A0J7K7C6|A0A0J7K7C6_LASNI Adenosine deaminase cecr1-like protein OS=Lasius niger GN=RF55_14610 PE=4 SV=1
+------------------------------------------------------------APYAVGHENTQPVLLD----TRMRGLCSWAREC---AACAVGQENARPVQLD----TRMGGLCSWTRKCAACAVGHENARSVQL----DTRMRGLCNWTRGWAACAVEHE------------------------------------------------------------------------
+>tr|A0A0J7JTG9|A0A0J7JTG9_LASNI Mediator of rna polymerase ii transcription subunit 16-like protein OS=Lasius niger GN=RF55_25949 PE=4 SV=1
+------------------------------------------------------------AACAVGHENGLPVQMD----TRMGGLCIWTREC---TACAVGHDNAWPVQLD----TRMRGMCSWTREWAACAVGHENGRPVQL----DTRMGGLCIWTRECTACAFGHE------------------------------------------------------------------------
+>tr|W6YSN8|W6YSN8_COCMI Uncharacterized protein (Fragment) OS=Bipolaris oryzae ATCC 44560 GN=COCMIDRAFT_60792 PE=4 SV=1
+------------------------------------------------------------TVRTLGEQPSLPDDLIRAVAAQLEDENSSVRDI---TVETLGKQLTLPSDILKAVAARLVDEDEVVRASVIRTLCKQSELPDDIFKTFAKWLEDKDNFAQAVSVEERSAH------------------------------------------------------------------------
+>tr|M2SN29|M2SN29_COCSN Uncharacterized protein OS=Cochliobolus sativus (strain ND90Pr / ATCC 201652) GN=COCSADRAFT_165368 PE=4 SV=1
+------------------------------------------------------------AVIALGKQPTLPSHILQGVATQLEDKEGAIRKS---TLKVLDKQPNPPDSILRAVAGRIEDEFKFIRASTITALCKQPALPDDILKTLAALLGDKHSFAQAADIEILSKQ------------------------------------------------------------------------
+>tr|X0BZD7|X0BZD7_FUSOX Uncharacterized protein OS=Fusarium oxysporum f. sp. raphani 54005 GN=FOQG_19333 PE=4 SV=1
+------------------------------------------------------------AIHILGKPVTLPESVLQSLVALLKDPDWSVRQS---ATDALGKRAALPERVIKVVVAFLQNSDPDTRYTAAYILREQASLSDTLLYVIIENLDRLDRFTRGVLIEVLGRQ------------------------------------------------------------------------
+>tr|A6RCU7|A6RCU7_AJECN Predicted protein OS=Ajellomyces capsulatus (strain NAm1 / WU24) GN=HCAG_07455 PE=4 SV=1
+--------------------------------------------------------------YTLGKQNSLSEDALQSLVSLLKDKDGDVRQS---AADALGKQNSLSEDALQGLVPLLKDKDGYVRHSAAYTLGKQNSLSEDALQSLVSLLKNKNIDVRQSATYALGKQ------------------------------------------------------------------------
+>tr|B6QDL3|B6QDL3_TALMQ Putative uncharacterized protein OS=Talaromyces marneffei (strain ATCC 18224 / CBS 334.59 / QM 7333) GN=PMAA_078280 PE=4 SV=1
+--------------------------------------------------------------YVLGRQTALPKDILYAIMRQLGHSDISIRWS---AINALGSQTTLPEDIFYAIM---------------------------------RQLENSDKEMRQFAITILDRQ------------------------------------------------------------------------
+>tr|B8MUT2|B8MUT2_TALSN Putative uncharacterized protein OS=Talaromyces stipitatus (strain ATCC 10500 / CBS 375.48 / QM 6759 / NRRL 1006) GN=TSTA_11000
+----------------------------------------------------------------------------------------------------------LSDNILQAIV---------------------------------RQLEHSEEDVRQSAIDALDKQ------------------------------------------------------------------------
+>tr|A1DCK6|A1DCK6_NEOFI HEAT repeat protein OS=Neosartorya fischeri (strain ATCC 1020 / DSM 3700 / FGSC A1164 / NRRL 181) GN=NFIA_026400 PE=4 SV=1
+--------------------------------------------------------------LAFGRQAPWSPEILQGIMCQLGNDDNRVRWA---ATKALDTQCPWSPEIFEAVVCRLDDNDEDVRVAAIQTLGTQASWPPEIVEAVVCRLNDKDKQVRRAAIEALGKQ------------------------------------------------------------------------
+>tr|B8MU71|B8MU71_TALSN Putative uncharacterized protein OS=Talaromyces stipitatus (strain ATCC 10500 / CBS 375.48 / QM 6759 / NRRL 1006) GN=TSTA_11104
+------------------------------------------------------------AINALDKQTALSDNILQATVRWLEHSEGYVRQS---AINVLDKQTTSSDNIFQAIVRRLEDSDEEVRRTAIDALDKQTVLSDDILQTIVRRLKDSNRDVRRSAINVLDKQ------------------------------------------------------------------------
+>tr|V5FQY2|V5FQY2_BYSSN Uncharacterized protein OS=Byssochlamys spectabilis (strain No. 5 / NBRC 109023) GN=PVAR5_3008 PE=4 SV=1
+------------------------------------------------------------TVEILGNQEL-------------------------------------PDDVLKNILFRVKDPDQSVRTATLHALGQ-RILSDDLTRVLVSY-------------------------------------------------------------------------------------------
+>tr|X0B6F4|X0B6F4_FUSOX Uncharacterized protein OS=Fusarium oxysporum f. sp. raphani 54005 GN=FOQG_17945 PE=4 SV=1
+------------------------------------------------------------AVRVLKGQSTLPEEILTAVTARLEDEDDDVRQA---AVGALGGQSVLPKEILQAVAARLEHQDGDVRRAALGALKGQSALPEEILQAVTARLEDEGDDVRQVALGALEGQ------------------------------------------------------------------------
+>tr|A0A0C4E206|A0A0C4E206_MAGP6 Uncharacterized protein OS=Magnaporthiopsis poae (strain ATCC 64411 / 73-15) GN=MAPG_06432 PE=4 SV=1
+------------------------------------------------------------AVGALTRQQAVPEVVFKVLIKHLESENLRGQTE---ATRILTTAPGLPEAVVEGIIKRLENNSPHARLNALKALANLPHLSEAAVEAVTKQLENEDLRVLSAAGEVLARQ------------------------------------------------------------------------
+>tr|A0A0N8H5R8|A0A0N8H5R8_9HYPO Uncharacterized protein OS=Neonectria ditissima GN=AK830_g9636 PE=4 SV=1
+------------------------------------------------------------VVETLKAQDVLPESILAAIEAHLRDQDRNLRQA---AVEILEEQFDLPEYILMAIVAQLEEQNGPIRQSALKTLENKSVLPKHILASLVPYLGDQDSTIRE---------------------------------------------------------------------------------
+>tr|W9Z2N5|W9Z2N5_FUSOX Uncharacterized protein OS=Fusarium oxysporum f. sp. melonis 26406 GN=FOMG_17385 PE=4 SV=1
+------------------------------------------------------------AVSALGGQSTLPEEILKAVTARLQDHDGDVRWE---AVYVLGGQPTLSDNILRAVAARLEDQDGHVRWAVIHTLGRQSDLPEEIFQAMAARLENQDKDIRRAAVDALGGQ------------------------------------------------------------------------
+>tr|A0A0F2M6A1|A0A0F2M6A1_SPOSC Uncharacterized protein OS=Sporothrix schenckii 1099-18 GN=SPSK_08290 PE=4 SV=1
+------------------------------------------------------------AVKVFGARlEALPDAVLARLAQFLGSSSNAEKAA---AIHILGRTPDNAWRMERI--RSLR--KGEAR-----------NTQHPVFEALIELLHNGPTpTIRGVaALAFRLTD------------------------------------------------------------------------
+>tr|B8MU71|B8MU71_TALSN Putative uncharacterized protein OS=Talaromyces stipitatus (strain ATCC 10500 / CBS 375.48 / QM 6759 / NRRL 1006) GN=TSTA_11104
+---------------------------------------------------------------VLHKQTSLSDGILQAIVCQLEDSEGYVRQS---AIDALDKQISLSDDILQAIVCRLEDSDSYVRWSAINALDKQTALSDNILQATVRWLEHSEGYVRQSAINVLDKQttSSDNIFQ-----------------------------------------------------------------
+>tr|V5FQY2|V5FQY2_BYSSN Uncharacterized protein OS=Byssochlamys spectabilis (strain No. 5 / NBRC 109023) GN=PVAR5_3008 PE=4 SV=1
+---------------------------------------------------------------RALSSQKLPDNVLQALMCQLDVADRRQ--L---AVG-ILSNQRLPEHVLQRLICRLQDINPDIRLDTVEILGNQEL--------------------------------PDDVLK-----------------------------------------------------------------
+>tr|X0B6F4|X0B6F4_FUSOX Uncharacterized protein OS=Fusarium oxysporum f. sp. raphani 54005 GN=FOQG_17945 PE=4 SV=1
+---------------------------------------------------------------ALRGQSALSKEILLAVAARLKHQDGDIRRA---ALGALGGQSALPAEILAAVAARLEDKGRDIRWAAVRVLKGQSTLPEEILTAVTARLEDEDDDVRQAAVGALGGQsvLPKEILQ-----------------------------------------------------------------
+>tr|A0A0C4E206|A0A0C4E206_MAGP6 Uncharacterized protein OS=Magnaporthiopsis poae (strain ATCC 64411 / 73-15) GN=MAPG_06432 PE=4 SV=1
+---------------------------------------------------------------------SALEAAVKVMTKWLDNENSFVRAA---AIRALTSLQHLPEAVVRAITKQVENEDSQVWLAAVGALTRQQAVPEVVFKVLIKHLESENLRGQTEATRILTTApgLPEAVVE-----------------------------------------------------------------
+>tr|A0A0N8H5R8|A0A0N8H5R8_9HYPO Uncharacterized protein OS=Neonectria ditissima GN=AK830_g9636 PE=4 SV=1
+---------------------------------------------------------------VLRRQSALSKEILAAIAAHLKNQDGVVRQA---AVEALERQRHLPAHILASIAAQLKDRDKAIRQAVVETLKAQDVLPESILAAIEAHLRDQDRNLRQAAVEILEEQfdLPEYILM-----------------------------------------------------------------
+>tr|W9Z2N5|W9Z2N5_FUSOX Uncharacterized protein OS=Fusarium oxysporum f. sp. melonis 26406 GN=FOMG_17385 PE=4 SV=1
+----------------------------------------------------------------------------------------------------LRGQSLLPEKILQAVAVRLEDQERDIRWPAVSALGGQSTLPEEILKAVTARLQDHDGDVRWEAVYVLGGQptLSDNILR-----------------------------------------------------------------
+>tr|A0A0F2M6A1|A0A0F2M6A1_SPOSC Uncharacterized protein OS=Sporothrix schenckii 1099-18 GN=SPSK_08290 PE=4 SV=1
+---------------------------------------------------------------ALCNVRPFPQDAIVVICDKLHDEKDSVRRA---AAEAVRQARRLPVEIFLEITGRLLDPAPDVRSAAVKVFGARlEALPDAVLARLAQFLGSSSNAEKAAAIHILGRTpdNAWRMER-----------------------------------------------------------------
+>tr|B8MU63|B8MU63_TALSN Putative uncharacterized protein OS=Talaromyces stipitatus (strain ATCC 10500 / CBS 375.48 / QM 6759 / NRRL 1006) GN=TSTA_10963
+----------------------------------------------------------HAAIEALGTQSPWSPDILEAVIRRLEnDGDRHIRRA---AIQALSTQSPWSPDILETVIRRLENDRdshvrhaaiealgtqspwspdileavirrlendrdSHVRHAAIEALGTQSPWSPDILETVMRRLEnDGDSDIRRAAINALDTQ------------------------------------------------------------------------
+>tr|B8LXU1|B8LXU1_TALSN Putative uncharacterized protein OS=Talaromyces stipitatus (strain ATCC 10500 / CBS 375.48 / QM 6759 / NRRL 1006) GN=TSTA_06243
+----------------------------------------------------------WTAINALGTLSPWPLETLQAVTCRLDDSDPGVRRA---AVDALGVQSPLPLEIIQAVTCRLDDSNSDVRRAAVGALGTQSPWPLEIIQAVTCRLDDSDLGVRWQAVNALGTQ------------------------------------------------------------------------
+>tr|B6QWM7|B6QWM7_TALMQ Putative uncharacterized protein OS=Talaromyces marneffei (strain ATCC 18224 / CBS 334.59 / QM 7333) GN=PMAA_102650 PE=4 SV=1
+----------------------------------------------------------YAAIEAIGTQSPWSPAILEAVIRRLEnDEDSGVKRA---AIEALGTKSPLSPAILEIVIRQLENDEgfyiryaaiktlgtqsswspailkamihqlennedSDMRRAAIEALGKQSPWSPALLEAVIRRLEnDEKWYVRRAAIKALSTQ------------------------------------------------------------------------
+>tr|A0A093V5I0|A0A093V5I0_TALMA NACHT, LRR and PYD domains-containing protein 3 OS=Talaromyces marneffei PM1 GN=GQ26_0240870 PE=4 SV=1
+----------------------------------------------------------CAAIEVLSAQSPWSPDILEAVIRRLDDEDSGVRRA---AIQALGTQSSWSPDILEAVICQLENNEdkdmrciaiqalgtqslwspdifkavirqlennkeeVIVRHAAIQALGTQSLWPPDILKAVIRRLEnDEAWGVRRAAIKALGTR------------------------------------------------------------------------
+>tr|V5GDN3|V5GDN3_BYSSN Uncharacterized protein OS=Byssochlamys spectabilis (strain No. 5 / NBRC 109023) GN=PVAR5_8935 PE=4 SV=1
+----------------------------------------------------------IEAATTLGQSSALPPAILETLAQLLKDNDLIVRIE---AAAALGQQSALPIAYPETLAQLLKDDNltlflkh-----------------------------------------------------------------------------------------------------------------------
+>tr|Q0CMR7|Q0CMR7_ASPTN Putative uncharacterized protein OS=Aspergillus terreus (strain NIH 2624 / FGSC A1156) GN=ATEG_05017 PE=4 SV=1
+----------------------------------------------------------WSAAITIQKHSPIPDKIIQSLHDFLMDKDADVRNC---AAGALKSQKELPSELLPSLVHVLRHSRddcscyatewletqrhl-----------------PDDITKALVMLLDDERQVVKDKAMMVLLKQ------------------------------------------------------------------------
+>tr|C0NYH5|C0NYH5_AJECG Pfs domain-containing protein OS=Ajellomyces capsulatus (strain G186AR / H82 / ATCC MYA-2454 / RMSCC 2432) GN=HCBG_07657 PE=4 S
+----------------------------------------------------------LLAIEALEAQNKFPGYALPDVISLLRDEDRDIRRL---AAIVLGKQNSLPEDALQGLTSLLKDDNqdirllaiealevqnkfpgytlpdvisllrdedrdirrlatmileenslpedalqgltsllkddnQDIRFLAIKTLEAQNKLPGYALPGVISLLRDDDRYIRQLAAIVLGKQ------------------------------------------------------------------------
+>tr|B8MU71|B8MU71_TALSN Putative uncharacterized protein OS=Talaromyces stipitatus (strain ATCC 10500 / CBS 375.48 / QM 6759 / NRRL 1006) GN=TSTA_11104
+------------------------------------------------------------AISALGAQTSLSDDILQAIVRRLEDSKEYVRWS---ALYALDKQTTLSDDSLQAIVHRLEDSNRHVRHPAIYVFGKQTSLSDDILQAIARRLEDSDESIRWTAIDVLGKQ------------------------------------------------------------------------
+>tr|V5FQY2|V5FQY2_BYSSN Uncharacterized protein OS=Byssochlamys spectabilis (strain No. 5 / NBRC 109023) GN=PVAR5_3008 PE=4 SV=1
+------------------------------------------------------------IIYCLRSNAF-----------------------------L------LEADVLEETLSQLKGVDTNTKIYALNRLARETNLPHHALQAVASCLEDSESNVRRYAVDVLRNQ------------------------------------------------------------------------
+>tr|X0B6F4|X0B6F4_FUSOX Uncharacterized protein OS=Fusarium oxysporum f. sp. raphani 54005 GN=FOQG_17945 PE=4 SV=1
+------------------------------------------------------------VVEVLRGQPALPEEILQAVAARLEDEDGDVRRA---ALIALKDQSALSKEIIQVVGARLKDQDGDVRRWAAIVLGSQSVLPEGVLTAVAAQLEDADGDVRRAALDVLEGQ------------------------------------------------------------------------
+>tr|A0A0C4E206|A0A0C4E206_MAGP6 Uncharacterized protein OS=Magnaporthiopsis poae (strain ATCC 64411 / 73-15) GN=MAPG_06432 PE=4 SV=1
+------------------------------------------------------------ASRT---------------------------------------------------------------------LANMPDLPEAVVEAIAKQLEDKDFDVRSMaAIALVGGR------------------------------------------------------------------------
+>tr|A0A0N8H5R8|A0A0N8H5R8_9HYPO Uncharacterized protein OS=Neonectria ditissima GN=AK830_g9636 PE=4 SV=1
+------------------------------------------------------------AIRIL---------------------------------RNQSQQSAIPEQMLKVIAARLHDESRRVQKMTIEILARQSALPEEFLEATVAWLHDQDEPSQIPQSAVTFGQ------------------------------------------------------------------------
+>tr|W9Z2N5|W9Z2N5_FUSOX Uncharacterized protein OS=Fusarium oxysporum f. sp. melonis 26406 GN=FOMG_17385 PE=4 SV=1
+------------------------------------------------------------AVSALGGQSALPEELLTAVAARLMDPHGDVRWA---AVYALRGQLALPGGTLKVVAARLEDQDRDIRWAAVYVLGGQSALPEDILQAVAARLQGQEKDVRWAPLDALEDQ------------------------------------------------------------------------
+>tr|A0A0F2M6A1|A0A0F2M6A1_SPOSC Uncharacterized protein OS=Sporothrix schenckii 1099-18 GN=SPSK_08290 PE=4 SV=1
+--------------------------------------------------------------------------------------------------------------QIHTARHQVAEVNFATLRQITEIFGARQSLPESVLSSLLEQLPSSNGDGSLEvfsvaFITALSHR------------------------------------------------------------------------
+>tr|B8MU63|B8MU63_TALSN Putative uncharacterized protein OS=Talaromyces stipitatus (strain ATCC 10500 / CBS 375.48 / QM 6759 / NRRL 1006) GN=TSTA_10963
+-------------SPWSPDILETVIRRLENDRDSHVRH--AAIEALGTQSPwspdileavirrlendrdSHVR---HAAIEALGTQSPWSPDILETVMRRLEnDGDSDIRRA---AINALDTQSPWSPDILEVVIRRLEkDEDSDVRRAAIQALGTQSPWSPDILETVMRRLENDgDSYVASKIEALLWKHdeFLFPFFD-LNAnatSALCKIWAQRSIHEIFACYVR----------------------------------------
+>tr|B8LXU1|B8LXU1_TALSN Putative uncharacterized protein OS=Talaromyces stipitatus (strain ATCC 10500 / CBS 375.48 / QM 6759 / NRRL 1006) GN=TSTA_06243
+-------------SPLPLEIIQAVTCRLDDSN-------------------SDVR---RAAVGALGTQSPWPLEIIQAVTCRLDDSDLGVRWQ---AVNALGTQSPLPLEILQAVMGRLDDSNGGVRQAAVHALGKHSPWPPEILQGAMGRLDDRDWQVASGLEALLWKHddFLSPFLH-LHAdavSALCRIWILRSIHETFVCYVC----------------------------------------
+>tr|B6QWM7|B6QWM7_TALMQ Putative uncharacterized protein OS=Talaromyces marneffei (strain ATCC 18224 / CBS 334.59 / QM 7333) GN=PMAA_102650 PE=4 SV=1
+-------------SPLSPAILEIVIRQLENDEGFYIRY--AAIKTLGTQSSwspailkamihqlennedSDMR---RAAIEALGKQSPWSPALLEAVIRRLEnDEKWYVRRA---AIKALSTQSLWSPDILDAVICRLEnDEDSGVRRAAIKALSTQSLWSPAILEAVIRRLENEeDSEVASKIEALLWKHdeFLFPFFD-LNAnatSALCKIWAQRSIHEIFACYVR----------------------------------------
+>tr|A0A093V5I0|A0A093V5I0_TALMA NACHT, LRR and PYD domains-containing protein 3 OS=Talaromyces marneffei PM1 GN=GQ26_0240870 PE=4 SV=1
+-------------SSWSPDILEAVICQLENNEDKDMRC--IAIQALGTQSLwspdifkavirqlennkeeVIVR---HAAIQALGTQSLWPPDILKAVIRRLEnDEAWGVRRA---AIKALGTRSPWSPDILKAVIRRLEnDEDLDVRRAAIEVLGTQSSWSPDILEAVICQLENEkYSDLASKIEALLWKHdeFLFPFFY-LNAnaaSALCKIWAQRSIRETFACYVR----------------------------------------
+>tr|V5GDN3|V5GDN3_BYSSN Uncharacterized protein OS=Byssochlamys spectabilis (strain No. 5 / NBRC 109023) GN=PVAR5_8935 PE=4 SV=1
+-------------SALPIAYPETLAQLLKDDNLTLfLKH------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+>tr|Q0CMR7|Q0CMR7_ASPTN Putative uncharacterized protein OS=Aspergillus terreus (strain NIH 2624 / FGSC A1156) GN=ATEG_05017 PE=4 SV=1
+-------------KELPSELLPSLVHVLRHSRDD-CSC--YATEWLETQRHl--------------------PDDITKALVMLLDDERQVVKDK---AMMVLLKQSHLAENVLHDIAML-HfSPAIKSEYSWGLWLGLRSDFPPKTVKALAALLEDEpSR-V--KKVDEVLRVqnSFYPLVPTLSRqalKNLFRCWIPLAFDQQICCFFE----------------------------------------
+>tr|C0NYH5|C0NYH5_AJECG Pfs domain-containing protein OS=Ajellomyces capsulatus (strain G186AR / H82 / ATCC MYA-2454 / RMSCC 2432) GN=HCBG_07657 PE=4 S
+-------------NSLPEDALQGLTSLLKDDNQD-IRL--LAIEALEVQNKfpgytlpdvisllrdedrdirrlatmileenslpedalqgltsllkddnQDIR---FLAIKTLEAQNKLPGYALPGVISLLRDDDRYIRQL---AAIVLGKQNNLPEDAVQGLIPLLRDDERYIRRSAAIVLGKQNSLPEDAVQGLISLLRDEdRR-VRRSAASIVLNSdnIMGTIVPSSDTsilQDLYTALVEESMEKQLSCYMQ----------------------------------------
+>tr|A0A0F9XMV2|A0A0F9XMV2_TRIHA Peptidase C14 OS=Trichoderma harzianum GN=THAR02_01893 PE=4 SV=1
+---------------------------------------------------------------TALRQTALHNNFFKVVSALLEDKSPRVRAY---AIEILDRQAALPSEILEAIAAQLGdeDEDIDVRMRALLTLGRQPALPQEILKVVAARLEEKEKYIRYGATKALLNQ------------------------------------------------------------------------
+>tr|S3C2K7|S3C2K7_OPHP1 Peptidase c14 OS=Ophiostoma piceae (strain UAMH 11346) GN=F503_03439 PE=4 SV=1
+------------------------------------------------------------------------PETLQAITARLEDENDSVKCL---AIEALSQ-TPLAPETLQAITARLEDENDSVREAAVKALQNQTPLSPETLQAITARLEDEN-NSvKCTAIGAL-SQ------------------------------------------------------------------------
+>tr|G9MZ30|G9MZ30_HYPVG Uncharacterized protein OS=Hypocrea virens (strain Gv29-8 / FGSC 10586) GN=TRIVIDRAFT_192935 PE=4 SV=1
+-------------------------------------------------------------------------------------------------------KSVVSNEILQNIILRLEDEDEEVQVAALEALGKQPALPNNLLKDIAAHLDDKY-PRvREAAIYALRPQ------------------------------------------------------------------------
+>tr|G9NH30|G9NH30_HYPAI Uncharacterized protein (Fragment) OS=Hypocrea atroviridis (strain ATCC 20476 / IMI 206040) GN=TRIATDRAFT_171588 PE=4 SV=1
+---------------------------------------------------------------EA---------LKTIAAQLQHNDNSYIRVS---AIETLGNQSSLPYEILQAIATQLKeNENISVQIAAIEALASQSNLPTEILQVMTAKLEDNEDYSiHEAAIQALSMQ------------------------------------------------------------------------
+>tr|A0A017SP49|A0A017SP49_9EURO ARM repeat-containing protein OS=Aspergillus ruber CBS 135680 GN=EURHEDRAFT_407970 PE=4 SV=1
+------------------------------------------------------------------------PEIVGSIAGRLEHEDSGVRRA---ALEALQNQKDPSPETVNAIAGRLKDEVSHVRRAAVEMLQSRQGLSSEIMSAIAGQLEDE-DWCvRWAAVEALQNQ------------------------------------------------------------------------
+>tr|A0A0A2VUG1|A0A0A2VUG1_BEABA NACHT, LRR and PYD domains-containing protein 12 OS=Beauveria bassiana D1-5 GN=BBAD15_g2721 PE=4 SV=1
+---------------------------------------------------------------------------------------------------ALGESVALPDEVLKALALRLSDQSSDVRAAATKALGKRVVLPDEMFKTLVS--------------------------------------------------------------------------------------------
+>tr|C5FNC0|C5FNC0_ARTOC Peptidase C14 OS=Arthroderma otae (strain ATCC MYA-4605 / CBS 113480) GN=MCYG_04175 PE=4 SV=1
+------------------------------------------------------------------------QVAFDGLILLLKDNDWGPRNA---ATNALKGRPNLPQAILDSLILLLKDEDWRRSYAAANVLEGQLNLPQAVLDQLILLFKGNDWQKRISAVNVLKRQ------------------------------------------------------------------------
+>tr|E4UV79|E4UV79_ARTGP Putative uncharacterized protein OS=Arthroderma gypseum (strain ATCC MYA-4604 / CBS 118893) GN=MGYG_05209 PE=4 SV=1
+------------------------------------------------------------------------QATLDGLILLLKDGNWRVRWA---AAEALRIQPTIPQAALDGLILLLKDEDKMVRQAATKALEEKPTLPQPTLDRLILLLKDKNQEVRWTAAKVLEKQ------------------------------------------------------------------------
+>tr|F0X6P0|F0X6P0_GROCL Nacht nucleoside triphosphatase OS=Grosmannia clavigera (strain kw1407 / UAMH 11150) GN=CMQ_6821 PE=4 SV=1
+-------------------------------------------------------------------------------------------------------QASLPKRMLEAVATKLEGAEAYVRSAAIRALGEQTSLPEKMLEAVAAKLEDADAYVQRVAILALGKQ------------------------------------------------------------------------
+>tr|A0A0B4HZY9|A0A0B4HZY9_9HYPO Nacht nucleoside triphosphatase OS=Metarhizium guizhouense ARSEF 977 GN=MGU_07326 PE=4 SV=1
+------------------------------------------------------------------------DAANKALIVLLQSKDYGVRAA---AARALNPQKNLPDAAIEALLMLLQskDSSIQI--DAARALygqqnlpdeavedlmkaqfrkyhswtarvvfgawNLQSNLSNAAIESLIALFQAKELNVqTS-IANLLARH------------------------------------------------------------------------
+>tr|B2B3U0|B2B3U0_PODAN Podospora anserina S mat+ genomic DNA chromosome 6, supercontig 2 OS=Podospora anserina (strain S / ATCC MYA-4624 / DSM 980 / F
+-----------------------------------------------------------------------E--VLQGIAARLEDQDTGVRRA---AIEVL-QgRADLPEEVLQGIAARLEDQDTGVRRAAIKALQGRADLPEEVLQGIAARLEDQAAYVRLRAINALQGR------------------------------------------------------------------------
+>tr|A0A0K8KZZ9|A0A0K8KZZ9_9EURO NACHT, LRR and PYD domains-containing protein 3 OS=Neosartorya udagawae GN=AUD_0631 PE=4 SV=1
+--------------------------------------------------------------------------------------------------------------------AQLKHQSPDVRRAAIDTLVHRSNLPEGTLNQIAAQLKS--QQLiSFREVDQLTSM------------------------------------------------------------------------
+>tr|A0A0L9SVU6|A0A0L9SVU6_9HYPO Uncharacterized protein OS=Ophiocordyceps unilateralis GN=XA68_1005 PE=4 SV=1
+------------------------------------------------------------------------EAVNEAIAVRLEDNDEIVQMA---AFQVLGQIPRMESNVLDRITAWLHKKNVQTVYQILPYLSLGPTIPREILQVVAKQIKMSEDSTRD-GKSFTRLQ------------------------------------------------------------------------
+>tr|A0A0A2W9A1|A0A0A2W9A1_BEABA Protein NLRC5 OS=Beauveria bassiana D1-5 GN=BBAD15_g5102 PE=4 SV=1
+-----------------------------------------------------------------------V--MLTAVVVRLEDEYGIVRRA---AVEAL-DgHATLFDGMLTAVAARLEDEDRYVRIAAVETLRKRATLLDWVATAMAARLEDEDMYVRSAAVEALGER------------------------------------------------------------------------
+>tr|A0A0A2V700|A0A0A2V700_BEABA Protein SERAC1 OS=Beauveria bassiana D1-5 GN=BBAD15_g11511 PE=4 SV=1
+-----------------------------------------------------------------------K--MLAAVAGRLDDK------------------------------------DLDVRWAAIKALGERSSLPDEVLAAVAGRLDDENSTVRRAAVKVLGGM------------------------------------------------------------------------
+>tr|A0A084G2D1|A0A084G2D1_9PEZI Uncharacterized protein OS=Scedosporium apiospermum GN=SAPIO_CDS7648 PE=4 SV=1
+------------------------------------------------------------------------------------------RIA---VTEALGKQPVLPEAILEGLAALLKDPNSHVRSAAAAALGQQPALPEAILLQGLAALLKDPDRDvRWRATRALEKL------------------------------------------------------------------------
+>tr|J3PG98|J3PG98_GAGT3 Uncharacterized protein OS=Gaeumannomyces graminis var. tritici (strain R3-111a-1) GN=GGTG_12522 PE=4 SV=1
+--------------------------------------------------------------------------------------------A---TNDAMDGIPAA----GSGEAGEDDAETALVREATGRHLLERSKMPEGLKSVRR----------IWGE-------------------------------------------------------------------------------
+>tr|A0A0B4GKR6|A0A0B4GKR6_9HYPO Nacht nucleoside triphosphatase OS=Metarhizium guizhouense ARSEF 977 GN=MGU_09569 PE=4 SV=1
+-----------------------------------------------------------------------K--ILSPIIQQLDNPRIEVQSA---AALAL-RgQLNLSNEILASVAQRLDNFQSSVQECILQIFRKQLKLPKKVVTAVAKQLDNPGIWVQTFALQTLEKQ------------------------------------------------------------------------
+>tr|B6HE40|B6HE40_PENRW Pc20g04700 protein OS=Penicillium rubens (strain ATCC 28089 / DSM 1075 / NRRL 1951 / Wisconsin 54-1255) GN=Pc20g04700 PE=4 SV=1
+-----------------------------------------------------------------------LPEIHEKVIAYIEDSDAEVREA---AIQAVSVgRPSMSDTTFDTIATRMDDTNEKVRLAVVQVLGQKETLCFDIVNTLADLMNDTDEKVRWATLKVLADQ------------------------------------------------------------------------
+>tr|A0A0B4H246|A0A0B4H246_9HYPO Nacht nucleoside triphosphatase (Fragment) OS=Metarhizium majus ARSEF 297 GN=MAJ_10177 PE=4 SV=1
+--------------------------------------------------------------------------------------------------------NVVDIILLHQTSIDFTPVDENVREIICECLERQASLPAGILQVLTDQLEDEDEDERAFAVIhllsheemdqflplatlkstkwgrnsklrlfhSFTAL------------------------------------------------------------------------
+>tr|A0A086NEY5|A0A086NEY5_METAN Ankyrin repeat-containing OS=Metarhizium anisopliae GN=MANI_018884 PE=4 SV=1
+------------------------------------------------------------------------SSFFSTIVGGLNDPDESVRQL---AVEALSKCPKIPDDLVADLPTKLG---------------------------------IRRG--mSRSALTALCRQ------------------------------------------------------------------------
+>tr|A0A0D9PC08|A0A0D9PC08_METAN Uncharacterized protein OS=Metarhizium anisopliae BRIP 53293 GN=H634G_01710 PE=4 SV=1
+------------------------------------------------------------------------DAAIKALTVLLQSKDDVLRAA---AAELLTSQRDLPDAAIEALLMLLQseFDNTRCKFEVARDLcrrqnlpdeavenlmkaqfreynpwavrvilsawNSQPNLSNAAIESLVALFRAKEQYGkAW-LAQSVGVH------------------------------------------------------------------------
+>tr|J5JUJ2|J5JUJ2_BEAB2 Peptidase C14 OS=Beauveria bassiana (strain ARSEF 2860) GN=BBA_02435 PE=4 SV=1
+-----------------------------------------------------------------------EEETLVRIINTPKHEDswpwnwkgdrhrslCSIEVD---AAEILARQIRLSEEAQNTLLLRLQdlGKGWKVRHLAALALGSHLSF--ANVSLLLQLLEKRDIDE----VCQIATI------------------------------------------------------------------------
+>tr|A0A0B4G2I5|A0A0B4G2I5_9HYPO Nacht nucleoside triphosphatase (Fragment) OS=Metarhizium brunneum ARSEF 3297 GN=MBR_02092 PE=4 SV=1
+------------------------------------------------------------------------DAAIKTLTVLLQSNDGVLRAA---AASILTFQKDLPDAVIESLLMLLQseNYDQYTKTDIVHALcfptpplhvphvenlmkaqfrefnpwaasvlvmawNSLPNLSNAAIESLIALFQAKELNAqAS-IAESVGQC------------------------------------------------------------------------
+>tr|A0A0B4HLR5|A0A0B4HLR5_9HYPO Nacht nucleoside triphosphatase (Fragment) OS=Metarhizium majus ARSEF 297 GN=MAJ_10740 PE=4 SV=1
+------------------------------------------------------------------------DEAIKALTVLLQSKDYGVQAA---AVNALPYNCNLPDTTIEALLIMAHseNSTAEISASAFRTLnslenlpdeaveylmkgkswkydpstansvfsawNRQSNLSNAAIESIIALFQAQELYAqAW-TANALAKQ------------------------------------------------------------------------
+>tr|A0A0A1UU12|A0A0A1UU12_9HYPO NACHT and HEAT repeat domain protein OS=Metarhizium robertsii GN=X797_005850 PE=4 SV=1
+------------------------------------------------------------------------DAAIKTLTVLLQSNDGVLRAA---AAKILTSQKDLPDAVIESLLMLLQseNYGAKTDIVRAWCFrasrlqrniphvenlmkaqfrkfdpwttaviltawNSQPNLSNAAIESLIALFQARKRDDqAW-LAEYMGLC------------------------------------------------------------------------
+>tr|A0A0F9XBZ7|A0A0F9XBZ7_TRIHA Peptidase C14 OS=Trichoderma harzianum GN=THAR02_05860 PE=4 SV=1
+------------------------------------------------------------------------HELLKALALRLEDKNANVRSS---ATEALCH-RSLPEDIIEAIAGRLKDKSRSVQRMALRALQTQLTLPARILEAVTQKINLEDEYViRE-AVRVPGIH------------------------------------------------------------------------
+>tr|A0A0P7ATH2|A0A0P7ATH2_9HYPO Uncharacterized protein OS=Neonectria ditissima GN=AK830_g10416 PE=4 SV=1
+------------------------------------------------------------------------DEALTSIVQWHDNEDQIVQLA---TLEILQNQPSLSNEIILAIAQQHGNEHQTVRLATLKVLQKQPSLSDKILEAVIVQRLGDENSDvQRTALCILHKQ------------------------------------------------------------------------
+>tr|A0A0A1V6D8|A0A0A1V6D8_9HYPO NACHT and HEAT repeat domain protein OS=Metarhizium robertsii GN=X797_002869 PE=4 SV=1
+--------------------------------------------------------------------------------------------------------DVVDVNLLGVIATGLISLDESLRLDVCKCLERQPNLPARILQIVTDRLEDEDEAVRASAITnllsrkemdqflpvetlkstkwqqvsklylvdRFRGF------------------------------------------------------------------------
+>tr|A0A0B4EPL2|A0A0B4EPL2_METAN Nacht nucleoside triphosphatase (Fragment) OS=Metarhizium anisopliae ARSEF 549 GN=MAN_07141 PE=4 SV=1
+--------------------------------------------------------------------------------------------------------HVVDVNLLGVIATGLKSWG-ILPLDICRCFEHQPNLPTSILQIVTDLLEDKDEFTRVSALIillshkemdqslpvatlkstkwqrnskshligGLRRL------------------------------------------------------------------------
+>tr|A0A0C3CEC9|A0A0C3CEC9_9PEZI Uncharacterized protein OS=Oidiodendron maius Zn GN=OIDMADRAFT_182640 PE=4 SV=1
+------------------------------------------------------------------------ETALQVLTSLLKDNDSRVRSS---AARSLCQQSSLSEMTLQALASLLQDDDFAVRIRVASGLGTLPNLSEIILQALASLLNDDHHYARNAAANALGNQ------------------------------------------------------------------------
+>tr|A0A0B4GYI9|A0A0B4GYI9_9HYPO Nacht nucleoside triphosphatase OS=Metarhizium guizhouense ARSEF 977 GN=MGU_10141 PE=4 SV=1
+------------------------------------------------------------------------------------------------------------PDLLDTIAASLACTDWRIRRNASKCLALEDNLPERILKAVAERLEDEHDGVRATSLEiliknkkigqllpaallqlakwnknsrheiisRFTIF------------------------------------------------------------------------
+>tr|A0A0B2XE80|A0A0B2XE80_METRA Maleylacetate reductase OS=Metarhizium robertsii (strain ARSEF 23 / ATCC MYA-3075) GN=MAA_11304 PE=4 SV=1
+-----------------------------------------------------------------------SEEVVQAVANLLEDPDTDIRLE---AIRSLNFdrvAITLPTTVVQRMTCLLEDHNEHTRNSAVSSLASHKALPKEVLQALALTLHNPTPERRAQAARILNGQ------------------------------------------------------------------------
+>tr|A0A0B4HYH6|A0A0B4HYH6_9HYPO Nacht nucleoside triphosphatase OS=Metarhizium guizhouense ARSEF 977 GN=MGU_07929 PE=4 SV=1
+-----------------------------------------------------------------------SEEVVQAVANLLEDPNTDIRRE---AIQSLRFhktARTLPTTVVQRMACLLEDPDQLTRKYAVDSLTSHEALPKEVLQALASTLHNPTPERRAQAASILGGQ------------------------------------------------------------------------
+>tr|A0A0B4FRZ3|A0A0B4FRZ3_METAN Nacht nucleoside triphosphatase (Fragment) OS=Metarhizium anisopliae ARSEF 549 GN=MAN_00091 PE=4 SV=1
+-----------------------------------------------------------------------SEEVVQAMANLLEDPNTDMRRR---AVRSLNFdnvGRTLPTTVLQRMTCLLEDHDQLIRQSAVYSLTSHKALPKEVLQALALTLHNPTPERRAQAARILSGQ------------------------------------------------------------------------
+>tr|E9E035|E9E035_METAQ Putative uncharacterized protein OS=Metarhizium acridum (strain CQMa 102) GN=MAC_03311 PE=4 SV=1
+-----------------------------------------------------------------------K--ILMVILARLTDENENVREA---AVEAL-GeRSALSNEILTAVAARLTDENEDVRMAALEALSRQSALSNKILTVIAARLADENKWVRQAAVEALGGQ------------------------------------------------------------------------
+>tr|E9F1W3|E9F1W3_METRA Nacht nucleoside triphosphatase OS=Metarhizium robertsii (strain ARSEF 23 / ATCC MYA-3075) GN=MAA_06161 PE=4 SV=2
+-----------------------------------------------------------------------K--ILTIVAARLNDEDRDVRRA---TVVAL-SrQPALPDKILTVIAARLDDKDRYVRGATITAlISQRPALPDKIFIAAAVRLNDKDKYIRIAVVKALGQQ------------------------------------------------------------------------
+>tr|A0A0B4FDK7|A0A0B4FDK7_9HYPO Nacht nucleoside triphosphatase (Fragment) OS=Metarhizium brunneum ARSEF 3297 GN=MBR_08636 PE=4 SV=1
+-----------------------------------------------------------------------SEEVVQAVANLLEDPDTDIRQE---AIQSLDFnkvTRTLPTTVFQRMTCLLEDHDQRTRQCAFNSLTSHKALPKEVLQALALTLHNPTRERRVQAAIILSVQ------------------------------------------------------------------------
+>tr|A0A0P4UJ66|A0A0P4UJ66_ROSNE Putative peptidase c14 OS=Rosellinia necatrix GN=SAMD00023353_7000220 PE=4 SV=1
+---------------------------------------------------------------VLRKQPQLSDVILDAMAKQLSNSDRGVRRA---VAEAFQGQPQPNDRVINAIAT---rLT-NEGDMETLESlLgaiepwprlgdnvlyavaklwaldsyvptavmdlaskifRSRPQPNDEVINAIIEHPKNPHYSFDTVTLEAIGGW------------------------------------------------------------------------
+>tr|W3WP46|W3WP46_9PEZI Uncharacterized protein OS=Pestalotiopsis fici W106-1 GN=PFICI_12518 PE=4 SV=1
+---------------------------------------------------------------ILHPSDGTYDSLFDVIMNGLKDPVPSVREA---VARALNNWSSTEVRYLQIIIDHLQsvLFEKNAGEKYHGYlLralenfprptddaylvlsrtlaypwhhvcsaavatlQKWPQPRKAVIENIVLYLQASDTKCVSKALEVLGEW------------------------------------------------------------------------
+>tr|A0A0J0CCH7|A0A0J0CCH7_GIBFU Uncharacterized protein OS=Gibberella fujikuroi GN=LW93_10048 PE=4 SV=1
+---------------------------------------------------------------V-LKQPVLPKVLIDAIirriedtaesshqainsvlegktdiprmtvqilnqrlkdastdfseasliaimsqttlpesvinsiAREVDDLDPRIRRG---ILEAIKVQRDLPQGIIEAVIMQLRATDSSVLNAALDVLkmqskllpaaveaitellen--------------------PDEGIWASALEVLANQ------------------------------------------------------------------------
+>tr|A0A098DTC5|A0A098DTC5_GIBZA Uncharacterized protein OS=Gibberella zeae GN=FGRRES_17134 PE=4 SV=1
+---------------------------------------------------------------AIGKQSILSDTTVAALVELFKDKDSDARYH---AAEAIGNQSILSDTIVAALVELIKDKDSDARYHAAEAIgnq---SILSDTTVATLVELIKDEDSDIRSSAARAIGKQ------------------------------------------------------------------------
+>tr|W3WXT1|W3WXT1_9PEZI Uncharacterized protein OS=Pestalotiopsis fici W106-1 GN=PFICI_10004 PE=4 SV=1
+---------------------------------------------------------------V-LKQPVLPRVLIDAIiqrmedtaesshraiesiledqtnlpkmafdiitqrirvagteirqatikallsqpvlpkavikdmNEQLNGTDPDIRKT---ILKALMPRSKLPEETVVATTEQLEDPEFAIREAALRALrh--QPVLPYPTVVAITEQLEDPELAIWEAALQALENQ------------------------------------------------------------------------
+>tr|A0A0J0EQA7|A0A0J0EQA7_GIBFU Uncharacterized protein OS=Gibberella fujikuroi GN=LW94_2076 PE=4 SV=1
+---------------------------------------------------------------V-LEQPVLPKVLIESIirriedtaesshqaitsvldgktdlpqmtvqilgqrlevastdfskatiialvsqgtlpktvinsiAREVYNPDPCIRRG---ILEAFKVQRELPQGIIEAVIMQLRATESAVRNAALDVLkmqsemlpaaveaitellknpdndmqkaaleafnhRCRSALPPETIETVTERLESPDKGICASALEVLAHQ------------------------------------------------------------------------
+>tr|A0A0F9XMV2|A0A0F9XMV2_TRIHA Peptidase C14 OS=Trichoderma harzianum GN=THAR02_01893 PE=4 SV=1
+----------------------------------------------------------LATIKALDDRVNfgLPKEILEAVIARLQDENDTVREA---AVCLILKHQRTLrqtalrqtalhNNFFKVVSALLEDKSPRVRAYAIEILDRQAALPSEILEAIAAQLGdeDEDIDVRMRALLTLGRQ------------------------------------------------------------------------
+>tr|S3C2K7|S3C2K7_OPHP1 Peptidase c14 OS=Ophiostoma piceae (strain UAMH 11346) GN=F503_03439 PE=4 SV=1
+----------------------------------------------------------CTAIEVLRRHTPf-SLQTLRAITARLEDEDETVRYA---AVEALQRHTPLAPETLQAITARLEDENDSVKCLAIEALSQ-TPLAPETLQAITARLEDENDSVREAAVKALQNQ------------------------------------------------------------------------
+>tr|G9MZ30|G9MZ30_HYPVG Uncharacterized protein OS=Hypocrea virens (strain Gv29-8 / FGSC 10586) GN=TRIVIDRAFT_192935 PE=4 SV=1
+----------------------------------------------------------VAAIRALGKQSALPNNILKTIAAQLENKYTSVREA---AIRTLAY---------------------------------KSVVSNEILQNIILRLEDEDEEVQVAALEALGKQ------------------------------------------------------------------------
+>tr|G9NH30|G9NH30_HYPAI Uncharacterized protein (Fragment) OS=Hypocrea atroviridis (strain ATCC 20476 / IMI 206040) GN=TRIATDRAFT_171588 PE=4 SV=1
+----------------------------------------------------------QTTIKGLGLFKRlgLQSKRLEDIATRLKTKDWSIRQA---AFGALNQHFSL-sdea--LKTIAAQLQHNDNSYIRVSAIETLGNQSSLPYEILQAIATQLKeNENISVQIAAIEALASQ------------------------------------------------------------------------
+>tr|A0A017SP49|A0A017SP49_9EURO ARM repeat-containing protein OS=Aspergillus ruber CBS 135680 GN=EURHEDRAFT_407970 PE=4 SV=1
+----------------------------------------------------------RAAIEALQNQQDLSPAIVNAIAGRLKDNDQRVQWA---AVRALQNRQDLSPEIVGSIAGRLEHEDSGVRRAALEALQNQKDPSPETVNAIAGRLKDEVSHVRRAAVEMLQSR------------------------------------------------------------------------
+>tr|A0A0A2VUG1|A0A0A2VUG1_BEABA NACHT, LRR and PYD domains-containing protein 12 OS=Beauveria bassiana D1-5 GN=BBAD15_g2721 PE=4 SV=1
+----------------------------------------------------------VGAVEALGTRATLSNEVLMALALRLSDEDFHVRLA---AIK---------------------------------ALGESVALPDEVLKALALRLSDQSSDVRAAATKALGKR------------------------------------------------------------------------
+>tr|W3WME6|W3WME6_9PEZI Uncharacterized protein OS=Pestalotiopsis fici W106-1 GN=PFICI_13574 PE=4 SV=1
+----------------------------------------------------------EKALDAVRNWPQFNDTALHAIARRVP--------------------------------------------------------------------------------------------------------------------------------------------------------------
+>tr|C5FNC0|C5FNC0_ARTOC Peptidase C14 OS=Arthroderma otae (strain ATCC MYA-4605 / CBS 113480) GN=MCYG_04175 PE=4 SV=1
+----------------------------------------------------------VSAASALKEQSNLPQAALDALILLLKDKDQSVRKA---VANAIGGQSNLPQVAFDGLILLLKDNDWGPRNAATNALKGRPNLPQAILDSLILLLKDEDWRRSYAAANVLEGQ------------------------------------------------------------------------
+>tr|E4UV79|E4UV79_ARTGP Putative uncharacterized protein OS=Arthroderma gypseum (strain ATCC MYA-4604 / CBS 118893) GN=MGYG_05209 PE=4 SV=1
+----------------------------------------------------------EAAIKVLERKSTLP--TLNGLILLLNDKNQEVREA---IVKALKGQLTLPQATLDGLILLLKDGNWRVRWAAAEALRIQPTIPQAALDGLILLLKDEDKMVRQAATKALEEK------------------------------------------------------------------------
+>tr|F0X6P0|F0X6P0_GROCL Nacht nucleoside triphosphatase OS=Grosmannia clavigera (strain kw1407 / UAMH 11150) GN=CMQ_6821 PE=4 SV=1
+----------------------------------------------------------RGAVRTLGNQASLPERMLEAVAAKLKDADVYVQQS---AVKTLGK---------------------------------QASLPKRMLEAVATKLEGAEAYVRSAAIRALGEQ------------------------------------------------------------------------
+>tr|A0A0B4HZY9|A0A0B4HZY9_9HYPO Nacht nucleoside triphosphatase OS=Metarhizium guizhouense ARSEF 977 GN=MGU_07326 PE=4 SV=1
+----------------------------------------------------------SAAAKALSAQYFLSDTATANFLALLEHERKEIRSV---AVEVLSCGIGLSDAANKALIVLLQSKDYGVRAAAARALNPQKNLPDAAIEALLMLLQskDSSIQI--DAARALygqqnlpdeavedlmkaqfrkyhswtarvvfgawNLQ------------------------------------------------------------------------
+>tr|B2B3U0|B2B3U0_PODAN Podospora anserina S mat+ genomic DNA chromosome 6, supercontig 2 OS=Podospora anserina (strain S / ATCC MYA-4624 / DSM 980 / F
+----------------------------------------------------------RIAIDELQGRADLPEEMLQGIAARLEDQAAYVRLR---AINALQGRADLSee--VLQGIAARLEDQDTGVRRAAIEVL-QgRADLPEEVLQGIAARLEDQDTGVRRAAIKALQGR------------------------------------------------------------------------
+>tr|A0A0K8KZZ9|A0A0K8KZZ9_9EURO NACHT, LRR and PYD domains-containing protein 3 OS=Neosartorya udagawae GN=AUD_0631 PE=4 SV=1
+----------------------------------------------------------RAASNTLKQQSNLPEGTLNKIV---------------------------------------------------------------------AQLKHQSPDVRRAAIDTLVHR------------------------------------------------------------------------
+>tr|A0A0L9SVU6|A0A0L9SVU6_9HYPO Uncharacterized protein OS=Ophiocordyceps unilateralis GN=XA68_1005 PE=4 SV=1
+----------------------------------------------------------INALEALKGSS-LPKEIIENIAARFEDKRSLVRQR---AIETLGRSSLP-EAVNEAIAVRLEDNDEIVQMAAFQVLGQIPRMESNVLDRITAWLHKKNVQTVYQILPYLSLG------------------------------------------------------------------------
+>tr|A0A0A2W9A1|A0A0A2W9A1_BEABA Protein NLRC5 OS=Beauveria bassiana D1-5 GN=BBAD15_g5102 PE=4 SV=1
+----------------------------------------------------------MAAVEALGGRAMLPDVMLTAVVVRLEDEDSNVRRA---AVKALGRRVMLPdv--MLTAVVVRLEDEYGIVRRAAVEAL-DgHATLFDGMLTAVAARLEDEDRYVRIAAVETLRKR------------------------------------------------------------------------
+>tr|J5J751|J5J751_BEAB2 Peptidase C14 OS=Beauveria bassiana (strain ARSEF 2860) GN=BBA_08800 PE=4 SV=1
+----------------------------------------------------------GAAVKALGRRSELPQAVLTAVAARLDDDGDEV--------------------------------------------------------------------------------------------------------------------------------------------------------
+>tr|A0A0A2V700|A0A0A2V700_BEABA Protein SERAC1 OS=Beauveria bassiana D1-5 GN=BBAD15_g11511 PE=4 SV=1
+----------------------------------------------------------RAAVDALGGRSALPDEMLAAVAGRLDDKDSDVRRA---AVEALGGRSALPdk--MLAAVAGRLDDK---------------------------------DLDVRWAAIKALGER------------------------------------------------------------------------
+>tr|A0A084G2D1|A0A084G2D1_9PEZI Uncharacterized protein OS=Scedosporium apiospermum GN=SAPIO_CDS7648 PE=4 SV=1
+----------------------------------------------------------SIAEVALGWQPTLPEAVLQGLAALLKDPNCHIQY----------------------------------RIAVTEALGKQPVLPEAILEGLAALLKDPNSHVRSAAAAALGQQ------------------------------------------------------------------------
+>tr|J3PG98|J3PG98_GAGT3 Uncharacterized protein OS=Gaeumannomyces graminis var. tritici (strain R3-111a-1) GN=GGTG_12522 PE=4 SV=1
+----------------------------------------------------------LVGSDADAADPRR-AAALDEVD----QTNSAMD-------------------------------------ATNDAMDGIPAA----GSGEAGEDDAETALVREATGRHLLER------------------------------------------------------------------------
+>tr|A0A0B4GKR6|A0A0B4GKR6_9HYPO Nacht nucleoside triphosphatase OS=Metarhizium guizhouense ARSEF 977 GN=MGU_09569 PE=4 SV=1
+----------------------------------------------------------WNVRKVLKKQSDLSDEILAALVQRLDSGDDDMREG---VLGVLEGQSNLSnk--ILSPIIQQLDNPRIEVQSAAALAL-RgQLNLSNEILASVAQRLDNFQSSVQECILQIFRKQ------------------------------------------------------------------------
+>tr|B6HE40|B6HE40_PENRW Pc20g04700 protein OS=Penicillium rubens (strain ATCC 28089 / DSM 1075 / NRRL 1951 / Wisconsin 54-1255) GN=Pc20g04700 PE=4 SV=1
+----------------------------------------------------------KIVLQIFEHQSNSPKEVLVQIARCIEDQDVSIRSA---AIRALSGQSNLSdlPEIHEKVIAYIEDSDAEVREAAIQAVSVgRPSMSDTTFDTIATRMDDTNEKVRLAVVQVLGQK------------------------------------------------------------------------
+>tr|A0A0B4H246|A0A0B4H246_9HYPO Nacht nucleoside triphosphatase (Fragment) OS=Metarhizium majus ARSEF 297 GN=MAJ_10177 PE=4 SV=1
+----------------------------------------------------------EAAFKSLCAFIHwgLSAKALNQLRNKVADLIMNQRlsqeesKH---AMRFLFLPGVLVg-----------------------------NVVDIILLHQTSIDFTPVDENVREIICECLERQ------------------------------------------------------------------------
+>tr|A0A086NEY5|A0A086NEY5_METAN Ankyrin repeat-containing OS=Metarhizium anisopliae GN=MANI_018884 PE=4 SV=1
+----------------------------------------------------------FGVMSTLSRQTKLSHEFLAVVASHVKDENFMVRRA---AMEALSNMSVLPtdSSFFSTIVGGLNDPDESVRQLAVEALSKCPKIPDDLVADLPTKLG-----------------------------------------------------------------------------------------
+>tr|A0A0D9PC08|A0A0D9PC08_METAN Uncharacterized protein OS=Metarhizium anisopliae BRIP 53293 GN=H634G_01710 PE=4 SV=1
+----------------------------------------------------------SVVAKALCGQRNLSNTTIAKILALLEHEREEIRSV---AVGVLSR-QILPDAAIKALTVLLQSKDDVLRAAAAELLTSQRDLPDAAIEALLMLLQseFDNTRCKFEVARDLcrrqnlpdeavenlmkaqfreynpwavrvilsawNSQ------------------------------------------------------------------------
+>tr|J5JUJ2|J5JUJ2_BEAB2 Peptidase C14 OS=Beauveria bassiana (strain ARSEF 2860) GN=BBA_02435 PE=4 SV=1
+----------------------------------------------------------HYALYNLIDRDNwrITTEMLCVFLQHQRNSD--IPLL---AAHYLKDCNNLArseEETLVRIINTPKHEDswpwnwkgdrhrslCSIEVDAAEILARQIRLSEEAQNTLLLRLQdlGKGWKVRHLAALALGSH------------------------------------------------------------------------
+>tr|A0A0B4G2I5|A0A0B4G2I5_9HYPO Nacht nucleoside triphosphatase (Fragment) OS=Metarhizium brunneum ARSEF 3297 GN=MBR_02092 PE=4 SV=1
+---------------------------------------------------------------------ILSETAVASILALLEHEREEIRSV---AARVLSR-QALPDAAIKTLTVLLQSNDGVLRAAAASILTFQKDLPDAVIESLLMLLQseNYDQYTKTDIVHALcfptpplhvphvenlmkaqfrefnpwaasvlvmawNSL------------------------------------------------------------------------
+>tr|A0A0B4HLR5|A0A0B4HLR5_9HYPO Nacht nucleoside triphosphatase (Fragment) OS=Metarhizium majus ARSEF 297 GN=MAJ_10740 PE=4 SV=1
+----------------------------------------------------------SAAANALRHQYRLSNTAIANLLALLEHEREEIRSV---ASRVLYGQKDLPDEAIKALTVLLQSKDYGVQAAAVNALPYNCNLPDTTIEALLIMAHseNSTAEISASAFRTLnslenlpdeaveylmkgkswkydpstansvfsawNRQ------------------------------------------------------------------------
+>tr|A0A0A1UU12|A0A0A1UU12_9HYPO NACHT and HEAT repeat domain protein OS=Metarhizium robertsii GN=X797_005850 PE=4 SV=1
+----------------------------------------------------------SVAAKALKSQSHLSDTAIVSLLALLEHEREEIRSV---AVEVLSR-QALPDAAIKTLTVLLQSNDGVLRAAAAKILTSQKDLPDAVIESLLMLLQseNYGAKTDIVRAWCFrasrlqrniphvenlmkaqfrkfdpwttaviltawNSQ------------------------------------------------------------------------
+>tr|A0A0F9XBZ7|A0A0F9XBZ7_TRIHA Peptidase C14 OS=Trichoderma harzianum GN=THAR02_05860 PE=4 SV=1
+----------------------------------------------------------YYTLSALTDHPGLSTYILNQIAEQLEDQDDHVRSM---AASTLGNQSELSHELLKALALRLEDKNANVRSSATEALCH-RSLPEDIIEAIAGRLKDKSRSVQRMALRALQTQ------------------------------------------------------------------------
+>tr|A0A0P7ATH2|A0A0P7ATH2_9HYPO Uncharacterized protein OS=Neonectria ditissima GN=AK830_g10416 PE=4 SV=1
+----------------------------------------------------------CAALDVLIVQSRLSNGLLKAVVQQLHDKDSRTRVA---ALAVLQKQPSLCDEALTSIVQWHDNEDQIVQLATLEILQNQPSLSNEIILAIAQQHGNEHQTVRLATLKVLQKQ------------------------------------------------------------------------
+>tr|A0A0A1V6D8|A0A0A1V6D8_9HYPO NACHT and HEAT repeat domain protein OS=Metarhizium robertsii GN=X797_002869 PE=4 SV=1
+----------------------------------------------------------EAAFESLSFFSLrgLSAKALNELRNKVSDLTMNKRlsqresEG---AIRFLCQEGLFAa-----------------------------DVVDVNLLGVIATGLISLDESLRLDVCKCLERQ------------------------------------------------------------------------
+>tr|A0A0B4EPL2|A0A0B4EPL2_METAN Nacht nucleoside triphosphatase (Fragment) OS=Metarhizium anisopliae ARSEF 549 GN=MAN_07141 PE=4 SV=1
+----------------------------------------------------------EAAFESLRFFSRwgLTAKALNELINKVADLTMNKRlsqresKG---AIQFFTREGLFAa-----------------------------HVVDVNLLGVIATGLKSWG-ILPLDICRCFEHQ------------------------------------------------------------------------
+>tr|A0A0C3CEC9|A0A0C3CEC9_9PEZI Uncharacterized protein OS=Oidiodendron maius Zn GN=OIDMADRAFT_182640 PE=4 SV=1
+----------------------------------------------------------VLADEALGRPSSLSETTLRTLASLLEDDNPDVRQA---AAKSLGTHSSLSETALQVLTSLLKDNDSRVRSSAARSLCQQSSLSEMTLQALASLLQDDDFAVRIRVASGLGTL------------------------------------------------------------------------
+>tr|A0A0B4GYI9|A0A0B4GYI9_9HYPO Nacht nucleoside triphosphatase OS=Metarhizium guizhouense ARSEF 977 GN=MGU_10141 PE=4 SV=1
+----------------------------------------------------------DVAYLSTQSLYVmkISN-LSDEFIQLLADLIMDENlsqnrlLQ---ILNVLSLRDHLT---------------------------------PDLLDTIAASLACTDWRIRRNASKCLALE------------------------------------------------------------------------
+>tr|A0A0B2XE80|A0A0B2XE80_METRA Maleylacetate reductase OS=Metarhizium robertsii (strain ARSEF 23 / ATCC MYA-3075) GN=MAA_11304 PE=4 SV=1
+----------------------------------------------------------TAALLVLTDQPGpwrlgLQEELAKVAVDLLTDSEEDVRKS---AIFY--GSQLVElsEEVVQAVANLLEDPDTDIRLEAIRSLNFdrvAITLPTTVVQRMTCLLEDHNEHTRNSAVSSLASH------------------------------------------------------------------------
+>tr|A0A0B4HYH6|A0A0B4HYH6_9HYPO Nacht nucleoside triphosphatase OS=Metarhizium guizhouense ARSEF 977 GN=MGU_07929 PE=4 SV=1
+----------------------------------------------------------IAALLALKAQPGpwhlgLQEELTKVAVDLLTDSEEDVRKD---AIDY--GGQLVGlsEEVVQAVANLLEDPNTDIRREAIQSLRFhktARTLPTTVVQRMACLLEDPDQLTRKYAVDSLTSH------------------------------------------------------------------------
+>tr|A0A0B4FRZ3|A0A0B4FRZ3_METAN Nacht nucleoside triphosphatase (Fragment) OS=Metarhizium anisopliae ARSEF 549 GN=MAN_00091 PE=4 SV=1
+----------------------------------------------------------IAALIVLTHARGpwrlgLQEELAKVAVDSLTDSEEQVRNS---VAFYVTfpGIQLVGlsEEVVQAMANLLEDPNTDMRRRAVRSLNFdnvGRTLPTTVLQRMTCLLEDHDQLIRQSAVYSLTSH------------------------------------------------------------------------
+>tr|E9E035|E9E035_METAQ Putative uncharacterized protein OS=Metarhizium acridum (strain CQMa 102) GN=MAC_03311 PE=4 SV=1
+----------------------------------------------------------YAAIETLGRQLALPDKMLTAIAARLNEKDRHVRRA---AIEALGRRLALPkk--ILMVILARLTDENENVREAAVEAL-GeRSALSNEILTAVAARLTDENEDVRMAALEALSRQ------------------------------------------------------------------------
+>tr|E9F1W3|E9F1W3_METRA Nacht nucleoside triphosphatase OS=Metarhizium robertsii (strain ARSEF 23 / ATCC MYA-3075) GN=MAA_06161 PE=4 SV=2
+----------------------------------------------------------QATIITLGGRPGLPYEILTIIAARLDSKNGDARRT---AVEALSRQPALPnk--ILTIVAARLNDEDRDVRRATVVAL-SrQPALPDKILTVIAARLDDKDRYVRGATITAlISQR------------------------------------------------------------------------
+>tr|A0A0B4FDK7|A0A0B4FDK7_9HYPO Nacht nucleoside triphosphatase (Fragment) OS=Metarhizium brunneum ARSEF 3297 GN=MBR_08636 PE=4 SV=1
+----------------------------------------------------------MTALLVLRHEPGpwrlgLQEELAKVAVDLLTNSEEDVRKR---AISC--SSQLVGlsEEVVQAVANLLEDPDTDIRQEAIQSLDFnkvTRTLPTTVFQRMTCLLEDHDQRTRQCAFNSLTSH------------------------------------------------------------------------
+>tr|A0A0P4UJ66|A0A0P4UJ66_ROSNE Putative peptidase c14 OS=Rosellinia necatrix GN=SAMD00023353_7000220 PE=4 SV=1
+----------------------------------------------------------KLALKVLENQPQLSGAALDTIVKRLSDDDQEVRLA---AVDALVNRPQLSgasldtigkllndggsgmlvgaarvlrkqpqlsDVILDAMAKQLSNSDRGVRRAVAEAFQGQPQPNDRVINAIAT---rLT-NEGDMETLESlLgaiepwprlgdnvlyavaklwaldsyvptavmdlaskifRSR------------------------------------------------------------------------
+>tr|W3WP46|W3WP46_9PEZI Uncharacterized protein OS=Pestalotiopsis fici W106-1 GN=PFICI_12518 PE=4 SV=1
+----------------------------------------------------------TYEIL---------------------------------------------tilhpsdgtyDSLFDVIMNGLKDPVPSVREAVARALNNWSSTEVRYLQIIIDHLQsvLFEKNAGEKYHGYlLralenfprptddaylvlsrtlaypwhhvcsaavatlQKW------------------------------------------------------------------------
+>tr|A0A0J0CCH7|A0A0J0CCH7_GIBFU Uncharacterized protein OS=Gibberella fujikuroi GN=LW93_10048 PE=4 SV=1
+----------------------------------------------------------NTALRVLRNQKALPKATVDGITRHLHDPHDNVRQE---AVEALGAHSPLPksvldaisdllndkdgsvrraaedvlkqpvlpKVLIDAIirriedtaesshqainsvlegktdiprmtvqilnqrlkdastdfseasliaimsqttlpesvinsiAREVDDLDPRIRRGILEAIKVQRDLPQGIIEAVIMQLRATDSSVLNAALDVLkmqskllpaaveaitellen---------------------------------------------------------------------------
+>tr|A0A098DTC5|A0A098DTC5_GIBZA Uncharacterized protein OS=Gibberella zeae GN=FGRRES_17134 PE=4 SV=1
+----------------------------------------------------------SSAAEAIGNQSILSDTTVAALMELFKDKDSSIRSS---AARAIGNQSILSdtivaalvelfkdkdsdiryyaaraigkqsilsDTTVAALVELFKDKDSDARYHAAEAIGNQSILSDTIVAALVELIKDKDSDARYHAAEAIgnq---------------------------------------------------------------------------
+>tr|W3WXT1|W3WXT1_9PEZI Uncharacterized protein OS=Pestalotiopsis fici W106-1 GN=PFICI_10004 PE=4 SV=1
+----------------------------------------------------------ETALDVLADQSVLSKAIVDAIAKKLADKNAYVRRA---AVRALGAQSPLPksihqtisglrtdednnvrravqdvlkqpvlpRVLIDAIiqrmedtaesshraiesiledqtnlpkmafdiitqrirvagteirqatikallsqpvlpkavikdmNEQLNGTDPDIRKTILKALMPRSKLPEETVVATTEQLEDPEFAIREAALRALrh--Q------------------------------------------------------------------------
+>tr|A0A0J0EQA7|A0A0J0EQA7_GIBFU Uncharacterized protein OS=Gibberella fujikuroi GN=LW94_2076 PE=4 SV=1
+----------------------------------------------------------------------------DKIAECLGDKDYSVRRE---AVKALGAHSPLPksvldtisgllndkdtvrwaaenvleqpvlpKVLIESIirriedtaesshqaitsvldgktdlpqmtvqilgqrlevastdfskatiialvsqgtlpktvinsiAREVYNPDPCIRRGILEAFKVQRELPQGIIEAVIMQLRATESAVRNAALDVLkmqsemlpaaveaitellknpdndmqkaaleafnhRCR------------------------------------------------------------------------
