@@ -1,0 +1,2140 @@
+Query         tr|Q8PTN9|Q8PTN9_METMA Conserved protein OS=Methanosarcina mazei (strain ATCC BAA-159 / DSM 3647 / Goe1 / Go1 / JCM 11833 / OCM 88) GN=MM_2674 PE=4 SV=1
+Match_columns 996
+No_of_seqs    983 out of 3328
+Neff          11.3402
+Searched_HMMs 3303
+Date          Tue Apr 26 16:59:43 2016
+Command       hhsearch -i Q8PTN9.a3m -d /usr/local/hh-suite/db/methanosarcina_mazei/mmazei -cpu 3 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 tr|Q8PTN9|Q8PTN9_METMA Conserv 100.0 8.1E-94 2.4E-97  884.0 111.5  996    1-996     1-996 (996)
+  2 tr|Q8Q0U7|Q8Q0U7_METMA Conserv 100.0 2.3E-74 7.1E-78  687.4  88.1  808    7-996     8-825 (885)
+  3 tr|Q8PVD7|Q8PVD7_METMA Unchara 100.0 5.2E-44 1.6E-47  435.0  78.4  401  566-975   295-698 (1001)
+  4 tr|Q8Q0U7|Q8Q0U7_METMA Conserv  99.9 1.3E-22   4E-26  236.4  71.5  523    7-665    44-575 (885)
+  5 tr|Q8PVD7|Q8PVD7_METMA Unchara  99.9 3.2E-22 9.7E-26  239.5  69.1  458   42-666    10-467 (1001)
+  6 tr|Q8PTN9|Q8PTN9_METMA Conserv  99.9 5.2E-20 1.6E-23  220.1  79.0  603   41-735     5-663 (996)
+  7 tr|Q8Q0U7|Q8Q0U7_METMA Conserv  99.9 1.1E-20 3.3E-24  219.7  69.8  236  495-737   294-539 (885)
+  8 tr|Q8PTN9|Q8PTN9_METMA Conserv  99.9 7.1E-20 2.1E-23  218.9  79.0  603    5-663    41-735 (996)
+  9 tr|Q8PZI8|Q8PZI8_METMA Phycocy  99.9 1.3E-21 3.8E-25  238.8  59.9  384  263-736   743-1127(1142)
+ 10 tr|Q8PZI8|Q8PZI8_METMA Phycocy  99.8 2.8E-18 8.3E-22  208.2  59.8  533   79-737   530-1066(1142)
+ 11 tr|Q8PVD7|Q8PVD7_METMA Unchara  99.7 4.1E-17 1.2E-20  193.7  59.5  426  262-738     6-431 (1001)
+ 12 tr|Q8Q0U7|Q8Q0U7_METMA Conserv  99.7 6.8E-18 2.1E-21  195.3  49.3  497    5-593    78-575 (885)
+ 13 tr|Q8PTN9|Q8PTN9_METMA Conserv  99.7 1.4E-15 4.1E-19  180.3  65.7  530  113-737     5-593 (996)
+ 14 tr|Q8PZI8|Q8PZI8_METMA Phycocy  99.7 1.7E-16 5.2E-20  191.8  53.9  537    5-703   590-1130(1142)
+ 15 tr|Q8PZI8|Q8PZI8_METMA Phycocy  99.6 1.2E-15 3.6E-19  184.1  51.9  401  239-737   569-972 (1142)
+ 16 tr|Q8PSI9|Q8PSI9_METMA Phycocy  99.6 5.7E-15 1.7E-18  157.6  51.0  176  536-737   261-436 (457)
+ 17 tr|Q8PVD7|Q8PVD7_METMA Unchara  99.6 1.6E-15 4.9E-19  179.4  45.5  388    6-401    46-469 (1001)
+ 18 tr|Q8PSI9|Q8PSI9_METMA Phycocy  99.6   2E-14   6E-18  153.2  49.8   82   10-101    12-93  (457)
+ 19 tr|Q8Q0W0|Q8Q0W0_METMA Conserv  99.6 6.6E-16   2E-19  157.7  35.9  165  573-737   165-334 (336)
+ 20 tr|Q8PXE4|Q8PXE4_METMA Unchara  99.6 6.9E-15 2.1E-18  159.7  45.6  337  263-738   145-499 (511)
+ 21 tr|Q8PXE4|Q8PXE4_METMA Unchara  99.6 1.4E-14 4.1E-18  157.3  45.8  119  264-397   209-328 (511)
+ 22 tr|Q8PZK2|Q8PZK2_METMA Phycocy  99.5 2.2E-13 6.7E-17  144.3  47.7  210  501-737   229-441 (452)
+ 23 tr|Q8Q0W0|Q8Q0W0_METMA Conserv  99.5 1.2E-14 3.6E-18  147.8  35.7  318   37-398    12-334 (336)
+ 24 tr|Q8Q0W0|Q8Q0W0_METMA Conserv  99.5 4.9E-14 1.5E-17  143.0  36.5   64  638-701   271-334 (336)
+ 25 tr|Q8PZK2|Q8PZK2_METMA Phycocy  99.4 1.7E-12 5.1E-16  137.2  48.9  120   38-175    37-156 (452)
+ 26 tr|Q8PSI9|Q8PSI9_METMA Phycocy  99.4 4.6E-13 1.4E-16  142.1  41.3  120  263-397    36-155 (457)
+ 27 tr|Q8Q0W0|Q8Q0W0_METMA Conserv  99.4 3.9E-13 1.2E-16  136.0  34.5  202  115-360    18-219 (336)
+ 28 tr|Q8PXE4|Q8PXE4_METMA Unchara  99.3 1.1E-12 3.4E-16  141.4  38.0  204  503-737   218-439 (511)
+ 29 tr|Q8PXE4|Q8PXE4_METMA Unchara  99.3 3.7E-12 1.1E-15  137.0  39.1  248    6-290    54-329 (511)
+ 30 tr|Q8PSI9|Q8PSI9_METMA Phycocy  99.3 1.9E-11 5.8E-15  128.8  43.2  305    5-397    38-342 (457)
+ 31 tr|Q8PZK2|Q8PZK2_METMA Phycocy  99.3 9.4E-12 2.9E-15  131.1  38.9  370  262-736    37-407 (452)
+ 32 tr|Q8PZK2|Q8PZK2_METMA Phycocy  99.2 6.9E-11 2.1E-14  124.0  41.0  305    5-397    40-344 (452)
+ 33 tr|Q8PZC8|Q8PZC8_METMA Unchara  75.1     7.5  0.0023   30.5  21.4   69  637-705   134-202 (239)
+ 34 tr|Q8PZC8|Q8PZC8_METMA Unchara  62.4      13  0.0038   28.9  12.5   19  611-629   180-198 (239)
+ 35 tr|Q8PS37|Q8PS37_METMA Unchara  24.4      72   0.022   24.5  10.1   45    5-49    123-167 (322)
+ 36 tr|Q8PS37|Q8PS37_METMA Unchara  22.9      77   0.023   24.3  10.0   47  493-539   121-167 (322)
+
+No 1
+>tr|Q8PTN9|Q8PTN9_METMA Conserved protein OS=Methanosarcina mazei (strain ATCC BAA-159 / DSM 3647 / Goe1 / Go1 / JCM 11833 / OCM 88) GN=MM_2674 PE=4 SV=1
+Probab=100.00  E-value=8.1e-94  Score=884.01  Aligned_cols=996  Identities=100%  Similarity=1.422  Sum_probs=837.5  Template_Neff=11.300
+
+Q ss_pred             CCCccchhhhccCCChHHHHHHHHHHHHHHhhCccHHHHHHHHHHhhcCCChhHHHHHHHHHHHhccCCchhhhhHHHHH
+Q tr|Q8PTN9|Q8PT    1 MSNQPGIHDKTFSQESDDRIKAAKQLGALFEVFPDRKQAFEDLLRLCSDRDSEVRVEAINSLTTVFPNVPEKELTWERFV   80 (996)
+Q Consensus         1 ~~~~~~l~~~l~~~~~~~r~~Al~~l~~~~~~~~~~~~~~~~L~~~l~~~~~~vR~~a~~~L~~l~~~~~~~~~~~~~l~   80 (996)
+                      |+|++.+.+.+.++++..|..|++.+..++...|.....++.+..++.++++.+|..|+.+++.+....+.....++.+.
+T Consensus         1 ~~~~~~l~~~l~~~~~~~r~~Al~~l~~~~~~~~~~~~~~~~L~~~l~~~~~~vR~~a~~~L~~l~~~~~~~~~~~~~l~   80 (996)
+T tr|Q8PTN9|Q8PT    1 MSNQPGIHDKTFSQESDDRIKAAKQLGALFEVFPDRKQAFEDLLRLCSDRDSEVRVEAINSLTTVFPNVPEKELTWERFV   80 (996)
+T ss_pred             CCCchhHHHHhcCCCHHHHHHHHHHHHHHHHhCcchHHHHHHHHHHhcCCCHHHHHHHHHHHHHhcccCchhHhhHHHHH
+Confidence            99999999999999999999999999999765554456788888899999999999999999999887666555677777
+
+
+Q ss_pred             HhhcCCChHHHHHHHHHHHHhccCCCchhHHHHHHHHHhcCCCcHHHHHHHHHHHHHHHhhcCCchHHHHHHHHHhhcCC
+Q tr|Q8PTN9|Q8PT   81 NLTAYPVEQVFAAAVSALITVFPLVPDKDRAWKDLIELINSKSSIEDVSRGIVSSLQNAISEYPDREHAWKDLLEMTASE  160 (996)
+Q Consensus        81 ~~l~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~l~~~l~~~~~~~~vr~~a~~~l~~~~~~~~~~~~~~~~L~~~l~d~  160 (996)
+                      ..+.+.+..+|..+..++..+....+.....++.+...+.+.+....+|..++.++..++...+.....++.+...+.++
+T Consensus        81 ~~l~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~l~~~l~~~~~~~~vr~~a~~~l~~~~~~~~~~~~~~~~L~~~l~d~  160 (996)
+T tr|Q8PTN9|Q8PT   81 NLTAYPVEQVFAAAVSALITVFPLVPDKDRAWKDLIELINSKSSIEDVSRGIVSSLQNAISEYPDREHAWKDLLEMTASE  160 (996)
+T ss_pred             HHhcCCCHHHHHHHHHHHHHHhccCCchhHHHHHHHHHHcCCCchHHHHHHHHHHHHHHHhhCCChhHHHHHHHHHhcCC
+Confidence            88888888899999999988887655555667777777776543237889999888877766554456777888888899
+
+
+Q ss_pred             CHHHHHHHHHHHHhhhcCCCcchhhHHHHHHHHHhcCCCChHHHHHHHHHHHHHhhcCCcccccchHHHHHHhhcCCCch
+Q tr|Q8PTN9|Q8PT  161 DPYARKKAASLLSTVFPGLPEGKKTKAWKDLLGLAGEKGDSQVSEQASKAIREVFPFLPDEKKDEGWEEMLELAGGSADH  240 (996)
+Q Consensus       161 ~~~vr~~a~~~L~~~~~~~~~~~~~~~~~~ll~~l~~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~~~l~~~l~~~~~~  240 (996)
+                      +..+|..+..+++.+....+.......+..++..+..+.++.+|..++..+..+....+.......|..++..+....+.
+T Consensus       161 ~~~vr~~a~~~L~~~~~~~~~~~~~~~~~~ll~~l~~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~~~l~~~l~~~~~~  240 (996)
+T tr|Q8PTN9|Q8PT  161 DPYARKKAASLLSTVFPGLPEGKKTKAWKDLLGLAGEKGDSQVSEQASKAIREVFPFLPDEKKDEGWEEMLELAGGSADH  240 (996)
+T ss_pred             CHHHHHHHHHHHHHHcccCCcchhhHHHHHHHHHHccCCCHHHHHHHHHHHHHHHHhCCHhhhhhcHHHHHHHhcCCCCH
+Confidence            99999999999999987766543444566666666666678899999999988877655444445566666666666677
+
+
+Q ss_pred             hHHhhHhhhhhhhhcCCCcccchHHHHHHhhcCCcHHHHHHHHHHHHHHhccCCChHHHHHHHHHHhhcCChHHHHHHHH
+Q tr|Q8PTN9|Q8PT  241 VARMKILPFLPSVFSSVPDKNKAWDTIFRFTGDERETVRKQAMDALVSISTEMSDKSRVWSDFIKLTEAQDEYVRDRAVD  320 (996)
+Q Consensus       241 ~~~~~a~~~l~~~~~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~L~~~~~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~  320 (996)
+                      .++..++..+..++...+.....++.+...+.+.++.+|..++.+++.+....+.....++.+...+.+.+..+|..++.
+T Consensus       241 ~~~~~a~~~l~~~~~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~L~~~~~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~  320 (996)
+T tr|Q8PTN9|Q8PT  241 VARMKILPFLPSVFSSVPDKNKAWDTIFRFTGDERETVRKQAMDALVSISTEMSDKSRVWSDFIKLTEAQDEYVRDRAVD  320 (996)
+T ss_pred             HHHHHHHHHHHHHhcCCCchhhHHHHHHHHhcCCCHHHHHHHHHHHHHHHhcCCChhhHHHHHHHHhhcCCHHHHHHHHH
+Confidence            77888888888777666666677888888888888999999999999987654433345666777778888899999999
+
+
+Q ss_pred             HHHHHhhccChHHHHHHHHHHhhCCCChHHHHHHHHHHHHHhccCCchhHHHHHHHHHhcCCCHHHHHHHHHHHhhhccc
+Q tr|Q8PTN9|Q8PT  321 ALSSVYQCLENKDAAWKELIELTGSEEENIRTTAARALNRIFPYVSDKSQAYSDIIDLAEKEDNYMLREVARNLSSIHPQ  400 (996)
+Q Consensus       321 ~L~~~~~~~~~~~~~l~~l~~~l~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~L~~l~~~  400 (996)
+                      +++.++...+.....+..+...+.+.++.+|..++.+++.++...+.....++.+...+.+.++.+|..++.+++.+...
+T Consensus       321 ~L~~~~~~~~~~~~~l~~l~~~l~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~L~~l~~~  400 (996)
+T tr|Q8PTN9|Q8PT  321 ALSSVYQCLENKDAAWKELIELTGSEEENIRTTAARALNRIFPYVSDKSQAYSDIIDLAEKEDNYMLREVARNLSSIHPQ  400 (996)
+T ss_pred             HHHHHHhccCCHHHHHHHHHHHhCCCCHHHHHHHHHHHHHHcccCCchHHHHHHHHHHhhcCCHHHHHHHHHHHHHhcHh
+Confidence            99988665544445666677777778899999999999999887665556667777778888899999999999999776
+
+
+Q ss_pred             cccCCCCchhhhhhcccccccccCCCccccccCCCCCcchhhhhhhhhhhccccCCCCCCCccccchhhccccccccccc
+Q tr|Q8PTN9|Q8PT  401 FYGEYGTDEMRAEIGEINESGRQNGKKEDKFSGFSGPASEKAAFLRRDTATFRGSAPGQHDMGKNREIAEGREMRDEDKA  480 (996)
+Q Consensus       401 ~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~  480 (996)
+                      .+....+..++..+....++++.+++++.++..+.....++++.++..+..+++....+...+.+...+++|.++.+...
+T Consensus       401 ~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~  480 (996)
+T tr|Q8PTN9|Q8PT  401 FYGEYGTDEMRAEIGEINESGRQNGKKEDKFSGFSGPASEKAAFLRRDTATFRGSAPGQHDMGKNREIAEGREMRDEDKA  480 (996)
+T ss_pred             hcCCcCchHHHHhHhhhcccccccCccccccccCCCChhHHhHHhhccccccccCCCCcccccccccccccccccccchh
+Confidence            55444445555555555566666667788888888888888899999999999888777766666655556666665555
+
+
+Q ss_pred             cccccccccccchhHHHHHhccCchHHHHhhhhhHHhhhcCCCchhHHHHHHHHHhhCCCCHHHHHHHHHHHHHHHhhcc
+Q tr|Q8PTN9|Q8PT  481 ENGQLKGKESKKSAYDFLRLKGEREKYARKDSAGPFSETYSGIPEKKEIIEELLRLSSDPDPQIRRGAIETLLVRYSREA  560 (996)
+Q Consensus       481 ~~~~~~~~~~~~~~~~ll~~l~~~~~~vr~~a~~~L~~~~~~~~~~~~~~~~L~~~l~~~~~~vr~~a~~~L~~~~~~~~  560 (996)
+                      ..+.+.++.....+..++..+.++++.+|..++.++...+...+....+++.+..++.+.++.+|..++.+|..++...+
+T Consensus       481 ~~~~~~~~~~~~~~~~ll~~l~~~~~~vr~~a~~~L~~~~~~~~~~~~~~~~L~~~l~~~~~~vr~~a~~~L~~~~~~~~  560 (996)
+T tr|Q8PTN9|Q8PT  481 ENGQLKGKESKKSAYDFLRLKGEREKYARKDSAGPFSETYSGIPEKKEIIEELLRLSSDPDPQIRRGAIETLLVRYSREA  560 (996)
+T ss_pred             hhccccCccchhhHHHHHHHhcCccHHHHHHHHHHHHHHhcCCchHHHHHHHHHHHcCCCCHHHHHHHHHHHHHHHhcCc
+Confidence            55556666667777888888888999999999999997776655556678888899999999999999999998877654
+
+
+Q ss_pred             chHHHHHHHHHHhcCCCChHHHHHHHHHHHHhhhcCchhhhHHHHHHHHhcCCCHHHHHHHHHHHHHHHhcCCchHHHHH
+Q tr|Q8PTN9|Q8PT  561 GKAQDIWNELLRISEDEDTGVRKDAAELLSHVFPAVEEKSGVFFDIIRLVESRDTQLRRRAAELLPAAFAHSGNKQRAWN  640 (996)
+Q Consensus       561 ~~~~~~~~~L~~~l~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~L~~~l~~~~~~vr~~a~~~L~~~~~~~~~~~~~~~  640 (996)
+                      .....+++.+...+.+.++.+|..++.+++.++...++...++..+...+.+..+.+|..++.+++.++...+....+++
+T Consensus       561 ~~~~~~~~~L~~~l~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~L~~~l~~~~~~vr~~a~~~L~~~~~~~~~~~~~~~  640 (996)
+T tr|Q8PTN9|Q8PT  561 GKAQDIWNELLRISEDEDTGVRKDAAELLSHVFPAVEEKSGVFFDIIRLVESRDTQLRRRAAELLPAAFAHSGNKQRAWN  640 (996)
+T ss_pred             hhHHHHHHHHHHHhcCCCHHHHHHHHHHHHHHhhhCcchhhHHHHHHHHhcCCCHHHHHHHHHHHHHHHHhCCchHHHHH
+Confidence            44456777888888889999999999999999877666666788888889999999999999999988766554577889
+
+
+Q ss_pred             HHHHHhCCCChhHHHHHHHHHHHhCCCCCchhhHHHHHHHhcCCCChHHHHHHHHHHHHhhccCCCHHHHHHHHHHHhcC
+Q tr|Q8PTN9|Q8PT  641 DLVKLTSDEDREVRKGAVLALSSGYPGVPDKGKVWSDLIMLSSHNDSFVQREATRALGPAFFYVPDKTMAWRDLQVLVDN  720 (996)
+Q Consensus       641 ~L~~~l~d~~~~vr~~a~~~L~~~~~~~~~~~~i~~~L~~~l~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~l~~~l~d  720 (996)
+                      .+..++.++++.+|..++.+|+......+....+++.+...+.+.++.+|..++.+|+.++...+....+++.+..+++|
+T Consensus       641 ~L~~~l~d~~~~vr~~a~~~L~~~~~~~~~~~~i~~~L~~~l~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~l~~~l~d  720 (996)
+T tr|Q8PTN9|Q8PT  641 DLVKLTSDEDREVRKGAVLALSSGYPGVPDKGKVWSDLIMLSSHNDSFVQREATRALGPAFFYVPDKTMAWRDLQVLVDN  720 (996)
+T ss_pred             HHHHHhcCCCHHHHHHHHHHHHHcCCCCcchHHHHHHHHHHcCCCCHHHHHHHHHHHHHHHhcCCCHHHHHHHHHHHHcC
+Confidence            99999999999999999999998666555556788888899999999999999999999988766666788899999999
+
+
+Q ss_pred             CChHHHHHHHHHHHHHHHHHHhhhhHHHHHhhchHHHHHHHHHHHHhhhccCCcccchhhHHHHHHHHhcCccchhhHHH
+Q tr|Q8PTN9|Q8PT  721 PYVYVRRYALRSLGRASLWRAMKAENEAAYLFGLKEAVKYFKEASEASVGTAIPEFYHPFYESLLQIFFAERSSALESER  800 (996)
+Q Consensus       721 ~~~~vr~~a~~~l~~l~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~p~~~~l~~~~~~~~~~~~~~~~  800 (996)
+                      .++.||..+..+++.++.|+++...++..|..|++.+...+.+.+++..+..+++++.||++.++++.|.++++|.++.+
+T Consensus       721 ~~~~vr~~a~~~l~~l~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~p~~~~l~~~~~~~~~~~~~~~~  800 (996)
+T tr|Q8PTN9|Q8PT  721 PYVYVRRYALRSLGRASLWRAMKAENEAAYLFGLKEAVKYFKEASEASVGTAIPEFYHPFYESLLQIFFAERSSALESER  800 (996)
+T ss_pred             CCHHHHHHHHHHHHHHHHHHHhchhHHHHHHhCHHHHHHHHHHHHHHhhccCCccccHHHHHHHHHHHhCCchhHHHHHH
+Confidence            99999999999999999999888877888999999999999998887656789999999999999999999999999999
+
+
+Q ss_pred             HHHHhhccccchhhhHHHHHHHHHHHHHHHHhccCCCCChHHHHHHHHHHHHHHHHHHHHhhhhhcchhhHHHHHhhhcc
+Q tr|Q8PTN9|Q8PT  801 YLSAVTGETGYLAENRKLQGVLEEFAGLLRTAGDLAPGDLSARKEFLENSTGAFDRASSIFDAVEEDAILSKKVVKKERQ  880 (996)
+Q Consensus       801 ~~~~~~~~~~~~~~~~~~~~~~~~l~~~l~~~~~~~~~~~~~~~~~l~~~~~~~~~~a~~l~~~e~~~~~~~~~~~~~~~  880 (996)
+                      |+.++++.++++..++++.+++++|+|+|++++++++++++.+++.|+.|+.+|+++|+||+++|+.+|++++++|||+|
+T Consensus       801 ~~~~~~~~~~~~~~~~~~~~~~~~l~~~l~~~~~~~~~~~~~~~~~l~~~~~~~~~~a~~l~~~e~~~~~~~~~~~~~~~  880 (996)
+T tr|Q8PTN9|Q8PT  801 YLSAVTGETGYLAENRKLQGVLEEFAGLLRTAGDLAPGDLSARKEFLENSTGAFDRASSIFDAVEEDAILSKKVVKKERQ  880 (996)
+T ss_pred             HHHHHHhhhcchHHHHHHHHHHHHHHHHHHHHhccCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHhHchHHHHHHHHhhh
+Confidence            99999998888889999999999999999999985557777778999999999999999999999999999999999999
+
+
+Q ss_pred             ccCchhhhhhHHHHHHHHHHHHHHHhhhcCCCchhhhHHhhhhhhhcccccCccchHHHHHHHHHHHHHHHHhhCCCCCC
+Q tr|Q8PTN9|Q8PT  881 KFGKVVQEQKLKETLSGIRYRAKTACLKSKGTPAEKITCSISQRVRTWNFQDSERDKNELSRQLESFLNVLEAQVPYVPE  960 (996)
+Q Consensus       881 ~~g~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  960 (996)
+                      +||+||+||++|++|+|||+|||+||++|+|||+|||||+||+|||+||+|+||++||||++++|+++++||++||++||
+T Consensus       881 ~~g~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  960 (996)
+T tr|Q8PTN9|Q8PT  881 KFGKVVQEQKLKETLSGIRYRAKTACLKSKGTPAEKITCSISQRVRTWNFQDSERDKNELSRQLESFLNVLEAQVPYVPE  960 (996)
+T ss_pred             ccCchHHHHHHHHHHHHHHHHHHHHHHHcCCCCcHHHHHHHHHHHhhcccCCccccHHHHHHHHHHHHHHHHHhCCCCCc
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             chhHHHHHHhhhhhHHHHHHHHHHHHHHhhcCCCCC
+Q tr|Q8PTN9|Q8PT  961 NRNIFEKLEDIRQEQDLLERCRKVSRLISLIPGARV  996 (996)
+Q Consensus       961 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  996 (996)
+                      |++||+|||+||+|+|++|||+.++++|++||+++|
+T Consensus       961 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  996 (996)
+T tr|Q8PTN9|Q8PT  961 NRNIFEKLEDIRQEQDLLERCRKVSRLISLIPGARV  996 (996)
+T ss_pred             chHHHHHHHHHHHhHHHHHHHHHHHHHHHhccCCCC
+Confidence            999999999999999999999999999999999986
+
+
+No 2
+>tr|Q8Q0U7|Q8Q0U7_METMA Conserved protein OS=Methanosarcina mazei (strain ATCC BAA-159 / DSM 3647 / Goe1 / Go1 / JCM 11833 / OCM 88) GN=MM_0035 PE=4 SV=1
+Probab=100.00  E-value=2.3e-74  Score=687.43  Aligned_cols=808  Identities=26%  Similarity=0.436  Sum_probs=542.7  Template_Neff=9.500
+
+Q ss_pred             hhhhccCCChHHHHHHHHHHHHHHhhCccHHHHHHHHHHhhcCCChhHHHHHHHHHHHhccCCchhhhhHHHHHHhhcCC
+Q tr|Q8PTN9|Q8PT    7 IHDKTFSQESDDRIKAAKQLGALFEVFPDRKQAFEDLLRLCSDRDSEVRVEAINSLTTVFPNVPEKELTWERFVNLTAYP   86 (996)
+Q Consensus         7 l~~~l~~~~~~~r~~Al~~l~~~~~~~~~~~~~~~~L~~~l~~~~~~vR~~a~~~L~~l~~~~~~~~~~~~~l~~~l~~~   86 (996)
+                      +...+.++++.+|..|+..+..++...|.....+..+..++.++++.||..|+.+++.+....+...             
+T Consensus         8 Ll~l~~d~d~~vR~~A~~~L~~~~~~~~~~~~~~~~L~~ll~d~~~~VR~~A~~~L~~i~~~~~~~~-------------   74 (885)
+T tr|Q8Q0U7|Q8Q0    8 LHKVSTDNSSDVKKFAAITIKYYFFYIHNQDQLWTDLVRLASDENSNVRNNAIIAIDSIYSIVKNKD-------------   74 (885)
+T ss_pred             HHHHhcCCCHHHHHHHHHHHHHHHhcCccchhHHHHHHHHHcCCCHHHHHHHHHHHHHHHHhcCchh-------------
+Confidence            4444445555555555555555544333222334444444555555555555555555443333222             
+
+
+Q ss_pred             ChHHHHHHHHHHHHhccCCCchhHHHHHHHHHhcCCCcHHHHHHHHHHHHHHHhhcCCchHHHHHHHHHhhcCCCHHHHH
+Q tr|Q8PTN9|Q8PT   87 VEQVFAAAVSALITVFPLVPDKDRAWKDLIELINSKSSIEDVSRGIVSSLQNAISEYPDREHAWKDLLEMTASEDPYARK  166 (996)
+Q Consensus        87 ~~~vr~~a~~~L~~l~~~~~~~~~~~~~l~~~l~~~~~~~~vr~~a~~~l~~~~~~~~~~~~~~~~L~~~l~d~~~~vr~  166 (996)
+                                             ..++.+...+.+++.  .+|..++.++..++...+.....++.+...+.+++..+|.
+T Consensus        75 -----------------------~~~~~Ll~ll~d~~~--~vR~~a~~~L~~l~~~~~~~~~~~~~Ll~~l~~~d~~vR~  129 (885)
+T tr|Q8Q0U7|Q8Q0   75 -----------------------RVWSDLVVLSRSNYA--NVREVTTKILVSVFPQVSSKDEAWKDLGKLALEDDYETKQ  129 (885)
+T ss_pred             -----------------------hHHHHHHHHhcCCCH--HHHHHHHHHHHHHhhcCCChhHHHHHHHHHhcCCCHHHHH
+Confidence                                   223333333333333  5555555555544433222233455555555666666676
+
+
+Q ss_pred             HHHHHHHhhhcCCCcchhhHHHHHHHHHhcCCCChHHHHHHHHHHHHHhhcCCcccccchHHHHHHhhcCCCchhHHhhH
+Q tr|Q8PTN9|Q8PT  167 KAASLLSTVFPGLPEGKKTKAWKDLLGLAGEKGDSQVSEQASKAIREVFPFLPDEKKDEGWEEMLELAGGSADHVARMKI  246 (996)
+Q Consensus       167 ~a~~~L~~~~~~~~~~~~~~~~~~ll~~l~~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~~~l~~~l~~~~~~~~~~~a  246 (996)
+                      .++.+++.+....+.  ....+..+...+ .+.+..+|..++.++..+....+                           
+T Consensus       130 ~a~~~L~~l~~~~~~--~~~~~~~L~~ll-~d~~~~vr~~Al~aL~~l~~~~~---------------------------  179 (885)
+T tr|Q8Q0U7|Q8Q0  130 VAAKVIGSVFPYIPE--KNEAWERLRNLT-IDEDVNVIRSAVNAFQFVFPYSP---------------------------  179 (885)
+T ss_pred             HHHHHHHHHcccCch--hhHHHHHHHHHc-cCCCHHHHHHHHHHHHHHhhhCC---------------------------
+Confidence            666666666543332  111222222222 23344555555554444332211                           
+
+
+Q ss_pred             hhhhhhhhcCCCcccchHHHHHHhhcCCcHHHHHHHHHHHHHHhccCCChHHHHHHHHHHhhcCChHHHHHHHHHHHHHh
+Q tr|Q8PTN9|Q8PT  247 LPFLPSVFSSVPDKNKAWDTIFRFTGDERETVRKQAMDALVSISTEMSDKSRVWSDFIKLTEAQDEYVRDRAVDALSSVY  326 (996)
+Q Consensus       247 ~~~l~~~~~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~L~~~~~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~L~~~~  326 (996)
+                                  .....++.+..++.+.++.+|..++.+++.+....+.....+..+...+.+.+..+|..++.+++.++
+T Consensus       180 ------------~~~~~~~~L~~ll~d~d~~Vr~~a~~~L~~l~~~~~~~~~~~~~L~~ll~~~~~~vr~~a~~~L~~l~  247 (885)
+T tr|Q8Q0U7|Q8Q0  180 ------------NKTETWKELHCLVYNDDNEVRQITAKVIGSVFQHIPEKKEALEDLHKLTLDDDVNVKRSAAAALGSIF  247 (885)
+T ss_pred             ------------ChHHHHHHHHHHhcCCCHHHHHHHHHHHHHHhccChhHHHHHHHHHHHccCCCHHHHHHHHHHHHHHh
+Confidence                        11122333444445556667777766666655443322234444555555555666777777666664
+
+
+Q ss_pred             hccChHHHHHHHHHHhhCCCChHHHHHHHHHHHHHhccCCchhHHHHHHHHHhcCCCHHHHHHHHHHHhhhccccccCCC
+Q tr|Q8PTN9|Q8PT  327 QCLENKDAAWKELIELTGSEEENIRTTAARALNRIFPYVSDKSQAYSDIIDLAEKEDNYMLREVARNLSSIHPQFYGEYG  406 (996)
+Q Consensus       327 ~~~~~~~~~l~~l~~~l~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~L~~l~~~~~~~~~  406 (996)
+                      ...+.....+..+...+.+.++.+|..++.+++.+....+.....+..+...+.+.+..++..+..++..+.....    
+T Consensus       248 ~~~~~~~~~~~~L~~ll~d~~~~VR~~A~~~L~~l~~~~~~~~~~~~~l~~~l~~~~~~~~~~a~~~L~~~~~~~~----  323 (885)
+T tr|Q8Q0U7|Q8Q0  248 PYASEQEKIWTDLMKLISYNDTIVESNAKHSFESTLDYLVEKEGLFKNSQQNLYGENDDENECNGSSLTTVLLDVL----  323 (885)
+T ss_pred             hhcchHHHHHHHHHHHHcCCCHHHHHHHHHHHHHHHHHHHhhhcHHHHHHHHhcCCCchHHHHHHHHHHHHHcccC----
+Confidence            4333223344555555556666777777777766655333222222323333333333344444444433322100    
+
+
+Q ss_pred             CchhhhhhcccccccccCCCccccccCCCCCcchhhhhhhhhhhccccCCCCCCCccccchhhccccccccccccccccc
+Q tr|Q8PTN9|Q8PT  407 TDEMRAEIGEINESGRQNGKKEDKFSGFSGPASEKAAFLRRDTATFRGSAPGQHDMGKNREIAEGREMRDEDKAENGQLK  486 (996)
+Q Consensus       407 ~~~~~~~l~~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  486 (996)
+                                                                                                      
+T Consensus       324 --------------------------------------------------------------------------------  323 (885)
+T tr|Q8Q0U7|Q8Q0  324 --------------------------------------------------------------------------------  323 (885)
+T ss_pred             --------------------------------------------------------------------------------
+Confidence                                                                                            
+
+
+Q ss_pred             cccccchhHHHHHhccCchHHHHhhhhhHHhhhcCCCchhHHHHHHHHHhhCCCCHHHHHHHHHHHHHHHhhccchHHHH
+Q tr|Q8PTN9|Q8PT  487 GKESKKSAYDFLRLKGEREKYARKDSAGPFSETYSGIPEKKEIIEELLRLSSDPDPQIRRGAIETLLVRYSREAGKAQDI  566 (996)
+Q Consensus       487 ~~~~~~~~~~ll~~l~~~~~~vr~~a~~~L~~~~~~~~~~~~~~~~L~~~l~~~~~~vr~~a~~~L~~~~~~~~~~~~~~  566 (996)
+                        .....+..+...+.+.++.+|..++.+|...+...+.....+..+...+.+.      .+...+...+...+. ....
+T Consensus       324 --~~~~~~~~L~~ll~d~d~~vr~~A~~aL~~l~~~~~~~~~~~~~l~~l~~~~------~~~~~L~~~~~~l~~-~~~~  394 (885)
+T tr|Q8Q0U7|Q8Q0  324 --NKEDSWNNLTSIIHHKSSESWKTAMKVITYIFPVITNKMQTWNDLYKCVQIG------KEVNYLLSVFAYVPD-KEKA  394 (885)
+T ss_pred             --ChhhhHHHHHHHHhcCCHHHHHHHHHHHHHHHHhcccchhhHHHHHHHhhch------hHHHHHHHHhhcCCC-HHHH
+Confidence              0011222333445556666777777777655443332222223333332221      111222221111111 1234
+
+
+Q ss_pred             HHHHHHhcCCCChHHHHHH-HHHHHHhhhcCchhhhHHHHHHHHhcCCCHHHHHHHHHHHHHHHhcCCc---------hH
+Q tr|Q8PTN9|Q8PT  567 WNELLRISEDEDTGVRKDA-AELLSHVFPAVEEKSGVFFDIIRLVESRDTQLRRRAAELLPAAFAHSGN---------KQ  636 (996)
+Q Consensus       567 ~~~L~~~l~~~~~~vr~~a-~~~L~~l~~~~~~~~~~~~~L~~~l~~~~~~vr~~a~~~L~~~~~~~~~---------~~  636 (996)
+                      ++.+...+.+.++.+|..+ +.+++......+....++..+...+.+.++.+|..|+.+|+.++...+.         ..
+T Consensus       395 ~~~L~~ll~d~~~~vR~~a~l~~L~~~~~~l~~~~~~l~~L~~~l~d~d~~VR~~A~~aLg~l~~~~~~~~~~~~~~~~~  474 (885)
+T tr|Q8Q0U7|Q8Q0  395 LEDLVKLNSEMETERKWGSLIVSTIEEFINKLDKEQVYKSLQKLLLSENTYVKKTTISVLVSLFPSLPDKDHLNSFCDKE  474 (885)
+T ss_pred             HHHHHHHhcCCcHHHHHHHHHHHHHHHHhccCCHHHHHHHHHHHhcCCCHHHHHHHHHHHHHhccCCCCccccCCcccHH
+Confidence            5556666677778888877 5555544433333335566677778888999999999999987655443         24
+
+
+Q ss_pred             HHHHHHHHHhCCCChhHHHHHHHHHHHhCCCCCchhhHHHHHHHhcCCCChHHHHHHHHHHHHhhccCCCHHHHHHHHHH
+Q tr|Q8PTN9|Q8PT  637 RAWNDLVKLTSDEDREVRKGAVLALSSGYPGVPDKGKVWSDLIMLSSHNDSFVQREATRALGPAFFYVPDKTMAWRDLQV  716 (996)
+Q Consensus       637 ~~~~~L~~~l~d~~~~vr~~a~~~L~~~~~~~~~~~~i~~~L~~~l~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~l~~  716 (996)
+                      .+++.+..++.++++.||..++.+|+......+....+++.+...+.+.+..||..++.+|+.++...+....+++.+..
+T Consensus       475 ~~~~~Ll~ll~d~~~~VR~~A~~AL~~~~~~~~~~~~~~~~L~~ll~~~~~~VR~~A~~aLg~~~~~~~~~~~~l~~L~~  554 (885)
+T tr|Q8Q0U7|Q8Q0  475 QAWEDLLALTSEREEVLKRHAATALGLVFLHVPNKSRAWKDLHKLISNMHFNVRRGIASSIGSAFPYVPNKTQAWEDLVQ  554 (885)
+T ss_pred             HHHHHHHHHccCcCHHHHHHHHHHHHHHHhcCCchhHHHHHHHHHhcCCCHHHHHHHHHHHHHhhhcCCCcchHHHHHHH
+Confidence            67788888999999999999999999876654443467778888888889999999999999988776665667888888
+
+
+Q ss_pred             HhcCCChHHHHHHHHHHHHHHHHHHhhhhHHHHHhhchHHHHHHHHHHHHhhhccCCcccchhhHHHHHHHHhcCccchh
+Q tr|Q8PTN9|Q8PT  717 LVDNPYVYVRRYALRSLGRASLWRAMKAENEAAYLFGLKEAVKYFKEASEASVGTAIPEFYHPFYESLLQIFFAERSSAL  796 (996)
+Q Consensus       717 ~l~d~~~~vr~~a~~~l~~l~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~p~~~~l~~~~~~~~~~~~  796 (996)
+                      ++.|++..||..|+.+++++..+.+....+++.+...++.+...+.+....+...++.+++.|||.+++.+++..+.++.
+T Consensus       555 l~~d~~~~vR~~A~~aLg~i~~~~a~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~~~~~~~~k~  634 (885)
+T tr|Q8Q0U7|Q8Q0  555 LTSDEKNYVRVSAYHSMGRISIFKASQSESEDEYRTEVEKAIDFFDKASKELTYHPPSKFCLPFYRSFYAIVFEKYETEE  634 (885)
+T ss_pred             HhcCCCHHHHHHHHHHHHHHHHHhhhcCCCHHHHHHHHHHHHHHHHHHhhhhcCCCchHhhHHHHHHHHHHHhchhhHHH
+Confidence            88889999999999999999988877777777788888888888887666543457888999999999999998888999
+
+
+Q ss_pred             hHHHHHHHhhccccchhhhHHHHHHHHHHHHHHHHhccCCCCChHHHHHHHHHHHHHHHHHHHHhhhhhcchhhHHHHHh
+Q tr|Q8PTN9|Q8PT  797 ESERYLSAVTGETGYLAENRKLQGVLEEFAGLLRTAGDLAPGDLSARKEFLENSTGAFDRASSIFDAVEEDAILSKKVVK  876 (996)
+Q Consensus       797 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~l~~~~~~~~~~~~~~~~~l~~~~~~~~~~a~~l~~~e~~~~~~~~~~~  876 (996)
+                      .+..|+..+...++++..+..+.+++.+|+++|+..++++++|++.+++.|+.|.+|||+++++|+.+|+.+|++++++|
+T Consensus       635 ~~~~yl~~~~~~~~~~~~~~~l~~~~~~l~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  714 (885)
+T tr|Q8Q0U7|Q8Q0  635 EVEKYLQEAKAEIEESKNKKVLFEVIKYLSIFLKEFQNIESIDLEAKKKKLSLCRKYCEQAAELMNETEITAPFATATIK  714 (885)
+T ss_pred             HHHHHHHHHHHHHHhcchHHHHHHHHHHHHHHHHHHHcccCCCHHHHHHHHHHHHHHHHHHHHHHHhccccCCchHHHHh
+Confidence            99999999999888888888999999999999999999888899999999999999999999999999999999999999
+
+
+Q ss_pred             hhccccCchhhhhhHHHHHHHHHHHHHHHhhhcCCCchhhhHHhhhhhhhcccccCccchHHHHHHHHHHHHHHHHhhCC
+Q tr|Q8PTN9|Q8PT  877 KERQKFGKVVQEQKLKETLSGIRYRAKTACLKSKGTPAEKITCSISQRVRTWNFQDSERDKNELSRQLESFLNVLEAQVP  956 (996)
+Q Consensus       877 ~~~~~~g~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  956 (996)
+                      |     |+|++||++|+++||||+|||+||++|+|||+|||||+||+|||||++|+|    |||++++|++++.||++||
+T Consensus       715 ~-----~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~----~~~~~~~~~~~~~~~~~~~  785 (885)
+T tr|Q8Q0U7|Q8Q0  715 K-----GFPILNRKLEGLLEEIQEKAKTACRESQGTDTKEIACAVSREVQKWEISSQ----EEMTEHVKTLIFSLESVIP  785 (885)
+T ss_pred             c-----cccHHHHHHHHHHHHHHHHHHHHHHhcCCCcHHHHHHHHHHHHHhcCCCCH----HHHHHHHHHHHHHHHhcCC
+Confidence            9     999999999999999999999999999999999999999999999999999    6999999999999999999
+
+
+Q ss_pred             CCCCchhHHHHHHhhhhhHHHHHHHHHHHHHHhhcCCCCC
+Q tr|Q8PTN9|Q8PT  957 YVPENRNIFEKLEDIRQEQDLLERCRKVSRLISLIPGARV  996 (996)
+Q Consensus       957 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  996 (996)
+                      ++|||++||+||++||+|+|++|||+.++++|++||+++|
+T Consensus       786 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  825 (885)
+T tr|Q8Q0U7|Q8Q0  786 NNENNKKIYEKIEAIGNEKDLIKQYEILSLIIALIPKAQV  825 (885)
+T ss_pred             CCcccHHHHHHHHHHhccCCHHHHHHHHHHHHHhcCcccc
+Confidence            9999999999999999999999999999999999999875
+
+
+No 3
+>tr|Q8PVD7|Q8PVD7_METMA Uncharacterized protein OS=Methanosarcina mazei (strain ATCC BAA-159 / DSM 3647 / Goe1 / Go1 / JCM 11833 / OCM 88) GN=MM_2028 PE=4 SV=1
+Probab=100.00  E-value=5.2e-44  Score=435.00  Aligned_cols=401  Identities=29%  Similarity=0.491  Sum_probs=321.5  Template_Neff=10.900
+
+Q ss_pred             HHHHHHHhcCCCChHHHHHHHHHHHHhhhcCchhhhHHHHHHHHhcCCCHHHHHHHHHHHHHHHhcCCchHHHHHHHHHH
+Q tr|Q8PTN9|Q8PT  566 IWNELLRISEDEDTGVRKDAAELLSHVFPAVEEKSGVFFDIIRLVESRDTQLRRRAAELLPAAFAHSGNKQRAWNDLVKL  645 (996)
+Q Consensus       566 ~~~~L~~~l~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~L~~~l~~~~~~vr~~a~~~L~~~~~~~~~~~~~~~~L~~~  645 (996)
+                      .++.+...+.+.++.+|..++.+++.+.........+++.+...+.+.++.+|..++.+++.+....+....+++.+...
+T Consensus       295 ~~~~L~~~l~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~L~~~  374 (1001)
+T tr|Q8PVD7|Q8PV  295 AWNELHRLTNDENGSVRFSAVTAFDLAYPYILNKQQAWDDLIKRTHDKDIIVKSNAADALVSVYPHVPDKQQAWNNLLRL  374 (1001)
+T ss_pred             HHHHHHHHhcCCCHHHHHHHHHHHHHHhhhccchhhHHHHHHHHhcCCCHHHHHHHHHHHHHHcccCCCHHHHHHHHHHH
+Confidence            33444444555555666666666655443322223445555666666777777777777777655443335667778888
+
+
+Q ss_pred             hCCCChhHHHHHHHHHHHhCCCCCchhhHHHHHHHhcCCCChHHHHHHHHHHHHhhccCCCHHHHHHHHHHHhcCCChHH
+Q tr|Q8PTN9|Q8PT  646 TSDEDREVRKGAVLALSSGYPGVPDKGKVWSDLIMLSSHNDSFVQREATRALGPAFFYVPDKTMAWRDLQVLVDNPYVYV  725 (996)
+Q Consensus       646 l~d~~~~vr~~a~~~L~~~~~~~~~~~~i~~~L~~~l~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~l~~~l~d~~~~v  725 (996)
+                      +.++++.+|..++.+|+.+....+....+++.+...+.+.++.+|..++.+|+.+....+....+++.+..++.|+++.|
+T Consensus       375 l~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~L~~~l~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~L~~~l~d~~~~v  454 (1001)
+T tr|Q8PVD7|Q8PV  375 IYDKNSYVRARAASALGSVYPQVPDKQQAWNDLHRLTNDENVYIRFCVASALGYAFSQVPDKQQAWNDLIKLTNDKDSYV  454 (1001)
+T ss_pred             HhCCCHHHHHHHHHHHHHHhccCCChHHHHHHHHHHhcCCCHHHHHHHHHHHHHHHhcCCCHHHHHHHHHHHHcCCCHHH
+Confidence            88888889999999888866544434467778888888888999999999999887765555567888888888999999
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHhhhhHHHHHhhchHHHHHHHHHHHHhhhccCCcccchhhHHHHHHHHhcCccchhhHHHHHHHh
+Q tr|Q8PTN9|Q8PT  726 RRYALRSLGRASLWRAMKAENEAAYLFGLKEAVKYFKEASEASVGTAIPEFYHPFYESLLQIFFAERSSALESERYLSAV  805 (996)
+Q Consensus       726 r~~a~~~l~~l~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~p~~~~l~~~~~~~~~~~~~~~~~~~~~  805 (996)
+                      |..++.+++.+..+..........+...+..++..+.+......+..++.++.|+++.+..+++.....+..+..|+.++
+T Consensus       455 r~~a~~aL~~i~~~~~~~~~~~~~~~~~l~~~i~~~~~~~~~~~~~~~~~~~~~~~~~l~~ii~~~~~~~~~~~~~~~~~  534 (1001)
+T tr|Q8PVD7|Q8PV  455 RTSSNHSLGRVSIFKASQAETDEDYKKELEKAIVFFETSAKGASYYNPAQFCLPFYRSFHTIIFRKQEAREEAKKYLGEA  534 (1001)
+T ss_pred             HHHHHHHHHHhhcccccccCCHHHHHHHHHHHHHHHHHhcCCCcCCCcccccchhHHHHHHHHhcHHHHHHHHHHHHHHH
+Confidence            99999999999877655444455566667777777776655544567788999999999888887777888888998888
+
+
+Q ss_pred             hccccchhhhHHHHHHHHHHHHHHHHhccCCCCChHHHHHHHHHHHHHHHHHHHHhhhhhcchhhHHHHHhhhccccCch
+Q tr|Q8PTN9|Q8PT  806 TGETGYLAENRKLQGVLEEFAGLLRTAGDLAPGDLSARKEFLENSTGAFDRASSIFDAVEEDAILSKKVVKKERQKFGKV  885 (996)
+Q Consensus       806 ~~~~~~~~~~~~~~~~~~~l~~~l~~~~~~~~~~~~~~~~~l~~~~~~~~~~a~~l~~~e~~~~~~~~~~~~~~~~~g~~  885 (996)
+                      .+.+.++..+..+.+++..|...+...++..+.+....+..+..|..+|+...+.+...|+..|.++.++||     |+|
+T Consensus       535 ~~~i~~~~~~~~l~~~~~~l~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-----~~~  609 (1001)
+T tr|Q8PVD7|Q8PV  535 KAAIGGSESKKQLFEAVQNLAEALKEVQNMRDLDLPKMKGELNFYRKYCDHAAELMKEIDENAPFATEVLRK-----GLP  609 (1001)
+T ss_pred             HHHhCCCHHHHHHHHHHHHHHHHHHHHhhcccCCchHHHHHHHHHHHHHHHHHHHHHHHHhcCcchHHHHHc-----ccc
+Confidence            877666666778999999999999999875555555567889999999999999999999999999999999     999
+
+
+Q ss_pred             hhhhhHHHHHHHHHHHHHHHhhhcCCCchhhhHHhhhhhhhcc-cccCccchHHHHHHHHHHHHHHHHhhCCCCC--Cch
+Q tr|Q8PTN9|Q8PT  886 VQEQKLKETLSGIRYRAKTACLKSKGTPAEKITCSISQRVRTW-NFQDSERDKNELSRQLESFLNVLEAQVPYVP--ENR  962 (996)
+Q Consensus       886 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~--~~~  962 (996)
+                      |++|++|+++++||+||++||++|+|||+++|+|+|+++||+| ++++.    ++|...+.+.+.++++.+++.|  +++
+T Consensus       610 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~----~~~~~~~~~~~~~~~~~~~~~~~~~~~  685 (1001)
+T tr|Q8PVD7|Q8PV  610 ILDRNRKGILEEINEKAKAVCKQTSGTSAQYLGLEINETAKELLEFQDF----QTLDKALNKQIEKYRKYCRFILLEQRQ  685 (1001)
+T ss_pred             hHhHHHHHHHHHHHHHHHHHHHhcCCChhHHHHHHHHHHHHHHHhcCCH----HHHHHHHHHHHHHHHHHhccccHHHHH
+Confidence            9999999999999999999999999999999999999999999 79988    6999999999999999999999  999
+
+
+Q ss_pred             hHHHHHHhhhhhH
+Q tr|Q8PTN9|Q8PT  963 NIFEKLEDIRQEQ  975 (996)
+Q Consensus       963 ~~~~~~~~~~~~~  975 (996)
+                      ++.++|+.+++.+
+T Consensus       686 ~~~~~~~~~~~~~  698 (1001)
+T tr|Q8PVD7|Q8PV  686 RFHEMIEDAKSMD  698 (1001)
+T ss_pred             HHHHHHHHhhcch
+Confidence            9999999999976
+
+
+No 4
+>tr|Q8Q0U7|Q8Q0U7_METMA Conserved protein OS=Methanosarcina mazei (strain ATCC BAA-159 / DSM 3647 / Goe1 / Go1 / JCM 11833 / OCM 88) GN=MM_0035 PE=4 SV=1
+Probab=99.91  E-value=1.3e-22  Score=236.41  Aligned_cols=523  Identities=23%  Similarity=0.393  Sum_probs=289.4  Template_Neff=9.500
+
+Q ss_pred             hhhhccCCChHHHHHHHHHHHHHHhhCccHHHHHHHHHHhhcCCChhHHHHHHHHHHHhccCCchhhhhHHHHHHhhcCC
+Q tr|Q8PTN9|Q8PT    7 IHDKTFSQESDDRIKAAKQLGALFEVFPDRKQAFEDLLRLCSDRDSEVRVEAINSLTTVFPNVPEKELTWERFVNLTAYP   86 (996)
+Q Consensus         7 l~~~l~~~~~~~r~~Al~~l~~~~~~~~~~~~~~~~L~~~l~~~~~~vR~~a~~~L~~l~~~~~~~~~~~~~l~~~l~~~   86 (996)
+                      +...+.++++.+|..|+..+..+....|.....++.+..++.++++.+|..++.+++.+....+.....|+.+...+.++
+T Consensus        44 L~~ll~d~~~~VR~~A~~~L~~i~~~~~~~~~~~~~Ll~ll~d~~~~vR~~a~~~L~~l~~~~~~~~~~~~~Ll~~l~~~  123 (885)
+T tr|Q8Q0U7|Q8Q0   44 LVRLASDENSNVRNNAIIAIDSIYSIVKNKDRVWSDLVVLSRSNYANVREVTTKILVSVFPQVSSKDEAWKDLGKLALED  123 (885)
+T ss_pred             HHHHHcCCCHHHHHHHHHHHHHHHHhcCchhhHHHHHHHHhcCCCHHHHHHHHHHHHHHhhcCCChhHHHHHHHHHhcCC
+Confidence            34455677889999999999988765444344667777788889999999999999998775544445577777777777
+
+
+Q ss_pred             ChHHHHHHHHHHHHhccCCCchhHHHHHHHHHhcCCCcHHHHHHHHHHHHHHHhhcCCchHHHHHHHHHhhcCCCHHHHH
+Q tr|Q8PTN9|Q8PT   87 VEQVFAAAVSALITVFPLVPDKDRAWKDLIELINSKSSIEDVSRGIVSSLQNAISEYPDREHAWKDLLEMTASEDPYARK  166 (996)
+Q Consensus        87 ~~~vr~~a~~~L~~l~~~~~~~~~~~~~l~~~l~~~~~~~~vr~~a~~~l~~~~~~~~~~~~~~~~L~~~l~d~~~~vr~  166 (996)
+                      +..+|..++.++..++...+.....++.+..++.+.+.  .+|..++.++..++...+.....+..+...+.+.++.+|.
+T Consensus       124 d~~vR~~a~~~L~~l~~~~~~~~~~~~~L~~ll~d~~~--~vr~~Al~aL~~l~~~~~~~~~~~~~L~~ll~d~d~~Vr~  201 (885)
+T tr|Q8Q0U7|Q8Q0  124 DYETKQVAAKVIGSVFPYIPEKNEAWERLRNLTIDEDV--NVIRSAVNAFQFVFPYSPNKTETWKELHCLVYNDDNEVRQ  201 (885)
+T ss_pred             CHHHHHHHHHHHHHHcccCchhhHHHHHHHHHccCCCH--HHHHHHHHHHHHHhhhCCChHHHHHHHHHHhcCCCHHHHH
+Confidence            88888888888888776544334455666666666555  7888888877766654443334555666666777778888
+
+
+Q ss_pred             HHHHHHHhhhcCCCcchhhHHHHHHHHHhcCCCChHHHHHHHHHHHHHhhcCCcccccchHHHHHHhhcCCCchhHHhhH
+Q tr|Q8PTN9|Q8PT  167 KAASLLSTVFPGLPEGKKTKAWKDLLGLAGEKGDSQVSEQASKAIREVFPFLPDEKKDEGWEEMLELAGGSADHVARMKI  246 (996)
+Q Consensus       167 ~a~~~L~~~~~~~~~~~~~~~~~~ll~~l~~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~~~l~~~l~~~~~~~~~~~a  246 (996)
+                      .++.+++.+....+.  ....+..+...+ .+.+..+|..++.++..+..                              
+T Consensus       202 ~a~~~L~~l~~~~~~--~~~~~~~L~~ll-~~~~~~vr~~a~~~L~~l~~------------------------------  248 (885)
+T tr|Q8Q0U7|Q8Q0  202 ITAKVIGSVFQHIPE--KKEALEDLHKLT-LDDDVNVKRSAAAALGSIFP------------------------------  248 (885)
+T ss_pred             HHHHHHHHHhccChh--HHHHHHHHHHHc-cCCCHHHHHHHHHHHHHHhh------------------------------
+Confidence            887777776554432  111222222221 12233444444444443322                              
+
+
+Q ss_pred             hhhhhhhhcCCCcccchHHHHHHhhcCCcHHHHHHHHHHHHHHhccCCChHHHHHHHHHHhhcCChHHHHHHHHHHHHHh
+Q tr|Q8PTN9|Q8PT  247 LPFLPSVFSSVPDKNKAWDTIFRFTGDERETVRKQAMDALVSISTEMSDKSRVWSDFIKLTEAQDEYVRDRAVDALSSVY  326 (996)
+Q Consensus       247 ~~~l~~~~~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~L~~~~~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~L~~~~  326 (996)
+                               ..+.....++.+...+.+.++.+|..++.+++.+....+.....+..+...+.+.+..++..+..++..++
+T Consensus       249 ---------~~~~~~~~~~~L~~ll~d~~~~VR~~A~~~L~~l~~~~~~~~~~~~~l~~~l~~~~~~~~~~a~~~L~~~~  319 (885)
+T tr|Q8Q0U7|Q8Q0  249 ---------YASEQEKIWTDLMKLISYNDTIVESNAKHSFESTLDYLVEKEGLFKNSQQNLYGENDDENECNGSSLTTVL  319 (885)
+T ss_pred             ---------hcchHHHHHHHHHHHHcCCCHHHHHHHHHHHHHHHHHHHhhhcHHHHHHHHhcCCCchHHHHHHHHHHHHH
+Confidence                     11112334455555566667778888887777765543322223333333344444445555555555554
+
+
+Q ss_pred             hccChHHHHHHHHHHhhCCCChHHHHHHHHHHHHHhccCCchhHHHHHHHHHhcCCCHHHHHHHHHHHhhhccccccCCC
+Q tr|Q8PTN9|Q8PT  327 QCLENKDAAWKELIELTGSEEENIRTTAARALNRIFPYVSDKSQAYSDIIDLAEKEDNYMLREVARNLSSIHPQFYGEYG  406 (996)
+Q Consensus       327 ~~~~~~~~~l~~l~~~l~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~L~~l~~~~~~~~~  406 (996)
+                      .........+..+...+.+.++.+|..++.+|+.+....+.....+..+.....+.      .+...+......      
+T Consensus       320 ~~~~~~~~~~~~L~~ll~d~d~~vr~~A~~aL~~l~~~~~~~~~~~~~l~~l~~~~------~~~~~L~~~~~~------  387 (885)
+T tr|Q8Q0U7|Q8Q0  320 LDVLNKEDSWNNLTSIIHHKSSESWKTAMKVITYIFPVITNKMQTWNDLYKCVQIG------KEVNYLLSVFAY------  387 (885)
+T ss_pred             cccCChhhhHHHHHHHHhcCCHHHHHHHHHHHHHHHHhcccchhhHHHHHHHhhch------hHHHHHHHHhhc------
+Confidence            33222223344444555555666666666666655443332222222222211110      000001000000      
+
+
+Q ss_pred             CchhhhhhcccccccccCCCccccccCCCCCcchhhhhhhhhhhccccCCCCCCCccccchhhccccccccccccccccc
+Q tr|Q8PTN9|Q8PT  407 TDEMRAEIGEINESGRQNGKKEDKFSGFSGPASEKAAFLRRDTATFRGSAPGQHDMGKNREIAEGREMRDEDKAENGQLK  486 (996)
+Q Consensus       407 ~~~~~~~l~~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  486 (996)
+                                                                                                    +.
+T Consensus       388 ------------------------------------------------------------------------------l~  389 (885)
+T tr|Q8Q0U7|Q8Q0  388 ------------------------------------------------------------------------------VP  389 (885)
+T ss_pred             ------------------------------------------------------------------------------CC
+Confidence                                                                                          00
+
+
+Q ss_pred             cccccchhHHHHHhccCchHHHHhhh-hhHHhhhcCCCchhHHHHHHHHHhhCCCCHHHHHHHHHHHHHHHhhccch---
+Q tr|Q8PTN9|Q8PT  487 GKESKKSAYDFLRLKGEREKYARKDS-AGPFSETYSGIPEKKEIIEELLRLSSDPDPQIRRGAIETLLVRYSREAGK---  562 (996)
+Q Consensus       487 ~~~~~~~~~~ll~~l~~~~~~vr~~a-~~~L~~~~~~~~~~~~~~~~L~~~l~~~~~~vr~~a~~~L~~~~~~~~~~---  562 (996)
+                        .....+..+...+.+.++.+|..+ +.++...+...+....+++.+..++.+.++.+|..|+.+|+.+....+..   
+T Consensus       390 --~~~~~~~~L~~ll~d~~~~vR~~a~l~~L~~~~~~l~~~~~~l~~L~~~l~d~d~~VR~~A~~aLg~l~~~~~~~~~~  467 (885)
+T tr|Q8Q0U7|Q8Q0  390 --DKEKALEDLVKLNSEMETERKWGSLIVSTIEEFINKLDKEQVYKSLQKLLLSENTYVKKTTISVLVSLFPSLPDKDHL  467 (885)
+T ss_pred             --CHHHHHHHHHHHhcCCcHHHHHHHHHHHHHHHHhccCCHHHHHHHHHHHhcCCCHHHHHHHHHHHHHhccCCCCcccc
+Confidence              000112222333445556666665 44444333322222244555666666777777777777777654432210   
+
+
+Q ss_pred             -----HHHHHHHHHHhcCCCChHHHHHHHHHHHHhhhcCchhhhHHHHHHHHhcCCCHHHHHHHHHHHHHHHhcCCchHH
+Q tr|Q8PTN9|Q8PT  563 -----AQDIWNELLRISEDEDTGVRKDAAELLSHVFPAVEEKSGVFFDIIRLVESRDTQLRRRAAELLPAAFAHSGNKQR  637 (996)
+Q Consensus       563 -----~~~~~~~L~~~l~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~L~~~l~~~~~~vr~~a~~~L~~~~~~~~~~~~  637 (996)
+                           ...+++.+...+.++++.+|..++.+|+.+....++...+++.+...+.+.+..+|..++.+|+.++...+....
+T Consensus       468 ~~~~~~~~~~~~Ll~ll~d~~~~VR~~A~~AL~~~~~~~~~~~~~~~~L~~ll~~~~~~VR~~A~~aLg~~~~~~~~~~~  547 (885)
+T tr|Q8Q0U7|Q8Q0  468 NSFCDKEQAWEDLLALTSEREEVLKRHAATALGLVFLHVPNKSRAWKDLHKLISNMHFNVRRGIASSIGSAFPYVPNKTQ  547 (885)
+T ss_pred             CCcccHHHHHHHHHHHccCcCHHHHHHHHHHHHHHHhcCCchhHHHHHHHHHhcCCCHHHHHHHHHHHHHhhhcCCCcch
+Confidence                 134555666666666667777777777666554333233445555555566666676666666665544443344
+
+
+Q ss_pred             HHHHHHHHhCCCChhHHHHHHHHHHHhC
+Q tr|Q8PTN9|Q8PT  638 AWNDLVKLTSDEDREVRKGAVLALSSGY  665 (996)
+Q Consensus       638 ~~~~L~~~l~d~~~~vr~~a~~~L~~~~  665 (996)
+                      +++.+...+.+++..+|..|+.+|+.+.
+T Consensus       548 ~l~~L~~l~~d~~~~vR~~A~~aLg~i~  575 (885)
+T tr|Q8Q0U7|Q8Q0  548 AWEDLVQLTSDEKNYVRVSAYHSMGRIS  575 (885)
+T ss_pred             HHHHHHHHhcCCCHHHHHHHHHHHHHHH
+Confidence            5555555566666666666666666643
+
+
+No 5
+>tr|Q8PVD7|Q8PVD7_METMA Uncharacterized protein OS=Methanosarcina mazei (strain ATCC BAA-159 / DSM 3647 / Goe1 / Go1 / JCM 11833 / OCM 88) GN=MM_2028 PE=4 SV=1
+Probab=99.90  E-value=3.2e-22  Score=239.50  Aligned_cols=458  Identities=33%  Similarity=0.527  Sum_probs=227.5  Template_Neff=10.900
+
+Q ss_pred             HHHHhhcCCChhHHHHHHHHHHHhccCCchhhhhHHHHHHhhcCCChHHHHHHHHHHHHhccCCCchhHHHHHHHHHhcC
+Q tr|Q8PTN9|Q8PT   42 DLLRLCSDRDSEVRVEAINSLTTVFPNVPEKELTWERFVNLTAYPVEQVFAAAVSALITVFPLVPDKDRAWKDLIELINS  121 (996)
+Q Consensus        42 ~L~~~l~~~~~~vR~~a~~~L~~l~~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~l~~~l~~  121 (996)
+                      .+...+.++++.+|..|+.++..+....+.....++.+...+.+.++.+|..+..+|..+....+.....++.+...+.+
+T Consensus        10 ~L~~~L~~~~~~vr~~A~~~L~~l~~~~~~~~~~~~~L~~~l~~~~~~vr~~a~~~L~~~~~~~~~~~~~~~~L~~~l~~   89 (1001)
+T tr|Q8PVD7|Q8PV   10 DLQGLINDKYTPVRLKAADALVSAYPHVPDKQQAWNDLQGLINDKNSYMRARVAKALSSEFSQMPDKQKAWNDLIKLTND   89 (1001)
+T ss_pred             HHHHHhcCCCHHHHHHHHHHHHHHcccCCchHHHHHHHHHHHcCCCHHHHHHHHHHHHHHHhcCCchhHHHHHHHHHhcC
+Confidence            33334444444444444444444433322222223333333444444444444444444333222222334444444444
+
+
+Q ss_pred             CCcHHHHHHHHHHHHHHHhhcCCchHHHHHHHHHhhcCCCHHHHHHHHHHHHhhhcCCCcchhhHHHHHHHHHhcCCCCh
+Q tr|Q8PTN9|Q8PT  122 KSSIEDVSRGIVSSLQNAISEYPDREHAWKDLLEMTASEDPYARKKAASLLSTVFPGLPEGKKTKAWKDLLGLAGEKGDS  201 (996)
+Q Consensus       122 ~~~~~~vr~~a~~~l~~~~~~~~~~~~~~~~L~~~l~d~~~~vr~~a~~~L~~~~~~~~~~~~~~~~~~ll~~l~~~~~~  201 (996)
+                      .+.  .+|..++.++..+....+.....++.+...+.+++..+|..+..++..+....+.  ....+..+...+ .+.++
+T Consensus        90 ~~~--~vr~~a~~~L~~l~~~~~~~~~~~~~L~~~l~~~~~~vr~~a~~~L~~l~~~~~~--~~~~~~~L~~~l-~~~~~  164 (1001)
+T tr|Q8PVD7|Q8PV   90 KNS--YVRSSAASALGSAFSQVPDKQQAWHDLHGLTNNKNSDVRSSAAKALGYAFSQVPD--KQQACDDLHRLT-NDEDI  164 (1001)
+T ss_pred             CCH--HHHHHHHHHHHHHHhcCCChHHHHHHHHHHhcCCCHHHHHHHHHHHHHHHhhCCC--HHHHHHHHHHHh-cCCCH
+Confidence            444  5666666666555443333334555566666666777777777777776543331  111222222222 22344
+
+
+Q ss_pred             HHHHHHHHHHHHHhhcCCcccccchHHHHHHhhcCCCchhHHhhHhhhhhhhhcCCCcccchHHHHHHhhcCCcHHHHHH
+Q tr|Q8PTN9|Q8PT  202 QVSEQASKAIREVFPFLPDEKKDEGWEEMLELAGGSADHVARMKILPFLPSVFSSVPDKNKAWDTIFRFTGDERETVRKQ  281 (996)
+Q Consensus       202 ~vr~~a~~~L~~l~~~~~~~~~~~~~~~l~~~l~~~~~~~~~~~a~~~l~~~~~~~~~~~~~~~~l~~~l~~~~~~vr~~  281 (996)
+                      .+|..++.++..+....                                       +.....++.+...+.+.++.+|..
+T Consensus       165 ~vr~~a~~~L~~l~~~~---------------------------------------~~~~~~~~~L~~~l~~~~~~vr~~  205 (1001)
+T tr|Q8PVD7|Q8PV  165 NVKSRAAEALGYAFSQV---------------------------------------PDKQQAWHDLHRLTNNKNSYVRSS  205 (1001)
+T ss_pred             HHHHHHHHHHHHHhhcC---------------------------------------CchHHHHHHHHHHHcCCCHHHHHH
+Confidence            55555555444433211                                       011223444555556666777777
+
+
+Q ss_pred             HHHHHHHHhccCCChHHHHHHHHHHhhcCChHHHHHHHHHHHHHhhccChHHHHHHHHHHhhCCCChHHHHHHHHHHHHH
+Q tr|Q8PTN9|Q8PT  282 AMDALVSISTEMSDKSRVWSDFIKLTEAQDEYVRDRAVDALSSVYQCLENKDAAWKELIELTGSEEENIRTTAARALNRI  361 (996)
+Q Consensus       282 a~~~L~~~~~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~L~~~~~~~~~~~~~l~~l~~~l~~~~~~vr~~a~~~L~~l  361 (996)
+                      ++.+++.+....+.....++.+...+.+.++.+|..++.+++.+....+.....+..+...+.+.++.+|..++.+++.+
+T Consensus       206 a~~~L~~l~~~~~~~~~~~~~L~~~l~~~~~~vr~~a~~~L~~~~~~~~~~~~~~~~L~~~l~~~~~~vr~~a~~~L~~l  285 (1001)
+T tr|Q8PVD7|Q8PV  206 AAEALGYAFSQVPDKQQACDDLHRLTNDEDIYVRSSAAKALGYAFSQVSDKQQAWDDLIKLTNDKYSPVRSKAAETLCSV  285 (1001)
+T ss_pred             HHHHHHHHHhhCCcHHHHHHHHHHHccCCCHHHHHHHHHHHHHHhhcCCchHHHHHHHHHHhcCCCHHHHHHHHHHHHHH
+Confidence            77777766543322223444555555666666777776666666433222223444455555555566666666666665
+
+
+Q ss_pred             hccCCchhHHHHHHHHHhcCCCHHHHHHHHHHHhhhccccccCCCCchhhhhhcccccccccCCCccccccCCCCCcchh
+Q tr|Q8PTN9|Q8PT  362 FPYVSDKSQAYSDIIDLAEKEDNYMLREVARNLSSIHPQFYGEYGTDEMRAEIGEINESGRQNGKKEDKFSGFSGPASEK  441 (996)
+Q Consensus       362 ~~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~l~~~~~~~  441 (996)
+                      ....+.....++.+...+.+.++.+|..++.+++.+..                                          
+T Consensus       286 ~~~~~~~~~~~~~L~~~l~~~~~~vr~~a~~~L~~l~~------------------------------------------  323 (1001)
+T tr|Q8PVD7|Q8PV  286 FSQVPDKQQAWNELHRLTNDENGSVRFSAVTAFDLAYP------------------------------------------  323 (1001)
+T ss_pred             HhhCCChHHHHHHHHHHhcCCCHHHHHHHHHHHHHHhh------------------------------------------
+Confidence            54333222333444444444455555555555544321                                          
+
+
+Q ss_pred             hhhhhhhhhccccCCCCCCCccccchhhccccccccccccccccccccccchhHHHHHhccCchHHHHhhhhhHHhhhcC
+Q tr|Q8PTN9|Q8PT  442 AAFLRRDTATFRGSAPGQHDMGKNREIAEGREMRDEDKAENGQLKGKESKKSAYDFLRLKGEREKYARKDSAGPFSETYS  521 (996)
+Q Consensus       442 ~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ll~~l~~~~~~vr~~a~~~L~~~~~  521 (996)
+                                                                                                      
+T Consensus       324 --------------------------------------------------------------------------------  323 (1001)
+T tr|Q8PVD7|Q8PV  324 --------------------------------------------------------------------------------  323 (1001)
+T ss_pred             --------------------------------------------------------------------------------
+Confidence                                                                                            
+
+
+Q ss_pred             CCchhHHHHHHHHHhhCCCCHHHHHHHHHHHHHHHhhccchHHHHHHHHHHhcCCCChHHHHHHHHHHHHhhhcCchhhh
+Q tr|Q8PTN9|Q8PT  522 GIPEKKEIIEELLRLSSDPDPQIRRGAIETLLVRYSREAGKAQDIWNELLRISEDEDTGVRKDAAELLSHVFPAVEEKSG  601 (996)
+Q Consensus       522 ~~~~~~~~~~~L~~~l~~~~~~vr~~a~~~L~~~~~~~~~~~~~~~~~L~~~l~~~~~~vr~~a~~~L~~l~~~~~~~~~  601 (996)
+                      .......+++.+...+.+.++.+|..++.+++.+....+. ...+++.+...+.+.++.+|..++.+|+.+....+....
+T Consensus       324 ~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~L~~l~~~~~~-~~~~~~~L~~~l~~~~~~vr~~a~~~L~~l~~~~~~~~~  402 (1001)
+T tr|Q8PVD7|Q8PV  324 YILNKQQAWDDLIKRTHDKDIIVKSNAADALVSVYPHVPD-KQQAWNNLLRLIYDKNSYVRARAASALGSVYPQVPDKQQ  402 (1001)
+T ss_pred             hccchhhHHHHHHHHhcCCCHHHHHHHHHHHHHHcccCCC-HHHHHHHHHHHHhCCCHHHHHHHHHHHHHHhccCCChHH
+Confidence            1111122233333344444444555555555444332211 123444455555555566666666666666543332234
+
+
+Q ss_pred             HHHHHHHHhcCCCHHHHHHHHHHHHHHHhcCCchHHHHHHHHHHhCCCChhHHHHHHHHHHHhCC
+Q tr|Q8PTN9|Q8PT  602 VFFDIIRLVESRDTQLRRRAAELLPAAFAHSGNKQRAWNDLVKLTSDEDREVRKGAVLALSSGYP  666 (996)
+Q Consensus       602 ~~~~L~~~l~~~~~~vr~~a~~~L~~~~~~~~~~~~~~~~L~~~l~d~~~~vr~~a~~~L~~~~~  666 (996)
+                      +++.+...+.+.++.+|..++.+++.+....+....+++.+...+.++++.+|..++.+++.+..
+T Consensus       403 ~~~~L~~~l~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~L~~~l~d~~~~vr~~a~~aL~~i~~  467 (1001)
+T tr|Q8PVD7|Q8PV  403 AWNDLHRLTNDENVYIRFCVASALGYAFSQVPDKQQAWNDLIKLTNDKDSYVRTSSNHSLGRVSI  467 (1001)
+T ss_pred             HHHHHHHHhcCCCHHHHHHHHHHHHHHHhcCCCHHHHHHHHHHHHcCCCHHHHHHHHHHHHHhhc
+Confidence            45555555666666777777777766654433334566677777777777788888877777544
+
+
+No 6
+>tr|Q8PTN9|Q8PTN9_METMA Conserved protein OS=Methanosarcina mazei (strain ATCC BAA-159 / DSM 3647 / Goe1 / Go1 / JCM 11833 / OCM 88) GN=MM_2674 PE=4 SV=1
+Probab=99.88  E-value=5.2e-20  Score=220.08  Aligned_cols=603  Identities=26%  Similarity=0.424  Sum_probs=306.2  Template_Neff=11.300
+
+Q ss_pred             HHHHHhhcCCChhHHHHHHHHHHHhccCCchhhhhHHHHHHhhcCCChHHHHHHHHHHHHhccCCCchhHHHHHHHHHhc
+Q tr|Q8PTN9|Q8PT   41 EDLLRLCSDRDSEVRVEAINSLTTVFPNVPEKELTWERFVNLTAYPVEQVFAAAVSALITVFPLVPDKDRAWKDLIELIN  120 (996)
+Q Consensus        41 ~~L~~~l~~~~~~vR~~a~~~L~~l~~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~l~~~l~  120 (996)
+                      +.+...+.++++.+|..|+..+..+....+.....++.+...+.++++.+|..+..++..+....+.....++.+...+.
+T Consensus         5 ~~l~~~l~~~~~~~r~~Al~~l~~~~~~~~~~~~~~~~L~~~l~~~~~~vR~~a~~~L~~l~~~~~~~~~~~~~l~~~l~   84 (996)
+T tr|Q8PTN9|Q8PT    5 PGIHDKTFSQESDDRIKAAKQLGALFEVFPDRKQAFEDLLRLCSDRDSEVRVEAINSLTTVFPNVPEKELTWERFVNLTA   84 (996)
+T ss_pred             hhHHHHhcCCCHHHHHHHHHHHHHHHHhCcchHHHHHHHHHHhcCCCHHHHHHHHHHHHHhcccCchhHhhHHHHHHHhc
+Confidence            34556667788899999999998886654444445666777777777888888888887777654444445555666665
+
+
+Q ss_pred             CCCcHHHHHHHHHHHHHHHhhcCCchHHHHHHHHHhhcCCCH--HHHHHHHHHHHhhhcCCCcchhhHHHHHHHHHhcCC
+Q tr|Q8PTN9|Q8PT  121 SKSSIEDVSRGIVSSLQNAISEYPDREHAWKDLLEMTASEDP--YARKKAASLLSTVFPGLPEGKKTKAWKDLLGLAGEK  198 (996)
+Q Consensus       121 ~~~~~~~vr~~a~~~l~~~~~~~~~~~~~~~~L~~~l~d~~~--~vr~~a~~~L~~~~~~~~~~~~~~~~~~ll~~l~~~  198 (996)
+                      +.+.  .+|..+..++..++...+.....++.+...+.+.+.  .+|..++.++..+....+.  ....+..+... ..+
+T Consensus        85 ~~~~--~vr~~a~~~L~~l~~~~~~~~~~~~~l~~~l~~~~~~~~vr~~a~~~l~~~~~~~~~--~~~~~~~L~~~-l~d  159 (996)
+T tr|Q8PTN9|Q8PT   85 YPVE--QVFAAAVSALITVFPLVPDKDRAWKDLIELINSKSSIEDVSRGIVSSLQNAISEYPD--REHAWKDLLEM-TAS  159 (996)
+T ss_pred             CCCH--HHHHHHHHHHHHHhccCCchhHHHHHHHHHHcCCCchHHHHHHHHHHHHHHHhhCCC--hhHHHHHHHHH-hcC
+Confidence            5544  677777777766655443333455555555655555  6777777776666544332  12223333332 233
+
+
+Q ss_pred             CChHHHHHHHHHHHHHhhcCCcccccchHHHHHHhhcCCCchhHHhhHhhhhhhhhcCCCcccchHHHHHHhh-cCCcHH
+Q tr|Q8PTN9|Q8PT  199 GDSQVSEQASKAIREVFPFLPDEKKDEGWEEMLELAGGSADHVARMKILPFLPSVFSSVPDKNKAWDTIFRFT-GDERET  277 (996)
+Q Consensus       199 ~~~~vr~~a~~~L~~l~~~~~~~~~~~~~~~l~~~l~~~~~~~~~~~a~~~l~~~~~~~~~~~~~~~~l~~~l-~~~~~~  277 (996)
+                      .+..+|..++..+..+....+.....                                     ..+..+...+ .+.++.
+T Consensus       160 ~~~~vr~~a~~~L~~~~~~~~~~~~~-------------------------------------~~~~~ll~~l~~~~~~~  202 (996)
+T tr|Q8PTN9|Q8PT  160 EDPYARKKAASLLSTVFPGLPEGKKT-------------------------------------KAWKDLLGLAGEKGDSQ  202 (996)
+T ss_pred             CCHHHHHHHHHHHHHHcccCCcchhh-------------------------------------HHHHHHHHHHccCCCHH
+Confidence            45556666665555554332221111                                     1122222222 233455
+
+
+Q ss_pred             HHHHHHHHHHHHhccCCCh--HHHHHHHHHHh-hcCChHHHHHHHHHHHHHhhccChHHHHHHHHHHhhCCCChHHHHHH
+Q tr|Q8PTN9|Q8PT  278 VRKQAMDALVSISTEMSDK--SRVWSDFIKLT-EAQDEYVRDRAVDALSSVYQCLENKDAAWKELIELTGSEEENIRTTA  354 (996)
+Q Consensus       278 vr~~a~~~L~~~~~~~~~~--~~~~~~l~~~l-~~~~~~vr~~a~~~L~~~~~~~~~~~~~l~~l~~~l~~~~~~vr~~a  354 (996)
+                      +|..++.++..+....+..  ...+..+...+ .+.+..+|..++.++..++...+.....++.+...+.+.++.+|..+
+T Consensus       203 vr~~a~~~L~~l~~~~~~~~~~~~~~~l~~~l~~~~~~~~~~~a~~~l~~~~~~~~~~~~~~~~l~~~l~~~~~~vr~~a  282 (996)
+T tr|Q8PTN9|Q8PT  203 VSEQASKAIREVFPFLPDEKKDEGWEEMLELAGGSADHVARMKILPFLPSVFSSVPDKNKAWDTIFRFTGDERETVRKQA  282 (996)
+T ss_pred             HHHHHHHHHHHHHHhCCHhhhhhcHHHHHHHhcCCCCHHHHHHHHHHHHHHhcCCCchhhHHHHHHHHhcCCCHHHHHHH
+Confidence            6666666665554322110  11122222222 23345556666666665544333333445555555666667777777
+
+
+Q ss_pred             HHHHHHHhccCCchhHHHHHHHHHhcCCCHHHHHHHHHHHhhhccccccCCCCchhhhhhcccccccccCCCccccccCC
+Q tr|Q8PTN9|Q8PT  355 ARALNRIFPYVSDKSQAYSDIIDLAEKEDNYMLREVARNLSSIHPQFYGEYGTDEMRAEIGEINESGRQNGKKEDKFSGF  434 (996)
+Q Consensus       355 ~~~L~~l~~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~l  434 (996)
+                      +.+++.+....+.....++.+...+.+.++.+|..++.+++.+....+..                       ...+..+
+T Consensus       283 ~~~L~~~~~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~L~~~~~~~~~~-----------------------~~~l~~l  339 (996)
+T tr|Q8PTN9|Q8PT  283 MDALVSISTEMSDKSRVWSDFIKLTEAQDEYVRDRAVDALSSVYQCLENK-----------------------DAAWKEL  339 (996)
+T ss_pred             HHHHHHHHhcCCChhhHHHHHHHHhhcCCHHHHHHHHHHHHHHHhccCCH-----------------------HHHHHHH
+Confidence            77777766543332334445555556666677777777776664321110                       0011122
+
+
+Q ss_pred             CCCcchhhhhhhhhhhccccCCCCCCCccccchhhccccccccccccccccccccccchhHHHHHhccCchHHHHhhhhh
+Q tr|Q8PTN9|Q8PT  435 SGPASEKAAFLRRDTATFRGSAPGQHDMGKNREIAEGREMRDEDKAENGQLKGKESKKSAYDFLRLKGEREKYARKDSAG  514 (996)
+Q Consensus       435 ~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ll~~l~~~~~~vr~~a~~  514 (996)
+                      .....+.++.++..+..+++.+....                           +.....+..+...+.+.++.+|..++.
+T Consensus       340 ~~~l~~~~~~vr~~a~~~L~~l~~~~---------------------------~~~~~~~~~l~~~l~~~~~~vr~~a~~  392 (996)
+T tr|Q8PTN9|Q8PT  340 IELTGSEEENIRTTAARALNRIFPYV---------------------------SDKSQAYSDIIDLAEKEDNYMLREVAR  392 (996)
+T ss_pred             HHHhCCCCHHHHHHHHHHHHHHcccC---------------------------CchHHHHHHHHHHhhcCCHHHHHHHHH
+Confidence            22223334455555555444332210                           011234555666777778889999998
+
+
+Q ss_pred             HHhhhcCCCchh---H--------------------HHHHHHHHhhCCCCHHHHHHHHHHHHHHHhhccc----------
+Q tr|Q8PTN9|Q8PT  515 PFSETYSGIPEK---K--------------------EIIEELLRLSSDPDPQIRRGAIETLLVRYSREAG----------  561 (996)
+Q Consensus       515 ~L~~~~~~~~~~---~--------------------~~~~~L~~~l~~~~~~vr~~a~~~L~~~~~~~~~----------  561 (996)
+                      ++.......+..   .                    ..+..+.....+.++.+|..+..++.........          
+T Consensus       393 ~L~~l~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~  472 (996)
+T tr|Q8PTN9|Q8PT  393 NLSSIHPQFYGEYGTDEMRAEIGEINESGRQNGKKEDKFSGFSGPASEKAAFLRRDTATFRGSAPGQHDMGKNREIAEGR  472 (996)
+T ss_pred             HHHHhcHhhcCCcCchHHHHhHhhhcccccccCccccccccCCCChhHHhHHhhccccccccCCCCcccccccccccccc
+Confidence            888665532110   0                    0112222222333444555444444333221000          
+
+
+Q ss_pred             ----------------hHHHHHHHHHHhcCCCChHHHHHHHHHHHHhhhcCchhhhHHHHHHHHhcCCCHHHHHHHHHHH
+Q tr|Q8PTN9|Q8PT  562 ----------------KAQDIWNELLRISEDEDTGVRKDAAELLSHVFPAVEEKSGVFFDIIRLVESRDTQLRRRAAELL  625 (996)
+Q Consensus       562 ----------------~~~~~~~~L~~~l~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~L~~~l~~~~~~vr~~a~~~L  625 (996)
+                                      .....+..+...+.+.++.+|..++..+..+....+....+++.+...+.+.++.+|..++.++
+T Consensus       473 ~~~~~~~~~~~~~~~~~~~~~~~~ll~~l~~~~~~vr~~a~~~L~~~~~~~~~~~~~~~~L~~~l~~~~~~vr~~a~~~L  552 (996)
+T tr|Q8PTN9|Q8PT  473 EMRDEDKAENGQLKGKESKKSAYDFLRLKGEREKYARKDSAGPFSETYSGIPEKKEIIEELLRLSSDPDPQIRRGAIETL  552 (996)
+T ss_pred             cccccchhhhccccCccchhhHHHHHHHhcCccHHHHHHHHHHHHHHhcCCchHHHHHHHHHHHcCCCCHHHHHHHHHHH
+Confidence                            0012223333444455555666666665554433322223444455555555556666666655
+
+
+Q ss_pred             HHHHhcCCch-HHHHHHHHHHhCCCChhHHHHHHHHHHHhCCCCCchhhHHHHHHHhcCCCChHHHHHHHHHHHHhhccC
+Q tr|Q8PTN9|Q8PT  626 PAAFAHSGNK-QRAWNDLVKLTSDEDREVRKGAVLALSSGYPGVPDKGKVWSDLIMLSSHNDSFVQREATRALGPAFFYV  704 (996)
+Q Consensus       626 ~~~~~~~~~~-~~~~~~L~~~l~d~~~~vr~~a~~~L~~~~~~~~~~~~i~~~L~~~l~~~~~~vr~~a~~~L~~l~~~~  704 (996)
+                      +.+....+.. ..+++.+...+.++++.+|..++.+++.+....+....++..+...+.+.++.+|..++.+++.++...
+T Consensus       553 ~~~~~~~~~~~~~~~~~L~~~l~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~L~~~l~~~~~~vr~~a~~~L~~~~~~~  632 (996)
+T tr|Q8PTN9|Q8PT  553 LVRYSREAGKAQDIWNELLRISEDEDTGVRKDAAELLSHVFPAVEEKSGVFFDIIRLVESRDTQLRRRAAELLPAAFAHS  632 (996)
+T ss_pred             HHHHhcCchhHHHHHHHHHHHhcCCCHHHHHHHHHHHHHHhhhCcchhhHHHHHHHHhcCCCHHHHHHHHHHHHHHHHhC
+Confidence            5544322111 334445555555555556666655555543332222234444444555555555555555555554433
+
+
+Q ss_pred             CCHHHHHHHHHHHhcCCChHHHHHHHHHHHH
+Q tr|Q8PTN9|Q8PT  705 PDKTMAWRDLQVLVDNPYVYVRRYALRSLGR  735 (996)
+Q Consensus       705 ~~~~~~~~~l~~~l~d~~~~vr~~a~~~l~~  735 (996)
+                      +....+++.+...+.|+++.+|..+..+++.
+T Consensus       633 ~~~~~~~~~L~~~l~d~~~~vr~~a~~~L~~  663 (996)
+T tr|Q8PTN9|Q8PT  633 GNKQRAWNDLVKLTSDEDREVRKGAVLALSS  663 (996)
+T ss_pred             CchHHHHHHHHHHhcCCCHHHHHHHHHHHHH
+Confidence            3333445555555555555555555555544
+
+
+No 7
+>tr|Q8Q0U7|Q8Q0U7_METMA Conserved protein OS=Methanosarcina mazei (strain ATCC BAA-159 / DSM 3647 / Goe1 / Go1 / JCM 11833 / OCM 88) GN=MM_0035 PE=4 SV=1
+Probab=99.88  E-value=1.1e-20  Score=219.75  Aligned_cols=236  Identities=23%  Similarity=0.368  Sum_probs=153.4  Template_Neff=9.500
+
+Q ss_pred             HHHHHhccCchHHHHhhhhhHHhhhcCCCchhHHHHHHHHHhhCCCCHHHHHHHHHHHHHHHhhccchHHHHHHHHHHhc
+Q tr|Q8PTN9|Q8PT  495 YDFLRLKGEREKYARKDSAGPFSETYSGIPEKKEIIEELLRLSSDPDPQIRRGAIETLLVRYSREAGKAQDIWNELLRIS  574 (996)
+Q Consensus       495 ~~ll~~l~~~~~~vr~~a~~~L~~~~~~~~~~~~~~~~L~~~l~~~~~~vr~~a~~~L~~~~~~~~~~~~~~~~~L~~~l  574 (996)
+                      ..+...+.+.+..++..+...+...+.........++.+..++.+.++.+|..|..+|+.+....+.. ...+..+....
+T Consensus       294 ~~l~~~l~~~~~~~~~~a~~~L~~~~~~~~~~~~~~~~L~~ll~d~d~~vr~~A~~aL~~l~~~~~~~-~~~~~~l~~l~  372 (885)
+T tr|Q8Q0U7|Q8Q0  294 KNSQQNLYGENDDENECNGSSLTTVLLDVLNKEDSWNNLTSIIHHKSSESWKTAMKVITYIFPVITNK-MQTWNDLYKCV  372 (885)
+T ss_pred             HHHHHHhcCCCchHHHHHHHHHHHHHcccCChhhhHHHHHHHHhcCCHHHHHHHHHHHHHHHHhcccc-hhhHHHHHHHh
+Confidence            33444444455555666666666555444333445666666677777777777777776665433221 12233333332
+
+
+Q ss_pred             CCCChHHHHHHHHHHHHhhhcCchhhhHHHHHHHHhcCCCHHHHHHH-HHHHHHHHhcCCchHHHHHHHHHHhCCCChhH
+Q tr|Q8PTN9|Q8PT  575 EDEDTGVRKDAAELLSHVFPAVEEKSGVFFDIIRLVESRDTQLRRRA-AELLPAAFAHSGNKQRAWNDLVKLTSDEDREV  653 (996)
+Q Consensus       575 ~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~L~~~l~~~~~~vr~~a-~~~L~~~~~~~~~~~~~~~~L~~~l~d~~~~v  653 (996)
+                      .+.      .+...+.......++....+..+...+.+.++.+|..+ +.+++..+...+....+++.+...+.|+++.|
+T Consensus       373 ~~~------~~~~~L~~~~~~l~~~~~~~~~L~~ll~d~~~~vR~~a~l~~L~~~~~~l~~~~~~l~~L~~~l~d~d~~V  446 (885)
+T tr|Q8Q0U7|Q8Q0  373 QIG------KEVNYLLSVFAYVPDKEKALEDLVKLNSEMETERKWGSLIVSTIEEFINKLDKEQVYKSLQKLLLSENTYV  446 (885)
+T ss_pred             hch------hHHHHHHHHhhcCCCHHHHHHHHHHHhcCCcHHHHHHHHHHHHHHHHhccCCHHHHHHHHHHHhcCCCHHH
+Confidence            221      12222222222222222345566667778888899888 66666555444433467778888888999999
+
+
+Q ss_pred             HHHHHHHHHHhCCCCCc---------hhhHHHHHHHhcCCCChHHHHHHHHHHHHhhccCCCHHHHHHHHHHHhcCCChH
+Q tr|Q8PTN9|Q8PT  654 RKGAVLALSSGYPGVPD---------KGKVWSDLIMLSSHNDSFVQREATRALGPAFFYVPDKTMAWRDLQVLVDNPYVY  724 (996)
+Q Consensus       654 r~~a~~~L~~~~~~~~~---------~~~i~~~L~~~l~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~l~~~l~d~~~~  724 (996)
+                      |..|+.+|+......+.         ...+++.+...+.+.++.||..++.+|+.++...+....+++.+..++.+.+..
+T Consensus       447 R~~A~~aLg~l~~~~~~~~~~~~~~~~~~~~~~Ll~ll~d~~~~VR~~A~~AL~~~~~~~~~~~~~~~~L~~ll~~~~~~  526 (885)
+T tr|Q8Q0U7|Q8Q0  447 KKTTISVLVSLFPSLPDKDHLNSFCDKEQAWEDLLALTSEREEVLKRHAATALGLVFLHVPNKSRAWKDLHKLISNMHFN  526 (885)
+T ss_pred             HHHHHHHHHHhccCCCCccccCCcccHHHHHHHHHHHccCcCHHHHHHHHHHHHHHHhcCCchhHHHHHHHHHhcCCCHH
+Confidence            99999999986555432         346778888888898999999999999998776554456778888888888899
+
+
+Q ss_pred             HHHHHHHHHHHHH
+Q tr|Q8PTN9|Q8PT  725 VRRYALRSLGRAS  737 (996)
+Q Consensus       725 vr~~a~~~l~~l~  737 (996)
+                      ||..++.+++.+.
+T Consensus       527 VR~~A~~aLg~~~  539 (885)
+T tr|Q8Q0U7|Q8Q0  527 VRRGIASSIGSAF  539 (885)
+T ss_pred             HHHHHHHHHHHhh
+Confidence            9999999998875
+
+
+No 8
+>tr|Q8PTN9|Q8PTN9_METMA Conserved protein OS=Methanosarcina mazei (strain ATCC BAA-159 / DSM 3647 / Goe1 / Go1 / JCM 11833 / OCM 88) GN=MM_2674 PE=4 SV=1
+Probab=99.88  E-value=7.1e-20  Score=218.87  Aligned_cols=603  Identities=26%  Similarity=0.425  Sum_probs=308.2  Template_Neff=11.300
+
+Q ss_pred             cchhhhccCCChHHHHHHHHHHHHHHhhCccHHHHHHHHHHhhcCCChhHHHHHHHHHHHhccCCchhhhhHHHHHHhhc
+Q tr|Q8PTN9|Q8PT    5 PGIHDKTFSQESDDRIKAAKQLGALFEVFPDRKQAFEDLLRLCSDRDSEVRVEAINSLTTVFPNVPEKELTWERFVNLTA   84 (996)
+Q Consensus         5 ~~l~~~l~~~~~~~r~~Al~~l~~~~~~~~~~~~~~~~L~~~l~~~~~~vR~~a~~~L~~l~~~~~~~~~~~~~l~~~l~   84 (996)
+                      +.+...+.++++.+|..|+..+..+....+.....++.+...+.+++..+|..+..++..+....+.....++.+...+.
+T Consensus        41 ~~L~~~l~~~~~~vR~~a~~~L~~l~~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~l~~~l~  120 (996)
+T tr|Q8PTN9|Q8PT   41 EDLLRLCSDRDSEVRVEAINSLTTVFPNVPEKELTWERFVNLTAYPVEQVFAAAVSALITVFPLVPDKDRAWKDLIELIN  120 (996)
+T ss_pred             HHHHHHhcCCCHHHHHHHHHHHHHhcccCchhHhhHHHHHHHhcCCCHHHHHHHHHHHHHHhccCCchhHHHHHHHHHHc
+Confidence            44566677888899999999998886654443445666666777777788888888887776654444444555666665
+
+
+Q ss_pred             CCCh--HHHHHHHHHHHHhccCCCchhHHHHHHHHHhcCCCcHHHHHHHHHHHHHHHhhcCCc--hHHHHHHHHHhh-cC
+Q tr|Q8PTN9|Q8PT   85 YPVE--QVFAAAVSALITVFPLVPDKDRAWKDLIELINSKSSIEDVSRGIVSSLQNAISEYPD--REHAWKDLLEMT-AS  159 (996)
+Q Consensus        85 ~~~~--~vr~~a~~~L~~l~~~~~~~~~~~~~l~~~l~~~~~~~~vr~~a~~~l~~~~~~~~~--~~~~~~~L~~~l-~d  159 (996)
+                      +.+.  .+|..+..++..++...+.....++.+...+.+++.  .+|..++.++..+....+.  ....+..+...+ .+
+T Consensus       121 ~~~~~~~vr~~a~~~l~~~~~~~~~~~~~~~~L~~~l~d~~~--~vr~~a~~~L~~~~~~~~~~~~~~~~~~ll~~l~~~  198 (996)
+T tr|Q8PTN9|Q8PT  121 SKSSIEDVSRGIVSSLQNAISEYPDREHAWKDLLEMTASEDP--YARKKAASLLSTVFPGLPEGKKTKAWKDLLGLAGEK  198 (996)
+T ss_pred             CCCchHHHHHHHHHHHHHHHhhCCChhHHHHHHHHHhcCCCH--HHHHHHHHHHHHHcccCCcchhhHHHHHHHHHHccC
+Confidence            5544  677777777766555443333455555555555544  6777777666665543332  122233333322 23
+
+
+Q ss_pred             CCHHHHHHHHHHHHhhhcCCCcchh-------------------------------------hHHHHHHHHHhcCCCChH
+Q tr|Q8PTN9|Q8PT  160 EDPYARKKAASLLSTVFPGLPEGKK-------------------------------------TKAWKDLLGLAGEKGDSQ  202 (996)
+Q Consensus       160 ~~~~vr~~a~~~L~~~~~~~~~~~~-------------------------------------~~~~~~ll~~l~~~~~~~  202 (996)
+                      .+..+|..++..+..+....+....                                     ...+..+...+ .+.++.
+T Consensus       199 ~~~~vr~~a~~~L~~l~~~~~~~~~~~~~~~l~~~l~~~~~~~~~~~a~~~l~~~~~~~~~~~~~~~~l~~~l-~~~~~~  277 (996)
+T tr|Q8PTN9|Q8PT  199 GDSQVSEQASKAIREVFPFLPDEKKDEGWEEMLELAGGSADHVARMKILPFLPSVFSSVPDKNKAWDTIFRFT-GDERET  277 (996)
+T ss_pred             CCHHHHHHHHHHHHHHHHhCCHhhhhhcHHHHHHHhcCCCCHHHHHHHHHHHHHHhcCCCchhhHHHHHHHHh-cCCCHH
+Confidence            4555555555555554433221111                                     11122222222 233455
+
+
+Q ss_pred             HHHHHHHHHHHHhhcCCcccccchHHHHHHhhcCCCchhHHhhHhhhhhhhhcCCCcccchHHHHHHhhcCCcHHHHHHH
+Q tr|Q8PTN9|Q8PT  203 VSEQASKAIREVFPFLPDEKKDEGWEEMLELAGGSADHVARMKILPFLPSVFSSVPDKNKAWDTIFRFTGDERETVRKQA  282 (996)
+Q Consensus       203 vr~~a~~~L~~l~~~~~~~~~~~~~~~l~~~l~~~~~~~~~~~a~~~l~~~~~~~~~~~~~~~~l~~~l~~~~~~vr~~a  282 (996)
+                      +|..++.++..+....+..  ...+..+...+ .+.+..++..++.++..++...+.....++.+...+.+.++.+|..+
+T Consensus       278 vr~~a~~~L~~~~~~~~~~--~~~~~~l~~~l-~~~~~~vr~~a~~~L~~~~~~~~~~~~~l~~l~~~l~~~~~~vr~~a  354 (996)
+T tr|Q8PTN9|Q8PT  278 VRKQAMDALVSISTEMSDK--SRVWSDFIKLT-EAQDEYVRDRAVDALSSVYQCLENKDAAWKELIELTGSEEENIRTTA  354 (996)
+T ss_pred             HHHHHHHHHHHHHhcCCCh--hhHHHHHHHHh-hcCCHHHHHHHHHHHHHHHhccCCHHHHHHHHHHHhCCCCHHHHHHH
+Confidence            6666666665554322110  11122222221 23345556666666666544333333445555555666667777777
+
+
+Q ss_pred             HHHHHHHhccCCChHHHHHHHHHHhhcCChHHHHHHHHHHHHHhhccChH-----------------------HHHHHHH
+Q tr|Q8PTN9|Q8PT  283 MDALVSISTEMSDKSRVWSDFIKLTEAQDEYVRDRAVDALSSVYQCLENK-----------------------DAAWKEL  339 (996)
+Q Consensus       283 ~~~L~~~~~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~L~~~~~~~~~~-----------------------~~~l~~l  339 (996)
+                      +.+++.+....+.....++.+...+.+.++.+|..++.+++.+....+..                       ...+..+
+T Consensus       355 ~~~L~~l~~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~l  434 (996)
+T tr|Q8PTN9|Q8PT  355 ARALNRIFPYVSDKSQAYSDIIDLAEKEDNYMLREVARNLSSIHPQFYGEYGTDEMRAEIGEINESGRQNGKKEDKFSGF  434 (996)
+T ss_pred             HHHHHHHcccCCchHHHHHHHHHHhhcCCHHHHHHHHHHHHHhcHhhcCCcCchHHHHhHhhhcccccccCccccccccC
+Confidence            77777766543333334455555566666777777777776663321110                       0011122
+
+
+Q ss_pred             HHhhCCCChHHHHHHHHHHHHHhccC---------------------------CchhHHHHHHHHHhcCCCHHHHHHHHH
+Q tr|Q8PTN9|Q8PT  340 IELTGSEEENIRTTAARALNRIFPYV---------------------------SDKSQAYSDIIDLAEKEDNYMLREVAR  392 (996)
+Q Consensus       340 ~~~l~~~~~~vr~~a~~~L~~l~~~~---------------------------~~~~~~~~~l~~~l~~~~~~vr~~a~~  392 (996)
+                      .....+.++.+|..+..+++.+....                           +.....+..+...+.+.++.+|..++.
+T Consensus       435 ~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ll~~l~~~~~~vr~~a~~  514 (996)
+T tr|Q8PTN9|Q8PT  435 SGPASEKAAFLRRDTATFRGSAPGQHDMGKNREIAEGREMRDEDKAENGQLKGKESKKSAYDFLRLKGEREKYARKDSAG  514 (996)
+T ss_pred             CCChhHHhHHhhccccccccCCCCcccccccccccccccccccchhhhccccCccchhhHHHHHHHhcCccHHHHHHHHH
+Confidence            22223344455555555544332210                           011234555666677778889999998
+
+
+Q ss_pred             HHhhhccccccCCCCchhhhhhcccccccccCCCccccccCCCCCcchhhhhhhhhhhccccCCCCCCCccccchhhccc
+Q tr|Q8PTN9|Q8PT  393 NLSSIHPQFYGEYGTDEMRAEIGEINESGRQNGKKEDKFSGFSGPASEKAAFLRRDTATFRGSAPGQHDMGKNREIAEGR  472 (996)
+Q Consensus       393 ~L~~l~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~  472 (996)
+                      +++.+....+..                       ...+..+.....+.++.++..+..++.........          
+T Consensus       515 ~L~~~~~~~~~~-----------------------~~~~~~L~~~l~~~~~~vr~~a~~~L~~~~~~~~~----------  561 (996)
+T tr|Q8PTN9|Q8PT  515 PFSETYSGIPEK-----------------------KEIIEELLRLSSDPDPQIRRGAIETLLVRYSREAG----------  561 (996)
+T ss_pred             HHHHHhcCCchH-----------------------HHHHHHHHHHcCCCCHHHHHHHHHHHHHHHhcCch----------
+Confidence            888765542210                       00112222222333445555555444433221000          
+
+
+Q ss_pred             cccccccccccccccccccchhHHHHHhccCchHHHHhhhhhHHhhhcCCCchhHHHHHHHHHhhCCCCHHHHHHHHHHH
+Q tr|Q8PTN9|Q8PT  473 EMRDEDKAENGQLKGKESKKSAYDFLRLKGEREKYARKDSAGPFSETYSGIPEKKEIIEELLRLSSDPDPQIRRGAIETL  552 (996)
+Q Consensus       473 ~~~~~~~~~~~~~~~~~~~~~~~~ll~~l~~~~~~vr~~a~~~L~~~~~~~~~~~~~~~~L~~~l~~~~~~vr~~a~~~L  552 (996)
+                                      .....+..+...+.+.++.+|..++..+.......+....+++.+...+.+.++.+|..++.++
+T Consensus       562 ----------------~~~~~~~~L~~~l~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~L~~~l~~~~~~vr~~a~~~L  625 (996)
+T tr|Q8PTN9|Q8PT  562 ----------------KAQDIWNELLRISEDEDTGVRKDAAELLSHVFPAVEEKSGVFFDIIRLVESRDTQLRRRAAELL  625 (996)
+T ss_pred             ----------------hHHHHHHHHHHHhcCCCHHHHHHHHHHHHHHhhhCcchhhHHHHHHHHhcCCCHHHHHHHHHHH
+Confidence                            0112233334444555556666666666555433322223444555555555666666666666
+
+
+Q ss_pred             HHHHhhccchHHHHHHHHHHhcCCCChHHHHHHHHHHHHhhhcCchhhhHHHHHHHHhcCCCHHHHHHHHHHHHHHHhcC
+Q tr|Q8PTN9|Q8PT  553 LVRYSREAGKAQDIWNELLRISEDEDTGVRKDAAELLSHVFPAVEEKSGVFFDIIRLVESRDTQLRRRAAELLPAAFAHS  632 (996)
+Q Consensus       553 ~~~~~~~~~~~~~~~~~L~~~l~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~L~~~l~~~~~~vr~~a~~~L~~~~~~~  632 (996)
+                      +.+....+.. ..+++.+...+.++++.+|..++.+++.+....+....+++.+...+.+.++.+|..++.+++.++...
+T Consensus       626 ~~~~~~~~~~-~~~~~~L~~~l~d~~~~vr~~a~~~L~~~~~~~~~~~~i~~~L~~~l~~~~~~vr~~a~~~L~~l~~~~  704 (996)
+T tr|Q8PTN9|Q8PT  626 PAAFAHSGNK-QRAWNDLVKLTSDEDREVRKGAVLALSSGYPGVPDKGKVWSDLIMLSSHNDSFVQREATRALGPAFFYV  704 (996)
+T ss_pred             HHHHHhCCch-HHHHHHHHHHhcCCCHHHHHHHHHHHHHcCCCCcchHHHHHHHHHHcCCCCHHHHHHHHHHHHHHHhcC
+Confidence            5544322211 344455555555555666666666665544333222234445555555555566666666665554433
+
+
+Q ss_pred             CchHHHHHHHHHHhCCCChhHHHHHHHHHHH
+Q tr|Q8PTN9|Q8PT  633 GNKQRAWNDLVKLTSDEDREVRKGAVLALSS  663 (996)
+Q Consensus       633 ~~~~~~~~~L~~~l~d~~~~vr~~a~~~L~~  663 (996)
+                      +....+++.+...+.++++.||..+..+++.
+T Consensus       705 ~~~~~~~~~l~~~l~d~~~~vr~~a~~~l~~  735 (996)
+T tr|Q8PTN9|Q8PT  705 PDKTMAWRDLQVLVDNPYVYVRRYALRSLGR  735 (996)
+T ss_pred             CCHHHHHHHHHHHHcCCCHHHHHHHHHHHHH
+Confidence            3333445555555555555566555555554
+
+
+No 9
+>tr|Q8PZI8|Q8PZI8_METMA Phycocyanin alpha-subunit phycocyanobilin lyase OS=Methanosarcina mazei (strain ATCC BAA-159 / DSM 3647 / Goe1 / Go1 / JCM 11833 / OCM 88) GN=MM_0504 PE=4 SV=1
+Probab=99.87  E-value=1.3e-21  Score=238.80  Aligned_cols=384  Identities=22%  Similarity=0.233  Sum_probs=200.5  Template_Neff=11.900
+
+Q ss_pred             hHHHHHHhhcCCcHHHHHHHHHHHHHHhccCCChHHHHHHHHHHhhcCChHHHHHHHHHHHHHhhccChHHHHHHHHHHh
+Q tr|Q8PTN9|Q8PT  263 AWDTIFRFTGDERETVRKQAMDALVSISTEMSDKSRVWSDFIKLTEAQDEYVRDRAVDALSSVYQCLENKDAAWKELIEL  342 (996)
+Q Consensus       263 ~~~~l~~~l~~~~~~vr~~a~~~L~~~~~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~L~~~~~~~~~~~~~l~~l~~~  342 (996)
+                      .++.+...+.+.++.+|..++.++..+....+.....++.+...+.+.++.+|..++.+++.+.     ....+..+...
+T Consensus       743 ~~~~l~~~l~~~~~~vr~~a~~~L~~~~~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~l~~~~-----~~~~~~~l~~~  817 (1142)
+T tr|Q8PZI8|Q8PZ  743 ALEHLISALSDEDEFVRKAAAEALGEIVPEIADSGTAADALVRMLNDKSHFVRLEAAKALGMIR-----FREAIYPLLFV  817 (1142)
+T ss_pred             HHHHHHHHccCCCHHHHHHHHHHHHHHhHHhcccccHHHHHHHHhcCCCHHHHHHHHHHHhhhc-----chhhHHHHHHH
+Confidence            3444445555555666666666666554332211223344444455555666666666665542     12233334444
+
+
+Q ss_pred             hCCCChHHHHHHHHHHHHHhccCCchhHHHHHHHHHhcCCCHHHHHHHHHHHhhhccccccCCCCchhhhhhcccccccc
+Q tr|Q8PTN9|Q8PT  343 TGSEEENIRTTAARALNRIFPYVSDKSQAYSDIIDLAEKEDNYMLREVARNLSSIHPQFYGEYGTDEMRAEIGEINESGR  422 (996)
+Q Consensus       343 l~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~~~~l~~~~~~~~  422 (996)
+                      +.+.++.+|..++.+++.+..     ...++.+...+.+.++.+|..++.++..+.........                
+T Consensus       818 l~~~~~~vr~~a~~~L~~~~~-----~~~~~~l~~~l~~~~~~vr~~a~~~l~~~~~~~~~~~~----------------  876 (1142)
+T tr|Q8PZI8|Q8PZ  818 LGDENRFVRKEAAKAIGQLES-----ERVLELLSQALMSENQFVRQGAARALGQMNPDGNRNQM----------------  876 (1142)
+T ss_pred             hCCCCHHHHHHHHHHHHccCC-----HHHHHHHHHHhcCCCHHHHHHHHHHHHhhCCCCChhhc----------------
+Confidence            455556666666666665543     22334444455555566666666666555432111000                
+
+
+Q ss_pred             cCCCccccccCCCCCcchhhhhhhhhhhccccCCCCCCCccccchhhccccccccccccccccccccccchhHHHHHhcc
+Q tr|Q8PTN9|Q8PT  423 QNGKKEDKFSGFSGPASEKAAFLRRDTATFRGSAPGQHDMGKNREIAEGREMRDEDKAENGQLKGKESKKSAYDFLRLKG  502 (996)
+Q Consensus       423 ~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ll~~l~  502 (996)
+                          ....+..+.....+.++.++..+..++..+....                             ....+..+...+.
+T Consensus       877 ----~~~~~~~l~~~l~~~~~~vr~~a~~~l~~l~~~~-----------------------------~~~~~~~l~~~l~  923 (1142)
+T tr|Q8PZI8|Q8PZ  877 ----SDKVFDSLDSAFEDKDKLVRREAARSLENISKNM-----------------------------PERAFKSLINALD  923 (1142)
+T ss_pred             ----cHHHHHHHHHHhcCCCHHHHHHHHHHHHHHHhcC-----------------------------cHHHHHHHHHHhc
+Confidence                0011122222222333444444444433322110                             0112233334445
+
+
+Q ss_pred             CchHHHHhhhhhHHhhhcCCCchhHHHHHHHHHhhCCCCHHHHHHHHHHHHHHHhhccchHHHHHHHHHH-hcCCCChHH
+Q tr|Q8PTN9|Q8PT  503 EREKYARKDSAGPFSETYSGIPEKKEIIEELLRLSSDPDPQIRRGAIETLLVRYSREAGKAQDIWNELLR-ISEDEDTGV  581 (996)
+Q Consensus       503 ~~~~~vr~~a~~~L~~~~~~~~~~~~~~~~L~~~l~~~~~~vr~~a~~~L~~~~~~~~~~~~~~~~~L~~-~l~~~~~~v  581 (996)
+                      +.++.+|..++..+.....     ...++.+...+.+.++.+|..++.++..+..      ...+..+.. ...+.++.+
+T Consensus       924 ~~~~~~r~~a~~~l~~~~~-----~~~~~~l~~~l~~~~~~vr~~a~~~L~~~~~------~~~~~~ll~~l~~~~~~~v  992 (1142)
+T tr|Q8PZI8|Q8PZ  924 DEDDEVRRLLAGILTCLGS-----EKAVPRLVSALKSHDPVVRRFAAEALGQTGS------EKAIEPLIDTMLSDTIGFV  992 (1142)
+T ss_pred             CCCHHHHHHHHHHHHHhCC-----CchHHHHHHHhcCCCHHHHHHHHHHHHHhcC------hhhHHHHHHHHhcCCCHHH
+Confidence            5556666666666554321     2344555556666666777777777766543      222223332 334455667
+
+
+Q ss_pred             HHHHHHHHHHhhhcCchhhhHHHHHHHHhcCCCHHHHHHHHHHHHHHHhcCCchHHHHHHHHHHhCCCChhHHHHHHHHH
+Q tr|Q8PTN9|Q8PT  582 RKDAAELLSHVFPAVEEKSGVFFDIIRLVESRDTQLRRRAAELLPAAFAHSGNKQRAWNDLVKLTSDEDREVRKGAVLAL  661 (996)
+Q Consensus       582 r~~a~~~L~~l~~~~~~~~~~~~~L~~~l~~~~~~vr~~a~~~L~~~~~~~~~~~~~~~~L~~~l~d~~~~vr~~a~~~L  661 (996)
+                      |..++.+++.+...     ..+..+...+.+.++.+|..++.+++.+..     ...++.+...+.++++.+|..++.++
+T Consensus       993 r~~a~~~L~~l~~~-----~~~~~l~~~l~~~~~~~r~~a~~~L~~l~~-----~~~~~~l~~~l~~~~~~vr~~a~~~L 1062 (1142)
+T tr|Q8PZI8|Q8PZ  993 KGEAARALGKIHSG-----KAVEPLVSALLDENNEGKWGAAEALGRIKA-----ESAAAPLILALEDKDDFTRLAAAKAL 1062 (1142)
+T ss_pred             HHHHHHHHHHhcCC-----ccHHHHHHHhcCCCHHHHHHHHHHHHHHcc-----hhcHHHHHHHhcCCCHHHHHHHHHHH
+Confidence            77777776665431     344555555666666777777777765432     23455566666667777777777777
+
+
+Q ss_pred             HHhCCCCCchhhHHHHHHHhcCCCChHHHHHHHHHHHHhhccCCCHHHHHHHHHHHhcCCChHHHHHHHHHHHHH
+Q tr|Q8PTN9|Q8PT  662 SSGYPGVPDKGKVWSDLIMLSSHNDSFVQREATRALGPAFFYVPDKTMAWRDLQVLVDNPYVYVRRYALRSLGRA  736 (996)
+Q Consensus       662 ~~~~~~~~~~~~i~~~L~~~l~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~l~~~l~d~~~~vr~~a~~~l~~l  736 (996)
+                      +.+...     .+++.+...+.+.++.+|..++.+|+.+...     ...+.+...+.++++.+|..+..+++.+
+T Consensus      1063 ~~~~~~-----~~~~~l~~~l~~~~~~vr~~a~~~L~~l~~~-----~~~~~l~~~l~~~~~~vr~~a~~~l~~l 1127 (1142)
+T tr|Q8PZI8|Q8PZ 1063 GRIKPK-----KAIEPLINTLYDQNRFVKAEAAGALMKICTK-----EDKEQMQNLLDSENELAANLAFEILEEI 1127 (1142)
+T ss_pred             HhhCCc-----ccHHHHHHHhhCCCHHHHHHHHHHHHHHccc-----ccHHHHHHHhcCCCHHHHHHHHHHHHHh
+Confidence            665432     4555566666667777777777777776432     2334455556666777777777777665
+
+
+No 10
+>tr|Q8PZI8|Q8PZI8_METMA Phycocyanin alpha-subunit phycocyanobilin lyase OS=Methanosarcina mazei (strain ATCC BAA-159 / DSM 3647 / Goe1 / Go1 / JCM 11833 / OCM 88) GN=MM_0504 PE=4 SV=1
+Probab=99.79  E-value=2.8e-18  Score=208.23  Aligned_cols=533  Identities=22%  Similarity=0.210  Sum_probs=242.0  Template_Neff=11.900
+
+Q ss_pred             HHHhhcCCChHHHHHHHHHHHHhccCCCchhHHHHHHHHHhcCCCcHHHHHHHHHHHHHHHhhcCCchHHHHHHHHHhhc
+Q tr|Q8PTN9|Q8PT   79 FVNLTAYPVEQVFAAAVSALITVFPLVPDKDRAWKDLIELINSKSSIEDVSRGIVSSLQNAISEYPDREHAWKDLLEMTA  158 (996)
+Q Consensus        79 l~~~l~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~l~~~l~~~~~~~~vr~~a~~~l~~~~~~~~~~~~~~~~L~~~l~  158 (996)
+                      +...+.+.++.+|..+...++.+...     ..++.+...+.+++.  .+|..|+.++..+..     ...++.+...+.
+T Consensus       530 l~~~l~~~~~~vr~~a~~~l~~~~~~-----~~~~~l~~~l~~~~~--~vr~~a~~~L~~~~~-----~~~~~~L~~~l~  597 (1142)
+T tr|Q8PZI8|Q8PZ  530 SSKVLENRDTGIKREAVRILGETKSR-----TALAPLTAALGDEDY--SVRIEAVKALSLIGS-----EKVVEVLTDALG  597 (1142)
+T ss_pred             HHHHHcCCCHHHHHHHHHHHhhcCCh-----hHHHHHHHHhCCCCH--HHHHHHHHHHHhhCC-----hhHHHHHHHHhc
+Confidence            44444455555666555555544321     234444555555444  566666665554332     233444555555
+
+
+Q ss_pred             CCCHHHHHHHHHHHHhhhcCCCcchhhHHHHHHHHHhcCCCChHHHHHHHHHHHHHhhcCCcccccchHHHHHHhhcCCC
+Q tr|Q8PTN9|Q8PT  159 SEDPYARKKAASLLSTVFPGLPEGKKTKAWKDLLGLAGEKGDSQVSEQASKAIREVFPFLPDEKKDEGWEEMLELAGGSA  238 (996)
+Q Consensus       159 d~~~~vr~~a~~~L~~~~~~~~~~~~~~~~~~ll~~l~~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~~~l~~~l~~~~  238 (996)
+                      ++++.+|..++.++..+...       .....+... ..+.++.+|..++..+..+...       .....+...+ .+.
+T Consensus       598 ~~~~~vr~~a~~~l~~~~~~-------~~~~~l~~~-l~~~~~~vr~~a~~~L~~~~~~-------~~~~~l~~~l-~~~  661 (1142)
+T tr|Q8PZI8|Q8PZ  598 DRNRAVRLEATDALVKIGSK-------KALEVLVLA-LGSKDDFVRFGAIGALSRANPR-------EAADPLIKAF-QEE  661 (1142)
+T ss_pred             CCCHHHHHHHHHHHHHhCCH-------HHHHHHHHH-hCCCCHHHHHHHHHHHHhcCch-------HhHHHHHHHh-cCC
+Confidence            56666666666666655321       011112221 2233455555555555443221       0011111111 123
+
+
+Q ss_pred             chhHHhhHhhhhhhhhcCCCcccchHHHHHHhhcCCcHHHHHHHHHHHHHHhccCCChHHHHHHHHHHhhcCChHHHHHH
+Q tr|Q8PTN9|Q8PT  239 DHVARMKILPFLPSVFSSVPDKNKAWDTIFRFTGDERETVRKQAMDALVSISTEMSDKSRVWSDFIKLTEAQDEYVRDRA  318 (996)
+Q Consensus       239 ~~~~~~~a~~~l~~~~~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~L~~~~~~~~~~~~~~~~l~~~l~~~~~~vr~~a  318 (996)
+                      +..++..++.++..+..     ...++.+...+.+.++.+|..++.++..+...     .....+...+.+.++.+|..+
+T Consensus       662 ~~~vr~~a~~~l~~~~~-----~~~~~~l~~~l~~~~~~vr~~a~~~L~~~~~~-----~~~~~l~~~l~~~~~~vr~~a  731 (1142)
+T tr|Q8PZI8|Q8PZ  662 NKLVRLGAAEALGQMGS-----ERAVEPFLVALQDEDEFVRWIAAKALGKIKSD-----RVSERFTDILEDKSHYVRREA  731 (1142)
+T ss_pred             CHHHHHHHHHHHHhhCC-----hhHHHHHHHHhcCCCHHHHHHHHHHHhhcccc-----cHHHHHHHHhhCCCHHHHHHH
+Confidence            34444444444443321     22333444444555556666666655554331     122233344445555566666
+
+
+Q ss_pred             HHHHHHHhhccChHHHHHHHHHHhhCCCChHHHHHHHHHHHHHhccCCchhHHHHHHHHHhcCCCHHHHHHHHHHHhhhc
+Q tr|Q8PTN9|Q8PT  319 VDALSSVYQCLENKDAAWKELIELTGSEEENIRTTAARALNRIFPYVSDKSQAYSDIIDLAEKEDNYMLREVARNLSSIH  398 (996)
+Q Consensus       319 ~~~L~~~~~~~~~~~~~l~~l~~~l~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~L~~l~  398 (996)
+                      +.+++.+.     ....+..+...+.+.++.+|..++.+++.+....+.....++.+...+.+.++.+|..++.+++.+.
+T Consensus       732 ~~~l~~~~-----~~~~~~~l~~~l~~~~~~vr~~a~~~L~~~~~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~l~~~~  806 (1142)
+T tr|Q8PZI8|Q8PZ  732 AKAIGTAC-----SDKALEHLISALSDEDEFVRKAAAEALGEIVPEIADSGTAADALVRMLNDKSHFVRLEAAKALGMIR  806 (1142)
+T ss_pred             HHHHHHhc-----CHHHHHHHHHHccCCCHHHHHHHHHHHHHHhHHhcccccHHHHHHHHhcCCCHHHHHHHHHHHhhhc
+Confidence            66555542     1223344444445555566666666666554432222233344444555555566666666655542
+
+
+Q ss_pred             cccccCCCCchhhhhhcccccccccCCCccccccCCCCCcchhhhhhhhhhhccccCCCCCCCccccchhhccccccccc
+Q tr|Q8PTN9|Q8PT  399 PQFYGEYGTDEMRAEIGEINESGRQNGKKEDKFSGFSGPASEKAAFLRRDTATFRGSAPGQHDMGKNREIAEGREMRDED  478 (996)
+Q Consensus       399 ~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~  478 (996)
+                      ...                            .+..+.....+.++.++..+..++......                   
+T Consensus       807 ~~~----------------------------~~~~l~~~l~~~~~~vr~~a~~~L~~~~~~-------------------  839 (1142)
+T tr|Q8PZI8|Q8PZ  807 FRE----------------------------AIYPLLFVLGDENRFVRKEAAKAIGQLESE-------------------  839 (1142)
+T ss_pred             chh----------------------------hHHHHHHHhCCCCHHHHHHHHHHHHccCCH-------------------
+Confidence            210                            001111111223334444444444332211                   
+
+
+Q ss_pred             cccccccccccccchhHHHHHhccCchHHHHhhhhhHHhhhcCCCc---hhHHHHHHHHHhhCCCCHHHHHHHHHHHHHH
+Q tr|Q8PTN9|Q8PT  479 KAENGQLKGKESKKSAYDFLRLKGEREKYARKDSAGPFSETYSGIP---EKKEIIEELLRLSSDPDPQIRRGAIETLLVR  555 (996)
+Q Consensus       479 ~~~~~~~~~~~~~~~~~~ll~~l~~~~~~vr~~a~~~L~~~~~~~~---~~~~~~~~L~~~l~~~~~~vr~~a~~~L~~~  555 (996)
+                                   .....+...+.+.++.+|..++.++.......+   ....+++.+...+.+.++.+|..++.++..+
+T Consensus       840 -------------~~~~~l~~~l~~~~~~vr~~a~~~l~~~~~~~~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~l~~l  906 (1142)
+T tr|Q8PZI8|Q8PZ  840 -------------RVLELLSQALMSENQFVRQGAARALGQMNPDGNRNQMSDKVFDSLDSAFEDKDKLVRREAARSLENI  906 (1142)
+T ss_pred             -------------HHHHHHHHHhcCCCHHHHHHHHHHHHhhCCCCChhhccHHHHHHHHHHhcCCCHHHHHHHHHHHHHH
+Confidence                         112222333444445555555555554332211   1122344444555555556666666665554
+
+
+Q ss_pred             HhhccchHHHHHHHHHHhcCCCChHHHHHHHHHHHHhhhcCchhhhHHHHHHHHhcCCCHHHHHHHHHHHHHHHhcCCch
+Q tr|Q8PTN9|Q8PT  556 YSREAGKAQDIWNELLRISEDEDTGVRKDAAELLSHVFPAVEEKSGVFFDIIRLVESRDTQLRRRAAELLPAAFAHSGNK  635 (996)
+Q Consensus       556 ~~~~~~~~~~~~~~L~~~l~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~L~~~l~~~~~~vr~~a~~~L~~~~~~~~~~  635 (996)
+                      ....+   ...++.+...+.+.++.+|..++.+++.+...     ...+.+...+.+.++.+|..++.+++.+..     
+T Consensus       907 ~~~~~---~~~~~~l~~~l~~~~~~~r~~a~~~l~~~~~~-----~~~~~l~~~l~~~~~~vr~~a~~~L~~~~~-----  973 (1142)
+T tr|Q8PZI8|Q8PZ  907 SKNMP---ERAFKSLINALDDEDDEVRRLLAGILTCLGSE-----KAVPRLVSALKSHDPVVRRFAAEALGQTGS-----  973 (1142)
+T ss_pred             HhcCc---HHHHHHHHHHhcCCCHHHHHHHHHHHHHhCCC-----chHHHHHHHhcCCCHHHHHHHHHHHHHhcC-----
+Confidence            43222   22334444444555555666665555555321     233444444555555666666665554321     
+
+
+Q ss_pred             HHHHHHHHH-HhCCCChhHHHHHHHHHHHhCCCCCchhhHHHHHHHhcCCCChHHHHHHHHHHHHhhccCCCHHHHHHHH
+Q tr|Q8PTN9|Q8PT  636 QRAWNDLVK-LTSDEDREVRKGAVLALSSGYPGVPDKGKVWSDLIMLSSHNDSFVQREATRALGPAFFYVPDKTMAWRDL  714 (996)
+Q Consensus       636 ~~~~~~L~~-~l~d~~~~vr~~a~~~L~~~~~~~~~~~~i~~~L~~~l~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~l  714 (996)
+                      ...++.+.. +..++++.+|..++.+++.+...     ..++.+...+.+.++.+|..++.+|+.+..     ...++.+
+T Consensus       974 ~~~~~~ll~~l~~~~~~~vr~~a~~~L~~l~~~-----~~~~~l~~~l~~~~~~~r~~a~~~L~~l~~-----~~~~~~l 1043 (1142)
+T tr|Q8PZI8|Q8PZ  974 EKAIEPLIDTMLSDTIGFVKGEAARALGKIHSG-----KAVEPLVSALLDENNEGKWGAAEALGRIKA-----ESAAAPL 1043 (1142)
+T ss_pred             hhhHHHHHHHHhcCCCHHHHHHHHHHHHHhcCC-----ccHHHHHHHhcCCCHHHHHHHHHHHHHHcc-----hhcHHHH
+Confidence            111222222 23344555666666555543221     334445555555555666666666655532     1234444
+
+
+Q ss_pred             HHHhcCCChHHHHHHHHHHHHHH
+Q tr|Q8PTN9|Q8PT  715 QVLVDNPYVYVRRYALRSLGRAS  737 (996)
+Q Consensus       715 ~~~l~d~~~~vr~~a~~~l~~l~  737 (996)
+                      ...+.+.++.+|..++.+++.+.
+T Consensus      1044 ~~~l~~~~~~vr~~a~~~L~~~~ 1066 (1142)
+T tr|Q8PZI8|Q8PZ 1044 ILALEDKDDFTRLAAAKALGRIK 1066 (1142)
+T ss_pred             HHHhcCCCHHHHHHHHHHHHhhC
+Confidence            45555555566666666555543
+
+
+No 11
+>tr|Q8PVD7|Q8PVD7_METMA Uncharacterized protein OS=Methanosarcina mazei (strain ATCC BAA-159 / DSM 3647 / Goe1 / Go1 / JCM 11833 / OCM 88) GN=MM_2028 PE=4 SV=1
+Probab=99.75  E-value=4.1e-17  Score=193.71  Aligned_cols=426  Identities=31%  Similarity=0.517  Sum_probs=292.9  Template_Neff=10.900
+
+Q ss_pred             chHHHHHHhhcCCcHHHHHHHHHHHHHHhccCCChHHHHHHHHHHhhcCChHHHHHHHHHHHHHhhccChHHHHHHHHHH
+Q tr|Q8PTN9|Q8PT  262 KAWDTIFRFTGDERETVRKQAMDALVSISTEMSDKSRVWSDFIKLTEAQDEYVRDRAVDALSSVYQCLENKDAAWKELIE  341 (996)
+Q Consensus       262 ~~~~~l~~~l~~~~~~vr~~a~~~L~~~~~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~L~~~~~~~~~~~~~l~~l~~  341 (996)
+                      ..++.+...+.++++.+|..++..+..+....+.....++.+...+.++++.+|..++.+|+.+....+.....+..+..
+T Consensus         6 ~~l~~L~~~L~~~~~~vr~~A~~~L~~l~~~~~~~~~~~~~L~~~l~~~~~~vr~~a~~~L~~~~~~~~~~~~~~~~L~~   85 (1001)
+T tr|Q8PVD7|Q8PV    6 QAWNDLQGLINDKYTPVRLKAADALVSAYPHVPDKQQAWNDLQGLINDKNSYMRARVAKALSSEFSQMPDKQKAWNDLIK   85 (1001)
+T ss_pred             HHHHHHHHHhcCCCHHHHHHHHHHHHHHcccCCchHHHHHHHHHHHcCCCHHHHHHHHHHHHHHHhcCCchhHHHHHHHH
+Confidence            34556666666777778888887777776543333345556666667777778888888777765433333345566666
+
+
+Q ss_pred             hhCCCChHHHHHHHHHHHHHhccCCchhHHHHHHHHHhcCCCHHHHHHHHHHHhhhccccccCCCCchhhhhhccccccc
+Q tr|Q8PTN9|Q8PT  342 LTGSEEENIRTTAARALNRIFPYVSDKSQAYSDIIDLAEKEDNYMLREVARNLSSIHPQFYGEYGTDEMRAEIGEINESG  421 (996)
+Q Consensus       342 ~l~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~~~~l~~~~~~~  421 (996)
+                      .+.+.++.+|..++.+++.+....+.....++.+...+.+.++.+|..++.+++.+....+..                 
+T Consensus        86 ~l~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~L~~~l~~~~~~vr~~a~~~L~~l~~~~~~~-----------------  148 (1001)
+T tr|Q8PVD7|Q8PV   86 LTNDKNSYVRSSAASALGSAFSQVPDKQQAWHDLHGLTNNKNSDVRSSAAKALGYAFSQVPDK-----------------  148 (1001)
+T ss_pred             HhcCCCHHHHHHHHHHHHHHHhcCCChHHHHHHHHHHhcCCCHHHHHHHHHHHHHHHhhCCCH-----------------
+Confidence            666777778888888887776644433445566666666777778888877777764321110                 
+
+
+Q ss_pred             ccCCCccccccCCCCCcchhhhhhhhhhhccccCCCCCCCccccchhhccccccccccccccccccccccchhHHHHHhc
+Q tr|Q8PTN9|Q8PT  422 RQNGKKEDKFSGFSGPASEKAAFLRRDTATFRGSAPGQHDMGKNREIAEGREMRDEDKAENGQLKGKESKKSAYDFLRLK  501 (996)
+Q Consensus       422 ~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ll~~l  501 (996)
+                            ...+..+.....+.++.++..+..++..+....                           ......+..+...+
+T Consensus       149 ------~~~~~~L~~~l~~~~~~vr~~a~~~L~~l~~~~---------------------------~~~~~~~~~L~~~l  195 (1001)
+T tr|Q8PVD7|Q8PV  149 ------QQACDDLHRLTNDEDINVKSRAAEALGYAFSQV---------------------------PDKQQAWHDLHRLT  195 (1001)
+T ss_pred             ------HHHHHHHHHHhcCCCHHHHHHHHHHHHHHhhcC---------------------------CchHHHHHHHHHHH
+Confidence                  011122222223344455555555544332210                           01124556666777
+
+
+Q ss_pred             cCchHHHHhhhhhHHhhhcCCCchhHHHHHHHHHhhCCCCHHHHHHHHHHHHHHHhhccchHHHHHHHHHHhcCCCChHH
+Q tr|Q8PTN9|Q8PT  502 GEREKYARKDSAGPFSETYSGIPEKKEIIEELLRLSSDPDPQIRRGAIETLLVRYSREAGKAQDIWNELLRISEDEDTGV  581 (996)
+Q Consensus       502 ~~~~~~vr~~a~~~L~~~~~~~~~~~~~~~~L~~~l~~~~~~vr~~a~~~L~~~~~~~~~~~~~~~~~L~~~l~~~~~~v  581 (996)
+                      .+.++.+|..++.++.......+.....++.+...+.+.++.+|..++.++..+....+.. ...++.+...+.+.++.+
+T Consensus       196 ~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~L~~~l~~~~~~vr~~a~~~L~~~~~~~~~~-~~~~~~L~~~l~~~~~~v  274 (1001)
+T tr|Q8PVD7|Q8PV  196 NNKNSYVRSSAAEALGYAFSQVPDKQQACDDLHRLTNDEDIYVRSSAAKALGYAFSQVSDK-QQAWDDLIKLTNDKYSPV  274 (1001)
+T ss_pred             cCCCHHHHHHHHHHHHHHHhhCCcHHHHHHHHHHHccCCCHHHHHHHHHHHHHHhhcCCch-HHHHHHHHHHhcCCCHHH
+Confidence            7888889999988888766544444456777788888888889999999888876543221 456777777888888889
+
+
+Q ss_pred             HHHHHHHHHHhhhcCchhhhHHHHHHHHhcCCCHHHHHHHHHHHHHHHhcCCchHHHHHHHHHHhCCCChhHHHHHHHHH
+Q tr|Q8PTN9|Q8PT  582 RKDAAELLSHVFPAVEEKSGVFFDIIRLVESRDTQLRRRAAELLPAAFAHSGNKQRAWNDLVKLTSDEDREVRKGAVLAL  661 (996)
+Q Consensus       582 r~~a~~~L~~l~~~~~~~~~~~~~L~~~l~~~~~~vr~~a~~~L~~~~~~~~~~~~~~~~L~~~l~d~~~~vr~~a~~~L  661 (996)
+                      |..++.+++.+....+.....+..+...+.+.++.+|..++.+++.++.........++.+...+.++++.+|..++.++
+T Consensus       275 r~~a~~~L~~l~~~~~~~~~~~~~L~~~l~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~L  354 (1001)
+T tr|Q8PVD7|Q8PV  275 RSKAAETLCSVFSQVPDKQQAWNELHRLTNDENGSVRFSAVTAFDLAYPYILNKQQAWDDLIKRTHDKDIIVKSNAADAL  354 (1001)
+T ss_pred             HHHHHHHHHHHHhhCCChHHHHHHHHHHhcCCCHHHHHHHHHHHHHHhhhccchhhHHHHHHHHhcCCCHHHHHHHHHHH
+Confidence            99999999888765554445667777778888888999999998887655444566788888888888899999999999
+
+
+Q ss_pred             HHhCCCCCchhhHHHHHHHhcCCCChHHHHHHHHHHHHhhccCCCHHHHHHHHHHHhcCCChHHHHHHHHHHHHHHH
+Q tr|Q8PTN9|Q8PT  662 SSGYPGVPDKGKVWSDLIMLSSHNDSFVQREATRALGPAFFYVPDKTMAWRDLQVLVDNPYVYVRRYALRSLGRASL  738 (996)
+Q Consensus       662 ~~~~~~~~~~~~i~~~L~~~l~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~l~~~l~d~~~~vr~~a~~~l~~l~~  738 (996)
+                      +.+....+....+++.+...+.+.++.+|..++.+|+.+....+....+++.+...+.+.+..+|..++.+++.+..
+T Consensus       355 ~~l~~~~~~~~~~~~~L~~~l~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~L~~~l~~~~~~vr~~a~~~L~~l~~  431 (1001)
+T tr|Q8PVD7|Q8PV  355 VSVYPHVPDKQQAWNNLLRLIYDKNSYVRARAASALGSVYPQVPDKQQAWNDLHRLTNDENVYIRFCVASALGYAFS  431 (1001)
+T ss_pred             HHHcccCCCHHHHHHHHHHHHhCCCHHHHHHHHHHHHHHhccCCChHHHHHHHHHHhcCCCHHHHHHHHHHHHHHHh
+Confidence            88766544445677888888888888999999999998877655445677778888888888899999888887753
+
+
+No 12
+>tr|Q8Q0U7|Q8Q0U7_METMA Conserved protein OS=Methanosarcina mazei (strain ATCC BAA-159 / DSM 3647 / Goe1 / Go1 / JCM 11833 / OCM 88) GN=MM_0035 PE=4 SV=1
+Probab=99.74  E-value=6.8e-18  Score=195.35  Aligned_cols=497  Identities=23%  Similarity=0.372  Sum_probs=314.8  Template_Neff=9.500
+
+Q ss_pred             cchhhhccCCChHHHHHHHHHHHHHHhhCccHHHHHHHHHHhhcCCChhHHHHHHHHHHHhccCCchhhhhHHHHHHhhc
+Q tr|Q8PTN9|Q8PT    5 PGIHDKTFSQESDDRIKAAKQLGALFEVFPDRKQAFEDLLRLCSDRDSEVRVEAINSLTTVFPNVPEKELTWERFVNLTA   84 (996)
+Q Consensus         5 ~~l~~~l~~~~~~~r~~Al~~l~~~~~~~~~~~~~~~~L~~~l~~~~~~vR~~a~~~L~~l~~~~~~~~~~~~~l~~~l~   84 (996)
+                      +.+...+.++++.+|..|+..+..+....+.....++.+..++.++++.+|..++.+++.++...+.....++.+..++.
+T Consensus        78 ~~Ll~ll~d~~~~vR~~a~~~L~~l~~~~~~~~~~~~~Ll~~l~~~d~~vR~~a~~~L~~l~~~~~~~~~~~~~L~~ll~  157 (885)
+T tr|Q8Q0U7|Q8Q0   78 SDLVVLSRSNYANVREVTTKILVSVFPQVSSKDEAWKDLGKLALEDDYETKQVAAKVIGSVFPYIPEKNEAWERLRNLTI  157 (885)
+T ss_pred             HHHHHHhcCCCHHHHHHHHHHHHHHhhcCCChhHHHHHHHHHhcCCCHHHHHHHHHHHHHHcccCchhhHHHHHHHHHcc
+Confidence            34556677888999999999999987654433456788888889999999999999999998766544456677777777
+
+
+Q ss_pred             CCChHHHHHHHHHHHHhccCCCchhHHHHHHHHHhcCCCcHHHHHHHHHHHHHHHhhcCCchHHHHHHHHHhhcCCCHHH
+Q tr|Q8PTN9|Q8PT   85 YPVEQVFAAAVSALITVFPLVPDKDRAWKDLIELINSKSSIEDVSRGIVSSLQNAISEYPDREHAWKDLLEMTASEDPYA  164 (996)
+Q Consensus        85 ~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~l~~~l~~~~~~~~vr~~a~~~l~~~~~~~~~~~~~~~~L~~~l~d~~~~v  164 (996)
+                      +++..+|..+..+|..+....+.....++.+...+.+.+.  .+|..++.++..++...+.....+..+...+.+++..+
+T Consensus       158 d~~~~vr~~Al~aL~~l~~~~~~~~~~~~~L~~ll~d~d~--~Vr~~a~~~L~~l~~~~~~~~~~~~~L~~ll~~~~~~v  235 (885)
+T tr|Q8Q0U7|Q8Q0  158 DEDVNVIRSAVNAFQFVFPYSPNKTETWKELHCLVYNDDN--EVRQITAKVIGSVFQHIPEKKEALEDLHKLTLDDDVNV  235 (885)
+T ss_pred             CCCHHHHHHHHHHHHHHhhhCCChHHHHHHHHHHhcCCCH--HHHHHHHHHHHHHhccChhHHHHHHHHHHHccCCCHHH
+Confidence            8888999999999998887665544567777777777766  89999999998877665544556677777788888899
+
+
+Q ss_pred             HHHHHHHHHhhhcCCCcchhhHHHHHHHHHhcCCCChHHHHHHHHHHHHHhhcCCcccccchHHHHHHhhcCCCchhHHh
+Q tr|Q8PTN9|Q8PT  165 RKKAASLLSTVFPGLPEGKKTKAWKDLLGLAGEKGDSQVSEQASKAIREVFPFLPDEKKDEGWEEMLELAGGSADHVARM  244 (996)
+Q Consensus       165 r~~a~~~L~~~~~~~~~~~~~~~~~~ll~~l~~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~~~l~~~l~~~~~~~~~~  244 (996)
+                      |..++.+++.+....+.  ....+..+...+ .+.++.+|..++.++..+....+..  ...+..+...+. ..+...+.
+T Consensus       236 r~~a~~~L~~l~~~~~~--~~~~~~~L~~ll-~d~~~~VR~~A~~~L~~l~~~~~~~--~~~~~~l~~~l~-~~~~~~~~  309 (885)
+T tr|Q8Q0U7|Q8Q0  236 KRSAAAALGSIFPYASE--QEKIWTDLMKLI-SYNDTIVESNAKHSFESTLDYLVEK--EGLFKNSQQNLY-GENDDENE  309 (885)
+T ss_pred             HHHHHHHHHHHhhhcch--HHHHHHHHHHHH-cCCCHHHHHHHHHHHHHHHHHHHhh--hcHHHHHHHHhc-CCCchHHH
+Confidence            99999999988776543  233444455443 4567899999999998887643321  112222222222 22233444
+
+
+Q ss_pred             hHhhhhhhhhcCCCcccchHHHHHHhhcCCcHHHHHHHHHHHHHHhccCCChHHHHHHHHHHhhcCChHHHHHHHHHHHH
+Q tr|Q8PTN9|Q8PT  245 KILPFLPSVFSSVPDKNKAWDTIFRFTGDERETVRKQAMDALVSISTEMSDKSRVWSDFIKLTEAQDEYVRDRAVDALSS  324 (996)
+Q Consensus       245 ~a~~~l~~~~~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~L~~~~~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~L~~  324 (996)
+                      .+...+..++...+.....++.+...+.+.++.+|..++.+|+.+....+.....+..+.....+.      .+...+..
+T Consensus       310 ~a~~~L~~~~~~~~~~~~~~~~L~~ll~d~d~~vr~~A~~aL~~l~~~~~~~~~~~~~l~~l~~~~------~~~~~L~~  383 (885)
+T tr|Q8Q0U7|Q8Q0  310 CNGSSLTTVLLDVLNKEDSWNNLTSIIHHKSSESWKTAMKVITYIFPVITNKMQTWNDLYKCVQIG------KEVNYLLS  383 (885)
+T ss_pred             HHHHHHHHHHcccCChhhhHHHHHHHHhcCCHHHHHHHHHHHHHHHHhcccchhhHHHHHHHhhch------hHHHHHHH
+Confidence            455555555444333345666777777788889999999999887654433322333333333221      12222332
+
+
+Q ss_pred             HhhccChHHHHHHHHHHhhCCCChHHHHHH-HHHHHHHhccCCchhHHHHHHHHHhcCCCHHHHHHHHHHHhhhcccccc
+Q tr|Q8PTN9|Q8PT  325 VYQCLENKDAAWKELIELTGSEEENIRTTA-ARALNRIFPYVSDKSQAYSDIIDLAEKEDNYMLREVARNLSSIHPQFYG  403 (996)
+Q Consensus       325 ~~~~~~~~~~~l~~l~~~l~~~~~~vr~~a-~~~L~~l~~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~L~~l~~~~~~  403 (996)
+                      .+...+.....+..+..++.+.++.+|..+ +.+++......+.....++.+...+.+.++.+|..|+.+|+.+....+.
+T Consensus       384 ~~~~l~~~~~~~~~L~~ll~d~~~~vR~~a~l~~L~~~~~~l~~~~~~l~~L~~~l~d~d~~VR~~A~~aLg~l~~~~~~  463 (885)
+T tr|Q8Q0U7|Q8Q0  384 VFAYVPDKEKALEDLVKLNSEMETERKWGSLIVSTIEEFINKLDKEQVYKSLQKLLLSENTYVKKTTISVLVSLFPSLPD  463 (885)
+T ss_pred             HhhcCCCHHHHHHHHHHHhcCCcHHHHHHHHHHHHHHHHhccCCHHHHHHHHHHHhcCCCHHHHHHHHHHHHHhccCCCC
+Confidence            222222222344555666667778888877 5555544433333334556666777788888999999888876433110
+
+
+Q ss_pred             CCCCchhhhhhcccccccccCCCccccccCCCCCcchhhhhhhhhhhccccCCCCCCCccccchhhcccccccccccccc
+Q tr|Q8PTN9|Q8PT  404 EYGTDEMRAEIGEINESGRQNGKKEDKFSGFSGPASEKAAFLRRDTATFRGSAPGQHDMGKNREIAEGREMRDEDKAENG  483 (996)
+Q Consensus       404 ~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  483 (996)
+                      ...+   .                                                                        
+T Consensus       464 ~~~~---~------------------------------------------------------------------------  468 (885)
+T tr|Q8Q0U7|Q8Q0  464 KDHL---N------------------------------------------------------------------------  468 (885)
+T ss_pred             cccc---C------------------------------------------------------------------------
+Confidence            0000   0                                                                        
+
+
+Q ss_pred             ccccccccchhHHHHHhccCchHHHHhhhhhHHhhhcCCCchhHHHHHHHHHhhCCCCHHHHHHHHHHHHHHHhhccchH
+Q tr|Q8PTN9|Q8PT  484 QLKGKESKKSAYDFLRLKGEREKYARKDSAGPFSETYSGIPEKKEIIEELLRLSSDPDPQIRRGAIETLLVRYSREAGKA  563 (996)
+Q Consensus       484 ~~~~~~~~~~~~~ll~~l~~~~~~vr~~a~~~L~~~~~~~~~~~~~~~~L~~~l~~~~~~vr~~a~~~L~~~~~~~~~~~  563 (996)
+                        .......++..++..+.++++.+|..++.+|+..+...+....+++.+..++.+.+..+|..++.+|+.+....+.. 
+T Consensus       469 --~~~~~~~~~~~Ll~ll~d~~~~VR~~A~~AL~~~~~~~~~~~~~~~~L~~ll~~~~~~VR~~A~~aLg~~~~~~~~~-  545 (885)
+T tr|Q8Q0U7|Q8Q0  469 --SFCDKEQAWEDLLALTSEREEVLKRHAATALGLVFLHVPNKSRAWKDLHKLISNMHFNVRRGIASSIGSAFPYVPNK-  545 (885)
+T ss_pred             --CcccHHHHHHHHHHHccCcCHHHHHHHHHHHHHHHhcCCchhHHHHHHHHHhcCCCHHHHHHHHHHHHHhhhcCCCc-
+Confidence              00001123344455566666777777777777655443333345556666666667777777777777655433221 
+
+
+Q ss_pred             HHHHHHHHHhcCCCChHHHHHHHHHHHHhh
+Q tr|Q8PTN9|Q8PT  564 QDIWNELLRISEDEDTGVRKDAAELLSHVF  593 (996)
+Q Consensus       564 ~~~~~~L~~~l~~~~~~vr~~a~~~L~~l~  593 (996)
+                      ...+..+...+.+++..+|..|..+|+.+.
+T Consensus       546 ~~~l~~L~~l~~d~~~~vR~~A~~aLg~i~  575 (885)
+T tr|Q8Q0U7|Q8Q0  546 TQAWEDLVQLTSDEKNYVRVSAYHSMGRIS  575 (885)
+T ss_pred             chHHHHHHHHhcCCCHHHHHHHHHHHHHHH
+Confidence            344555555556666667777777776665
+
+
+No 13
+>tr|Q8PTN9|Q8PTN9_METMA Conserved protein OS=Methanosarcina mazei (strain ATCC BAA-159 / DSM 3647 / Goe1 / Go1 / JCM 11833 / OCM 88) GN=MM_2674 PE=4 SV=1
+Probab=99.71  E-value=1.4e-15  Score=180.31  Aligned_cols=530  Identities=23%  Similarity=0.416  Sum_probs=280.6  Template_Neff=11.300
+
+Q ss_pred             HHHHHHhcCCCcHHHHHHHHHHHHHHHhhcCCchHHHHHHHHHhhcCCCHHHHHHHHHHHHhhhcCCCcchhhHHHHHHH
+Q tr|Q8PTN9|Q8PT  113 KDLIELINSKSSIEDVSRGIVSSLQNAISEYPDREHAWKDLLEMTASEDPYARKKAASLLSTVFPGLPEGKKTKAWKDLL  192 (996)
+Q Consensus       113 ~~l~~~l~~~~~~~~vr~~a~~~l~~~~~~~~~~~~~~~~L~~~l~d~~~~vr~~a~~~L~~~~~~~~~~~~~~~~~~ll  192 (996)
+                      +.+...+.+.+.  .+|..++..+..++...+.....++.+..++.++++.+|..|+.+++.+....+.  ....+..+.
+T Consensus         5 ~~l~~~l~~~~~--~~r~~Al~~l~~~~~~~~~~~~~~~~L~~~l~~~~~~vR~~a~~~L~~l~~~~~~--~~~~~~~l~   80 (996)
+T tr|Q8PTN9|Q8PT    5 PGIHDKTFSQES--DDRIKAAKQLGALFEVFPDRKQAFEDLLRLCSDRDSEVRVEAINSLTTVFPNVPE--KELTWERFV   80 (996)
+T ss_pred             hhHHHHhcCCCH--HHHHHHHHHHHHHHHhCcchHHHHHHHHHHhcCCCHHHHHHHHHHHHHhcccCch--hHhhHHHHH
+Confidence            345555555555  7788888877776554433345667777777777788888888888777654443  112222233
+
+
+Q ss_pred             HHhcCCCChHHHHHHHHHHHHHhhcCCcccccchHHHHHHhhcCCCchhHHhhHhhhhhhhhcCCCcccchHHHHHHhhc
+Q tr|Q8PTN9|Q8PT  193 GLAGEKGDSQVSEQASKAIREVFPFLPDEKKDEGWEEMLELAGGSADHVARMKILPFLPSVFSSVPDKNKAWDTIFRFTG  272 (996)
+Q Consensus       193 ~~l~~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~~~l~~~l~~~~~~~~~~~a~~~l~~~~~~~~~~~~~~~~l~~~l~  272 (996)
+                      ..+ .+.+..+|..+..++..+....                                       +.....++.+...+.
+T Consensus        81 ~~l-~~~~~~vr~~a~~~L~~l~~~~---------------------------------------~~~~~~~~~l~~~l~  120 (996)
+T tr|Q8PTN9|Q8PT   81 NLT-AYPVEQVFAAAVSALITVFPLV---------------------------------------PDKDRAWKDLIELIN  120 (996)
+T ss_pred             HHh-cCCCHHHHHHHHHHHHHHhccC---------------------------------------CchhHHHHHHHHHHc
+Confidence            322 2234455555555554443321                                       111223344444444
+
+
+Q ss_pred             CCcH--HHHHHHHHHHHHHhccCCChHHHHHHHHHHhhcCChHHHHHHHHHHHHHhhccCh--HHHHHHHHHHhh-CCCC
+Q tr|Q8PTN9|Q8PT  273 DERE--TVRKQAMDALVSISTEMSDKSRVWSDFIKLTEAQDEYVRDRAVDALSSVYQCLEN--KDAAWKELIELT-GSEE  347 (996)
+Q Consensus       273 ~~~~--~vr~~a~~~L~~~~~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~L~~~~~~~~~--~~~~l~~l~~~l-~~~~  347 (996)
+                      +.+.  .+|..++.++..+....+.....+..+...+.+++..+|..++.+++.+....+.  ....+..+...+ .+.+
+T Consensus       121 ~~~~~~~vr~~a~~~l~~~~~~~~~~~~~~~~L~~~l~d~~~~vr~~a~~~L~~~~~~~~~~~~~~~~~~ll~~l~~~~~  200 (996)
+T tr|Q8PTN9|Q8PT  121 SKSSIEDVSRGIVSSLQNAISEYPDREHAWKDLLEMTASEDPYARKKAASLLSTVFPGLPEGKKTKAWKDLLGLAGEKGD  200 (996)
+T ss_pred             CCCchHHHHHHHHHHHHHHHhhCCChhHHHHHHHHHhcCCCHHHHHHHHHHHHHHcccCCcchhhHHHHHHHHHHccCCC
+Confidence            4444  5666666666555443322223444455555566666666666666666433322  111222222222 2335
+
+
+Q ss_pred             hHHHHHHHHHHHHHhccCCch--hHHHHHHHHHh-cCCCHHHHHHHHHHHhhhccccccCCCCchhhhhhcccccccccC
+Q tr|Q8PTN9|Q8PT  348 ENIRTTAARALNRIFPYVSDK--SQAYSDIIDLA-EKEDNYMLREVARNLSSIHPQFYGEYGTDEMRAEIGEINESGRQN  424 (996)
+Q Consensus       348 ~~vr~~a~~~L~~l~~~~~~~--~~~~~~l~~~l-~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~~~~l~~~~~~~~~~  424 (996)
+                      +.+|..++.+++.+....+..  ...+..+...+ .+.++.++..++.+++.+....+..                    
+T Consensus       201 ~~vr~~a~~~L~~l~~~~~~~~~~~~~~~l~~~l~~~~~~~~~~~a~~~l~~~~~~~~~~--------------------  260 (996)
+T tr|Q8PTN9|Q8PT  201 SQVSEQASKAIREVFPFLPDEKKDEGWEEMLELAGGSADHVARMKILPFLPSVFSSVPDK--------------------  260 (996)
+T ss_pred             HHHHHHHHHHHHHHHHhCCHhhhhhcHHHHHHHhcCCCCHHHHHHHHHHHHHHhcCCCch--------------------
+Confidence            566666666666554432210  11111122222 2334455555555555443221110                    
+
+
+Q ss_pred             CCccccccCCCCCcchhhhhhhhhhhccccCCCCCCCccccchhhccccccccccccccccccccccchhHHHHHhccCc
+Q tr|Q8PTN9|Q8PT  425 GKKEDKFSGFSGPASEKAAFLRRDTATFRGSAPGQHDMGKNREIAEGREMRDEDKAENGQLKGKESKKSAYDFLRLKGER  504 (996)
+Q Consensus       425 ~~~~~~~~~l~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ll~~l~~~  504 (996)
+                         ...+..+.....+.++.++..+..++......                           .+.....+..+...+.+.
+T Consensus       261 ---~~~~~~l~~~l~~~~~~vr~~a~~~L~~~~~~---------------------------~~~~~~~~~~l~~~l~~~  310 (996)
+T tr|Q8PTN9|Q8PT  261 ---NKAWDTIFRFTGDERETVRKQAMDALVSISTE---------------------------MSDKSRVWSDFIKLTEAQ  310 (996)
+T ss_pred             ---hhHHHHHHHHhcCCCHHHHHHHHHHHHHHHhc---------------------------CCChhhHHHHHHHHhhcC
+Confidence               01112222222333444555554444433211                           001123455566667777
+
+
+Q ss_pred             hHHHHhhhhhHHhhhcCCCchhHHHHHHHHHhhCCCCHHHHHHHHHHHHHHHhhccchHHHHHHHHHHhcCCCChHHHHH
+Q tr|Q8PTN9|Q8PT  505 EKYARKDSAGPFSETYSGIPEKKEIIEELLRLSSDPDPQIRRGAIETLLVRYSREAGKAQDIWNELLRISEDEDTGVRKD  584 (996)
+Q Consensus       505 ~~~vr~~a~~~L~~~~~~~~~~~~~~~~L~~~l~~~~~~vr~~a~~~L~~~~~~~~~~~~~~~~~L~~~l~~~~~~vr~~  584 (996)
+                      ++.+|..++.++...+...+.....+..+...+.+.++.+|..++.+++.+....+.. ...++.+...+.+.++.+|..
+T Consensus       311 ~~~vr~~a~~~L~~~~~~~~~~~~~l~~l~~~l~~~~~~vr~~a~~~L~~l~~~~~~~-~~~~~~l~~~l~~~~~~vr~~  389 (996)
+T tr|Q8PTN9|Q8PT  311 DEYVRDRAVDALSSVYQCLENKDAAWKELIELTGSEEENIRTTAARALNRIFPYVSDK-SQAYSDIIDLAEKEDNYMLRE  389 (996)
+T ss_pred             CHHHHHHHHHHHHHHHhccCCHHHHHHHHHHHhCCCCHHHHHHHHHHHHHHcccCCch-HHHHHHHHHHhhcCCHHHHHH
+Confidence            8888999888888776554444456667777777788889999999888877644321 355666777777888889999
+
+
+Q ss_pred             HHHHHHHhhhcCchhh-----------------------hHHHHHHHHhcCCCHHHHHHHHHHHHHHHhcCC--------
+Q tr|Q8PTN9|Q8PT  585 AAELLSHVFPAVEEKS-----------------------GVFFDIIRLVESRDTQLRRRAAELLPAAFAHSG--------  633 (996)
+Q Consensus       585 a~~~L~~l~~~~~~~~-----------------------~~~~~L~~~l~~~~~~vr~~a~~~L~~~~~~~~--------  633 (996)
+                      ++.+++.+....+...                       ..+..+.....+.++.+|..+..+++.+.....        
+T Consensus       390 a~~~L~~l~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~  469 (996)
+T tr|Q8PTN9|Q8PT  390 VARNLSSIHPQFYGEYGTDEMRAEIGEINESGRQNGKKEDKFSGFSGPASEKAAFLRRDTATFRGSAPGQHDMGKNREIA  469 (996)
+T ss_pred             HHHHHHHhcHhhcCCcCchHHHHhHhhhcccccccCccccccccCCCChhHHhHHhhccccccccCCCCccccccccccc
+Confidence            9999988876432110                       011222222233445555555555443321100        
+
+
+Q ss_pred             -------------------chHHHHHHHHHHhCCCChhHHHHHHHHHHHhCCCCCchhhHHHHHHHhcCCCChHHHHHHH
+Q tr|Q8PTN9|Q8PT  634 -------------------NKQRAWNDLVKLTSDEDREVRKGAVLALSSGYPGVPDKGKVWSDLIMLSSHNDSFVQREAT  694 (996)
+Q Consensus       634 -------------------~~~~~~~~L~~~l~d~~~~vr~~a~~~L~~~~~~~~~~~~i~~~L~~~l~~~~~~vr~~a~  694 (996)
+                                         .....+..+...+.++++.+|..++.++.......+....+++.+...+.+.++.+|..++
+T Consensus       470 ~~~~~~~~~~~~~~~~~~~~~~~~~~~ll~~l~~~~~~vr~~a~~~L~~~~~~~~~~~~~~~~L~~~l~~~~~~vr~~a~  549 (996)
+T tr|Q8PTN9|Q8PT  470 EGREMRDEDKAENGQLKGKESKKSAYDFLRLKGEREKYARKDSAGPFSETYSGIPEKKEIIEELLRLSSDPDPQIRRGAI  549 (996)
+T ss_pred             ccccccccchhhhccccCccchhhHHHHHHHhcCccHHHHHHHHHHHHHHhcCCchHHHHHHHHHHHcCCCCHHHHHHHH
+Confidence                               0112334444555666667777777777654443333334556666666667777777777
+
+
+Q ss_pred             HHHHHhhccCCC-HHHHHHHHHHHhcCCChHHHHHHHHHHHHHH
+Q tr|Q8PTN9|Q8PT  695 RALGPAFFYVPD-KTMAWRDLQVLVDNPYVYVRRYALRSLGRAS  737 (996)
+Q Consensus       695 ~~L~~l~~~~~~-~~~~~~~l~~~l~d~~~~vr~~a~~~l~~l~  737 (996)
+                      .+|+.+....+. ...+++.+...+.+.++.+|..++.+++.+.
+T Consensus       550 ~~L~~~~~~~~~~~~~~~~~L~~~l~~~~~~vr~~a~~~L~~l~  593 (996)
+T tr|Q8PTN9|Q8PT  550 ETLLVRYSREAGKAQDIWNELLRISEDEDTGVRKDAAELLSHVF  593 (996)
+T ss_pred             HHHHHHHhcCchhHHHHHHHHHHHhcCCCHHHHHHHHHHHHHHh
+Confidence            777666543322 1345555666666666777777777766654
+
+
+No 14
+>tr|Q8PZI8|Q8PZI8_METMA Phycocyanin alpha-subunit phycocyanobilin lyase OS=Methanosarcina mazei (strain ATCC BAA-159 / DSM 3647 / Goe1 / Go1 / JCM 11833 / OCM 88) GN=MM_0504 PE=4 SV=1
+Probab=99.69  E-value=1.7e-16  Score=191.80  Aligned_cols=537  Identities=21%  Similarity=0.210  Sum_probs=357.5  Template_Neff=11.900
+
+Q ss_pred             cchhhhccCCChHHHHHHHHHHHHHHhhCccHHHHHHHHHHhhcCCChhHHHHHHHHHHHhccCCchhhhhHHHHHHhhc
+Q tr|Q8PTN9|Q8PT    5 PGIHDKTFSQESDDRIKAAKQLGALFEVFPDRKQAFEDLLRLCSDRDSEVRVEAINSLTTVFPNVPEKELTWERFVNLTA   84 (996)
+Q Consensus         5 ~~l~~~l~~~~~~~r~~Al~~l~~~~~~~~~~~~~~~~L~~~l~~~~~~vR~~a~~~L~~l~~~~~~~~~~~~~l~~~l~   84 (996)
+                      +.+...+.++++.+|..|+..+..+..     ....+.+...+.++++.+|..++.++..+...     .....+...+.
+T Consensus       590 ~~L~~~l~~~~~~vr~~a~~~l~~~~~-----~~~~~~l~~~l~~~~~~vr~~a~~~L~~~~~~-----~~~~~l~~~l~  659 (1142)
+T tr|Q8PZI8|Q8PZ  590 EVLTDALGDRNRAVRLEATDALVKIGS-----KKALEVLVLALGSKDDFVRFGAIGALSRANPR-----EAADPLIKAFQ  659 (1142)
+T ss_pred             HHHHHHhcCCCHHHHHHHHHHHHHhCC-----HHHHHHHHHHhCCCCHHHHHHHHHHHHhcCch-----HhHHHHHHHhc
+Confidence            345566778889999999999988732     24566677778888999999999999887541     22444666677
+
+
+Q ss_pred             CCChHHHHHHHHHHHHhccCCCchhHHHHHHHHHhcCCCcHHHHHHHHHHHHHHHhhcCCchHHHHHHHHHhhcCCCHHH
+Q tr|Q8PTN9|Q8PT   85 YPVEQVFAAAVSALITVFPLVPDKDRAWKDLIELINSKSSIEDVSRGIVSSLQNAISEYPDREHAWKDLLEMTASEDPYA  164 (996)
+Q Consensus        85 ~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~l~~~l~~~~~~~~vr~~a~~~l~~~~~~~~~~~~~~~~L~~~l~d~~~~v  164 (996)
+                      +++..+|..+..++..+...     ..++.+...+.+.+.  .+|..++.++..+..     ......+...+.+.++.+
+T Consensus       660 ~~~~~vr~~a~~~l~~~~~~-----~~~~~l~~~l~~~~~--~vr~~a~~~L~~~~~-----~~~~~~l~~~l~~~~~~v  727 (1142)
+T tr|Q8PZI8|Q8PZ  660 EENKLVRLGAAEALGQMGSE-----RAVEPFLVALQDEDE--FVRWIAAKALGKIKS-----DRVSERFTDILEDKSHYV  727 (1142)
+T ss_pred             CCCHHHHHHHHHHHHhhCCh-----hHHHHHHHHhcCCCH--HHHHHHHHHHhhccc-----ccHHHHHHHHhhCCCHHH
+Confidence            77888999888888776542     345556666666655  788888888765532     234455666677888899
+
+
+Q ss_pred             HHHHHHHHHhhhcCCCcchhhHHHHHHHHHhcCCCChHHHHHHHHHHHHHhhcCCcccccchHHHHHHhhcCCCchhHHh
+Q tr|Q8PTN9|Q8PT  165 RKKAASLLSTVFPGLPEGKKTKAWKDLLGLAGEKGDSQVSEQASKAIREVFPFLPDEKKDEGWEEMLELAGGSADHVARM  244 (996)
+Q Consensus       165 r~~a~~~L~~~~~~~~~~~~~~~~~~ll~~l~~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~~~l~~~l~~~~~~~~~~  244 (996)
+                      |..++.+++.+...       ..+..+...+ .+.++.+|..++.++..+....+..  ......+... ..+.++.++.
+T Consensus       728 r~~a~~~l~~~~~~-------~~~~~l~~~l-~~~~~~vr~~a~~~L~~~~~~~~~~--~~~~~~l~~~-l~~~~~~vr~  796 (1142)
+T tr|Q8PZI8|Q8PZ  728 RREAAKAIGTACSD-------KALEHLISAL-SDEDEFVRKAAAEALGEIVPEIADS--GTAADALVRM-LNDKSHFVRL  796 (1142)
+T ss_pred             HHHHHHHHHHhcCH-------HHHHHHHHHc-cCCCHHHHHHHHHHHHHHhHHhccc--ccHHHHHHHH-hcCCCHHHHH
+Confidence            99999988876531       1223333333 3457788888888888776532211  1112222222 2334566777
+
+
+Q ss_pred             hHhhhhhhhhcCCCcccchHHHHHHhhcCCcHHHHHHHHHHHHHHhccCCChHHHHHHHHHHhhcCChHHHHHHHHHHHH
+Q tr|Q8PTN9|Q8PT  245 KILPFLPSVFSSVPDKNKAWDTIFRFTGDERETVRKQAMDALVSISTEMSDKSRVWSDFIKLTEAQDEYVRDRAVDALSS  324 (996)
+Q Consensus       245 ~a~~~l~~~~~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~L~~~~~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~L~~  324 (996)
+                      .++.++..+..     ...++.+...+.+.++.+|..++.+++.+...     ...+.+...+.+.++.+|..++.++..
+T Consensus       797 ~a~~~l~~~~~-----~~~~~~l~~~l~~~~~~vr~~a~~~L~~~~~~-----~~~~~l~~~l~~~~~~vr~~a~~~l~~  866 (1142)
+T tr|Q8PZI8|Q8PZ  797 EAAKALGMIRF-----REAIYPLLFVLGDENRFVRKEAAKAIGQLESE-----RVLELLSQALMSENQFVRQGAARALGQ  866 (1142)
+T ss_pred             HHHHHHhhhcc-----hhhHHHHHHHhCCCCHHHHHHHHHHHHccCCH-----HHHHHHHHHhcCCCHHHHHHHHHHHHh
+Confidence            77777765422     33455666667778889999999999887642     244566666777788899999998888
+
+
+Q ss_pred             HhhccCh---HHHHHHHHHHhhCCCChHHHHHHHHHHHHHhccCCchhHHHHHHHHHhcCCCHHHHHHHHHHHhhhcccc
+Q tr|Q8PTN9|Q8PT  325 VYQCLEN---KDAAWKELIELTGSEEENIRTTAARALNRIFPYVSDKSQAYSDIIDLAEKEDNYMLREVARNLSSIHPQF  401 (996)
+Q Consensus       325 ~~~~~~~---~~~~l~~l~~~l~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~L~~l~~~~  401 (996)
+                      +....+.   ....++.+...+.+.++.+|..++.+++.+....+  ...++.+...+.+.++.++..++.+++.+....
+T Consensus       867 ~~~~~~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~l~~l~~~~~--~~~~~~l~~~l~~~~~~~r~~a~~~l~~~~~~~  944 (1142)
+T tr|Q8PZI8|Q8PZ  867 MNPDGNRNQMSDKVFDSLDSAFEDKDKLVRREAARSLENISKNMP--ERAFKSLINALDDEDDEVRRLLAGILTCLGSEK  944 (1142)
+T ss_pred             hCCCCChhhccHHHHHHHHHHhcCCCHHHHHHHHHHHHHHHhcCc--HHHHHHHHHHhcCCCHHHHHHHHHHHHHhCCCc
+Confidence            7543221   12345666677777888999999999988776433  234555666777778888988888887763310
+
+
+Q ss_pred             ccCCCCchhhhhhcccccccccCCCccccccCCCCCcchhhhhhhhhhhccccCCCCCCCccccchhhcccccccccccc
+Q tr|Q8PTN9|Q8PT  402 YGEYGTDEMRAEIGEINESGRQNGKKEDKFSGFSGPASEKAAFLRRDTATFRGSAPGQHDMGKNREIAEGREMRDEDKAE  481 (996)
+Q Consensus       402 ~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~  481 (996)
+                                                                                                      
+T Consensus       945 --------------------------------------------------------------------------------  944 (1142)
+T tr|Q8PZI8|Q8PZ  945 --------------------------------------------------------------------------------  944 (1142)
+T ss_pred             --------------------------------------------------------------------------------
+Confidence                                                                                            
+
+
+Q ss_pred             ccccccccccchhHHHHHhccCchHHHHhhhhhHHhhhcCCCchhHHHHHHHH-HhhCCCCHHHHHHHHHHHHHHHhhcc
+Q tr|Q8PTN9|Q8PT  482 NGQLKGKESKKSAYDFLRLKGEREKYARKDSAGPFSETYSGIPEKKEIIEELL-RLSSDPDPQIRRGAIETLLVRYSREA  560 (996)
+Q Consensus       482 ~~~~~~~~~~~~~~~ll~~l~~~~~~vr~~a~~~L~~~~~~~~~~~~~~~~L~-~~l~~~~~~vr~~a~~~L~~~~~~~~  560 (996)
+                                 .+..+...+.+.++.+|..++.++.....     ...+..+. .+..+.++.+|..++.+|..+..   
+T Consensus       945 -----------~~~~l~~~l~~~~~~vr~~a~~~L~~~~~-----~~~~~~ll~~l~~~~~~~vr~~a~~~L~~l~~--- 1005 (1142)
+T tr|Q8PZI8|Q8PZ  945 -----------AVPRLVSALKSHDPVVRRFAAEALGQTGS-----EKAIEPLIDTMLSDTIGFVKGEAARALGKIHS--- 1005 (1142)
+T ss_pred             -----------hHHHHHHHhcCCCHHHHHHHHHHHHHhcC-----hhhHHHHHHHHhcCCCHHHHHHHHHHHHHhcC---
+Confidence                       01122223444555566666666654321     11222222 23445667788888887776654   
+
+
+Q ss_pred             chHHHHHHHHHHhcCCCChHHHHHHHHHHHHhhhcCchhhhHHHHHHHHhcCCCHHHHHHHHHHHHHHHhcCCchHHHHH
+Q tr|Q8PTN9|Q8PT  561 GKAQDIWNELLRISEDEDTGVRKDAAELLSHVFPAVEEKSGVFFDIIRLVESRDTQLRRRAAELLPAAFAHSGNKQRAWN  640 (996)
+Q Consensus       561 ~~~~~~~~~L~~~l~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~L~~~l~~~~~~vr~~a~~~L~~~~~~~~~~~~~~~  640 (996)
+                         ...++.+...+.+.++.+|..++.+++.+...     ..++.+...+.+.++.+|..++.+++.+..     ...++
+T Consensus      1006 ---~~~~~~l~~~l~~~~~~~r~~a~~~L~~l~~~-----~~~~~l~~~l~~~~~~vr~~a~~~L~~~~~-----~~~~~ 1072 (1142)
+T tr|Q8PZI8|Q8PZ 1006 ---GKAVEPLVSALLDENNEGKWGAAEALGRIKAE-----SAAAPLILALEDKDDFTRLAAAKALGRIKP-----KKAIE 1072 (1142)
+T ss_pred             ---CccHHHHHHHhcCCCHHHHHHHHHHHHHHcch-----hcHHHHHHHhcCCCHHHHHHHHHHHHhhCC-----cccHH
+Confidence               34556666667777778888888888777542     345566667777888888888888877642     35666
+
+
+Q ss_pred             HHHHHhCCCChhHHHHHHHHHHHhCCCCCchhhHHHHHHHhcCCCChHHHHHHHHHHHHhhcc
+Q tr|Q8PTN9|Q8PT  641 DLVKLTSDEDREVRKGAVLALSSGYPGVPDKGKVWSDLIMLSSHNDSFVQREATRALGPAFFY  703 (996)
+Q Consensus       641 ~L~~~l~d~~~~vr~~a~~~L~~~~~~~~~~~~i~~~L~~~l~~~~~~vr~~a~~~L~~l~~~  703 (996)
+                      .+...+.++++.+|..++.+++.+...     ...+.+...+.+.++.+|..++.++..+...
+T Consensus      1073 ~l~~~l~~~~~~vr~~a~~~L~~l~~~-----~~~~~l~~~l~~~~~~vr~~a~~~l~~l~~~ 1130 (1142)
+T tr|Q8PZI8|Q8PZ 1073 PLINTLYDQNRFVKAEAAGALMKICTK-----EDKEQMQNLLDSENELAANLAFEILEEIEME 1130 (1142)
+T ss_pred             HHHHHhhCCCHHHHHHHHHHHHHHccc-----ccHHHHHHHhcCCCHHHHHHHHHHHHHhhch
+Confidence            777777888888999999888876543     3455666677778889999999999888543
+
+
+No 15
+>tr|Q8PZI8|Q8PZI8_METMA Phycocyanin alpha-subunit phycocyanobilin lyase OS=Methanosarcina mazei (strain ATCC BAA-159 / DSM 3647 / Goe1 / Go1 / JCM 11833 / OCM 88) GN=MM_0504 PE=4 SV=1
+Probab=99.64  E-value=1.2e-15  Score=184.13  Aligned_cols=401  Identities=23%  Similarity=0.277  Sum_probs=210.3  Template_Neff=11.900
+
+Q ss_pred             chhHHhhHhhhhhhhhcCCCcccchHHHHHHhhcCCcHHHHHHHHHHHHHHhccCCChHHHHHHHHHHhhcCChHHHHHH
+Q tr|Q8PTN9|Q8PT  239 DHVARMKILPFLPSVFSSVPDKNKAWDTIFRFTGDERETVRKQAMDALVSISTEMSDKSRVWSDFIKLTEAQDEYVRDRA  318 (996)
+Q Consensus       239 ~~~~~~~a~~~l~~~~~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~L~~~~~~~~~~~~~~~~l~~~l~~~~~~vr~~a  318 (996)
+                      ++.++..++.++..+..     ....+.+...+.++++.+|..++.++..+...     ...+.+...+.+.++.+|..+
+T Consensus       569 ~~~vr~~a~~~L~~~~~-----~~~~~~L~~~l~~~~~~vr~~a~~~l~~~~~~-----~~~~~l~~~l~~~~~~vr~~a  638 (1142)
+T tr|Q8PZI8|Q8PZ  569 DYSVRIEAVKALSLIGS-----EKVVEVLTDALGDRNRAVRLEATDALVKIGSK-----KALEVLVLALGSKDDFVRFGA  638 (1142)
+T ss_pred             CHHHHHHHHHHHHhhCC-----hhHHHHHHHHhcCCCHHHHHHHHHHHHHhCCH-----HHHHHHHHHhCCCCHHHHHHH
+Confidence            34444444444443321     22344455555555666666666666655321     123344444555566666666
+
+
+Q ss_pred             HHHHHHHhhccChHHHHHHHHHHhhCCCChHHHHHHHHHHHHHhccCCchhHHHHHHHHHhcCCCHHHHHHHHHHHhhhc
+Q tr|Q8PTN9|Q8PT  319 VDALSSVYQCLENKDAAWKELIELTGSEEENIRTTAARALNRIFPYVSDKSQAYSDIIDLAEKEDNYMLREVARNLSSIH  398 (996)
+Q Consensus       319 ~~~L~~~~~~~~~~~~~l~~l~~~l~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~L~~l~  398 (996)
+                      +.++..+..     ......+...+.+.++.+|..++.+++.+..     ...++.+...+.+.++.+|..++.++..+.
+T Consensus       639 ~~~L~~~~~-----~~~~~~l~~~l~~~~~~vr~~a~~~l~~~~~-----~~~~~~l~~~l~~~~~~vr~~a~~~L~~~~  708 (1142)
+T tr|Q8PZI8|Q8PZ  639 IGALSRANP-----REAADPLIKAFQEENKLVRLGAAEALGQMGS-----ERAVEPFLVALQDEDEFVRWIAAKALGKIK  708 (1142)
+T ss_pred             HHHHHhcCc-----hHhHHHHHHHhcCCCHHHHHHHHHHHHhhCC-----hhHHHHHHHHhcCCCHHHHHHHHHHHhhcc
+Confidence            666655521     2233444455555566666666666665543     123334444555555666666666665553
+
+
+Q ss_pred             cccccCCCCchhhhhhcccccccccCCCccccccCCCCCcchhhhhhhhhhhccccCCCCCCCccccchhhccccccccc
+Q tr|Q8PTN9|Q8PT  399 PQFYGEYGTDEMRAEIGEINESGRQNGKKEDKFSGFSGPASEKAAFLRRDTATFRGSAPGQHDMGKNREIAEGREMRDED  478 (996)
+Q Consensus       399 ~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~  478 (996)
+                      ....                            ...+.....+.++.++..+..+++....                    
+T Consensus       709 ~~~~----------------------------~~~l~~~l~~~~~~vr~~a~~~l~~~~~--------------------  740 (1142)
+T tr|Q8PZI8|Q8PZ  709 SDRV----------------------------SERFTDILEDKSHYVRREAAKAIGTACS--------------------  740 (1142)
+T ss_pred             cccH----------------------------HHHHHHHhhCCCHHHHHHHHHHHHHhcC--------------------
+Confidence            2110                            0111111122233344433333332211                    
+
+
+Q ss_pred             cccccccccccccchhHHHHHhccCchHHHHhhhhhHHhhhcCCCchhHHHHHHHHHhhCCCCHHHHHHHHHHHHHHHhh
+Q tr|Q8PTN9|Q8PT  479 KAENGQLKGKESKKSAYDFLRLKGEREKYARKDSAGPFSETYSGIPEKKEIIEELLRLSSDPDPQIRRGAIETLLVRYSR  558 (996)
+Q Consensus       479 ~~~~~~~~~~~~~~~~~~ll~~l~~~~~~vr~~a~~~L~~~~~~~~~~~~~~~~L~~~l~~~~~~vr~~a~~~L~~~~~~  558 (996)
+                                  ...+..+...+.++++.+|..++.++.......+.....++.+...+.+.++.+|..++.+++.+.. 
+T Consensus       741 ------------~~~~~~l~~~l~~~~~~vr~~a~~~L~~~~~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~l~~~~~-  807 (1142)
+T tr|Q8PZI8|Q8PZ  741 ------------DKALEHLISALSDEDEFVRKAAAEALGEIVPEIADSGTAADALVRMLNDKSHFVRLEAAKALGMIRF-  807 (1142)
+T ss_pred             ------------HHHHHHHHHHccCCCHHHHHHHHHHHHHHhHHhcccccHHHHHHHHhcCCCHHHHHHHHHHHhhhcc-
+Confidence                        1112233344455556666666666665443322223445556666666667777777777665543 
+
+
+Q ss_pred             ccchHHHHHHHHHHhcCCCChHHHHHHHHHHHHhhhcCchhhhHHHHHHHHhcCCCHHHHHHHHHHHHHHHhcCCc---h
+Q tr|Q8PTN9|Q8PT  559 EAGKAQDIWNELLRISEDEDTGVRKDAAELLSHVFPAVEEKSGVFFDIIRLVESRDTQLRRRAAELLPAAFAHSGN---K  635 (996)
+Q Consensus       559 ~~~~~~~~~~~L~~~l~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~L~~~l~~~~~~vr~~a~~~L~~~~~~~~~---~  635 (996)
+                           ...++.+...+.+.++.+|..++.+++.+..     ....+.+...+.+.++.+|..++.++..+....+.   .
+T Consensus       808 -----~~~~~~l~~~l~~~~~~vr~~a~~~L~~~~~-----~~~~~~l~~~l~~~~~~vr~~a~~~l~~~~~~~~~~~~~  877 (1142)
+T tr|Q8PZI8|Q8PZ  808 -----REAIYPLLFVLGDENRFVRKEAAKAIGQLES-----ERVLELLSQALMSENQFVRQGAARALGQMNPDGNRNQMS  877 (1142)
+T ss_pred             -----hhhHHHHHHHhCCCCHHHHHHHHHHHHccCC-----HHHHHHHHHHhcCCCHHHHHHHHHHHHhhCCCCChhhcc
+Confidence                 3344455555566666777777777766643     13344555556666667777777766655432211   1
+
+
+Q ss_pred             HHHHHHHHHHhCCCChhHHHHHHHHHHHhCCCCCchhhHHHHHHHhcCCCChHHHHHHHHHHHHhhccCCCHHHHHHHHH
+Q tr|Q8PTN9|Q8PT  636 QRAWNDLVKLTSDEDREVRKGAVLALSSGYPGVPDKGKVWSDLIMLSSHNDSFVQREATRALGPAFFYVPDKTMAWRDLQ  715 (996)
+Q Consensus       636 ~~~~~~L~~~l~d~~~~vr~~a~~~L~~~~~~~~~~~~i~~~L~~~l~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~l~  715 (996)
+                      ..+++.+...+.+.++.+|..++.+++.+....+  ...++.+...+.+.++.+|..++.+++.+..     ...++.+.
+T Consensus       878 ~~~~~~l~~~l~~~~~~vr~~a~~~l~~l~~~~~--~~~~~~l~~~l~~~~~~~r~~a~~~l~~~~~-----~~~~~~l~  950 (1142)
+T tr|Q8PZI8|Q8PZ  878 DKVFDSLDSAFEDKDKLVRREAARSLENISKNMP--ERAFKSLINALDDEDDEVRRLLAGILTCLGS-----EKAVPRLV  950 (1142)
+T ss_pred             HHHHHHHHHHhcCCCHHHHHHHHHHHHHHHhcCc--HHHHHHHHHHhcCCCHHHHHHHHHHHHHhCC-----CchHHHHH
+Confidence            3445556666666677777777777666443222  1344555556666666777777777666532     23445555
+
+
+Q ss_pred             HHhcCCChHHHHHHHHHHHHHH
+Q tr|Q8PTN9|Q8PT  716 VLVDNPYVYVRRYALRSLGRAS  737 (996)
+Q Consensus       716 ~~l~d~~~~vr~~a~~~l~~l~  737 (996)
+                      ..+.+.++.+|..++.+++.+.
+T Consensus       951 ~~l~~~~~~vr~~a~~~L~~~~  972 (1142)
+T tr|Q8PZI8|Q8PZ  951 SALKSHDPVVRRFAAEALGQTG  972 (1142)
+T ss_pred             HHhcCCCHHHHHHHHHHHHHhc
+Confidence            5566666677777777666553
+
+
+No 16
+>tr|Q8PSI9|Q8PSI9_METMA Phycocyanin alpha-subunit phycocyanobilin lyase related protein, CpcE/NblB family OS=Methanosarcina mazei (strain ATCC BAA-159 / DSM 3647 / Goe1 / Go1 / JCM 11833 / OCM 88) GN=MM_3090 PE=4 SV=1
+Probab=99.63  E-value=5.7e-15  Score=157.64  Aligned_cols=176  Identities=20%  Similarity=0.186  Sum_probs=102.8  Template_Neff=11.300
+
+Q ss_pred             hhCCCCHHHHHHHHHHHHHHHhhccchHHHHHHHHHHhcCCCChHHHHHHHHHHHHhhhcCchhhhHHHHHHHHhcCCCH
+Q tr|Q8PTN9|Q8PT  536 LSSDPDPQIRRGAIETLLVRYSREAGKAQDIWNELLRISEDEDTGVRKDAAELLSHVFPAVEEKSGVFFDIIRLVESRDT  615 (996)
+Q Consensus       536 ~l~~~~~~vr~~a~~~L~~~~~~~~~~~~~~~~~L~~~l~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~L~~~l~~~~~  615 (996)
+                      .+.+.++.+|..++.++.....      ......+...+.+.++.+|..++..++.+..     ......+...+.+.++
+T Consensus       261 ~l~~~~~~~r~~a~~~L~~~~~------~~~~~~l~~~l~~~~~~~r~~a~~~L~~~~~-----~~~~~~l~~~l~~~~~  329 (457)
+T tr|Q8PSI9|Q8PS  261 ELDDDDWYLRSRAADVLADIAS------PEAALGLVKALDLHDAPVRKLIVSALGKIGS-----PETIEGLVKALDDPDN  329 (457)
+T ss_pred             HhCCCCHHHHHHHHHHHHHccC------HHHHHHHHHHhccCCHHHHHHHHHHHHhhCC-----HHHHHHHHHHhhCCCH
+Confidence            3334444455555444444322      1122223333444455566666666555432     1233445555556666
+
+
+Q ss_pred             HHHHHHHHHHHHHHhcCCchHHHHHHHHHHhCCCChhHHHHHHHHHHHhCCCCCchhhHHHHHHHhcCCCChHHHHHHHH
+Q tr|Q8PTN9|Q8PT  616 QLRRRAAELLPAAFAHSGNKQRAWNDLVKLTSDEDREVRKGAVLALSSGYPGVPDKGKVWSDLIMLSSHNDSFVQREATR  695 (996)
+Q Consensus       616 ~vr~~a~~~L~~~~~~~~~~~~~~~~L~~~l~d~~~~vr~~a~~~L~~~~~~~~~~~~i~~~L~~~l~~~~~~vr~~a~~  695 (996)
+                      .+|..++.+++...     ....++.+...+.++++.+|..++.+++.....     ..++.+...+.+.++.+|..+..
+T Consensus       330 ~vr~~a~~~L~~~~-----~~~~~~~l~~~l~~~~~~~~~~a~~~L~~~~~~-----~~~~~l~~~~~~~~~~~~~~~~~  399 (457)
+T tr|Q8PSI9|Q8PS  330 SIREAATLGLGKTG-----KVEAVPGLLRALHDPKNTVQEAAATSLGDMKAR-----EAVPEFLRILEDPDSLIHKSVIF  399 (457)
+T ss_pred             HHHHHHHHHHhhhC-----ChhhHHHHHHHhcCCCHHHHHHHHHHHhhccch-----hhHHHHHHHHcCCCHHHHHHHHH
+Confidence            67777766665532     123456666667777777888877777764322     44556666667777778888888
+
+
+Q ss_pred             HHHHhhccCCCHHHHHHHHHHHhcCCChHHHHHHHHHHHHHH
+Q tr|Q8PTN9|Q8PT  696 ALGPAFFYVPDKTMAWRDLQVLVDNPYVYVRRYALRSLGRAS  737 (996)
+Q Consensus       696 ~L~~l~~~~~~~~~~~~~l~~~l~d~~~~vr~~a~~~l~~l~  737 (996)
+                      +|+.+.     .....+.+...+.++++.+|..+..++..+.
+T Consensus       400 ~L~~~~-----~~~~~~~l~~~~~~~~~~~r~~a~~~l~~~~  436 (457)
+T tr|Q8PSI9|Q8PS  400 SLEKIG-----TPEAVAGLSRALNNPDAMVRKAAAKSLEKIK  436 (457)
+T ss_pred             HHHhhC-----CHHHHHHHHHHhcCCCHHHHHHHHHHHHHHH
+Confidence            777662     2345566666777777888888888888764
+
+
+No 17
+>tr|Q8PVD7|Q8PVD7_METMA Uncharacterized protein OS=Methanosarcina mazei (strain ATCC BAA-159 / DSM 3647 / Goe1 / Go1 / JCM 11833 / OCM 88) GN=MM_2028 PE=4 SV=1
+Probab=99.59  E-value=1.6e-15  Score=179.37  Aligned_cols=388  Identities=32%  Similarity=0.548  Sum_probs=217.5  Template_Neff=10.900
+
+Q ss_pred             chhhhccCCChHHHHHHHHHHHHHHhhCccHHHHHHHHHHhhcCCChhHHHHHHHHHHHhccCCchhhhhHHHHHHhhcC
+Q tr|Q8PTN9|Q8PT    6 GIHDKTFSQESDDRIKAAKQLGALFEVFPDRKQAFEDLLRLCSDRDSEVRVEAINSLTTVFPNVPEKELTWERFVNLTAY   85 (996)
+Q Consensus         6 ~l~~~l~~~~~~~r~~Al~~l~~~~~~~~~~~~~~~~L~~~l~~~~~~vR~~a~~~L~~l~~~~~~~~~~~~~l~~~l~~   85 (996)
+                      .+...+.++++.+|..|+..+..+....+.....++.+...+.++++.+|..|+.++..+....+.....++.+...+.+
+T Consensus        46 ~L~~~l~~~~~~vr~~a~~~L~~~~~~~~~~~~~~~~L~~~l~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~L~~~l~~  125 (1001)
+T tr|Q8PVD7|Q8PV   46 DLQGLINDKNSYMRARVAKALSSEFSQMPDKQKAWNDLIKLTNDKNSYVRSSAASALGSAFSQVPDKQQAWHDLHGLTNN  125 (1001)
+T ss_pred             HHHHHHcCCCHHHHHHHHHHHHHHHhcCCchhHHHHHHHHHhcCCCHHHHHHHHHHHHHHHhcCCChHHHHHHHHHHhcC
+Confidence            34455566677777777777777644332223456666666666677777777777776665433333344445555555
+
+
+Q ss_pred             CChHHHHHHHHHHHHhccCCCchhHHHHHHHHHhcCCCcHHHHHHHHHHHHHHHhhcCCchHHHHHHHHHhhcCCCHHHH
+Q tr|Q8PTN9|Q8PT   86 PVEQVFAAAVSALITVFPLVPDKDRAWKDLIELINSKSSIEDVSRGIVSSLQNAISEYPDREHAWKDLLEMTASEDPYAR  165 (996)
+Q Consensus        86 ~~~~vr~~a~~~L~~l~~~~~~~~~~~~~l~~~l~~~~~~~~vr~~a~~~l~~~~~~~~~~~~~~~~L~~~l~d~~~~vr  165 (996)
+                      .+..+|..+..++..+....+.....++.+...+.+.+.  .+|..++.++..+....+.....++.+...+.++++.+|
+T Consensus       126 ~~~~vr~~a~~~L~~l~~~~~~~~~~~~~L~~~l~~~~~--~vr~~a~~~L~~l~~~~~~~~~~~~~L~~~l~~~~~~vr  203 (1001)
+T tr|Q8PVD7|Q8PV  126 KNSDVRSSAAKALGYAFSQVPDKQQACDDLHRLTNDEDI--NVKSRAAEALGYAFSQVPDKQQAWHDLHRLTNNKNSYVR  203 (1001)
+T ss_pred             CCHHHHHHHHHHHHHHHhhCCCHHHHHHHHHHHhcCCCH--HHHHHHHHHHHHHhhcCCchHHHHHHHHHHHcCCCHHHH
+Confidence            555666666666655544322222334444444444333  455555554444433222212333344444444444444
+
+
+Q ss_pred             HHH------------------------------------HHHHHhhhcCCCcchhhHHHHHHHHHhcCCCChHHHHHHHH
+Q tr|Q8PTN9|Q8PT  166 KKA------------------------------------ASLLSTVFPGLPEGKKTKAWKDLLGLAGEKGDSQVSEQASK  209 (996)
+Q Consensus       166 ~~a------------------------------------~~~L~~~~~~~~~~~~~~~~~~ll~~l~~~~~~~vr~~a~~  209 (996)
+                      ..+                                    +.++..+....+.  ....+..+...+ .+.++.+|..++.
+T Consensus       204 ~~a~~~L~~l~~~~~~~~~~~~~L~~~l~~~~~~vr~~a~~~L~~~~~~~~~--~~~~~~~L~~~l-~~~~~~vr~~a~~  280 (1001)
+T tr|Q8PVD7|Q8PV  204 SSAAEALGYAFSQVPDKQQACDDLHRLTNDEDIYVRSSAAKALGYAFSQVSD--KQQAWDDLIKLT-NDKYSPVRSKAAE  280 (1001)
+T ss_pred             HHHHHHHHHHHhhCCcHHHHHHHHHHHccCCCHHHHHHHHHHHHHHhhcCCc--hHHHHHHHHHHh-cCCCHHHHHHHHH
+Confidence            444                                    4444444322211  011122222222 2334455555555
+
+
+Q ss_pred             HHHHHhhcCCcccccchHHHHHHhhcCCCchhHHhhHhhhhhhhhcCCCcccchHHHHHHhhcCCcHHHHHHHHHHHHHH
+Q tr|Q8PTN9|Q8PT  210 AIREVFPFLPDEKKDEGWEEMLELAGGSADHVARMKILPFLPSVFSSVPDKNKAWDTIFRFTGDERETVRKQAMDALVSI  289 (996)
+Q Consensus       210 ~L~~l~~~~~~~~~~~~~~~l~~~l~~~~~~~~~~~a~~~l~~~~~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~L~~~  289 (996)
+                      ++..+....+..  ...+..+...+ .+.+..++..++.++..++.........++.+...+.+.++.+|..++.+++.+
+T Consensus       281 ~L~~l~~~~~~~--~~~~~~L~~~l-~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~L~~l  357 (1001)
+T tr|Q8PVD7|Q8PV  281 TLCSVFSQVPDK--QQAWNELHRLT-NDENGSVRFSAVTAFDLAYPYILNKQQAWDDLIKRTHDKDIIVKSNAADALVSV  357 (1001)
+T ss_pred             HHHHHHhhCCCh--HHHHHHHHHHh-cCCCHHHHHHHHHHHHHHhhhccchhhHHHHHHHHhcCCCHHHHHHHHHHHHHH
+Confidence            555544322210  11111222222 234555666666666665444333445666666777777778888888888777
+
+
+Q ss_pred             hccCCChHHHHHHHHHHhhcCChHHHHHHHHHHHHHhhccChHHHHHHHHHHhhCCCChHHHHHHHHHHHHHhccCCchh
+Q tr|Q8PTN9|Q8PT  290 STEMSDKSRVWSDFIKLTEAQDEYVRDRAVDALSSVYQCLENKDAAWKELIELTGSEEENIRTTAARALNRIFPYVSDKS  369 (996)
+Q Consensus       290 ~~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~L~~~~~~~~~~~~~l~~l~~~l~~~~~~vr~~a~~~L~~l~~~~~~~~  369 (996)
+                      ....+.....++.+...+.+.++.+|..++.+++.+....+.....++.+...+.+.++.+|..++.+++.++...+...
+T Consensus       358 ~~~~~~~~~~~~~L~~~l~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~L~~~l~~~~~~vr~~a~~~L~~l~~~~~~~~  437 (1001)
+T tr|Q8PVD7|Q8PV  358 YPHVPDKQQAWNNLLRLIYDKNSYVRARAASALGSVYPQVPDKQQAWNDLHRLTNDENVYIRFCVASALGYAFSQVPDKQ  437 (1001)
+T ss_pred             cccCCCHHHHHHHHHHHHhCCCHHHHHHHHHHHHHHhccCCChHHHHHHHHHHhcCCCHHHHHHHHHHHHHHHhcCCCHH
+Confidence            66443333456666667777778888888888888765443334556666777777788888888888888877655444
+
+
+Q ss_pred             HHHHHHHHHhcCCCHHHHHHHHHHHhhhcccc
+Q tr|Q8PTN9|Q8PT  370 QAYSDIIDLAEKEDNYMLREVARNLSSIHPQF  401 (996)
+Q Consensus       370 ~~~~~l~~~l~~~~~~vr~~a~~~L~~l~~~~  401 (996)
+                      ..++.+...+.++++.+|..++.+|+.+....
+T Consensus       438 ~~~~~L~~~l~d~~~~vr~~a~~aL~~i~~~~  469 (1001)
+T tr|Q8PVD7|Q8PV  438 QAWNDLIKLTNDKDSYVRTSSNHSLGRVSIFK  469 (1001)
+T ss_pred             HHHHHHHHHHcCCCHHHHHHHHHHHHHhhccc
+Confidence            56677777777788888888888888886543
+
+
+No 18
+>tr|Q8PSI9|Q8PSI9_METMA Phycocyanin alpha-subunit phycocyanobilin lyase related protein, CpcE/NblB family OS=Methanosarcina mazei (strain ATCC BAA-159 / DSM 3647 / Goe1 / Go1 / JCM 11833 / OCM 88) GN=MM_3090 PE=4 SV=1
+Probab=99.59  E-value=2e-14  Score=153.18  Aligned_cols=82  Identities=27%  Similarity=0.255  Sum_probs=45.9  Template_Neff=11.300
+
+Q ss_pred             hccCCChHHHHHHHHHHHHHHhhCccHHHHHHHHHHhhcCCChhHHHHHHHHHHHhccCCchhhhhHHHHHHhhcCCChH
+Q tr|Q8PTN9|Q8PT   10 KTFSQESDDRIKAAKQLGALFEVFPDRKQAFEDLLRLCSDRDSEVRVEAINSLTTVFPNVPEKELTWERFVNLTAYPVEQ   89 (996)
+Q Consensus        10 ~l~~~~~~~r~~Al~~l~~~~~~~~~~~~~~~~L~~~l~~~~~~vR~~a~~~L~~l~~~~~~~~~~~~~l~~~l~~~~~~   89 (996)
+                      ...+.....|..|+..++....     ....+.+..++.++++.+|..++.+++.....     .....+...+.+.++.
+T Consensus        12 ~~~~~~~~~r~~a~~~l~~~~~-----~~~~~~l~~~l~~~~~~vr~~a~~~L~~~~~~-----~~~~~l~~~l~~~~~~   81 (457)
+T tr|Q8PSI9|Q8PS   12 VERSVFAGNRAAAAKELGEIGD-----FDAVPVLLKALEDSSSKVKAAASEALGEINDP-----DAVPCLMKMLDYPESY   81 (457)
+T ss_pred             HHhhcCccHHHHHHHHHHhhCC-----cchHHHHHHHhcCCCHHHHHHHHHHHHhcCCc-----hHHHHHHHHhCCCCHH
+Confidence            3344555667777777776532     23455666677777777887777777765431     1122333344444455
+
+
+Q ss_pred             HHHHHHHHHHHh
+Q tr|Q8PTN9|Q8PT   90 VFAAAVSALITV  101 (996)
+Q Consensus        90 vr~~a~~~L~~l  101 (996)
+                      +|..+..+++.+
+T Consensus        82 ~r~~a~~~L~~~   93 (457)
+T tr|Q8PSI9|Q8PS   82 VKKAAIIALGKI   93 (457)
+T ss_pred             HHHHHHHHHHhh
+Confidence            555555555433
+
+
+No 19
+>tr|Q8Q0W0|Q8Q0W0_METMA Conserved protein OS=Methanosarcina mazei (strain ATCC BAA-159 / DSM 3647 / Goe1 / Go1 / JCM 11833 / OCM 88) GN=MM_0020 PE=4 SV=1
+Probab=99.59  E-value=6.6e-16  Score=157.68  Aligned_cols=165  Identities=30%  Similarity=0.496  Sum_probs=95.7  Template_Neff=12.000
+
+Q ss_pred             hcCCCChHHHHHHHHHHHHhhhcCchhhhHHHHHHHHhcCCCHHHHHHHHHHHHHH-----HhcCCchHHHHHHHHHHhC
+Q tr|Q8PTN9|Q8PT  573 ISEDEDTGVRKDAAELLSHVFPAVEEKSGVFFDIIRLVESRDTQLRRRAAELLPAA-----FAHSGNKQRAWNDLVKLTS  647 (996)
+Q Consensus       573 ~l~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~L~~~l~~~~~~vr~~a~~~L~~~-----~~~~~~~~~~~~~L~~~l~  647 (996)
+                      .+.+.++.+|..++.+++.+....+.....+..+...+.+.++.+|..++.+++.+     +...+.....++.+..++.
+T Consensus       165 ~l~~~~~~vr~~a~~~L~~~~~~~~~~~~~~~~l~~~~~~~~~~vr~~a~~~l~~~~~~~~~~~~~~~~~~~~~l~~~~~  244 (336)
+T tr|Q8Q0W0|Q8Q0  165 LTNDQEAVVRANAINSLDPVFPYISDKQEAWRNIHKFLNESDFRVKYCAVNFLNSDAVVPTFISVPDNQQIWEDLVKIAV  244 (336)
+T ss_pred             HhcCCcHHHHHHHHHHHHHHcccCCcHHHHHHHHHHHhcCCCHHHHHHHHHHHhcccchhhhhCCCChHHHHHHHHHHhh
+Confidence            33344444555555554444332222222233333444445555566555555431     1111111334455556667
+
+
+Q ss_pred             CCChhHHHHHHHHHHHhCCCCCchhhHHHHHHHhcCCCChHHHHHHHHHHHHhhccCCCHHHHHHHHHHHhcCCChHHHH
+Q tr|Q8PTN9|Q8PT  648 DEDREVRKGAVLALSSGYPGVPDKGKVWSDLIMLSSHNDSFVQREATRALGPAFFYVPDKTMAWRDLQVLVDNPYVYVRR  727 (996)
+Q Consensus       648 d~~~~vr~~a~~~L~~~~~~~~~~~~i~~~L~~~l~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~l~~~l~d~~~~vr~  727 (996)
+                      ++++.+|..++.+++......+....+++.+...+.+.++.+|..++.+|+.+....+....+++.+..++.|.+..||.
+T Consensus       245 ~~~~~vr~~a~~~l~~~~~~~~~~~~~~~~l~~~~~~~~~~vr~~a~~~L~~~~~~~~~~~~~~~~l~~~~~d~~~~vr~  324 (336)
+T tr|Q8Q0W0|Q8Q0  245 KEEGFIKFNASRALTGLYPYLPDKKQGWKDLHELTNSKNYLVRREVVYSLKVAFEHLEDKTQIWEDLHRLANDEDKFVRS  324 (336)
+T ss_pred             CCCchHHHHHHHHHHHHhccCcchHHHHHHHHHHhCCCCHHHHHHHHHHHHHHHcccccHHHHHHHHHHHhhCcCHHHHH
+Confidence            77788888888887764433222234556666667778888888888888887665544445667777777787888888
+
+
+Q ss_pred             HHHHHHHHHH
+Q tr|Q8PTN9|Q8PT  728 YALRSLGRAS  737 (996)
+Q Consensus       728 ~a~~~l~~l~  737 (996)
+                      .+..+++.+.
+T Consensus       325 ~a~~~L~~~~  334 (336)
+T tr|Q8Q0W0|Q8Q0  325 TAADFLKTIA  334 (336)
+T ss_pred             HHHHHHHHHh
+Confidence            8888887654
+
+
+No 20
+>tr|Q8PXE4|Q8PXE4_METMA Uncharacterized protein OS=Methanosarcina mazei (strain ATCC BAA-159 / DSM 3647 / Goe1 / Go1 / JCM 11833 / OCM 88) GN=MM_1276 PE=4 SV=1
+Probab=99.58  E-value=6.9e-15  Score=159.73  Aligned_cols=337  Identities=16%  Similarity=0.068  Sum_probs=212.0  Template_Neff=12.000
+
+Q ss_pred             hHHHHHHhhcCCcHHHHHHHHHHHHHHhccCCChHHHHHHHHHHhhcCChHHHHHHHHHHHHHhhccChHHHHHHHHHHh
+Q tr|Q8PTN9|Q8PT  263 AWDTIFRFTGDERETVRKQAMDALVSISTEMSDKSRVWSDFIKLTEAQDEYVRDRAVDALSSVYQCLENKDAAWKELIEL  342 (996)
+Q Consensus       263 ~~~~l~~~l~~~~~~vr~~a~~~L~~~~~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~L~~~~~~~~~~~~~l~~l~~~  342 (996)
+                      ..+.+...+.++++.+|..++.++.....      ...+.+...+.+.++.+|..++.+++.+...   ....+..+...
+T Consensus       145 ~~~~l~~~l~~~~~~vr~~a~~~l~~~~~------~~~~~l~~~l~~~~~~~r~~a~~~l~~~~~~---~~~~~~~l~~~  215 (511)
+T tr|Q8PXE4|Q8PX  145 VPEDIMLAIQAKDKAMRESLARSMTSEYG------NDTDLLEEALKAEEQNSTLYTSFVLSNFEFE---SENETEILLQA  215 (511)
+T ss_pred             ccHHHHHHHHhCCHHHHHHHHHHHhHhcc------ccHHHHHHHHhcccchHHHHHHHHHHccCCC---ChhHHHHHHHH
+Confidence            34455566667778888888887776632      1334555566667777888877777766311   12344555566
+
+
+Q ss_pred             hCCCChHHHHHHHHHHHHHhccCCchhHHHHHHHHHhcCCCHHHHHHHHHHHhhhccccccCCCCchhhhhhcccccccc
+Q tr|Q8PTN9|Q8PT  343 TGSEEENIRTTAARALNRIFPYVSDKSQAYSDIIDLAEKEDNYMLREVARNLSSIHPQFYGEYGTDEMRAEIGEINESGR  422 (996)
+Q Consensus       343 l~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~~~~l~~~~~~~~  422 (996)
+                      +.+.++.+|..++.+++.+..     ...++.+...+.+.++.+|..++.+++.+....                     
+T Consensus       216 l~~~~~~~r~~a~~~l~~~~~-----~~~~~~l~~~l~~~~~~vr~~a~~~L~~~~~~~---------------------  269 (511)
+T tr|Q8PXE4|Q8PX  216 LKSEKGYVRVSAAMALGQKKE-----KAATDPLLKMLAQDYPLAGHSAVMALGEMGDER---------------------  269 (511)
+T ss_pred             HhCCCHHHHHHHHHHHhcCCc-----chhHHHHHHHHhcCCHHHHHHHHHHHHHhCCHH---------------------
+Confidence            666777888888888776654     234455666667777778888877777663210                     
+
+
+Q ss_pred             cCCCccccccCCCCCcchhhhhhhhhhhccccCCCCCCCccccchhhccccccccccccccccccccccchhHHHHHhcc
+Q tr|Q8PTN9|Q8PT  423 QNGKKEDKFSGFSGPASEKAAFLRRDTATFRGSAPGQHDMGKNREIAEGREMRDEDKAENGQLKGKESKKSAYDFLRLKG  502 (996)
+Q Consensus       423 ~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ll~~l~  502 (996)
+                                                                                            ....+...+.
+T Consensus       270 ----------------------------------------------------------------------~~~~l~~~l~  279 (511)
+T tr|Q8PXE4|Q8PX  270 ----------------------------------------------------------------------AVNTLMNELK  279 (511)
+T ss_pred             ----------------------------------------------------------------------HHHHHHHHHh
+Confidence                                                                                  0111111222
+
+
+Q ss_pred             Cc-hHHHHhhhhhHHhhhcCCCchhHHHHHHHHHhhCCCCHHHHHHHHHHHHHHHhhccchHHHHHHHHHHhcCCC----
+Q tr|Q8PTN9|Q8PT  503 ER-EKYARKDSAGPFSETYSGIPEKKEIIEELLRLSSDPDPQIRRGAIETLLVRYSREAGKAQDIWNELLRISEDE----  577 (996)
+Q Consensus       503 ~~-~~~vr~~a~~~L~~~~~~~~~~~~~~~~L~~~l~~~~~~vr~~a~~~L~~~~~~~~~~~~~~~~~L~~~l~~~----  577 (996)
+                      +. ++.+|..++.++.....     ....+.+...+.+.++.+|..++.+++.+..      ...++.+...+.+.    
+T Consensus       280 ~~~~~~~r~~a~~~l~~~~~-----~~~~~~l~~~l~~~~~~vr~~a~~~l~~~~~------~~~~~~l~~~l~~~~~~~  348 (511)
+T tr|Q8PXE4|Q8PX  280 NNGKDYIRSSTAIALGKLEA-----EEAVPYLIERLRDTRASVRSNSALVLGKMGD------ETAVEPLKNILESGKDSE  348 (511)
+T ss_pred             hCCCHHHHHHHHHHHhhcCc-----hhHHHHHHHHhcCCCHHHHHHHHHHHHHhCC------HhHHHHHHHHHhcCCCcc
+Confidence            22 34555556555553321     1234555566666777788887777776654      33444555555544    
+
+
+Q ss_pred             ---------ChHHHHHHHHHHHHhhhcCchhhhHHHHHHHHhcCC--CHHHHHHHHHHHHHHHhcCCchHHHHHHHHHHh
+Q tr|Q8PTN9|Q8PT  578 ---------DTGVRKDAAELLSHVFPAVEEKSGVFFDIIRLVESR--DTQLRRRAAELLPAAFAHSGNKQRAWNDLVKLT  646 (996)
+Q Consensus       578 ---------~~~vr~~a~~~L~~l~~~~~~~~~~~~~L~~~l~~~--~~~vr~~a~~~L~~~~~~~~~~~~~~~~L~~~l  646 (996)
+                               ++.+|..++.+++.+...     ...+.+...+.+.  ++.+|..++.+++.+.     ....++.+...+
+T Consensus       349 ~~~~~~~~~~~~~r~~a~~~l~~~~~~-----~~~~~l~~~l~~~~~~~~~r~~a~~~l~~~~-----~~~~~~~l~~~l  418 (511)
+T tr|Q8PXE4|Q8PX  349 GRRKDSLNTGVDVRKSTVLALGGIGGT-----ESTQTLIGVINDEGEIPDVRVAATIALGNIG-----SPEAVNVLKKTY  418 (511)
+T ss_pred             ccccccccCCHHHHHHHHHHHHhcCCh-----hHHHHHHHHHhCCCCCHHHHHHHHHHHhccC-----CHHHHHHHHHHh
+Confidence                     567888888888777531     3445566666665  6788888888887653     234566677777
+
+
+Q ss_pred             CCCC--hhHHHHHHHHHHHhCCCCCchhhHHHHHHHhcCCCChHHHHHHHHHHHHhhccCCCHHHHHHHHHHHhcCCChH
+Q tr|Q8PTN9|Q8PT  647 SDED--REVRKGAVLALSSGYPGVPDKGKVWSDLIMLSSHNDSFVQREATRALGPAFFYVPDKTMAWRDLQVLVDNPYVY  724 (996)
+Q Consensus       647 ~d~~--~~vr~~a~~~L~~~~~~~~~~~~i~~~L~~~l~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~l~~~l~d~~~~  724 (996)
+                      .+++  +.+|..++.+++.....     ..++.+...+.++++.+  .++.+++.+..      ...+.+...+.+.++.
+T Consensus       419 ~~~~~~~~vr~~a~~~l~~~~~~-----~~~~~l~~~l~~~~~~~--~a~~~L~~~~~------~~~~~l~~~l~~~~~~  485 (511)
+T tr|Q8PXE4|Q8PX  419 ENQNMNMNVRNGALIALGKTENQ-----EAAEFFIKKIGDKDFGV--SAREALINMGE------TAVEPLIENLKTEDQK  485 (511)
+T ss_pred             hccCCCHHHHHHHHHHHhccCCH-----HHHHHHHHHHcCCchHH--HHHHHHHHcCh------hhHHHHHHHhcCCCHH
+Confidence            7654  88999998888875432     45566667777766655  46777766632      3556667777788888
+
+
+Q ss_pred             HHHHHHHHHHHHHH
+Q tr|Q8PTN9|Q8PT  725 VRRYALRSLGRASL  738 (996)
+Q Consensus       725 vr~~a~~~l~~l~~  738 (996)
+                      +|..+..+++.++.
+T Consensus       486 vr~~a~~~L~~~~~  499 (511)
+T tr|Q8PXE4|Q8PX  486 IKDETALILIEIGD  499 (511)
+T ss_pred             HHHHHHHHHHHhCC
+Confidence            99999888887753
+
+
+No 21
+>tr|Q8PXE4|Q8PXE4_METMA Uncharacterized protein OS=Methanosarcina mazei (strain ATCC BAA-159 / DSM 3647 / Goe1 / Go1 / JCM 11833 / OCM 88) GN=MM_1276 PE=4 SV=1
+Probab=99.56  E-value=1.4e-14  Score=157.27  Aligned_cols=119  Identities=18%  Similarity=0.174  Sum_probs=67.3  Template_Neff=12.000
+
+Q ss_pred             HHHHHHhhcCCcHHHHHHHHHHHHHHhccCCChHHHHHHHHHHhhcCChHHHHHHHHHHHHHhhccChHHHHHHHHHHhh
+Q tr|Q8PTN9|Q8PT  264 WDTIFRFTGDERETVRKQAMDALVSISTEMSDKSRVWSDFIKLTEAQDEYVRDRAVDALSSVYQCLENKDAAWKELIELT  343 (996)
+Q Consensus       264 ~~~l~~~l~~~~~~vr~~a~~~L~~~~~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~L~~~~~~~~~~~~~l~~l~~~l  343 (996)
+                      ++.+...+.++++.+|..++.++..+...     ..++.+...+.+.++.+|..++.+++.+.     .......+...+
+T Consensus       209 ~~~l~~~l~~~~~~~r~~a~~~l~~~~~~-----~~~~~l~~~l~~~~~~vr~~a~~~L~~~~-----~~~~~~~l~~~l  278 (511)
+T tr|Q8PXE4|Q8PX  209 TEILLQALKSEKGYVRVSAAMALGQKKEK-----AATDPLLKMLAQDYPLAGHSAVMALGEMG-----DERAVNTLMNEL  278 (511)
+T ss_pred             HHHHHHHHhCCCHHHHHHHHHHHhcCCcc-----hhHHHHHHHHhcCCHHHHHHHHHHHHHhC-----CHHHHHHHHHHH
+Confidence            34444555566667777777776665432     23344555566666777777777776652     112333444444
+
+
+Q ss_pred             CCC-ChHHHHHHHHHHHHHhccCCchhHHHHHHHHHhcCCCHHHHHHHHHHHhhh
+Q tr|Q8PTN9|Q8PT  344 GSE-EENIRTTAARALNRIFPYVSDKSQAYSDIIDLAEKEDNYMLREVARNLSSI  397 (996)
+Q Consensus       344 ~~~-~~~vr~~a~~~L~~l~~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~L~~l  397 (996)
+                      .+. ++.+|..++.+++.+..     ....+.+...+.+.++.+|..++.+++.+
+T Consensus       279 ~~~~~~~~r~~a~~~l~~~~~-----~~~~~~l~~~l~~~~~~vr~~a~~~l~~~  328 (511)
+T tr|Q8PXE4|Q8PX  279 KNNGKDYIRSSTAIALGKLEA-----EEAVPYLIERLRDTRASVRSNSALVLGKM  328 (511)
+T ss_pred             hhCCCHHHHHHHHHHHhhcCc-----hhHHHHHHHHhcCCCHHHHHHHHHHHHHh
+Confidence            433 46677777777666543     12334455555566666676666666555
+
+
+No 22
+>tr|Q8PZK2|Q8PZK2_METMA Phycocyanin alpha-subunit phycocyanobilin lyase OS=Methanosarcina mazei (strain ATCC BAA-159 / DSM 3647 / Goe1 / Go1 / JCM 11833 / OCM 88) GN=MM_0490 PE=4 SV=1
+Probab=99.50  E-value=2.2e-13  Score=144.34  Aligned_cols=210  Identities=17%  Similarity=0.144  Sum_probs=128.1  Template_Neff=11.200
+
+Q ss_pred             ccCchHHHHhhhhhHHhhhcCCCchhHHHHHHHHHhhCCCCHHHHHHHHHHHHHHHhhccchHHHHHHHHHHhcCCCChH
+Q tr|Q8PTN9|Q8PT  501 KGEREKYARKDSAGPFSETYSGIPEKKEIIEELLRLSSDPDPQIRRGAIETLLVRYSREAGKAQDIWNELLRISEDEDTG  580 (996)
+Q Consensus       501 l~~~~~~vr~~a~~~L~~~~~~~~~~~~~~~~L~~~l~~~~~~vr~~a~~~L~~~~~~~~~~~~~~~~~L~~~l~~~~~~  580 (996)
+                      +.++++.+|..++.++....... ........+...+.+.++.+|..++.++.....      ....+.+...+.+.+..
+T Consensus       229 l~~~~~~vr~~a~~~l~~~~~~~-~~~~~~~~l~~~l~~~~~~v~~~a~~~L~~~~~------~~~~~~l~~~l~~~~~~  301 (452)
+T tr|Q8PZK2|Q8PZ  229 LDDKVPEVREEAASALGYFKGPK-EIARTEQPLIDALGDDEFEVQKAAAYSLGDIGS------KEAIPFIVAFLQAENPA  301 (452)
+T ss_pred             hcCCCHHHHHHHHHHHHhcCCHH-HHhhchHHHHHHhCCCcHHHHHHHHHHHhhhCC------hhhHHHHHHHHhCCCHH
+Confidence            33444555555555554322110 011123344455556666777777777766543      34455556666666777
+
+
+Q ss_pred             HHHHHHHHHHHhhhcCchhhhHHHHHHHHhcCCCHHHHHHHHHHHHHHHhcCCchHHHHHHHHHHhCCCChhHHHHHHHH
+Q tr|Q8PTN9|Q8PT  581 VRKDAAELLSHVFPAVEEKSGVFFDIIRLVESRDTQLRRRAAELLPAAFAHSGNKQRAWNDLVKLTSDEDREVRKGAVLA  660 (996)
+Q Consensus       581 vr~~a~~~L~~l~~~~~~~~~~~~~L~~~l~~~~~~vr~~a~~~L~~~~~~~~~~~~~~~~L~~~l~d~~~~vr~~a~~~  660 (996)
+                      ++..++.++..+...     ...+.+...+.+.++.+|..++.+++...     ....++.+...+.++++.+|..+..+
+T Consensus       302 ~~~~a~~~L~~~~~~-----~~~~~l~~~l~~~~~~vr~~a~~~L~~~~-----~~~~~~~l~~~l~~~~~~~r~~a~~~  371 (452)
+T tr|Q8PZK2|Q8PZ  302 LHSVAVHALGRYNDP-----DATAALIDALDDESRHVRLVIVHFLSETG-----DPQAVDPFISLLGDERHEIRQSAANG  371 (452)
+T ss_pred             HHHHHHHHHhhcCCH-----HHHHHHHHHhcCCCHHHHHHHHHHHHhhC-----ChhHHHHHHHHhCCCCHHHHHHHHHH
+Confidence            787787777766431     23445555666677778888887776532     23456677778888888899888888
+
+
+Q ss_pred             HHHhCCCCCchhhHHHHHHHhcC-CCChHHHHHHHHHHHHhhccCCCHHHHHHHHHHHhcCC--ChHHHHHHHHHHHHHH
+Q tr|Q8PTN9|Q8PT  661 LSSGYPGVPDKGKVWSDLIMLSS-HNDSFVQREATRALGPAFFYVPDKTMAWRDLQVLVDNP--YVYVRRYALRSLGRAS  737 (996)
+Q Consensus       661 L~~~~~~~~~~~~i~~~L~~~l~-~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~l~~~l~d~--~~~vr~~a~~~l~~l~  737 (996)
+                      ++.....     ..++.+...+. +.++.+|..++.+|+.+..     ...+..+..++.++  +..||..+..++..++
+T Consensus       372 L~~~~~~-----~~~~~l~~~l~~~~~~~vr~~a~~aL~~~~~-----~~~~~~l~~~~~~~~~~~~~r~~a~~~l~~~~  441 (452)
+T tr|Q8PZK2|Q8PZ  372 LGKLGDQ-----KAVGPLLKAMETEKERDVRVAEIRALGELGG-----PEAVEGLRRISTDMEEYRNVRTAAEEALNNIE  441 (452)
+T ss_pred             HHhhCCH-----HHHHHHHHHHcccCCHHHHHHHHHHHHHhcC-----HHHHHHHHHHhcChhHHHHHHHHHHHHHHhhc
+Confidence            8765322     23333444333 4567789999999988632     34555565556544  4578999888888764
+
+
+No 23
+>tr|Q8Q0W0|Q8Q0W0_METMA Conserved protein OS=Methanosarcina mazei (strain ATCC BAA-159 / DSM 3647 / Goe1 / Go1 / JCM 11833 / OCM 88) GN=MM_0020 PE=4 SV=1
+Probab=99.50  E-value=1.2e-14  Score=147.82  Aligned_cols=318  Identities=29%  Similarity=0.506  Sum_probs=196.1  Template_Neff=12.000
+
+Q ss_pred             HHHHHHHHHhhcCCChhHHHHHHHHHHHhccCCchhhhhHHHHHHhhcCCChHHHHHHHHHHHHhccCCCchhHHHHHHH
+Q tr|Q8PTN9|Q8PT   37 KQAFEDLLRLCSDRDSEVRVEAINSLTTVFPNVPEKELTWERFVNLTAYPVEQVFAAAVSALITVFPLVPDKDRAWKDLI  116 (996)
+Q Consensus        37 ~~~~~~L~~~l~~~~~~vR~~a~~~L~~l~~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~l~  116 (996)
+                      ..+++.+..++.++++.+|..|+.+++.+....+.....++.+...+.++++.+|..+..++..+....+.....++.+.
+T Consensus        12 ~~~~~~l~~~l~~~~~~vr~~a~~~L~~~~~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~L~~~~~~~~~~~~~~~~l~   91 (336)
+T tr|Q8Q0W0|Q8Q0   12 QKIWKKFISRMADSSGDVCILPSFLFRSLISRVPNKQQSWEDLLIVVSRAKEFPLEDPSFVFDTNFQYVPDKQNAWNSLY   91 (336)
+T ss_pred             HHHHHHHHHHHcCCCcchHHHHHHHHHHHHccCCCchhHHHHHHHHHhCCCCcccccHHHHhhHhhhcCChhHHHHHHHH
+Confidence            34566777777888888888888888887665444344456666677777778888888877776654333334455566
+
+
+Q ss_pred             HHhcCCCcHHHHHHHHHHHHHHHhhcCCchHHHHHHHHHhhcCCCHHHHHHHHHHHHhhhcCCCcchhhHHHHHHHHHhc
+Q tr|Q8PTN9|Q8PT  117 ELINSKSSIEDVSRGIVSSLQNAISEYPDREHAWKDLLEMTASEDPYARKKAASLLSTVFPGLPEGKKTKAWKDLLGLAG  196 (996)
+Q Consensus       117 ~~l~~~~~~~~vr~~a~~~l~~~~~~~~~~~~~~~~L~~~l~d~~~~vr~~a~~~L~~~~~~~~~~~~~~~~~~ll~~l~  196 (996)
+                      .++.+.+.  .+|..++.++..+....+.....+..+...+.++++.+|..++.+++.+....+.  ....+..+...+ 
+T Consensus        92 ~ll~~~~~--~vr~~a~~~L~~~~~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~L~~~~~~~~~--~~~~~~~l~~~l-  166 (336)
+T tr|Q8Q0W0|Q8Q0   92 KLTRDKKA--SVRIIAAYSLGNLFSLAPDKEKAWKNLHKLANSEDVYARIGGAKSIGSAFRDISN--KQEAWNDLHKLT-  166 (336)
+T ss_pred             HHhcCCCH--HHHHHHHHHHHHHHhhCcchHHHHHHHHHHhcCCCHHHHHHHHHHHHHHhhcccc--hHHHHHHHHHHh-
+Confidence            66666555  7888887777765544332234455566666777788888888888777644332  111222233322 
+
+
+Q ss_pred             CCCChHHHHHHHHHHHHHhhcCCcccccchHHHHHHhhcCCCchhHHhhHhhhhhhhhcCCCcccchHHHHHHhhcCCcH
+Q tr|Q8PTN9|Q8PT  197 EKGDSQVSEQASKAIREVFPFLPDEKKDEGWEEMLELAGGSADHVARMKILPFLPSVFSSVPDKNKAWDTIFRFTGDERE  276 (996)
+Q Consensus       197 ~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~~~l~~~l~~~~~~~~~~~a~~~l~~~~~~~~~~~~~~~~l~~~l~~~~~  276 (996)
+                      .+.++.+|..++.++..+....+                                       .....++.+..++.+.++
+T Consensus       167 ~~~~~~vr~~a~~~L~~~~~~~~---------------------------------------~~~~~~~~l~~~~~~~~~  207 (336)
+T tr|Q8Q0W0|Q8Q0  167 NDQEAVVRANAINSLDPVFPYIS---------------------------------------DKQEAWRNIHKFLNESDF  207 (336)
+T ss_pred             cCCcHHHHHHHHHHHHHHcccCC---------------------------------------cHHHHHHHHHHHhcCCCH
+Confidence            23355666666666655433221                                       111223334444455667
+
+
+Q ss_pred             HHHHHHHHHHHHHh-----ccCCChHHHHHHHHHHhhcCChHHHHHHHHHHHHHhhccChHHHHHHHHHHhhCCCChHHH
+Q tr|Q8PTN9|Q8PT  277 TVRKQAMDALVSIS-----TEMSDKSRVWSDFIKLTEAQDEYVRDRAVDALSSVYQCLENKDAAWKELIELTGSEEENIR  351 (996)
+Q Consensus       277 ~vr~~a~~~L~~~~-----~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~L~~~~~~~~~~~~~l~~l~~~l~~~~~~vr  351 (996)
+                      .+|..++.+++.+.     ...+.....+..+...+.+.++.+|..++.+++.++...+.....+..+...+.+.++.+|
+T Consensus       208 ~vr~~a~~~l~~~~~~~~~~~~~~~~~~~~~l~~~~~~~~~~vr~~a~~~l~~~~~~~~~~~~~~~~l~~~~~~~~~~vr  287 (336)
+T tr|Q8Q0W0|Q8Q0  208 RVKYCAVNFLNSDAVVPTFISVPDNQQIWEDLVKIAVKEEGFIKFNASRALTGLYPYLPDKKQGWKDLHELTNSKNYLVR  287 (336)
+T ss_pred             HHHHHHHHHHhcccchhhhhCCCChHHHHHHHHHHhhCCCchHHHHHHHHHHHHhccCcchHHHHHHHHHHhCCCCHHHH
+Confidence            77777777776521     1111112234455556667778888888888876654333223445556666667788899
+
+
+Q ss_pred             HHHHHHHHHHhccCCchhHHHHHHHHHhcCCCHHHHHHHHHHHhhhc
+Q tr|Q8PTN9|Q8PT  352 TTAARALNRIFPYVSDKSQAYSDIIDLAEKEDNYMLREVARNLSSIH  398 (996)
+Q Consensus       352 ~~a~~~L~~l~~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~L~~l~  398 (996)
+                      ..++.+++.+....+.....++.+..++.+.+..+|..++.+|+.+.
+T Consensus       288 ~~a~~~L~~~~~~~~~~~~~~~~l~~~~~d~~~~vr~~a~~~L~~~~  334 (336)
+T tr|Q8Q0W0|Q8Q0  288 REVVYSLKVAFEHLEDKTQIWEDLHRLANDEDKFVRSTAADFLKTIA  334 (336)
+T ss_pred             HHHHHHHHHHHcccccHHHHHHHHHHHhhCcCHHHHHHHHHHHHHHh
+Confidence            99999888877654443445566777777777889998888887763
+
+
+No 24
+>tr|Q8Q0W0|Q8Q0W0_METMA Conserved protein OS=Methanosarcina mazei (strain ATCC BAA-159 / DSM 3647 / Goe1 / Go1 / JCM 11833 / OCM 88) GN=MM_0020 PE=4 SV=1
+Probab=99.46  E-value=4.9e-14  Score=143.04  Aligned_cols=64  Identities=31%  Similarity=0.560  Sum_probs=36.7  Template_Neff=12.000
+
+Q ss_pred             HHHHHHHHhCCCChhHHHHHHHHHHHhCCCCCchhhHHHHHHHhcCCCChHHHHHHHHHHHHhh
+Q tr|Q8PTN9|Q8PT  638 AWNDLVKLTSDEDREVRKGAVLALSSGYPGVPDKGKVWSDLIMLSSHNDSFVQREATRALGPAF  701 (996)
+Q Consensus       638 ~~~~L~~~l~d~~~~vr~~a~~~L~~~~~~~~~~~~i~~~L~~~l~~~~~~vr~~a~~~L~~l~  701 (996)
+                      .++.+..++.++++.+|..++.+++.+....+....+++.+...+.+.++.+|..++.+|+.++
+T Consensus       271 ~~~~l~~~~~~~~~~vr~~a~~~L~~~~~~~~~~~~~~~~l~~~~~d~~~~vr~~a~~~L~~~~  334 (336)
+T tr|Q8Q0W0|Q8Q0  271 GWKDLHELTNSKNYLVRREVVYSLKVAFEHLEDKTQIWEDLHRLANDEDKFVRSTAADFLKTIA  334 (336)
+T ss_pred             HHHHHHHHhCCCCHHHHHHHHHHHHHHHcccccHHHHHHHHHHHhhCcCHHHHHHHHHHHHHHh
+Confidence            4444445555566666666666666544333222345555666666666677777777776654
+
+
+No 25
+>tr|Q8PZK2|Q8PZK2_METMA Phycocyanin alpha-subunit phycocyanobilin lyase OS=Methanosarcina mazei (strain ATCC BAA-159 / DSM 3647 / Goe1 / Go1 / JCM 11833 / OCM 88) GN=MM_0490 PE=4 SV=1
+Probab=99.45  E-value=1.7e-12  Score=137.20  Aligned_cols=120  Identities=20%  Similarity=0.184  Sum_probs=56.6  Template_Neff=11.200
+
+Q ss_pred             HHHHHHHHhhcCCChhHHHHHHHHHHHhccCCchhhhhHHHHHHhhcCCChHHHHHHHHHHHHhccCCCchhHHHHHHHH
+Q tr|Q8PTN9|Q8PT   38 QAFEDLLRLCSDRDSEVRVEAINSLTTVFPNVPEKELTWERFVNLTAYPVEQVFAAAVSALITVFPLVPDKDRAWKDLIE  117 (996)
+Q Consensus        38 ~~~~~L~~~l~~~~~~vR~~a~~~L~~l~~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~l~~  117 (996)
+                      ...+.+...+.+++..+|..+...+......      ....+...+.+.++.+|..+..++..+...     ...+.+..
+T Consensus        37 ~~~~~l~~~l~~~~~~~r~~a~~~l~~~~~~------~~~~l~~~l~~~~~~~r~~a~~~l~~~~~~-----~~~~~L~~  105 (452)
+T tr|Q8PZK2|Q8PZ   37 ARVDKLVRSLGNEDRNVSYASAYALIDIGEP------SVNSLIKTLEDDNPQVRSLAAYSLGRIGEP-----RASKPLIE  105 (452)
+T ss_pred             HHHHHHHHHhCCCCHHHHHHHHHHHHHhCCH------hHHHHHHHhhCCCHHHHHHHHHHHHhhCCh-----hhHHHHHH
+Confidence            3455666666677777777776666554321      112233334444455555555555444221     22233333
+
+
+Q ss_pred             HhcCCCcHHHHHHHHHHHHHHHhhcCCchHHHHHHHHHhhcCCCHHHHHHHHHHHHhh
+Q tr|Q8PTN9|Q8PT  118 LINSKSSIEDVSRGIVSSLQNAISEYPDREHAWKDLLEMTASEDPYARKKAASLLSTV  175 (996)
+Q Consensus       118 ~l~~~~~~~~vr~~a~~~l~~~~~~~~~~~~~~~~L~~~l~d~~~~vr~~a~~~L~~~  175 (996)
+                      .+.+++.  .+|..++.++..+..     ....+.+...+.++++.+|..|+.+++.+
+T Consensus       106 ~l~~~~~--~~r~~a~~~L~~~~~-----~~~~~~l~~~l~~~~~~vr~~A~~~L~~~  156 (452)
+T tr|Q8PZK2|Q8PZ  106 ALEDPEP--EVRMNSAEALGELKA-----PEAADLLIELLDDDNDEVRSKAVFALGAI  156 (452)
+T ss_pred             HHhCCCH--HHHHHHHHHHHhcCC-----HHHHHHHHHHhcCCCHHHHHHHHHHHHHh
+Confidence            4444433  455555555443221     12233344444445555555555555444
+
+
+No 26
+>tr|Q8PSI9|Q8PSI9_METMA Phycocyanin alpha-subunit phycocyanobilin lyase related protein, CpcE/NblB family OS=Methanosarcina mazei (strain ATCC BAA-159 / DSM 3647 / Goe1 / Go1 / JCM 11833 / OCM 88) GN=MM_3090 PE=4 SV=1
+Probab=99.41  E-value=4.6e-13  Score=142.05  Aligned_cols=120  Identities=22%  Similarity=0.240  Sum_probs=69.5  Template_Neff=11.300
+
+Q ss_pred             hHHHHHHhhcCCcHHHHHHHHHHHHHHhccCCChHHHHHHHHHHhhcCChHHHHHHHHHHHHHhhccChHHHHHHHHHHh
+Q tr|Q8PTN9|Q8PT  263 AWDTIFRFTGDERETVRKQAMDALVSISTEMSDKSRVWSDFIKLTEAQDEYVRDRAVDALSSVYQCLENKDAAWKELIEL  342 (996)
+Q Consensus       263 ~~~~l~~~l~~~~~~vr~~a~~~L~~~~~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~L~~~~~~~~~~~~~l~~l~~~  342 (996)
+                      ..+.+..++.++++.+|..++.+++.....     ...+.+...+.+.++.+|..++.+++.+.     .......+...
+T Consensus        36 ~~~~l~~~l~~~~~~vr~~a~~~L~~~~~~-----~~~~~l~~~l~~~~~~~r~~a~~~L~~~~-----~~~~~~~l~~~  105 (457)
+T tr|Q8PSI9|Q8PS   36 AVPVLLKALEDSSSKVKAAASEALGEINDP-----DAVPCLMKMLDYPESYVKKAAIIALGKIG-----TQEAVSGIVKG  105 (457)
+T ss_pred             hHHHHHHHhcCCCHHHHHHHHHHHHhcCCc-----hHHHHHHHHhCCCCHHHHHHHHHHHHhhC-----CHHHHHHHHHH
+Confidence            445566666666777777777777765432     12334455555666677777777776652     12233344444
+
+
+Q ss_pred             hCCCChHHHHHHHHHHHHHhccCCchhHHHHHHHHHhcCCCHHHHHHHHHHHhhh
+Q tr|Q8PTN9|Q8PT  343 TGSEEENIRTTAARALNRIFPYVSDKSQAYSDIIDLAEKEDNYMLREVARNLSSI  397 (996)
+Q Consensus       343 l~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~L~~l  397 (996)
+                      +.+.++.+|..++.+++.+..     ...++.+...+.++++.++..++.+++..
+T Consensus       106 l~~~~~~~r~~a~~~L~~~~~-----~~~~~~l~~~l~~~~~~~~~~a~~~l~~~  155 (457)
+T tr|Q8PSI9|Q8PS  106 FRDPDKLIRKESVKALMRIGS-----PEAVSGLTATFTCPDSPLKRISITALGKI  155 (457)
+T ss_pred             hcCCCHHHHHHHHHHHHhhCC-----HHHHHHHHHHhcCCChHHHHHHHHHHhhc
+Confidence            455566777777777766543     22334445555555666666666666554
+
+
+No 27
+>tr|Q8Q0W0|Q8Q0W0_METMA Conserved protein OS=Methanosarcina mazei (strain ATCC BAA-159 / DSM 3647 / Goe1 / Go1 / JCM 11833 / OCM 88) GN=MM_0020 PE=4 SV=1
+Probab=99.36  E-value=3.9e-13  Score=135.97  Aligned_cols=202  Identities=25%  Similarity=0.478  Sum_probs=99.2  Template_Neff=12.000
+
+Q ss_pred             HHHHhcCCCcHHHHHHHHHHHHHHHhhcCCchHHHHHHHHHhhcCCCHHHHHHHHHHHHhhhcCCCcchhhHHHHHHHHH
+Q tr|Q8PTN9|Q8PT  115 LIELINSKSSIEDVSRGIVSSLQNAISEYPDREHAWKDLLEMTASEDPYARKKAASLLSTVFPGLPEGKKTKAWKDLLGL  194 (996)
+Q Consensus       115 l~~~l~~~~~~~~vr~~a~~~l~~~~~~~~~~~~~~~~L~~~l~d~~~~vr~~a~~~L~~~~~~~~~~~~~~~~~~ll~~  194 (996)
+                      +..++.+++.  .+|..++.++..++...+.....++.+...+.++++.+|..++.++..+....+.  ....+..+...
+T Consensus        18 l~~~l~~~~~--~vr~~a~~~L~~~~~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~L~~~~~~~~~--~~~~~~~l~~l   93 (336)
+T tr|Q8Q0W0|Q8Q0   18 FISRMADSSG--DVCILPSFLFRSLISRVPNKQQSWEDLLIVVSRAKEFPLEDPSFVFDTNFQYVPD--KQNAWNSLYKL   93 (336)
+T ss_pred             HHHHHcCCCc--chHHHHHHHHHHHHccCCCchhHHHHHHHHHhCCCCcccccHHHHhhHhhhcCCh--hHHHHHHHHHH
+Confidence            3334444444  5555555555544433222223444555556666666777766666665443322  01111112221
+
+
+Q ss_pred             hcCCCChHHHHHHHHHHHHHhhcCCcccccchHHHHHHhhcCCCchhHHhhHhhhhhhhhcCCCcccchHHHHHHhhcCC
+Q tr|Q8PTN9|Q8PT  195 AGEKGDSQVSEQASKAIREVFPFLPDEKKDEGWEEMLELAGGSADHVARMKILPFLPSVFSSVPDKNKAWDTIFRFTGDE  274 (996)
+Q Consensus       195 l~~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~~~l~~~l~~~~~~~~~~~a~~~l~~~~~~~~~~~~~~~~l~~~l~~~  274 (996)
+                       ..+.+..+|..++.++..+....+                                       .....++.+...+.++
+T Consensus        94 -l~~~~~~vr~~a~~~L~~~~~~~~---------------------------------------~~~~~~~~l~~~l~~~  133 (336)
+T tr|Q8Q0W0|Q8Q0   94 -TRDKKASVRIIAAYSLGNLFSLAP---------------------------------------DKEKAWKNLHKLANSE  133 (336)
+T ss_pred             -hcCCCHHHHHHHHHHHHHHHhhCc---------------------------------------chHHHHHHHHHHhcCC
+Confidence             223344555555554444332111                                       1112233344445556
+
+
+Q ss_pred             cHHHHHHHHHHHHHHhccCCChHHHHHHHHHHhhcCChHHHHHHHHHHHHHhhccChHHHHHHHHHHhhCCCChHHHHHH
+Q tr|Q8PTN9|Q8PT  275 RETVRKQAMDALVSISTEMSDKSRVWSDFIKLTEAQDEYVRDRAVDALSSVYQCLENKDAAWKELIELTGSEEENIRTTA  354 (996)
+Q Consensus       275 ~~~vr~~a~~~L~~~~~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~L~~~~~~~~~~~~~l~~l~~~l~~~~~~vr~~a  354 (996)
+                      ++.+|..++.+++.+....+.....+..+...+.+.++.+|..++.+++.+....+.....+..+...+.+.++.+|..+
+T Consensus       134 ~~~vr~~a~~~L~~~~~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~L~~~~~~~~~~~~~~~~l~~~~~~~~~~vr~~a  213 (336)
+T tr|Q8Q0W0|Q8Q0  134 DVYARIGGAKSIGSAFRDISNKQEAWNDLHKLTNDQEAVVRANAINSLDPVFPYISDKQEAWRNIHKFLNESDFRVKYCA  213 (336)
+T ss_pred             CHHHHHHHHHHHHHHhhcccchHHHHHHHHHHhcCCcHHHHHHHHHHHHHHcccCCcHHHHHHHHHHHhcCCCHHHHHHH
+Confidence            66777777777766654332222334445555555666677777777766644332222333344444555566677777
+
+
+Q ss_pred             HHHHHH
+Q tr|Q8PTN9|Q8PT  355 ARALNR  360 (996)
+Q Consensus       355 ~~~L~~  360 (996)
+                      +.+++.
+T Consensus       214 ~~~l~~  219 (336)
+T tr|Q8Q0W0|Q8Q0  214 VNFLNS  219 (336)
+T ss_pred             HHHHhc
+Confidence            776664
+
+
+No 28
+>tr|Q8PXE4|Q8PXE4_METMA Uncharacterized protein OS=Methanosarcina mazei (strain ATCC BAA-159 / DSM 3647 / Goe1 / Go1 / JCM 11833 / OCM 88) GN=MM_1276 PE=4 SV=1
+Probab=99.33  E-value=1.1e-12  Score=141.39  Aligned_cols=204  Identities=22%  Similarity=0.173  Sum_probs=107.3  Template_Neff=12.000
+
+Q ss_pred             CchHHHHhhhhhHHhhhcCCCchhHHHHHHHHHhhCCCCHHHHHHHHHHHHHHHhhccchHHHHHHHHHHhcCCC-ChHH
+Q tr|Q8PTN9|Q8PT  503 EREKYARKDSAGPFSETYSGIPEKKEIIEELLRLSSDPDPQIRRGAIETLLVRYSREAGKAQDIWNELLRISEDE-DTGV  581 (996)
+Q Consensus       503 ~~~~~vr~~a~~~L~~~~~~~~~~~~~~~~L~~~l~~~~~~vr~~a~~~L~~~~~~~~~~~~~~~~~L~~~l~~~-~~~v  581 (996)
+                      ++++.+|..++..+.....     ....+.+...+.+.++.+|..++.+++.+..      ....+.+...+.+. ++.+
+T Consensus       218 ~~~~~~r~~a~~~l~~~~~-----~~~~~~l~~~l~~~~~~vr~~a~~~L~~~~~------~~~~~~l~~~l~~~~~~~~  286 (511)
+T tr|Q8PXE4|Q8PX  218 SEKGYVRVSAAMALGQKKE-----KAATDPLLKMLAQDYPLAGHSAVMALGEMGD------ERAVNTLMNELKNNGKDYI  286 (511)
+T ss_pred             CCCHHHHHHHHHHHhcCCc-----chhHHHHHHHHhcCCHHHHHHHHHHHHHhCC------HHHHHHHHHHHhhCCCHHH
+Confidence            3444455555554443211     1234444555555566666666666655543      22333444444433 4556
+
+
+Q ss_pred             HHHHHHHHHHhhhcCchhhhHHHHHHHHhcCCCHHHHHHHHHHHHHHHhcCCchHHHHHHHHHHhCCC------------
+Q tr|Q8PTN9|Q8PT  582 RKDAAELLSHVFPAVEEKSGVFFDIIRLVESRDTQLRRRAAELLPAAFAHSGNKQRAWNDLVKLTSDE------------  649 (996)
+Q Consensus       582 r~~a~~~L~~l~~~~~~~~~~~~~L~~~l~~~~~~vr~~a~~~L~~~~~~~~~~~~~~~~L~~~l~d~------------  649 (996)
+                      |..++.+++.+...     ...+.+...+.+.++.+|..++.+++.+.     ....++.+...+.+.            
+T Consensus       287 r~~a~~~l~~~~~~-----~~~~~l~~~l~~~~~~vr~~a~~~l~~~~-----~~~~~~~l~~~l~~~~~~~~~~~~~~~  356 (511)
+T tr|Q8PXE4|Q8PX  287 RSSTAIALGKLEAE-----EAVPYLIERLRDTRASVRSNSALVLGKMG-----DETAVEPLKNILESGKDSEGRRKDSLN  356 (511)
+T ss_pred             HHHHHHHHhhcCch-----hHHHHHHHHhcCCCHHHHHHHHHHHHHhC-----CHhHHHHHHHHHhcCCCcccccccccc
+Confidence            66666666655421     23344445555566666666666665432     122344444444444            
+
+
+Q ss_pred             -ChhHHHHHHHHHHHhCCCCCchhhHHHHHHHhcCCC--ChHHHHHHHHHHHHhhccCCCHHHHHHHHHHHhcCCC--hH
+Q tr|Q8PTN9|Q8PT  650 -DREVRKGAVLALSSGYPGVPDKGKVWSDLIMLSSHN--DSFVQREATRALGPAFFYVPDKTMAWRDLQVLVDNPY--VY  724 (996)
+Q Consensus       650 -~~~vr~~a~~~L~~~~~~~~~~~~i~~~L~~~l~~~--~~~vr~~a~~~L~~l~~~~~~~~~~~~~l~~~l~d~~--~~  724 (996)
+                       ++.+|..++.+++.....     ..++.+...+.+.  ++.+|..++.+++.+..     ....+.+...+.+.+  +.
+T Consensus       357 ~~~~~r~~a~~~l~~~~~~-----~~~~~l~~~l~~~~~~~~~r~~a~~~l~~~~~-----~~~~~~l~~~l~~~~~~~~  426 (511)
+T tr|Q8PXE4|Q8PX  357 TGVDVRKSTVLALGGIGGT-----ESTQTLIGVINDEGEIPDVRVAATIALGNIGS-----PEAVNVLKKTYENQNMNMN  426 (511)
+T ss_pred             CCHHHHHHHHHHHHhcCCh-----hHHHHHHHHHhCCCCCHHHHHHHHHHHhccCC-----HHHHHHHHHHhhccCCCHH
+Confidence             566777777776654321     3444555555554  56777777777766532     234455555555543  66
+
+
+Q ss_pred             HHHHHHHHHHHHH
+Q tr|Q8PTN9|Q8PT  725 VRRYALRSLGRAS  737 (996)
+Q Consensus       725 vr~~a~~~l~~l~  737 (996)
+                      +|..++.+++.+.
+T Consensus       427 vr~~a~~~l~~~~  439 (511)
+T tr|Q8PXE4|Q8PX  427 VRNGALIALGKTE  439 (511)
+T ss_pred             HHHHHHHHHhccC
+Confidence            7777776666554
+
+
+No 29
+>tr|Q8PXE4|Q8PXE4_METMA Uncharacterized protein OS=Methanosarcina mazei (strain ATCC BAA-159 / DSM 3647 / Goe1 / Go1 / JCM 11833 / OCM 88) GN=MM_1276 PE=4 SV=1
+Probab=99.29  E-value=3.7e-12  Score=137.03  Aligned_cols=248  Identities=16%  Similarity=0.090  Sum_probs=144.8  Template_Neff=12.000
+
+Q ss_pred             chhhhccC-CChHHHHHHHHHHHHHHhhCccHHHHHHHHHHhhcCCChh----HHHHHHHHHHHhccCCc--h-------
+Q tr|Q8PTN9|Q8PT    6 GIHDKTFS-QESDDRIKAAKQLGALFEVFPDRKQAFEDLLRLCSDRDSE----VRVEAINSLTTVFPNVP--E-------   71 (996)
+Q Consensus         6 ~l~~~l~~-~~~~~r~~Al~~l~~~~~~~~~~~~~~~~L~~~l~~~~~~----vR~~a~~~L~~l~~~~~--~-------   71 (996)
+                      .+.+.+.+ +++.+|..|+..+..+...  ....++    ..+.++++.    +|..++.++..+.....  .       
+T Consensus        54 ~l~~~l~~~~~~~~r~~a~~~L~~~~~~--~~~~l~----~~l~~~~~~~~~~vr~~a~~~L~~~~~~~~~~~l~~~l~~  127 (511)
+T tr|Q8PXE4|Q8PX   54 SLMNRLETGNGSEARLNAATELGNLGEP--AASAII----EKMEAENPSLGGEIKSYMLLALLETGDKRAENIISEYLGK  127 (511)
+T ss_pred             HHHHHHhcCCChHHHHHHHHHHHccCcc--hHHHHH----HHHHcCCCccChhHHHHHHHHHHHhCCHhHHHHHHHHhcc
+Confidence            45556665 6788999999988887432  122222    445666777    88888888877653211  0       
+
+
+Q ss_pred             --------------hhhhHHHHHHhhcCCChHHHHHHHHHHHHhccCCCchhHHHHHHHHHhcCCCcHHHHHHHHHHHHH
+Q tr|Q8PTN9|Q8PT   72 --------------KELTWERFVNLTAYPVEQVFAAAVSALITVFPLVPDKDRAWKDLIELINSKSSIEDVSRGIVSSLQ  137 (996)
+Q Consensus        72 --------------~~~~~~~l~~~l~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~l~~~l~~~~~~~~vr~~a~~~l~  137 (996)
+                                    .......+...+.++++.+|..+..++.....      ..++.+...+.+.+.  .+|..++.++.
+T Consensus       128 ~~~~~~~~~~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~l~~~~~------~~~~~l~~~l~~~~~--~~r~~a~~~l~  199 (511)
+T tr|Q8PXE4|Q8PX  128 EEASNAAVADGVQSKGEVPEDIMLAIQAKDKAMRESLARSMTSEYG------NDTDLLEEALKAEEQ--NSTLYTSFVLS  199 (511)
+T ss_pred             cchHHHHHHhhccCCCCccHHHHHHHHhCCHHHHHHHHHHHhHhcc------ccHHHHHHHHhcccc--hHHHHHHHHHH
+Confidence                          01124456677778888999999888876633      234555666666655  78888888876
+
+
+Q ss_pred             HHhhcCCchHHHHHHHHHhhcCCCHHHHHHHHHHHHhhhcCCCcchhhHHHHHHHHHhcCCCChHHHHHHHHHHHHHhhc
+Q tr|Q8PTN9|Q8PT  138 NAISEYPDREHAWKDLLEMTASEDPYARKKAASLLSTVFPGLPEGKKTKAWKDLLGLAGEKGDSQVSEQASKAIREVFPF  217 (996)
+Q Consensus       138 ~~~~~~~~~~~~~~~L~~~l~d~~~~vr~~a~~~L~~~~~~~~~~~~~~~~~~ll~~l~~~~~~~vr~~a~~~L~~l~~~  217 (996)
+                      .+...   ....+..+...+.++++.+|..++.++..+....       .+..+...+ .+.++.+|..++.++..+...
+T Consensus       200 ~~~~~---~~~~~~~l~~~l~~~~~~~r~~a~~~l~~~~~~~-------~~~~l~~~l-~~~~~~vr~~a~~~L~~~~~~  268 (511)
+T tr|Q8PXE4|Q8PX  200 NFEFE---SENETEILLQALKSEKGYVRVSAAMALGQKKEKA-------ATDPLLKML-AQDYPLAGHSAVMALGEMGDE  268 (511)
+T ss_pred             ccCCC---ChhHHHHHHHHHhCCCHHHHHHHHHHHhcCCcch-------hHHHHHHHH-hcCCHHHHHHHHHHHHHhCCH
+Confidence            54311   1345566777777888999999999988775321       122333333 355778888888888766421
+
+
+Q ss_pred             CCcccccchHHHHHHhhcCCCchhHHhhHhhhhhhhhcCCCcccchHHHHHHhhcCCcHHHHHHHHHHHHHHh
+Q tr|Q8PTN9|Q8PT  218 LPDEKKDEGWEEMLELAGGSADHVARMKILPFLPSVFSSVPDKNKAWDTIFRFTGDERETVRKQAMDALVSIS  290 (996)
+Q Consensus       218 ~~~~~~~~~~~~l~~~l~~~~~~~~~~~a~~~l~~~~~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~L~~~~  290 (996)
+                             .....+...+....++.++..++.++..+..     ....+.+...+.+.++.+|..++.+++.+.
+T Consensus       269 -------~~~~~l~~~l~~~~~~~~r~~a~~~l~~~~~-----~~~~~~l~~~l~~~~~~vr~~a~~~l~~~~  329 (511)
+T tr|Q8PXE4|Q8PX  269 -------RAVNTLMNELKNNGKDYIRSSTAIALGKLEA-----EEAVPYLIERLRDTRASVRSNSALVLGKMG  329 (511)
+T ss_pred             -------HHHHHHHHHHhhCCCHHHHHHHHHHHhhcCc-----hhHHHHHHHHhcCCCHHHHHHHHHHHHHhC
+Confidence                   1111122222222233444444444443311     123344444445555556666555555443
+
+
+No 30
+>tr|Q8PSI9|Q8PSI9_METMA Phycocyanin alpha-subunit phycocyanobilin lyase related protein, CpcE/NblB family OS=Methanosarcina mazei (strain ATCC BAA-159 / DSM 3647 / Goe1 / Go1 / JCM 11833 / OCM 88) GN=MM_3090 PE=4 SV=1
+Probab=99.28  E-value=1.9e-11  Score=128.81  Aligned_cols=305  Identities=19%  Similarity=0.209  Sum_probs=189.1  Template_Neff=11.300
+
+Q ss_pred             cchhhhccCCChHHHHHHHHHHHHHHhhCccHHHHHHHHHHhhcCCChhHHHHHHHHHHHhccCCchhhhhHHHHHHhhc
+Q tr|Q8PTN9|Q8PT    5 PGIHDKTFSQESDDRIKAAKQLGALFEVFPDRKQAFEDLLRLCSDRDSEVRVEAINSLTTVFPNVPEKELTWERFVNLTA   84 (996)
+Q Consensus         5 ~~l~~~l~~~~~~~r~~Al~~l~~~~~~~~~~~~~~~~L~~~l~~~~~~vR~~a~~~L~~l~~~~~~~~~~~~~l~~~l~   84 (996)
+                      +.+...+.++++.+|..+++.++....     ....+.+...+.++++.+|..++.+++.+...     .....+...+.
+T Consensus        38 ~~l~~~l~~~~~~vr~~a~~~L~~~~~-----~~~~~~l~~~l~~~~~~~r~~a~~~L~~~~~~-----~~~~~l~~~l~  107 (457)
+T tr|Q8PSI9|Q8PS   38 PVLLKALEDSSSKVKAAASEALGEIND-----PDAVPCLMKMLDYPESYVKKAAIIALGKIGTQ-----EAVSGIVKGFR  107 (457)
+T ss_pred             HHHHHHhcCCCHHHHHHHHHHHHhcCC-----chHHHHHHHHhCCCCHHHHHHHHHHHHhhCCH-----HHHHHHHHHhc
+Confidence            456677788889999999999988743     23456667778888899999999998887541     12334455556
+
+
+Q ss_pred             CCChHHHHHHHHHHHHhccCCCchhHHHHHHHHHhcCCCcHHHHHHHHHHHHHHHhhcCCchHHHHHHHHHhhcCCCHHH
+Q tr|Q8PTN9|Q8PT   85 YPVEQVFAAAVSALITVFPLVPDKDRAWKDLIELINSKSSIEDVSRGIVSSLQNAISEYPDREHAWKDLLEMTASEDPYA  164 (996)
+Q Consensus        85 ~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~l~~~l~~~~~~~~vr~~a~~~l~~~~~~~~~~~~~~~~L~~~l~d~~~~v  164 (996)
+                      +.+..+|..+..++..+...     ..++.+...+.+++.  .++..++.++.....     ...+..+...+.+++..+
+T Consensus       108 ~~~~~~r~~a~~~L~~~~~~-----~~~~~l~~~l~~~~~--~~~~~a~~~l~~~~~-----~~~~~~L~~~l~~~~~~~  175 (457)
+T tr|Q8PSI9|Q8PS  108 DPDKLIRKESVKALMRIGSP-----EAVSGLTATFTCPDS--PLKRISITALGKINT-----YEAACGLVKALEDPDNRV  175 (457)
+T ss_pred             CCCHHHHHHHHHHHHhhCCH-----HHHHHHHHHhcCCCh--HHHHHHHHHHhhcCC-----HHHHHHHHHHHcCCCHHH
+Confidence            67788998888888766432     344555556666555  788887777664321     234455666677888899
+
+
+Q ss_pred             HHHHHHHHHhhhcCCCcchhhHHHHHHHHHhcCCCChHHHHHHHHHHHHHhhcCCcccccchHHHHHHhhcCCCchhHHh
+Q tr|Q8PTN9|Q8PT  165 RKKAASLLSTVFPGLPEGKKTKAWKDLLGLAGEKGDSQVSEQASKAIREVFPFLPDEKKDEGWEEMLELAGGSADHVARM  244 (996)
+Q Consensus       165 r~~a~~~L~~~~~~~~~~~~~~~~~~ll~~l~~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~~~l~~~l~~~~~~~~~~  244 (996)
+                      |..++..+.......       ....+...+ .+.+..++..++..+......                           
+T Consensus       176 r~~a~~~l~~~~~~~-------~~~~l~~~l-~~~~~~~~~~a~~~l~~~~~~---------------------------  220 (457)
+T tr|Q8PSI9|Q8PS  176 RQQAVETLGKRGISD-------VLEELMELL-KDSRQPVQEAASEALCKIIGG---------------------------  220 (457)
+T ss_pred             HHHHHHHHHhcCchH-------HHHHHHHHh-cCCCHHHHHHHHHHHHHHhCC---------------------------
+Confidence            999998888764211       122233332 233556677776666543211                           
+
+
+Q ss_pred             hHhhhhhhhhcCCCcccchHHHHHHhhcCCcHHHHHHHHHHHHHHhccCCChHHHHHHHHHHhhcCChHHHHHHHHHHHH
+Q tr|Q8PTN9|Q8PT  245 KILPFLPSVFSSVPDKNKAWDTIFRFTGDERETVRKQAMDALVSISTEMSDKSRVWSDFIKLTEAQDEYVRDRAVDALSS  324 (996)
+Q Consensus       245 ~a~~~l~~~~~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~L~~~~~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~L~~  324 (996)
+                                      ....+.+...+.+.+..+|..++.+++.....     .....+...+.+.++.+|..++.+++.
+T Consensus       221 ----------------~~~~~~l~~~l~~~~~~~r~~a~~~L~~~~~~-----~~~~~l~~~l~~~~~~~r~~a~~~L~~  279 (457)
+T tr|Q8PSI9|Q8PS  221 ----------------SESVPVLVKALGASDRKVRKASIEALGKAGNS-----EAVSALLKELDDDDWYLRSRAADVLAD  279 (457)
+T ss_pred             ----------------cccHHHHHHHhcCCCHHHHHHHHHHHHHcCCh-----HHHHHHHHHhCCCCHHHHHHHHHHHHH
+Confidence                            11122334444455566777777776665432     123345555566666777777777666
+
+
+Q ss_pred             HhhccChHHHHHHHHHHhhCCCChHHHHHHHHHHHHHhccCCchhHHHHHHHHHhcCCCHHHHHHHHHHHhhh
+Q tr|Q8PTN9|Q8PT  325 VYQCLENKDAAWKELIELTGSEEENIRTTAARALNRIFPYVSDKSQAYSDIIDLAEKEDNYMLREVARNLSSI  397 (996)
+Q Consensus       325 ~~~~~~~~~~~l~~l~~~l~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~L~~l  397 (996)
+                      +.     .......+...+.+.++.+|..++.+++.+..     ....+.+...+.+++..+|..++.+|+.+
+T Consensus       280 ~~-----~~~~~~~l~~~l~~~~~~~r~~a~~~L~~~~~-----~~~~~~l~~~l~~~~~~vr~~a~~~L~~~  342 (457)
+T tr|Q8PSI9|Q8PS  280 IA-----SPEAALGLVKALDLHDAPVRKLIVSALGKIGS-----PETIEGLVKALDDPDNSIREAATLGLGKT  342 (457)
+T ss_pred             cc-----CHHHHHHHHHHhccCCHHHHHHHHHHHHhhCC-----HHHHHHHHHHhhCCCHHHHHHHHHHHhhh
+Confidence            52     11222334444455566778777777776654     23445566666677777888887777665
+
+
+No 31
+>tr|Q8PZK2|Q8PZK2_METMA Phycocyanin alpha-subunit phycocyanobilin lyase OS=Methanosarcina mazei (strain ATCC BAA-159 / DSM 3647 / Goe1 / Go1 / JCM 11833 / OCM 88) GN=MM_0490 PE=4 SV=1
+Probab=99.26  E-value=9.4e-12  Score=131.08  Aligned_cols=370  Identities=21%  Similarity=0.185  Sum_probs=187.0  Template_Neff=11.200
+
+Q ss_pred             chHHHHHHhhcCCcHHHHHHHHHHHHHHhccCCChHHHHHHHHHHhhcCChHHHHHHHHHHHHHhhccChHHHHHHHHHH
+Q tr|Q8PTN9|Q8PT  262 KAWDTIFRFTGDERETVRKQAMDALVSISTEMSDKSRVWSDFIKLTEAQDEYVRDRAVDALSSVYQCLENKDAAWKELIE  341 (996)
+Q Consensus       262 ~~~~~l~~~l~~~~~~vr~~a~~~L~~~~~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~L~~~~~~~~~~~~~l~~l~~  341 (996)
+                      ...+.+...+.+++..+|..+...+......      ....+...+.+.++.+|..++.++....     .......+..
+T Consensus        37 ~~~~~l~~~l~~~~~~~r~~a~~~l~~~~~~------~~~~l~~~l~~~~~~~r~~a~~~l~~~~-----~~~~~~~L~~  105 (452)
+T tr|Q8PZK2|Q8PZ   37 ARVDKLVRSLGNEDRNVSYASAYALIDIGEP------SVNSLIKTLEDDNPQVRSLAAYSLGRIG-----EPRASKPLIE  105 (452)
+T ss_pred             HHHHHHHHHhCCCCHHHHHHHHHHHHHhCCH------hHHHHHHHhhCCCHHHHHHHHHHHHhhC-----ChhhHHHHHH
+Confidence            3455666667777778888887777665432      2234555566667788888888887762     2234455666
+
+
+Q ss_pred             hhCCCChHHHHHHHHHHHHHhccCCchhHHHHHHHHHhcCCCHHHHHHHHHHHhhhccccccCCCCchhhhhhccccccc
+Q tr|Q8PTN9|Q8PT  342 LTGSEEENIRTTAARALNRIFPYVSDKSQAYSDIIDLAEKEDNYMLREVARNLSSIHPQFYGEYGTDEMRAEIGEINESG  421 (996)
+Q Consensus       342 ~l~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~~~~l~~~~~~~  421 (996)
+                      .+.+.++.+|..++.+++.+..     ....+.+...+.++++.+|..++.+++.+......    .             
+T Consensus       106 ~l~~~~~~~r~~a~~~L~~~~~-----~~~~~~l~~~l~~~~~~vr~~A~~~L~~~~~~~~~----~-------------  163 (452)
+T tr|Q8PZK2|Q8PZ  106 ALEDPEPEVRMNSAEALGELKA-----PEAADLLIELLDDDNDEVRSKAVFALGAIGDPKAA----L-------------  163 (452)
+T ss_pred             HHhCCCHHHHHHHHHHHHhcCC-----HHHHHHHHHHhcCCCHHHHHHHHHHHHHhCCHHHH----H-------------
+Confidence            6777888899888888887764     23345566777777888898888888877432110    0             
+
+
+Q ss_pred             ccCCCccccccCCCCCcchhhhhhhhhhhccccCCCCCCCccccchhhccccccccccccccccccccccchhHHHHHhc
+Q tr|Q8PTN9|Q8PT  422 RQNGKKEDKFSGFSGPASEKAAFLRRDTATFRGSAPGQHDMGKNREIAEGREMRDEDKAENGQLKGKESKKSAYDFLRLK  501 (996)
+Q Consensus       422 ~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ll~~l  501 (996)
+                                 .+.....  ++..+..+..++...                                .....+..+...+
+T Consensus       164 -----------~l~~~~~--~~~~~~~a~~~l~~~--------------------------------~~~~~~~~L~~~l  198 (452)
+T tr|Q8PZK2|Q8PZ  164 -----------ALIELFD--DRELGRSAAGAVGNL--------------------------------GDEEAVEKLIELL  198 (452)
+T ss_pred             -----------HHHHHcC--CHHHHHHHHHHHhhh--------------------------------CCHHHHHHHHHHh
+Confidence                       0000000  011111111111100                                0011222333444
+
+
+Q ss_pred             cCchHHHHhhhhhHHhhhcCCCchhHHHHHHHHHhhCCCCHHHHHHHHHHHHHHHhhccchHHHHHHHHHHhcCCCChHH
+Q tr|Q8PTN9|Q8PT  502 GEREKYARKDSAGPFSETYSGIPEKKEIIEELLRLSSDPDPQIRRGAIETLLVRYSREAGKAQDIWNELLRISEDEDTGV  581 (996)
+Q Consensus       502 ~~~~~~vr~~a~~~L~~~~~~~~~~~~~~~~L~~~l~~~~~~vr~~a~~~L~~~~~~~~~~~~~~~~~L~~~l~~~~~~v  581 (996)
+                      .++++.+|..++..+....     .+...+.+...+.++++.+|..++.++........  .......+...+.+.+..+
+T Consensus       199 ~~~~~~vr~~al~~L~~~~-----~~~~~~~l~~~l~~~~~~vr~~a~~~l~~~~~~~~--~~~~~~~l~~~l~~~~~~v  271 (452)
+T tr|Q8PZK2|Q8PZ  199 DSRNPDVRINSIRALGQIQ-----NPAAVPYLVEMLDDKVPEVREEAASALGYFKGPKE--IARTEQPLIDALGDDEFEV  271 (452)
+T ss_pred             cCCCHHHHHHHHHHHHhCC-----ChhhHHHHHHHhcCCCHHHHHHHHHHHHhcCCHHH--HhhchHHHHHHhCCCcHHH
+Confidence            4555556666665555331     12233444455555556666666665554432110  0112233444444455555
+
+
+Q ss_pred             HHHHHHHHHHhhhcCchhhhHHHHHHHHhcCCCHHHHHHHHHHHHHHHhcCCchHHHHHHHHHHhCCCChhHHHHHHHHH
+Q tr|Q8PTN9|Q8PT  582 RKDAAELLSHVFPAVEEKSGVFFDIIRLVESRDTQLRRRAAELLPAAFAHSGNKQRAWNDLVKLTSDEDREVRKGAVLAL  661 (996)
+Q Consensus       582 r~~a~~~L~~l~~~~~~~~~~~~~L~~~l~~~~~~vr~~a~~~L~~~~~~~~~~~~~~~~L~~~l~d~~~~vr~~a~~~L  661 (996)
+                      |..++..++.....     ...+.+...+.+.+..+|..++.+++.+.     .....+.+...+.+.++.+|..++.++
+T Consensus       272 ~~~a~~~L~~~~~~-----~~~~~l~~~l~~~~~~~~~~a~~~L~~~~-----~~~~~~~l~~~l~~~~~~vr~~a~~~L  341 (452)
+T tr|Q8PZK2|Q8PZ  272 QKAAAYSLGDIGSK-----EAIPFIVAFLQAENPALHSVAVHALGRYN-----DPDATAALIDALDDESRHVRLVIVHFL  341 (452)
+T ss_pred             HHHHHHHHhhhCCh-----hhHHHHHHHHhCCCHHHHHHHHHHHhhcC-----CHHHHHHHHHHhcCCCHHHHHHHHHHH
+Confidence            55555555544221     22334444444455555555555554431     123334444455555555666665555
+
+
+Q ss_pred             HHhCCCCCchhhHHHHHHHhcCCCChHHHHHHHHHHHHhhccCCCHHHHHHHHHHHh-cCCChHHHHHHHHHHHHH
+Q tr|Q8PTN9|Q8PT  662 SSGYPGVPDKGKVWSDLIMLSSHNDSFVQREATRALGPAFFYVPDKTMAWRDLQVLV-DNPYVYVRRYALRSLGRA  736 (996)
+Q Consensus       662 ~~~~~~~~~~~~i~~~L~~~l~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~l~~~l-~d~~~~vr~~a~~~l~~l  736 (996)
+                      +.....     ..++.+...+.+.++.+|..+..+|+.+..     ...+..+...+ .+.+..+|..++.+++.+
+T Consensus       342 ~~~~~~-----~~~~~l~~~l~~~~~~~r~~a~~~L~~~~~-----~~~~~~l~~~l~~~~~~~vr~~a~~aL~~~  407 (452)
+T tr|Q8PZK2|Q8PZ  342 SETGDP-----QAVDPFISLLGDERHEIRQSAANGLGKLGD-----QKAVGPLLKAMETEKERDVRVAEIRALGEL  407 (452)
+T ss_pred             HhhCCh-----hHHHHHHHHhCCCCHHHHHHHHHHHHhhCC-----HHHHHHHHHHHcccCCHHHHHHHHHHHHHh
+Confidence            543221     334445555555555666666665554421     11222222222 233445566665555554
+
+
+No 32
+>tr|Q8PZK2|Q8PZK2_METMA Phycocyanin alpha-subunit phycocyanobilin lyase OS=Methanosarcina mazei (strain ATCC BAA-159 / DSM 3647 / Goe1 / Go1 / JCM 11833 / OCM 88) GN=MM_0490 PE=4 SV=1
+Probab=99.18  E-value=6.9e-11  Score=124.03  Aligned_cols=305  Identities=18%  Similarity=0.152  Sum_probs=175.1  Template_Neff=11.200
+
+Q ss_pred             cchhhhccCCChHHHHHHHHHHHHHHhhCccHHHHHHHHHHhhcCCChhHHHHHHHHHHHhccCCchhhhhHHHHHHhhc
+Q tr|Q8PTN9|Q8PT    5 PGIHDKTFSQESDDRIKAAKQLGALFEVFPDRKQAFEDLLRLCSDRDSEVRVEAINSLTTVFPNVPEKELTWERFVNLTA   84 (996)
+Q Consensus         5 ~~l~~~l~~~~~~~r~~Al~~l~~~~~~~~~~~~~~~~L~~~l~~~~~~vR~~a~~~L~~l~~~~~~~~~~~~~l~~~l~   84 (996)
+                      +.+...+.+++..+|..++..+.....      .....+...+.+.++.+|..|+.++..+...     .....+...+.
+T Consensus        40 ~~l~~~l~~~~~~~r~~a~~~l~~~~~------~~~~~l~~~l~~~~~~~r~~a~~~l~~~~~~-----~~~~~L~~~l~  108 (452)
+T tr|Q8PZK2|Q8PZ   40 DKLVRSLGNEDRNVSYASAYALIDIGE------PSVNSLIKTLEDDNPQVRSLAAYSLGRIGEP-----RASKPLIEALE  108 (452)
+T ss_pred             HHHHHHhCCCCHHHHHHHHHHHHHhCC------HhHHHHHHHhhCCCHHHHHHHHHHHHhhCCh-----hhHHHHHHHHh
+Confidence            346667778888888888888766532      2234556667778889999999999887541     22345666777
+
+
+Q ss_pred             CCChHHHHHHHHHHHHhccCCCchhHHHHHHHHHhcCCCcHHHHHHHHHHHHHHHhhcCCchHHHHHHHHHhhcCCCHHH
+Q tr|Q8PTN9|Q8PT   85 YPVEQVFAAAVSALITVFPLVPDKDRAWKDLIELINSKSSIEDVSRGIVSSLQNAISEYPDREHAWKDLLEMTASEDPYA  164 (996)
+Q Consensus        85 ~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~l~~~l~~~~~~~~vr~~a~~~l~~~~~~~~~~~~~~~~L~~~l~d~~~~v  164 (996)
+                      ++++.+|..+..+++.+...     ...+.+...+.+++.  .+|..++.++..+..     ....+.+...+.+  +..
+T Consensus       109 ~~~~~~r~~a~~~L~~~~~~-----~~~~~l~~~l~~~~~--~vr~~A~~~L~~~~~-----~~~~~~l~~~~~~--~~~  174 (452)
+T tr|Q8PZK2|Q8PZ  109 DPEPEVRMNSAEALGELKAP-----EAADLLIELLDDDND--EVRSKAVFALGAIGD-----PKAALALIELFDD--REL  174 (452)
+T ss_pred             CCCHHHHHHHHHHHHhcCCH-----HHHHHHHHHhcCCCH--HHHHHHHHHHHHhCC-----HHHHHHHHHHcCC--HHH
+Confidence            78888999998888776542     344556667777666  899999888875432     2223333333333  345
+
+
+Q ss_pred             HHHHHHHHHhhhcCCCcchhhHHHHHHHHHhcCCCChHHHHHHHHHHHHHhhcCCcccccchHHHHHHhhcCCCchhHHh
+Q tr|Q8PTN9|Q8PT  165 RKKAASLLSTVFPGLPEGKKTKAWKDLLGLAGEKGDSQVSEQASKAIREVFPFLPDEKKDEGWEEMLELAGGSADHVARM  244 (996)
+Q Consensus       165 r~~a~~~L~~~~~~~~~~~~~~~~~~ll~~l~~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~~~l~~~l~~~~~~~~~~  244 (996)
+                      +..+..++......       ..+..+...+ .+.++.+|..++..+..+...                           
+T Consensus       175 ~~~a~~~l~~~~~~-------~~~~~L~~~l-~~~~~~vr~~al~~L~~~~~~---------------------------  219 (452)
+T tr|Q8PZK2|Q8PZ  175 GRSAAGAVGNLGDE-------EAVEKLIELL-DSRNPDVRINSIRALGQIQNP---------------------------  219 (452)
+T ss_pred             HHHHHHHHhhhCCH-------HHHHHHHHHh-cCCCHHHHHHHHHHHHhCCCh---------------------------
+Confidence            55566655544321       1122233333 344677888888777655321                           
+
+
+Q ss_pred             hHhhhhhhhhcCCCcccchHHHHHHhhcCCcHHHHHHHHHHHHHHhccCCChHHHHHHHHHHhhcCChHHHHHHHHHHHH
+Q tr|Q8PTN9|Q8PT  245 KILPFLPSVFSSVPDKNKAWDTIFRFTGDERETVRKQAMDALVSISTEMSDKSRVWSDFIKLTEAQDEYVRDRAVDALSS  324 (996)
+Q Consensus       245 ~a~~~l~~~~~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~L~~~~~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~L~~  324 (996)
+                                       ...+.+...+.++++.+|..++.+++.+...... ......+...+.+.+..++..++.+++.
+T Consensus       220 -----------------~~~~~l~~~l~~~~~~vr~~a~~~l~~~~~~~~~-~~~~~~l~~~l~~~~~~v~~~a~~~L~~  281 (452)
+T tr|Q8PZK2|Q8PZ  220 -----------------AAVPYLVEMLDDKVPEVREEAASALGYFKGPKEI-ARTEQPLIDALGDDEFEVQKAAAYSLGD  281 (452)
+T ss_pred             -----------------hhHHHHHHHhcCCCHHHHHHHHHHHHhcCCHHHH-hhchHHHHHHhCCCcHHHHHHHHHHHhh
+Confidence                             1122333344445556666666666554332110 0112233344445555666666666655
+
+
+Q ss_pred             HhhccChHHHHHHHHHHhhCCCChHHHHHHHHHHHHHhccCCchhHHHHHHHHHhcCCCHHHHHHHHHHHhhh
+Q tr|Q8PTN9|Q8PT  325 VYQCLENKDAAWKELIELTGSEEENIRTTAARALNRIFPYVSDKSQAYSDIIDLAEKEDNYMLREVARNLSSI  397 (996)
+Q Consensus       325 ~~~~~~~~~~~l~~l~~~l~~~~~~vr~~a~~~L~~l~~~~~~~~~~~~~l~~~l~~~~~~vr~~a~~~L~~l  397 (996)
+                      ..     .......+...+.+.+..++..++.+++.+..     ....+.+...+.+.++.+|..++.+++..
+T Consensus       282 ~~-----~~~~~~~l~~~l~~~~~~~~~~a~~~L~~~~~-----~~~~~~l~~~l~~~~~~vr~~a~~~L~~~  344 (452)
+T tr|Q8PZK2|Q8PZ  282 IG-----SKEAIPFIVAFLQAENPALHSVAVHALGRYND-----PDATAALIDALDDESRHVRLVIVHFLSET  344 (452)
+T ss_pred             hC-----ChhhHHHHHHHHhCCCHHHHHHHHHHHhhcCC-----HHHHHHHHHHhcCCCHHHHHHHHHHHHhh
+Confidence            41     12233444455555566677777777665543     23334455555566666777766666554
+
+
+No 33
+>tr|Q8PZC8|Q8PZC8_METMA Uncharacterized protein OS=Methanosarcina mazei (strain ATCC BAA-159 / DSM 3647 / Goe1 / Go1 / JCM 11833 / OCM 88) GN=MM_0566 PE=4 SV=1
+Probab=75.10  E-value=7.5  Score=30.51  Aligned_cols=69  Identities=16%  Similarity=0.064  Sum_probs=43.1  Template_Neff=9.400
+
+Q ss_pred             HHHHHHHHHhCCCChhHHHHHHHHHHHhCCCCCchhhHHHHHHHhcCCCChHHHHHHHHHHHHhhccCC
+Q tr|Q8PTN9|Q8PT  637 RAWNDLVKLTSDEDREVRKGAVLALSSGYPGVPDKGKVWSDLIMLSSHNDSFVQREATRALGPAFFYVP  705 (996)
+Q Consensus       637 ~~~~~L~~~l~d~~~~vr~~a~~~L~~~~~~~~~~~~i~~~L~~~l~~~~~~vr~~a~~~L~~l~~~~~  705 (996)
+                      ...+.+...+.++++-+|..++-++............++..+...+.+++..|+.+..++|..+....|
+T Consensus       134 ~~~~~~~~w~~s~~~w~rR~~~v~l~~~~~~~~~~~~~l~~~~~~~~~~~~~V~~ai~W~L~~~~~~~p  202 (239)
+T tr|Q8PZC8|Q8PZ  134 EFVDNLKTWAKSDNRWFRRAAAVTLVLPARKGLFLPEVFAIANILLTDKDDLVRKGYGWMLKEASKPHQ  202 (239)
+T ss_pred             HHHHHHHHHHhCCCHHHHHHHHHHHHHHHhCCCCHHHHHHHHHHHccCccHHHHHHHHHHHHHHHHhCH
+Confidence            345666667777777777777766544332222223444444445667778888888888888866544
+
+
+No 34
+>tr|Q8PZC8|Q8PZC8_METMA Uncharacterized protein OS=Methanosarcina mazei (strain ATCC BAA-159 / DSM 3647 / Goe1 / Go1 / JCM 11833 / OCM 88) GN=MM_0566 PE=4 SV=1
+Probab=62.40  E-value=13  Score=28.87  Aligned_cols=19  Identities=21%  Similarity=0.251  Sum_probs=8.5  Template_Neff=9.400
+
+Q ss_pred             cCCCHHHHHHHHHHHHHHH
+Q tr|Q8PTN9|Q8PT  611 ESRDTQLRRRAAELLPAAF  629 (996)
+Q Consensus       611 ~~~~~~vr~~a~~~L~~~~  629 (996)
+                      .+++..|+.++..+|..+.
+T Consensus       180 ~~~~~~V~~ai~W~L~~~~  198 (239)
+T tr|Q8PZC8|Q8PZ  180 TDKDDLVRKGYGWMLKEAS  198 (239)
+T ss_pred             cCccHHHHHHHHHHHHHHH
+Confidence            3444444444444444433
+
+
+No 35
+>tr|Q8PS37|Q8PS37_METMA Uncharacterized protein OS=Methanosarcina mazei (strain ATCC BAA-159 / DSM 3647 / Goe1 / Go1 / JCM 11833 / OCM 88) GN=MM_3250 PE=4 SV=1
+Probab=24.41  E-value=72  Score=24.52  Aligned_cols=45  Identities=11%  Similarity=0.163  Sum_probs=25.7  Template_Neff=3.400
+
+Q ss_pred             cchhhhccCCChHHHHHHHHHHHHHHhhCccHHHHHHHHHHhhcC
+Q tr|Q8PTN9|Q8PT    5 PGIHDKTFSQESDDRIKAAKQLGALFEVFPDRKQAFEDLLRLCSD   49 (996)
+Q Consensus         5 ~~l~~~l~~~~~~~r~~Al~~l~~~~~~~~~~~~~~~~L~~~l~~   49 (996)
+                      ..+++.+.+.++..+..|+.-+...-....-.+.-++.+...+.+
+T Consensus       123 D~l~~~l~s~D~~dkk~AL~Ei~~Yk~~Y~Ltp~QLD~lv~~L~~  167 (322)
+T tr|Q8PS37|Q8PS  123 DKVLERLASKEPTKQKMALKEIALYDQVYVLTPEQLDLVVKQFDK  167 (322)
+T ss_pred             HHHHHHHhCCCHHHHHHHHHHHHHHHhhccCCHHHHHHHHHHHhc
+Confidence            345666777777777777777666532211122345555555554
+
+
+No 36
+>tr|Q8PS37|Q8PS37_METMA Uncharacterized protein OS=Methanosarcina mazei (strain ATCC BAA-159 / DSM 3647 / Goe1 / Go1 / JCM 11833 / OCM 88) GN=MM_3250 PE=4 SV=1
+Probab=22.86  E-value=77  Score=24.31  Aligned_cols=47  Identities=9%  Similarity=-0.039  Sum_probs=23.2  Template_Neff=3.400
+
+Q ss_pred             hhHHHHHhccCchHHHHhhhhhHHhhhcCCCchhHHHHHHHHHhhCC
+Q tr|Q8PTN9|Q8PT  493 SAYDFLRLKGEREKYARKDSAGPFSETYSGIPEKKEIIEELLRLSSD  539 (996)
+Q Consensus       493 ~~~~ll~~l~~~~~~vr~~a~~~L~~~~~~~~~~~~~~~~L~~~l~~  539 (996)
+                      -+..++..+.+.++.-+..|+.-+...-....-.+.-+..+...|.+
+T Consensus       121 hiD~l~~~l~s~D~~dkk~AL~Ei~~Yk~~Y~Ltp~QLD~lv~~L~~  167 (322)
+T tr|Q8PS37|Q8PS  121 HMDKVLERLASKEPTKQKMALKEIALYDQVYVLTPEQLDLVVKQFDK  167 (322)
+T ss_pred             HHHHHHHHHhCCCHHHHHHHHHHHHHHHhhccCCHHHHHHHHHHHhc
+Confidence            35556666666666666666655543222222223334455555544
+
+
