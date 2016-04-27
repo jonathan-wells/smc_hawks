@@ -78,12 +78,14 @@ end
 function read_hhrfile(hhrfile, minlength=100.0)
     data = open(readall, hhrfile)
     query = convert(ASCIIString, strip(match(r"Query\s+(\S+)", data)[1]))
+    query = split(query, ['|', '_'])[3]
     data = split(split(data, "\n\n")[2], "\n")[2:end]
     hits = OrderedDict()
     rank = 1.0
     for line in data
         hit = strip(split(line[5:25])[1])
-        align = (query, convert(ASCIIString, hit))
+        hit = split(hit, ['|', '_'])[3]
+        align = (convert(ASCIIString, query), convert(ASCIIString, hit))
         if align == reverse(align)
             continue
         end
@@ -116,7 +118,7 @@ end
 "Remove unidirectional edges from network"
 function trim_network(net::Graph)
     for edge in net.edges
-        if reverse(edge) in net.edges 
+        if reverse(edge) in net.edges
             continue
         end
         delete_edge!(net, edge)
@@ -129,6 +131,7 @@ function trim_network(net::Graph)
     return net
 end
 
+"Return the undirected weight, based on the average of ranks"
 function get_mutual_rank(net::Graph)
     undirected = Graph(Set(), Set(), Dict())
     visited = Set()
@@ -149,13 +152,12 @@ function write_network(net::Graph, outfilename)
     outfile = open(outfilename, "w")
     write(outfile, "source\ttarget\tmutualrank\tlogrank\n")
     for edge in net.edges
-        pedge = [split(node, ['|', '_'])[3] for node in edge]
         weights = net.weights[edge]
-        line = join([pedge[1], pedge[2], weights[1], weights[2]], '\t')
+        line = join([edge[1], edge[2], weights[1], weights[2]], '\t')
         write(outfile, line*"\n")
     end
     close(outfile)
-end
+    end
 
 function main()
     ynet = build_network("../data/hhresults/scerevisiae_old")
@@ -170,9 +172,8 @@ end
 
 function main2()
     ynet = build_network(ARGS[1])
-    println(size(ynet))
+    # println(size(ynet))
     ynet = trim_network(ynet)
-    println(ynet)
     ynet = get_mutual_rank(ynet)
     write_network(ynet, ARGS[2])
 end
