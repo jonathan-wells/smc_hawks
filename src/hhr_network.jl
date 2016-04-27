@@ -116,7 +116,7 @@ end
 "Remove unidirectional edges from network"
 function trim_network(net::Graph)
     for edge in net.edges
-        if reverse(edge) in net.edges
+        if reverse(edge) in net.edges 
             continue
         end
         delete_edge!(net, edge)
@@ -168,6 +168,15 @@ function main()
     write_network(pnet, "spombe.txt")
 end
 
-main()
+function main2()
+    ynet = build_network(ARGS[1])
+    println(size(ynet))
+    ynet = trim_network(ynet)
+    println(ynet)
+    ynet = get_mutual_rank(ynet)
+    write_network(ynet, ARGS[2])
+end
+
+main2()
 
 
