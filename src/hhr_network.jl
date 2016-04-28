@@ -83,8 +83,9 @@ function read_hhrfile(hhrfile, minlength=100.0)
     hits = OrderedDict()
     rank = 1.0
     for line in data
-        hit = strip(split(line[5:25])[1])
-        hit = split(hit, ['|', '_'])[3]
+        # hit = strip(split(line[5:25])[1])
+        hit = split(line, ['|', '_'])[3]
+        println(hit)
         align = (convert(ASCIIString, query), convert(ASCIIString, hit))
         if align == reverse(align)
             continue
