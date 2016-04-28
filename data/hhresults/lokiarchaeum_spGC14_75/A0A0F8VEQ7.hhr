@@ -1,190 +1,230 @@
 Query         tr|A0A0F8VEQ7|A0A0F8VEQ7_9ARCH Uncharacterized protein OS=Lokiarchaeum sp. GC14_75 GN=Lokiarch_30920 PE=4 SV=1
 Match_columns 72
-No_of_seqs    105 out of 183
-Neff          5.04942
-Searched_HMMs 5378
-Date          Wed Apr 27 14:34:41 2016
-Command       hhsearch -i A0A0F8VEQ7.a3m -d /usr/local/hh-suite/db/lokiarchaeum_spGC14_75/loki -cpu 3 
+No_of_seqs    105 out of 134
+Neff          4.54936
+Searched_HMMs 5121
+Date          Wed Apr 27 16:22:57 2016
+Command       hhsearch -i A0A0F8VEQ7.a3m -d /usr/local/hh-suite/db/schizosaccharomyces_pombe/spombe -cpu 3 -glob 
 
  No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
-  1 tr|A0A0F8VEQ7|A0A0F8VEQ7_9ARCH 100.0 1.6E-34   3E-38  172.6   8.5   72    1-72      1-72  (72)
-  2 tr|A0A0F8VDX7|A0A0F8VDX7_9ARCH  99.9 6.3E-31 1.2E-34  156.8   8.4   72    1-72      1-72  (72)
-  3 tr|A0A0F8WA30|A0A0F8WA30_9ARCH  59.3     1.4 0.00026   27.3   2.3   29   11-39    136-168 (227)
-  4 tr|A0A0F8W3G0|A0A0F8W3G0_9ARCH  56.7     1.7 0.00031   26.9   2.3   30   11-40    136-169 (228)
-  5 tr|A0A0F8XLC3|A0A0F8XLC3_9ARCH  44.0       4 0.00075   15.4   1.8   16   10-25      4-19  (32)
-  6 tr|A0A0F8XFC2|A0A0F8XFC2_9ARCH  36.6      11  0.0021   19.4   3.4   31   10-43     13-43  (80)
-  7 tr|A0A0F8XSF6|A0A0F8XSF6_9ARCH  33.8      17  0.0031   19.1   4.0   20   49-68     80-102 (113)
-  8 tr|A0A0F8VJ42|A0A0F8VJ42_9ARCH  24.7      22  0.0041   19.6   3.6   56    9-66    112-171 (185)
-  9 tr|A0A0F8V8U9|A0A0F8V8U9_9ARCH  23.5      25  0.0046   16.3   4.4   21   10-31     16-36  (75)
- 10 tr|A0A0F8XUQ5|A0A0F8XUQ5_9ARCH  21.2      34  0.0063   17.1   5.5   36   31-70     65-100 (112)
- 11 tr|A0A0F8VEQ0|A0A0F8VEQ0_9ARCH  21.1      11   0.002   20.8   1.4   25    9-33     52-76  (179)
- 12 tr|A0A0F8VAB0|A0A0F8VAB0_9ARCH  20.8      18  0.0033   19.7   2.4   18    7-24    194-211 (215)
+  1 sp|O13816|SCC3_SCHPO Cohesin s  18.5      10   0.002   17.8   5.0   72    1-72    639-710 (962)
+  2 sp|Q9P7R8|YHV3_SCHPO Uncharact  11.2      18  0.0036   16.4   4.6   64    1-72    633-729 (1462)
+  3 sp|Q92380|REC11_SCHPO Meiotic   10.8      17  0.0034   16.5   3.8   72    1-72     74-181 (923)
+  4 sp|O74562|SEC8_SCHPO Exocyst c   9.0      23  0.0045   15.8   4.9   72    1-72     34-117 (1073)
+  5 sp|O94751|BUB1_SCHPO Checkpoin   7.3      11  0.0021   17.6   1.2   71    1-72    952-1041(1044)
+  6 sp|O74749|HSE1_SCHPO Class E v   6.4      33  0.0065   15.0   4.8   72    1-72     97-182 (373)
+  7 sp|Q9USS2|PPK29_SCHPO Serine/t   6.3      26   0.005   15.6   2.7   72    1-72    242-344 (872)
+  8 sp|Q9UT51|CSN3_SCHPO COP9 sign   5.8      22  0.0042   16.0   2.0   70    1-72    198-283 (338)
+  9 sp|Q9Y808|YN91_SCHPO Uncharact   5.6      33  0.0065   15.0   2.9   57    1-72    641-700 (1063)
+ 10 sp|O13924|HASP_SCHPO Serine/th   5.6      13  0.0026   17.2   0.6   58    1-67    424-488 (488)
 
 No 1
->tr|A0A0F8VEQ7|A0A0F8VEQ7_9ARCH Uncharacterized protein OS=Lokiarchaeum sp. GC14_75 GN=Lokiarch_30920 PE=4 SV=1
-Probab=100.00  E-value=1.6e-34  Score=172.64  Aligned_cols=72  Identities=100%  Similarity=1.559  Sum_probs=70.8  Template_Neff=5.100
+>sp|O13816|SCC3_SCHPO Cohesin subunit psc3 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=psc3 PE=1 SV=3
+Probab=18.46  E-value=10  Score=17.85  Aligned_cols=72  Identities=14%  Similarity=0.063  Sum_probs=42.2  Template_Neff=6.200
 
-Q ss_pred             CccccccCCCCchhHHHHHHHHHHHHHhCCCCCHHHHHHHHHhhhcCCCCcccCCHHHHHHHHHHHHhhhcC
+Q ss_pred             CccccCCCCCChhHHHHHHHHHHHHHHhCCCCcHHHHHHHHHHhccCCCCceecchHHHHHHHHHHhhccCC
 Q tr|A0A0F8VEQ7|    1 MIIEHWTEDRDPKRIKRILEKIEKLWRDSPDLRFGQFIQNIFGSSIRDQPIYFKEDDEVEKILDYLLGRKNS   72 (72)
-Q Consensus         1 ~~~~~~~~~rDP~RI~~lL~lL~~~We~~PDLrL~QLl~~l~~~~~~~~~~~~~eDd~Li~~L~~~~~~~~~   72 (72)
-                      ||||||++||||+||+++|++|+++|+++||+||+||++++++++++++++|+++||+|+++|+.+++++||
-T Consensus         1 ~~~~~~~~mrDp~RI~~iL~lL~~~We~~PDLrL~QLl~~l~~~~~~~~~~~~~eDd~Li~~L~~~~~~~~~   72 (72)
-T tr|A0A0F8VEQ7|    1 MIIEHWTEDRDPKRIKRILEKIEKLWRDSPDLRFGQFIQNIFGSSIRDQPIYFKEDDEVEKILDYLLGRKNS   72 (72)
-T ss_pred             CccccccCCCChhhHHHHHHHHHHHHHhCCCCCHHHHHHHHHhhccCCCCcccCCHHHHHHHHHHHHhhhcC
-Confidence            799999999999999999999999999999999999999999999999999999999999999999999997
+Q Consensus         1 ~~~~~~~~~Rdp~RI~elLelL~~~W~k~PDLrL~QlL~nla~e~g~~~~l~~leDd~Li~~L~~~~~~~~~   72 (72)
+                      |=+..+...|-..-...+++.+.....++.|-+..+-.........-...+....+..+.+..+...+.++.
+T Consensus       639 ldLd~y~~lr~~~~ye~LLd~I~~qf~~Hsd~~VL~~as~al~~l~s~~~l~~~~~~ki~eL~d~~v~~l~~  710 (962)
+T sp|O13816|SCC3  639 MDLTEMTDPQLSRHFELLINNLKKFFLTNNDLQIIQGCTILFLRLDSIPALKEDLKLLVTDICDQTVTEFLK  710 (962)
+T ss_pred             CCccccCChhhhHHHHHHHHHHHHHHHhcCCHHHHHHHHHHHHHHcCChhHHHHHHHHHHHHHHHHHHHHHH
+Confidence            667778888887778899999999999999988877654433221111234333343333333333332222
 
 
 No 2
->tr|A0A0F8VDX7|A0A0F8VDX7_9ARCH Uncharacterized protein OS=Lokiarchaeum sp. GC14_75 GN=Lokiarch_33120 PE=4 SV=1
-Probab=99.94  E-value=6.3e-31  Score=156.76  Aligned_cols=72  Identities=83%  Similarity=1.395  Sum_probs=70.3  Template_Neff=5.100
+>sp|Q9P7R8|YHV3_SCHPO Uncharacterized protein C211.03 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=SPBC211.03c PE=1 SV=1
+Probab=11.16  E-value=18  Score=16.42  Aligned_cols=64  Identities=13%  Similarity=0.244  Sum_probs=36.5  Template_Neff=8.100
 
-Q ss_pred             CccccccCCCCchhHHHHHHHHHHHHHhCCCCCHHHHHHHHHhhhcCCCCcccCCHHHHHHHHHHHHhhhcC
-Q tr|A0A0F8VEQ7|    1 MIIEHWTEDRDPKRIKRILEKIEKLWRDSPDLRFGQFIQNIFGSSIRDQPIYFKEDDEVEKILDYLLGRKNS   72 (72)
-Q Consensus         1 ~~~~~~~~~rDP~RI~~lL~lL~~~We~~PDLrL~QLl~~l~~~~~~~~~~~~~eDd~Li~~L~~~~~~~~~   72 (72)
-                      |||.-|++||||+||+++|++|+++|+++||+||+||++++++++++++++|+++||+|+++|+.++++++|
-T Consensus         1 ~~~~~~~~~rDP~RI~~lL~lL~~~We~~PDLrL~QLl~~l~~~~~~~~~~~~~eDd~Li~~L~~~~~~~~~   72 (72)
-T tr|A0A0F8VDX7|    1 MIIGLWSEERDPKRIQRILEKVGKLWGDSPDLRFGQFIQNIFGSAIRNQPVYFKEDDEVEKILDYLLGRKKS   72 (72)
-T ss_pred             CccccccCCCChhhHHHHHHHHHHHHhcCCCCCHHHHHHHHHHhhccCCCCccCCHHHHHHHHHHHHhhhcC
-Confidence            789999999999999999999999999999999999999999999999999999999999999999999986
+Q ss_pred             CccccCCCCCChhHHHHHHHHHHHHHHhC---------------------------------CCCcHHHHHHHHHHhccC
+Q tr|A0A0F8VEQ7|    1 MIIEHWTEDRDPKRIKRILEKIEKLWRDS---------------------------------PDLRFGQFIQNIFGSSIR   47 (72)
+Q Consensus         1 ~~~~~~~~~Rdp~RI~elLelL~~~W~k~---------------------------------PDLrL~QlL~nla~e~g~   47 (72)
+                      ++...|.-+.+...|+++++.....|-+.                                 ..+.+-+|+.|+-+-.+.
+T Consensus       633 ~~L~~frlPgEsq~Idri~e~Fa~~y~~~n~~~~~~~Da~~vLsysiImLntdlhn~~vk~~~~Mt~e~F~~nlrg~n~g  712 (1462)
+T sp|Q9P7R8|YHV3  633 LLLQSFRLPGESQLIERVLETFSHYYMSANPDSMSSKDAAFVLSYSIIMLNTDQHNPNIKSQRRMTLDDFCRNVRGVNDG  712 (1462)
+T ss_pred             HHHhhcCCCChhHHHHHHHHHHHHHHHhcCCCCCCChhhHHHHHHHHHHhhcccCCCccccCCCCCHHHHHHhccCCCCC
+Confidence            67777888888899999999998888653                                 234455555555432110
+
+
+Q ss_pred             CCCceecchHHHHHHHHHHhhccCC
+Q tr|A0A0F8VEQ7|   48 DQPIYFKEDDEVEKILDYLLGRKNS   72 (72)
+Q Consensus        48 ~~~l~~leDd~Li~~L~~~~~~~~~   72 (72)
+                          .++    =.++|..+|..|+.
+T Consensus       713 ----~d~----p~~~L~~IY~~I~~  729 (1462)
+T sp|Q9P7R8|YHV3  713 ----QDF----DRNFLSEIYKAIKE  729 (1462)
+T ss_pred             ----CCC----CHHHHHHHHHHHHh
+Confidence                011    12233333333333
 
 
 No 3
->tr|A0A0F8WA30|A0A0F8WA30_9ARCH Uncharacterized protein OS=Lokiarchaeum sp. GC14_75 GN=Lokiarch_14250 PE=4 SV=1
-Probab=59.31  E-value=1.4  Score=27.25  Aligned_cols=29  Identities=17%  Similarity=0.540  Sum_probs=22.7  Template_Neff=1.800
+>sp|Q92380|REC11_SCHPO Meiotic recombination protein rec11 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=rec11 PE=3 SV=1
+Probab=10.78  E-value=17  Score=16.52  Aligned_cols=72  Identities=11%  Similarity=0.009  Sum_probs=42.8  Template_Neff=6.500
 
-Q ss_pred             CchhHHHHHH----HHHHHHHhCCCCCHHHHHH
-Q tr|A0A0F8VEQ7|   11 DPKRIKRILE----KIEKLWRDSPDLRFGQFIQ   39 (72)
-Q Consensus        11 DP~RI~~lL~----lL~~~We~~PDLrL~QLl~   39 (72)
-                      +-.||..+|.    ++.++|+++|..|..=+|.
-T Consensus       136 nferi~aLLsIytVL~~~iwqgqpHyrIl~~Lh  168 (227)
-T tr|A0A0F8WA30|  136 NFERVRALLSIYTVLVTEIWQGQPHYRILLTLH  168 (227)
-T ss_pred             cHHHHHHHHHHHHHHHHHHhhcCCcceEEeeec
-Confidence            4467777775    6789999999999876664
+Q ss_pred             Cc---------cccCCCCCChhH-HHHHHHHHHHHHHhCCCCcHHHHHHHHHHhccCCCCceecc---hHHHHHHHHHHh
+Q tr|A0A0F8VEQ7|    1 MI---------IEHWTEDRDPKR-IKRILEKIEKLWRDSPDLRFGQFIQNIFGSSIRDQPIYFKE---DDEVEKILDYLL   67 (72)
+Q Consensus         1 ~~---------~~~~~~~Rdp~R-I~elLelL~~~W~k~PDLrL~QlL~nla~e~g~~~~l~~le---Dd~Li~~L~~~~   67 (72)
+                      ++         -..|....++.. ++.+.+.--+.++.+|+.-+.+|+.-++..+|+.+.+..-.   -|...+.+.+..
+T Consensus        74 ~~~~~~~~~~e~~Lf~~l~~~~~a~~~vv~~Wie~Y~~d~~~Al~eLinfil~acGc~~~v~~~~~~d~d~i~~~l~~l~  153 (923)
+T sp|Q92380|REC1   74 MHVNSHDYAFPQEFFLKLLDIDMPLEQLSQHYFEDYKSNSADFMLTFINFALVASGCQPFVTNFDVQDVDSIPETLSQVN  153 (923)
+T ss_pred             ccccccCCCCccchHHHHhcCCCCHHHHHHHHHHHhhcChHHHHHHHHHHHHHhcCCCCCCCccccCCccchHHHHHHHH
+Confidence            22         245666777774 88999888899999999988888888877777654433211   112223333222
+
+
+Q ss_pred             -hccC----------------------C
+Q tr|A0A0F8VEQ7|   68 -GRKN----------------------S   72 (72)
+Q Consensus        68 -~~~~----------------------~   72 (72)
+                       ..+.                      .
+T Consensus       154 ~~~f~e~s~~~~~YPl~~~~~~~K~fr~  181 (923)
+T sp|Q92380|REC1  154 RSSFQKSSCAYTDYLYTSNSKEAKTVRI  181 (923)
+T ss_pred             HhhhcccccccccccCcCCCCcccchHH
+Confidence             1111                      0
 
 
 No 4
->tr|A0A0F8W3G0|A0A0F8W3G0_9ARCH Uncharacterized protein OS=Lokiarchaeum sp. GC14_75 GN=Lokiarch_33140 PE=4 SV=1
-Probab=56.70  E-value=1.7  Score=26.87  Aligned_cols=30  Identities=20%  Similarity=0.568  Sum_probs=22.9  Template_Neff=1.800
+>sp|O74562|SEC8_SCHPO Exocyst complex component sec8 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=sec8 PE=1 SV=2
+Probab=8.99  E-value=23  Score=15.85  Aligned_cols=72  Identities=13%  Similarity=0.125  Sum_probs=43.9  Template_Neff=8.300
 
-Q ss_pred             CchhHHHHHH----HHHHHHHhCCCCCHHHHHHH
-Q tr|A0A0F8VEQ7|   11 DPKRIKRILE----KIEKLWRDSPDLRFGQFIQN   40 (72)
-Q Consensus        11 DP~RI~~lL~----lL~~~We~~PDLrL~QLl~~   40 (72)
-                      +-.||..+|.    ++.++|+++|..|..=+|.-
-T Consensus       136 nferi~aLLsIytVL~~~iwqgqpHyrIl~~LhG  169 (228)
-T tr|A0A0F8W3G0|  136 NFERIRALLSIYTVLVTEIWQGQPHYRILMVLHG  169 (228)
-T ss_pred             CHHHHHHHHHHHHHHHHHHhhcCCcceeeeeecc
-Confidence            3467777765    67899999999998766643
+Q ss_pred             CccccC----CCCCChhHHHHHHHHHHHHHH--hCCCCcHHHHHHHHHHhccCC---CCc---eecchHHHHHHHHHHhh
+Q tr|A0A0F8VEQ7|    1 MIIEHW----TEDRDPKRIKRILEKIEKLWR--DSPDLRFGQFIQNIFGSSIRD---QPI---YFKEDDEVEKILDYLLG   68 (72)
+Q Consensus         1 ~~~~~~----~~~Rdp~RI~elLelL~~~W~--k~PDLrL~QlL~nla~e~g~~---~~l---~~leDd~Li~~L~~~~~   68 (72)
+                      |.-..-    ....-...|++++..++.-|.  ..+|.+=.++...+...+...   ..+   ...-+..|-+.+..+..
+T Consensus        34 ~~~~~~~~~~~~~~~~~~~~~vl~~i~~~W~~~~~~~fnp~~~aL~lld~ss~g~~~~~f~~l~~~l~~~Ld~~V~~h~~  113 (1073)
+T sp|O74562|SEC8   34 MDNELSSEYASRGMHIGDLENLVNEIEDEWKDLGREDYQPISTALELLDDSSFGRDYKSFLNVYDRISAALQTIAHTHKD  113 (1073)
+T ss_pred             CcccchhccccCCCChhHHHHHHHhhhhhhhhcccCCCchHHHHHhhcCCCCCccchHHHHHHHHHHHHHHHHHHHhhhh
+Confidence            433222    233345789999999999997  789999888888877543221   111   22224444455556666
+
+
+Q ss_pred             ccCC
+Q tr|A0A0F8VEQ7|   69 RKNS   72 (72)
+Q Consensus        69 ~~~~   72 (72)
+                      .|+.
+T Consensus       114 ~Fn~  117 (1073)
+T sp|O74562|SEC8  114 DFTR  117 (1073)
+T ss_pred             HHHh
+Confidence            6665
 
 
 No 5
->tr|A0A0F8XLC3|A0A0F8XLC3_9ARCH Uncharacterized protein OS=Lokiarchaeum sp. GC14_75 GN=Lokiarch_31490 PE=4 SV=1
-Probab=43.96  E-value=4  Score=15.38  Aligned_cols=16  Identities=31%  Similarity=0.297  Sum_probs=10.1  Template_Neff=9.200
+>sp|O94751|BUB1_SCHPO Checkpoint serine/threonine-protein kinase bub1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=bub1 PE=1 SV=1
+Probab=7.35  E-value=11  Score=17.63  Aligned_cols=71  Identities=15%  Similarity=0.184  Sum_probs=34.0  Template_Neff=7.100
 
-Q ss_pred             CCchhHHHHHHHHHHH
-Q tr|A0A0F8VEQ7|   10 RDPKRIKRILEKIEKL   25 (72)
-Q Consensus        10 rDP~RI~~lL~lL~~~   25 (72)
-                      +|..++..+++.+..+
-T Consensus         4 ~~~~~L~dIl~ai~~i   19 (32)
-T tr|A0A0F8XLC3|    4 NINLFLDHILESIELI   19 (32)
-T ss_pred             hHHHHHHHHHHHHHHH
-Confidence            4666666666666554
+Q ss_pred             CccccCCCCC----ChhHHHHHHHHHHHHHHhCCCCcHHHHHHHHHHhcc-----CCCCceecchHHHHHHHHHH-----
+Q tr|A0A0F8VEQ7|    1 MIIEHWTEDR----DPKRIKRILEKIEKLWRDSPDLRFGQFIQNIFGSSI-----RDQPIYFKEDDEVEKILDYL-----   66 (72)
+Q Consensus         1 ~~~~~~~~~R----dp~RI~elLelL~~~W~k~PDLrL~QlL~nla~e~g-----~~~~l~~leDd~Li~~L~~~-----   66 (72)
+                      |+.|......    +..+...+...+...|+..+-.+|.++|.|......     ....+..+ -..+..+|..-     
+T Consensus       952 LL~Gk~~~~~~~~~~~~~~~~l~~~lkr~w~~~lw~~lf~~LLN~~~~~~~~~~p~~~~L~~l-r~~~e~~L~~~~~~~~ 1030 (1044)
+T sp|O94751|BUB1  952 MLFGQYIETRIEVINGQRRQVLTQRMKRYWNQDLWHRLFDLLLNPTLHVSEENLPMTEELSKI-RIEMEEWLVNHSTGGS 1030 (1044)
+T ss_pred             HHhCCCcchhhhhhcCchhHHHHHHHHhhcChhHHHHHHHHHhCCCCCCCCCCCCCHHHHHHH-HHHHHHHHHhcCCCCc
+Confidence            5555443322    223333455667788998888889998888654321     11122222 11233333322     
+
+
+Q ss_pred             -----hhccCC
+Q tr|A0A0F8VEQ7|   67 -----LGRKNS   72 (72)
+Q Consensus        67 -----~~~~~~   72 (72)
+                           +.++..
+T Consensus      1031 ~Lk~ll~~~e~ 1041 (1044)
+T sp|O94751|BUB1 1031 GLKGLLKSIEK 1041 (1044)
+T ss_pred             cHHHHHHHHHh
+Confidence                 222222
 
 
 No 6
->tr|A0A0F8XFC2|A0A0F8XFC2_9ARCH Uncharacterized protein OS=Lokiarchaeum sp. GC14_75 GN=Lokiarch_47570 PE=4 SV=1
-Probab=36.64  E-value=11  Score=19.40  Aligned_cols=31  Identities=16%  Similarity=0.065  Sum_probs=23.0  Template_Neff=3.100
+>sp|O74749|HSE1_SCHPO Class E vacuolar protein-sorting machinery protein hse1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=hse1 PE=3 SV=1
+Probab=6.40  E-value=33  Score=14.99  Aligned_cols=72  Identities=17%  Similarity=0.216  Sum_probs=33.7  Template_Neff=8.700
 
-Q ss_pred             CCchhHHHHHHHHHHHHHhCCCCCHHHHHHHHHh
-Q tr|A0A0F8VEQ7|   10 RDPKRIKRILEKIEKLWRDSPDLRFGQFIQNIFG   43 (72)
-Q Consensus        10 rDP~RI~~lL~lL~~~We~~PDLrL~QLl~~l~~   43 (72)
-                      +-|-+=.++.++|..   ..||+++.+|+..|..
-T Consensus        13 ~G~i~D~eLy~~lkk---~~~~vs~~dflkaLMk   43 (80)
-T tr|A0A0F8XFC2|   13 KGEILDKRLEELLKK---SFPYINPLILEELFMK   43 (80)
-T ss_pred             cCCCchHHHHHHHhh---cCCCCCHHHHHHHHHH
-Confidence            334444677778877   8899999999877664
+Q ss_pred             CccccCCCCCChhHHHHHHHHHHHHHHhCCCCcHHHHHHHHHHhccC-C-------------CCceecchHHHHHHHHHH
+Q tr|A0A0F8VEQ7|    1 MIIEHWTEDRDPKRIKRILEKIEKLWRDSPDLRFGQFIQNIFGSSIR-D-------------QPIYFKEDDEVEKILDYL   66 (72)
+Q Consensus         1 ~~~~~~~~~Rdp~RI~elLelL~~~W~k~PDLrL~QlL~nla~e~g~-~-------------~~l~~leDd~Li~~L~~~   66 (72)
+                      ++...-....-.+||-+++.......+.+|+++..+-+++-....|+ .             .....-+|++|.+.+..-
+T Consensus        97 l~~~~~~~~~V~~k~l~li~~W~~~f~~~~~l~~~~~~y~~l~~~g~~~~~~~~~~~~~~~~~~~~~~eee~l~~ai~lS  176 (373)
+T sp|O74749|HSE1   97 IASDSTTHNRVRSRIAVLVNEWAEIMKKDPNMSLMQDICEKIRKLDIVDLRAPKKPEKEAMNELELKREEEELQYALALS  176 (373)
+T ss_pred             HhcCCCCChhHHHHHHHHHHHHHHHhccCCCchHHHHHHHHHhhcCCCcCCCCCCCchhccchHHhhhcHHHHHHHHhcc
+Confidence            22222222333345555555555555556777655555443332221 0             112223456777777776
+
+
+Q ss_pred             hhccCC
+Q tr|A0A0F8VEQ7|   67 LGRKNS   72 (72)
+Q Consensus        67 ~~~~~~   72 (72)
+                      +.+...
+T Consensus       177 l~e~~~  182 (373)
+T sp|O74749|HSE1  177 LSESTA  182 (373)
+T ss_pred             cccccc
+Confidence            655433
 
 
 No 7
->tr|A0A0F8XSF6|A0A0F8XSF6_9ARCH DNA-binding protein OS=Lokiarchaeum sp. GC14_75 GN=Lokiarch_13760 PE=4 SV=1
-Probab=33.75  E-value=17  Score=19.14  Aligned_cols=20  Identities=20%  Similarity=0.180  Sum_probs=16.7  Template_Neff=5.700
+>sp|Q9USS2|PPK29_SCHPO Serine/threonine-protein kinase ppk29 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=ppk29 PE=1 SV=1
+Probab=6.32  E-value=26  Score=15.60  Aligned_cols=72  Identities=15%  Similarity=0.070  Sum_probs=26.7  Template_Neff=5.000
 
-Q ss_pred             CCcc---cCCHHHHHHHHHHHHh
-Q tr|A0A0F8VEQ7|   49 QPIY---FKEDDEVEKILDYLLG   68 (72)
-Q Consensus        49 ~~~~---~~eDd~Li~~L~~~~~   68 (72)
-                      |.+-   .++|+.|+.+|..+..
-T Consensus        80 G~i~~~~kI~d~~L~~lL~~i~~  102 (113)
-T tr|A0A0F8XSF6|   80 GRLKGATPLPDSAFKKLLEQLST  102 (113)
-T ss_pred             CCCCCCCCCCHHHHHHHHHHhhc
-Confidence            6665   4999999999998875
+Q ss_pred             Ccccc---------------CCCCCChhHHHHHHHHHHHHHHhCCCCcH--HHHHHHHHHhccCCC---Ccee-------
+Q tr|A0A0F8VEQ7|    1 MIIEH---------------WTEDRDPKRIKRILEKIEKLWRDSPDLRF--GQFIQNIFGSSIRDQ---PIYF-------   53 (72)
+Q Consensus         1 ~~~~~---------------~~~~Rdp~RI~elLelL~~~W~k~PDLrL--~QlL~nla~e~g~~~---~l~~-------   53 (72)
+                      |+.|.               ......+..-.++.+++...|.++|+.|.  .|++..++...+...   .++.       
+T Consensus       242 LLTGr~PF~~~s~~~il~~~~s~p~~~~iS~eL~dLI~rcL~kDP~eRPSaaQIL~~L~~~~~~~l~~~e~~~~~~~~~~  321 (872)
+T sp|Q9USS2|PPK2  242 LCYYTTPFETQGPNAILTASYSFPPFPPYSHSLKNVIIALLQPNPCLRPNIFQLMCEICRLRGTALPFRDIYSGRESSFY  321 (872)
+T ss_pred             HHhCCCCCCCCCccccccccccCCCCCCCCHHHHHHHHHHcCCCCCCCCCHHHHHHHHHHhhcCCCCcccccCCCCcchh
+Confidence            22221               11111111234667888999999999995  466655432211111   1111       
+
+
+Q ss_pred             -cchHHHHHHHHHHhhccC---C
+Q tr|A0A0F8VEQ7|   54 -KEDDEVEKILDYLLGRKN---S   72 (72)
+Q Consensus        54 -leDd~Li~~L~~~~~~~~---~   72 (72)
+                       .....+...+......--   .
+T Consensus       322 dl~~~~i~sll~q~~~~p~a~~~  344 (872)
+T sp|Q9USS2|PPK2  322 DLHNRKIMSLLRQTTTTPFAGNQ  344 (872)
+T ss_pred             hHHHHHHHHHhhccCCCCCCCCC
+Confidence             101111111111000000   0
 
 
 No 8
->tr|A0A0F8VJ42|A0A0F8VJ42_9ARCH Uncharacterized protein (Fragment) OS=Lokiarchaeum sp. GC14_75 GN=Lokiarch_18130 PE=4 SV=1
-Probab=24.66  E-value=22  Score=19.60  Aligned_cols=56  Identities=14%  Similarity=-0.025  Sum_probs=36.9  Template_Neff=7.100
+>sp|Q9UT51|CSN3_SCHPO COP9 signalosome complex subunit 3 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=csn3 PE=3 SV=2
+Probab=5.84  E-value=22  Score=16.02  Aligned_cols=70  Identities=7%  Similarity=0.105  Sum_probs=35.4  Template_Neff=7.800
 
-Q ss_pred             CCCchhHHHHHHHHHHHHHhCCCCCHHHHHHHHHhhhcC--CCCcccCC--HHHHHHHHHHH
-Q tr|A0A0F8VEQ7|    9 DRDPKRIKRILEKIEKLWRDSPDLRFGQFIQNIFGSSIR--DQPIYFKE--DDEVEKILDYL   66 (72)
-Q Consensus         9 ~rDP~RI~~lL~lL~~~We~~PDLrL~QLl~~l~~~~~~--~~~~~~~e--Dd~Li~~L~~~   66 (72)
-                      ..++.|+.++.+.+..+|.+. ++++...+..-+.. ||  +|..|+.+  +|+....|++.
-T Consensus       112 ~~s~~~~~rl~~~~~~l~~~y-g~~~~~~~~~~~~~-g~~~~~~~~~~~~~~~~~~~~~~~~  171 (185)
-T tr|A0A0F8VJ42|  112 PPTAQWIVETTEKIADIYFRY-ANTLDVNLLTDNRP-GFTRMGLSYPNILVRDEMVRRLQEQ  171 (185)
-T ss_pred             CCCHHHHHHHHHHHHHHHHHh-CCCccccccccCCC-ccccccccccceeehhHHHHHHHHh
-Confidence            456788888888888888865 67776555554442 43  45555543  77777776654
+Q ss_pred             CccccCCCCCChhHHHHHHHHHHHHHHhCCCCcHHHHHHHHHHhccC---CCCceecc----------hHHHHHHHHHHh
+Q tr|A0A0F8VEQ7|    1 MIIEHWTEDRDPKRIKRILEKIEKLWRDSPDLRFGQFIQNIFGSSIR---DQPIYFKE----------DDEVEKILDYLL   67 (72)
+Q Consensus         1 ~~~~~~~~~Rdp~RI~elLelL~~~W~k~PDLrL~QlL~nla~e~g~---~~~l~~le----------Dd~Li~~L~~~~   67 (72)
+                      -+...+..  |.++.+++++.-...|.+++...|.+.+.........   ......++          +++.+..+....
+T Consensus       198 ~l~~a~~~--d~~~~~~~~~~~~~~f~~D~n~gLv~~l~~~~~~~~I~kL~~~Ys~isL~~Ia~~l~l~~eve~~l~~mI  275 (338)
+T sp|Q9UT51|CSN3  198 EFLDAYLK--DVNTLRTVIKEHWSRFLKDNSTAFILFALEVYPMHRLKKWRKTFSSLKLEYIAKQLAISQDVAKEIIQKF  275 (338)
+T ss_pred             HHHHHHhc--CHHHHHHHHHHhhHHhhcCChHHHHHHHHHhhhHHhHHHhhhhhccccHHHHHHHhCCCHHHHHHHHHHH
+Confidence            46677766  8999999999999999999887776665544422110   00000010          011111111110
+
+
+Q ss_pred             h---ccCC
+Q tr|A0A0F8VEQ7|   68 G---RKNS   72 (72)
+Q Consensus        68 ~---~~~~   72 (72)
+                      .   +..+
+T Consensus       276 ~~g~~a~I  283 (338)
+T sp|Q9UT51|CSN3  276 DNKTNFTV  283 (338)
+T ss_pred             hcCCceEE
+Confidence            0   0011
 
 
 No 9
->tr|A0A0F8V8U9|A0A0F8V8U9_9ARCH Uncharacterized protein OS=Lokiarchaeum sp. GC14_75 GN=Lokiarch_47390 PE=4 SV=1
-Probab=23.54  E-value=25  Score=16.35  Aligned_cols=21  Identities=24%  Similarity=0.341  Sum_probs=15.2  Template_Neff=7.300
+>sp|Q9Y808|YN91_SCHPO Uncharacterized protein C146.01 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=SPBC146.01 PE=1 SV=2
+Probab=5.63  E-value=33  Score=14.99  Aligned_cols=57  Identities=4%  Similarity=0.053  Sum_probs=27.3  Template_Neff=6.500
 
-Q ss_pred             CCchhHHHHHHHHHHHHHhCCC
-Q tr|A0A0F8VEQ7|   10 RDPKRIKRILEKIEKLWRDSPD   31 (72)
-Q Consensus        10 rDP~RI~~lL~lL~~~We~~PD   31 (72)
-                      .|| +...+++..-+.|..+|.
-T Consensus        16 ~dp-~a~avL~~~~P~l~~~p~   36 (75)
-T tr|A0A0F8V8U9|   16 ADP-VSEAFIKENLKQLVESPQ   36 (75)
-T ss_pred             hCh-HHHHHHHHhhhhhccChH
-Confidence            344 677778888888877776
+Q ss_pred             CccccCCCCCChhHHHHHHHHHHHHHHhCCCCcHHHHHHHHHHhccCCCCceecchHH---HHHHHHHHhhccCC
+Q tr|A0A0F8VEQ7|    1 MIIEHWTEDRDPKRIKRILEKIEKLWRDSPDLRFGQFIQNIFGSSIRDQPIYFKEDDE---VEKILDYLLGRKNS   72 (72)
+Q Consensus         1 ~~~~~~~~~Rdp~RI~elLelL~~~W~k~PDLrL~QlL~nla~e~g~~~~l~~leDd~---Li~~L~~~~~~~~~   72 (72)
+                      .|.-.|.-.+|.+|+++|+..=.-+.+..-+         +      ..+.|.++=++   ++..+..+++.+|.
+T Consensus       641 lL~~fy~~t~dee~~R~L~qmr~~l~~Q~~~---------~------~kd~ftitp~~L~k~~~~l~ryf~~Vk~  700 (1063)
+T sp|Q9Y808|YN91  641 LICLFYCLTGNEEATIQLIQMRHIFKLQLEG---------L------QQGVFTCAPQTLAKIKEKTSRYFAFVKA  700 (1063)
+T ss_pred             HHHHHHHccCChHHHHHHHHHHHHHHHHhhc---------c------cCCceecCHHHHHHHHHHHHHHHHHHHH
+Confidence            3444455668888888887643222222222         1      12233333333   44445555555555
 
 
 No 10
->tr|A0A0F8XUQ5|A0A0F8XUQ5_9ARCH Uncharacterized protein OS=Lokiarchaeum sp. GC14_75 GN=Lokiarch_07210 PE=4 SV=1
-Probab=21.24  E-value=34  Score=17.10  Aligned_cols=36  Identities=6%  Similarity=-0.006  Sum_probs=22.0  Template_Neff=7.100
+>sp|O13924|HASP_SCHPO Serine/threonine-protein kinase haspin homolog hrk1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=hrk1 PE=1 SV=1
+Probab=5.60  E-value=13  Score=17.19  Aligned_cols=58  Identities=9%  Similarity=0.082  Sum_probs=11.8  Template_Neff=7.400
 
-Q ss_pred             CCCHHHHHHHHHhhhcCCCCcccCCHHHHHHHHHHHHhhh
-Q tr|A0A0F8VEQ7|   31 DLRFGQFIQNIFGSSIRDQPIYFKEDDEVEKILDYLLGRK   70 (72)
-Q Consensus        31 DLrL~QLl~~l~~~~~~~~~~~~~eDd~Li~~L~~~~~~~   70 (72)
-                      +++..+++..|...    |.....+.+++.+-++..+++.
-T Consensus        65 g~s~~ef~~~L~~~----gi~~~~~~~~~~~d~~~~~~~~  100 (112)
-T tr|A0A0F8XUQ5|   65 GASLWDLFDEMKNR----GITSKFDIDQEKETYLHVFGKI  100 (112)
-T ss_pred             CCCHHHHHHHHHhC----CCCCCCChHHHHHHHHHHhhcc
-Confidence            44666666666655    3334566777777777666554
-
-
-No 11
->tr|A0A0F8VEQ0|A0A0F8VEQ0_9ARCH SCP-2 sterol transfer family protein OS=Lokiarchaeum sp. GC14_75 GN=Lokiarch_31000 PE=4 SV=1
-Probab=21.10  E-value=11  Score=20.76  Aligned_cols=25  Identities=20%  Similarity=0.191  Sum_probs=21.4  Template_Neff=7.700
-
-Q ss_pred             CCCchhHHHHHHHHHHHHHhCCCCC
-Q tr|A0A0F8VEQ7|    9 DRDPKRIKRILEKIEKLWRDSPDLR   33 (72)
-Q Consensus         9 ~rDP~RI~~lL~lL~~~We~~PDLr   33 (72)
-                      .+++..|.++.+.+.++++.+|+.+
-T Consensus        52 ~~~~~~~~~l~~~l~~~l~~dp~~~   76 (179)
-T tr|A0A0F8VEQ0|   52 CCINSSIMEIFYGFERLSKSNLEFR   76 (179)
-T ss_pred             cCCcchHHHHHHHHHHHHhcCHHHH
-Confidence            4567889999999999999999773
-
-
-No 12
->tr|A0A0F8VAB0|A0A0F8VAB0_9ARCH N-(5'-phosphoribosyl)anthranilate isomerase OS=Lokiarchaeum sp. GC14_75 GN=trpF PE=3 SV=1
-Probab=20.75  E-value=18  Score=19.67  Aligned_cols=18  Identities=44%  Similarity=0.674  Sum_probs=14.2  Template_Neff=9.000
-
-Q ss_pred             cCCCCchhHHHHHHHHHH
-Q tr|A0A0F8VEQ7|    7 TEDRDPKRIKRILEKIEK   24 (72)
-Q Consensus         7 ~~~rDP~RI~~lL~lL~~   24 (72)
-                      ++-+||.+|.++++.++.
-T Consensus       194 ~g~kD~~ki~~f~~~~~~  211 (215)
-T tr|A0A0F8VAB0|  194 KGVKDPERIKNFLIKINE  211 (215)
-T ss_pred             CCCCCHHHHHHHHHHHHh
-Confidence            346799999999888765
+Q ss_pred             CccccCCCCCChhH-HHHHHHHHHHHHHh-CCCCc--HHH---HHHHHHHhccCCCCceecchHHHHHHHHHHh
+Q tr|A0A0F8VEQ7|    1 MIIEHWTEDRDPKR-IKRILEKIEKLWRD-SPDLR--FGQ---FIQNIFGSSIRDQPIYFKEDDEVEKILDYLL   67 (72)
+Q Consensus         1 ~~~~~~~~~Rdp~R-I~elLelL~~~W~k-~PDLr--L~Q---lL~nla~e~g~~~~l~~leDd~Li~~L~~~~   67 (72)
+                      +++..-...|-+.. -..+.+++...|+. +|..|  +.+   ++.....         ..+-..+.++++..+
+T Consensus       424 ~ll~~~~~~rp~~~~~~~~~~~l~~~~~~ldp~~Rp~~~~~~~~~~~~~~---------~~s~~~~~~~~~~~~  488 (488)
+T sp|O13924|HASP  424 QLLHKKNLSSPLTETETLMRSRLKQIFRLIDPVKTMQFQQAEDSIRSKST---------VTSATSLLNWVRQKY  488 (488)
+T ss_pred             HHHccCCCCCCCCcchHHHHHHHHHHHHhcCccccccccchhHHhhchhc---------CCChHHHHHHHhhcC
+Confidence            00000000000000 11233333333433 33333  111   1111100         000112222222222
 
 
