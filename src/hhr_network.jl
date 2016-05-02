@@ -1,6 +1,7 @@
 #!/usr/bin/env julia
 
 using DataStructures
+using StatsBase
 
 type Graph
     nodes::Set
@@ -69,7 +70,6 @@ function degree(net::Graph, node::ASCIIString)
     return (indegree + outdegree, indegree, outdegree)
 end
 
-
 function size(net::Graph)
     return (length(net.nodes), length(net.edges))
 end
@@ -85,7 +85,6 @@ function read_hhrfile(hhrfile, minlength=100.0)
     for line in data
         # hit = strip(split(line[5:25])[1])
         hit = split(line, ['|', '_'])[3]
-        println(hit)
         align = (convert(ASCIIString, query), convert(ASCIIString, hit))
         if align == reverse(align)
             continue
@@ -101,8 +100,8 @@ function read_hhrfile(hhrfile, minlength=100.0)
     return hits
 end
 
-"Parse .hhr files in directory for significant alignments and return as graph"
-function build_network(hhrdirectory)
+"Parse .hhr files in directory for significant alignments and return as graph."
+function build_raw_network(hhrdirectory)
     files = readdir(hhrdirectory)
     filter!(f->ismatch(r"\.hhr", f), files)
     net = Graph(Set(), Set(), Dict())
@@ -116,69 +115,105 @@ function build_network(hhrdirectory)
     return net
 end
 
-"Remove unidirectional edges from network"
-function trim_network(net::Graph)
-    for edge in net.edges
+"Remove nodes with outdegree 0 from network."
+function dedirect(net::Graph)
+    for edge in deepcopy(net.edges)
         if reverse(edge) in net.edges
             continue
         end
         delete_edge!(net, edge)
     end
     for node in net.nodes
-        if degree(net, node)[1] == 0
+        if degree(net, node)[1] <= 1  # CARE NEEDED, CHECK ME
             delete_node!(net, node)
         end
     end
     return net
 end
 
-"Return the undirected weight, based on the average of ranks"
-function get_mutual_rank(net::Graph)
-    undirected = Graph(Set(), Set(), Dict())
+function trim_network(net::Graph, maxeval=Inf, minprob=0, unidirectional=false)
+    visited = Set()
+    for edge in deepcopy(net.edges)
+        edge in visited ? continue : union!(visited, Set([edge,reverse(edge)]))
+        wt = net.weights[edge]
+        if unidirectional
+            if wt[2] > maxeval
+                delete_edge!(net, edge)
+            elseif wt[1] < minprob
+                delete_edge!(net, edge)
+            end
+        else
+            rwt = net.weights[reverse(edge)]
+            if rwt[2] > maxeval || wt[2] > maxeval
+                delete_edge!(net, edge)
+                delete_edge!(net, reverse(edge))
+                continue
+            elseif rwt[1] < minprob || wt[1] < minprob
+                delete_edge!(net, edge)
+                delete_edge!(net, reverse(edge))
+            end
+        end
+    end
+    unidirectional ? mindegree = 0 : mindegree = 1
+    for node in net.nodes
+        if degree(net, node)[1] <= mindegree
+            delete_node!(net, node)
+        end
+    end
+    return net
+end
+
+"""
+Return the undirected weighted edge, based on the average of ranks.
+Possible attributes are:
+    Rank
+    Prob
+    E-val
+    P-val
+"""
+function get_mutual_attribute(net::Graph, node1, node2, attribute)
+    attrdict = Dict("Rank" => 7, "Prob" => 1, "E-val" => 2, "P-val" => 3)
+    attribute == "Rank" ? mutualmean(x) = 1/mean(x) : mutualmean = geomean
+    edge = node1, node2
+    i = attrdict[attribute]
+    mutual_attr = mutualmean([net.weights[edge][i],
+                             net.weights[reverse(edge)][i]])
+    return mutual_attr
+end
+
+function build_final_network(net::Graph)
+    final = Graph(net.nodes, Set(), Dict())
     visited = Set()
     for edge in net.edges
-        if edge in visited
-            continue
+        edge in visited ? continue : union!(visited, Set([edge,reverse(edge)]))
+        weights = []
+        for a in ["Rank", "Prob", "E-val", "P-val"]
+            push!(weights, get_mutual_attribute(net, edge[1], edge[2], a))
         end
-        push!(visited, edge)
-        push!(visited, reverse(edge))
-        newrank = 1/mean([net.weights[edge][7], net.weights[reverse(edge)][7]])
-        add_nodes!(undirected, edge)
-        add_edge!(undirected, edge => (newrank, -log(newrank)))
+        add_edge!(final, Pair(edge, weights))
     end
-    return undirected
+    return final
 end
 
 function write_network(net::Graph, outfilename)
     outfile = open(outfilename, "w")
-    write(outfile, "source\ttarget\tmutualrank\tlogrank\n")
+    write(outfile, "source\ttarget\trank\tprob\teval\tpval\n")
     for edge in net.edges
-        weights = net.weights[edge]
-        line = join([edge[1], edge[2], weights[1], weights[2]], '\t')
+        weights = join(net.weights[edge], "\t")
+        line = join([edge[1], edge[2], weights], '\t')
         write(outfile, line*"\n")
     end
     close(outfile)
-    end
+end
 
 function main()
-    ynet = build_network("../data/hhresults/scerevisiae_old")
-    ynet = trim_network(ynet)
-    ynet = get_mutual_rank(ynet)
-    write_network(ynet, "scerevisae.txt")
-    pnet = build_network("../data/hhresults/spombe_old")
-    pnet = trim_network(pnet)
-    pnet = get_mutual_rank(pnet)
-    write_network(pnet, "spombe.txt")
+    rnet = build_raw_network(ARGS[1])
+    rnet = dedirect(rnet)
+    rnet = trim_network(rnet, 0.01, 20)
+    fnet = build_final_network(rnet)
+    write_network(fnet, ARGS[2])
 end
 
-function main2()
-    ynet = build_network(ARGS[1])
-    # println(size(ynet))
-    ynet = trim_network(ynet)
-    ynet = get_mutual_rank(ynet)
-    write_network(ynet, ARGS[2])
-end
-
-main2()
+main()
 
 
