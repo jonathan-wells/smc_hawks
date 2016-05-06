@@ -57,6 +57,23 @@ function delete_edge!(net::Graph, edge::Tuple)
     delete!(net.weights, edge)
 end
 
+function rename_node!(net::Graph, oldnode, newnode)
+    push!(net.nodes, newnode)
+    for edge in net.edges
+        if oldnode in edge
+            oldedge = [edge...]
+            ind = find(i->i == oldnode, oldedge)[1]
+            oldedge[ind] = newnode
+            newedge = (oldedge...)
+            push!(net.edges, newedge)
+            net.weights[newedge] = net.weights[edge]
+            delete!(net.edges, edge)
+            delete!(net.weights, edge)
+        end
+    end
+    pop!(net.nodes, oldnode)
+end
+
 function degree(net::Graph, node::ASCIIString)
     indegree = 0
     outdegree = 0
@@ -74,17 +91,20 @@ function size(net::Graph)
     return (length(net.nodes), length(net.edges))
 end
 
+###############################################################################
+## Pre-Processing
+###############################################################################
+
 "Read hhresults file and return ranked dictionary of best alignments"
 function read_hhrfile(hhrfile, minlength=100.0)
     data = open(readall, hhrfile)
     query = convert(ASCIIString, strip(match(r"Query\s+(\S+)", data)[1]))
-    query = split(query, ['|', '_'])[3]
+    query = split(query, ['|', '_'])[2]
     data = split(split(data, "\n\n")[2], "\n")[2:end]
     hits = OrderedDict()
     rank = 1.0
     for line in data
-        # hit = strip(split(line[5:25])[1])
-        hit = split(line, ['|', '_'])[3]
+        hit = split(line, ['|', '_'])[2]
         align = (convert(ASCIIString, query), convert(ASCIIString, hit))
         if align == reverse(align)
             continue
@@ -173,7 +193,7 @@ Possible attributes are:
 """
 function get_mutual_attribute(net::Graph, node1, node2, attribute)
     attrdict = Dict("Rank" => 7, "Prob" => 1, "E-val" => 2, "P-val" => 3)
-    attribute == "Rank" ? mutualmean(x) = 1/mean(x) : mutualmean = geomean
+    attribute == "Rank" ? mutualmean = mean : mutualmean = geomean
     edge = node1, node2
     i = attrdict[attribute]
     mutual_attr = mutualmean([net.weights[edge][i],
@@ -181,7 +201,38 @@ function get_mutual_attribute(net::Graph, node1, node2, attribute)
     return mutual_attr
 end
 
-function build_final_network(net::Graph)
+# function normalise_ranks(net::Graph)
+#     ranks = [parse(Float64, l[3]) for l in data]
+#     rmin, rmax = min(ranks...), max(ranks...)
+#     outfile = open(networkfile, "w")
+#     write(outfile, header)
+#     for line in data
+#         normrank = 1/(1 + (parse(Float64, line[3]) - rmin)*99/(rmax - rmin))
+#         push!(line, string(normrank))
+#         line = join(line, "\t")*"\n"
+#         write(outfile, line)
+#     end
+# end
+
+function map_genes(net::Graph, nodefile, anonymous=false)
+    nodes = open(readlines, nodefile)[2:end]
+    nodemap = Dict([node => node for node in net.nodes])
+    if anonymous
+        rlist = shuffle([string(i) for i in 1:2*length(nodes)])
+        for line in nodes
+            line = split(line)
+            nodemap[line[1]] = pop!(rlist)
+        end
+    else
+        for line in nodes
+            line = split(strip(line))
+            nodemap[line[1]] = line[2]
+        end
+    end
+    return nodemap
+end
+
+function build_final_network(net::Graph, nodefile, anon=false)
     final = Graph(net.nodes, Set(), Dict())
     visited = Set()
     for edge in net.edges
@@ -192,12 +243,25 @@ function build_final_network(net::Graph)
         end
         add_edge!(final, Pair(edge, weights))
     end
+    # Normalise ranks
+    ranks =  [w[1] for w in values(final.weights)]
+    rmin, rmax = min(ranks...), max(ranks...)
+    for edge in final.edges
+        rank = final.weights[edge][1]
+        normrank = 1.0/(1.0 + 99.0*(rank - rmin)/(rmax - rmin))
+        push!(final.weights[edge], normrank)
+    end
+    # Convert node names from uniprot id to genes, or anonymised number
+    nodemap = map_genes(net, nodefile, anon)
+    for node in deepcopy(final.nodes)
+        rename_node!(final, node, nodemap[node])
+    end
     return final
 end
 
 function write_network(net::Graph, outfilename)
     outfile = open(outfilename, "w")
-    write(outfile, "source\ttarget\trank\tprob\teval\tpval\n")
+    write(outfile, "source\ttarget\trank\tprob\teval\tpval\tnormrank\n")
     for edge in net.edges
         weights = join(net.weights[edge], "\t")
         line = join([edge[1], edge[2], weights], '\t')
@@ -206,14 +270,18 @@ function write_network(net::Graph, outfilename)
     close(outfile)
 end
 
-function main()
+function main1()
+    # hhrfolder outfile
     rnet = build_raw_network(ARGS[1])
     rnet = dedirect(rnet)
-    rnet = trim_network(rnet, 0.01, 20)
-    fnet = build_final_network(rnet)
+    rnet = trim_network(rnet, 0.01, 15.0)
+    fnet = build_final_network(rnet, ARGS[3])
     write_network(fnet, ARGS[2])
+
 end
 
-main()
+
+main1()
+# main2()
 
 
