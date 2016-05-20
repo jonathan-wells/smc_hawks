@@ -113,8 +113,12 @@ function read_hhrfile(hhrfile, minlength=100.0)
         info[9] == "" ? splice!(info, 9) : nothing
         @assert length(info) == 9
         if !(align in keys(hits)) && parse(Int, info[6]) >= minlength
+            # Add rank, adjusted after filtering for duplicates/thresholds
             hits[align] = push!([parse(Float64, i) for i in info[1:6]], rank)
             rank += 1.0
+            # Add length-normalised and weighted SS score
+            normscore = (hits[align][4] + hits[align][5])/hits[align][6]
+            push!(hits[align], normscore)
         end
     end
     return hits
@@ -190,9 +194,13 @@ Possible attributes are:
     Prob
     E-val
     P-val
+    Score
+    Secondary Struc Score (SS)
+    Cols
 """
 function get_mutual_attribute(net::Graph, node1, node2, attribute)
-    attrdict = Dict("Rank" => 7, "Prob" => 1, "E-val" => 2, "P-val" => 3)
+    attrdict = Dict("Rank" => 7, "Prob" => 1, "E-val" => 2, "P-val" => 3,
+                    "Score" => 4, "SS" => 5, "Cols" => 6, "normscore" => 8)
     attribute == "Rank" ? mutualmean = mean : mutualmean = geomean
     edge = node1, node2
     i = attrdict[attribute]
@@ -200,19 +208,6 @@ function get_mutual_attribute(net::Graph, node1, node2, attribute)
                              net.weights[reverse(edge)][i]])
     return mutual_attr
 end
-
-# function normalise_ranks(net::Graph)
-#     ranks = [parse(Float64, l[3]) for l in data]
-#     rmin, rmax = min(ranks...), max(ranks...)
-#     outfile = open(networkfile, "w")
-#     write(outfile, header)
-#     for line in data
-#         normrank = 1/(1 + (parse(Float64, line[3]) - rmin)*99/(rmax - rmin))
-#         push!(line, string(normrank))
-#         line = join(line, "\t")*"\n"
-#         write(outfile, line)
-#     end
-# end
 
 function map_genes(net::Graph, nodefile, anonymous=false)
     nodes = open(readlines, nodefile)[2:end]
@@ -238,7 +233,7 @@ function build_final_network(net::Graph, nodefile, anon=false)
     for edge in net.edges
         edge in visited ? continue : union!(visited, Set([edge,reverse(edge)]))
         weights = []
-        for a in ["Rank", "Prob", "E-val", "P-val"]
+        for a in ["Rank", "Prob", "E-val", "P-val", "Score", "SS", "normscore"]
             push!(weights, get_mutual_attribute(net, edge[1], edge[2], a))
         end
         add_edge!(final, Pair(edge, weights))
@@ -261,7 +256,8 @@ end
 
 function write_network(net::Graph, outfilename)
     outfile = open(outfilename, "w")
-    write(outfile, "source\ttarget\trank\tprob\teval\tpval\tnormrank\n")
+    head = "source\ttarget\trank\tprob\teval\tpval\tscore\tss\tnscore\tnrank\n"
+    write(outfile, head)
     for edge in net.edges
         weights = join(net.weights[edge], "\t")
         line = join([edge[1], edge[2], weights], '\t')
@@ -271,12 +267,14 @@ function write_network(net::Graph, outfilename)
 end
 
 function main1()
-    # hhrfolder outfile
+    # ARGS are: hhrfolder, nodefile, outfile, anon_outfile
     rnet = build_raw_network(ARGS[1])
     rnet = dedirect(rnet)
     rnet = trim_network(rnet, 0.01, 15.0)
-    fnet = build_final_network(rnet, ARGS[3])
-    write_network(fnet, ARGS[2])
+    fnet = build_final_network(rnet, ARGS[2])
+    write_network(fnet, ARGS[3])
+    fnetanon = build_final_network(rnet, ARGS[2], true)
+    write_network(fnetanon, ARGS[4])
 
 end
 
