@@ -3,6 +3,10 @@
 using DataStructures
 using StatsBase
 
+###############################################################################
+## Graph type and methods
+###############################################################################
+
 type Graph
     nodes::Set
     edges::Set
@@ -92,7 +96,7 @@ function size(net::Graph)
 end
 
 ###############################################################################
-## Pre-Processing
+## Graph building
 ###############################################################################
 
 "Read hhresults file and return ranked dictionary of best alignments"
@@ -139,8 +143,11 @@ function build_raw_network(hhrdirectory)
     return net
 end
 
-"Remove nodes with outdegree 0 from network."
+"Remove nodes with outdegree 0 from network.
+Memory and time consumption of this function is a mess!
+"
 function dedirect(net::Graph)
+    # edges = SharedArray(net.edges)
     for edge in deepcopy(net.edges)
         if reverse(edge) in net.edges
             continue
@@ -148,7 +155,7 @@ function dedirect(net::Graph)
         delete_edge!(net, edge)
     end
     for node in net.nodes
-        if degree(net, node)[1] <= 1  # CARE NEEDED, CHECK ME
+        if degree(net, node)[1] <= 1
             delete_node!(net, node)
         end
     end
@@ -238,7 +245,7 @@ function build_final_network(net::Graph, nodefile, anon=false)
         end
         add_edge!(final, Pair(edge, weights))
     end
-    # Normalise ranks
+    # Normalise ranks (between 1 and 100)
     ranks =  [w[1] for w in values(final.weights)]
     rmin, rmax = min(ranks...), max(ranks...)
     for edge in final.edges
@@ -266,20 +273,36 @@ function write_network(net::Graph, outfilename)
     close(outfile)
 end
 
-function main1()
-    # ARGS are: hhrfolder, nodefile, outfile, anon_outfile
-    rnet = build_raw_network(ARGS[1])
-    rnet = dedirect(rnet)
-    rnet = trim_network(rnet, 0.01, 15.0)
-    fnet = build_final_network(rnet, ARGS[2])
-    write_network(fnet, ARGS[3])
-    fnetanon = build_final_network(rnet, ARGS[2], true)
-    write_network(fnetanon, ARGS[4])
 
+###############################################################################
+## Control - Randomly generated graphs
+###############################################################################
+
+"Writes hhr_graph in supersimple --abc format for mcl"
+function write_mcl_graph(hhrdirectory, networkfile)
+    files = filter(x->ismatch(r".hhr", x), readdir(hhrdirectory))
+    all_hits = [read_hhrfile(hhrdirectory*"/"*f) for f in files]
+    all_hits = nothing
 end
 
 
-main1()
+
+
+function main1()
+    # ARGS are: hhrfolder, nodefile, outfile, anon_outfile
+    @time rnet = build_raw_network(ARGS[1])
+    @time rnet = dedirect(rnet)
+    # @time rnet = trim_network(rnet, 0.01, 15.0)
+    # @time fnet = build_final_network(rnet, ARGS[2])
+    # write_network(fnet, ARGS[3])
+    # fnetanon = build_final_network(rnet, ARGS[2], true)
+    # write_network(fnetanon, ARGS[4])
+end
+
+function main2()
+    @time write_mcl_graph("../data/hhresults/human_network/",
+                    "../data/networks/human_network_long.txt")
+end
+
+# main1()
 # main2()
-
-
