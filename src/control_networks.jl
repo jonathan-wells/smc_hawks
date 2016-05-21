@@ -35,7 +35,7 @@ end
     clustfile = "clust"*string(myid())*".tmp"
     clusters = [Set(split(strip(c), "\t")) for c in open(readlines, clustfile)]
     for c in clusters
-        if intersect(c, prots) == prots && length(c) <= length(prots)*2
+        if intersect(c, prots) == prots && length(c) <= length(prots)*1.5
             return 1
         end
     end
@@ -53,14 +53,11 @@ function run_control(hhrdir, netfile, prots, iterations)
     end
     results = pmap(doall, results)
     println(iterations, " trials, p-val = ", sum(results)/iterations)
-    for i in procs()
-        clustfile = "clust"*string(i)*".tmp"
-        netfile = "net"*string(i)*".tmp"
-        run(`rm $netfile $clustfile`)
-    end
 end
+
+
 
 # "Q04002", "P40541", "Q04264", "Q06156", "Q06680"
 @time run_control("../data/hhresults/scerevisiae_network",
             "../data/networks/scerevisiae_network_long_anon.txt",
-            Set(["Q04002", "P40541", "Q04264", "Q06156", "Q06680"]), 500)
+            Set(["Q04002", "P40541", "Q04264", "Q06156", "Q06680"]), 400)

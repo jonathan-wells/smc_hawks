@@ -3,4 +3,6 @@ data/
 docs/
 .DS_Store
 .Rhistory
-
+*.tmp
+*.tar
+*.tar.gz
