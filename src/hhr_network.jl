@@ -92,7 +92,7 @@ function read_hhrfile(hhrfile, minlength=100.0, maxeval=0.01, minprob=15.0)
     for line in data
         hit = getid(line)
         query == hit ? continue : align = (query, hit)
-        # info = [Prob, E-val, P-val, Score, SS, Cols, QryHMM, TmpHMM, Tmplen]
+        # info = [Prob, E-val, P-val, Score, SS, Cols, QryHMM, TmpHMM, Tmplen]`
         info = split(strip(line[36:end], [' ', ')']), r"\s+|\(")
         info[9] == "" ? splice!(info, 9) : nothing
         @assert length(info) == 9
@@ -210,4 +210,3 @@ function main()
     remap_nodenames(ARGS[3], ARGS[2], ARGS[3])
 end
 
-main()

@@ -2,11 +2,22 @@
 
 include("hhr_network.jl")
 
-function get_numhits(hhrdir)
+
+function map_genes(nodefile)
+    nodes = open(readlines, nodefile)[2:end]
+    nodemap = Dict([Pair(split(strip(line), r"\s+")...) for line in nodes])
+    return nodemap
+end
+
+function get_numhits(hhrdir, nodefile)
+    nodemap = map_genes(nodefile)
     files = filter(x->ismatch(r".hhr", x), readdir(hhrdir))
-    get_hits(f) = Pair(split(f, ".")[1] => length(read_hhrfile(hhrdir*"/"*f)))
+    for f in files
+        println(split(f, ".")[1])
+    end
+    get_hits(f) = Pair(split(f, ".")[1] => length(read_hhrfile(hhrdir*f)))
     numhits = Dict([get_hits(f) for f in files])
-    numhits = Dict([prot => Float64(numhits[prot]) for prot in keys(numhits)])
+    numhits = Dict([nodemap[p] => Float64(numhits[p]) for p in keys(numhits)])
     return numhits
 end
 
@@ -32,18 +43,27 @@ end
 end
 
 @everywhere function prots_in_cluster(prots::Set)
+    csize = length(prots)
     clustfile = "clust"*string(myid())*".tmp"
     clusters = [Set(split(strip(c), "\t")) for c in open(readlines, clustfile)]
     for c in clusters
-        if intersect(c, prots) == prots && length(c) <= length(prots)*1.5
+        if intersect(c, prots) == prots && length(c) <= csize
             return 1
         end
     end
     return 0
 end
 
-function run_control(hhrdir, netfile, prots, iterations)
-    numhits = get_numhits(hhrdir)
+function cleanup_tmpfiles()
+    for file in readdir(pwd())
+        if ismatch(r".+[1-9]+\.tmp", file)
+            rm(file)
+        end
+    end
+end
+
+function run_control(hhrdir, netfile, nodefile, iterations, prots)
+    numhits = get_numhits(hhrdir, nodefile)
     network = load_network(netfile)
     results = ones(1:iterations)
     function doall(i)
@@ -53,11 +73,13 @@ function run_control(hhrdir, netfile, prots, iterations)
     end
     results = pmap(doall, results)
     println(iterations, " trials, p-val = ", sum(results)/iterations)
+    cleanup_tmpfile()
 end
 
 
 
 # "Q04002", "P40541", "Q04264", "Q06156", "Q06680"
-@time run_control("../data/hhresults/scerevisiae_network",
-            "../data/networks/scerevisiae_network_long_anon.txt",
-            Set(["Q04002", "P40541", "Q04264", "Q06156", "Q06680"]), 400)
+# Args = hhrdir, netfile, nodefile, iterations, protlist
+# run_control(ARGS[1], ARGS[2], ARGS[3], parse(Int, ARGS[4]), Set(ARGS[5:end]))
+# get_numhits(ARGS[1], ARGS[2])
+cleanup()
