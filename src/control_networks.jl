@@ -12,9 +12,6 @@ end
 function get_numhits(hhrdir, nodefile)
     nodemap = map_genes(nodefile)
     files = filter(x->ismatch(r".hhr", x), readdir(hhrdir))
-    for f in files
-        println(split(f, ".")[1])
-    end
     get_hits(f) = Pair(split(f, ".")[1] => length(read_hhrfile(hhrdir*f)))
     numhits = Dict([get_hits(f) for f in files])
     numhits = Dict([nodemap[p] => Float64(numhits[p]) for p in keys(numhits)])
@@ -63,6 +60,7 @@ function cleanup_tmpfiles()
 end
 
 function run_control(hhrdir, netfile, nodefile, iterations, prots)
+    println("loading data")
     numhits = get_numhits(hhrdir, nodefile)
     network = load_network(netfile)
     results = ones(1:iterations)
@@ -71,15 +69,21 @@ function run_control(hhrdir, netfile, nodefile, iterations, prots)
         cluster()
         return i*prots_in_cluster(prots)
     end
+    println("clustering random graphs")
     results = pmap(doall, results)
-    println(iterations, " trials, p-val = ", sum(results)/iterations)
-    cleanup_tmpfile()
+    pval = sum(results)/iterations
+    if pval == 0
+        sf = strip(string(iterations), '0')
+        printpval = rpad(string(pval), length(string(iterations)), "0")*sf
+        println("ran $iterations trials, p < $printpval")
+    else
+        println("ran $iterations trials, p = $pval")
+    end
+    cleanup_tmpfiles()
 end
 
 
 
 # "Q04002", "P40541", "Q04264", "Q06156", "Q06680"
 # Args = hhrdir, netfile, nodefile, iterations, protlist
-# run_control(ARGS[1], ARGS[2], ARGS[3], parse(Int, ARGS[4]), Set(ARGS[5:end]))
-# get_numhits(ARGS[1], ARGS[2])
-cleanup()
+run_control(ARGS[1], ARGS[2], ARGS[3], parse(Int, ARGS[4]), Set(ARGS[5:end]))
