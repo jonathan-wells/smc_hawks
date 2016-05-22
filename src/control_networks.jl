@@ -14,7 +14,8 @@ function get_numhits(hhrdir, nodefile)
     files = filter(x->ismatch(r".hhr", x), readdir(hhrdir))
     get_hits(f) = Pair(split(f, ".")[1] => length(read_hhrfile(hhrdir*f)))
     numhits = Dict([get_hits(f) for f in files])
-    numhits = Dict([nodemap[p] => Float64(numhits[p]) for p in keys(numhits)])
+    numhits = Dict([get(nodemap, p, p) => Float64(numhits[p])
+                   for p in keys(numhits)])
     return numhits
 end
 
@@ -24,7 +25,8 @@ function load_network(netfile)
 end
 
 @everywhere function write_mcl_graph(numhits, network)
-    randrank(e) = string(0.5*(rand(1:numhits[e[1]])+rand(1:numhits[e[2]])))
+    function
+    randrank(e) = string((rand(1:numhits[e[1]])*rand(1:numhits[e[2]])))
     results = map(randrank, network)
     tmpfile = open("net"*string(myid())*".tmp", "w")
     for i in 1:length(network)
@@ -44,7 +46,7 @@ end
     clustfile = "clust"*string(myid())*".tmp"
     clusters = [Set(split(strip(c), "\t")) for c in open(readlines, clustfile)]
     for c in clusters
-        if intersect(c, prots) == prots && length(c) <= csize
+        if intersect(c, prots) == prots && length(c) == csize
             return 1
         end
     end
@@ -79,7 +81,7 @@ function run_control(hhrdir, netfile, nodefile, iterations, prots)
     else
         println("ran $iterations trials, p = $pval")
     end
-    cleanup_tmpfiles()
+    # cleanup_tmpfiles()
 end
 
 

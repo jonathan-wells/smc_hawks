@@ -106,7 +106,18 @@ function read_hhrfile(hhrfile, minlength=100.0, maxeval=0.01, minprob=15.0)
             rank += 1.0
         end
     end
+    ranks = [hits[k][7] for k in keys(hits)]
+    if length(ranks) > 1
+        rmax, rmin = max(ranks...), min(ranks...)
+        for k in keys(hits)
+            hits[k][7] = normrank(hits[k][7], rmax, rmin)
+        end
+    end
     return hits
+end
+
+function normrank(r, rmax, rmin)
+    return 1.0/(1.0 + 99.0*(r - rmin)/(rmax - rmin))
 end
 
 "Parse .hhr files in directory for significant alignments and return as graph."
@@ -141,22 +152,11 @@ Possible attributes are:
 function get_mutual_attribute(net::Graph, node1, node2, attribute)
     attrdict = Dict("Rank" => 7, "Prob" => 1, "E-val" => 2, "P-val" => 3,
                     "Score" => 4, "SS" => 5, "Cols" => 6, "normscore" => 8)
+    geomean(vec) = prod(vec)^(1/length(vec))
     edge = (node1, node2)
     i = attrdict[attribute]
-    geomean(vec) = prod(vec)^(1/length(vec))
     mutualattr = geomean([net.weights[edge][i], net.weights[reverse(edge)][i]])
     return mutualattr
-end
-
-"Normalise alignment ranks between 1 and 100"
-function normalise_ranks!(net::Graph)
-    ranks =  [w[1] for w in values(net.weights)]
-    rmin, rmax = min(ranks...), max(ranks...)
-    for edge in net.edges
-        rank = net.weights[edge][1]
-        normrank = 1.0/(1.0 + 99.0*(rank - rmin)/(rmax - rmin))
-        push!(net.weights[edge], normrank)
-    end
 end
 
 function build_final_network(net::Graph)
@@ -171,13 +171,12 @@ function build_final_network(net::Graph)
         end
         add_edge!(final, Pair(edge, weights))
     end
-    normalise_ranks!(final)
     return final
 end
 
 function write_network(net::Graph, outfilename)
     outfile = open(outfilename, "w")
-    head = "source\ttarget\trank\tprob\teval\tpval\tscore\tss\tnscore\tnrank\n"
+    head = "source\ttarget\trank\tprob\teval\tpval\tscore\tss\tnscore\n"
     write(outfile, head)
     for edge in net.edges
         weights = join(net.weights[edge], "\t")
@@ -210,3 +209,4 @@ function main()
     remap_nodenames(ARGS[3], ARGS[2], ARGS[3])
 end
 
+main()
