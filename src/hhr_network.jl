@@ -194,7 +194,8 @@ function remap_nodenames(filename, nodefile, outfilename)
     write(outfile, infile[1])
     for line in infile[2:end]
         line = split(line, "\t")
-        genepair = [nodemap[line[1]], nodemap[line[2]]]
+        genepair = [get(nodemap, line[1], line[1]),
+                    get(nodemap, line[2], line[2])]
         line = vcat(genepair, line[3:end])
         write(outfile, join(line, "\t"))
     end
@@ -204,9 +205,10 @@ end
 function main()
     # ARGS are: hhrfolder, nodefile, outfile
     rnet = build_raw_network(ARGS[1])
-    fnet = build_final_network(rnet)
-    write_network(fnet, ARGS[3])
+    # println(rnet)
+    # fnet = build_final_network(rnet)
+    write_network(rnet, ARGS[3])
     remap_nodenames(ARGS[3], ARGS[2], ARGS[3])
 end
 
-main()
+# main()

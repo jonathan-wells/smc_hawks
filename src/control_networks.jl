@@ -25,7 +25,6 @@ function load_network(netfile)
 end
 
 @everywhere function write_mcl_graph(numhits, network)
-    function
     randrank(e) = string((rand(1:numhits[e[1]])*rand(1:numhits[e[2]])))
     results = map(randrank, network)
     tmpfile = open("net"*string(myid())*".tmp", "w")
@@ -81,7 +80,7 @@ function run_control(hhrdir, netfile, nodefile, iterations, prots)
     else
         println("ran $iterations trials, p = $pval")
     end
-    # cleanup_tmpfiles()
+    cleanup_tmpfiles()
 end
 
 
