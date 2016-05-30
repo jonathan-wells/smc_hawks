@@ -2,7 +2,6 @@
 
 include("hhr_network.jl")
 
-
 function map_genes(nodefile)
     nodes = open(readlines, nodefile)[2:end]
     nodemap = Dict([Pair(split(strip(line), r"\s+")...) for line in nodes])
