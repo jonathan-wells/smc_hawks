@@ -1,6 +1,7 @@
 figures/
 data/
 docs/
+TODO.md
 .DS_Store
 .Rhistory
 *.tmp

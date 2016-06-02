@@ -1,8 +1,9 @@
 #!/usr/bin/env julia
 
 using DataStructures
+using StatsBase
 
-function top_loki(hhrfile, minlength=100.0, maxeval=0.01, minprob=15.0)
+function top_loki(hhrfile, minlength=50.0, maxeval=0.1, minprob=15.0)
     data = open(readall, hhrfile)
     query = strip(match(r"Query\s+(\S+)", data)[1])
     getid(line) = convert(ASCIIString, split(line, r"\s+")[3])
@@ -46,4 +47,16 @@ function loki_folder(hhrdir)
     end
 end
 
-loki_folder("../data/hhresults/lokiarchaeum_spGC14_75/loki")
+function tophits(filename)
+    data = open(readlines, filename)
+    prots = [split(line)[2] for line in data]
+    cmap = countmap(prots)
+    sprots = sort(collect(Set(prots)), by=x->-cmap[x])
+    for i in sprots
+        println(i, "\t", cmap[i])
+    end
+    println(sum(values(cmap)))
+end
+
+# loki_folder(ARGS[1])
+tophits(ARGS[1])
