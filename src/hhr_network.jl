@@ -162,11 +162,11 @@ function write_network(net::Graph, outfilename)
 end
 
 "Given a network file with uniprot IDs as labels, converts to HGNC gene labels"
-function remap_nodenames(filename, nodefile, outfilename)
+function remap_nodenames!(filename, nodefile)
     nodes = open(readlines, nodefile)[2:end]
     nodemap = Dict([Pair(split(strip(line), r"\s+")...) for line in nodes])
     infile = open(readlines, filename)
-    outfile = open(outfilename, "w")
+    outfile = open(filename, "w")
     write(outfile, infile[1])
     for line in infile[2:end]
         line = split(line, "\t")
@@ -189,7 +189,7 @@ function main()
     rnet = build_raw_network(ARGS[1])
     fnet = build_final_network(rnet)
     write_network(fnet, ARGS[3])
-    remap_nodenames(ARGS[3], ARGS[2], ARGS[3])
+    remap_nodenames(ARGS[3], ARGS[2])
 end
 
-main()
+# main()

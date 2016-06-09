@@ -1,12 +1,12 @@
 #!/usr/bin/env julia
 
 include("hhr_network.jl")
+using StatsBase
+using RCall
 
-function map_genes(nodefile)
-    nodes = open(readlines, nodefile)[2:end]
-    nodemap = Dict([Pair(split(strip(line), r"\s+")...) for line in nodes])
-    return nodemap
-end
+###############################################################################
+## Permutation tests for networks.
+###############################################################################
 
 function get_numhits(hhrdir, nodefile)
     nodemap = map_genes(nodefile)
@@ -23,7 +23,7 @@ function load_network(netfile)
     return net
 end
 
-@everywhere function write_mcl_graph(numhits, network)
+@everywhere function write_mcl_graph(numhits::Dict, network::Array)
     randrank(e) = string((rand(1:numhits[e[1]])*rand(1:numhits[e[2]])))
     results = map(randrank, network)
     tmpfile = open("net"*string(myid())*".tmp", "w")
@@ -82,8 +82,71 @@ function run_control(hhrdir, netfile, nodefile, iterations, prots)
     cleanup_tmpfiles()
 end
 
+###############################################################################
+## Protein length vs Rank control
+###############################################################################
 
+function normalize_ranks(ranks)
+    normranks::Vector{Float64} = []
+    if length(ranks) == 0
+        return normranks
+    end
+    rmin = min(ranks...)
+    rmax = max(ranks...)
+    for i in ranks
+        push!(normranks, (ranks[i] - rmin)/(rmax - rmin))
+    end
+    return normranks
+end
 
-# "Q04002", "P40541", "Q04264", "Q06156", "Q06680"
-# Args = hhrdir, netfile, nodefile, iterations, protlist
-run_control(ARGS[1], ARGS[2], ARGS[3], parse(Int, ARGS[4]), Set(ARGS[5:end]))
+function length_correlation(hhrdir)
+    files = filter(x->ismatch(r".hhr", x), readdir(hhrdir))
+    evalues::Array{Float64}, template_lengths::Array{Float64} = [], []
+    for hhrfile in files
+        data = open(readall, hhrdir*hhrfile)
+        getid(line) = convert(ASCIIString, split(line, ['|', '_'])[2])
+        query = getid(strip(match(r"Query\s+(\S+)", data)[1]))
+        data = split(split(data, "\n\n")[2], "\n")[2:end]
+        protset = Set([query])
+        for line in data
+            hit = getid(line)
+            hit in protset ? continue : push!(protset, hit)
+            tmplen = parse(Float64, match(r"\((\d+)\)", line)[1])
+            evalue = parse(Float64, split(strip(line[36:end]), r"\s+")[1])
+            push!(evalues, evalue)
+            push!(template_lengths, tmplen)
+        end
+    end
+    correl = R"cor.test"
+    results = correl(template_lengths, evalues, method = "k")
+    println(results)
+end
+
+###############################################################################
+## Command line stuff
+###############################################################################
+
+"""
+Generate random networks
+Command line Args:
+    1. hhr directory - directory containing hhsearch results
+    2. network file - file containing relevant homology network
+    3. nodefile - file mapping uniprot ids to HGNC gene ids
+    4. trials - number of random networks (trials) to generate
+    5. cluster - contents of cluster being tested (e.g. PDS5B, ..., NCAPD2)
+"""
+function main1()
+    hhrdir = ARGS[1]
+    networkfile = ARGS[2]
+    nodefile = ARGS[3]
+    numtrials = parse(Int, ARGS[4])
+    protlist = Set(ARGS[5:end])
+    run_control(hhrdir, networkfile, nodefile, numtrials, protlist)
+end
+
+function main2()
+    length_correlation(ARGS[1])
+    # normalize_ranks([1, 2, 3, 4, 5, 6])
+end
+
+main2()
