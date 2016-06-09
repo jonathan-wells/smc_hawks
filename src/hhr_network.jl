@@ -51,7 +51,7 @@ function degree(net::Graph, node::ASCIIString)
 end
 
 ###############################################################################
-## Graph building
+## Homology network building
 ###############################################################################
 
 "Read hhresults file and return ranked dictionary of best alignments"
@@ -186,7 +186,6 @@ Command line arguments:
     3. outfile - path to outfile
 """
 function main()
-    # ARGS are: hhrfolder, nodefile, outfile
     rnet = build_raw_network(ARGS[1])
     fnet = build_final_network(rnet)
     write_network(fnet, ARGS[3])
