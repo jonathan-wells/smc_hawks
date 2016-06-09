@@ -22,7 +22,6 @@ function getallhits(hhpredresult::HHRfile)
     for line in hhpredresult.data
         hit = match(r"[0-9]{1,3}\s+.+\|+.+", line)
         if hit != nothing
-            println(split(hit.match, r"\s+"))
             push!(hitlist, split(hit.match, r"\s+"))
         end
     end
@@ -54,7 +53,7 @@ function main()
         a = match(r"[a-zA-Z0-9]+.hhr", file)
         if a != nothing
             println(a.match)
-            download_strict_fastas(a.match, ARGS[2])
+            download_fastas(HHRfile(a.match), ARGS[2])
         end
     end
 end

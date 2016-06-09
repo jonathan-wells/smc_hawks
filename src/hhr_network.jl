@@ -4,6 +4,7 @@
 ## Graph type and methods
 ###############################################################################
 
+"Multi-purpose Graph type used to produce homology network."
 type Graph
     nodes::Set
     edges::Set
@@ -14,25 +15,11 @@ function add_node!(net::Graph, node::ASCIIString)
     push!(net, node)
 end
 
-function add_nodes!(net::Graph, edge::Tuple)
-    for node in edge
-        println(node)
-        println(typeof(node))
-        @assert typeof(node) == ASCIIString
-        push!(net.nodes, node)
-    end
-end
-
 function add_nodes!(net::Graph, edge::Pair)
     for node in edge[1]
         @assert typeof(node) == ASCIIString
         push!(net.nodes, node)
     end
-end
-
-function add_edge!(net::Graph, edge::Tuple)
-    push!(net.edges, edge)
-    net.weights[edge] = nothing
 end
 
 function add_edge!(net::Graph, edge::Pair)
@@ -50,16 +37,6 @@ function delete_node!(net::Graph, node::ASCIIString)
     end
 end
 
-function delete_edge!(net::Graph, edge::Pair)
-    delete!(net.edges, edge[1])
-    delete!(net.weights, edge[1])
-end
-
-function delete_edge!(net::Graph, edge::Tuple)
-    delete!(net.edges, edge)
-    delete!(net.weights, edge)
-end
-
 function degree(net::Graph, node::ASCIIString)
     indegree = 0
     outdegree = 0
@@ -71,10 +48,6 @@ function degree(net::Graph, node::ASCIIString)
         end
     end
     return (indegree + outdegree, indegree, outdegree)
-end
-
-function size(net::Graph)
-    return (length(net.nodes), length(net.edges))
 end
 
 ###############################################################################
@@ -116,6 +89,7 @@ function read_hhrfile(hhrfile, minlength=100.0, maxeval=0.01, minprob=15.0)
     return hits
 end
 
+"Normalise ranks between 0.01 and 1"
 function normrank(r, rmax, rmin)
     return 1.0/(1.0 + 99.0*(r - rmin)/(rmax - rmin))
 end
@@ -159,6 +133,7 @@ function get_mutual_attribute(net::Graph, node1, node2, attribute)
     return mutualattr
 end
 
+"Returns undirected network with normalised ranks and score."
 function build_final_network(net::Graph)
     dedirect!(net)
     final = Graph(net.nodes, Set(), Dict())
@@ -186,6 +161,7 @@ function write_network(net::Graph, outfilename)
     close(outfile)
 end
 
+"Given a network file with uniprot IDs as labels, converts to HGNC gene labels"
 function remap_nodenames(filename, nodefile, outfilename)
     nodes = open(readlines, nodefile)[2:end]
     nodemap = Dict([Pair(split(strip(line), r"\s+")...) for line in nodes])
@@ -202,13 +178,19 @@ function remap_nodenames(filename, nodefile, outfilename)
     close(outfile)
 end
 
+"""
+Command line arguments:
+    1. hhrfolder - path to folder containing hhsearch results from all
+                   proteins of interest.
+    2. nodefile - path to file mapping uniprot ids to HGNC gene ids
+    3. outfile - path to outfile
+"""
 function main()
     # ARGS are: hhrfolder, nodefile, outfile
     rnet = build_raw_network(ARGS[1])
-    # println(rnet)
-    # fnet = build_final_network(rnet)
-    write_network(rnet, ARGS[3])
+    fnet = build_final_network(rnet)
+    write_network(fnet, ARGS[3])
     remap_nodenames(ARGS[3], ARGS[2], ARGS[3])
 end
 
-# main()
+main()
