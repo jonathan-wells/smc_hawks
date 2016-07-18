@@ -60,7 +60,7 @@ function read_hhrfile(hhrfile, minlength=100.0, maxeval=0.01, minprob=15.0)
     getid(line) = convert(ASCIIString, split(line, ['|', '_'])[2])
     query = getid(strip(match(r"Query\s+(\S+)", data)[1]))
     data = split(split(data, "\n\n")[2], "\n")[2:end]
-    hits = Dict()  # Check me, might need to be ordered!
+    hits = Dict()
     rank = 1.0
     for line in data
         hit = getid(line)

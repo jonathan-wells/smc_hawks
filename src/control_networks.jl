@@ -117,9 +117,11 @@ function length_correlation(hhrdir)
             push!(template_lengths, tmplen)
         end
     end
-    correl = R"cor.test"
-    results = correl(template_lengths, evalues, method = "k")
-    println(results)
+    println(length(template_lengths))
+    # correl = R"cor.test"
+    # results = correl(template_lengths, evalues, method = "p")
+    # println(results)
+
 end
 
 ###############################################################################
