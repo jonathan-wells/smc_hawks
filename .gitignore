@@ -1,6 +1,10 @@
-legacy/
+data/hhresults
+data/phylogeny
+data/misc
+data/pdb
+data/networks
+src/legacy/
 figures/
-data/
 docs/
 TODO.md
 .DS_Store
@@ -8,3 +12,4 @@ TODO.md
 *.tmp
 *.tar
 *.tar.gz
+*.zip
