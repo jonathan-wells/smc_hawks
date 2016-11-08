@@ -1,0 +1,18 @@
+sp|Q6KC79|NIPBL_HUMAN Nipped-B-like protein OS=Homo sapiens GN=NIPBL PE=1 SV=2
+sp|Q86XI2|CNDG2_HUMAN Condensin-2 complex subunit G2 OS=Homo sapiens GN=NCAPG2 PE=1 SV=1
+sp|Q8IX21|SLF2_HUMAN SMC5-SMC6 complex localization factor protein 2 OS=Homo sapiens GN=SLF2 PE=1 SV=2
+sp|Q8N3U4|STAG2_HUMAN Cohesin subunit SA-2 OS=Homo sapiens GN=STAG2 PE=1 SV=3
+sp|Q8WVM7|STAG1_HUMAN Cohesin subunit SA-1 OS=Homo sapiens GN=STAG1 PE=1 SV=3
+sp|Q9BPX3|CND3_HUMAN Condensin complex subunit 3 OS=Homo sapiens GN=NCAPG PE=1 SV=1
+sp|Q9NTI5|PDS5B_HUMAN Sister chromatid cohesion protein PDS5 homolog B OS=Homo sapiens GN=PDS5B PE=1 SV=1
+sp|Q06680|CND3_YEAST Condensin complex subunit 3 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=YCG1 PE=1 SV=2
+sp|Q06156|CND1_YEAST Condensin complex subunit 1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=YCS4 PE=1 SV=1
+sp|Q04264|PDS5_YEAST Sister chromatid cohesion protein PDS5 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=PDS5 PE=1 SV=1
+sp|P40541|SCC3_YEAST Cohesin subunit SCC3 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=IRR1 PE=1 SV=1
+sp|Q9HFF5|PDS5_SCHPO Sister chromatid cohesion protein pds5 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=pds5 PE=1 SV=1
+sp|Q10429|CND3_SCHPO Condensin complex subunit 3 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=cnd3 PE=1 SV=1
+sp|Q04002|SCC2_YEAST Sister chromatid cohesion protein 2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=SCC2 PE=1 SV=1
+sp|Q09725|MIS4_SCHPO Sister chromatid cohesion protein mis4 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=mis4 PE=1 SV=2
+sp|O94679|CND1_SCHPO Condensin complex subunit 1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=cnd1 PE=1 SV=1
+sp|O13816|SCC3_SCHPO Cohesin subunit psc3 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=psc3 PE=1 SV=3
+NSE6_SCHPO Non-structural maintenance of chromosome element 6 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=nse6 PE=1 SV=1
