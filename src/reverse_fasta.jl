@@ -1,5 +1,9 @@
 #!/usr/bin/env julia
 
+# Quick script for reversing fasta sequences, used for generating multiple
+# sequence alignments in forward and backwards directions. Not used in
+# published data.
+
 function loadfasta(filename)
     data = open(readlines, filename)
     fastadict = Dict()

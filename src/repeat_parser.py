@@ -3,6 +3,9 @@
 import re
 import os
 
+# Functions for getting repeat domain boundaries from hawks and clathrin
+# adaptors. Results displayed in fig S2.
+
 def parse_hhrepid_file(filename, pval = 1e-3):
     basedir = '../data/phylogeny/repeats/'
     seqpat = re.compile(r'(\w+)\s+(sp[\w\|]+)+\s+([\d-]+)\s+\+\d+\s(.+)')
